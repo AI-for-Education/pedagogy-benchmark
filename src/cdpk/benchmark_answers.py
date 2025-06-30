@@ -6,19 +6,7 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 from fdllm.llmtypes import LLMMessage
-from fdllm.sysutils import register_models
 from fdllm import get_caller
-from dotenv import load_dotenv
-
-HERE = Path(__file__).resolve().parent.parent
-dotenv_path = HERE / ".env"
-load_dotenv(dotenv_path, override=True)
-
-try:
-    register_models(Path.home() / ".fdllm" / "custom_models.yaml")
-except:
-    pass
-
 
 REPAT = [
     r"^\s*([ABCDEFG])(?:[\.(?:\s*\n)]+.*)*$",
