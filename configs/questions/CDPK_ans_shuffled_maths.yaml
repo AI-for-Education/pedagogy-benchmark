@@ -1,0 +1,9 @@
+test_file: Chile\CDPK_per_category\test_ans_shuffled\CDPK_ans_shuffled_maths_test.csv
+test_header: 0
+example_file: Chile\CDPK_per_category\dev\CDPK_maths_dev.csv
+example_header: 0
+choices: [A, B, C, D, E, F, G]
+choice_cols: [2, 3, 4, 5, 6, 7, 8]
+answer_col: 9
+question_col: 1
+example_rows: [0, 1, 2]

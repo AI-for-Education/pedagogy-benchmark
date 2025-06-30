@@ -1,0 +1,141 @@
+#o1-preview-2024-09-12: o1-Preview
+o1-mini-2024-09-12: o1-Mini
+gpt-4-0613: GPT-4
+gpt-4o-mini-2024-07-18: GPT-4o Mini
+gpt-4o-2024-08-06: GPT-4o
+gpt-4-turbo-2024-04-09: GPT-4 Turbo
+gpt-3.5-turbo-0125 : GPT-3.5 Turbo
+claude-3-opus-20240229: Claude-3 Opus
+claude-3-haiku-20240307: Claude-3 Haiku
+claude-3-5-sonnet-20240620: Claude-3.5 Sonnet June
+claude-3-5-sonnet-20241022: Claude-3.5 Sonnet October
+claude-3-5-haiku-20241022: Claude-3.5 Haiku
+gemini-1.5-flash-001: Gemini-1.5 Flash
+gemini-1.5-pro-001: Gemini-1.5 Pro
+fw-llama-v3p1-405b-instruct: Llama-3.1 405B
+#fw-qwen2p5-7b-instruct: Qwen-2.5 7B # new version with deepinfra
+fw-qwen2p5-14b-instruct: Qwen-2.5 14B # not run on SEND
+fw-qwen2p5-32b-instruct: Qwen-2.5 32B # not run on SEND
+fw-qwen2p5-72b-instruct: Qwen-2.5 72B
+fw-mixtral-8x7b-instruct: Mixtral-8x7B
+fw-yi-large: Yi-Large
+#fw-llama-v3p2-1b-instruct: Llama-3.2 1B # new version with deepinfra
+#fw-llama-v3p2-3b-instruct: Llama-3.2 3B # new version with deepinfra
+fw-llama-v3p2-11b-vision-instruct: Llama-3.2 11B
+fw-llama-v3p2-90b-vision-instruct: Llama-3.2 90B
+fw-llama-v3p1-8b-instruct: Llama-3.1 8B
+fw-llama-v3p1-70b-instruct: Llama-3.1 70B
+fw-mixtral-8x22b-instruct: Mixtral-8x22B
+fw-phi-3-vision-128k-instruct: Phi-3.5 Vision
+yi-lightning: Yi Lightning
+#fw-calmerys-78b-orpo-v0p1: CalmeRys 78B # too specific
+#fw-llama-3p1-nemotron-70b-instruct-hf: Llama-3.1 Nemotron 70b
+#fw-mistral-nemo-instruct-2407: Mistral Nemo # new version with deepinfra
+hunyuan-large: Hunyuan Large
+hunyuan-large-longcontext: Hunyuan Large (Long Context)
+command-r-plus: Command-R+ August
+#fw-qwq-32b-preview: Qwen-QwQ-32B Preview
+fw-llama-v3p3-70b-instruct: Llama-3.3 70B
+#fw-llama-v2-7b: Llama-2 7B
+#fw-llama-v2-13b: Llama-2 13B
+#fw-llama-v2-70b: Llama-2 70B
+#fw-llama-v2-7b-chat: Llama-2 7B Chat # lots of bad formats
+#fw-llama-v2-13b-chat: Llama-2 13B Chat # lots of bad formats
+#fw-llama-v2-70b-chat: Llama-2 70B Chat # didnt work
+amazon-nova-pro-v1: Nova Pro
+amazon-nova-lite-v1: Nova Lite
+amazon-nova-micro-v1: Nova Micro
+learnlm-1.5-pro-experimental: LearnLM 1.5 Pro
+#gemini-exp-1121: Gemini Exp 1121
+#gemini-exp-1206-free: Gemini Exp 1206
+gemini-1.5-flash-8b: Gemini-1.5 Flash 8B  
+#gemini-2.0-flash-exp: Gemini-2.0 Flash Exp
+grok-beta: Grok Beta 
+jamba-1-5-large: Jamba 1.5 Large
+jamba-1-5-mini: Jamba 1.5 Mini
+jamba-instruct: Jamba Instruct
+#fw-gemma2-9b-it: Gemma-2 9B # not run on SEND
+gemma-2-27b-it: Gemma-2 27B
+grok-2-1212: Grok-2
+cohere-r7b-1224: Command R7B
+mistral-large-2411: Mistral Large November
+ministral-8b: Ministral 8B
+ministral-3b: Ministral 3B
+#fw-deepseek-v2p5: Deepseek V2.5 # not run on SEND
+#gemini-2.0-flash-thinking-exp: Gemini-2.0 Flash Thinking Exp
+fw-deepseek-v3: Deepseek V3
+#qwen-qvq-72b-preview: Qwen-QvQ-72B Preview # too many bad formats
+microsoft-phi-4-bf16: Phi-4
+#deepseek-r1: Deepseek R1 # deepseek provider
+liquid-lfm-7b: LFM-7B
+#deepseek-r1-nvt: Deepseek R1
+#fw-deepseek-r1: Deepseek R1
+#fw-mistral-small-3-instruct: Mistral Small 3 # reran with another provider
+#o3-mini-low: o3-Mini Low
+o3-mini-medium: o3-Mini # this for the leaderboard
+#o3-mini-high: o3-Mini High
+doubao-1.5-pro-32k: Doubao-1.5 Pro
+doubao-1.5-lite-32k: Doubao-1.5 Lite
+gemini-2.0-flash: Gemini-2.0 Flash
+#gemini-2.0-pro-exp: Gemini-2.0 Pro Exp # replaced by gemini-2.5-pro-exp-03-25
+#fw-deepseek-r1-wo-fs: Deepseek R1 (w/o FS)
+sonar: Sonar
+#sonar-reasoning: Sonar Reasoning
+claude-3-7-sonnet-20250219: Claude-3.7 Sonnet
+gemini-2.0-flash-lite: Gemini-2.0 Flash-Lite
+gpt-4.5-preview: GPT-4.5 Preview
+#qwen-qwq-32b: Qwen-QwQ-32B
+liquid-lfm-3b: LFM-3B
+phi-4-multimodal-instruct-bf16: Phi-4 Multimodal
+phi-35-mini: Phi-3.5 Mini
+cohere-command-a: Command A
+jamba-1-6-large: Jamba 1.6 Large
+jamba-1-6-mini: Jamba 1.6 Mini
+gemma-3-27b: Gemma-3 27B
+#olmo-2-32b: OLMo-2 32B  # error from high school statistics
+mistral-small-3-1-24b: Mistral Small 3.1
+deepseek-v3-0324-fp8: Deepseek V3 March
+#gemini-2.5-pro-exp-03-25: Gemini-2.5 Pro Preview (March '25)
+gemma-3-12b-it: Gemma-3 12B
+gemma-3-4b-it: Gemma-3 4B
+llama-4-maverick-instruct-basic: Llama-4 Maverick
+llama-4-scout-instruct-basic: Llama-4 Scout
+grok-3-beta: Grok-3
+grok-3-mini-beta: Grok-3 Mini
+#claude-3-7-sonnet-20250219-thinking-low: Claude-3.7 Sonnet Thinking (Low)
+claude-3-7-sonnet-20250219-thinking-medium: Claude-3.7 Sonnet Thinking
+#claude-3-7-sonnet-20250219-thinking-high: Claude-3.7 Sonnet Thinking (High)
+gpt-4.1-nano: GPT-4.1 Nano
+gpt-4.1-mini: GPT-4.1 Mini
+gpt-4.1: GPT-4.1
+o4-mini-2025-04-16: o4-Mini
+o3-2025-04-16: o3
+#gemini-2.5-flash-preview-04-17: Gemini-2.5 Flash Preview (April '25)
+qwen-3-14b: Qwen-3 14B
+qwen-3-32b: Qwen-3 32B
+qwen-3-30b-a3b: Qwen-3 30B (3B active)
+qwen-3-235b-a22b: Qwen-3 235B (22B active)
+#phi-4-reasoning-plus: Phi-4 Reasoning Plus
+#gemini-2.5-pro-preview-05-06: Gemini-2.5 Pro Preview (May '25)
+mistral-medium-3: Mistral Medium 3
+gemini-2.5-flash-preview-05-20: Gemini-2.5 Flash
+claude-opus-4-20250514: Claude Opus 4
+claude-sonnet-4-20250514: Claude Sonnet 4
+gemma-3n-e4b-it: Gemma-3n E4B
+#learnlm-2.0-flash-experimental: LearnLM 2.0 Flash Exp
+claude-sonnet-4-20250514-low: Claude Sonnet 4 Thinking # to run on mmlu
+claude-opus-4-20250514-low: Claude Opus 4 Thinking # to run on mmlu
+fw-deepseek-r1-0528: Deepseek R1 (May '25)
+#deepseek-r1-0528-fp8-lambda: Deepseek R1 (May '25) Lambda # lower of 3% on CDPK compared to Deepseek R1 (May '25)
+qwen-3-8b-fp8: Qwen-3 8B
+gemini-2.5-pro-preview-06-05: Gemini-2.5 Pro
+#fw-deepseek-r1-0528-2nd-run: Deepseek R1 (May '25) 2nd Run
+#magistral-small-2506: Magistral Small # not run yet
+#magistral-medium-2506: Magistral Medium # not run yet
+llama-v3p2-1b-instruct-bf16: Llama-3.2 1B
+llama-v3p2-3b-instruct-bf16: Llama-3.2 3B
+mistral-nemo-instruct-2407-fp8: Mistral Nemo
+qwen-2p5-7b-instruct-bf16: Qwen-2.5 7B
+mistral-small-24b-instruct-2501-fp8: Mistral Small 3
+o1-2024-12-17: o1
+gemini-2.5-flash-lite-preview-06-17: Gemini-2.5 Flash-Lite Preview

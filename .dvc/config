@@ -1,0 +1,7 @@
+[core]
+    remote = azure
+    autostage = true
+['remote "azure"']
+    url = azure://llm-benchmarks/dvc
+    account_name = fabdvcbenchmarksa
+    allow_anonymous_login = true

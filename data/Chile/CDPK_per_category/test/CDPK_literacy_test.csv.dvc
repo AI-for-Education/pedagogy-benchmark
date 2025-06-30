@@ -1,0 +1,5 @@
+outs:
+- md5: 32eb5f2bd8bc69807857f4f1d9d46e76
+  size: 156198
+  hash: md5
+  path: CDPK_literacy_test.csv
