@@ -25,9 +25,6 @@ QUESTIONS_LIST_DICT = {
     "send": ["CDPK_send"],
 }
 
-register_models(ROOT / "custom_models.yaml")
-
-
 def main(opt):
     if opt.models_config is None:
         if opt.benchmark == "cdpk":
@@ -108,4 +105,15 @@ if __name__ == "__main__":
     parser.add_argument("--output-folder", required=False, type=str, default=None)
     parser.add_argument("--custom-models-file", required=False, type=str, default=None)
     opt = parser.parse_args()
+
+    ### register custom models
+    if opt.custom_models_file is None:
+        custom_models_file = ROOT / "custom_models.yaml"
+    else:
+        custom_models_file = Path(opt.custom_models_file)
+    if not custom_models_file.exists():
+        raise FileNotFoundError(f"File {str(custom_models_file)} does not exist")
+    register_models(custom_models_file)
+    #
+
     main(opt)
