@@ -97,8 +97,8 @@ def evaluate_model(test_df, config, model, verbose=0):
     # create logical indexer of few-shot rows
     example_filt = np.zeros(len(test_df), dtype=bool)
     example_filt[example_rows] = True
-    # get few-shot examples
-    answers = test_df.loc[example_filt].iloc[:, answer_col]
+    # drop few-shot examples
+    answers = test_df.loc[~example_filt].iloc[:, answer_col]
     resps = list()
     success = list()
 
