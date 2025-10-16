@@ -13,6 +13,8 @@ REPAT = [
     r"^<think>[\s\S]*?</think>[\s\S]*?([ABCDEFG])$",  # for deepseek R1
     r"^## Step 1[\s\S]*?([ABCDEFG])[\.\s]*$",  # for llama 4
     r'[\s\S]*\n([A-G])"?$',  # for claude 4
+    #r'\*\*\s*([A-Za-z])\s*\*\*' # claude 4 luganda
+    r'\*\*\s*([A-Za-z])\s*\*\*\s*$'
 ]
 REQ = [re.compile(pat) for pat in REPAT]
 
@@ -49,6 +51,23 @@ def gen_prompt(
         "\n\nOnly answer the real question."
         "\n\nOnly provide the letter for your answer."
         "\n\nStop exactly after the letter."
+        # "\nDo not provide any explanation."
+        # "\nDo not provide any text at all other than the letter by itself."
+    )
+    return prompt
+
+def gen_prompt_luganda(
+    df, example_rows, question_row, question_col, choice_cols, choices, answer_col
+):
+    prompt = "Bino wammanga bibuuzo bya kulabirako eby'okulondamu (n'ebyanulo).\n\n"
+    for i in example_rows:
+        prompt += format_example(df, i, question_col, choice_cols, choices, answer_col)
+    prompt += "Anukula ekibuuzo kino ekituufu ng'ogoberera enkola y'emu: \n"
+    prompt += format_questions(df, question_row, question_col, choice_cols, choices)
+    prompt += (
+        "\n\nAnukula ekibuuzo ekituufu kyokka."
+        "\n\nWandiika enukuta yokka ey'ekyanulo kyo."
+        "\n\nKoma ddala ku nukuta."
         # "\nDo not provide any explanation."
         # "\nDo not provide any text at all other than the letter by itself."
     )
@@ -98,7 +117,7 @@ def evaluate_model(test_df, config, model, verbose=0):
     example_filt = np.zeros(len(test_df), dtype=bool)
     example_filt[example_rows] = True
     # get few-shot examples
-    answers = test_df.loc[example_filt].iloc[:, answer_col]
+    answers = test_df.loc[~example_filt].iloc[:, answer_col]
     resps = list()
     success = list()
 
@@ -106,7 +125,7 @@ def evaluate_model(test_df, config, model, verbose=0):
 
     for rowi in tqdm(range(len(example_rows), total_row)):
 
-        prompt = gen_prompt(
+        prompt = gen_prompt_luganda(
             test_df,
             example_rows,
             rowi,
