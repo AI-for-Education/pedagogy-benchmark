@@ -40,7 +40,10 @@ def format_example(
 def gen_prompt(
     df, example_rows, question_row, question_col, choice_cols, choices, answer_col
 ):
-    prompt = "The following are example multiple choice questions (with answers).\n\n"
+    # add intro for bi-lingual prompt (Instructions in english and questions in target language)
+    prompt = "The following instructions are in English, but the example questions and the final question to be answered are in Luganda.\n\n"
+
+    prompt += "The following are example multiple choice questions (with answers).\n\n"
     for i in example_rows:
         prompt += format_example(df, i, question_col, choice_cols, choices, answer_col)
     prompt += "Answer the following real question using same answer format: \n"
@@ -123,6 +126,7 @@ def evaluate_model(test_df, config, model, verbose=0):
                 or model.startswith("claude-3-7-sonnet-20250219-thinking-")
                 or model.startswith("o4-mini")
                 or model.startswith("o3-")
+                or model.startswith("gpt-5-")
             ):
                 temperature = 1
             else:

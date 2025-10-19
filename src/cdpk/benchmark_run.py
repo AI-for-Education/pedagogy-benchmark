@@ -1,9 +1,12 @@
 from collections import defaultdict
 from pathlib import Path, PureWindowsPath
+from xml.parsers.expat import model
 
 import pandas as pd
 import yaml
 import numpy as np
+import time
+import json
 
 from .benchmark_answers import clean_resps, clean_answers, evaluate_model
 from .benchmark_constants import ROOT, CACHE_GLOBAL_DIR, CACHE_LOCAL_DIR
@@ -53,6 +56,9 @@ def run_benchmark(
     use_cache=True,
 ):
     def runner():
+        # Record the start time
+        start_time = time.time()
+
         answers, resps, success = evaluate_model(df, config=config, model=model, verbose=0)
         try:
             df_res = pd.DataFrame(
@@ -61,6 +67,49 @@ def run_benchmark(
             if use_cache:
                 outfile.parent.mkdir(exist_ok=True, parents=True)
                 df_res.to_csv(outfile, index=False)
+
+            # ---- Start of modified code for timing ----
+
+            # 1. Record the end time and calculate the total latency in seconds
+            end_time = time.time()
+            latency = end_time - start_time
+
+            # 2. Define the path to your JSON file
+            latency_file_path = Path("data/model_latencies.json")
+
+            # 3. Ensure the 'data' directory exists
+            latency_file_path.parent.mkdir(exist_ok=True, parents=True)
+
+            # 4. Safely load existing data or create a new dictionary
+            try:
+                # Check if file exists and is not empty before trying to load
+                if latency_file_path.exists():
+                    with open(latency_file_path, 'r') as f:
+                        latencies = json.load(f)
+                else:
+                    latencies = {}
+            except json.JSONDecodeError:
+                # If file is corrupted or malformed, start fresh
+                latencies = {}
+
+            # 5. Define the name for your question configuration here.
+            #    This variable should hold the name of the MCQ set being evaluated.
+            questions_config_name = questions_config
+
+            # 6. Add the new nested latency value
+            #    First, ensure the model key exists (initialize it as a dict if not)
+            if model not in latencies.keys():
+                latencies[model] = {}
+
+            #    Then, add the latency for the specific question config
+            latencies[model][questions_config_name] = latency
+
+            # 7. Write the updated dictionary back to the JSON file
+            with open(latency_file_path, 'w') as f:
+                json.dump(latencies, f, indent=4)
+
+            # ---- End of modified code ----
+
             return df_res
         except:
             return

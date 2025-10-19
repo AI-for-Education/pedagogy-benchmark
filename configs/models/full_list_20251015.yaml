@@ -1,5 +1,5 @@
 ##o1-preview-2024-09-12: o1-Preview
-o1-mini-2024-09-12: o1-Mini
+#o1-mini-2024-09-12: o1-Mini
 #gpt-4-0613: GPT-4
 #gpt-4o-mini-2024-07-18: GPT-4o Mini
 #gpt-4o-2024-08-06: GPT-4o
@@ -73,7 +73,7 @@ o1-mini-2024-09-12: o1-Mini
 ##fw-deepseek-r1: Deepseek R1
 ##fw-mistral-small-3-instruct: Mistral Small 3 # reran with another provider
 ##o3-mini-low: o3-Mini Low
-o3-mini-medium: o3-Mini # this for the leaderboard
+#o3-mini-medium: o3-Mini # this for the leaderboard
 ##o3-mini-high: o3-Mini High
 #doubao-1.5-pro-32k: Doubao-1.5 Pro
 #doubao-1.5-lite-32k: Doubao-1.5 Lite
@@ -109,11 +109,11 @@ gemma-3-4b-it: Gemma-3 4B
 #gpt-4.1-nano: GPT-4.1 Nano
 #gpt-4.1-mini: GPT-4.1 Mini
 #gpt-4.1: GPT-4.1
-#o4-mini-2025-04-16: o4-Mini
+o4-mini-2025-04-16: o4-Mini
 #o3-2025-04-16: o3
 ##gemini-2.5-flash-preview-04-17: Gemini-2.5 Flash Preview (April '25)
 #qwen-3-14b: Qwen-3 14B
-#qwen-3-32b: Qwen-3 32B
+qwen-3-32b: Qwen-3 32B
 #qwen-3-30b-a3b: Qwen-3 30B A3B
 ##qwen-3-235b-a22b: Qwen-3 235B A22B # only show most recent version
 ##phi-4-reasoning-plus: Phi-4 Reasoning Plus
@@ -126,7 +126,7 @@ gemma-3-4b-it: Gemma-3 4B
 ##learnlm-2.0-flash-experimental: LearnLM 2.0 Flash Exp
 #claude-sonnet-4-20250514-low: Claude Sonnet 4 Thinking # to run on mmlu
 #claude-opus-4-20250514-low: Claude Opus 4 Thinking # to run on mmlu
-#fw-deepseek-r1-0528: Deepseek R1 (May '25)
+fw-deepseek-r1-0528: Deepseek R1 (May '25)
 ##deepseek-r1-0528-fp8-lambda: Deepseek R1 (May '25) Lambda # lower of 3% on CDPK compared to Deepseek R1 (May '25)
 #qwen-3-8b-fp8: Qwen-3 8B
 gemini-2.5-pro-preview-06-05: Gemini-2.5 Pro
@@ -165,7 +165,7 @@ gemini-2.5-pro-preview-06-05: Gemini-2.5 Pro
 #qwen3-235b-a22b-thinking-2507: Qwen-3 235B A22B Thinking
 #fw-glm-4.5: GLM-4.5
 #fw-glm-4.5-air: GLM-4.5 Air
-#gpt-5-2025-08-07-medium: GPT-5
+gpt-5-2025-08-07-medium: GPT-5
 ##gpt-5-2025-08-07-high: GPT-5 High
 ##gpt-5-2025-08-07-low: GPT-5 Low
 ##gpt-5-2025-08-07-minimal: GPT-5 Minimal
