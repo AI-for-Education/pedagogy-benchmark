@@ -209,4 +209,4 @@ __marimo__/
 #####
 data/Chile/**/*.csv
 data/results
-data/cache_local
+#data/cache_local

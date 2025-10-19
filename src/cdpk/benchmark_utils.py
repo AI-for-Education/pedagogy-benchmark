@@ -89,111 +89,111 @@ def fulldf_accuracy_by_category(
 
     return accuracies_detailed
 
-def create_subcsv_cdpk(df, folder_path, csv_filename_prefix, categories, levels):
+#def create_subcsv_cdpk(df, folder_path, csv_filename_prefix, categories, levels):
+#
+#    # check if dir exists and create it if not
+#    if not os.path.exists(folder_path):
+#        print(f"Creating folder {folder_path}, test and dev folders")
+#        os.makedirs(folder_path)
+#        os.makedirs(os.path.join(folder_path, "test"))
+#        os.makedirs(os.path.join(folder_path, "dev"))
+#
+#    # check categories in the dataset
+#    for category in categories:
+#        if category not in df["Category"].unique():
+#            print(f"Category {category} not in the dataset!")
+#            raise ValueError
+#        else:
+#            if levels is None:
+#                sub_df = df[df["Category"] == category].reset_index(drop=True)
+#                #save_path = Path(folder_path) / f"CDPK_{category.replace(' PCK', '').replace(' ', '_').lower()}.csv"
+#
+#                # split df into df_test and df_few_shot
+#                idx_few_shot = get_few_shot_examples(sub_df, n_examples=3)
+#                df_test = sub_df.drop(index=idx_few_shot).reset_index(drop=True)
+#                df_few_shot = sub_df.loc[idx_few_shot].reset_index(drop=True)
+#
+#                path_test_file = Path(folder_path) / "test" / f"{csv_filename_prefix}_{category.replace(' PCK', '').replace(' ', '_').lower()}_test.csv"
+#                path_few_shot_file = Path(folder_path) / "dev" / f"{csv_filename_prefix}_{category.replace(' PCK', '').replace(' ', '_').lower()}_dev.csv"
+#
+#                df_test.to_csv(path_test_file, index=False)
+#                df_few_shot.to_csv(path_few_shot_file, index=False)
+#                print(f"Saved {category} test and dev files!")
+#            else:
+#                print("Levels division not implemented yet!")
+#                return None
+#                #for level in levels:
+#                #    if level not in df["Age Group"].unique():
+#                #        print(f"Level {level} not in the dataset!")
+#                #        raise ValueError
+#                #    else:
+#                #        if df[(df["Category"] == category) & (df["Age Group"] == level)].shape[0] == 0:
+#                #            print(f"    No MCQs for {category} - {level}")
+#                #            break
+#                #        else:
+#                #            sub_df = df[(df["Category"] == category) & (df["Age Group"] == level)].reset_index(drop=True)
+#                #            save_path = Path(folder_path) / f"{csv_filename_prefix}_{level.lower()}_{category.replace(' PCK', '').lower()}.csv"
+#
 
-    # check if dir exists and create it if not
-    if not os.path.exists(folder_path):
-        print(f"Creating folder {folder_path}, test and dev folders")
-        os.makedirs(folder_path)
-        os.makedirs(os.path.join(folder_path, "test"))
-        os.makedirs(os.path.join(folder_path, "dev"))
-
-    # check categories in the dataset
-    for category in categories:
-        if category not in df["category"].unique():
-            print(f"Category {category} not in the dataset!")
-            raise ValueError
-        else:
-            if levels is None:
-                sub_df = df[df["category"] == category].reset_index(drop=True)
-                #save_path = Path(folder_path) / f"CDPK_{category.replace(' PCK', '').replace(' ', '_').lower()}.csv"
-
-                # split df into df_test and df_few_shot
-                idx_few_shot = get_few_shot_examples(sub_df, n_examples=3)
-                df_test = sub_df.drop(index=idx_few_shot).reset_index(drop=True)
-                df_few_shot = sub_df.loc[idx_few_shot].reset_index(drop=True)
-
-                path_test_file = Path(folder_path) / "test" / f"{csv_filename_prefix}_{category.replace(' PCK', '').replace(' ', '_').lower()}_test.csv"
-                path_few_shot_file = Path(folder_path) / "dev" / f"{csv_filename_prefix}_{category.replace(' PCK', '').replace(' ', '_').lower()}_dev.csv"
-
-                df_test.to_csv(path_test_file, index=False)
-                df_few_shot.to_csv(path_few_shot_file, index=False)
-                print(f"Saved {category} test and dev files!")
-            else:
-                print("Levels division not implemented yet!")
-                return None
-                #for level in levels:
-                #    if level not in df["Age Group"].unique():
-                #        print(f"Level {level} not in the dataset!")
-                #        raise ValueError
-                #    else:
-                #        if df[(df["Category"] == category) & (df["Age Group"] == level)].shape[0] == 0:
-                #            print(f"    No MCQs for {category} - {level}")
-                #            break
-                #        else:
-                #            sub_df = df[(df["Category"] == category) & (df["Age Group"] == level)].reset_index(drop=True)
-                #            save_path = Path(folder_path) / f"{csv_filename_prefix}_{level.lower()}_{category.replace(' PCK', '').lower()}.csv"
-
-
-def write_custom_yaml(data, filepath):
-    # Manually construct the YAML output as a string to ensure exact formatting
-    #choices_str = "[" + ", ".join(f'"{choice}"' for choice in data["choices"]) + "]"
-    choices_str = "[" + ", ".join(f'{choice}' for choice in data["choices"]) + "]" # without "" around letters
-    choice_cols_str = "[" + ", ".join(map(str, data["choice_cols"])) + "]"
-    example_rows_str = "[" + ", ".join(map(str, data["example_rows"])) + "]"
-
-    test_file_path = data['test_file'].replace('/', '\\')
-    example_file_path = data['example_file'].replace('/', '\\')
-
-    yaml_content = (
-        f"test_file: {test_file_path}\n"
-        f"test_header: {data['test_header']}\n"
-        f"example_file: {example_file_path}\n"
-        f"example_header: {data['example_header']}\n"
-        f"choices: {choices_str}\n"
-        f"choice_cols: {choice_cols_str}\n"
-        f"answer_col: {data['answer_col']}\n"
-        f"question_col: {data['question_col']}\n"
-        f"example_rows: {example_rows_str}"
-    )
-
-    # Write to file
-    with open(filepath, 'w') as file:
-        file.write(yaml_content)
-
-def get_few_shot_examples(df, n_examples):
-    # check that n_examples is a multiple of 3
-    if n_examples % 3 != 0:
-        print("n_examples must be a multiple of 3!")
-        return None
-    # Take n_examples from each age group
-    primary_list = ["Primary", "Primary, Secondary", "Pre-primary, Primary", "All"]
-    secondary_list = ["Secondary", "Primary, Secondary", "All"]
-    preprimary_list = ["Pre-primary", "Pre-primary, Primary", "All"]
-
-    df_preprimary = df[df["Age Group"].isin(preprimary_list)]
-    df_primary = df[df["Age Group"].isin(primary_list)]
-    df_secondary = df[df["Age Group"].isin(secondary_list)]
-
-    # check if there are enough examples in each age group
-    print("Number of examples in each age group:\n"
-          f"Pre-primary: {df_preprimary.shape[0]} samples,\n"
-          f"Primary: {df_primary.shape[0]} samples,\n"
-          f"Secondary: {df_secondary.shape[0]} samples,\n")
-
-    idx_few_shot = []
-    for df_age in [df_preprimary, df_primary, df_secondary]:
-        # select random n_examples/3 from each age group while answering the indices selected are unique
-        idx_few_shot.extend(df_age.sample(n=n_examples//3, random_state = 42).index.tolist())
-        # check that we did not sample the same example twice
-        while len(set(idx_few_shot)) < len(idx_few_shot):
-            print("Duplicates found! Re-sampling...")
-            # remove the last example(s) added
-            idx_few_shot = idx_few_shot[:int(-n_examples//3)]
-            idx_few_shot.extend(df_age.sample(n=n_examples//3, random_state = 42).index.tolist())
-    # check
-    #display(df.loc[idx_few_shot, ["Question", "Age Group"]])
-    return idx_few_shot
+#def write_custom_yaml(data, filepath):
+#    # Manually construct the YAML output as a string to ensure exact formatting
+#    #choices_str = "[" + ", ".join(f'"{choice}"' for choice in data["choices"]) + "]"
+#    choices_str = "[" + ", ".join(f'{choice}' for choice in data["choices"]) + "]" # without "" around letters
+#    choice_cols_str = "[" + ", ".join(map(str, data["choice_cols"])) + "]"
+#    example_rows_str = "[" + ", ".join(map(str, data["example_rows"])) + "]"
+#
+#    test_file_path = data['test_file'].replace('/', '\\')
+#    example_file_path = data['example_file'].replace('/', '\\')
+#
+#    yaml_content = (
+#        f"test_file: {test_file_path}\n"
+#        f"test_header: {data['test_header']}\n"
+#        f"example_file: {example_file_path}\n"
+#        f"example_header: {data['example_header']}\n"
+#        f"choices: {choices_str}\n"
+#        f"choice_cols: {choice_cols_str}\n"
+#        f"answer_col: {data['answer_col']}\n"
+#        f"question_col: {data['question_col']}\n"
+#        f"example_rows: {example_rows_str}"
+#    )
+#
+#    # Write to file
+#    with open(filepath, 'w') as file:
+#        file.write(yaml_content)
+#
+#def get_few_shot_examples(df, n_examples):
+#    # check that n_examples is a multiple of 3
+#    if n_examples % 3 != 0:
+#        print("n_examples must be a multiple of 3!")
+#        return None
+#    # Take n_examples from each age group
+#    primary_list = ["Primary", "Primary, Secondary", "Pre-primary, Primary", "All"]
+#    secondary_list = ["Secondary", "Primary, Secondary", "All"]
+#    preprimary_list = ["Pre-primary", "Pre-primary, Primary", "All"]
+#
+#    df_preprimary = df[df["Age Group"].isin(preprimary_list)]
+#    df_primary = df[df["Age Group"].isin(primary_list)]
+#    df_secondary = df[df["Age Group"].isin(secondary_list)]
+#
+#    # check if there are enough examples in each age group
+#    print("Number of examples in each age group:\n"
+#          f"Pre-primary: {df_preprimary.shape[0]} samples,\n"
+#          f"Primary: {df_primary.shape[0]} samples,\n"
+#          f"Secondary: {df_secondary.shape[0]} samples,\n")
+#
+#    idx_few_shot = []
+#    for df_age in [df_preprimary, df_primary, df_secondary]:
+#        # select random n_examples/3 from each age group while answering the indices selected are unique
+#        idx_few_shot.extend(df_age.sample(n=n_examples//3, random_state = 42).index.tolist())
+#        # check that we did not sample the same example twice
+#        while len(set(idx_few_shot)) < len(idx_few_shot):
+#            print("Duplicates found! Re-sampling...")
+#            # remove the last example(s) added
+#            idx_few_shot = idx_few_shot[:int(-n_examples//3)]
+#            idx_few_shot.extend(df_age.sample(n=n_examples//3, random_state = 42).index.tolist())
+#    # check
+#    #display(df.loc[idx_few_shot, ["Question", "Age Group"]])
+#    return idx_few_shot
         
 
 

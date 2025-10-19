@@ -1,0 +1,32 @@
+{
+    "gemini-2.5-flash-lite-preview-09-2025": {
+        "CDPK_Luganda_science": 497.2816379070282
+    },
+    "gemini-2.5-flash-preview-09-2025": {
+        "CDPK_Luganda_science": 1424.6086864471436
+    },
+    "o4-mini-2025-04-16": {
+        "CDPK_Luganda_science": 2508.030356645584
+    },
+    "gpt-5-2025-08-07-medium": {
+        "CDPK_Luganda_science": 2541.281998157501
+    },
+    "claude-sonnet-4-5-20250929": {
+        "CDPK_Luganda_science": 2859.2236654758453
+    },
+    "gemma-3-4b-it": {
+        "CDPK_Luganda_science": 5769.249910593033
+    },
+    "fw-deepseek-r1-0528": {
+        "CDPK_Luganda_science": 5323.477339744568
+    },
+    "gemini-2.5-pro-preview-06-05": {
+        "CDPK_Luganda_science": 2598.756901025772
+    },
+    "qwen-3-32b": {
+        "CDPK_Luganda_science": 8697.65828037262
+    },
+    "gemma-3-27b": {
+        "CDPK_Luganda_science": 3940.1576573848724
+    }
+}

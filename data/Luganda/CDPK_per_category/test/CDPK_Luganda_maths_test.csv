@@ -1,22 +1,4 @@
 Source,question,answer_a,answer_b,answer_c,answer_d,answer_e,answer_f,answer_g,correct_answer,category,pedagogical_subdomain,age_group,year,secondary_category
-Pedagogy Benchmark Luganda,"Mu mutima gw'emikwatagana egy'ekibalangulo n'okubala, omusomesa w'abaana abato akola omukolo gw'okuyiga ogw'engeri eno n'abaana: mu bibinja ebitono, abasaba okutwala emigogo ebiri egya pulasitiiki erimu omuwendo gwe gumu, okukola akapiira akanene n'ogumu n'obupiira obutono n'omulala. Oluvannyuma, abuuzza abaana: ""Mulowooza wa weeri pulasitiiki ennyingi?"". Nga tutunuulidde embeera eno, busobozi ki bw'okulowooza okw'ekibalangulo bwe bukuzibwa n'omukolo guno?
-","Okubalilira
-","Okukuuma obutonde bw’ensi
-","Okuvunza
-","Okukwatagana
-",,,,B,Maths,Teaching strategies,Pre-primary,2018,
-Pedagogy Benchmark Luganda,"Omusomesa ow’ekibiina eky’omukaaga akola omulimu ku mitendera esatu era ateekateeka omukolo omuli abayizi okukola emitendera esatu ena nga emipanvu gyayo gye gi: Omutendera ogusooka: 12 cm, 5 cm ne 11 cm. Omutendera ogw’okubiri: 12 cm, 5 cm ne 9 cm. Omutendera ogw’okusatu: 12 cm, 5 cm ne 7 cm. Omutendera ogw’okuna: 12 cm, 5 cm ne 5 cm. Oluvannyuma, babasaba okwetegereza bye bazimbye n’okubigeraageranya ne bannaabwe okukakasa nti buli omu alaba ekintu kye kimu. Kiki ekigendererwa ekikulu eky’omukolo ogwo ogugambiddwa waggulu?
-","Gerageranya empuyi ssatu okusinziira ku buwanvu bw’embiriizi zaazo n’obunene bw’enz угол zaazo.
-","Teebereza ku mbeera ezibeera zeetaagisa okuzimba e misambaggu.
-","Weewaawo ebyo by’olabye ku mukwano oguli wakati w’enjuyi n’empeto z’omus المثلث (triangle).
-","Kika kya busatu nga twesigama ku buwanvu bw’embiriizi zaabwo nga tunnyonnyola emitindo gy’okukisaawula.
-",,,,B,Maths,Teaching strategies,"Primary, Secondary",2017,
-Pedagogy Benchmark Luganda,"Omusomesa omwaka ogw'okubiri mu siniya, amalirizza omutwe ogw'enamba entuufu n'abayizi be era ayagala okukebera oba basobola okukola ebibuuzo ebitalina bimala mu namba ez'omugerageranyo. Ku bikolwa ebikozesebwa okukebera bino wammanga, kiki ekinaasobozesa omusomesa okufuna amawulire agakwata ku kino?
-","Mennya obuwanvu bw’empuyi essatu ezilingana nga buli lumu lulina obuwanvu bwa 2.
-","Balirira namba ezitaliimu mutonnyeze okuva wansi n'okusiimattuka waggulu
-","Londa mizizi gy’ebikwatule ku lukalo lw’ennamba, ng’onyonyola enkola ekakasa.
-","Manya obuwanvu bw'amagulu g'omusalaba ogw'ekika ekya isosceles ogwa layiti ogulina oluweweeso olupima 2/sqrt(2)
-",,,,A,Maths,Assessment,Secondary,2019,
 Pedagogy Benchmark Luganda,"Omusomesa ateesa eri abayizi be okukiikirira omuwendo gw'ebintu n'ebipapula by'ensimbi n'ensimbi eza kyuma, oluvannyuma ne bawandiika ekiikirira kino mu bbaluwa zaabwe. Mulimu ki omusomesa gw'asinga okwogerako mu bikolwa bino?
 ","Okugatta
 ","Omukutu gw'ebifo
@@ -47,6 +29,12 @@ Pedagogy Benchmark Luganda,"Omusomesa yalabye nti abayizi be bakola ensobi ezita
 ","Kungaanya abayizi mu bibiri bibiri, obagambe okuteesa ku ngeri esinga obulungi okuzuula obugazi bw’ebipande ebya kyebiriggula ebiweereddwa.
 ","Saba abayizi okukiikirira obugazi bw’ebiramuula eby’enjawulo nga bakozesa obutimba era mukubagane ebirowoozo ku ngeri gye basobola okwolesa omuwendo guno.
 ",,,,B,Maths,Assessment,Primary,2017,
+Pedagogy Benchmark Luganda,"Soma ekigendererwa ky'omuyizi ow'ekibiina eky'okusatu kino: ""Laga okutegeera okw'omulamwa gwa engelo: okulaga eby'okulabirako bya engelo mu butonde, okubalanguza ekipimo kya engelo, okukozesa engelo eza 45° ne 90° ng'ebipimo"". Ku bikolwa bino wammanga, kiki ekisinga okuba ekituufu okukebera okutegeera kwabwe?
+","Kika ky'enjuyi ez'enjawulo
+","Kola engulu z’ebipimo ebyenjawulo.
+","Tegeera engeri enjawulo z’empuyi mu kiifananyi
+","Pima empimo z'enjuyi ez'enjawulo ng'okozesa ekipima ky'enjuyi.
+",,,,C,Maths,Teaching strategies,Primary,2017,
 Pedagogy Benchmark Luganda,"Omusomesa alagira ennamba ez’ekifo ky’ekkumi era bw’amala okwogera: ‘Ttaano n’obukadde bubiri,’ akiraba nti abayizi bangi bawandiise 5.2000. Ku mirimu egiddwa wano wansi, kiruwa ekisinga okuba ekituufu okukozesa okutereeza ensobi eno mu by’abayizi bye bazzeemu?
 ","Wandika namba ez'ekifo (decimal numbers) mu bigambo.
 ","Sengeka ennamba ez’ekifo ku lukalo lw’ennamba
@@ -635,6 +623,18 @@ Pedagogy Benchmark Luganda,"Omusomesa w’ekibiina ekya 8 asomesezza abayizi be 
 ","1) Laga akakodyo k’ekibalangulo akakikirira omukolo ogulaga engeri omuwendo gw’ebisimu by’ebisimu ebiguliddwa gye bikwatagana n’omuwendo gw’ensimbi eziweereddwa okubigula. 2) Kintu ki kiki mu kakodyo k’ekibalangulo akaakagattwa waggulu ekikwatagana n’enkalubo y’omugeraageranyo egatta ebintu ebyo byombi?
 ","1) Laga mu kifaananyi omukolo ogulaga engeri omuwendo gw'ebiraziro ebiguliddwa gye gukwatagana n'omuwendo gw'ensimbi eziweereddwa okubigula. 2) Kiki ekintu ekitali kyanguukiriza ekikwataganya ebintu eby'enjawulo omuli omuwendo n'obungi bw'ebiraziro?
 ",,,,C,Maths,Assessment,Secondary,2020,
+Pedagogy Benchmark Luganda,"Omusomesa w’ekibiina eky’omunaana akolera wamu n’abayizi be ku kubambulula ebigambo by’ekibalangulo, ng’ayita mu kukiikirira obugazi n’olulimi lw’ekibalangulo. Okusobola okukung’aanya obukakafu ku ngeri abayizi gye bayigaamu, yakola okukebera okubumbulukusa ku biri mu mulamwa guno. Laba eky’omuyizi omu kye yaddamu ku dduyiro okuva mu kukebera:
+Tegeera olubalama P n’obugazi A obw’ekiwankulata, olubaawo lwakyo lupima (x + 2) cm.
+·
+Enkola: P=4 (x+2)=4x+8
+Enkola: A=(x+2)2=x2+4
+Ekiddamu: Obugazi bwe (x2+4)cm2 n’olubalama lwe (4x+8)cm.
+Ku magezi gano omusomesa ge yawa omuyizi, ggaani ganaamuwa amawulire ag’omugaso okutereeza engeri gy’akolamu mu nkola y’okuyiga eno?
+","Gejja okukola dduyiro yo, kubanga omu ku bigendereddwaamu gye biri ebiri mutuufu ate omulala si mutuufu. Nkuwadde amagezi okukozesa omukwanaganyo ogw'ekibalangulo ky'ekintu ekirina ebipimo bibiri okukigolola.
+","Newekubadde ng’okunoonya obwetoloovu wakikoze bulungi, wakola ensobi mu kubala obungi bw’ekifo, kubanga enkola ennungi ey’okubisaamu omubalanguzi ogw’ebika bibiri (binomial) y’erina okuba (a+b)2 =a2+2ab+b2
+","Newankubadde ng’obadde mutuufu okubala olubalama, wakola ensobi mu kubala obugazi. Kulaakulanya (x+2)2 nga (x+2) (x+2) okufuna obugazi obuggya.
+","Gejja okukola kwo, kubanga ebyavaamu bibiri, kimu kye kituufu ate ekirala si kituufu. Kuddamu okukisoma era okigonjole, omulundi guno ossire nnyo omwoyo ku buli kigambo kya aligebra.
+",,,,C,Maths,Assessment,Secondary,2020,
 Pedagogy Benchmark Luganda,"Omwana ali ku mutendera ogwa pulayimale asinga abalala azannya n’obupaapu musanvu ku siteeseni y’emirimu. Bonna balina omutima omumyufu ogusiigiddwaako, naye ebisiige byabwe byawukana okuva ku bimyufu ebyaka ennyo okutuuka ku bimyufu ebitali byaka nnyo. Omwana, oluvannyuma lw’okwetegereza obupaapu buno, abutegeka okuva ku kaapu erina omutima omumyufu ogwaka ennyo okutuuka ku yo erina omutima omumyufu omweru ennyo. Bukugu ki obuli wansi w’omulimu ogulagiddwa omwana?
 ","Tegeka omulandira
 ","Tegeka olutaanu.
@@ -670,6 +670,12 @@ Pedagogy Benchmark Luganda,"Ku ntandikwa ya ttimu esooka ey’ebyemisomo, akakii
 ","Empapula z’ebikolwa by’omuwendo: obubaawo obusiigiddwako ebbalangasi obulina ebigezo ku miwendo okuva ku 1 okutuuka ku 10. Lupapula olulinga ebbaluwa.
 ","Akataala k'ennamba: akataala akafuuyira, nga kaliko ennamba okuva ku 1 okutuuka ku 9, nga zisobola okuggyibwako. Buli sikweya nga erengera okuba nga 30 x 30 cm
 ",,,,A,Maths,Teaching strategies,Pre-primary,2023,
+Pedagogy Benchmark Luganda,"Omusomesa ow’ekika kya ‘nursery’ agenda kukola okukebera okumanya obusobozi bw’abaana abato ku kigendererwa kino: ""Okunoonyereza nga bayita mu bumanyirivu bwabwe obw’omubiri n’obw’okukozesa ebintu, engeri z’ebintu,"" mu mutwe omukulu ogw’Endowooza y’Ekibalangulo. Mu nkola zino ez’okukebera, y’ennu y’esaanira omusomesa okumanya obusobozi bw’omwana ku kigendererwa kino?
+","Mu kiseera ky'ekifo, londa era oteeke ebintu eby'enjawulo ku baana ebirina obuzito, obukwafuwavu, n'obunene obw'enjawulo.
+","Mu kiseera ky’okulamusa, yolesa era onyonyole abaana ebifaananyi by’ebintu eby’enjawulo okusinziira ku ngeri zaabyo: langi, obunene.
+","Mu biseera by’okukyusa ebintu, yoleka abaana ebibinja by’ebintu eby’enjawulo ebiri n’ebintu bye bifaanagana nga langi n’enkula.
+","Mu biseera by'okukola ebintu eby'enjawulo, kubiriza abaana okunoonya ebintu eby'enjawulo nga bawuliriza okunnyonnyolwa kw'ebyo ebikulu ku byo: enkula n'omugaso gwabyo.
+",,,,A,Maths,Assessment,Pre-primary,2023,
 Pedagogy Benchmark Luganda,"Omusomesa w’ekibiina eky’okusatu yakebera abayizi be okulaba oba baali bayize okutegeera n’okunnyonnyola endagiriro mu chaati ya 100. Mu mirimu gye yawa mu kukebera, yaleeta chaati wano era n’abuuza endagiriro eri mu nnamba eziragiddwa. Omu ku bayizi yaddamu nti endagiriro yali ya kwongerako 1. (Chaati erimu ennamba okuva ku 1 okutuuka ku 100) Ku bigambo bino wammanga eky’omusomesa kyekiyamba omuyizi okutuukiriza ekigendererwa?
 ","Tujjukire nti tukola ku ndagiriro n'omulandira. Nkuwadde amagezi okusiiga olunyiriri olumu mu chart ne langi emu, n'omutunsi ogumu ne langi endala. Laba ennamba eziri mu buli lunyiriri na buli mutunsi. Nnamba ki ezikyuka mu lunyiriri? Nnamba ki ezikyuka mu mutunsi? Nkusaba okukola chart empya ng'olina endagiriro ze watunudde.
 ","Okijjukira nti tukola ku ndagiriro n'ennyingo. Ku mmaapu eno, olaba wa ennyingo egoberera endagiriro gye walaze mu ky'okuddamu kyo? Nkuwadde amagezi ogizingulule n'ekika ky'omukololo. Kati, kiki ekiyinza okubaawo singa tukozesa endagiriro ey'okugatta 17 ku nnyingo eyo? Nkusaba onoonye ennyingo ezo ku mmaapu.

@@ -1,22 +1,4 @@
 Source,question,answer_a,answer_b,answer_c,answer_d,answer_e,answer_f,answer_g,correct_answer,category,pedagogical_subdomain,age_group,year,secondary_category
-Pedagogy Benchmark Luganda,"Ttiimu y’eby’enjigiriza mu kibiina ky’abaana abato etegeketege okunyweza okusiima enjawulo okusinziira ku kiruubirirwa kino ekikulu mu kumanya obutonde bw’eby’embeera z’abantu n’ennono: “Okutegeera ebikulu ebyabaddewo mu byafaayo byabwe bo ku bwabwe n’eby’amaka gaabwe, mu mbeera ezitali zimu.” Mu nkola zino wammanga, y’erina engeri gy’ekwatagana n’ekiruubirirwa ekyo?
-","Kukola ngabulo ku buli maka g'omwana, ng'oyanjula abantu baamu.
-","Teekamu ebintu ebikozesebwa mu maka omuli ebikozesebwa mu kufumba n’ebintu omuterekebwa ebintu abaana bye bakozesa mu bulamu bwabwe obwa bulijjo.
-","Tegeka ebifo by'okukolera omulimu omwana gy'akiikirira ebintu eby'enjawulo by'akola n'ab'omu maka ge.
-","Muteeketeeke akadde k'omukolo ogw'ekibiina omwana yenna lw'ayogera ku mulimu gw'omuntu omu mu famire yaabwe.
-",,,,C,Social studies,Teaching strategies,Pre-primary,2023,
-Pedagogy Benchmark Luganda,"Okusinziira ku kigendererwa kino: ""Soma pulaani ennyangu ez'ebitundu by'obulamu bwo, ng'okozesa ebifo eby'enjawulo n'ebika by'ebifo ebiraga obunene bwabyo,"" bikorwa ki ebisaana okukozesebwa okukekeera omwana mu mwaka ogw'okubiri?
-","Loba ekiifananyi ekiraga enteekateeka y'ekisenge ky'eklassi.
-","Tegeera amakulu g'obubonero obuli ku pulaani y'ekibuga
-","Lambulula ebifo we bisangibwa ku maapu eno.
-","Okakasa endagiriro z'obubonero obuweereddwa ku katimba.
-",,,,C,Social studies,Teaching strategies,Primary,2017,
-Pedagogy Benchmark Luganda,"Omusomesa w’ekibiina eky’omunaana, ku nkomerero y’essomo, agenda kukebera obusobozi bw’abayizi be okusunsula ensibuko z’ebyamawulire, ng’asinziira ku bwesigwa bwazo. Okukola kino, ategeka akatabo akamuyamba era akoze n’ebipimo bino: 1. Balaga omuntu eyawandiise ebyo. 2. Bannyonnyola mu bufunze gye byaggyiddwa oba embeera ebyo we byaggyiddwa. Mu bipimo bino ebiri wammanga, ekirala kiki ekikwatagana n’ebyo era ekigya kuyamba okumaliriza akatabo kano?
-","Balaga ekika ky'ensibuko y'ebyo bye bakozesezza.
-","Bakaayana ku makulu g'ebyawandiikiddwa.
-","Bategeera ekyo ekigendererwa ekiri mu nsibuko y'ebyo bye basoma.
-","Bakebera obutuufu bw'ebyo ebiri mu ssaabu y'ebyanjuliziddwa.
-",,,,C,Social studies,Assessment,Secondary,2019,
 Pedagogy Benchmark Luganda,"Soma embeera eno:
 Mu mutendera ogw’okuna ogw’ekisomesebwa kya Basic History, omusomesa asaba abayizi be okugeraageranya obuwangwa bwa Maya, Aztec, ne Inca era balage obufaananyi busatu obuliyo wakati waabyo. Emu ku nnyanukula ze yalabye yalaze bino wammanga:
 “Bonna baali balimi, era newankubadde baalina ebibinja by’abantu eby’enjawulo, bonna baali baavu olw’okuba tebaalina tekinologiya nga ffe era nga babeera mu mayumba amayinja agaali amannyogovu ennyo.”
@@ -117,7 +99,7 @@ Pedagogy Benchmark Luganda,"Soma embeera eno: Mu mutera gw'ekitabo ""Empula z'ab
 ","Ekitongole kya Hogar de Cristo kyakkendeereza ku bbeeyi y'amayumba gaabwe ag'obuyambi eri abantu abetaaga.
 ",,,,C,Social studies,Student understanding,Secondary,2017,
 Pedagogy Benchmark Luganda,"Mu kitundu ""Ekiva mu kulwanyisa n'okuwamba,"" omusomesa ow'ekitongole eky'okutaano ayagala okukebera oba abayizi be bategeera ebyava mu kulwanyisa n'okuwamba ku bantu b'omu America abazaliranwa. Okukola kino, yakola akakodyo k'okukebera bye bayize. Ku biragiro bino eby'obuwanguzi omusomesa bye yakola, kiruwa ekiraga ekigendererwa ekiddwamu?
-",,"Okusinziira ku mmeeza z'ebaluule, malaamuzi embeera z'abantu bwe yali mu kiseera ky'okuwamba.
+",Zuula ku maapu ebibinja by'abantu ab'asooka bye Abasipanya baawangula,"Okusinziira ku mmeeza z'ebaluule, malaamuzi embeera z'abantu bwe yali mu kiseera ky'okuwamba.
 ","Sinziira ku byafaayo, zuula ebintu ebyaleetawo okukendeera kw'omuwendo gw'abantu.
 ","Okusinziira ku bujjalikidi obw’ebifaananyi, londa enjawulo eziriwo wakati w’okulwanagana kw’abantu ab’enzalwa n’abantu abaabawamba.
 ",,,,C,Social studies,Assessment,Secondary,2017,
@@ -167,7 +149,7 @@ Pedagogy Benchmark Luganda,"Ng’omukugu mu by’enfuna mu Chile oluvannyuma lw�
 ","Okukkiriza nti olw’okutondebwawo kwa CORFO, eggwanga lya Chile lyalekeraawo okwesigama ku byenfuna by’amawanga amalala.
 ",,,,A,Social studies,Student understanding,Secondary,2017,
 Pedagogy Benchmark Luganda,"Kibaluwa ki ey’obufuzi abayizi abali mu S.2 gye balina okusooka okumanya nga tebannatandika kwogera ku nkola y’obufuzi ey’ekiddugavu?
-",,"Okutaputaputa mu by'obufuzi
+",Okufuga okw'abantu bonna,"Okutaputaputa mu by'obufuzi
 ","Okugabanya obuyinza bw'eggwanga
 ","Okutumbula omukulembeze alina obusobozi obw'enjawulo
 ",,,,C,Social studies,Student understanding,Secondary,2017,
@@ -455,6 +437,13 @@ Pedagogy Benchmark Luganda,"Omusomesa ow’ekinaana akuŋŋaanya abayizi mu bibi
 ","Okukozesa obubaka obw'ebifo ebitali bimu (Sources)
 ","Okulowooza okw'amagezi
 ",,,,D,Social studies,Teaching strategies,Primary,2020,
+Pedagogy Benchmark Luganda,"Omusomesa ow’ekibiina eky’okusatu ayagala okutandika omutwe ogw’Obuyonaani ng’ayanjula abayizi be eri embeera y’obuwangwa eno mwe yakulira era n’okwekenneenya engeri gye yagikolerako.
+Maapu ya ngeri ki esinga okuba etuukirawo okukozesebwa okutuukiriza ekigendererwa omusomesa ky’ateekawo?
+","Eby'omubiri
+","Ebyobufuzi
+","Eby'enfuna
+","Eby'obudde
+",,,,A,Social studies,Teaching strategies,Primary,2020,
 Pedagogy Benchmark Luganda,"Omusomesa ow’ekika kya ‘kindergarten’ agenda okukebera ekigendererwa kino ekikulu eky’okuyiga okumanya embeera z’abantu n’ennono zaabwe: “Okunoonyereza ku bikozesebwa mu nnyumba n’ebyuma bya tekinologiya ebiri mu bulamu obwa bulijjo, gamba nga: ebibya, ebintu omuterekebwa amazzi, emyeezo, ebijiko, amasimu, n’ebirala, ng’abikozesa buli lunaku mu mbeera ezitali zimu ne mu mizannyo.” Kiki omwana ky’alaga ekiraga nti atuukirizza ekigendererwa kino eky’okuyiga?
 ","Yogera amannya g'ebintu eby'omulembe nga essimu n'essaawa.
 ","Kozesa ebintu ebikozesebwa mu nnyumba, gamba ng’ekikopo n’akajiiko, okuzannya ng’olya.
@@ -744,6 +733,12 @@ Pedagogy Benchmark Luganda,"Omusomesa mu kibiina ekyokusatu mu Siniya, mu kitund
 ","Nkulagira okulowooza ku bino: obanga ebintu bino biyinza okukosa obutonde bw’ensi obugumira mu kitundu kino? Bwe kiba kityo, tekyandikosezza n’obwenkanya mu by’embeera z’abantu n’obutonde bw’ensi eri abantu ababeera mu kitundu ekyo?
 ","Bwe kiba nti ebitundu ebisinga okubonaabona olw’amataba bye bisinga obwavu, tekitegeeza nti byolekedde embeera y’akabi abantu abalala mu bitundu ebirala gye batolekeddwa? Kino kikwatagana n’obwenkanya mu by’embeera y’abantu n’obutonde bw’ensi?
 ",,,,D,Social studies,Assessment,Secondary,2023,
+Pedagogy Benchmark Luganda,"Omusomesa ku mutendera gwa ‘kindergarten’ ateekateeka okukebera obukugu bw’omuyizi mu kiruubirirwa kino okuva mu mutindo gw’okutegeera embeera z’obuwangwa n’obuntu: “Okunnyonnyola emboozi ezimu ezikwata ku bintu eby’omugaso ebyaliwo emabega mu kitundu kyabwe ne mu ggwanga, nga bakozesa ebintu nga ebifaananyi, vidiyo, ebikozesebwa, oba ebintu ebibakiikirira.” Ku miramwa gino wammanga, gumu ku gyo gw’osobola okukozesa okukungaanya obujulizi obulaga obukugu bw’omuyizi mu kiruubirirwa kino?
+","Baanjye okuzannya emikolo gy'ennono egy'enjawulo egy'omu kitundu kyammwe.
+","Basaanidde okukubirizibwa okuwaayo ebiwandiiko ku bukulu bw'abantu ab'enjawulo mu kitundu kyabwe.
+","Bakyawaaze okukola alubaamu erimu ebifaananyi eby'enjawulo eby'emikolo gy'amaka.
+","Baanjule okukubaganya ebirowoozo ku bwetaavu obwavirako enkyukakyuka mu tekinologiya.
+",,,,A,Social studies,Assessment,Pre-primary,2023,
 Pedagogy Benchmark Luganda,"Omusomesa ateekateeka essomo ly'ekibiina eky'okutaano ng'alina ekigendererwa kino: ""Okulambulula obulungi bw'ebifo eby'obutonde ebinene ebya Chile."" Ku mirimu gino wammanga, gwe gujja okusobozesa okutuukiriza ekigendererwa ekyo?
 ","Zimba ekifaananyi ekiraga obulungi bw’ekifo mu kitundu ky’obutonde, ng’otumbula ebifo ebisinga okumanyika, okukiraga mu luggya lw’essomero.
 ","Noonya ku mukutu gwa www.sernatur.cl okumanya ebikwaata ku byobugagga eby'obutonde n'emirimu gy'ebyenfuna egikwatagana n'ebitundu byonna, okubireeta mu kifaananyi ekiraga engeri gye bikwatagana.
@@ -756,6 +751,12 @@ Pedagogy Benchmark Luganda,"Omusomesa mu kibiina eky’omukaaga, bwe yamala okuk
 ","Kizibu ki eky'embeera z'abantu n'enfuna y'ebyenfuna abawandiisi abasatu kye bakkaanyizaako?
 ","Abawandiisi abasatu bawadde ki kyebawadde ekyenjawulo okumalawo embeera y'abakozi?
 ",,,,C,Social studies,Assessment,"Primary, Secondary",2023,
+Pedagogy Benchmark Luganda,"Omusomesa alina ekigendererwa kino: ""Okunnyonnyola obukulu bw'okwegatta kw'abakyala mu bulamu bw'olukale mu kyasa ekya 20"" eri abayizi be aba kitaano. Okukola kino, agenda kusaba abayizi be okwekenneenya ensibuko y'ebyafaayo eno: Soma ebiwandiiko bino: [. . .] Nlwaniridde eddembe ly'abakyala okulonda, si lwa kuba ndi mulwanirizi wa ddembe lya bakyala asusse, wadde okuba nti ndowooza nti abakyala basinga abasajja oba nti eddembe ly'abakyala okulonda lyenyini ddagala lya buli buzibu bw'eggwanga, wabula lwa nzikiriza yange. Nzikiriza mu gavumenti y'abantu, ey'abantu, era eri abantu. Ndowooza nti abantu bonna ababeera mu nsi, tebuliiko langi yabwe oba kika kyabwe, buwangwa bwabwe oba kikula kyabwe, ndowooza zaabwe eza byabufuzi oba nzikiriza yaabwe ey'eddiini, balina eddembe okukyuusa ebyo ebinaabaawo mu nsi yaabwe. Ebbaluwa okuva eri Elena Caffarena (Santiago, Janwali 1949) Okusinziira ku biwandiiko ebiri waggulu, bukulu ki obw'ebyobufuzi okulwana kw'abakyala nga Elena Caffarena kwe kwabangawo mu kufuna eddembe ly'okulonda? Lwaki omulimu omusomesa gw'aleese gutuukiriza ekigendererwa ky'ekibiina nga twetegerezza ennyo ebikugu by'obumuntu obutuuze?
+","Kubanga kikkiriza okwogera n'okuba n'endowooza ey'eddembe ku kwegattibwa kw'abakazi mu kyasa ekya 20.
+","Kubanga kikuza okutegeera okusingako akakulu k'olutalo olwakulemberwa abakazi mu Chile
+","Kubanga kiyambako okutegeera n'okulambika ku kimu ku birubirirwa by'obweneggwanga demokulasiya mu Chile mwesigamiziddwa.
+","Kubanga kinyweza obukugu mu kwebulula ensibuko y'ebintu okusobola okutegeera obulungi enkulakulana y'eby'okulonda mu Chile mu kyasa ekya 20.
+",,,,C,Social studies,Teaching strategies,"Primary, Secondary",2023,
 Pedagogy Benchmark Luganda,"Omusomesa agenda kwogera eri abayizi be aba P.7 ku mutwe ogw'Emirembe gy'Obuwangwa obw'Amaanyi egy'Obuntu. Mu ssomero erisooka, omusomesa agenda kuyigiriza abayizi engeri y'okulondamu ensibuko z'ebyamawulire, okuzikozesa mu kunoonyereza ku nsibuko era n'okukubiriza enkulaakulana y'endowooza y'eby'emabega. Kutegeera ki abayizi kwe balina okukulaakulanya okusobola okulonda obulungi ensibuko y'ebyafaayo?
 ","Laga ebika by'amawulire ensibuko by'ewaayo.
 ","Tegeera abantu ab'ebyafaayo ensibuko gy'eyogerako.

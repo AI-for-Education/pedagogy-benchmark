@@ -1,5 +1,5 @@
 ##o1-preview-2024-09-12: o1-Preview
-o1-mini-2024-09-12: o1-Mini
+#o1-mini-2024-09-12: o1-Mini
 #gpt-4-0613: GPT-4
 #gpt-4o-mini-2024-07-18: GPT-4o Mini
 #gpt-4o-2024-08-06: GPT-4o
@@ -73,7 +73,7 @@ o1-mini-2024-09-12: o1-Mini
 ##fw-deepseek-r1: Deepseek R1
 ##fw-mistral-small-3-instruct: Mistral Small 3 # reran with another provider
 ##o3-mini-low: o3-Mini Low
-o3-mini-medium: o3-Mini # this for the leaderboard
+#o3-mini-medium: o3-Mini # this for the leaderboard
 ##o3-mini-high: o3-Mini High
 #doubao-1.5-pro-32k: Doubao-1.5 Pro
 #doubao-1.5-lite-32k: Doubao-1.5 Lite
@@ -98,7 +98,7 @@ gemma-3-27b: Gemma-3 27B
 #deepseek-v3-0324-fp8: Deepseek V3 March
 ##gemini-2.5-pro-exp-03-25: Gemini-2.5 Pro Preview (March '25)
 #gemma-3-12b-it: Gemma-3 12B
-gemma-3-4b-it: Gemma-3 4B
+#gemma-3-4b-it: Gemma-3 4B
 #llama-4-maverick-instruct-basic: Llama-4 Maverick
 #llama-4-scout-instruct-basic: Llama-4 Scout
 #grok-3-beta: Grok-3
@@ -186,8 +186,8 @@ gemini-2.5-pro-preview-06-05: Gemini-2.5 Pro
 #hf-olmo-2-1124-7b-instruct: OLMo-2 7B
 #hf-olmo-2-1124-13b-instruct: OLMo-2 13B
 #hf-olmo-2-0325-32b-instruct: OLMo-2 32B
-claude-sonnet-4-5-20250929: Claude Sonnet 4.5
+#claude-sonnet-4-5-20250929: Claude Sonnet 4.5
 #claude-sonnet-4-5-20250929-low: Claude Sonnet 4.5 Thinking
 #grok-4-fast: Grok-4 Fast
-gemini-2.5-flash-preview-09-2025: Gemini-2.5 Flash
-gemini-2.5-flash-lite-preview-09-2025: Gemini-2.5 Flash-Lite
+#gemini-2.5-flash-preview-09-2025: Gemini-2.5 Flash
+#gemini-2.5-flash-lite-preview-09-2025: Gemini-2.5 Flash-Lite

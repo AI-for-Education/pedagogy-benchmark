@@ -13,8 +13,6 @@ REPAT = [
     r"^<think>[\s\S]*?</think>[\s\S]*?([ABCDEFG])$",  # for deepseek R1
     r"^## Step 1[\s\S]*?([ABCDEFG])[\.\s]*$",  # for llama 4
     r'[\s\S]*\n([A-G])"?$',  # for claude 4
-    #r'\*\*\s*([A-Za-z])\s*\*\*' # claude 4 luganda
-    r'\*\*\s*([A-Za-z])\s*\*\*\s*$'
 ]
 REQ = [re.compile(pat) for pat in REPAT]
 
@@ -38,25 +36,7 @@ def format_example(
         prompt += "\n{}\n\n".format(df.iloc[rowi, answer_col])
     return prompt
 
-
 def gen_prompt(
-    df, example_rows, question_row, question_col, choice_cols, choices, answer_col
-):
-    prompt = "The following are example multiple choice questions (with answers).\n\n"
-    for i in example_rows:
-        prompt += format_example(df, i, question_col, choice_cols, choices, answer_col)
-    prompt += "Answer the following real question using same answer format: \n"
-    prompt += format_questions(df, question_row, question_col, choice_cols, choices)
-    prompt += (
-        "\n\nOnly answer the real question."
-        "\n\nOnly provide the letter for your answer."
-        "\n\nStop exactly after the letter."
-        # "\nDo not provide any explanation."
-        # "\nDo not provide any text at all other than the letter by itself."
-    )
-    return prompt
-
-def gen_prompt_luganda(
     df, example_rows, question_row, question_col, choice_cols, choices, answer_col
 ):
     prompt = "Bino wammanga bibuuzo bya kulabirako eby'okulondamu (n'ebyanulo).\n\n"
@@ -125,7 +105,7 @@ def evaluate_model(test_df, config, model, verbose=0):
 
     for rowi in tqdm(range(len(example_rows), total_row)):
 
-        prompt = gen_prompt_luganda(
+        prompt = gen_prompt(
             test_df,
             example_rows,
             rowi,
@@ -142,6 +122,7 @@ def evaluate_model(test_df, config, model, verbose=0):
                 or model.startswith("claude-3-7-sonnet-20250219-thinking-")
                 or model.startswith("o4-mini")
                 or model.startswith("o3-")
+                or model.startswith("gpt-5-")
             ):
                 temperature = 1
             else:
