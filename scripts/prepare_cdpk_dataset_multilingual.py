@@ -14,7 +14,7 @@ DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 # Load dataset
 #######################
 
-cdpk_dataset = pd.read_csv(DATA_DIR / "pedagogy_benchmark_luganda_cdpk.csv")
+cdpk_dataset = pd.read_csv(DATA_DIR / "pedagogy_benchmark_hausa_cdpk_cleaned.csv")
 print(cdpk_dataset.shape)
 cdpk_dataset.head(1)
 
@@ -22,7 +22,7 @@ cdpk_dataset.head(1)
 # - format columns: 
 #   - add source, add Answer E, add Answer F, add Answer G (before Correct answer)
 #   - remove question number
-cdpk_dataset.insert(0, "Source", "Pedagogy Benchmark Luganda") # insert source
+cdpk_dataset.insert(0, "Source", "Pedagogy Benchmark Hausa") # insert source
 cdpk_dataset.drop(columns = ["question_id"], inplace=True) # remove question number
 #cdpk_dataset.insert(6, "Answer E", None)
 #cdpk_dataset.insert(7, "Answer F", None)
@@ -261,7 +261,7 @@ for i in few_shot_examples_idx_dict['Science']:
     print("-----")
 # %%
 
-language = "Luganda_ep"
+language = "Hausa"
 
 create_subcsv_cdpk(cdpk_dataset, 
                    folder_path = f"./../data/{language}/CDPK_per_category",

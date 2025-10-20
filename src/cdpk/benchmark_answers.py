@@ -40,15 +40,15 @@ def format_example(
 def gen_prompt(
     df, example_rows, question_row, question_col, choice_cols, choices, answer_col
 ):
-    prompt = "The following are example multiple choice questions (with answers).\n\n"
+    prompt = "Ga misalan tambayoyi masu zaɓi (tare da amsoshinsu).\n\n"
     for i in example_rows:
         prompt += format_example(df, i, question_col, choice_cols, choices, answer_col)
-    prompt += "Answer the following real question using same answer format: \n"
+    prompt += "Amsa tambaya ta ainihi mai zuwa ta amfani da tsarin amsa iri ɗaya:\n"
     prompt += format_questions(df, question_row, question_col, choice_cols, choices)
     prompt += (
-        "\n\nOnly answer the real question."
-        "\n\nOnly provide the letter for your answer."
-        "\n\nStop exactly after the letter."
+        "\n\nAmsa tambayar gaske kawai."
+        "\n\nBada harafin amsarka kawai."
+        "\n\nTsaya daidai bayan harafin."
         # "\nDo not provide any explanation."
         # "\nDo not provide any text at all other than the letter by itself."
     )

@@ -1,0 +1,343 @@
+answers,resps,success
+D,"1.  **D**
+2.  **C**
+3.  **B**
+4.  **D**",True
+A,A.,True
+D,A.,True
+C,A.,True
+A,"B
+",True
+D,"A
+",True
+B,"Okay, here are the answers to your questions:
+
+*   **Question 1:** D
+*   **Question 2:** C
+*   **Question 3:** B
+*   **Question 4:** B",True
+C,A.,True
+A,C,True
+B,A. Rana da Dare,True
+D,A.,True
+D,A.,True
+A,A.,True
+B,"A
+",True
+D,"A, B, C, D",True
+B,"C
+B
+C
+D",True
+D,A.,True
+A,"A, C, B, D",True
+C,A.,True
+B,A.,True
+D,"B
+",True
+A,"C
+B
+C
+B",True
+D,"A, B, C, D",True
+D,"A, B, C, D",True
+C,A.,True
+D,A.,True
+A,A.,True
+B,"A, B, C, D",True
+C,"B
+B
+C
+D",True
+B,"B
+B
+C
+D",True
+B,A.,True
+B,A.,True
+D,A.,True
+C,"B
+",True
+A,A.,True
+B,"A, B, C, D",True
+C,"A.
+B.
+C.
+D.",True
+C,A.,True
+C,A.,True
+B,"A, C, B, D",True
+D,B,True
+C,A. Zafi yana ƙunshe a cikin tsare-tsare,True
+B,"C
+B
+C
+D",True
+C,"A, B, C, D",True
+B,A.,True
+C,A.,True
+C,A.,True
+C,"Okay, here are the answers to your questions:
+
+*   **Question 1:** D
+*   **Question 2:** C
+*   **Question 3:** B
+*   **Question 4:** B
+*   **Question 5:** B",True
+A,A.,True
+C,A.,True
+C,A.,True
+A,"A
+",True
+C,A.,True
+B,"A, B, C, D",True
+C,"B
+",True
+C,"A, B, C, B",True
+B,"A
+",True
+C,"B
+B
+C
+D",True
+A,"C
+B
+C
+B",True
+A,B,True
+D,"A
+",True
+D,"C
+B
+C
+D",True
+C,"A
+",True
+C,"A, B, B, C",True
+B,A.,True
+B,A.,True
+A,A.,True
+B,"B
+C
+B
+D",True
+B,"A, B, C, D",True
+C,"A, B, C, D",True
+C,"A, B, C, D",True
+B,"B
+B
+C
+D
+B",True
+C,A.,True
+B,"A, B, C, D",True
+C,A.,True
+C,"B
+B
+C
+D",True
+D,A.,True
+D,A.,True
+C,"A, B, C, D",True
+A,A.,True
+A,A.,True
+D,"A, B, C, D",True
+D,A.,True
+A,A.,True
+C,A.,True
+C,A.,True
+C,B,True
+D,"A.
+B.
+C.
+D.
+C.
+D.
+B.",True
+B,"B
+",True
+C,"A, B, C, D",True
+C,A. Hasashe,True
+B,"A, B, C, D",True
+D,"A, B, C, D",True
+A,A.,True
+D,"Okay, here are the answers to your questions:
+
+B
+C
+D
+C
+B",True
+D,A.,True
+D,A.,True
+B,"A.
+B.
+C.
+D.",True
+D,"A.
+B.
+C.
+B.
+D.",True
+B,"A, B, C, B",True
+A,"Okay, I'm ready. Please provide your answers to the questions, and I will tell you if they are correct.",True
+A,A.,True
+A,"A, B, C, D",True
+C,"A.
+B.
+C.
+D.
+B.
+B.",True
+B,"B
+B
+C
+D",True
+B,A.,True
+A,A.,True
+D,"A, B, C, D",True
+D,"A, B, C, D",True
+A,"A.
+B.
+C.
+B.
+D.",True
+B,"B
+",True
+B,A.,True
+A,"A.
+B.
+C.
+D.
+B.
+D.",True
+B,"A.
+B.
+C.
+D.
+",True
+D,"A
+",True
+C,"B, C, B, D",True
+B,"A.
+B.
+C.
+D.
+",True
+B,A.,True
+B,A.,True
+C,"A, B, C, D",True
+C,A.,True
+D,A.,True
+B,"A, B, B, D",True
+C,"A.
+B.
+C.
+D.
+C.
+D.",True
+A,"B
+C
+B
+D",True
+B,"A.
+B.
+C.
+D.
+",True
+A,A.,True
+A,A.,True
+C,"A, B, C, D",True
+A,"A, B, C, D",True
+D,A.,True
+C,A.,True
+B,A.,True
+D,"A.
+B.
+C.
+D.",True
+D,"A.
+B.
+C.
+D.
+",True
+B,A.,True
+C,A.,True
+C,"A
+",True
+C,"A.
+B.
+C.
+D.
+",True
+B,A.,True
+C,A.,True
+D,A.,True
+C,A.,True
+A,A.,True
+B,"A.
+B.
+C.
+D.",True
+B,"A.
+B.
+C.
+D.
+",True
+B,"A
+C
+B
+D",True
+C,A.,True
+A,A.,True
+B,A.,True
+C,A.,True
+B,A.,True
+D,A.,True
+B,"B
+",True
+A,A.,True
+C,"A, B, C, D",True
+B,A.,True
+C,"A
+",True
+C,A.,True
+C,A.,True
+A,"A, B, C, B",True
+B,A.,True
+B,"A
+",True
+D,A.,True
+D,"A
+",True
+D,A.,True
+A,A.,True
+D,"A.
+B.
+C.
+D.",True
+C,"A, B, C, D",True
+B,"Okay, I'm ready. Please provide your answer to each question.",True
+D,A.,True
+D,"A, B, C, D",True
+C,A.,True
+D,A.,True
+D,A.,True
+B,A.,True
+C,A.,True
+C,A.,True
+C,"A.
+B.
+C.
+D.",True
+A,"A.
+B.
+C.
+D.
+",True
+D,"B
+B
+C
+D",True
+D,"A, B, C, D",True
+B,A.,True
