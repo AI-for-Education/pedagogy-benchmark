@@ -14,7 +14,7 @@ DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 # Load dataset
 #######################
 
-cdpk_dataset = pd.read_csv(DATA_DIR / "pedagogy_benchmark_luganda_cdpk.csv")
+cdpk_dataset = pd.read_csv(DATA_DIR / "pedagogy_benchmark_nyankore_cdpk_cleaned.csv")
 print(cdpk_dataset.shape)
 cdpk_dataset.head(1)
 
@@ -22,7 +22,7 @@ cdpk_dataset.head(1)
 # - format columns: 
 #   - add source, add Answer E, add Answer F, add Answer G (before Correct answer)
 #   - remove question number
-cdpk_dataset.insert(0, "Source", "Pedagogy Benchmark Luganda") # insert source
+cdpk_dataset.insert(0, "Source", "Pedagogy Benchmark Nyankore") # insert source
 cdpk_dataset.drop(columns = ["question_id"], inplace=True) # remove question number
 #cdpk_dataset.insert(6, "Answer E", None)
 #cdpk_dataset.insert(7, "Answer F", None)
@@ -40,14 +40,14 @@ cdpk_dataset.head(2)
 # %%
 ## SEND mcqs ##
 # get SEND mcqs
-send_dataset = pd.read_csv(DATA_DIR / "pedagogy_benchmark_luganda_send.csv")
+send_dataset = pd.read_csv(DATA_DIR / "pedagogy_benchmark_nyankore_send.csv")
 print(send_dataset.shape)
 send_dataset.head(1)
 
 
 # %%
 ### Format columns
-send_dataset.insert(0, "Source", "SEND Benchmark Luganda") # insert source
+send_dataset.insert(0, "Source", "SEND Benchmark Nyankore") # insert source
 send_dataset.drop(columns = ["question_id"], inplace=True) # remove question number
 #send_dataset.insert(6, "Answer E", None)
 #send_dataset.insert(7, "Answer F", None)
@@ -261,7 +261,7 @@ for i in few_shot_examples_idx_dict['Science']:
     print("-----")
 # %%
 
-language = "Luganda_ep"
+language = "Nyankore"
 
 create_subcsv_cdpk(cdpk_dataset, 
                    folder_path = f"./../data/{language}/CDPK_per_category",

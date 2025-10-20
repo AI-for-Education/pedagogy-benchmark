@@ -40,15 +40,15 @@ def format_example(
 def gen_prompt(
     df, example_rows, question_row, question_col, choice_cols, choices, answer_col
 ):
-    prompt = "The following are example multiple choice questions (with answers).\n\n"
+    prompt = "Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).\n\n"
     for i in example_rows:
         prompt += format_example(df, i, question_col, choice_cols, choices, answer_col)
-    prompt += "Answer the following real question using same answer format: \n"
+    prompt += "Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:\n"
     prompt += format_questions(df, question_row, question_col, choice_cols, choices)
     prompt += (
-        "\n\nOnly answer the real question."
-        "\n\nOnly provide the letter for your answer."
-        "\n\nStop exactly after the letter."
+        "\n\nGarukamu ekibuuzo ekihikire kyonyini."
+        "\n\nHandiika enyuguta yonka y'eky'okugarukamu kyawe."
+        "\n\nHemera ahanyuguta honka."
         # "\nDo not provide any explanation."
         # "\nDo not provide any text at all other than the letter by itself."
     )
