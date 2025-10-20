@@ -109,7 +109,7 @@
 #gpt-4.1-nano: GPT-4.1 Nano
 #gpt-4.1-mini: GPT-4.1 Mini
 #gpt-4.1: GPT-4.1
-o4-mini-2025-04-16: o4-Mini
+#o4-mini-2025-04-16: o4-Mini
 #o3-2025-04-16: o3
 ##gemini-2.5-flash-preview-04-17: Gemini-2.5 Flash Preview (April '25)
 #qwen-3-14b: Qwen-3 14B
@@ -190,4 +190,4 @@ o4-mini-2025-04-16: o4-Mini
 #claude-sonnet-4-5-20250929-low: Claude Sonnet 4.5 Thinking
 #grok-4-fast: Grok-4 Fast
 #gemini-2.5-flash-preview-09-2025: Gemini-2.5 Flash
-#gemini-2.5-flash-lite-preview-09-2025: Gemini-2.5 Flash-Lite
+gemini-2.5-flash-lite-preview-09-2025: Gemini-2.5 Flash-Lite
