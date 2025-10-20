@@ -13,7 +13,7 @@ from cdpk.benchmark_utils import fulldf_accuracy_by_category
 
 load_dotenv(override=True)
 
-language = "Swahili" # Specify the target language here
+language = "Swahili_ep" # Specify the target language here
 
 QUESTIONS_LIST_DICT = {
     "cdpk": [

@@ -1,0 +1,351 @@
+answers,resps,success
+D,D,True
+A,C,True
+D,D,True
+C,C,True
+A,A,True
+D,C,True
+B,C,True
+C,C,True
+A,C,True
+B,B,True
+D,D,True
+D,D,True
+A,"Looking at this question, the teacher wants students to understand the changing and collaborative nature of science through studying technological developments like pacemakers.
+
+Let me analyze each option:
+
+A. Building a model pacemaker - focuses on construction/engineering, not on understanding science as changing and collaborative
+
+B. Research the evolution of pacemakers and create a news article - directly addresses how pacemakers have changed over time (changing nature of science)
+
+C. Create an information panel about recent developments - focuses on recent developments but less emphasis on the evolutionary/collaborative aspect
+
+D. Create a timeline of events including scientists who contributed - directly shows both the changing nature (timeline of developments) AND the collaborative nature (multiple scientists contributing)
+
+Option D best addresses BOTH aspects the teacher wants to emphasize: the changing nature (through the timeline showing evolution) and the collaborative nature (showing multiple scientists' contributions).
+
+D",True
+B,B,True
+D,C,True
+B,B,True
+D,D,True
+A,C,True
+C,C,True
+B,B,True
+D,C,True
+A,C,True
+D,C,True
+D,D,True
+C,C,True
+D,D,True
+A,C,True
+B,B,True
+C,C,True
+B,B,True
+B,B,True
+B,C,True
+D,D,True
+C,C,True
+A,A,True
+B,C,True
+C,C,True
+C,D,True
+C,C,True
+B,B,True
+D,D,True
+C,C,True
+B,D,True
+C,C,True
+B,B,True
+C,C,True
+C,C,True
+C,B,True
+A,C,True
+C,C,True
+C,B,True
+A,C,True
+C,C,True
+B,B,True
+C,C,True
+C,C,True
+B,B,True
+C,B,True
+A,B,True
+A,C,True
+D,D,True
+D,D,True
+C,B,True
+C,C,True
+B,B,True
+B,C,True
+A,C,True
+B,C,True
+B,B,True
+C,C,True
+C,C,True
+B,"Looking at this question, I need to arrange the content from general to specific for teaching genetic information preservation.
+
+Let me analyze each topic:
+1. Crossing-over - specific mechanism during meiosis
+2. Chromosomal permutation - specific type of mutation
+3. Interphase and cell division in somatic and sex cells - general process
+4. Organization of genetic material in cells - most general/foundational
+5. Cell division control points - regulatory mechanisms
+
+From general to specific, the logical sequence would be:
+- Start with how genetic material is organized (4) - most foundational
+- Then discuss the general processes of interphase and cell division (3)
+- Then control mechanisms (5)
+- Then specific mechanisms like crossing-over (1)
+- Finally specific alterations like chromosomal permutations (2)
+
+This gives us: 4 - 3 - 5 - 1 - 2
+
+B",True
+C,C,True
+B,"Looking at the sequence of activities:
+
+1. Teacher proposes demonstrations to discover electrical nature
+2. Teacher asks students about electrical nature and writes answers on board (brainstorming)
+3. Students organized in groups with materials
+4. Teacher directs students to rub balloon with ruler on hair/cloth, then bring near small objects
+5. Students asked to give opinions and write observations
+6. Finally, given time to prepare collectively agreed explanations about electrical nature
+
+The issue is that in step 2, the teacher asks students about the electrical nature and collects answers BEFORE they do the experiment (steps 4-5). This means prior experiences/ideas are not being properly explored before the hands-on investigation begins. The brainstorming happens too early without connecting to what students already know from experience.
+
+D",True
+C,C,True
+C,C,True
+D,C,True
+D,D,True
+C,C,True
+A,C,True
+A,C,True
+D,D,True
+D,D,True
+A,"Looking at this question, students observed two salt dissolution equations and incorrectly concluded that both salts have similar solubility in water. After experimentation, they discovered the solubilities are actually different.
+
+The question asks which option represents the students' misconception about the solubility of these salts.
+
+The students' error was assuming that because both salts dissociate into two ions (Na+ and either Cl- or HCO3-), they would have similar solubility. This shows they believed solubility depends on the number of ions produced.
+
+However, solubility actually depends on the interactions between the solute and solvent molecules, not simply on the number of ions formed.
+
+The misconception is represented by option A - they incorrectly thought it depends on the number of ions that dissociate from each salt.
+
+A",True
+C,C,True
+C,C,True
+C,C,True
+D,D,True
+B,B,True
+C,C,True
+C,C,True
+B,C,True
+D,D,True
+A,C,True
+D,D,True
+D,D,True
+D,C,True
+B,B,True
+D,B,True
+B,B,True
+A,"Looking at this question, I need to analyze what the experimental setup demonstrates versus what the stated goal is.
+
+The goal is to demonstrate **passive transport of both solutes AND solvents** through a membrane.
+
+The setup:
+1. A permeable bag with high concentration sugar solution
+2. Placed in a container with lower concentration sugar solution
+3. Observe what happens after a few minutes
+
+Let me evaluate each option:
+
+A. ""The system doesn't allow showing movement of the solvent"" - This is incorrect because water (solvent) will move through the membrane via osmosis.
+
+B. ""The system only allows movement of water"" - This needs consideration. If the membrane is permeable to both sugar and water, both should move. However, the question asks about the deficiency relative to the stated goal.
+
+C. ""The model doesn't show water movement according to concentration difference"" - This is incorrect because water will move from lower to higher solute concentration (osmosis).
+
+D. ""The model doesn't allow representing movement of particles against the concentration gradient"" - This is correct because passive transport only moves substances DOWN their concentration gradient, not against it. However, this isn't really a deficiency since the goal was to show passive transport, which by definition doesn't go against gradients.
+
+Wait - rereading option B more carefully: If the membrane used is semi-permeable (like typical dialysis tubing used in such experiments), it may only allow water to pass through, not the sugar molecules. This would mean the system only demonstrates solvent (water) movement, not solute (sugar) movement, which fails to fully meet the goal of showing transport of BOTH solutes and solvents.
+
+B",True
+A,A,True
+A,D,True
+C,C,True
+B,"Ili kupinga dhana potofu kwamba ""mkondo wa umeme huisha unavyopita kwenye vifaa,"" wanafunzi wanahitaji kuona ushahidi kwamba mkondo unabaki sawa katika mzunguko wa mfuatano. Shughuli bora ni ile ambayo itaonyesha kwamba hata baada ya kupita kwenye kifaa cha kwanza, mkondo bado upo na una nguvu ya kufanya kazi kwenye kifaa cha pili.
+
+Kwa kulinganisha mwangaza wa balbu mbili **zinazofanana** zilizounganishwa kwa **mfuatano**, wanafunzi wataona kwamba balbu zote mbili zinawaka (ingawa kidogo kuliko balbu moja peke yake), ikionyesha kwamba mkondo hauishi - unazidi kupita kwenye balbu zote mbili. Hii inapinga moja kwa moja dhana kwamba mkondo ""huisha.""
+
+B",True
+B,C,True
+A,"Looking at the learning objective: ""Kutambua umuhimu wa utafiti wa mitetemo ya ardhi (seismolojia) katika ujenzi wa maarifa ya kijiolojia"" - ""To recognize the importance of seismology research in building geological knowledge""
+
+I need to find which activity best aligns with understanding how seismology contributes to geological knowledge.
+
+Let me analyze each option:
+
+A. Explains how seismic wave reflection methods are used to investigate Earth's internal structure - This directly shows how seismology builds geological knowledge about Earth's interior.
+
+B. Explains how earthquake energy travels through different wave types - This is about wave mechanics, not about building geological knowledge.
+
+C. Lists natural causes of earthquakes like tectonic plate interactions - This is about earthquake causes, not about how seismology builds knowledge.
+
+D. Locating earthquake epicenter using triangulation - This is a technical procedure, not about understanding seismology's contribution to geological knowledge.
+
+Option A best demonstrates how seismology research contributes to building geological knowledge by showing its application in understanding Earth's internal structure.
+
+A",True
+D,D,True
+D,C,True
+A,C,True
+B,C,True
+B,C,True
+A,C,True
+B,D,True
+D,C,True
+C,C,True
+B,C,True
+B,C,True
+B,D,True
+C,C,True
+C,C,True
+D,C,True
+B,C,True
+C,C,True
+A,C,True
+B,D,True
+A,A,True
+A,"Looking at the student's answers:
+1. Tumia barakoa zinazofaa kufuliwa (Use reusable bags) - This is REUSE
+2. Panda mimea kwenye vyombo vya siagi (Plant in margarine containers) - This is REUSE
+3. Tenganisha na panga vyombo vitakavyotupwa (Separate recyclable items) - This is RECYCLE
+
+The student is missing REDUCE (Punguza).
+
+The best teacher feedback should:
+- Acknowledge what's good
+- Point out the missing R
+- Guide the student to identify which R is missing and add it
+
+Option A does this by:
+- Praising the examples
+- Asking if all Rs are present
+- Asking which action allows using fewer resources (defining REDUCE)
+- Asking what new action they would propose
+
+A",True
+C,C,True
+A,C,True
+D,C,True
+C,C,True
+B,D,True
+D,D,True
+D,C,True
+B,B,True
+C,C,True
+C,C,True
+C,C,True
+B,B,True
+C,C,True
+D,C,True
+C,C,True
+A,C,True
+B,B,True
+B,C,True
+B,B,True
+C,C,True
+A,A,True
+B,C,True
+C,D,True
+B,C,True
+D,"Looking at this question about the Doppler effect, I need to identify which teacher feedback best helps the student recognize and overcome their misconception.
+
+The student incorrectly states that the speed of sound changes in the Doppler effect because it depends on frequency and wavelength, both of which change.
+
+Let me analyze each option:
+
+A. States that frequency and wavelength change only for the observer, and their product remains constant. This is correct but doesn't guide the student through reasoning.
+
+B. Asks guiding questions: ""What causes changes in frequency and wavelength? Are there any in this case?"" Then states the speed doesn't change, and if frequency increases, wavelength decreases. This uses questioning to guide discovery.
+
+C. Simply states the speed is constant and explains the inverse relationship. More declarative than guiding.
+
+D. Asks ""What makes the speed of sound change? Is there anything in this case?"" Then states that even though frequency and wavelength vary for the observer, propagation speed doesn't change. Ends with a question about how frequency and wavelength change.
+
+Option D provides the best pedagogical approach by:
+1. Using guiding questions to help the student think critically
+2. Addressing the core misconception about what affects sound speed
+3. Clarifying that speed doesn't change while frequency and wavelength do
+4. Ending with a question to promote further thinking
+
+D",True
+B,C,True
+A,C,True
+C,"Looking at this question, the teacher's problem is that students don't understand why they need to include the metal's valence in Roman numerals in the Stock nomenclature system only in some cases (not all cases).
+
+The key issue is: When is it necessary to include Roman numerals and when is it not?
+
+The answer is: Roman numerals are needed when a metal can have multiple oxidation states (multiple valences), but not when the metal has only one possible oxidation state.
+
+Let me evaluate each option:
+
+A. Students calculate oxidation states and reflect on different oxidation state values that metals show - this directly addresses why some metals need Roman numerals (they have variable oxidation states) and others don't.
+
+B. Students name oxides and answer why different metal oxides have different names - too general, doesn't specifically address the ""some cases only"" issue.
+
+C. Uses only copper oxides as examples - copper always has multiple oxidation states, so this doesn't explain why SOME metals need Roman numerals and others don't.
+
+D. Students write possible metal oxides and answer why some metals can combine with oxygen in different amounts - this addresses variable valence, explaining when Roman numerals are necessary versus when they're not.
+
+Both A and D address the core issue, but D more directly connects to the practical question of ""why only in some cases"" by having students discover that some metals form multiple oxides (need Roman numerals) while others don't (don't need Roman numerals).
+
+D",True
+B,C,True
+C,"Looking at this question, I need to identify what prior knowledge is essential for students to achieve the learning objective: ""Connect concentration and mathematical expression of calculating pH in different types of weak acids and bases.""
+
+To calculate pH mathematically for weak acids and bases, students need to:
+- Understand that weak acids/bases don't completely dissociate
+- Set up equilibrium expressions (Ka or Kb)
+- Use the equilibrium constant expression to relate concentration to pH
+
+Let me analyze each option:
+
+A. Relationship between acid strength and its conjugate base - This is related but not the core mathematical prerequisite
+
+B. Representation of dissociation of electrolyte particles - This describes dissociation but doesn't provide the mathematical framework needed
+
+C. Expression of the equilibrium constant of a chemical change - This is essential! The equilibrium constant expression (Ka for acids, Kb for bases) is the mathematical foundation needed to calculate pH from concentration for weak acids/bases
+
+D. Determination of moles in chemical changes of electrolytes - This is about stoichiometry, not the equilibrium mathematics needed for pH calculation
+
+C",True
+C,C,True
+C,C,True
+A,C,True
+B,B,True
+B,C,True
+D,D,True
+D,D,True
+D,C,True
+A,C,True
+D,D,True
+C,C,True
+B,B,True
+D,B,True
+D,D,True
+C,D,True
+D,D,True
+D,C,True
+B,D,True
+C,B,True
+C,C,True
+C,D,True
+A,C,True
+D,D,True
+D,D,True
+B,B,True

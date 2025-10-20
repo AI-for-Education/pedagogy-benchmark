@@ -40,7 +40,7 @@ cdpk_dataset.head(2)
 # %%
 ## SEND mcqs ##
 # get SEND mcqs
-send_dataset = pd.read_csv(DATA_DIR / "pedagogy_benchmark_luganda_send.csv")
+send_dataset = pd.read_csv(DATA_DIR / "pedagogy_benchmark_swahili_send.csv")
 print(send_dataset.shape)
 send_dataset.head(1)
 
@@ -261,7 +261,7 @@ for i in few_shot_examples_idx_dict['Science']:
     print("-----")
 # %%
 
-language = "Swahili"
+language = "Swahili_ep"
 
 create_subcsv_cdpk(cdpk_dataset, 
                    folder_path = f"./../data/{language}/CDPK_per_category",
