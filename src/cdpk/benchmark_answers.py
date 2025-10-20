@@ -40,15 +40,15 @@ def format_example(
 def gen_prompt(
     df, example_rows, question_row, question_col, choice_cols, choices, answer_col
 ):
-    prompt = "The following are example multiple choice questions (with answers).\n\n"
+    prompt = "Eyi ni àwọn àpẹẹrẹ ìbéèrè olópọ̀ yíyàn (pẹ̀lú àwọn ìdáhùn).\n\n"
     for i in example_rows:
         prompt += format_example(df, i, question_col, choice_cols, choices, answer_col)
-    prompt += "Answer the following real question using same answer format: \n"
+    prompt += "Dáhùn ìbéèrè gidi tí ó tẹ̀lé e ní lílo irú ọ̀nà ìdáhùn kan náà:\n"
     prompt += format_questions(df, question_row, question_col, choice_cols, choices)
     prompt += (
-        "\n\nOnly answer the real question."
-        "\n\nOnly provide the letter for your answer."
-        "\n\nStop exactly after the letter."
+        "\n\nDáhùn ìbéèrè gidi nìkan."
+        "\n\nPèsè lẹ́tà fún ìdáhùn rẹ nìkan."
+        "\n\nDúró gẹ́lẹ́ lẹ́yìn lẹ́tà náà."
         # "\nDo not provide any explanation."
         # "\nDo not provide any text at all other than the letter by itself."
     )

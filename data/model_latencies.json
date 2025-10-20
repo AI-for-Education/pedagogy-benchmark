@@ -1,0 +1,32 @@
+{
+    "gemini-2.5-flash-lite-preview-09-2025": {
+        "CDPK_Yoruba_science": 386.21054887771606
+    },
+    "gemma-3-27b": {
+        "CDPK_Yoruba_science": 608.4888551235199
+    },
+    "gemini-2.5-flash-preview-09-2025": {
+        "CDPK_Yoruba_science": 1367.9422783851624
+    },
+    "o4-mini-2025-04-16": {
+        "CDPK_Yoruba_science": 1733.7762970924377
+    },
+    "gemini-2.5-pro-preview-06-05": {
+        "CDPK_Yoruba_science": 2838.623855829239
+    },
+    "gpt-5-2025-08-07-medium": {
+        "CDPK_Yoruba_science": 2948.091495037079
+    },
+    "claude-sonnet-4-5-20250929": {
+        "CDPK_Yoruba_science": 2981.8393144607544
+    },
+    "gemma-3-4b-it": {
+        "CDPK_Yoruba_science": 4255.666651964188
+    },
+    "qwen-3-32b": {
+        "CDPK_Yoruba_science": 7777.083481550217
+    },
+    "fw-deepseek-r1-0528": {
+        "CDPK_Yoruba_science": 7865.806743144989
+    }
+}
