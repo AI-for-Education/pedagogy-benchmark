@@ -1,0 +1,44 @@
+{
+    "CDPK_science": [
+        0,
+        1,
+        2
+    ],
+    "CDPK_literacy": [
+        186,
+        187,
+        188
+    ],
+    "CDPK_creative_arts": [
+        340,
+        341,
+        342
+    ],
+    "CDPK_maths": [
+        490,
+        491,
+        492
+    ],
+    "CDPK_social_studies": [
+        619,
+        620,
+        621
+    ],
+    "CDPK_technology": [
+        732,
+        733,
+        734
+    ],
+    "CDPK_gen_pk": [
+        841,
+        842,
+        843
+    ],
+    "CDPK_send": [
+        0,
+        127,
+        1,
+        2,
+        136
+    ]
+}

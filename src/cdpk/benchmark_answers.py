@@ -123,6 +123,7 @@ def evaluate_model(test_df, config, model, verbose=0):
                 or model.startswith("claude-3-7-sonnet-20250219-thinking-")
                 or model.startswith("o4-mini")
                 or model.startswith("o3-")
+                or model.startswith("gpt-5-")
             ):
                 temperature = 1
             else:

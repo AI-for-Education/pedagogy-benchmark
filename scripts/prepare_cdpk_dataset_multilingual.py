@@ -19,16 +19,9 @@ print(cdpk_dataset.shape)
 cdpk_dataset.head(1)
 
 # %%
-# Separate CDPK and 
 # - format columns: 
 #   - add source, add Answer E, add Answer F, add Answer G (before Correct answer)
 #   - remove question number
-#########################################################################################
-
-
-
-# %%
-### Format columns
 cdpk_dataset.insert(0, "Source", "Pedagogy Benchmark Luganda") # insert source
 cdpk_dataset.drop(columns = ["question_id"], inplace=True) # remove question number
 #cdpk_dataset.insert(6, "Answer E", None)
@@ -41,12 +34,6 @@ cdpk_dataset.drop(columns = ["question_id"], inplace=True) # remove question num
 print(cdpk_dataset.columns.tolist())
 print(cdpk_dataset.shape)
 cdpk_dataset.head(2)
-
-# %%
-# add date of today to the name
-#today = pd.Timestamp.today().strftime("%Y%m%d")
-#cdpk_dataset_6.to_csv(folder_path / f"cdpk_dataset_{today}.csv", index=False)
-#cdpk_dataset_6.to_csv(f"./data/Chile/cdpk_dataset_{today}.csv", index=False)
 
 
 #########################################################################################
@@ -84,6 +71,26 @@ send_dataset.head(2)
 
 cdpk_categories = cdpk_dataset["category"].unique()
 # %%
+# Read json file
+with open(DATA_DIR / "few_shot_examples_idx_dict.json", "r") as f:
+    few_shot_examples_idx_dict = json.load(f)
+
+renamed_keys_dict = {
+    "CDPK_science": "Science",
+    "CDPK_literacy": "Literacy",
+    "CDPK_creative_arts": "Creative arts",
+    "CDPK_maths": "Maths",
+    "CDPK_social_studies": "Social studies",
+    "CDPK_technology": "Technology",
+    "CDPK_gen_pk": "General",
+    "CDPK_send": "SEND",
+}
+
+# invert the dictionary
+few_shot_examples_idx_dict = {
+    renamed_keys_dict[key]: value for key, value in few_shot_examples_idx_dict.items()
+}
+#print(json.dumps(few_shot_examples_idx_dict, indent=2))
 
 def create_subcsv_cdpk(df, folder_path, categories, levels, suffix=""):
 
@@ -99,13 +106,27 @@ def create_subcsv_cdpk(df, folder_path, categories, levels, suffix=""):
             raise ValueError
         else:
             if levels is None:
-                sub_df = df[df["category"] == category].reset_index(drop=True)
                 #save_path = Path(folder_path) / f"CDPK_{category.replace(' PCK', '').replace(' ', '_').lower()}.csv"
 
                 # split df into df_test and df_few_shot
-                idx_few_shot = get_few_shot_examples(sub_df, n_examples=3)
-                df_test = sub_df.drop(index=idx_few_shot).reset_index(drop=True)
-                df_few_shot = sub_df.loc[idx_few_shot].reset_index(drop=True)
+                #idx_few_shot = get_few_shot_examples_new(sub_df, n_examples=3)
+                idx_few_shot = few_shot_examples_idx_dict[category]
+
+                df_few_shot = df.loc[idx_few_shot].reset_index(drop=True)
+                # Remove the few shot examples from the main df, as the indices refer to the original df
+                df_wo_fs = df.drop(index=idx_few_shot).reset_index(drop=True)
+                # Get the sub_df for the current category, which does not have the few-shot examples
+                sub_df = df_wo_fs[df_wo_fs["category"] == category].reset_index(drop=True)
+                df_test = sub_df
+
+                # Test
+                if df_few_shot['category'].nunique() != 1 or df_few_shot['category'].unique()[0] != category:
+                    print("Few-shot examples do not contain the right category!")
+                    raise ValueError
+                if df_test['category'].nunique() != 1 or df_test['category'].unique()[0] != category:
+                    print("Test examples do not contain the right category!")
+                    print(df_test['category'].value_counts())
+                    raise ValueError
 
                 path_test_file = Path(folder_path) / "test" / f"CDPK_{suffix}_{category.replace(' PCK', '').replace(' ', '_').lower()}_test.csv"
                 path_few_shot_file = Path(folder_path) / "dev" / f"CDPK_{suffix}_{category.replace(' PCK', '').replace(' ', '_').lower()}_dev.csv"
@@ -152,40 +173,40 @@ def write_custom_yaml(data, filepath):
     with open(filepath, 'w') as file:
         file.write(yaml_content)
 
-def get_few_shot_examples(df, n_examples):
-    # check that n_examples is a multiple of 3
-    if n_examples % 3 != 0:
-        print("n_examples must be a multiple of 3!")
-        return None
-    # Take n_examples from each age group
-    primary_list = ["Primary", "Primary, Secondary", "Pre-primary, Primary", "All"]
-    secondary_list = ["Secondary", "Primary, Secondary", "All"]
-    preprimary_list = ["Pre-primary", "Pre-primary, Primary", "All"]
+#def get_few_shot_examples(df, n_examples):
+#    # check that n_examples is a multiple of 3
+#    if n_examples % 3 != 0:
+#        print("n_examples must be a multiple of 3!")
+#        return None
+#    # Take n_examples from each age group
+#    primary_list = ["Primary", "Primary, Secondary", "Pre-primary, Primary", "All"]
+#    secondary_list = ["Secondary", "Primary, Secondary", "All"]
+#    preprimary_list = ["Pre-primary", "Pre-primary, Primary", "All"]
+#
+#    df_preprimary = df[df["age_group"].isin(preprimary_list)]
+#    df_primary = df[df["age_group"].isin(primary_list)]
+#    df_secondary = df[df["age_group"].isin(secondary_list)]
+#
+#    # check if there are enough examples in each age group
+#    print("Number of examples in each age group:\n"
+#          f"Pre-primary: {df_preprimary.shape[0]} samples,\n"
+#          f"Primary: {df_primary.shape[0]} samples,\n"
+#          f"Secondary: {df_secondary.shape[0]} samples,\n")
+#
+#    idx_few_shot = []
+#    for df_age in [df_preprimary, df_primary, df_secondary]:
+#        # select random n_examples/3 from each age group while answering the indices selected are unique
+#        idx_few_shot.extend(df_age.sample(n=n_examples//3).index.tolist())
+#        # check that we did not sample the same example twice
+#        while len(set(idx_few_shot)) < len(idx_few_shot):
+#            print("Duplicates found! Re-sampling...")
+#            # remove the last example(s) added
+#            idx_few_shot = idx_few_shot[:int(-n_examples//3)]
+#            idx_few_shot.extend(df_age.sample(n=n_examples//3).index.tolist())
+#    # check
+#    #print(df.loc[idx_few_shot, ["question", "age_group"]])
+#    return idx_few_shot
 
-    df_preprimary = df[df["age_group"].isin(preprimary_list)]
-    df_primary = df[df["age_group"].isin(primary_list)]
-    df_secondary = df[df["age_group"].isin(secondary_list)]
-
-    # check if there are enough examples in each age group
-    print("Number of examples in each age group:\n"
-          f"Pre-primary: {df_preprimary.shape[0]} samples,\n"
-          f"Primary: {df_primary.shape[0]} samples,\n"
-          f"Secondary: {df_secondary.shape[0]} samples,\n")
-
-    idx_few_shot = []
-    for df_age in [df_preprimary, df_primary, df_secondary]:
-        # select random n_examples/3 from each age group while answering the indices selected are unique
-        idx_few_shot.extend(df_age.sample(n=n_examples//3).index.tolist())
-        # check that we did not sample the same example twice
-        while len(set(idx_few_shot)) < len(idx_few_shot):
-            print("Duplicates found! Re-sampling...")
-            # remove the last example(s) added
-            idx_few_shot = idx_few_shot[:int(-n_examples//3)]
-            idx_few_shot.extend(df_age.sample(n=n_examples//3).index.tolist())
-    # check
-    #print(df.loc[idx_few_shot, ["question", "age_group"]])
-    return idx_few_shot
-        
 
 
 def process_csv_and_update_yaml(input_folder, output_folder, yaml_template):
@@ -221,9 +242,6 @@ def process_csv_and_update_yaml(input_folder, output_folder, yaml_template):
 
             # read example csv file to get number of examples
             df = pd.read_csv(os.path.join(input_folder_dev, filename.replace("test", "dev")))
-            # get index of few shot examples
-            #idx_few_shot = get_few_shot_examples(df, n_examples=3)
-            #yaml_content["example_rows"] = idx_few_shot
             yaml_content["example_rows"] = np.arange(len(df)).tolist()
 
             # define where to save the yaml file
@@ -234,8 +252,16 @@ def process_csv_and_update_yaml(input_folder, output_folder, yaml_template):
             print(f'Generated: {output_file_path}')
 
 # %%
+for i in few_shot_examples_idx_dict['Science']:
+    print(f"Index: {i}")
+    print(f"Category: {cdpk_dataset.loc[i, 'category']}")
+    print(f"Question: {cdpk_dataset.loc[i, 'question']}")
+    print(f"Age Group: {cdpk_dataset.loc[i, 'age_group']}")
+    print(f"Correct answer: {cdpk_dataset.loc[i, 'correct_answer']}")
+    print("-----")
+# %%
 
-language = "Luganda"
+language = "Luganda_ep"
 
 create_subcsv_cdpk(cdpk_dataset, 
                    folder_path = f"./../data/{language}/CDPK_per_category",
