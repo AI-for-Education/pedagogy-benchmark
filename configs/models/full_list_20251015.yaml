@@ -1,5 +1,5 @@
 ##o1-preview-2024-09-12: o1-Preview
-o1-mini-2024-09-12: o1-Mini
+#o1-mini-2024-09-12: o1-Mini
 #gpt-4-0613: GPT-4
 #gpt-4o-mini-2024-07-18: GPT-4o Mini
 #gpt-4o-2024-08-06: GPT-4o
@@ -73,7 +73,7 @@ o1-mini-2024-09-12: o1-Mini
 ##fw-deepseek-r1: Deepseek R1
 ##fw-mistral-small-3-instruct: Mistral Small 3 # reran with another provider
 ##o3-mini-low: o3-Mini Low
-o3-mini-medium: o3-Mini # this for the leaderboard
+#o3-mini-medium: o3-Mini # this for the leaderboard
 ##o3-mini-high: o3-Mini High
 #doubao-1.5-pro-32k: Doubao-1.5 Pro
 #doubao-1.5-lite-32k: Doubao-1.5 Lite
@@ -92,7 +92,7 @@ o3-mini-medium: o3-Mini # this for the leaderboard
 #cohere-command-a: Command A
 #jamba-1-6-large: Jamba 1.6 Large
 #jamba-1-6-mini: Jamba 1.6 Mini
-gemma-3-27b: Gemma-3 27B
+#gemma-3-27b: Gemma-3 27B
 ##olmo-2-32b: OLMo-2 32B  # error from high school statistics
 #mistral-small-3-1-24b: Mistral Small 3.1
 #deepseek-v3-0324-fp8: Deepseek V3 March
@@ -126,10 +126,10 @@ gemma-3-4b-it: Gemma-3 4B
 ##learnlm-2.0-flash-experimental: LearnLM 2.0 Flash Exp
 #claude-sonnet-4-20250514-low: Claude Sonnet 4 Thinking # to run on mmlu
 #claude-opus-4-20250514-low: Claude Opus 4 Thinking # to run on mmlu
-#fw-deepseek-r1-0528: Deepseek R1 (May '25)
+fw-deepseek-r1-0528: Deepseek R1 (May '25)
 ##deepseek-r1-0528-fp8-lambda: Deepseek R1 (May '25) Lambda # lower of 3% on CDPK compared to Deepseek R1 (May '25)
 #qwen-3-8b-fp8: Qwen-3 8B
-gemini-2.5-pro-preview-06-05: Gemini-2.5 Pro
+#gemini-2.5-pro-preview-06-05: Gemini-2.5 Pro
 ##fw-deepseek-r1-0528-2nd-run: Deepseek R1 (May '25) 2nd Run
 #magistral-small-2506: Magistral Small
 #magistral-medium-2506: Magistral Medium
@@ -186,8 +186,8 @@ gemini-2.5-pro-preview-06-05: Gemini-2.5 Pro
 #hf-olmo-2-1124-7b-instruct: OLMo-2 7B
 #hf-olmo-2-1124-13b-instruct: OLMo-2 13B
 #hf-olmo-2-0325-32b-instruct: OLMo-2 32B
-claude-sonnet-4-5-20250929: Claude Sonnet 4.5
+#claude-sonnet-4-5-20250929: Claude Sonnet 4.5
 #claude-sonnet-4-5-20250929-low: Claude Sonnet 4.5 Thinking
 #grok-4-fast: Grok-4 Fast
-gemini-2.5-flash-preview-09-2025: Gemini-2.5 Flash
+#gemini-2.5-flash-preview-09-2025: Gemini-2.5 Flash
 gemini-2.5-flash-lite-preview-09-2025: Gemini-2.5 Flash-Lite
