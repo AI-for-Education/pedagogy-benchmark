@@ -1,32 +1,32 @@
 {
     "gemma-3-4b-it": {
-        "CDPK_Hausa_science": 155.81217122077942
+        "CDPK_Hausa_ep_science": 149.7221806049347
     },
     "gemma-3-27b": {
-        "CDPK_Hausa_science": 263.61540722846985
+        "CDPK_Hausa_ep_science": 234.3047912120819
     },
     "gemini-2.5-flash-lite-preview-09-2025": {
-        "CDPK_Hausa_science": 334.11071038246155
-    },
-    "gemini-2.5-flash-preview-09-2025": {
-        "CDPK_Hausa_science": 1148.04390335083
-    },
-    "o4-mini-2025-04-16": {
-        "CDPK_Hausa_science": 1335.182203054428
+        "CDPK_Hausa_ep_science": 473.8406009674072
     },
     "claude-sonnet-4-5-20250929": {
-        "CDPK_Hausa_science": 1465.878998041153
-    },
-    "gemini-2.5-pro-preview-06-05": {
-        "CDPK_Hausa_science": 2352.8290984630585
+        "CDPK_Hausa_ep_science": 730.9353001117706
     },
     "fw-deepseek-r1-0528": {
-        "CDPK_Hausa_science": 2439.1921646595
+        "CDPK_Hausa_ep_science": 1386.6608052253723
     },
-    "gpt-5-2025-08-07-medium": {
-        "CDPK_Hausa_science": 3104.5514256954193
+    "gemini-2.5-flash-preview-09-2025": {
+        "CDPK_Hausa_ep_science": 1363.4284539222717
+    },
+    "o4-mini-2025-04-16": {
+        "CDPK_Hausa_ep_science": 1424.2777352333069
     },
     "qwen-3-32b": {
-        "CDPK_Hausa_science": 10384.686328411102
+        "CDPK_Hausa_ep_science": 1934.3256344795227
+    },
+    "gemini-2.5-pro-preview-06-05": {
+        "CDPK_Hausa_ep_science": 2536.2662761211395
+    },
+    "gpt-5-2025-08-07-medium": {
+        "CDPK_Hausa_ep_science": 2595.257666826248
     }
 }
