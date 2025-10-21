@@ -1,6 +1,27 @@
 
 # Pedagogy Benchmarks
 
+---
+### Added instructions to run multilingual benchmark: This is a base branch to start off for any language
+
+Before running:
+- go to multilingual_base branch
+- create new branch from there: git switch -c new_branch_name
+- copy paste a private `custom_models.yaml` file if needed (to remove after and put public one to not show keys)
+- if needed: translate benchmark with `translate_benchmark.py` or load data from hub with `load_dataset_multilingual.py`
+- prepare dataset with `prepare_cdpk_dataset_multilingual.py` (switch to correct language in variable and take cleaned csv if there is one) to create sub csv and yaml files
+- change/translate prompt in `benchmark_answers.py` (function gen_prompt)
+- run `run_pedagogy_benchmark_multilingual.py` from terminal (uv run .\scripts\run_pedagogy_benchmark_multilingual.py --benchmark cdpk)
+
+After running:
+- remove `custom_models.yaml` if contains private keys
+- save latencies json and rename for latter use
+- save folder of cache_local for latter use
+- git add . / git commit / git push -u origin name_branch [no dvc with this]
+- git switch multilingual_base (and can start again for another language)
+
+---
+
 This repository contains code for the paper [Benchmarking the Pedagogical Knowledge of Large Language Models](https://arxiv.org/abs/2506.18710). 
 
 There is a script to run both the Cross-Domain Pedagogical Knowledge (CDPK) benchmark and the Special Educational Needs and Disabilities (SEND) benchmark. It also contains the code used to extract and preprocess the questions, as described in the paper. 
