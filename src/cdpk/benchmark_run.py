@@ -65,7 +65,7 @@ def run_benchmark(
                 {"answers": answers, "resps": resps, "success": success}
             ).reset_index(drop=True)
             df_res_extra = pd.DataFrame(extra_fields).reset_index(drop=True)
-            df_res = pd.concat([df_res_basic, df_res_extra], axis=1, ignore_index=True)
+            df_res = pd.concat([df_res_basic, df_res_extra], axis=1)
             if use_cache:
                 outfile.parent.mkdir(exist_ok=True, parents=True)
                 df_res.to_csv(outfile, index=False)
