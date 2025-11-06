@@ -13,7 +13,7 @@ from cdpk.benchmark_utils import fulldf_accuracy_by_category
 
 load_dotenv(override=True)
 
-language = "Hausa" # Specify the target language here, translate prompt if needed
+language = "Hausa_new" # Specify the target language here, translate prompt if needed
 
 QUESTIONS_LIST_DICT = {
     "cdpk": [
