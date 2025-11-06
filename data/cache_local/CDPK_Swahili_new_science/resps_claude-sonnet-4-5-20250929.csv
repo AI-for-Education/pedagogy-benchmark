@@ -1,0 +1,1798 @@
+answers,resps,success,Latency,TokensUsed,TokensUsedCompletion,TokensUsedReasoning
+D,D,True,3.3248334999661893,1666,4,0
+A,"Nikiangalia lengo la ujifunzaji: ""Elezea kile kinachotokea kwa ujumla kwa miti ya matunda wakati wa misimu ya mwaka.""
+
+Lengo hili linahitaji wanafunzi:
+- Kueleza mabadiliko yanayotokea kwa miti ya matunda
+- Kuhusisha mabadiliko hayo na misimu tofauti ya mwaka
+
+Nikichambua chaguo:
+
+A. Kuchora mti katika misimu miwili - Hii inawaruhusu wanafunzi kuonyesha mabadiliko wanayoyaona katika misimu tofauti, inakidhi lengo
+
+B. Kugawanya miti kuwa yenye matunda na isiyo na matunda - Hii haihusishi misimu wala mabadiliko kwa wakati
+
+C. Kupaka rangi michoro iliyotayarishwa - Hii ni shughuli ya kupaka rangi tu, haielezi mabadiliko
+
+D. Kuunganisha miti na matunda - Hii inahusu kutambua aina za matunda, si mabadiliko ya misimu
+
+Chaguo A kinafaa zaidi kwa sababu kinawaruhusu wanafunzi kuonyesha na kueleza mabadiliko yanayotokea kwa miti ya matunda katika misimu tofauti.
+
+A",True,11.455238099908456,2179,380,0
+D,"Ili kubaini dhana potofu kuhusu moyo, ninahitaji kuchambua kila chaguo:
+
+A. Moyo unakuwa imara zaidi kupitia michezo - Hii ni kweli. Moyo ni misuli na inakuwa imara zaidi kupitia mazoezi.
+
+B. Moyo wa mtu ni ukubwa wa ngumi yake - Hii ni kweli kwa ujumla. Moyo wa mtu mzima ni karibu ukubwa wa ngumi yake.
+
+C. Moyo huruhusu damu kubeba oksijeni kupeleka kwenye mwili - Hii ni kweli. Moyo hupiga damu yenye oksijeni kupitia mwili.
+
+D. Moyo huzalisha damu inayoenda kwa kiumbe kizima - Hii ni DHANA POTOFU. Moyo hauzalishi damu; moyo hupiga/kusambaza damu tu. Damu huzalishwa kwenye sehemu nyingine za mwili (kama vile ubongo wa mifupa).
+
+D",True,8.229801499983296,1995,287,0
+C,"Ninaangalia swali hili kwa makini:
+
+Mwalimu anauliza watoto: ""Nini kitatokea tukiziweka katika maji?""
+
+Swali hili linawaomba watoto wafikirie na kusema watakavyodhani kitatokeatokea kabla ya kufanya jaribio halisi. Hii ni dhana ya **utabiri** - kutoa mawazo ya awali kuhusu matokeo ya jaribio kabla halijafanywa.
+
+Hebu niangalie chaguo zingine:
+- A (Majaribio) - Hii ni kitendo cha kufanya jaribio, si ujuzi unaokuzwa na swali
+- B (Uchunguzi wa kuongozwa) - Hii ni mbinu ya kufundisha, si ujuzi maalum
+- D (Ulinganisho wa habari) - Hii ingehusisha kulinganisha taarifa zilizokwisha patikana
+
+Swali ""Nini kitatokea...?"" linawahimiza watoto kuunda **utabiri** kuhusu matokeo.
+
+C",True,11.249395299935713,2064,293,0
+A,"Katika hali hii, mwalimu anaonyesha jinsi mafuta na gliserini yanavyopanda juu wakati maji yanabaki chini. Hii inaonyesha tofauti za uzito wa maada hizi tofauti - yaani, baadhi ya maada ni nyepesi kuliko zingine na hivyo huelea juu, wakati nyingine ni nzito zaidi na huzama chini. Hii ni sifa ya msongamano (density) - maada yenye msongamano mdogo huelea juu ya maada yenye msongamano mkubwa.
+
+A",True,6.555389299988747,1810,162,0
+D,"Ili kujibu swali hili, ninahitaji kuelewa mabadiliko ya hali ya maji:
+
+1. **Ufindishaji** - ni mabadiliko kutoka hali ya gesi (mvuke) hadi hali ya kioevu (maji)
+2. **Uvukizaji** - ni mabadiliko kutoka hali ya kioevu hadi hali ya gesi
+3. **Ugandishaji** - ni mabadiliko kutoka hali ya kioevu hadi hali ya kiganda (barafu)
+4. **Kuyeyushwa** - ni mabadiliko kutoka hali ya kiganda hadi hali ya kioevu
+
+Sasa naangalia kila chaguo:
+
+A. Theluji (kiganda) inaanguka juu ya maji (kioevu) - hii si mfano wa ufindishaji
+B. Barafu (kiganda) inabadilika kuwa mvuke (gesi) - hii ni uvukizaji moja kwa moja
+C. Maji ya bahari (kioevu) yanapoa na kubadilika kuwa barafu (kiganda) - hii ni ugandishaji
+D. Mvuke (gesi) wa chemchemi ya maji moto unaloanisha mawe - hapa mvuke unabadilika kuwa maji kwenye mawe, ambayo ni mabadiliko kutoka gesi hadi kioevu
+
+**Ufindishaji** ni mabadiliko kutoka mvuke (gesi) hadi maji (kioevu).
+
+D,",True,10.544054899830371,2057,405,0
+B,"Kulingana na maelezo, tunazungumzia mabadiliko ya hali ya maada kutoka **yabisi hadi gesi**.
+
+Hebu tuangalie kila chaguo:
+- **Ufinyu maji (A)**: Ni mabadiliko kutoka gesi hadi kioevu (maji)
+- **Unyevukaji (B)**: Ni mabadiliko kutoka kioevu hadi gesi
+- **Uvukizi (C)**: Ni mabadiliko kutoka **yabisi hadi gesi** (mfano: barafu ya CO₂ - dry ice)
+- **Muunganisho (D)**: Ni mabadiliko kutoka gesi hadi yabisi
+
+Jibu sahihi ni:
+
+C",True,6.270079300040379,1799,200,0
+C,C,True,3.668117699911818,1675,4,0
+A,"Kwa kujibu swali kuhusu chanzo kikuu cha mawimbi makubwa baharini:
+
+Mawimbi makubwa baharini husababishwa hasa na upepo. Upepo unapovuma juu ya uso wa maji, huhamisha nishati kwa maji na kusababisha mawimbi. Kadiri upepo unavyokuwa na nguvu zaidi na kuvuma kwa muda mrefu zaidi, ndivyo mawimbi yanavyokuwa makubwa zaidi.
+
+Ingawa kani ya uvutano ya Mwezi husababisha maji kupanda na kushuka (tides/maji ya kupanda na kushuka), hii si chanzo kikuu cha mawimbi makubwa yanayoonekana katika video ya siku ya kawaida.
+
+A,",True,8.25462709995918,1912,209,0
+B,"Swali hili linahusu tukio linalosababishwa na mwelekeo wa mhimili wa Dunia ambao husababisha nusudunia ya kaskazini na kusini kuangazwa isivyolingana na Jua wakati Dunia inalizunguka.
+
+Hebu tuchambue:
+- Mwelekeo wa mhimili wa Dunia (axial tilt)
+- Nusudunia kuangazwa isivyolingana na Jua
+- Dunia inalizunguka Jua
+
+Hii inaelezea sababu ya majira ya mwaka. Wakati Dunia inazunguka Jua, mwelekeo wa mhimili husababisha baadhi ya maeneo kupata mwangaza zaidi wa Jua wakati fulani wa mwaka (kiangazi) na mwangaza kidogo wakati mwingine (majira ya baridi).
+
+B",True,7.551267599919811,1904,242,0
+D,"Kwa kuzingatia hali iliyoelezwa, Ignacio anaeleza uhusiano ambapo kichele hupata ulinzi kutoka kwa mwani wa bahari dhidi ya wanyama wanaowinda, na mwani pia unalindwa kwa sababu kichele huwafukuza samaki wengine wanaouwindia. Huu ni uhusiano ambapo spishi zote mbili zinafaidika - kichele anapata ulinzi na mwani anapata ulinzi pia.
+
+Hii ni aina ya uhusiano wa kibiolojia unaoitwa ushirikiano wa kunufaishana (mutualism), ambapo spishi zote mbili zinafaidika kutokana na uhusiano huo.
+
+D",True,7.5881449999287724,1959,201,0
+D,D,True,3.0310887000523508,1646,4,0
+A,"Kwa kuangalia lengo la mwalimu ambalo ni kuwaelimisha wanafunzi kuhusu hali ya sayansi ya kubadilika na ya pamoja kupitia maendeleo ya kiteknolojia kama vile pacemakers, ninahitaji kutambua ni shughuli ipi inayotoka nje ya lengo hili.
+
+A. Kutengeneza mfumo wa kielelezo - Inalenga ujuzi wa kiufundi lakini si moja kwa moja kuhusu hali ya sayansi ya kubadilika
+B. Kufanya utafiti na kuunda karatasi ya habari - Inaweza kujumuisha mageuko ya pacemakers (sayansi inayobadilika)
+C. Kutengeneza paneli ya kutoa habari kuhusu maendeleo ya hivi karibuni - Inalenga moja kwa moja hali ya sayansi ya kubadilika
+D. Kutengeneza ratiba ya matukio inayojumuisha wanasayansi - Inalenga historia na mchango wa wanasayansi, ikionyesha sayansi kama juhudi ya pamoja na inayobadilika
+
+Shughuli A inaelekeza zaidi kwenye ujuzi wa kiufundi wa kutengeneza mfumo wa kielelezo badala ya kuelewa hali ya sayansi ya kubadilika na ya pamoja.
+
+A",True,10.059875400038436,2166,371,0
+B,"Ili kuelewa mwako kama kipengele cha kinga asilia, wanafunzi wanahitaji kwanza kuelewa dhana za msingi za kinga asilia (innate immunity) kabla ya kuendelea kwenye kinga iliyojengwa (adaptive immunity).
+
+Kinga asilia ni mstari wa kwanza wa ulinzi na inajumuisha:
+- Vizuizi vya kimwili (ngozi, membranes za mucous)
+- Majibu ya haraka ya mwili kwa majeraha au maambukizi
+- Seli kama neutrofili na makrofagi ambazo hufanya fagositozi
+
+Mwako ni sehemu ya majibu ya kinga asilia - ni ishara ya mwili unajaribu kupambana na majeraha au maambukizi kupitia:
+- Kuongezeka kwa mtiririko wa damu
+- Kuongezeka kwa joto
+- Uvimbe
+- Maumivu
+
+Kati ya chaguo zilizotolewa:
+- A na D zinahusu kinga iliyojengwa (adaptive immunity) - antijeni, limfositi, kingamwili
+- C inahusu kinga iliyojengwa - uundaji nakala wa seli za T
+- B inahusu neutrofili kufanya fagositozi - hii ni dhana ya msingi ya kinga asilia
+
+B,",True,12.725040699820966,2034,359,0
+D,"Ili kutathmini kama wanafunzi wamehitimisha kuhusu uhusiano kati ya kazi ya mfumo wa mmeng'enyo wa chakula na mahitaji ya lishe ya seli, tunahitaji shughuli ambayo inaonyesha mchakato mzima - kutoka kwa mmeng'enyo wa chakula hadi matumizi ya virutubisho na seli.
+
+Hebu tuchambue kila chaguo:
+
+A. Uhusiano wa lipasi na lipidi - hii inazingatia tu mmeng'enyo wa lipidi, si uhusiano kamili na mahitaji ya seli
+
+B. Jaribio la amilasi ya mate kwenye wanga - hii inazingatia tu hatua moja ya mmeng'enyo, si uhusiano na seli
+
+C. Vigezo vya jaribio la pepsin kwenye protini - hii pia inazingatia tu mmeng'enyo wa protini, si uhusiano na seli
+
+D. Grafu ya mabadiliko ya sukari katika damu baada ya kula vyakula vyenye wanga - hii inaonyesha mchakato mzima: wanga inaliwa, inamenga'nywa, sukari inaingia damuni, na kisha inatumika na seli (ndio maana sukari inabadilika/kupungua damuni)
+
+D,",True,11.376832500100136,2071,358,0
+B,"Ili kutambua dhana potofu (misconception) ya wanafunzi kuhusu mikrobiota, tunahitaji kuchagua jibu linaloonyesha uelewa usio sahihi au wa kawaida ambao wanafunzi wanaweza kuwa nao.
+
+Hebu tuchambue kila chaguo:
+
+A. ""Vipukute vinasadifu bakteria"" - Hii ni dhana potofu ya kawaida kwamba vipukute vinaondoa bakteria zote, wakati kwa kweli vipukute vinaondoa uchafu lakini si bakteria zote.
+
+B. ""Bakteria huleta madhara kwa viumbe hai"" - Hii ni dhana potofu ya kawaida sana kwamba bakteria zote ni mbaya, wakati kwa kweli bakteria nyingi ni za manufaa (kama mikrobiota).
+
+C. ""Mikrobiota inawezesha unyonyaji wa virutubisho kwenye utumbo"" - Hii ni ukweli sahihi, si dhana potofu.
+
+D. ""Antibiotiki huua bakteria hatari na yenye faida kwa mwili"" - Hii ni ukweli sahihi kuhusu jinsi antibiotiki inavyofanya kazi.
+
+Kwa kuwa swali linataka dhana POTOFU, na profesa anataka kueleza jukumu la manufaa la mikrobiota, dhana potofu inayohitaji kusahihishwa ni kwamba bakteria zote ni mbaya.
+
+B",True,11.486793500138447,2053,392,0
+D,D,True,4.3260975000448525,1709,4,0
+A,"Ili kuelewe mchakato wa plasmolysis, wanafunzi wanahitaji kufanya jaribio ambalo linaonyesha seli kupoteza maji wakati wa kuwekwa katika mazingira ya hypertonic (maji ya chumvi). Plasmolysis ni mchakato ambapo seli za mimea hupoteza maji na protoplast inakunjwa kutoka kwenye ukuta wa seli.
+
+Kati ya machaguo yaliyotolewa:
+
+A. Viazi katika maji ya chumvi - Hii itaonyesha plasmolysis kwani seli za viazi zitapoteza maji katika suluhisho la hypertonic
+B. Nyama katika maji ya chumvi - Nyama haina seli za mimea zenye ukuta wa seli, hivyo hazionyeshi plasmolysis vizuri
+C. Karoti katika maji yaliyochujwa - Maji yaliyochujwa ni hypotonic, hivyo seli zitachukua maji (turgor) si plasmolysis
+D. Yai katika maji yaliyosafishwa - Yai halina seli za mimea, na maji yaliyosafishwa ni hypotonic
+
+Jibu sahihi ni A, kwani viazi vina seli za mimea na maji ya chumvi yataonyesha plasmolysis.
+
+A.",True,11.190190499881282,2145,359,0
+C,"Kwa kuangalia lengo la ujifunzaji: ""Kuelezea kwamba viumbe hai vinaundwa na seli moja au zaidi na kwamba seli hizi hupangwa katika tishu, viungo, na mifumo.""
+
+Lengo hili linazingatia:
+1. Viumbe hai vina seli moja au zaidi
+2. Mpangilio wa seli: seli → tishu → viungo → mifumo
+
+Kiashiria kinachohusiana moja kwa moja na lengo hili ni:
+
+C",True,4.521542500006035,1894,148,0
+B,"B,",True,2.728046099888161,1796,5,0
+D,"Ili kufikia ujifunzaji unaoendelea katika kuelewa muundo wa atomu, mtiririko unapaswa kuwa:
+
+1. Kwanza, wanafunzi wajifunze kuhusu mageuzi ya kihistoria ya mfumo wa atomu (shughuli 3)
+2. Kisha walinganishe mifumo tofauti (shughuli 4)
+3. Baadaye wasoma na kuchambua mfumo wa sasa (shughuli 1)
+4. Mwishowe watekeleze ujuzi kwa kutatua matatizo (shughuli 2)
+
+Hii inafuata mtiririko wa kimantiki kutoka kuelewa kihistoria hadi utekelezaji wa vitendo.
+
+D",True,7.267624999862164,2059,203,0
+A,"Ili kuelewa dhana ya halijoto (temperature), ni muhimu kwanza kuelewa dhana ya joto (heat) na jinsi inavyohusiana na harakati za chembe. Nishati ya mwendo (kinetic energy) ya chembe ndio msingi wa kuelewa joto na halijoto. Halijoto ni kipimo cha wastani wa nishati ya mwendo ya chembe katika kitu. Bila kuelewa nishati ya mwendo, ni vigumu kuelewa halijoto.
+
+A,",True,6.505418799817562,1742,136,0
+D,"Ili kupinga dhana potofu kwamba moto mkali zaidi utaiva tambi haraka zaidi kwa sababu maji yatakuwa ""moto zaidi,"" wanafunzi wanahitaji kujifunza kwamba maji yanachemka kwa joto la kawaida (kiwango cha kuchemka) bila kujali ukali wa moto. Moto mkali zaidi hauongezi joto la maji zaidi ya kiwango cha kuchemka - unafanya tu maji yavukize haraka zaidi.
+
+Shughuli inayofaa zaidi ni ile ambayo itawaonyesha wanafunzi kwamba joto la maji yanapofikia kiwango cha kuchemka linabaki sawa hata kama moto ni mkali zaidi.
+
+Chaguo D linaelezea jaribio ambapo wanafunzi watapima joto kila sekunde thelathini wakati maji yanapashwa moto kwa ukali mkali. Hii itawaonyesha kwamba joto linafika hatua fulani (100°C) na kubaki hapo, hata kama moto unaendelea kuwa mkali - hivyo kuonyesha kwamba moto mkali zaidi hauongezi joto la maji zaidi ya kiwango cha kuchemka.
+
+D",True,12.015575699973851,2255,337,0
+D,"Kwa kuangalia lengo la mwalimu ambalo ni wanafunzi ""kubuni uchunguzi wa majaribio,"" hii inamaanisha wanafunzi wanapaswa kuwa na uhuru wa kuunda na kupanga jaribio lao wenyewe, sio kufuata maagizo tu.
+
+Chaguo A: Wanafunzi wanatambua vigezo na kubainisha njia ya kurekodi data - hii inaonyesha wanafunzi wanabuni uchunguzi wao wenyewe kwa kutambua vigezo na kupanga jinsi ya kukusanya data.
+
+Chaguo B: Wanafunzi wanapewa mwongozo wa kazi wa kupima - hapa wanafuata maagizo, si kubuni wenyewe.
+
+Chaguo C: Wanafunzi wanaambiwa waweke kizuizi na kupima - hapa pia wanafuata maagizo ya mwalimu, si kubuni wenyewe.
+
+Chaguo D: Wanafunzi wanaombwa kubainisha hatua za kuweka uhusiano - hii inaonyesha wanafunzi wanapanga utaratibu wao wenyewe wa uchunguzi.
+
+Kati ya A na D, chaguo A linazingatia zaidi mchakato wa kubuni uchunguzi (kutambua vigezo na njia ya kurekodi data) ambayo ni sehemu muhimu ya kubuni jaribio.
+
+A",True,11.641516200033948,2357,393,0
+C,"Ili kutathmini kama wanafunzi wanaelewa kwamba ushahidi wa kimajaribio ni wa msingi katika ujenzi wa maarifa, mwalimu anahitaji kuona kama wanafunzi wanaweza kutumia ushahidi huo kujenga maarifa (hitimisho). Kiashiria kinachofaa zaidi ni:
+
+C",True,5.31214589998126,1862,104,0
+D,B,True,3.1324181999079883,1739,4,0
+A,"Ili kuelewa dhana ya ushirikiano-anza (proto-cooperation), tunahitaji kuelewa kwamba huu ni ushirikiano ambao unafaidisha spishi zote mbili zinazohusika, lakini siyo wa lazima - spishi zinaweza kuishi bila ya ushirikiano huu.
+
+Hebu tuchambue kila chaguo:
+
+A. Ndege na wadudu - Ndege anapata usafi wa kiota, wadudu wanapata chakula. Huu ni ushirikiano lakini siyo wa lazima kwa spishi zote mbili.
+
+B. Wanyama wanaofua na bakteria - Huu ni mutualism wa lazima (obligate mutualism) kwa sababu wanyama hawawezi kumeng'enya selulosi bila bakteria hawa. Siyo proto-cooperation.
+
+C. Okidi na mti - Huu ni commensalism (okidi inafaidika, mti hauathiriwi). Siyo ushirikiano kwa sababu mti haupati faida.
+
+D. Bakteria wa Rhizobium na mikunde - Huu pia ni mutualism wa karibu sana wa lazima. Bakteria wanapata virutubisho, mimea inapata naitrojeni. Huu ni uhusiano wa karibu sana.
+
+Chaguo A linaonyesha uhusiano ambao unafaidisha pande zote mbili lakini siyo wa lazima - ndege anaweza kuishi bila wadudu hawa, na wadudu wanaweza kupata chakula mahali pengine.
+
+A",True,13.339778299909085,2223,409,0
+B,"Ili kutathmini kama wanafunzi wanatambua mambo yanayodhibiti usanisinuru (photosynthesis), mwalimu anahitaji kuona kama wanafunzi wanaelewa kwamba:
+
+1. Mwanga wa rangi tofauti una athari tofauti kwa usanisinuru
+2. Klorofili (pigmenti katika mimea) hufyonza mwanga wa bluu na nyekundu vizuri zaidi kuliko mwanga wa kijani
+3. Mwanga wa kijani hureflektiwa (ndiyo sababu mimea inaonekana kijani)
+
+Kwa hivyo, mmea B (unaoangazwa na mwanga wa bluu) unatarajiwa kukua zaidi kwa sababu mwanga wa bluu unafyonzwa vizuri zaidi na klorofili na kutumiwa kwa ufanisi zaidi katika usanisinuru.
+
+Jibu sahihi ni:
+
+B",True,9.133107899921015,2232,259,0
+C,"Ili kujibu swali hili, ninahitaji kuelewa ni dhana gani potofu ingeweza kufanya utaratibu wa majaribio kuhusu uhusiano wa antijeni na kingamwili usifanye maana au usihitajike.
+
+Katika mfumo wa kinga:
+- Kila limfosaiti B hutengeneza kingamwili maalum kwa antijeni fulani (A ni sahihi)
+- Kingamwili ni maalum kwa antijeni fulani (B ni sahihi)
+- Limfosaiti za B huzalisha kingamwili maalum kwa antijeni fulani (D ni sahihi)
+
+Ikiwa viini vya kinga vingeweza kuingiliana na aina yoyote ya antijeni (C), basi hakutakuwa na umuhimu wa kufanya majaribio kuhusu uhusiano maalum kati ya antijeni na kingamwili, kwa sababu kila kingamwili ingeweza kufanya kazi dhidi ya antijeni yoyote. Hii ingeondoa haja ya utaratibu wa majaribio unaochunguza uhusiano maalum.
+
+C",True,9.591887000016868,1996,312,0
+B,"Ili kuelewa jinsi homoni zinavyoanzisha mwitikio katika seli lengwa, wanafunzi wanahitaji kwanza kuelewa asili ya kikemikali ya homoni. Asili ya kikemikali (kama vile homoni za protini/peptidi dhidi ya homoni za steroidi) inaamua jinsi homoni inavyoingiliana na seli lengwa - ama kupitia vipokeaji vya uso wa seli au kupitia vipokeaji vya ndani ya seli. Hii ni msingi wa kuelewa utaratibu wa kuanzisha mwitikio.
+
+B",True,7.77895769989118,1805,161,0
+B,"Swali linahusu mabadiliko ya kifizikia yatakayoonekana kwa mwanamke ambaye amepewa dawa inayozuia utendaji kazi wa GnRH (Gonadotropin-Releasing Hormone).
+
+GnRH ni homoni ya hipothalamasi inayodhibiti utoaji wa homoni nyingine za uzazi. Kuzuia GnRH kutaathiri moja kwa moja udhibiti wa hipothalamasi juu ya mzunguko wa ovari na mfuko wa uzazi.
+
+Swali linahitaji wanafunzi kuelewa jinsi hipothalamasi inavyodhibiti mzunguko wa uzazi kupitia GnRH, na matokeo ya kuzuia udhibiti huu.
+
+B",True,6.176233600126579,1993,206,0
+B,"Ili kutathmini uwezo wa wanafunzi wa kubaini vigezo vya utafiti, shughuli lazima iwawezesha wanafunzi kutambua na kueleza vigezo tegemezi, huru, na vilivyodhibitiwa katika utafiti wa kisayansi.
+
+Kwa kuchambua kila chaguo:
+
+A. Uundaji wa kichujio - hii ni shughuli ya vitendo lakini haihusishi kubaini vigezo vya utafiti
+B. Kutabiriwa kwa matokeo ya utafiti - hii inahitaji kubaini vigezo (mambo yanayoathiri = vigezo huru, unywaji wa pombe mapema = kigezo tegemezi)
+C. Ujenzi wa mfumo wa kinadharia - hii inahusu kuunda nadharia, si kubaini vigezo vya utafiti
+D. Uundaji wa vielelezo - hii ni kuonyesha mchakato wa kibiolojia, si kubaini vigezo vya utafiti
+
+B,",True,9.715225100051612,2041,284,0
+D,"Swali hili linahusu kutambua ni utendaji gani wa wanafunzi utakaooonyesha maendeleo ya maarifa ya kisayansi kuhusu DNA, kwa kuzingatia michango ya wanasayansi waliotajwa.
+
+Wanasayansi waliotajwa (Miescher, Feulgen, Levene, Griffith, Avery, Hershey, na Chase) walifanya kazi ya msingi katika kugundua na kuthibitisha kwamba DNA ndiyo molekuli inayobeba taarifa za urithi. Majaribio yao yalionyesha hatua kwa hatua jinsi maarifa yalivyojengwa kuhusu DNA kama molekuli ya urithi.
+
+Chaguo A - Kuhusu mzunguko wa seli (si moja kwa moja na michango yao)
+Chaguo B - Kuhusu mtiririko wa habari za kijeni (zaidi ya michango yao ya msingi)
+Chaguo C - Kuhusu mfumo wa DNA (zaidi ya michango yao ya awali)
+Chaguo D - Kuhusu majaribio yanayoonyesha DNA kama molekuli ya urithi (hii inakubaliana moja kwa moja na kazi ya wanasayansi hawa)
+
+D",True,10.52266400004737,2157,352,0
+C,"Ili kufikia lengo la kutambua mabadiliko ya kijenetiki yanayodhibiti ueneaji na utofautishaji wa seli katika saratani, mwalimu anahitaji kupanga shughuli kutoka rahisi hadi tata:
+
+- Shughuli ya 1 (Jenga mchoro wa mzunguko wa seli) ni ya msingi - inaanzisha misingi ya mzunguko wa seli
+- Shughuli ya 2 (Tambua dhana za ueneaji na utofautishaji) ni ya kati - inajengwa juu ya uelewa wa mzunguko wa seli
+- Shughuli ya 3 (Unganisha ushiriki wa jeni katika saratani) ni ya juu zaidi - inahitaji uelewa wa vyote viwili hapo awali ili kuunganisha na saratani
+
+Mpangilio wa kimantiki ni: 1 (msingi wa mzunguko wa seli) → 2 (dhana za ueneaji/utofautishaji) → 3 (kuunganisha na saratani)
+
+A",True,7.8120444000232965,2069,288,0
+A,"Kwa kuangalia muundo wa swali, mwalimu anaanza kwa kutambua mawazo ya awali ya wanafunzi (wote walisema balbu B itatoa mwanga zaidi). Kisha anapendekeza shughuli ya pili ambapo wanafunzi watafanya majaribio na kujadili matokeo, wakiyalinganisha na mitazamo yao ya awali na dhana zao.
+
+Lengo kuu la shughuli ya pili ni kusababisha wanafunzi waone tofauti kati ya kile walichodhani na kile kilichotokea kweli katika jaribio. Hii inasababisha mgongano wa kiakili (cognitive conflict) ambao unawasaidia wanafunzi kubadilisha au kurekebisha dhana zao.
+
+A,",True,7.741618199972436,2067,216,0
+B,"Ili kutathmini swali hili, ninahitaji kuchambua lengo la ujifunzaji: ""Kuchambua kwa uhakiki modeli ya chembechembe ya nuru ili kuelezea na kufafanua matukio ya mwanga, wakielewa kwamba modeli zinatoa faida na wakati huo huo mapungufu.""
+
+Lengo hili linahitaji:
+1. Kutumia modeli ya chembechembe ya nuru
+2. Kuelezea matukio ya mwanga
+3. Kuelewa faida NA mapungufu ya modeli hiyo
+
+Nichambue kila chaguo:
+
+A. Mtawanyiko na upolari - Matukio haya ni magumu kuelezewa kwa modeli ya chembechembe (mapungufu ya modeli yataonekana)
+
+B. Uakisi na mtengano - Matukio haya yanaweza kuelezewa kwa modeli ya chembechembe, lakini mtengano ni mgumu (mapungufu yataonekana)
+
+C. Mwelekeo (refraction) na mng'ao (reflection) - Matukio haya mawili yanaweza kuelezewa vizuri kwa modeli ya chembechembe (faida), lakini pia kuna mapungufu
+
+D. Uundaji wa picha katika vioo na lenzi - Hii inazungumzia optiki ya kijiometri kwa ujumla, lakini haionyeshi wazi jinsi modeli ya chembechembe inavyokuwa na faida na mapungufu
+
+Chaguo A linaonyesha wazi mapungufu ya modeli kwa sababu mtawanyiko na upolari ni vigumu sana kuelezewa kwa modeli ya chembechembe.
+
+A,",True,13.957874499959871,2385,458,0
+C,"Ili kufikia lengo la mwalimu la kuwafanya wanafunzi waelewe jinsi mfumo wa Copernicus wa jua kuwa kitovu ulivyotokana na ukosoaji wa mfumo wa Ptolemy wa dunia kuwa kitovu, shughuli inayofaa zaidi ni ile ambayo itaonyesha wazi kasoro za mfumo wa Ptolemy na jinsi mfumo wa Copernicus unavyozishughulikia.
+
+Chaguo C kinawasilisha video ya mwendo wa kururi nyuma wa sayari (retrograde motion) - ambao ulikuwa tatizo kubwa kwa mfumo wa Ptolemy na ulihitaji maelezo magumu ya epicycles. Kwa kuwaonyesha wanafunzi jambo hili na kuwauliza waeleze kile wanachokiona kutoka kwa mitazamo yote miwili, wanafunzi wataweza kuona jinsi mfumo wa Copernicus unavyoelezea kwa urahisi zaidi mwendo huu wa kurudi nyuma, na hivyo kuelewa jinsi ulivyotokana na ukosoaji wa mfumo wa Ptolemy.
+
+C",True,9.949660199927166,2188,309,0
+C,"Ili kuchambua kwa kina kanuni ya uhifadhi wa nishati ya mitambo, wanafunzi wanahitaji kushughulikia mabadiliko kati ya aina za nishati (nishati ya uwezo na nishati ya mwendo) na kuchunguza jinsi nishati inavyohifadhiwa katika mfumo.
+
+Chaguo A: Inachunguza mwendo tu, si mabadiliko ya nishati
+Chaguo B: Inapima kasi tu, si uhifadhi wa nishati
+Chaguo C: Inachunguza kimo cha juu tu, lakini haichambui kwa kina mabadiliko ya nishati
+Chaguo D: Inawaruhusu wanafunzi kubainisha na kuchambua nishati ya mwendo na nishati ya uwezo wakati toroli linasonga, ambayo ni msingi wa kuelewa uhifadhi wa nishati ya mitambo
+
+D",True,8.336535100126639,1992,267,0
+C,"Nikiangalia shughuli iliyoelezwa, wanafunzi wanafanya yafuatayo:
+- Wanabainisha kwa majaribio kipimo cha unyumbufu cha sping (kufanya majaribio)
+- Wanarekodi matokeo kwenye jedwali (kukusanya na kuandaa data)
+- Wanabainisha viwango vya nguvu ambapo sping inatii sheria ya Hooke (kuchambua data)
+- Wanaandaa ripoti kwa mfumo wa bango (kuwasilisha matokeo)
+- Wanawasilisha kwa wanafunzi wenzao (mawasiliano)
+
+Stadi inayoendelezwa moja kwa moja ni:
+- Kutafsiri data (jedwali)
+- Kuhoja kwa kutumia ushahidi (kubainisha viwango vya sheria ya Hooke)
+- Kuwasilisha kwa mdomo na kwa maandishi (bango na uwasilishaji)
+
+Hii inaendana na chaguo C: Tafsiri na hoja kwa kutumia ushahidi kutoka kwa uchunguzi wa kisayansi, kwa mdomo na kwa maandishi, ikijumuisha majedwali, grafu, modeli, na TEHAMA.
+
+C,",True,9.041305999970064,2342,351,0
+B,"Kwa kuangalia lengo la mwalimu la kuwafanya wanafunzi waelewe uanzishwaji wa sheria kupitia uchunguzi wa uhusiano kati ya vigezo vya kifizikia, nahitaji kuchagua shughuli ambayo:
+
+1. Inaruhusu wanafunzi kuchunguza uhusiano kati ya vigezo (volteji, mkondo, upinzani)
+2. Inawawezesha kuona jinsi sheria inavyoanzishwa kutoka kwa data ya kimajaribio
+3. Inakuza ujuzi wa kuchunguza na kubaini mifumo
+
+Chaguo A: Wanafunzi wanaunda grafu tayari wakijua kwamba upinzani ni kipimo kisichobadilika - hii ni kuthibitisha sheria, si kuianzisha.
+
+Chaguo B: Wanafunzi wanaunda grafu kutoka jedwali la data ya kimajaribio na kuifasiri - hii inawawezesha kuona uhusiano na kuanzisha sheria kutoka kwa uchunguzi wao wenyewe.
+
+Chaguo C: Wanafunzi wanapewa data tayari iliyopimwa - hii ni mahesabu tu, si uchunguzi wa kuanzisha sheria.
+
+Chaguo D: Wanafunzi wanathibitisha thamani zilizotolewa na mtengenezaji - hii ni uthibitishaji, si uanzishaji wa sheria.
+
+B",True,11.182726700091735,2249,399,0
+D,"Kwa kuangalia maandishi yaliyotolewa, ambayo yanaeleza historia ya maendeleo ya injini ya mvuke kutoka karne ya 17, tukiangalia jinsi wanasayansi mbalimbali walivyochangia maboresho ya teknolojia hii katika muktadha wa mahitaji ya kijamii (kama uchimbaji madini) na jinsi teknolojia hii ilivyoenea na kubadilisha jamii (mapinduzi ya viwanda), jibu sahihi ni:
+
+D",True,6.422629499807954,2573,144,0
+C,"Ili kutatua swali hili, ninahitaji kutambua ni kauli ipi HAIHUSIANI na mitizamo potofu ya awali kuhusu 'Joto na Halijoto.'
+
+Hebu nichambue kila chaguo:
+
+A. ""Joto huhifadhiwa katika mifumo"" - Hii ni mtizamo potofu wa kawaida. Wanafunzi mara nyingi wanafikiri joto ni kitu kinachoweza kuhifadhiwa, wakati kwa kweli joto ni nishati inayohamishwa, si kitu kinachohifadhiwa.
+
+B. ""Baridi ni kinyume cha joto au kukosekana kwake"" - Hii pia ni mtizamo potofu wa kawaida. Wanafunzi wanafikiri baridi ni kitu tofauti au kinyume cha joto, wakati kwa kweli baridi ni tu ukosefu wa nishati ya joto.
+
+C. ""Joto huashiria uwepo wa mifumo miwili au zaidi"" - Hii ni SAHIHI kwa kinadharia. Joto (kama uhamisho wa nishati) huhitaji mifumo miwili au zaidi yenye tofauti za halijoto. Hii si mtizamo potofu, ni dhana sahihi ya kisayansi.
+
+D. ""Joto lina halijoto kama ukubwa wake wa rejea wa kifizikia"" - Hii ni mtizamo potofu wa kawaida. Wanafunzi huchanganya joto na halijoto, wakati hizi ni dhana tofauti (joto ni uhamisho wa nishati, halijoto ni kipimo cha wastani wa nishati ya kinetiki ya chembe).
+
+Jibu ni chaguo ambacho HALIHUSIANI na mtizamo potofu - yaani, chaguo ambacho ni sahihi kwa kinadharia.
+
+C",True,14.20814250013791,2222,512,0
+B,"Ili kueleza kwa nini noti ile ile inayotolewa na ala tofauti za muziki ina nasibu tofauti, wanafunzi wanahitaji kuelewa dhana za msingi za mawimbi ya sauti. Nasibu (timbre) inategemea sana muundo wa marudio (frequency) na urefu wa wimbi (wavelength) wa sauti. Ala tofauti hutoa mawimbi ya sauti yenye marudio ya msingi sawa (noti ile ile) lakini yenye tofauti katika harmoni na muundo wa wimbi, ambayo inasababishwa na marudio na urefu wa wimbi.
+
+D",True,7.1647886000573635,1844,178,0
+C,"Ili kutathmini lengo la ""Kuunda maelezo kuhusu baadhi ya matukio ya umeme tuli, kama vile uchaji wa miili na chaji za umeme,"" ninahitaji kuchagua kiashiria kinachohusiana moja kwa moja na umeme tuli.
+
+Umeme tuli unahusisha:
+- Uchaji wa miili (charging of bodies)
+- Chaji za umeme (electric charges)
+- Matukio kama vile kusogezana kwa chaji
+
+Kwa kuangalia chaguzi:
+
+A. Inahusu upitishaji wa umeme katika hali tofauti - hii si umeme tuli
+B. Inahusu sheria ya Coulomb na kani kati ya chaji - hii inahusiana na umeme tuli
+C. Inahusu usalama dhidi ya matukio ya umeme - si moja kwa moja kuhusu umeme tuli
+D. Inahusu ukinzani wa umeme katika kondakta - hii si umeme tuli
+
+Jibu sahihi ni B kwa sababu sheria ya Coulomb na kani kati ya chaji mbili ni sehemu muhimu ya kuelewa umeme tuli na jinsi chaji za umeme zinavyoingiliana.
+
+B",True,9.434488200116903,2170,337,0
+B,"Kwa kuangalia ustadi unaotakiwa: ""Tambua mapungufu ya mifumo na nadharia za kisayansi,"" mwalimu anahitaji shughuli ambayo wanafunzi watalinganisha matokeo halisi ya majaribio na utabiri wa kinadharia ili kuona tofauti au mapungufu.
+
+Chaguo B kinazungumzia wazi ""kulinganisha kwa kina data iliyopatikana na utabiri wa kinadharia"" - hii inawawezesha wanafunzi kutambua mapungufu kati ya nadharia (utabiri) na matokeo halisi (data).
+
+Chaguo A, C, na D zinazungumzia kupima, kutatua matatizo, au kukadiria, lakini hazizungumzi wazi kuhusu kutambua mapungufu ya mifumo au nadharia.
+
+B",True,8.657517299987376,2156,239,0
+C,"Nikiangalia swali hili, mwalimu anaomba wanafunzi:
+a) Kulinganisha aina ya kivuli (hali 1 na 2)
+b) Kuthibitisha jibu lao kwa kutumia modeli ya chembechembe ya mwanga na optiki jometriki
+
+Hii inamaanisha wanafunzi wanahitaji:
+- Kutoa maelezo ya matokeo (aina ya kivuli)
+- Kutumia nadharia za kisayansi (modeli ya chembechembe, optiki jometriki) kuelezea na kuthibitisha jibu lao
+
+Hii ni ujuzi wa kutunga maelezo kwa kuzingatia nadharia na dhana za kisayansi.
+
+C",True,6.67441329988651,1988,201,0
+C,"Ili kuanzisha dhana ya joto mahususi (specific heat capacity), tunahitaji mfano unaonyesha jinsi vitu tofauti vinavyobadilisha halijoto kwa kiwango tofauti linapopokea kiasi sawa cha joto, au jinsi vitu vinavyohitaji kiasi tofauti cha joto ili kubadilisha halijoto yao kwa kiasi sawa.
+
+Hebu tuchambue kila chaguo:
+
+A. Hii inahusu uwiano wa maji - si joto mahususi
+B. Hii inahusu halijoto ya kuchemka ya maji - si joto mahususi
+C. Hii inaonyesha jinsi viazi na nyama vinavyobadilisha halijoto kwa kiwango tofauti ingawa vimepokea joto sawa kutoka kwa kitoweo - hii inadhihirisha joto mahususi tofauti
+D. Hii inahusu kunyonya joto kutoka kwa jua kwa rangi tofauti - si joto mahususi
+
+C,",True,11.07503250008449,2095,288,0
+C,"Ili kuamua mlolongo unaotoka kwa jumla kwenda kwa maalum zaidi katika kufundisha kemia ya polima, ninahitaji kuchambua kila chaguo:
+
+A. Inaanza na mifano ya monoma (maalum), kisha polima (jumla zaidi), kisha mifano ya matumizi - hii ni kutoka maalum kwenda jumla
+
+B. Inaanza na mifano ya polima katika maisha ya kila siku (jumla/dhahiri), kisha uundwaji wa polima (maalum zaidi), kisha monoma (maalum sana) - hii ni kutoka jumla kwenda maalum
+
+C. Inaanza na mifano ya polima katika maisha ya kila siku (jumla/dhahiri), kisha bainisha monoma (maalum zaidi), kisha eleza uundaji (maalum sana) - hii pia ni kutoka jumla kwenda maalum
+
+D. Inaanza na miitikio ya kemikali (maalum sana), kisha mifano ya matumizi (jumla) - hii ni kutoka maalum kwenda jumla
+
+Mlolongo unaotoka kwa jumla kwenda kwa maalum zaidi unapaswa kuanza na kitu wanafunzi wanakijua/wanakiona (polima katika maisha ya kila siku), kisha kwenda kwa dhana za msingi (monoma), na hatimaye kwenda kwa maelezo ya kemikali (miitikio).
+
+B,",True,10.726209900109097,2328,398,0
+A,"Ili kuelewa dhana ya mfululizo wa mionzi (periodic table), wanafunzi wanahitaji kuelewa jinsi atomi zinavyopangwa kieletroniki. Mfululizo wa mionzi umepangwa kulingana na idadi ya protoni na hasa muundo wa kielektroni wa atomi, ambao unaamua sifa za kikemia za elementi. Elementi katika safu wima moja (kikundi) zina muundo sawa wa kielektroni katika ganda la nje, ndiyo maana zina sifa zinazofanana.
+
+C",True,8.600445200223476,1736,151,0
+C,C,True,2.470105200074613,1669,4,0
+C,"Ili kufanyia kazi nadharia ya VSEPR (Valence Shell Electron Pair Repulsion), wanafunzi wanahitaji kwanza kujua jinsi ya kuwakilisha vifungo vya kikemikali katika molekuli na jinsi elektroni za valensi zinavyopangwa. Kabla ya kutumia VSEPR kubaini umbo la molekuli, lazima wajue jinsi ya kuonyesha muundo wa kimsingi wa molekuli, ikiwa ni pamoja na vifungo na jozi za elektroni zisizoshiriki.
+
+B",True,6.542654700111598,1796,151,0
+A,B,True,3.252549799857661,1710,4,0
+C,"Kwa kuangalia lengo la darasa ambalo ni ""wanafunzi waeleze na waoneshe uundwaji wa vifungo vya ioni na vishirikishi,"" mwalimu anahitaji shughuli ambayo itawaruhusu wanafunzi kwa kweli kuunda na kuonyesha uelewa wao wa aina zote mbili za vifungo.
+
+Chaguo A - Inaangalia tu kuhesabu elektroni, si kuunda vifungo
+Chaguo B - Inaangalia kanuni za dueti/okteti tu, si uundwaji wa vifungo
+Chaguo C - Inawapa wanafunzi fursa ya kuunda molekuli zenye aina zote mbili za vifungo, ikionyesha uelewa wao wa uundwaji
+Chaguo D - Inaangalia sifa za kimwili, si uundwaji wa vifungo
+
+C",True,7.514817500021309,2021,246,0
+B,"Ili kutathmini ufanikishaji wa kiashiria ""Tumia dhana ya mkusanyiko wa myeyuko (solution concentration),"" tunahitaji shughuli ambayo inashughulikia moja kwa moja dhana ya mkusanyiko - yaani uwiano wa kiyeyushiwa kwa kiyeyushi.
+
+Kwa kuangalia kila chaguo:
+
+A. Inazungumzia aina za myeyuko kulingana na hali ya kimaumbile - si kuhusu mkusanyiko
+B. Inazungumzia kuyeyusha kiasi tofauti cha kiyeyushiwa katika ujazo uliowekwa wa maji na kupanga myeyuko kwa mpangilio wa kuongezeka wa uwiano - hii inashughulikia MOJA KWA MOJA dhana ya mkusanyiko
+C. Inazungumzia tabia ya mumunyisho katika halijoto tofauti - si kuhusu mkusanyiko
+D. Inazungumzia tabia ya viyeyushwaji tofauti - si kuhusu mkusanyiko
+
+B,",True,7.5184907000511885,2162,289,0
+C,"Katika seli ya Downs, elektrolisisi ya NaCl iliyoyeyuka inafanyika kama ifuatavyo:
+
+- Kwenye **kathodi** (elektrodi hasi): Ioni za sodiamu (Na⁺) hupunguzwa kuwa sodiamu metali
+  Na⁺ + e⁻ → Na
+
+- Kwenye **anodi** (elektrodi chanya): Ioni za kloridi (Cl⁻) huoksidiwa kutoa gesi ya klorini
+  2Cl⁻ → Cl₂ + 2e⁻
+
+Kwa hiyo:
+- Ioni za kloridi (zenye chaji hasi) husogea kuelekea anodi (chanya) ambapo zinaoksidiwa
+- Ioni za sodiamu (zenye chaji chanya) husogea kuelekea kathodi (hasi) ambapo zinapunguzwa
+
+Jibu sahihi ni **C** - Ioni za kloridi huenda kwenye anodi kwa ajili ya oksidesheni.
+
+C",True,9.52487020008266,2027,279,0
+C,"Ili kutathmini hoja halali ya kisayansi kuhusu uhusiano kati ya viongeza utamu na afya ya binadamu, tunahitaji kuchunguza hoja ambazo zinategemea ushahidi wa kisayansi ulio halali na mbinu sahihi za utafiti.
+
+A. Inataja tafiti za panya - hii ni mbinu ya kisayansi lakini ushahidi kutoka kwa panya hauwezi kuhamishiwa moja kwa moja kwa binadamu bila utafiti zaidi.
+
+B. Inadai kwamba atomi kama klorini ni hatari - hii ni hoja isiyo na msingi wa kisayansi kwa sababu klorini ipo katika vitu vingi vya asili na sio hatari kwa kiasi kidogo.
+
+C. Inaonyesha uhusiano wa takwimu lakini uhusiano sio sababu - kuongezeka kwa saratani za ubongo kunaweza kuwa na sababu nyingi, na muda tu hauonyeshi uhusiano wa sababu na athari.
+
+D. Inadai kwamba mashirika ya ulinzi wa afya yametangaza uhusiano - hii inaweza kuwa hoja halali zaidi ikiwa inatoka kwa mashirika rasmi ya kisayansi yanayotegemea utafiti.
+
+Hata hivyo, hakuna jibu lililokamilika kabisa, lakini jibu A linatoa ushahidi wa utafiti wa kisayansi, ingawa una mapungufu.
+
+A",True,13.760187099920586,2270,399,0
+B,"Kwa kuangalia jaribio lililoelezwa:
+
+1. Formaldehidi (aldehidi) na asetoni (ketoni) ni kampaundi za kabonili
+2. Kiowevu cha Tollens kinaongezwa kwenye zote mbili
+3. Kinapashwa moto - mabadiliko yataonekana tu kwenye formaldehidi (aldehidi), sio kwenye asetoni
+4. Asidi ya kromiki inaongezwa kwenye zote mbili - itafanya mabadiliko kwenye zote mbili (aldehidi na ketoni)
+
+Kutokana na hili:
+- Kiowevu cha Tollens kinatambua aldehidi tu (formaldehidi), sio ketoni (asetoni)
+- Asidi ya kromiki inatambua zote mbili aldehidi na ketoni
+
+Kwa hiyo hitimisho sahihi ni kwamba kiowevu cha Tollens huruhusu tu utambuzi wa aldehidi.
+
+B",True,10.635951800039038,2211,267,0
+C,"Ili wanafunzi waweze kuchunguza na kuelezea mabadiliko yanayotokea katika vifaa anapotumia nguvu, mwanga, joto, na maji, wanafunzi wanahitaji kwanza kujua sifa za vifaa hivyo kabla ya kuangalia jinsi vinavyobadilika. Bila kujua sifa za awali za vifaa, hawataweza kutambua au kuelezea mabadiliko yanayotokea.
+
+C",True,5.912821299862117,1850,135,0
+A,"Ili kuonyesha tabaka za Dunia (gamba, mantle, na kiini), mwalimu anahitaji kitu ambacho kinaonyesha safu au tabaka zilizopangwa kutoka nje kwenda ndani, kama vile muundo wa Dunia.
+
+Tuchambue kila chaguo:
+
+A. Yai gumu - Lina tabaka (ganda, ute, na yolk) zinazofanana na muundo wa Dunia wenye tabaka
+B. Kijitanda cha Urusi - Kina tabaka nyingi zilizopangwa moja ndani ya nyingine
+C. Tunda lenye vipande - Lina sehemu zilizogawanywa lakini si tabaka zilizopangwa kutoka nje kwenda ndani
+D. Mpira wa povu - Hauna tabaka za ndani, ni sare tu
+
+Kijitanda cha Urusi (matryoshka) ni mfano bora zaidi kwa sababu kinaonyesha wazi dhana ya tabaka zilizopangwa moja ndani ya nyingine, kama vile tabaka za Dunia (gamba, mantle, kiini cha nje, kiini cha ndani).
+
+B",True,11.02138560009189,1947,316,0
+A,"Ninaangalia swali hili kwa makini:
+
+Mwalimu anamuuliza Mariana: ""Kwanini unafikiri kunguni wa vidonge wanachukua mkao huo?""
+
+Swali hili linamwelekeza Mariana kufikiria kuhusu **sababu** au **ufafanuzi** wa tabia ya kunguni wa vidonge - kwa nini wanaishi mahali fulani (chini ya mawe, mimea, majani makavu).
+
+Hii ni sehemu ya mchakato wa kisayansi wa **kutoa maelezo** au **kufafanua** matukio - ambayo inajumuisha kutoa nadharia au ufafanuzi wa kile kinachotokea.
+
+Lakini tukiangalia chaguo zilizotolewa:
+- A. Utabiri - ni kutabiri kitakachotokea
+- B. Uchunguzi - ni kutazama na kukusanya taarifa
+- C. Majaribio - ni kujaribu kitu
+- D. Ukusanyaji wa Data - ni kukusanya taarifa
+
+Swali ""Kwanini unafikiri..."" linamhimiza Mariana **kutoa nadharia** au **ufafanuzi** kulingana na alichokiona. Hii ni sehemu ya mchakato wa kisayansi wa kutoa **utabiri** au **dhana** kuhusu sababu za jambo fulani.
+
+**A**",True,13.076044499874115,2133,380,0
+D,D,True,2.9221849001478404,1669,4,0
+D,D,True,4.59417560021393,1743,4,0
+C,B,True,3.84327910002321,1730,4,0
+C,"Kwa kuangalia shughuli iliyopendekezwa na mwalimu - kuandaa na kuendesha mdahalo kuhusu hatua za kinga za kutatua tatizo la uchafuzi wa mazingira - kiashiria kinachofaa zaidi ni:
+
+C,
+
+Sababu: Mdahalo unahusisha kubishana na kujadiliana kuhusu suluhisho mbalimbali. Chaguo C kinaelezea wazi kubishana kuhusu faida na hasara za suluhisho zinazowezekana za kupunguza uchafuzi, ambayo ni hasa lengo la mdahalo ulioombwa na mwalimu.",True,7.521088300039992,2070,177,0
+B,B,True,3.2148894001729786,1702,4,0
+B,B,True,3.1987662001047283,1746,4,0
+A,"Ninaangalia swali hili kwa makini:
+
+Shughuli inayoelezwa inahusisha:
+1. Wajitoleaji watatu wanakunywa vitu tofauti (maji, kinywaji cha isotoniki, hakuna chochote)
+2. Kukusanya mkojo katika nyakati mbalimbali (dakika 30, 60, 90)
+3. Kupima ujazo wa mkojo na msongamano wake
+4. Kutafakari juu ya viambajengo vya damu/mkojo
+
+Hii ni jaribio la kisayansi lenye:
+- **Vigezo vilivyodhibitiwa**: Aina ya kinywaji (hii ndiyo tofauti kati ya wajitoleaji watatu)
+- **Kupima data**: Ujazo na msongamano wa mkojo
+- **Lengo**: Kuona athari za vimiminika tofauti kwenye mkojo
+
+Ujuzi wa kisayansi: **Udhibiti wa vigezo** (kwa kuwa wanabadilisha kinywaji na kuangalia athari)
+
+Maudhui ya kielimu: Kuonyesha jinsi vimiminika tofauti vinavyoathiri mkusanyiko wa elektroliti na sifa za mkojo
+
+D",True,10.01275059999898,2243,342,0
+B,"Ili kutatua swali hili, ninahitaji kutambua ni ipi kati ya kauli hizi ni dhana potofu (misconception) ya kawaida kwa wanafunzi wa darasa la 7/8 kuhusu mabadiliko ya maada.
+
+Nichambue kila chaguo:
+
+A. ""Mabadiliko ya kikemikali yanaweza kugeuzwa au yasiweze kugeuzwa"" - Hii ni dhana potofu. Kwa kweli, mabadiliko ya kikemikali kwa kawaida ni magumu kugeuzwa (hayawezi kurejeshwa), tofauti na mabadiliko ya kimwili.
+
+B. ""Kuchemka kwa maji hulingana na mabadiliko yasiyoweza kurejeshwa"" - Hii ni dhana potofu. Kuchemka ni mabadiliko ya kimwili (kutoka kwa maji hadi mvuke) ambayo yanaweza kurejeshwa kwa kufinyanga mvuke.
+
+C. ""Joto hubaki thabiti wakati maji yanapobadilika kutoka hali dhabiti kuwa kiowevu"" - Hii ni dhana potofu. Kwa kweli, joto hubadilika wakati wa mabadiliko ya hali - joto huongezeka ili kuyeyusha barafu.
+
+D. ""Misa ya dutu hubaki thabiti inapopitia mabadiliko ya kikemikali"" - Hii ni SAHIHI. Ni sheria ya uhifadhi wa misa (law of conservation of mass).
+
+Dhana potofu ya kawaida zaidi kwa wanafunzi wa umri huu ni kuhusu kuchemka - wanafunzi wengi wanafikiri kuchemka ni mabadiliko ya kikemikali yasiyoweza kurejeshwa.
+
+B",True,11.650699000107124,2156,478,0
+B,"Natafsiri swali hili kwa makini:
+
+Mwalimu anawasilisha hali ya kinadharia ambapo wanafunzi wanahesabu wastani wa joto la maji mawili (60°C na 20°C), ambayo kinafaa kutoa 40°C. Lakini wakati wanafanya jaribio la vitendo, wanapata joto la chini (labda 35-38°C).
+
+Mwalimu anawaomba watoe hoja za kwa nini matokeo ya vitendo yanatofautiana na mahesabu yao ya kinadharia na waonyeshe dhana walizozitegemea.
+
+Hii inamaanisha mwalimu anataka wanafunzi:
+- Wafikiirie kwa nini kuna tofauti kati ya nadharia na vitendo
+- Wachunguze mfumo wao wa mahesabu (assumptions)
+- Waangalie mapungufu ya mfumo wao wa kukadiria
+
+Tofauti inaweza kutokana na mambo kama:
+- Kupoteza joto kwa mazingira
+- Glasi inachukua joto
+- Mfumo wao wa mahesabu ulikuwa rahisi sana
+
+Jibu sahihi ni B - Wanafunzi wanachambua mapungufu ya mfumo (model) waliotumiwa kufanya makadirio yao.
+
+B",True,11.604755599983037,2364,375,0
+C,"Ili kupinga moja kwa moja dhana potofu ya mwanafunzi kwamba mkondo ""unapungua"" kadri unavyopita kwenye kila balbu katika mzunguko wa mfululizo, mwalimu anahitaji kumwezesha mwanafunzi kuchunguza na kupima kwa vitendo.
+
+Chaguo A linamwomba mwanafunzi aeleze kwa nadharia tu, bila ushahidi wa vitendo.
+
+Chaguo B linaonyesha tu kiwango cha mwangaza, lakini hakilinganishi kwa usahihi mkondo katika sehemu tofauti za mzunguko.
+
+Chaguo C linamwezesha mwanafunzi kupima mkondo kwenye kila balbu na kubaini kwamba mkondo ni sawa katika sehemu zote za mzunguko wa mfululizo - hii inapinga moja kwa moja dhana potofu kwamba mkondo ""unapungua.""
+
+Chaguo D linaonyesha tofauti kati ya sambamba na mfululizo lakini halishughulikii moja kwa moja dhana potofu kuhusu mkondo kupungua.
+
+C",True,12.996668900130317,2256,317,0
+C,"Katika tatizo hili, mwanafunzi anasema kwamba wadudu ""walitengeneza kinga"" baada ya ""kukabiliwa na DDT"" - hii inaonyesha dhana potofu kwamba viumbe binafsi wanaweza kubadilika kimwili ili kuzoea mazingira yao na kisha kupitisha sifa hizo kwa vizazi vyao.
+
+Hii ni dhana potofu ya Lamarckian - kwamba viumbe binafsi wanaweza ""kutengeneza"" au ""kujenga"" sifa za kuzoea wakati wa maisha yao na kuzipitisha kwa watoto wao.
+
+Kwa kweli, chaguo la asili inafanya kazi kwa viumbe walio tayari na tofauti za kijeni zenye manufaa (chaguo B), si kwa viumbe binafsi kujenga miundo mpya (chaguo C).
+
+Jibu ni:
+
+C",True,8.866839099908248,2164,247,0
+B,"Ili kupanga yaliyomo kutoka kwa ujumla hadi maalum katika kuendeleza kitengo cha ""Mitambo ya uhifadhi wa habari za kijenetiki"", tunahitaji kuanza na dhana za msingi zaidi na kuendelea hadi za maalum zaidi:
+
+4. Mpangilio wa nyenzo za kijenetiki katika seli - Hii ni dhana ya msingi zaidi inayoeleza jinsi habari za kijenetiki zinavyopangwa
+3. Interphase na mgawanyiko wa seli katika seli za kimwili na za kijinsia - Mchakato wa jumla wa mgawanyiko wa seli
+5. Vituo vya udhibiti wa mgawanyiko wa seli - Udhibiti wa mchakato huu
+1. Kuvuka-pamoja (Crossing-over) - Mitambo maalum ya uhifadhi
+2. Mabadiliko ya mpangilio wa kromosomu - Mitambo maalum zaidi ya uhifadhi
+
+B,",True,8.12388959992677,2119,276,0
+C,"Kwa kuangalia lengo la mwalimu la kuwaelekeza wanafunzi kuelewa kwamba sayansi ni mchakato wa ujenzi wa maarifa wenye mabadiliko ambao maendeleo yake yana athari kwa jamii, nahitaji kuchagua mkakati unaoshughulikia:
+
+1. Historia ya maendeleo ya kisayansi (mchakato wa ujenzi wa maarifa)
+2. Mabadiliko ya maarifa ya kisayansi kwa wakati
+3. Athari za maendeleo haya kwa jamii
+
+Chaguo A - Inazungumzia mwanasayansi mmoja tu, haishughulikii mchakato wa mabadiliko
+
+Chaguo B - Inaonyesha teknolojia tofauti lakini haielezei mchakato wa ujenzi wa maarifa au athari kwa jamii
+
+Chaguo C - Inashughulikia mchango wa wanasayansi mbalimbali (mchakato wa ujenzi), inaweza kuonyesha mabadiliko ya maarifa kwa wakati, na athari kwa jamii
+
+Chaguo D - Inazingatia muundo na utendakazi tu, si historia ya maendeleo ya kisayansi
+
+C",True,10.091277899919078,2167,345,0
+B,"Ninaangalia mlolongo wa shughuli uliofanywa:
+
+1. Mwalimu anapendekeza maonyesho (hatua ya kwanza)
+2. Mwalimu anawauliza kuhusu asili ya umeme na kuandika majibu (hatua ya pili)
+3. Wanafunzi wanapangwa vikundi na kupewa vifaa (hatua ya tatu)
+4. Mwalimu anawaelekeza kufanya jaribio (hatua ya nne)
+5. Wanafunzi wanatoa maoni na kuandika uchunguzi (hatua ya tano)
+6. Wanapewa muda wa kuandaa maelezo (hatua ya sita)
+
+Tathmini ya mlolongo:
+- Hatua ya 2 inashughulikia maudhui ya kimtazamo (mawazo ya awali)
+- Hatua ya 4 na 5 inakuza ujuzi wa kufikiri kisayansi (kuchunguza, kutoa maoni)
+- Hatua ya 2 inahusisha uzoefu wa awali
+
+Lakini, baada ya hatua ya 6 ambapo wanafunzi wanaandaa maelezo yao, hakuna hatua ya mwisho ya kurasimisha maudhui ya dhana. Mwalimu hajaandaa hatua ya kufupisha au kurasimisha kwa njia ya kishule maudhui ya asili ya umeme.
+
+B",True,9.997332700062543,2346,382,0
+C,"Katika tatizo hili, wanafunzi wanaweza kuhesabu kwa usahihi (wanapata mita 100 katika sekunde 5 na mita 85 katika sekunde 6), lakini hawatambui kwamba matokeo yao yana maana isiyo ya kawaida - kwamba kitu kimesafiri umbali mfupi (85m) katika muda mrefu zaidi (sekunde 6) kuliko umbali mrefu (100m) katika muda mfupi (sekunde 5). Hii inaonyesha kwamba wanafunzi hawana ufahamu wa kina wa maana ya matokeo yao katika muktadha wa ulimwengu halisi wa mwendo. Wanaweza kufanya hesabu za kinadharia lakini hawana taswira ya kimaudhui (conceptual understanding) ya kinachomaanisha matokeo hayo katika kinematiki - kwamba nafasi inaweza kupungua (kitu kinarudi nyuma) au kwamba kitu kinaweza kubadilisha mwelekeo.
+
+C",True,9.990197899984196,2194,284,0
+C,"Ili kufikia lengo la ujifunzaji kuhusu tofauti kati ya joto na uhamishaji wa nishati joto, tunahitaji kufuata mfuatano wa maendeleo kutoka dhana za kila siku hadi za kufikirika zaidi:
+
+- **Hatua 2 (Pima na linganisha halijoto)**: Hii ni dhana ya msingi zaidi - kupima joto kwa kutumia kipimajoto, jambo ambalo wanafunzi wanaweza kufanya moja kwa moja.
+
+- **Hatua 3 (Bainisha mwelekeo wa mtiririko wa joto)**: Baada ya kupima, wanafunzi wanaweza kuona kwamba joto linahamia kutoka kitu chenye joto zaidi kwenda kile chenye joto kidogo - dhana ya kila siku.
+
+- **Hatua 1 (Kokotoa joto linalofyonzwa)**: Hii inahitaji uelewa wa kina zaidi wa jinsi joto linavyofyonzwa na vitu.
+
+- **Hatua 4 (Kokotoa uwezo joto)**: Hii ni dhana ya juu zaidi ya kisayansi inayohitaji uelewa wa kina wa sifa za vitu.
+
+C",True,11.77480180002749,2127,347,0
+D,"Ili kupinga dhana potofu kwamba nguvu ni ""kitendo kinachohitajika kuweka mwili katika mwendo"", tunahitaji mfano unaonyesha nguvu ikitumika lakini bila kusababisha mwendo.
+
+Hebu tuchambue kila chaguo:
+
+A. Mwanamke anayekokota meza - Meza inahamishwa, kuna mwendo
+B. Mchezaji wa soka akipiga mpira - Mpira unahamishwa, kuna mwendo
+C. Mtoto amebeba mkoba mgongoni - Mtoto anatumia nguvu kubeba mkoba, lakini mkoba hauhamiski (unabaki mgongoni), hakuna mwendo wa mkoba kuhusiana na mtoto
+D. Mshale angani baada ya kurushwa - Mshale upo katika mwendo
+
+Chaguo C kinaonyesha wazi hali ambapo nguvu inatumika (kubeba uzito wa mkoba) lakini hakuna mwendo unaotokea kwa kitu kinachobebwa. Hii inasaidia kupinga dhana kwamba nguvu lazima isababishe mwendo.
+
+C",True,10.731078299926594,1976,308,0
+D,"Ili kufikia lengo la kukuza uwezo wa kuchagua taarifa kutoka kwenye mtandao, wanafunzi wanahitaji kujifunza kutathmini uhalali na utegemewaji wa vyanzo vya mtandaoni. Shughuli inayofaa zaidi ni ile ambayo inawahitaji wanafunzi kutathmini kwa makini tovuti mbalimbali na kuhalalisha vigezo vyao vya kuchagua vyanzo vinavyotegemewa.
+
+Chaguo D linawawezesha wanafunzi:
+- Kulinganisha vyanzo kadhaa
+- Kutathmini utegemewaji wa kila chanzo
+- Kuhalalisha vigezo vyao vya kuamua ni chanzo gani kinategemewa zaidi
+- Kukuza ujuzi wa kutathmini kwa makini taarifa za mtandaoni
+
+D",True,8.392541500041261,2053,240,0
+C,"Nikiangalia shughuli iliyopendekezwa, mwalimu anaomba wanafunzi ""kujadili athari za kusoma kiini cha atomi na matumizi yake yanayoweza kupatikana kiteknolojia"" na ""kujadili uwezekano wa ujenzi wa mitambo ya nyuklia.""
+
+Shughuli hii inahitaji wanafunzi:
+- Kuelewa maarifa ya kisayansi kuhusu kiini cha atomi
+- Kuunganisha maarifa haya na matumizi ya kiteknolojia (mitambo ya nyuklia)
+- Kujadili manufaa kwa jamii
+- Kuchambua suala la ujenzi wa mitambo ya nyuklia katika nchi yao
+
+Hii ni zaidi ya kueleza muundo wa atomi (A), zaidi ya kuelewa asili ya maarifa (B), na zaidi ya kueleza jinsi nishati inavyopatikana tu (D).
+
+Lengo kuu ni kuunganisha maarifa ya kisayansi na matumizi yake ya vitendo katika maisha ya kila siku na teknolojia - hasa kwa kujadili suala la mitambo ya nyuklia.
+
+C",True,8.822612500051036,2279,324,0
+A,A,True,2.6422765001188964,1751,4,0
+A,"Kwa kuangalia lengo la shughuli - kutathmini uelewa wa utaratibu unaosababisha kupatwa kwa jua - jibu sahihi ni:
+
+B,",True,3.6461579999886453,1872,51,0
+D,"D,",True,2.6474924001377076,1940,5,0
+D,D,True,2.808797099860385,1678,4,0
+A,"Ili kutathmini dhana potofu ya wanafunzi kuhusu uyeyukaji wa chumvi hizi mbili, lazima tuchunguze kwa nini wanafunzi walidhani chumvi zote mbili zina uyeyukaji unaofanana.
+
+Kuangalia milinganyo:
+- NaCl inayeyuka inatoa Na+ na Cl-
+- NaHCO3 inayeyuka inatoa Na+ na HCO3-
+
+Wanafunzi walidhani uyeyukaji ni sawa kwa sababu wanaona kwamba kila chumvi inatoa ioni mbili (Na+ na ion moja nyingine). Hii inaonyesha kwamba wanafunzi wanafikiri uyeyukaji unategemea tu idadi ya ioni zinazojitenga - dhana potofu kwa sababu uyeyukaji wa kweli unategemea mambo mengi zaidi, ikiwa ni pamoja na ukubwa wa ioni, mwingiliano kati ya ioni na maji (usolveshaji), na mwingiliano wa baina ya molekuli.
+
+Dhana potofu ni kwamba wanafunzi wanafikiri idadi ya ioni peke yake ndio inayoamua uyeyukaji, bila kuzingatia sifa nyingine za ioni hizo.
+
+A",True,10.761617799988016,2208,354,0
+C,"Kwa kuangalia dhana potofu za kawaida kuhusu utokeaji wa hiari katika michakato ya kihidro joto:
+
+- Chaguo A: Hii ni SAHIHI - ongezeko la entropia kweli huafadhili uspontania (Sheria ya Pili ya Thermodynamics)
+- Chaguo B: Hii ni SAHIHI - michakato inayojitokeza inaweza kuwa exothermic (kutoa joto) au endothermic
+- Chaguo C: Hii ni DHANA POTOFU - uspontania (spontaneity) ni sifa ya thermodynamic ambayo inahusu uwezekano wa mchakato kutokea, SI kasi ya mchakato (kinetics). Wanafunzi mara nyingi huchanganya dhana za thermodynamics na kinetics.
+- Chaguo D: Ingawa hii inaweza kuonekana kama dhana potofu, michakato ya spontaneous kweli inategemea mabadiliko ya Gibbs free energy ambayo inahusisha joto na entropy (utawanyiko wa nishati)
+
+Dhana potofu ya kawaida zaidi ni kuchanganya spontaneity (thermodynamics) na kasi (kinetics).
+
+C",True,10.517500299960375,2056,330,0
+C,"Ili kutathmini kama wanafunzi wameelewa kanuni ya Hund ya uwingi mpevu (maximum multiplicity), mwalimu anahitaji kuona kama wanafunzi wanaweza kutumia kanuni hiyo kwa vitendo. Kanuni ya Hund inasema kwamba elektroni hujaza obiti za kiwango kimoja kwa kila moja kabla ya kujazana, na kwa spin sawa.
+
+Chaguo A na B zinahusu kuandika migawanyo ya kielektroniki lakini hazithibitishi moja kwa moja uelewa wa jinsi elektroni zinavyojipanga katika obiti kulingana na kanuni ya Hund.
+
+Chaguo C inahusisha kulinganisha mtawanyiko wa elektroni katika michoro ya obiti - hii ndiyo inayoonyesha moja kwa moja jinsi elektroni zinavyojipanga katika obiti za ganda la valensi, ambayo ni dhana kuu ya kanuni ya Hund.
+
+Chaguo D inahusu kulinganisha miguso ya nje katika hali tofauti, ambayo si lengo kuu la kanuni ya Hund.
+
+C",True,10.24170870007947,2027,312,0
+C,"Ninaangalia shughuli iliyoelezwa:
+
+Wanafunzi wanachukua maji (kimumunyishaji cha polar) na kufuta vitu tofauti:
+- Chumvi (NaCl) - inafutika kabisa (ionic, polar)
+- Sukari - inafutika kabisa (polar)
+- Bikabonati - inafutika (ionic, polar)
+- Mafuta - hayafutiki (visivyo vya polar)
+- Alkoholi - inafutika (polar)
+
+Wanafunzi wanaombwa kueleza kwa nini baadhi yanafutika kabisa, mengine kiasi, na mengine hayafutiki.
+
+Hii inahusu kuelewa jinsi mwingiliano wa kimolekuli (polar na polar, polar na isivyo polar) unavyoathiri umumunyifu wa vitu tofauti katika maji (kimumunyishaji cha polar).
+
+Lengo linaloendana zaidi ni:
+
+C",True,8.74324360000901,2127,264,0
+D,D,True,3.3313328998629004,1805,4,0
+B,"B,",True,2.8346150000579655,1766,5,0
+C,"Nikiangalia swali hili kwa makini:
+
+Jaribio linachunguza mahitaji ya mimea kwa kubadilisha **kiasi cha maji** (mara moja kwa siku, mara moja kwa wiki, mara mbili kwa wiki) huku vitu vingine vikibaki sawa (udongo, nuru, mbegu).
+
+Kigezo kinachobadilika (variable) katika jaribio hili ni **kiasi cha maji**.
+
+Hitimisho linalofaa kutoka kwa jaribio hili lingehusiana na athari ya kiasi tofauti cha maji kwa ukuaji wa mimea.
+
+Kwa hiyo, utendaji unaonyesha ufikiaji wa lengo ni:
+
+C",True,7.215892100008205,2151,196,0
+C,"Ninaangalia shughuli inayoelezwa na ustadi wa kisayansi unaoonekana katika hitimisho la jaribio:
+
+Katika hitimisho, mwalimu anawaomba watoto:
+- Waeleze jinsi michoro miwili inavyofanana na kutofautiana
+- Waeleze kama kile walichofikiri kingetokea kilitokea kweli
+
+Hii inaonyesha wazi ustadi wa **ulinganisho** - watoto wanalinganisha:
+1. Kile walichofikiri kingetokea (mchoro wa awali/utabiri)
+2. Kile kilichotokea kweli (mchoro wa pili/uchunguzi)
+
+Ingawa jaribio lote linahusisha kurekodi (A), utabiri (B), na majaribio (D), swali linahusu **hitimisho** la jaribio, ambapo ustadi mkuu unaoonyeshwa ni ulinganisho wa matokeo yaliyotabirika dhidi ya matokeo halisi.
+
+C",True,8.529079700121656,2057,284,0
+B,"Ili kutathmini kuelewa kwa wanafunzi kuhusu jinsi joto linavyopita kati ya vitu, tunahitaji shughuli ambayo itaonyesha wazi kuwa joto hutiririka kutoka kitu chenye joto la juu kwenda kitu chenye joto la chini, na si ""baridi inayoingia.""
+
+Kwa kuangalia kila chaguo:
+
+A. Inashughulikia ugusaji wa vitu tofauti na kupima halijoto, lakini haielezi wazi mtiririko wa joto.
+
+B. Inaonyesha mtiririko wa joto kati ya vikombe viwili vya maji kwenye halijoto tofauti, na pia inaonyesha jinsi kifuniko (soksi ya sufi) kinavyoathiri mtiririko huo - hii inaeleza wazi dhana ya mtiririko wa joto na jinsi mavazi yanavyopunguza mtiririko (si kuzuia baridi kuingia).
+
+C. Inaonyesha vyanzo tofauti vya joto na jinsi maji yanavyopata joto, lakini haielezi wazi mwelekeo wa mtiririko wa joto.
+
+D. Inashughulikia vifaa tofauti na halijoto, lakini haielezi wazi mtiririko wa joto.
+
+Chaguo B ni bora zaidi kwa sababu inaonyesha moja kwa moja mtiririko wa joto kati ya vitu vyenye halijoto tofauti na jinsi kifuniko kinavyoathiri mtiririko huo, ikisaidia wanafunzi kuelewa kuwa mavazi yanapunguza mtiririko wa joto kutoka mwilini, si kuzuia baridi kuingia.
+
+B",True,12.833725800039247,2555,473,0
+D,D,True,4.243528499966487,2140,4,0
+A,"Ili kuelewa mchakato wa kutoa kinga unaosababishwa na chanjo, wanafunzi wanahitaji kwanza kuelewa jinsi mwili unavyokumbuka na kutambua vijidudu ambavyo vimekutana navyo hapo awali. Chanjo inafanya kazi kwa kuanzisha kumbukumbu ya kinga ambayo inaruhusu mwili kujibu haraka na kwa ufanisi wakati wa kukutana na kijiduduu halisi baadaye. Bila kuelewa dhana ya kumbukumbu ya kinga, haiwezekani kuelewa jinsi chanjo inavyotoa ulinzi wa muda mrefu.
+
+A",True,8.313055000035092,1847,181,0
+D,"Ninaangalia swali hili kuhusu ugumu wa wanafunzi katika kuelewa muundo wa atomu.
+
+Wanafunzi wanasema alumini ina:
+- Elektroni 27
+- Protoni 13
+- Neutroni 14
+
+Ukweli ni kwamba:
+- Namba atomia = 13 (idadi ya protoni)
+- Namba ya masi = 27 (jumla ya protoni na neutroni)
+- Alumini isiyo na chaji ina elektroni 13 (sawa na protoni)
+
+Wanafunzi wamepata:
+- Protoni = 13 ✓ (sahihi)
+- Neutroni = 14 ✓ (sahihi, 27-13=14)
+- Elektroni = 27 ✗ (sio sahihi, inapaswa kuwa 13)
+
+Ugumu wao ni kwamba wanaamini idadi ya elektroni inalingana na namba ya masi (27) badala ya namba atomia (13).
+
+Kwa hivyo, wanaamini kwamba namba ya masi inalingana na jumla ya chaji chanya (protoni) na hasi (elektroni), ambayo sio sahihi.
+
+C",True,8.451927499845624,2161,324,0
+D,"Ili kuelewa sheria ya Boyle (ambayo inaeleza uhusiano kati ya shinikizo na kiasi cha gesi wakati wa joto la mara kwa mara), wanafunzi wanahitaji kwanza kuelewa jinsi gesi zinavyofanya kazi kwa kiwango cha chembechembe. Nadharia ya kinetiki-molekuli ya gesi inafafanua tabia ya gesi kwa kueleza jinsi molekuli za gesi zinavyohamia na kuingiliana, ambayo ni msingi wa kuelewa kwa nini shinikizo na kiasi vina uhusiano unaobadilishana kama unavyoelezwa na sheria ya Boyle.
+
+D",True,8.022546200081706,1814,184,0
+D,"Ili kutathmini kiashiria cha ""Tambua uhusiano ulioanzishwa kati ya vigezo katika Sheria ya Boyle,"" mwalimu anahitaji shughuli ambayo itaonyesha wazi ikiwa wanafunzi wanaelewa uhusiano kati ya shinikizo na ujazo wa gesi (wakati joto likibaki thabiti).
+
+Sheria ya Boyle inasema kwamba shinikizo na ujazo vina uhusiano wa kinyume - shinikizo linapoongezeka, ujazo hupungua, na kinyume chake.
+
+Kuchambua chaguo:
+
+A. Jiko la presha - Inaonyesha matumizi ya Sheria ya Boyle lakini si tathmini ya moja kwa moja ya uhusiano wa vigezo
+
+B. Puto la hewa moto - Inahusisha mabadiliko ya joto, si Sheria ya Boyle tu
+
+C. Kukokotoa ujazo wa mwisho katika miinuko tofauti - Hii inaonyesha moja kwa moja uhusiano kati ya shinikizo (miinuko tofauti) na ujazo, ambayo ni msingi wa Sheria ya Boyle
+
+D. Kiputo kinapopanda kutoka chini ya bwawa - Inaonyesha mabadiliko ya shinikizo na ujazo lakini si tathmini ya wazi ya uhusiano
+
+C,",True,16.915165700018406,2152,382,0
+B,"Kwa kuangalia swali hili, mwalimu anataka kutumia uwakilishi mbadala (analogy/model) kuonyesha kwa nini aksoni za kipenyo kikubwa hupitisha msukumo wa neva kwa kasi zaidi.
+
+Hebu nichambue kila chaguo:
+
+A. Jedwali la data - Hii inaonyesha matokeo lakini haielezi KWA NINI inafanyika hivyo.
+
+B. Uhuishaji wa hosi na maji - Huu ni mfano mzuri wa kulinganisha. Unaonyesha kwamba kipenyo kikubwa huruhusu upitishaji wa haraka zaidi kwa kutumia mfano wa kimwili unaoeleweka (maji kupitia hosi).
+
+C. Picha za aksoni - Hii inatoa maelezo ya kisayansi ya kina lakini si uwakilishi mbadala/mfano rahisi wa kuelewa.
+
+D. Mfano wa waya wa umeme - Huu unazungumzia mielini (insulation) ambayo si suala la msingi katika swali. Swali linahusu kipenyo cha aksoni, si mielini.
+
+Jibu sahihi ni B kwa sababu inatoa mfano wa kimwili unaoeleweka (analogy) ambao unaonyesha kwa uwazi uhusiano kati ya kipenyo na kasi ya upitishaji.
+
+B",True,13.845791999949142,2411,382,0
+D,"Kwa kuangalia lengo la kujifunza: ""Kuunda maelezo ya kisayansi, yenye msingi wa ushahidi, kuhusu michakato ya urithi wa kijenetiki kwa wanyama""
+
+Lengo hili linahitaji:
+1. Kuunda maelezo ya kisayansi
+2. Kuwa na msingi wa ushahidi
+3. Kuelewa michakato ya urithi wa kijenetiki
+4. Kuhusiana na wanyama
+
+Kuchambua chaguo:
+
+A. Kulinganisha chati za vizazi na kuchunguza chanzo - Inazingatia uchunguzi lakini haijumuishi kuunda maelezo kamili ya michakato ya urithi
+
+B. Kuchanganua chati za vizazi za patholojia za autosomu na kutambua mfumo wa urithi - Inalenga kutambua mifumo tu, si kuunda maelezo ya michakato
+
+C. Kuandaa jedwali la sifa za kurithiwa na kulinganisha njia - Inalenga kulinganisha tu, si kuunda maelezo ya michakato
+
+D. Kuunda chati ya nasaba kwa kutumia makundi ya damu na kutoa maelezo ya jinsi yanavyorithiwa - Hii inajumuisha kuunda chati (ushahidi), kufanya kazi na data halisi (makundi ya damu), NA kutoa maelezo ya michakato ya urithi - inakidhi mahitaji yote ya lengo
+
+D",True,11.017845900030807,2240,405,0
+B,B,True,3.09896479989402,1726,4,0
+A,"Ninaangalia jaribio hili kwa makini:
+
+Mwalimu anataka wanafunzi waonyeshe **mifumo ya usafirishaji tulivu** (passive transport) wa **molekuli za uyeyushwaji (solutes) na uyeyeyushaji (solvents)**.
+
+Katika muundo huu:
+1. Sukari (solute) iko ndani ya mfuko kwa mkusanyiko mkubwa
+2. Sukari iko nje ya mfuko kwa mkusanyiko mdogo
+3. Mfuko unapitisha vitu (permeable)
+
+Kinachotokea:
+- Maji (solvent) yatahamia ndani ya mfuko (osmosis - kutoka mkusanyiko wa chini wa solute kwenda mkubwa)
+- Sukari (solute) inaweza kuhamia nje ya mfuko (diffusion - kutoka mkusanyiko mkubwa kwenda mdogo)
+
+Upungufu:
+- Lengo ni kuonyesha usafirishaji tulivu wa **WOTE** solutes NA solvents
+- Lakini mfumo huu unaonyesha tu mwendo wa sukari (solute) kwa urahisi
+- Mwendo wa maji (solvent) **hauwezi kuonekana wazi** - hautaonekana vizuri
+
+A,",True,9.89212549990043,2184,349,0
+A,"Kwa kutathmini lengo la ""Kuelewa athari za utoaji wa mawakala wa kemikali kwenye kupungua kwa tabaka la ozoni,"" mwalimu anahitaji shughuli ambayo itaonyesha wazi kama wanafunzi wanaelewa uhusiano wa sanababu na athari kati ya kemikali (CFCs) na kupungua kwa ozoni.
+
+Chaguo A kinawaomba wanafunzi kufanya hitimisho kutokana na jedwali linaloonyesha uhusiano wa moja kwa moja kati ya viwango vya CFCs na viwango vya molekuli za ozoni. Hii inawawezesha wanafunzi kuonyesha ufahamu wao wa uhusiano wa sanababu na athari - ambayo ndiyo msingi wa lengo.
+
+Chaguo B linazingatia tu mabadiliko ya ozoni bila kuunganisha moja kwa moja na kemikali zinazosababisha.
+
+Chaguo C na D vinazingatia athari za kupungua kwa ozoni au vyanzo vya CFCs, lakini havithibitishi wazi ufahamu wa uhusiano wa sanababu na athari.
+
+A,",True,10.41675249999389,2175,321,0
+A,"Ninaangalia swali hili kuhusu kutambua moja kwa moja uwepo wa sayansi na teknolojia katika maisha ya kila siku.
+
+Hebu nichambue kila chaguo:
+
+A. Kuchunguza satelaiti na mifumo ya anwani ya kijiografia (GPS) - Hii inaonyesha matumizi ya kila siku ya teknolojia ambayo watu wanatumia (GPS kwenye simu, magari, n.k.)
+
+B. Kutumia kalenda kujua awamu za Mwezi - Hii ni zaidi ya kuelewa mfumo wa asili kuliko kutambua teknolojia ya kila siku
+
+C. Kusoma kuhusu uchunguzi wa Galileo - Hii ni historia ya sayansi, si matumizi ya kila siku
+
+D. Kuangalia video kuhusu dhamira ya Rosetta - Hii ni kuhusu uchunguzi wa anga, ambao ni wa kielimu lakini si sehemu ya maisha ya kila siku ya wanafunzi
+
+Chaguo A linaonyesha wazi jinsi teknolojia (satelaiti na GPS) inavyotumiwa katika maisha ya kila siku - watu wanatumia GPS kila siku kwa usafiri, ramani, na huduma nyingine.
+
+A",True,10.23076259996742,2289,356,0
+C,C,True,3.4369640999939293,1752,4,0
+B,"Ili kupinga dhana potofu kwamba ""mkondo wa umeme huisha unavyopita kwenye vifaa,"" tunahitaji shughuli ambayo itaonyesha wazi kwamba mkondo hauishi bali unabaki sawa katika nyaya.
+
+Dhana potofu hii inaweza kupingwa vizuri zaidi kwa kuonyesha kwamba balbu mbili zinazofanana zilizounganishwa kwa mfuatano zinaangaza kwa nguvu sawa (au karibu sawa), ikionyesha kwamba mkondo uleule unapita katika zote mbili - mkondo hauishi katika balbu ya kwanza.
+
+Kwa balbu zinazofanana kwa mfuatano, wanafunzi wanaweza kuona kwamba balbu ya pili bado inaangaza (ingawa kidogo kuliko balbu moja pekee), ikionyesha kwamba mkondo haujaisha katika balbu ya kwanza.
+
+B,",True,10.214223599992692,2071,248,0
+B,"Kwa kuangalia lengo la somo ambalo ni ""kulinganisha ukubwa na umbali kati ya Jua na sayari zake kwa kipimo,"" mwalimu anahitaji nyenzo ambazo zitawawezesha wanafunzi kufanya ulinganisho wa kina wa vipimo halisi.
+
+Chaguo A (kielelezo cha uwiano) kinaweza kuonyesha uwiano lakini si lazima kina data za kipimo.
+
+Chaguo B (kielelezo cha kidijitali) kinaweza kuwa na picha nzuri lakini si lazima kina data za kipimo zilizowazi.
+
+Chaguo C (jedwali lenye data) linatoa data halisi za kipimo kuhusu ukubwa na umbali ambazo wanafunzi wanaweza kuzitumia kulinganisha kwa usahihi.
+
+Chaguo D (mchoro pamoja na data) linachanganya uwakilishi wa kuona na data za kipimo, likiwawezesha wanafunzi kuona mfumo na pia kufanya ulinganisho wa kipimo.
+
+Kwa kuwa lengo ni kulinganisha ""kwa kipimo,"" chaguo bora ni lile lenye data halisi za kipimo. Chaguo D linatoa faida za mbili - mchoro wa kuona na data za kipimo.
+
+D",True,11.190074499929324,2102,357,0
+A,"Kwa kuangalia lengo la ""Kutambua umuhimu wa utafiti wa mitetemo ya ardhi (seismolojia) katika ujenzi wa maarifa ya kijiolojia"", tunahitaji shughuli ambayo inaonyesha jinsi seismolojia inavyosaidia kuelewa jiolojia ya Dunia.
+
+Chaguo A linaeleza jinsi mbinu za seismolojia zinavyotumika kuchunguza muundo wa ndani wa Dunia - hii inaonyesha moja kwa moja umuhimu wa seismolojia katika kujenga maarifa ya kijiolojia.
+
+Chaguo B linazungumzia jinsi mawimbi yanavyosafiri - hii ni maelezo ya kiufundi lakini haielezi umuhimu wa seismolojia katika maarifa ya kijiolojia.
+
+Chaguo C linazungumzia sababu za matetemeko - hii ni maarifa ya kijiolojia lakini haielezi umuhimu wa seismolojia.
+
+Chaguo D ni mbinu ya vitendo ya kutafuta kitovu - hii ni ujuzi wa kiufundi lakini haielezi umuhimu wa seismolojia katika ujenzi wa maarifa.
+
+A",True,8.916822999948636,2171,338,0
+D,"Kwa kuangalia lengo la somo ambalo ni kutumia dhana ya msongamano wakati wa kulinganisha vitu na dutu mbalimbali, na kuzingatia kwamba hii ni baada ya shughuli ya awali ya kuanzisha dhana ya msongamano:
+
+Jibu linalolingana zaidi ni lile ambalo linawawezesha wanafunzi kutumia dhana ya msongamano kwa vitendo katika kulinganisha vitu na dutu mbalimbali. 
+
+Chaguo A linahusu kuyeyuka na vimiminika visivyochanganyika - hii inahusiana na msongamano lakini inalenga zaidi kuelewa tabia ya vimiminika.
+
+Chaguo B linahusu kupima msongamano kulingana na shinikizo - hii inazungumzia shinikizo zaidi kuliko msongamano.
+
+Chaguo C linahusu barafu na maji ya bahari - hii ni mfano maalum sana.
+
+Chaguo D linawaomba wanafunzi kuhusisha kiubora na kiidadi msongamano wa miili tofauti yenye uzani sawa na ujazo tofauti, au ujazo sawa na uzani tofauti - hii inafanya kazi moja kwa moja na dhana ya msongamano kwa kulinganisha vitu na dutu mbalimbali.
+
+D",True,9.839582900051028,2259,371,0
+D,"Ili kutatua swali hili, nahitaji kuchambua lengo la somo: ""Kuainisha kinamatiki za miendo ya duara sare"" na mlinganyo vt = R·ω (ambapo kasi ya kugusa huongezeka kadiri radiasi inavyokua wakati kasi ya pembe inabaki thabiti).
+
+Mwalimu anataka njia mbadala ya kuwakilisha dhana hii kwa wanafunzi wanaoshindwa kuelewa maelezo ya kinadharia.
+
+Nichambue kila chaguo:
+
+A. Kutatua zoezi - Hii ni mazoezi ya matumizi, si uwakilishi mbadala wa dhana
+
+B. Onyesha grafu - Hii ni uwakilishi wa kielelezo lakini bado ni kielelezo, si onyesho la vitendo
+
+C. Zungusha uzito uliofungwa kwenye kamba - Hii inaonyesha kwa vitendo kwamba radiasi kubwa (kamba ndefu) husababisha kasi kubwa ya kugusa wakati kasi ya pembe inabaki sawa. Ni onyesho la vitendo linalodhihirisha uhusiano.
+
+D. Glasi yenye umbo la koni - Hii pia inaonyesha uhusiano lakini ni ngumu zaidi kuelewa na si wazi kama chaguo C.
+
+Chaguo bora ni C kwa sababu inatoa onyesho la vitendo, la moja kwa moja, linaloweza kufanywa na linaloweza kuonekana, ambalo linaonyesha uhusiano kati ya radiasi na kasi ya kugusa - njia bora ya ""uundaji mbadala wa maudhui.""
+
+C",True,14.738489100011066,2433,456,0
+A,"Ili kutambua athari ya nguvu ya mwelekeo katikati kwenye mwendo wa gimba katika mwendo wa duara sare, wanafunzi wanahitaji kuelewa jinsi nguvu inavyoelekeza kuelekea katikati na jinsi inavyosababisha mabadiliko ya mwelekeo wa mwendo (mchapuko). Hii inahusisha kuelewa jinsi vekta vinavyovunjwa katika vijenzi vyake vya Kikatisha ili kuchanganua mwelekeo wa mwelekeo katikati na mwelekeo wa tangent.
+
+D",True,6.439180999994278,1886,167,0
+B,"Ili kujibu swali hili, ninahitaji kuelewa kanuni ya Archimedes na kutambua ni wazo gani la awali linazuia moja kwa moja ujifunzaji wake.
+
+Kanuni ya Archimedes inasema kwamba mwili uliozamishwa katika kiowevu hupokea nguvu ya kusukuma juu inayolingana na uzito wa kiowevu uliofukuzwa na mwili huo. Nguvu hii ya kusukuma juu (buoyancy) inategemea kiasi cha kiowevu kilichofukuzwa, sio kina ambapo kitu kiko.
+
+Niangalie kila chaguo:
+
+A. Shinikizo la anga - hili halihusiani moja kwa moja na kanuni ya Archimedes
+B. Kufikiri kwamba kina kinachopatikana kitu kinaathiri jumla ya nguvu - Hii ni wazo lisilo sahihi ambalo linazuia kuelewa kanuni ya Archimedes, kwani nguvu ya buoyancy inategemea kiasi cha kiowevu kilichofukuzwa, sio kina
+C. Shinikizo linalotenda kutegemea kina - Hii ni kweli kuhusu shinikizo la hydrostatic, lakini sio moja kwa moja kuhusu kanuni ya Archimedes
+D. Shinikizo kutegemea umbo la chombo - Hii inahusu chombo, sio moja kwa moja kanuni ya Archimedes
+
+B,",True,12.104296299861744,2116,400,0
+B,"Ili kutathmini kama wanafunzi wamefikia lengo la ""Eleza matukio mbalimbali ya kila siku ukitumia kanuni ya Bernoulli,"" tunahitaji kiashiria ambacho kinaonyesha wanafunzi wanaweza kutumia kanuni ya Bernoulli kuelezea tukio la kila siku.
+
+Kanuni ya Bernoulli inasema kwamba kasi ya juu ya maji au hewa husababisha shinikizo la chini.
+
+Kuchambua chaguzi:
+
+A. Kueleza istilahi za mlingano - hii ni kumbukumbu tu, si kutumia kanuni kuelezea matukio ya kila siku
+
+B. Kueleza jinsi kinyunyizi cha manukato hufanya kazi - hii inahusiana na kanuni ya Bernoulli (hewa inayopita kwa kasi juu ya mfuo husababisha shinikizo la chini, hivyo kusukuma kioevu nje)
+
+C. Kueleza kwa nini kipenyo cha mfuo hupungua - hii inahusiana na usimamizi wa wingi, si kanuni ya Bernoulli moja kwa moja
+
+D. Kueleza kwa nini chupa inaminywa - hii inahusiana na tofauti ya shinikizo, lakini si mfano wa kawaida wa kanuni ya Bernoulli
+
+B,",True,10.785856500035152,2131,372,0
+A,"Ili kutathmini kiashiria cha ""Wanatumia uhusiano wa kihisabati unaoelezea mwendo wa duara sare kutatua matatizo mbalimbali,"" tunahitaji kipengele ambacho kinahitaji wanafunzi kutumia mlinganyo wa kinematiki ya mzunguko kutatua tatizo la vitendo.
+
+Hebu tuangalie kila chaguo:
+
+A. Inahitaji kutumia uhusiano wa kihisabati (kasi ya wastani ya pembe = θ/t) kutatua tatizo la vitendo - inafaa
+B. Inahitaji kubadilisha vitengo tu, si kutatua tatizo kwa kutumia uhusiano wa kinematiki
+C. Inahitaji kutumia sheria ya uhifadhi wa kasi ya kingo (v₁r₁ = v₂r₂) kutatua tatizo changamano - inafaa sana
+D. Inahitaji tu kutaja mlinganyo na kueleza maneno, si kutatua tatizo
+
+Chaguo C kinahitaji matumizi ya uhusiano wa kihisabati (sheria ya uhifadhi wa kasi ya kingo katika mzunguko) kutatua tatizo la vitendo lenye changamano, ambalo kinaonyesha vizuri uwezo wa kutumia uhusiano wa kinematiki ya mzunguko.
+
+C",True,9.595353499986231,2201,364,0
+B,"Kwa kuangalia lengo la mwalimu ambalo ni ""wanafunzi wahusishe mabadiliko yanayotokea katika viini vya atomi za mionzi na uthabiti wake,"" ninahitaji kuchagua shughuli inayowawezesha wanafunzi kuelewa mchakato wa mabadiliko ya kinyuklia na jinsi atomi za mionzi zinavyobadilika ili kufikia uthabiti.
+
+Chaguo A linahusu kuonyesha utoaji wa mnururisho - hii inahusiana na mabadiliko lakini si kina.
+
+Chaguo B linahusu kubainisha aina ya mionzi kutoka grafu - hii ni utambuzi tu, si kuhusisha mabadiliko.
+
+Chaguo C linahusu kuchunguza msukumo na mvutano katika kiini - hii inaelezea sababu za uthabiti lakini si mchakato wa mabadiliko.
+
+Chaguo D linahusu kuandaa jedwali la aina za mpasuko wa mionzi ambao kiini hupitia ili kufikia utulivu - hii inahusisha moja kwa moja mabadiliko (mpasuko) na uthabiti (utulivu).
+
+D",True,9.478197700111195,2119,341,0
+D,"Ili kusaidia wanafunzi kuelewa mabadiliko katika mikusanyiko katika mwitikio wa kikemikali badala ya kusoma tu grafu moja kwa moja, mwalimu anahitaji kuwauliza swali ambalo linawasaidia kuona mabadiliko ya kina na kuelewa dhana ya msawazo wa kikemikali - ambapo vitendanishi vinaisha kuliwa na mazao yanaisha kuundwa.
+
+Swali C kinauliza ""Wakati gani vitendanishi huacha kuliwa na bidhaa huacha kuundwa?"" - hii inawasaidia wanafunzi kutafsiri grafu kwa kina zaidi na kuelewa kwamba msawazo unafikiwa wakati mabadiliko yanaposimama, ambayo ni dhana muhimu ya kipimo thabiti cha msawazo.
+
+C",True,8.179567400133237,2052,233,0
+C,"Ili kutatua swali hili, nahitaji kuelewa tatizo na lengo:
+
+**Tatizo:** Wanafunzi wanaweza kuchora mkunjo wa titrashoni hadi hatua ya ekwivalensi tu, lakini wanapata thamani hasi za pH baada ya hatua hiyo (ambayo ni makosa ya kimantiki).
+
+**Lengo:** Kuwaelekeza wanafunzi kukamilisha uchoraji wa mkunjo wa titrashoni kwa usahihi.
+
+**Chanzo cha tatizo:** Wanafunzi hawaelewi jinsi ya kuhesabu pH baada ya hatua ya ekwivalensi wakati besi kali iko katika ziada.
+
+Hebu nichanganue chaguo:
+
+**A.** Maabara - Haitasaidia kuelewa hesabu za pH baada ya hatua ya ekwivalensi.
+
+**B.** Kueleza kuhusu mizani ya pH - Hii inashughulikia dhana ya kimsingi lakini haisaidii moja kwa moja na hesabu.
+
+**C.** Kueleza jinsi ya kubaini idadi ya moli za ziada - Hii inashughulikia moja kwa moja tatizo: wanafunzi wanahitaji kujua jinsi ya kuhesabu moli za besi zilizobaki baada ya hatua ya ekwivalensi ili kuweza kuhesabu pH kwa usahihi.
+
+**D.** Programu ya kompyuta - Hii inafanya hesabu kwa wanafunzi, lakini haiwafundishi jinsi ya kufanya hesabu wenyewe.
+
+Jibu bora ni **C** kwa sababu inafundisha ujuzi wa kimsingi unaohitajika: kuelewa jinsi ya kuhesabu moli za ziada za besi (au asidi) katika hatua tofauti za titrashoni, ambayo ni muhimu kwa kuhesabu pH kwa usahihi katika sehemu zote za mkunjo.
+
+C",True,15.26074769999832,2455,537,0
+B,"Kwa kuangalia swali hili, mwalimu anahitaji kuelekeza upya mchakato wa kufundisha-kujifunza ili kushughulikia mkanganyiko wa wanafunzi kuhusu ikiwa vitendanishi na mazao hufikia hali ya usawa kando kando.
+
+Mkanganyiko huu unaonyesha kwamba wanafunzi hawaelewi vizuri dhana ya usawa wa kikemikali - kwamba katika usawa, vitendanishi na mazao vipo pamoja, lakini viwango vyao vinabaki thabiti (si sawa).
+
+Shughuli inayofaa zaidi ni ile ambayo itawaonyesha wanafunzi kwa uwazi kwamba katika usawa, vitendanishi na mazao vipo vyote viwili, na viwango vyao vinaweza kutofautiana kulingana na hali za awali.
+
+Chaguo D kinawaruhusu wanafunzi kutabiri na kuona kwamba viwango vya usawa vinategemea viwango vya awali - hii itawaonyesha wazi kwamba vitendanishi na mazao havifiki viwango sawa, bali hufikia hali thabiti inayotegemea masharti ya awali.
+
+D",True,11.060470200143754,2187,330,0
+B,"Kwa kuangalia swali hili, mwalimu anataka wanafunzi wafikirie upya dhana yao kwamba barafu haitayeyuka na maji yanayochemka hayatapoa. Dhana hii ni sahihi kwa sababu:
+
+- Barafu itayeyuka kwa sababu joto litahamia kutoka mazingira (20°C) kwenda kwenye barafu (0°C au chini)
+- Maji yanayochemka yatapoa kwa sababu joto litahamia kutoka maji moto (100°C) kwenda mazingira (20°C)
+
+Swali bora litakuwa lile ambalo litawawezesha wanafunzi kuelewa kwamba joto linahamia kutoka mahali pa joto kali kwenda mahali pa joto dogo, na kwamba usawa wa joto utafikiwa hatimaye.
+
+Chaguo B linahusu ""usawa wa joto"" ambalo ni dhana muhimu katika thermochemistry na litawawezesha wanafunzi kuelewa kwamba mifumo hii itafikia usawa na mazingira, hivyo kuonyesha kwamba dhana yao ya awali ni sahihi.
+
+B,",True,10.000792199978605,2174,319,0
+B,"Kwa kujibu swali hili, ninahitaji kufikiria ni maudhui gani ya awali yanahitajika ili kueleza matokeo ya jaribio kuhusu ""Sababu Zinazoathiri Kasi ya Mwitikio.""
+
+Kasi ya mwitikio ni dhana ya msingi katika kinetiki ya kemikali ambayo inazingatia ni kwa kasi gani mwitikio wa kikemikali unatokea.
+
+Ili kueleza sababu zinazoathiri kasi ya mwitikio, wanafunzi wanahitaji kwanza kujua ni mambo gani yanayoathiri kasi hiyo (kama vile joto, mkusanyiko, uso wa eneo, katalisti, n.k.).
+
+Hebu niangalie chaguo zote:
+- A: Sheria ya kiwango - hii inakuja baadaye, inahusiana na kasi lakini si msingi wa kwanza
+- B: Nadharia ya migongano - hii ni nadharia ya msingi inayoeleza jinsi molekuli zinavyogongana ili kutoa mwitikio
+- C: Ufafanuzi wa kikomo cha msawazo - hii inahusu usawa wa kikemikali, si kasi ya mwitikio
+- D: Mambo yanayoathiri kasi ya mmenyuko - hii ni moja kwa moja inayohusiana na kichwa cha jaribio
+
+Ingawa nadharia ya migongano ni msingi muhimu, swali linauliza ni maudhui gani ""ya awali"" yanahitajika ""ili kueleza matokeo."" Kwa kuwa jaribio linazingatia ""sababu zinazoathiri kasi,"" wanafunzi wanahitaji kwanza kujua mambo hayo ni yapi.
+
+D",True,15.440737899858505,2129,478,0
+C,"Ili kutathmini swali hili, ninahitaji kuchambua kila hatua ya shughuli na kuona ni tokeo gani la kujifunza linalotathminiwa:
+
+1. **Andika usanidi kamili wa elektroni** - Inahusiana na usanidi wa kielektroni wa atomi
+2. **Chora miundo ya Lewis** - Inahusiana na uwakilishi wa mgawanyiko wa elektroni
+3. **Unda mifano kwa udongo na vijiti** - Inahusiana na jiometria ya kimolekuli
+4. **Bainisha kufanana na tofauti za jiometria** - Inahusiana na uchambuzi wa mtawanyiko wa atomu
+
+Shughuli hii inalenga hasa kuunda mifano ya kimwili ya molekuli kulingana na jiometria yao na kisha kulinganisha jiometria hizo. Hii inahusiana moja kwa moja na nadharia ya VSEPR (Valence Shell Electron Pair Repulsion) ambayo inatumika kueleza jinsi atomu zinavyopangwa katika molekuli.
+
+Ingawa shughuli inahusisha miundo ya Lewis (B) na usanidi wa elektroni (D), lengo kuu ni kuelewa na kuchanganua jiometria ya kimolekuli kulingana na nadharia ya VSEPR.
+
+**C**",True,14.115002600010484,2224,362,0
+C,C,True,3.5439482000656426,1706,4,0
+D,"Kwa kutathmini uelewa wa wanafunzi kuhusu viwango vya kistochiometria katika mlinganyo wa kemikali uliosawazishwa, mwalimu anahitaji shughuli ambayo itawawezesha wanafunzi kuonyesha uwezo wao wa kutumia viwango hivyo kwa vitendo.
+
+Viwango vya kistochiometria vinaonyesha uwiano wa moli kati ya vitendanishi na bidhaa katika mmenyuko wa kemikali. Shughuli inayofaa zaidi ni ile ambayo itawafanya wanafunzi kuhesabu moja kwa moja uwiano huu kutoka kwa mlinganyo uliosawazishwa.
+
+A,",True,6.453671099850908,1945,195,0
+B,"Kwa kuangalia lengo la kukuza ujuzi wa kupanga (organizing/sequencing skills) katika mada ya hali za maada, tunahitaji shughuli ambayo inahitaji wanafunzi kupanga hatua au mabadiliko kwa utaratibu.
+
+Chaguo A - Linaonyesha dhana lakini halihusishi kupanga
+Chaguo B - Linahitaji wanafunzi kuandika na **kuchora utaratibu** - hii inahusisha kupanga hatua kwa mpangilio
+Chaguo C - Linahusisha kupima tu, si kupanga
+Chaguo D - Linahusisha kutabiri tu, si kupanga utaratibu
+
+Jibu sahihi ni B kwa sababu kuandika na kuchora utaratibu kunahitaji ujuzi wa kupanga hatua kwa mpangilio unaofaa.
+
+B",True,8.401573000010103,2011,235,0
+C,"Ili kutathmini kiashiria cha ""Anaelekeza au anaonyesha eneo la viungo vya ndani kama vile moyo, mapafu, ubongo,"" mwalimu anahitaji mkakati ambao utamwezesha kuona moja kwa moja ikiwa mtoto anaweza kuonyesha au kuelekeza mahali ambapo viungo hivyo vipo.
+
+Kuchambua kila chaguo:
+
+A. Kuiga viungo kwa udongo - hii inatathmini uwezo wa kuunda/kuiga, si kuelekeza au kuonyesha eneo la viungo
+
+B. Kuchagua ogani na kutoa mada - hii inatathmini ujuzi wa kuzungumza/kueleza, si moja kwa moja kuelekeza au kuonyesha eneo
+
+C. Kuweka picha za viungo kwenye kivuli cha mwili - hii MOJA KWA MOJA inatathmini uwezo wa kuonyesha eneo sahihi la viungo kwenye mwili, ambayo ni hasa kile kiashiria kinachohitaji
+
+D. Kutazama video na kujadili - hii inatathmini uelewa wa jumla, si moja kwa moja uwezo wa kuelekeza/kuonyesha eneo
+
+C,",True,11.335340099874884,2229,348,0
+A,"Kwa kuangalia hali iliyoelezwa, mshumaa ukiwekwa juani utayeyuka kutoka hali ya kiganda (solid) hadi hali ya kioevu (liquid). Hii ni mabadiliko ya hali ya maada kutoka kiganda kwenda kioevu, ambayo inaitwa kuyeyuka au kuyeyushwa.
+
+Katika chaguo zilizotolewa:
+- A. Muunganisho - ni mchakato wa kuchanganya vitu
+- B. Uvukizaji - ni mabadiliko kutoka kioevu kwenda gesi
+- C. Ugomishaji - ni mabadiliko kutoka gesi kwenda kioevu
+- D. Ufinyazo hewa - ni mchakato wa kupunguza ujazo wa hewa
+
+Ingawa chaguo halisi la ""kuyeyuka"" halikupatikani, katika muktadha wa watoto wa chekechea na chaguo zilizotolewa, jibu linaloelekeza zaidi ni:
+
+B,",True,9.185120600042865,1932,270,0
+B,"Kwa kuangalia lengo la kukuza stadi za uchunguzi na kuhitimisha kwa watoto wa chekechea wanaofanya majaribio ya kisayansi:
+
+- Chaguo A linazingatia kurekodi dhana mpya na kutoa hitimisho, lakini halijumuishi sana uchunguzi wa vitendo
+- Chaguo B linawezesha kurekodi mawazo ya awali, kufanya uchunguzi, na kisha kulinganisha data - hii inasaidia stadi zote mbili za uchunguzi na kuhitimisha
+- Chaguo C linazingatia upangaji wa awali zaidi kuliko uchunguzi na kuhitimisha
+- Chaguo D linazingatia zana za uchunguzi na kuelezea matokeo
+
+Kwa kuwa lengo ni kukuza stadi za uchunguzi na kuhitimisha, nyenzo bora ni ile inayowezesha watoto kufanya uchunguzi wa vitendo na kisha kulinganisha/kuhitimisha matokeo.
+
+B",True,8.647955699823797,2173,292,0
+A,"Kwa kuangalia lengo la kujifunza ambalo ni ""Kushirikiana katika hali za kila siku, katika matendo yanayochangia maendeleo ya mazingira endelevu,"" tunahitaji mkakati wa tathmini ambao utadhihirisha vitendo halisi vya watoto katika hali za kila siku.
+
+Lengo hili linazungumzia kushiriki katika MATENDO, si tu kuelewa au kutofautisha. Kwa hiyo, tathmini inafaa kupima vitendo halisi vya watoto katika mazingira yao ya kila siku.
+
+Chaguo A: Linapima vitendo halisi ambavyo watoto wanafanya kwa hiari yao wakati wa utaratibu wa kila siku (kuzima bomba, kuokota karatasi) - hii inaonyesha ushiriki halisi katika matendo ya mazingira endelevu.
+
+Chaguo B: Linapima tu mitikio wakati wa kusikiliza simulizi - si vitendo halisi.
+
+Chaguo C: Linapima uwezo wa kutofautisha picha - ni ujuzi wa kiakili, si ushiriki katika vitendo.
+
+Chaguo D: Linapima maoni wakati wa kutazama video - si vitendo halisi.
+
+A",True,9.97794540016912,2314,343,0
+A,"Nikiangalia majibu ya mwanafunzi:
+1. Tumia barakoa zinazofaa kufuliwa - hii ni PUNGUZA (Reduce) - kupunguza matumizi ya barakoa za kutupwa
+2. Panda mimea kwenye vyombo vya siagi - hii ni TUMIA TENA (Reuse) - kutumia tena vyombo badala ya kuvitupa
+3. Tenganisha na panga vyombo vitakavyotupwa - hii ni RUDISHA (Recycle) - kurejeleza/kurudisha vifaa
+
+Mwanafunzi ametoa mifano ya R-Tatu zote. Lakini kuna tatizo: mfano wa kwanza (barakoa zinazofaa kufuliwa) unaweza kuchanganyikiwa - inaweza kuonekana kama ""Tumia Tena"" badala ya ""Punguza"".
+
+Maoni bora ya mwalimu yanapaswa:
+- Kutambua kwamba mwanafunzi amejaribu kujumuisha R zote
+- Kumsaidia kutambua kwamba R moja inaweza kuwa haieleweki wazi
+- Kumwongoza kuelewa tofauti kati ya R-Tatu bila kumpa moja kwa moja jibu
+
+Chaguo A kinauliza mwanafunzi kutafakari ni hatua gani inampunguzia rasilimali na kumpendekeza hatua mpya - hii inamwongoza kugundua kwamba amekosa ""Punguza"" kwa uwazi.
+
+A",True,13.015447999816388,2601,416,0
+C,"Kwa kuigiza tukio la kupatwa kwa jua (solar eclipse), wanafunzi wanahitaji kuonyesha jinsi Mwezi unavyopita kati ya Jua na Dunia, na hivyo kuzuia mwanga wa Jua usifike Dunia. 
+
+Chaguo C kinaelezea hii vizuri zaidi:
+- Tochi inawakilisha Jua (chanzo cha mwanga)
+- Ubao mweupe unawakilisha Dunia (inayopokea mwanga)
+- Mpira mdogo unawakilisha Mwezi unaoingilia kati
+- Wanapopitisha mpira mbele ya tochi, wanaona jinsi eneo lililoangazwa kwenye ubao linavyobadilika (kupatwa kwa jua)
+
+Hii inaigiza kwa usahihi tukio la kupatwa kwa jua ambapo Mwezi hupita kati ya Jua na Dunia.
+
+C",True,8.286850200034678,2213,265,0
+A,"Kwa kuangalia kiashiria cha tathmini: ""Anatambua baadhi ya sehemu za mwili wake kwa kuzielekeza anapotajwa.""
+
+Kiashiria hiki kinahitaji:
+1. Sehemu za mwili **kutajwa** (kwa maneno)
+2. Mtoto **kuzielekeza** (kuonyesha/kugusa) sehemu hizo
+
+Tuchambue kila chaguo:
+
+A. Mtu mzima humuuliza sehemu tofauti za uso ziko wapi - Hii inahitaji mtoto kutambua na kuonyesha sehemu zinapotajwa ✓
+
+B. Humuuliza kuhusu hisia na kuomba kugusa sehemu - Hii inahusu hisia, si kutambua sehemu zinapotajwa
+
+C. Huimba nyimbo kuhusu sehemu za uso, kuzigusa kwenye mwili wake - Mwalimu ndiye anagusa, si mtoto kuelekeza
+
+D. Hufanya vitendo kwa sehemu za mwili, watoto kuiga - Hii ni kuiga vitendo, si kuelekeza sehemu zinapotajwa
+
+A,",True,10.266587800113484,2228,323,0
+D,"Kwa kuangalia lengo la kujifunza ambalo ni ""Kuunda nadharia kuhusu matokeo ya matukio asilia yaliyozingatiwa, kwa kuzingatia maarifa na uzoefu wa awali,"" ninahitaji kuchagua chaguo ambalo linaruhusu watoto:
+1. Kuzingatia matukio asilia
+2. Kuunda nadharia/makadirio kuhusu matokeo
+3. Kutumia maarifa na uzoefu wao wa awali
+
+Kwa kuchanganua kila chaguo:
+
+A. Inaangazia uzoefu wa awali lakini hairuhusu kuunda nadharia kuhusu matokeo
+B. Inaruhusu watoto kuangalia mfano halisi, kuona kinachotokea, na kujibu kuhusu matokeo - lakini hii ni baada ya tukio
+C. Watoto wanaunda volkano na kisha kufanya igizo la mlipuko, kisha wanaulizwa kueleza walichokiona - hii pia ni baada ya tukio
+D. Inaanza na mazungumzo kuhusu ujuzi wao wa awali, kisha wanaangalia mchoro wa uigaji, na wanaulizwa kueleza kilichotokea NA kukadiria athari itakayokuwa - hii inaruhusu kuunda nadharia kuhusu matokeo
+
+Chaguo D linaruhusu watoto kutumia maarifa yao ya awali (mazungumzo ya kwanza), kuzingatia tukio (mchoro wa uigaji), na kuunda nadharia kuhusu matokeo (athari itakayokuwa kwenye miji).
+
+D",True,12.03481199988164,2447,446,0
+C,"Nikiangalia swali hili, mwalimu anataka kusaidia Antonio kufikia lengo la kujifunza ambalo ni ""Fanya majaribio ya michanganyiko na myeyuko kwa kutumia vifaa vya kila siku... ukielezea mabadiliko unayoyaona.""
+
+Antonio amejibu kwa kusema anapenda rangi, ambayo si jibu linalolenga lengo la kujifunza. Mwalimu anahitaji kumwelekeza Antonio kuzingatia mabadiliko na jinsi vitu vinavyochanganyika au kutokuchanganyika.
+
+Nikiangalia chaguo:
+
+A. Inamwelekeza kuzingatia kwamba maji na mafuta hayajachanganyika - inalenga lengo
+B. Inamwelekeza kuzingatia kwamba rangi zinabaki kama viputo ndani ya mafuta - inalenga lengo
+C. Inamwuliza kuzingatia tofauti kati ya rangi kwenye mafuta na kwenye maji - inalenga lengo na inamhusisha kwa kumuuliza swali wazi
+D. Inamwelekeza tu kuangalia mwishoni - si moja kwa moja
+
+Jibu C ni bora zaidi kwa sababu inamwuliza Antonio swali wazi linalomsaidia kuelezea mabadiliko anayoyaona (tofauti kati ya rangi kwenye mafuta na kwenye maji), ambayo ni sehemu muhimu ya lengo la kujifunza.
+
+C",True,12.250459200004116,2469,417,0
+B,"Kwa kuangalia kazi ya sitoskeletoni (cytoskeleton) katika seli za yukariyoti, sitoskeletoni inafanya kazi ya:
+- Kutoa muundo na umbo kwa seli
+- Kusaidia katika harakati za seli
+- Kudumisha utaratibu wa ndani ya seli
+
+Katika mlinganisho wa kiwanda, hii inafanana na mfumo unaoruhusu utaratibu kudumishwa ndani ya kiwanda - kama vile miundombinu ya kusaidia muundo na usimamizi wa shughuli za kiwanda.
+
+B",True,7.149114700034261,1900,162,0
+D,"Kwa kuangalia swali hili, tunahitaji kuchagua shughuli ambayo itaonyesha vizuri mchakato wa osmosisi - yaani usafiri wa maji kupitia utando nusu-pitishi kutoka eneo la mkusanyiko mdogo hadi eneo la mkusanyiko mkubwa.
+
+Hebu tuchanganue kila chaguo:
+
+A. Viazi katika ufumbuzi wa isotoniki - Hii haionyeshi osmosisi vizuri kwa sababu ufumbuzi wa isotoniki una mkusanyiko sawa, kwa hivyo hakuna usafiri mkubwa wa maji.
+
+B. Mfuko wa chai katika maji - Hii inaonyesha diffusion (kusambaa), si osmosisi. Hakuna utando nusu-pitishi unaohusika.
+
+C. Wino katika maji - Hii pia inaonyesha diffusion, si osmosisi. Hakuna utando nusu-pitishi.
+
+D. Chombo chenye vyumba viwili vilivyotenganishwa na utando nusu-pitishi - Hii inaonyesha vizuri osmosisi kwa sababu: ina utando nusu-pitishi, inaonyesha usafiri wa maji (kiwango cha maji kinabadilika), na inaonyesha kuwa maji yanasafiri kuelekea upande wenye mkusanyiko mkubwa wa solute (mipira).
+
+D",True,10.951430100016296,2544,381,0
+D,"Ili kufikia lengo la kuunganisha ukuzaji muhimu wa mfumo wa utando wa ndani ya chembechembe na kazi yake, wanafunzi wanahitaji:
+
+1. Kutambua miundo maalum ya seli
+2. Kuelewa jinsi miundo hiyo inavyohusiana na kazi za seli
+3. Kulinganisha seli tofauti kulingana na miundo na kazi zao
+
+Chaguo C kinawaruhusu wanafunzi:
+- Kutengeneza mifano ya seli mbili tofauti (seli ya utoaji na seli ya misuli)
+- Kulinganisha miundo inayozitofautisha
+- Kuunganisha miundo hiyo na kazi zake
+
+Hii inawapa uzoefu wa vitendo wa kuona jinsi ukuzaji wa miundo fulani (kama mfumo wa utando wa ndani uliokuzwa katika seli ya utoaji) unavyohusiana na kazi maalum ya seli hiyo.
+
+C",True,9.141298899892718,2095,273,0
+B,"Kwa kuangalia swali hili, mwanafunzi anaomba kuelezewa jinsi seli za prokariyoti zinavyogawanyika bila kuwa na kiini.
+
+Ninahitaji kuchagua jibu linaloeleza kwa usahihi na kwa njia inayoeleweka kwa wanafunzi wa darasa la nane jinsi seli za prokariyoti zinavyogawanyika.
+
+Hebu nichanganue kila jibu:
+
+A. Inazungumzia uzazi usio wa kijinsia lakini haijibu moja kwa moja swali la jinsi seli hizi zinavyogawanyika bila kiini.
+
+B. Inaeleza kwamba uwezo wa kugawanyika unategemea DNA, si kiini. Hii ni jibu sahihi na linaeleweka - inabainisha kwamba DNA ndiyo muhimu, si kiini, na kwamba seli zote mbili zina DNA.
+
+C. Inatoa ufafanuzi wa jumla wa kugawanyika kwa seli lakini haijibu moja kwa moja swali kuhusu jinsi seli za prokariyoti zinavyofanya hivyo bila kiini.
+
+D. Inasema seli za prokariyoti hufanya mgawanyiko mara mbili, ambayo si sahihi. Seli za prokariyoti hugawanyika kwa njia ya binary fission (mgawanyiko wa binary), si mitosis au meiosis.
+
+Jibu B ni sahihi zaidi kwa sababu linabainisha kwa usahihi kwamba DNA, si kiini, ndiyo muhimu kwa mgawanyiko wa seli, na hii ni dhana inayoeleweka kwa wanafunzi wa darasa la nane.
+
+B",True,13.786473900079727,2414,458,0
+C,"Ili kutathmini lengo la ""Eleza machapisho ya nadharia ya atomiki ya Dalton,"" tunahitaji kuangalia ni kiashirio gani kinaonyesha moja kwa moja uelewa wa kanuni za msingi za nadharia ya Dalton.
+
+Nadharia ya atomiki ya Dalton inajumuisha machapisho muhimu kama:
+- Elementi zinajulikana na atomu zisizoweza kugawanywa
+- Atomu za elementi moja zina sifa sawa (ikiwa ni pamoja na misa)
+- Atomu za elementi tofauti zina sifa tofauti
+- Misombo huundwa kwa kuunganisha atomu kwa uwiano wa idadi kamili
+- Katika mmenyuko wa kemikali, atomu haziharibiwa wala haziumbiwa, bali huchanganywa upya
+
+Kuchunguza chaguo:
+- A: Kuunda misombo - inahusiana na uwiano wa idadi kamili lakini si ushahidi wa moja kwa moja wa machapisho
+- B: Kutambua idadi kamili ya atomu - inahusiana na kanuni ya uwiano wa idadi kamili
+- C: Kuhusianisha misa ya elementi na jumla ya misa - inaonyesha sheria ya uhifadhi wa misa
+- D: Kubainisha masi ya elementi katika misombo tofauti yenye masi sawa - hii inaonyesha moja kwa moja kanuni ya Dalton kwamba elementi ina misa maalum na thabiti, na kwamba misombo tofauti ya elementi moja ina uwiano tofauti wa masi
+
+D,",True,14.476406200090423,2158,442,0
+C,"Ili kutathmini kama wanafunzi wameelewa kazi ya viumbe wazalishaji, mwalimu anahitaji kazi ambayo itaonyesha uwezo wa wanafunzi kutumia ujuzi huo kwa kina na kwa njia ya ubunifu.
+
+Kazi A inahitaji wanafunzi kuonyesha mchakato wa usanisinuru - ambayo ni kazi kuu ya viumbe wazalishaji. Hii inaonyesha uelewa wa kina wa jinsi wazalishaji wanavyofanya kazi na wanavyozalisha chakula.
+
+Kazi B ni rahisi sana - ni kukariri tu mifano.
+
+Kazi C inahitaji ufikiri wa kiwango cha juu kuhusu umuhimu wa wazalishaji.
+
+Kazi D ni ya jumla zaidi kuhusu mtandao wa chakula.
+
+Kwa kuwa lengo ni kuthibitisha uelewa wa ""kazi"" ya viumbe wazalishaji, kazi A inaonyesha wazi zaidi uelewa huu kwa kuonesha mchakato wa usanisinuru.
+
+A",True,10.026624100049958,2019,305,0
+C,"Ili kufikia lengo la kuunda nadharia tete (hypotheses), wanafunzi wanahitaji kujifunza jinsi ya kutambua vigezo na uhusiano kati yao, ambayo ni hatua muhimu kabla ya kuunda nadharia tete. 
+
+Kwa kuangalia chaguo:
+
+A. Inatoa matokeo tayari yaliyopatikana - hii ni hatua ya baadaye ya kuthibitisha nadharia, si kuunda nadharia tete
+B. Inatoa muundo wa majaribio tayari ulioandaliwa - wanafunzi wanachambua tu, hawajajifunza kuunda nadharia tete
+C. Inatoa swali la utafiti na kuwawezesha wanafunzi kutambua vigezo na uhusiano kati yao - hii ni hatua ya msingi ya kuunda nadharia tete
+D. Inatoa nadharia tete tayari zilizoundwa - wanafunzi wanachagua tu, hawajajifunza kuziunda wenyewe
+
+Chaguo C kinawapa wanafunzi fursa ya kujifunza moja kwa moja jinsi ya kuunda nadharia tete kwa kutambua vigezo (halijoto, unyevunyevu, usanisinuru) na uhusiano kati yao.
+
+C",True,10.362688599852845,2209,353,0
+B,"Kwa kuangalia lengo la kuelewa kwamba spishi zinazokaribiana zaidi katika mageuko zinashiriki babu mmoja wa karibuni, nahitaji kuchagua shughuli ambayo itaonyesha wazi uhusiano wa kimageuko na babu wa pamoja.
+
+Hebu nichambue kila chaguo:
+
+A. Kupanga viumbe kulingana na kufanana kwa kimaumbile - Hii inaweza kusaidia kuona ufanani lakini haielezi wazi uhusiano wa babu wa pamoja
+
+B. Kujibu maswali kulingana na uchambuzi wa kladogramu - Kladogramu ni mchoro unaonyesha uhusiano wa kimageuko na jinsi spishi zinavyohusiana kupitia babu wa pamoja. Hii ni njia ya moja kwa moja ya kuelewa wazo hili.
+
+C. Kuchora mchoro wa visukuku vya moja kwa moja na visivyo vya moja kwa moja - Hii inazungumzia aina za visukuku, si uhusiano wa babu wa pamoja
+
+D. Kulinganisha miundo ya masalio - Hii inasaidia kuona ushahidi wa mageuko lakini haielezi wazi uhusiano wa babu wa pamoja
+
+Kladogramu ni chombo maalum kinachoonyesha wazi jinsi spishi zinazokaribiana zinavyoshiriki babu wa karibuni.
+
+B",True,11.638005499960855,2149,386,0
+C,"Ili kutathmini lengo la kuelewa jukumu la chanjo bandia katika afya ya umma kulingana na msisitizo wa mtaala kuhusu uelewa wa kisayansi, shughuli inayofaa zaidi ni ile ambayo inawawezesha wanafunzi kuona uhusiano wa moja kwa moja kati ya chanjo na matokeo yake kwa afya ya umma.
+
+Chaguo C kinawawezesha wanafunzi kuchanganua data halisi (chati) kuhusu uhusiano kati ya asilimia ya watu waliopewa chanjo na athari zake kwenye kutokomezwa na kujitokeza tena kwa magonjwa. Hii inaonyesha wazi jukumu la chanjo katika afya ya umma kwa njia ya kisayansi inayotegemea ushahidi.
+
+C",True,7.923902800073847,2042,230,0
+D,"Nikiangalia jibu la mwanafunzi, ugumu mkuu unaoonekana ni kwamba mwanafunzi anasema folikali ""inaacha kuzalisha estrojeni"" mara tu baada ya kutolewa kwa yai, na kisha ""muundo mpya unaonekana... unaoitwa korpasi luteum.""
+
+Hii inaonyesha kwamba mwanafunzi hafahamu kwamba korpasi luteum si muundo mpya kabisa, bali ni folikali ile ile iliyobadilika baada ya kutoa yai. Folikali inageuka kuwa korpasi luteum - si muundo tofauti kabisa kinachotokea.
+
+C,",True,6.6430806999560446,2075,179,0
+C,"Kwa kutathmini lengo la kujifunza ""Kuelewa uhusiano kati ya michakato ya usanisinuru na upumuaji wa seli"", tunahitaji shughuli ambayo itaonyesha wazi uelewa wa jinsi michakato hii miwili inavyohusiana na kutegemana.
+
+Chaguo A linaangalia tofauti (kulinganisha) lakini si uhusiano wa kutegemana.
+
+Chaguo B linazungumzia umuhimu katika uwiano wa ikolojia, lakini si uhusiano moja kwa moja kati ya michakato hii miwili.
+
+Chaguo C linaonyesha milinganyo ya kikemikali na kutegemeana kwa michakato - hii inadhihirisha wazi uhusiano kati ya usanisinuru na upumuaji (bidhaa za usanisinuru ni malighafi ya upumuaji, na kinyume chake).
+
+Chaguo D linazungumzia miundo ya seli na misombo, lakini si uhusiano kati ya michakato.
+
+C",True,10.812503600027412,2111,287,0
+A,"Ili kujibu swali hili, ninahitaji kuelewa nini kinachoulizwa na kuchambua kila chaguo.
+
+Swali linahusu fludarabine ambayo inazuia DNA primase. Swali linauliza ni hatua gani ya urudufu wa DNA inayoathiriwa moja kwa moja.
+
+DNA primase ni kimeng'enya kinachosanisi RNA primers (vipande vifupi vya RNA) ambavyo vinahitajika kuanzisha usanisi wa DNA. Bila primers hizi, DNA polymerase haiwezi kuanza kuongeza nukleotidi.
+
+Kwa hiyo, swali linapima uelewa wa mwanafunzi kuhusu utendakazi wa DNA primase, ambayo ni kusanisi RNA primers (RNA ya kiambata) inayohitajika kuanzisha urudufu.
+
+Kuchambua chaguo:
+- A: Inahusu usanisi wa RNA ya kiambata (primers) - hii ndiyo kazi ya DNA primase
+- B: Inahusu kufungua spirali pacha - hii ni kazi ya helicase, si primase
+- C: Inahusu kuongeza nukleotidi - hii ni kazi ya DNA polymerase, si primase
+- D: Inahusu kuvunja vifungo vya haidrojeni - hii pia ni kazi ya helicase
+
+A,",True,11.848384999902919,2221,364,0
+B,"Kwa kuangalia lengo la kujifunza: ""Kuunda mifano inayoelezea matukio ya astronomia ya mfumo wa jua"" na hasa kushughulikia ukubwa wa Jua na sayari, tunahitaji mkakati ambao utasaidia wanafunzi kuelewa vizuri tofauti za ukubwa kati ya miili ya angani.
+
+Chaguo A linazingatia mpangilio tu, si ukubwa halisi.
+
+Chaguo B linatoa kitengo cha rejea (radi ya Dunia) na kuunda uwiano, ambao unasaidia wanafunzi kuunda mfano wa kuelewa ukubwa wa kila sayari kwa kulinganisha na Dunia - hii inasaidia moja kwa moja katika kuunda mifano inayoelezea matukio ya astronomia.
+
+Chaguo C linarahisisha kupita kiasi na haliwezi kusaidia kuunda mifano sahihi.
+
+Chaguo D linazingatia mazoezi ya nukuu tu, si kuunda mifano.
+
+B",True,9.14413239993155,2217,288,0
+B,"Kwa kuangalia msisitizo wa mtaala kuhusu ""Asili ya Sayansi,"" tunafuta shughuli ambayo inaonyesha jinsi sayansi inavyofanya kazi kama mchakato wa kuchunguza na kuelewa ulimwengu wa asili.
+
+Chaguo A linazungumzia matumizi ya kila siku - si asili ya sayansi
+Chaguo B linazungumzia historia ya dhana - inaonyesha maendeleo ya maarifa ya kisayansi
+Chaguo C linazungumzia teknolojia na upimaji - si msingi wa asili ya sayansi
+Chaguo D linaeleza jinsi mwendo unavyofanya kazi na sababu zake za kisayansi - hii inaonyesha asili ya sayansi kama uchunguzi wa matukio ya asili na kanuni zinazoyasimamia
+
+B,",True,8.722500999923795,2061,245,0
+B,"Ili kutathmini upungufu wa modeli ya mlinganisho ya haidroliki katika kufundishia sakiti za umeme, ninahitaji kufikiria kuhusu ni vipi mlinganisho huu unaweza kusababisha uelewa usio sahihi.
+
+Katika mlinganisho wa haidroliki:
+- Maji yanayotiririka yanawakilisha mkondo wa umeme
+- Bomba linawakilisha waya
+- Shinikizo la maji linaweza kuwakilisha nguvu ya umeme
+
+Chaguo A: Mlinganisho wa haidroliki unaweza kutumika kwa sakiti za mfululizo na sambamba (mifereji ya maji inaweza kuwa mfululizo au sambamba), kwa hiyo hii si upungufu.
+
+Chaguo B: Katika mfumo wa maji, maji yanaweza ""kushuka"" kwa mvuto lakini yanahitaji kusukumwa ""kupanda"" kwa bomba. Hii inaweza kusababisha uelewa usio sahihi kwamba umeme unatirika kwa njia moja tu - kushuka - ambayo ni dhana potofu ya jinsi mkondo unavyofanya kazi katika mzunguko.
+
+Chaguo C: Katika mfumo wa haidroliki, vizuizi (kama valves au sehemu nyembamba za bomba) vinaweza kuwakilisha upinzani, kwa hiyo hii si upungufu mkubwa.
+
+Chaguo D: Hii ni kweli - nguvu ya mkondo (amperes) si sawa na mtiririko wa maji (liters kwa sekunde). Huu ni mlinganisho usio sahihi wa kiasi.
+
+Upungufu mkubwa zaidi ni B - kuunda dhana potofu kwamba umeme ""unashuka"" tu na hauwezi ""kupanda.""
+
+B",True,14.645667199976742,2390,491,0
+C,C,True,3.1237644001375884,1924,4,0
+A,"A,",True,5.1453517999034375,1641,5,0
+B,"Ili kutathmini dhana potofu za awali zinazoweza kuzuia moja kwa moja ujifunzaji wa sheria za Newton, tunahitaji kuzingatia ni zipi zinagongana moja kwa moja na kanuni za msingi za sheria hizi:
+
+- Sheria ya Kwanza ya Newton: Mwili hubaki katika hali yake ya mapumziko au mwendo wa mstari wa kasi thabiti isipokuwa nguvu ya nje inapofanya kazi juu yake.
+- Sheria ya Pili ya Newton: F = ma (nguvu inasababisha mchapuko)
+- Sheria ya Tatu ya Newton: Kila tendo lina kitendo sawa na kinachokinzana (nguvu za jozi)
+
+Kuchambua chaguo:
+
+A. ""Umbali na makazi ni visawe"" - si tatizo kubwa kwa sheria za Newton; ""nguvu inayohitajika kusogeza kitu inategemea uzito wake"" - inapotosha dhana ya nguvu na mchapuko
+
+B. ""Ikiwa mwili uko katika mapumziko, hakuna nguvu zinazofanya kazi juu yake"" - hii inagongana MOJA KWA MOJA na Sheria ya Kwanza (nguvu zinaweza kuwa sawa lakini mwili bado uko mapumziko); ""mchapuko daima hutokea katika mwelekeo uleule na mwendo"" - hii inagongana na Sheria ya Pili
+
+C. ""Viumbe hai pekee ndio wanaoweza kutumia nguvu"" - hii inagongana na msingi wa sheria za Newton ambazo zinajumuisha nguvu zote
+
+D. ""Nguvu inayotumiwa na kitu kidogo kwenye kikubwa ni ndogo kuliko nguvu ya msukumo ya kile kikubwa"" - hii inagongana MOJA KWA MOJA na Sheria ya Tatu ya Newton
+
+B,",True,13.881913400022313,2391,525,0
+C,"Ninaangalia lengo la ujifunzaji: ""Onyesha kwamba wanaelewa kuwa maarifa kuhusu Ulimwengu hubadilika na kuongezeka kutokana na ushahidi mpya.""
+
+Lengo hili linazungumzia:
+- Mabadiliko ya maarifa ya kisayansi
+- Jinsi ushahidi mpya unavyobadilisha uelewa wetu
+- Mageuzi ya nadharia za kisayansi
+
+Ninaangalia kila chaguo:
+
+A. Kueleza mageuko ya Ulimwengu - Inazungumzia mageuko ya kimwili, si mabadiliko ya maarifa
+
+B. Kubainisha michakato ya uundaji - Inazungumzia michakato ya kisayansi, si mabadiliko ya maarifa
+
+C. Kulinganisha wema na mapungufu ya miundo - Inazungumzia miundo tofauti, si mabadiliko ya maarifa
+
+D. Kulinganisha mfumo mzingo-ardhi na mfumo mzingo-jua - Hii inaonyesha jinsi mawazo kuhusu mfumo wa jua yalivyobadilika kutoka nadharia moja kwenda nyingine, ikionyesha mabadiliko ya maarifa ya kisayansi
+
+D",True,9.468032999895513,2138,359,0
+B,"Ili kutathmini maarifa ya awali ya wanafunzi kuhusu mwendo wa vitu vinavyoanguka huru, mwalimu anahitaji shughuli ambayo itadhihirisha wazi dhana na uelewa wa wanafunzi kuhusu kinematiki ya kuanguka huru.
+
+Chaguo A ni shughuli ya vitendo lakini haijumuishi tathmini ya dhana.
+
+Chaguo B linawawezesha wanafunzi kuonyesha uelewa wao wa jinsi vitu vinavyoanguka na vigezo vinavyoathiri muda wa kuanguka - hii inadhihirisha maarifa yao ya awali.
+
+Chaguo C linazingatia mwelekeo wa kuongeza kasi, ambayo ni sehemu moja tu ya dhana.
+
+Chaguo D linaweza kuwa ngumu sana kwa tathmini ya awali na linaweza kuzuia wanafunzi ambao bado hawajajifunza istilahi zote.
+
+Chaguo B linatoa ushahidi bora wa maarifa ya awali kwa sababu linawauliza wanafunzi kutumia uelewa wao wa sasa kulinganisha na kutarajia matokeo - hii inadhihirisha wazi dhana zao za awali.
+
+B",True,10.898775300011039,2165,351,0
+D,"Nikiangalia maswali haya, ninahitaji kuchagua maoni ya mwalimu yanayofaa zaidi kuongoza mwanafunzi kutambua na kushinda makosa yake kuhusu athari ya Doppler.
+
+Mwanafunzi amesema kwamba kasi inabadilika kwa sababu inategemea masafa na urefu wa wimbi, na vyote viwili hubadilika katika athari ya Doppler.
+
+Makosa ya mwanafunzi:
+1. Anafikiri kasi ya uenezaji wa sauti inabadilika
+2. Anafikiri kasi inategemea masafa na urefu wa wimbi
+
+Ukweli:
+- Kasi ya uenezaji wa sauti ni thabiti (haibadiliki) katika athari ya Doppler
+- Masafa na urefu wa wimbi hubadilika kwa mwangalizi, lakini zao lao (kasi) hubaki thabiti
+
+Nikiangalia chaguo:
+
+A. Inasema masafa na urefu wa wimbi hubadilika kwa mwangalizi tu, na zao lao hubaki daima - hii ni sahihi lakini haiongozi vizuri
+
+B. Inaanza kwa maswali ya kuongoza (sababu za mabadiliko), inasema kasi haibadiliki, na inaeleza uhusiano - hii ni njia nzuri ya kuongoza
+
+C. Inasema kasi ni thabiti na inaeleza uhusiano wa kinyume, lakini haiongozi kwa maswali
+
+D. Inaanza kwa maswali ya kuongoza kuhusu visababishi vya mwendo, inasema kasi haibadiliki, na inamaliza kwa swali la kuongoza - hii ni njia bora ya kuongoza
+
+Jibu bora ni lile linaloongoza mwanafunzi kwa maswali ili aweze kujigundua makosa yake mwenyewe.
+
+D",True,13.29904459998943,2664,522,0
+B,B,True,3.409187899902463,1842,4,0
+A,"Kwa kuangalia swali hili, mwanafunzi ana shaka kuhusu tofauti kati ya koloidi na michanganyiko ya aina moja (homogeneous mixtures) kwa sababu chembe za koloidi haziwezi kuonekana kwa macho. 
+
+Ili kufanyia kazi sifa za koloidi na kuonyesha tofauti yake na michanganyiko ya aina moja, mwalimu anahitaji shughuli ya vitendo ambayo itadhihirisha sifa maalum ya koloidi.
+
+Athari ya Tyndall ni sifa muhimu ya koloidi ambapo mwanga unapita katika koloidi, chembe zilizotawanywa hutawanya mwanga na kuufanya uonekane (mwanga unaonekana kama mwendo). Hii haitokei katika michanganyiko ya aina moja halisi kama myeyuko. Hii ni njia ya vitendo na ya moja kwa moja ya kuonyesha tofauti kati ya koloidi na michanganyiko ya aina moja.
+
+A",True,10.64305970002897,2113,288,0
+C,"Ili kutatua tatizo la kuelewa ni kwa nini lazima wajumuishe valensi ya metali kwa namba za Kirumi katika baadhi ya visa tu, mwalimu anahitaji shughuli ambayo itawaonyesha wanafunzi kwamba:
+
+1. Baadhi ya metali zina valensi moja tu (kwa hivyo hakuna haja ya kuonyesha namba za Kirumi)
+2. Baadhi ya metali zina valensi zaidi ya moja (kwa hivyo namba za Kirumi ni muhimu ili kubainisha ni valensi ipi inayotumika)
+
+Chaguo C kinashughulikia hili kwa moja kwa moja kwa kuonyesha mifano ya shaba (ambayo ina valensi zaidi ya moja) na kuuliza jinsi ya kutofautisha oksidi mbili tofauti za shaba katika mfumo wa Stock. Hii inawaonyesha wanafunzi umuhimu wa namba za Kirumi wakati metali ina valensi zaidi ya moja.
+
+C",True,8.747062199981883,2490,289,0
+B,"Kwa kuangalia swali hili, tunahitaji kuchagua shughuli ambayo:
+1. Inashughulikia mambo yanayoathiri umumunyifu (solubility)
+2. Inakuza ujuzi wa kisayansi (scientific skills)
+
+Hebu tuangalie kila chaguo:
+
+A. Kuchunguza sababu za kutikisa na kufungua chupa ya soda - Hii inahusiana na gesi katika kioevu, lakini si moja kwa moja kuhusu umumunyifu
+
+B. Kubuni jaribio kwa kutumia mimea ya majini kwenye halijoto tofauti - Hii inashughulikia umumunyifu wa gesi (CO2) katika maji kwa halijoto tofauti, na pia inaruhusu wanafunzi kubuni jaribio wenyewe (ujuzi wa kisayansi wa juu)
+
+C. Kufanya jaribio la kupuliza kwa mrija kwenye maji ya chokaa - Hii ni maonyesho tu, si ujuzi wa kisayansi wa hali ya juu
+
+D. Kufasiri data kutoka grafu - Hii si moja kwa moja kuhusu umumunyifu
+
+Jibu B linaonyesha ujuzi wa kisayansi kwa kiwango cha juu (kubuni jaribio) na linashughulikia umumunyifu wa gesi katika maji.
+
+B",True,10.573683500057086,2236,394,0
+C,"Ili kufikia lengo la ""Unganisha mkusanyiko (concentration) na usemi wa kihisabati wa kukokotoa pH katika aina mbalimbali za asidi na besi dhaifu,"" wanafunzi wanahitaji kwanza kuelewa jinsi ya kuhesabu pH kwa kutumia thamani za mkusanyiko. Hii inahusisha kuelewa usemi wa kigezo cha msawazo wa mmenyuko wa kikemikali (equilibrium constant expression), ambao ni muhimu kwa asidi na besi dhaifu ambazo hazitengani kabisa katika maji.
+
+Kwa asidi na besi dhaifu, pH inategemea kigezo cha msawazo (Ka au Kb) na mkusanyiko wa awali. Bila kuelewa jinsi ya kuandika na kutumia usemi wa kigezo cha msawazo, haiwezekani kukokotoa pH kwa usahihi.
+
+C",True,8.346056000096723,1979,249,0
+C,"Ili kuelewa vigezo vinavyoamua utulivu wa nyuklia katika atomu, wanafunzi wanahitaji kwanza kuelewa muundo wa atomu, hasa kiini na jinsi namba atomia (idadi ya protoni) na namba ya masi (jumla ya protoni na neutroni) zinavyoelezea atomu. Hizi ni dhana za msingi zinazohitajika kabla ya kujifunza kuhusu utulivu wa nyuklia, kwani utulivu wa kiini unategemea uwiano wa protoni na neutroni ndani ya kiini.
+
+C,",True,6.839972699992359,1842,162,0
+C,"Kwa kuangalia lengo la ujifunzaji: ""Tabainisha misombo ya kikaboni kupitia vikundi vyao vya utendaji kazi""
+
+Lengo hili linalenga utambulizi na utofautishaji wa misombo ya kikaboni kulingana na vikundi vyao vya utendaji kazi (functional groups).
+
+Ninaangalia kila kiashiria:
+
+A. Hutambua vikundi kazi - Hii inaendana MOJA KWA MOJA na lengo
+
+B. Huainisha kampaundi kulingana na muitikio wake - Hii inahusiana na vikundi vya utendaji kazi kwani vikundi tofauti vina maitikio tofauti
+
+C. Huainisha kampaundi kulingana na aina ya uisomeri - Hii inahusu uisomeri (isomerism), si vikundi vya utendaji kazi
+
+D. Hupanga aina tofauti za kampaundi za kikaboni kwa kutumia kanuni za IUPAC za utajo - Hii inahusiana na utajo wa kimkakati wa misombo yenye vikundi vya utendaji kazi
+
+Kiashiria cha C kinahusu uisomeri ambao ni dhana tofauti na utambulizi wa vikundi vya utendaji kazi.
+
+C",True,10.522428799886256,2066,350,0
+A,"Ili kushughulikia lengo la kuonyesha kwamba joto lililofyonzwa hutegemea joto maalum la kila dutu, tunahitaji kulinganisha jinsi dutu tofauti zinavyofyonza joto kwa kiasi sawa cha nishati.
+
+Hebu tuchambue kila chaguo:
+
+A. Kupasha joto wisani sawa wa maji na glyserini - Hii inafaa kwa sababu inalinganisha dutu mbili tofauti (maji na glyserini) zinazopokea kiasi sawa cha nishati, na kuangalia tofauti katika mabadiliko ya joto. Hii inaonyesha moja kwa moja dhana ya joto maalum.
+
+B. Kuongeza maji kwenye vikombe tofauti (kioo na foamu) - Hii inalenga zaidi upotezaji wa joto na sifa za vikombe, si joto maalum la dutu.
+
+C. Kupasha maji safi na maji ya chumvi - Hii inalenga kiwango cha kuchemka, si joto maalum.
+
+D. Kupasha kijiko cha chuma na kuweka kwenye maji - Hii inalenga uhamisho wa joto, si joto maalum.
+
+A,",True,10.377224100055173,2248,348,0
+B,"Kwa kuangalia lengo la darasa: ""Tambua vigezo tegemezi na visivyotegemezi katika mambo yanayoathiri uzalishaji wa mkojo"", tunahitaji shughuli ambayo itawawezesha wanafunzi kutambua:
+- Kigezo kisichotegemezi (kinachobadilishwa/kinachosababisha)
+- Kigezo tegemezi (kinachopimwa/matokeo)
+
+Chaguo B linaonyesha uhusiano wa sababu na athari: unywaji wa pombe (kigezo kisichotegemezi) na kiasi cha mkojo (kigezo tegemezi). Hii inawawezesha wanafunzi kutambua vigezo vyote viwili.
+
+B",True,6.930120200151578,1929,199,0
+B,"Ili kutathmini lengo la kuelewa uhusiano kati ya halijoto na ujazo wa gesi katika hali za maisha ya kila siku, tunahitaji mfano ambao unaonyesha wazi jinsi mabadiliko ya halijoto yanavyoathiri ujazo wa gesi.
+
+Hebu tuchambue kila chaguo:
+
+A. Jiko la kufinyanga shinikizo - Hili linahusiana zaidi na shinikizo na halijoto, lakini si mfano bora wa kuonyesha uhusiano wa halijoto na ujazo
+
+B. Mkate uliotengenezwa kwa chachu - Wakati chachu inapopikwa, gesi za CO2 zinapanuka kwa sababu ya ongezeko la halijoto, na hivyo kuongeza ujazo wa mkate. Hii inaonyesha wazi uhusiano wa halijoto na ujazo wa gesi (Sheria ya Charles)
+
+C. Uingizaji na utoaji wa hewa mapafuni - Hii inahusiana zaidi na mchakato wa kupumua, si mfano wa uhusiano wa halijoto na ujazo
+
+D. Viputo vya soda - Hii inahusiana zaidi na shinikizo na ufumbuzi wa gesi, si halijoto na ujazo
+
+B",True,11.142568700015545,2089,351,0
+D,"Ili kusaidia wanafunzi kuelewa vizuri uundaji wa kationi, wanafunzi wanahitaji kuona tofauti kati ya atomu isiyo na chaji na ioni yake. Tatizo la wanafunzi ni kuamini kwamba kationi huundwa kwa kuongeza protoni, ambayo ni dhana isiyo sahihi. Idadi ya protoni haibadiliki katika uundaji wa ioni - ni elektroni tu ndizo zinazobadilika.
+
+Shughuli bora ni ile ambayo itawaonyesha wazi kwamba:
+1. Idadi ya protoni inabaki sawa
+2. Ni elektroni tu ndizo zinazopotea (kwa kationi) au kuongezeka (kwa anioni)
+
+Chaguo D linawaomba wanafunzi kulinganisha moja kwa moja atomu ya sodiamu isiyo na chaji na ioni yake, wakizingatia idadi ya protoni, elektroni, na neutroni. Hii itawaonyesha wazi kwamba protoni zinabaki sawa, lakini elektroni zimepungua, hivyo kusahihisha dhana yao isiyo sahihi.
+
+D",True,10.368138100020587,2177,309,0
+D,"Ili kuelewa utaratibu wa kizuizi cha tatu (mstari wa tatu wa ulinzi), wanafunzi wanahitaji kwanza kuelewa tofauti kati ya aina mbili kuu za kinga. Kizuizi cha tatu kinahusiana na kinga inayoweza kurekebishwa (adaptive immunity) ambayo ni tofauti na kinga ya asili (innate immunity) - ambayo ni mistari ya kwanza na ya pili ya ulinzi. Bila kuelewa tofauti hii ya msingi, wanafunzi hawawezi kuelewa vizuri jinsi kizuizi cha tatu kinavyofanya kazi.
+
+D",True,7.153485700022429,1886,177,0
+D,"Ili kuelewa sheria ya Hooke (nguvu ya chemchemi), wanafunzi wanahitaji kwanza kuelewa dhana ya msingi ya nguvu - ni nini, ina mwelekeo gani, na ina ukubwa gani. Sheria ya Hooke inaelezea uhusiano kati ya nguvu inayotumika kwenye chemchemi na jinsi chemchemi inavyonyooka. Bila kuelewa dhana ya msingi ya nguvu (ukubwa, mwelekeo, na maana yake), wanafunzi hawawezi kuelewa jinsi nguvu inavyohusiana na mabadiliko ya urefu wa chemchemi.
+
+A,",True,6.78187150019221,1895,183,0
+A,"Kwa kuangalia lengo la kujifunza: ""Eleza tabia ya gesi bora katika hali za kila siku, ukizingatia sheria zinazoimodeli,"" kiashiria kinachofaa ni kile kinachoonyesha uwezo wa wanafunzi kutumia sheria za gesi bora kuieleza tabia ya gesi katika miktadha ya kila siku.
+
+Chaguo A kinaonyesha uwezo wa kuweka sheria katika mifano ya kila siku - hii inaendana moja kwa moja na lengo la kueleza tabia ya gesi katika hali za kila siku kwa kutumia sheria zinazoimodeli.
+
+Chaguo B linazingatia kutafsiri grafu na uhusiano - hii ni ujuzi wa kimsingi lakini haielezi moja kwa moja tabia katika hali za kila siku.
+
+Chaguo C linazingatia kutambua tu viwango - hii ni ngazi ya chini ya utendaji.
+
+Chaguo D linazingatia kupima thamani - hii ni zaidi ya ujuzi wa vitendo kuliko kueleza tabia.
+
+A",True,8.46065629995428,2085,310,0
+D,"Ili kutathmini kiashiria cha ""Tofautisha vifaa ambavyo ni vipitishi vya umeme na vile ambavyo ni vizuizi vya umeme,"" shughuli inayofaa zaidi ni ile ambayo inawawezesha wanafunzi kujaribu na kutofautisha kwa vitendo vifaa vinavyopitisha umeme na vile visivyopitisha.
+
+Chaguo D kinawaomba wanafunzi wachague kutoka kwa vifaa mbalimbali (uma wa chuma - kipitishi, kitana cha plastiki - kizuizi, mpira wa kuvutia - kizuizi) ili kukamilisha mzunguko wa umeme. Hii inahitaji wanafunzi kutofautisha kwa vitendo ni vifaa vipi vinavyopitisha umeme (uma wa chuma) na vipi vinavyozuia (kitana cha plastiki na mpira wa kuvutia), ambayo ni lengo halisi la kiashiria.
+
+D,",True,9.303048399975523,2234,267,0
+C,"Ili kutathmini kiashiria cha ""Kutofautisha vigezo vinavyotumiwa kuelezea tukio la tetemeko la ardhi,"" mwalimu anahitaji shughuli ambayo wanafunzi wataonyesha uwezo wao wa kutofautisha kati ya dhana mbili kuu: ukubwa (magnitude) na ukali (intensity).
+
+Chaguo A linazungumzia kitovu - si vigezo vya kuelezea tetemeko
+Chaguo B linazungumzia ukubwa na uharibifu lakini halijumuishi kutofautisha vigezo
+Chaguo C linalenga moja kwa moja kutofautisha kati ya ukubwa na ukali - vigezo viwili vikuu vya kuelezea matetemeko
+Chaguo D linazungumzia kipimo cha Richter tu (ukubwa) - si kutofautisha vigezo
+
+C",True,7.820399600081146,2016,243,0
+B,"Kwa kuangalia swali hili, mwanafunzi anauliza kwa nini wanalinganisha milolongo ya asidi amino ya protini badala ya kuangalia moja kwa moja DNA.
+
+Jibu bora linapaswa:
+1. Kueleza uhusiano kati ya DNA na protini
+2. Kuonyesha jinsi tofauti za protini zinavyoonyesha tofauti za DNA
+3. Kuwa sahihi kisayansi lakini kueleweka kwa mwanafunzi wa mwaka wa kwanza wa sekondari
+
+Jibu B linafafanua vizuri kwamba:
+- Protini zinajengwa kutokana na mpangilio wa asidi amino uliowekwa katika DNA
+- Mabadiliko katika DNA yanabadilisha mpangilio wa asidi amino
+- Kwa kulinganisha idadi ya tofauti za asidi amino, tunaweza kuamua uhusiano wa mageuzi
+
+Hili ni jibu linaloeleweka zaidi na linalomjibu mwanafunzi moja kwa moja kuhusu kwa nini kulinganisha protini kunafaa - kwa sababu tofauti za protini zinaonyesha tofauti za DNA.
+
+B",True,10.55256039998494,2582,326,0
+D,"Kwa kujibu swali hili, ninahitaji kuelewa kwa nini mayai ya uzazi (oocytes) yanatumika katika jaribio la uhamishaji kiini badala ya seli nyingine.
+
+Ufafanuzi sahihi unahitaji kueleza:
+1. Kwamba oocyte ni seli isiyo na tofauti (undifferentiated)
+2. Kwamba sitoplasma yake ina vipengele muhimu vya kutofautisha
+3. Kwamba vipengele hivi vinaweza kurudisha kiini kilichotofautishwa kuwa na uwezo wa kusababisha ukuaji kamili
+
+Kwa kuangalia majibu:
+
+A - Inasema oocyte ni seli isiyo na tofauti na ina vipengele tofauti, lakini haieleezi vizuri jinsi vipengele hivi vinavyofanya kazi
+
+B - Inasema oocyte ni seli isiyo na tofauti yenye uwezo wa kusababisha aina nyingi za seli, na ina vijenzi vya tofauti vinavyoamilisha unukuzi na utafsiri wa jeni - hii ni maelezo sahihi ya kimawazo
+
+C - Inadai kwamba seli zilizotofautishwa zinaondoa jeni muhimu, ambayo si sahihi - jeni haziongolewi, bali zinazimwa tu
+
+D - Inadai kwamba oocyte pekee ina vipengele vyote vya utofauti, ambayo si sahihi kabisa
+
+B",True,11.480884399963543,2632,413,0
+D,"Kwa kuangalia swali hili kuhusu uelewa wa kingamwili na majibu ya kinga:
+
+Swali linahusu maana ya matokeo ya kipimo ambapo IgG ni chanya lakini IgM ni hasi.
+
+Kumbuka mambo muhimu kuhusu kingamwili:
+- IgM ni kingamwili cha kwanza kinachotokea wakati wa maambukizi mapya (acute infection)
+- IgG huja baadaye na hubaki muda mrefu katika damu
+- IgM hupungua/kutoweka baada ya muda
+- Ikiwa IgG ni chanya na IgM ni hasi, inamaanisha maambukizi yalikuwa zamani na mtu amepona au ana kinga
+
+Kwa hiyo:
+- A: Si sahihi - sio awamu kali
+- B: Si sahihi - sio awamu ya papo hapo
+- C: Si sahihi - sio awamu ya kwanza ya maambukizi kali
+- D: Sahihi - inaeleza vizuri kwamba IgM huja kwanza, kisha IgG, na IgG hubaki muda mrefu. Matokeo haya yanaonyesha mtu amepona au alikuwa na maambukizi zamani
+
+D",True,11.61849549994804,2316,338,0
+C,"Ili kuelewa jinsi uvimbe wa saratani unavyoundwa, wanafunzi wanahitaji kwanza kuelewa jinsi seli zinavyodhibitiwa kawaida na jinsi udhibiti huu unavyoharibika. Saratani hutokea wakati kuna mabadiliko (mutations) katika DNA ambayo yanasababisha seli kukua na kugawanyika bila udhibiti. Hivyo, maarifa ya msingi yanayohitajika ni kuelewa aina za mabadiliko ya DNA na kromosomu ambayo yanaweza kusababisha seli kukosa udhibiti wa kawaida wa ukuaji.
+
+D,",True,6.972514500143006,1848,172,0
+D,"D,",True,3.3697232000995427,1814,5,0
+D,"Kwa kuangalia lengo la ""Kutumia sheria ya uhifadhi wa kasi katika mfumo uliofungwa,"" tunahitaji kazi ambayo inaruhusu wanafunzi kutumia sheria hii kwa vitendo.
+
+Chaguo A - Kutoa mifano tu ni kumbukumbu, si kutumia sheria
+Chaguo B - Kupima masi na spidi kabla na baada ya mgongano inaruhusu wanafunzi kutumia sheria ya uhifadhi wa kasi kwa kukokotoa na kuthibitisha kwamba kasi ya jumla kabla na baada ya mgongano inabaki sawa
+Chaguo C - Inahusu msukumo, si moja kwa moja sheria ya uhifadhi wa kasi
+Chaguo D - Kutazamia tu si kutumia sheria kwa vitendo
+
+B,",True,8.748177000088617,2011,235,0
+B,"Kwa kuangalia lengo la kujifunza: ""Kutumia mfumo wa wimbi kuelezea kuwa mwanga huakisiwa na kupindika unapotua kwenye mpaka unaotenganisha midia mbili,"" mwalimu anahitaji nyenzo ambayo inarahisisha uelewa wa maudhui haya.
+
+Kuchambua kila chaguo:
+
+A. Inaelezea tofauti kati ya mifumo miwili ya nuru - hii ni nadharia zaidi na haionyeshi moja kwa moja uakisi na upindikaji
+
+B. Kiigizo cha kidijitali kinachoonyesha athari kwenye mbele za wimbi - hii inaelezea kwa undani lakini inaweza kuwa ngumu kuelewa
+
+C. Maonyesho ya vitendo ya boriti ya leza ikigonga maji - hii inaonyesha kwa vitendo uakisi na upindikaji lakini inaweza kuwa na vikwazo vya kuona
+
+D. Kielelezo cha kiingiliano ambacho wanafunzi wanaweza kukokotoa na kuona moja kwa moja jinsi boriti ya mwanga inavyoakisi na kupinda kwenye mpaka wa media mbili, kwa pembe zilizofafanuliwa - hii inarahisisha zaidi uelewa kwa kuwa ni ya kiingiliano na inaonyesha wazi dhana kuu
+
+D,",True,11.115102400071919,2367,385,0
+C,"Kwa kuangalia swali hili, mwalimu anataka kuongeza uelewa wa wanafunzi kuhusu sheria ya uvutano kwa kuonyesha mifano ya vitendo baada ya wanafunzi kuonyeshwa uhuishaji wa kidijitali ambao haukuwafanya waelewane vizuri.
+
+Tathmini kila chaguo:
+
+A. Mfano wa kifutio kinachozungushwa kwa kamba - Huu ni mfano mzuri wa vitendo unaonyesha nguvu ya katikati (centripetal force) inayofanana na uvutano, na unaweza kusaidia wanafunzi kuelewa jinsi Mwezi unavyozunguka Dunia.
+
+B. Uhuishaji mwingine wa kidijitali wa nafasi kama uso wa kunyumbuka - Huu bado ni uhuishaji wa kidijitali, sio mfano wa vitendo, na hauitatui tatizo la awali la wanafunzi kutoelewana na uhuishaji.
+
+C. Mfano wa kudondosha na kurusha mpira - Unaonyesha kuanguka lakini hauelezi vizuri mzunguko wa Mwezi, na mchoro wa dhahania unaweza kuwa ngumu kuelewa.
+
+D. Mchoro wa kina kwenye ubao - Huu ni ufafanuzi wa kihesabu zaidi, sio mfano wa vitendo, na unaweza kuongeza mkanganyiko kwa wanafunzi wanaoshindwa kuelewa dhana.
+
+Chaguo A linatoa mfano halisi wa vitendo ambao wanafunzi wanaweza kuona na kuelewa jinsi nguvu ya katikati inavyofanya kazi, ikifanana na uvutano unaosababisha Mwezi kuzunguka Dunia.
+
+A",True,15.344136400148273,2634,484,0
+C,"Ili kuendelea kujifunza maudhui mengine kwenye orodha ya mawimbi na sauti, mwalimu anahitaji kuanza na dhana za msingi zaidi ambazo ni misingi ya kuelewa dhana zingine ngumu zaidi.
+
+Kwa kuangalia orodha:
+- Dhana kama toni, ukali, marudio, kipindi, urefu wa wimbi, uakisi, ufyonzaji, na muingiliano zote zinategemea kuelewa kwanza wimbi ni nini na jinsi inavyohusiana na nishati.
+
+- **Wimbi** ni dhana ya msingi kabisa - ni lazima wanafunzi waelewe wimbi ni nini kabla ya kujifunza sifa zake (marudio, urefu wa wimbi, kipindi, n.k.)
+
+- **Nishati** pia ni dhana ya msingi kwa sababu mawimbi ni njia ya kusambaza nishati, na dhana nyingi (ukali, ufyonzaji, uakisi) zinahusiana na jinsi nishati inavyobadilishwa au kusambazwa.
+
+Bila kuelewa wimbi ni nini na jinsi linavyohusiana na nishati, haiwezekani kuelewa dhana zingine kama marudio, urefu wa wimbi, mtetemo, n.k.
+
+A",True,12.501360200112686,2139,363,0
+C,"Ili kutathmini uelewa wa wanafunzi kuhusu sababu za athari ya Doppler, tunahitaji kuangalia ni utendaji upi unaonyesha uelewa wa dhana za msingi za athari hii.
+
+Athari ya Doppler inahusiana na jinsi marudio ya sauti (au mawimbi mengine) yanavyobadilika kutokana na mwendo wa kati ya chanzo cha sauti na mwangalizi. Sababu za msingi ni:
+- Mwendo wa chanzo au mwangalizi
+- Kukandamizwa au kutenganishwa kwa mawimbi
+- Mabadiliko ya marudio yanayosikiwa
+
+Kuchambua kila chaguo:
+
+A. Inaeleza jinsi mawimbi yanavyokandamizwa/kutenganishwa - hii ni sehemu ya ufafanuzi lakini si kamili
+B. Inahusisha kuhesabu marudio - hii ni utendaji wa kimahesabu lakini haielezi sababu
+C. Inaeleza mwendo na jinsi unavyoathiri masafa ya mawimbi - hii ni maelezo ya msingi lakini si kamili
+D. Inatambua hali ambazo athari inatokea (mwendo wa kukaribia/kuondoka) na matokeo yake (tofauti ya marudio) - hii inaonyesha uelewa kamili wa sababu na athari
+
+A,",True,12.636945300037041,2195,393,0
+A,"Kwa kuangalia lengo la tathmini: ""Kutambua michakato ya redox katika maisha ya kila siku na athari zake kwa jamii ya leo,"" tunahitaji shughuli ambayo:
+1. Inahusisha michakato ya redox katika maisha ya kila siku
+2. Inaonyesha athari kwa jamii ya leo
+
+Kuchambua kila chaguo:
+
+A. Kutu ya miundo ya chuma kutokana na mvua asidi - Hii ni mchakato wa redox katika maisha ya kila siku (kutu) na ina athari kwa jamii (uharibifu wa miundo). Tafakari kwa insha inaruhusu wanafunzi kuonyesha uelewa wa michakato na athari zake.
+
+B. Kuhesabu hali za oksidi katika mmenyuko wa alcolest - Hii ni hesabu za kihisabati tu, haihusishi kutambua michakato katika maisha ya kila siku au athari kwa jamii.
+
+C. Kutengeneza uwiano kwa uoksidishaji wa mabomba ya shaba - Hii ni mbinu ya kihesabu/kinadharia, si kutambua michakato na athari zake kwa jamii.
+
+D. Kupanga idadi ya elektroni katika betri ya alkali - Hii pia ni mbinu ya kihesabu, si kutambua michakato na athari zake.
+
+A,",True,10.310569900088012,2278,387,0
+D,"Nikiangalia lengo la ujifunzaji: ""Kupanga na kutafsiri data zinazohusiana na sifa za kimwili-kikemikali za viambata hai.""
+
+Lengo hili linahitaji wanafunzi:
+1. **Kupanga** data (kuandaa/kuorganize data)
+2. **Kutafsiri** data (kuelewa na kufafanua mwenendo/tabia)
+
+Nikichambua kila chaguo:
+
+A. Wanafunzi wanapewa data tayari iliyopangwa na wanachanganua hali - **hapana kupanga**, ina kutafsiri kidogo
+
+B. Wanafunzi **wanachunguza** (collect data), **wanapanga** katika jedwali, na **wanachambua/kutafsiri** hali - ina kupanga na kutafsiri
+
+C. Wanafunzi wanapewa data **tayari imepangwa** katika jedwali, na wanatafsiri tu - **hapana kupanga**, ina kutafsiri
+
+D. Wanafunzi wanapewa data, **wanapanga** kwenye jedwali, na **wanatafsiri** mwenendo - ina kupanga na kutafsiri
+
+Kati ya B na D, chaguo **D** linafaa zaidi kwa sababu:
+- Linazingatia moja kwa moja kupanga data (kuandaa kwenye jedwali)
+- Linahitaji kutafsiri mwenendo kulingana na sifa za kimwili-kikemikali (mwingiliano wa molekuli)
+- Halijumuishi ""kuchunguza"" ambayo si sehemu ya lengo
+
+D",True,13.233740600058809,2400,440,0
+D,"Nikiangalia swali hili, mwalimu anataka kutathmini ikiwa wanafunzi wanaweza kutambua michakato ya kikemikali katika matukio yanayotokea karibu nao (everyday phenomena). 
+
+Tathmini inaonyesha kuwa vikundi viliwasilisha miitikio ya kikemikali ya kinadharia/ya maabara (kama mwitikio wa NaOH na HCl, uundaji wa HCl, uundaji wa CO2) lakini hawakuiunganisha na matukio ya kila siku.
+
+Ili kuwaongoza wanafunzi kuelekea lengo la tathmini (kutambua michakato ya kikemikali katika matukio yanayotokea karibu nao), mwalimu anahitaji kuwaelekeza kutoka kwa miitikio ya kinadharia kwenda kwa matukio halisi ya kila siku.
+
+Jibu D linawauliza wanafunzi kufikiri ni ipi kati ya miitikio waliyoileta inayoweza kupatikana katika vitendo/matukio vya kila siku - hii inaunganisha moja kwa moja miitikio yao na maisha ya kila siku, ambayo ndiyo lengo la tathmini.
+
+D",True,10.089117400115356,2363,339,0
+B,B,True,2.6977775001432747,1620,4,0

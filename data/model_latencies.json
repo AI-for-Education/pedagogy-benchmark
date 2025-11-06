@@ -1,32 +1,45 @@
 {
     "gemini-2.5-flash-lite-preview-09-2025": {
-        "CDPK_Swahili_science": 495.65271186828613
+        "CDPK_Swahili_science": 495.65271186828613,
+        "CDPK_Swahili_new_science": 201.58362579345703
     },
     "gemma-3-4b-it": {
-        "CDPK_Swahili_science": 127.87981986999512
+        "CDPK_Swahili_science": 127.87981986999512,
+        "CDPK_Swahili_new_science": 137.37535500526428
     },
     "gemma-3-27b": {
-        "CDPK_Swahili_science": 378.8524839878082
+        "CDPK_Swahili_science": 378.8524839878082,
+        "CDPK_Swahili_new_science": 586.1568877696991
     },
     "gemini-2.5-flash-preview-09-2025": {
-        "CDPK_Swahili_science": 1182.030466556549
+        "CDPK_Swahili_science": 1182.030466556549,
+        "CDPK_Swahili_new_science": 1004.6034944057465
     },
     "o4-mini-2025-04-16": {
-        "CDPK_Swahili_science": 1269.0616536140442
+        "CDPK_Swahili_science": 1269.0616536140442,
+        "CDPK_Swahili_new_science": 1195.566074371338
     },
     "claude-sonnet-4-5-20250929": {
-        "CDPK_Swahili_science": 1686.5697402954102
+        "CDPK_Swahili_science": 1686.5697402954102,
+        "CDPK_Swahili_new_science": 1725.0757267475128
     },
     "qwen-3-32b": {
-        "CDPK_Swahili_science": 2271.3763902187347
+        "CDPK_Swahili_science": 2271.3763902187347,
+        "CDPK_Swahili_new_science": 2758.528005361557
     },
     "gemini-2.5-pro-preview-06-05": {
-        "CDPK_Swahili_science": 2788.5692558288574
+        "CDPK_Swahili_science": 2788.5692558288574,
+        "CDPK_Swahili_new_science": 2628.957697868347
     },
     "gpt-5-2025-08-07-medium": {
-        "CDPK_Swahili_science": 2937.712484359741
+        "CDPK_Swahili_science": 2937.712484359741,
+        "CDPK_Swahili_new_science": 3066.0401611328125
     },
     "fw-deepseek-r1-0528": {
-        "CDPK_Swahili_science": 5470.401644706726
+        "CDPK_Swahili_science": 5470.401644706726,
+        "CDPK_Swahili_new_science": 11084.098484277725
+    },
+    "hf-swahili-gemma-1b": {
+        "CDPK_Swahili_science": 87.11238813400269
     }
 }

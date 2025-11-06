@@ -98,7 +98,7 @@
 #deepseek-v3-0324-fp8: Deepseek V3 March
 ##gemini-2.5-pro-exp-03-25: Gemini-2.5 Pro Preview (March '25)
 #gemma-3-12b-it: Gemma-3 12B
-gemma-3-4b-it: Gemma-3 4B
+#gemma-3-4b-it: Gemma-3 4B
 #llama-4-maverick-instruct-basic: Llama-4 Maverick
 #llama-4-scout-instruct-basic: Llama-4 Scout
 #grok-3-beta: Grok-3
@@ -113,7 +113,7 @@ gemma-3-4b-it: Gemma-3 4B
 #o3-2025-04-16: o3
 ##gemini-2.5-flash-preview-04-17: Gemini-2.5 Flash Preview (April '25)
 #qwen-3-14b: Qwen-3 14B
-#qwen-3-32b: Qwen-3 32B
+qwen-3-32b: Qwen-3 32B
 #qwen-3-30b-a3b: Qwen-3 30B A3B
 ##qwen-3-235b-a22b: Qwen-3 235B A22B # only show most recent version
 ##phi-4-reasoning-plus: Phi-4 Reasoning Plus
@@ -126,7 +126,7 @@ gemma-3-4b-it: Gemma-3 4B
 ##learnlm-2.0-flash-experimental: LearnLM 2.0 Flash Exp
 #claude-sonnet-4-20250514-low: Claude Sonnet 4 Thinking # to run on mmlu
 #claude-opus-4-20250514-low: Claude Opus 4 Thinking # to run on mmlu
-fw-deepseek-r1-0528: Deepseek R1 (May '25)
+#fw-deepseek-r1-0528: Deepseek R1 (May '25)
 ##deepseek-r1-0528-fp8-lambda: Deepseek R1 (May '25) Lambda # lower of 3% on CDPK compared to Deepseek R1 (May '25)
 #qwen-3-8b-fp8: Qwen-3 8B
 #gemini-2.5-pro-preview-06-05: Gemini-2.5 Pro
@@ -189,5 +189,6 @@ fw-deepseek-r1-0528: Deepseek R1 (May '25)
 #claude-sonnet-4-5-20250929: Claude Sonnet 4.5
 #claude-sonnet-4-5-20250929-low: Claude Sonnet 4.5 Thinking
 #grok-4-fast: Grok-4 Fast
-#gemini-2.5-flash-preview-09-2025: Gemini-2.5 Flash
+gemini-2.5-flash-preview-09-2025: Gemini-2.5 Flash
 gemini-2.5-flash-lite-preview-09-2025: Gemini-2.5 Flash-Lite
+#hf-swahili-gemma-1b: Swahili Gemma 1B
