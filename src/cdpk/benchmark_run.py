@@ -160,12 +160,18 @@ def run_benchmark(
 
         #### create series to hold the model answers (pred), accounting for the
         #### few-shot examples indices
-        pred_sr = pd.Series(index=df.index, name=f"pred_{model}", dtype=object)
         example_filt = np.zeros(len(df), dtype=bool)
         example_filt[config["example_rows"]] = True
+        pred_sr = pd.Series(index=df.index, name=f"pred_{model}", dtype=object)
         pred_sr[example_filt] = "Few-shot example"
         pred_sr[~example_filt] = df_res.loc[:, "resps"].to_numpy()
         predlist.append(pred_sr)
+        for var in df_res.columns:
+            if var not in ["resps", "success", "answers"]:
+                var_sr = pd.Series(index=df.index, name=f"{var}_{model}", dtype=df_res.dtypes[var])
+                var_sr[example_filt] = "Few-shot example"
+                var_sr[~example_filt] = df_res.loc[:, var].to_numpy()
+                predlist.append(var_sr)
 
     df = pd.concat([df, *predlist], axis=1)
     summary_df = pd.DataFrame(resdict)
