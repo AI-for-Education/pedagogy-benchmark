@@ -59,11 +59,13 @@ def run_benchmark(
         # Record the start time
         start_time = time.time()
 
-        answers, resps, success = evaluate_model(df, config=config, model=model, verbose=0)
+        answers, resps, extra_fields, success = evaluate_model(df, config=config, model=model, verbose=0)
         try:
-            df_res = pd.DataFrame(
+            df_res_basic = pd.DataFrame(
                 {"answers": answers, "resps": resps, "success": success}
             ).reset_index(drop=True)
+            df_res_extra = pd.DataFrame(extra_fields).reset_index(drop=True)
+            df_res = pd.concat([df_res_basic, df_res_extra], axis=1, ignore_index=True)
             if use_cache:
                 outfile.parent.mkdir(exist_ok=True, parents=True)
                 df_res.to_csv(outfile, index=False)

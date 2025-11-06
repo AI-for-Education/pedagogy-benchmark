@@ -101,6 +101,13 @@ def evaluate_model(test_df, config, model, verbose=0):
     answers = test_df.loc[~example_filt].iloc[:, answer_col]
     resps = list()
     success = list()
+    extra_fields = list()
+    extra_fields_vars = [
+        "Latency",
+        "TokensUsed",
+        "TokensUsedCompletion",
+        "TokensUsedReasoning",
+    ]
 
     extra_body = {}
 
@@ -131,19 +138,22 @@ def evaluate_model(test_df, config, model, verbose=0):
             if extra_body:
                 response = caller.call(
                     msg, max_tokens=None, temperature=temperature, extra_body=extra_body
-                ).Message
+                )
             else:
-                response = caller.call(
-                    msg, max_tokens=None, temperature=temperature
-                ).Message
+                response = caller.call(msg, max_tokens=None, temperature=temperature)
             if verbose > 0:
-                print(response)
-            resps.append(response)
+                print(response.Message)
+            resps.append(response.Message)
             success.append(True)
+            extra_fields_dict = {
+                key: getattr(response, key, None) for key in extra_fields_vars
+            }
+            extra_fields.append(extra_fields_dict)
         except Exception as e:
             print(e)
             resps.append("")
             success.append(False)
+            extra_fields_dict.append({})
 
         if model == "hunyuan-large-longcontext":
             time.sleep(5)
@@ -152,4 +162,4 @@ def evaluate_model(test_df, config, model, verbose=0):
         if model == "gemini-2.5-pro-exp-03-25":
             time.sleep(15)
 
-    return answers, resps, success
+    return answers, resps, extra_fields, success
