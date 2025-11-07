@@ -186,8 +186,8 @@
 #hf-olmo-2-1124-7b-instruct: OLMo-2 7B
 #hf-olmo-2-1124-13b-instruct: OLMo-2 13B
 #hf-olmo-2-0325-32b-instruct: OLMo-2 32B
-#claude-sonnet-4-5-20250929: Claude Sonnet 4.5
+claude-sonnet-4-5-20250929: Claude Sonnet 4.5
 #claude-sonnet-4-5-20250929-low: Claude Sonnet 4.5 Thinking
 #grok-4-fast: Grok-4 Fast
 #gemini-2.5-flash-preview-09-2025: Gemini-2.5 Flash
-gemini-2.5-flash-lite-preview-09-2025: Gemini-2.5 Flash-Lite
+#gemini-2.5-flash-lite-preview-09-2025: Gemini-2.5 Flash-Lite
