@@ -59,11 +59,13 @@ def run_benchmark(
         # Record the start time
         start_time = time.time()
 
-        answers, resps, success = evaluate_model(df, config=config, model=model, verbose=0)
+        answers, resps, extra_fields, success = evaluate_model(df, config=config, model=model, verbose=0)
         try:
-            df_res = pd.DataFrame(
+            df_res_basic = pd.DataFrame(
                 {"answers": answers, "resps": resps, "success": success}
             ).reset_index(drop=True)
+            df_res_extra = pd.DataFrame(extra_fields).reset_index(drop=True)
+            df_res = pd.concat([df_res_basic, df_res_extra], axis=1)
             if use_cache:
                 outfile.parent.mkdir(exist_ok=True, parents=True)
                 df_res.to_csv(outfile, index=False)
@@ -158,12 +160,18 @@ def run_benchmark(
 
         #### create series to hold the model answers (pred), accounting for the
         #### few-shot examples indices
-        pred_sr = pd.Series(index=df.index, name=f"pred_{model}", dtype=object)
         example_filt = np.zeros(len(df), dtype=bool)
         example_filt[config["example_rows"]] = True
+        pred_sr = pd.Series(index=df.index, name=f"pred_{model}", dtype=object)
         pred_sr[example_filt] = "Few-shot example"
         pred_sr[~example_filt] = df_res.loc[:, "resps"].to_numpy()
         predlist.append(pred_sr)
+        for var in df_res.columns:
+            if var not in ["resps", "success", "answers"]:
+                var_sr = pd.Series(index=df.index, name=f"{var}_{model}", dtype=object)
+                var_sr[example_filt] = "Few-shot example"
+                var_sr[~example_filt] = df_res.loc[:, var].to_numpy()
+                predlist.append(var_sr)
 
     df = pd.concat([df, *predlist], axis=1)
     summary_df = pd.DataFrame(resdict)
