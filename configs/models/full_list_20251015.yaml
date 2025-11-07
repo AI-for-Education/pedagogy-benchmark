@@ -98,7 +98,7 @@
 #deepseek-v3-0324-fp8: Deepseek V3 March
 ##gemini-2.5-pro-exp-03-25: Gemini-2.5 Pro Preview (March '25)
 #gemma-3-12b-it: Gemma-3 12B
-#gemma-3-4b-it: Gemma-3 4B
+gemma-3-4b-it: Gemma-3 4B
 #llama-4-maverick-instruct-basic: Llama-4 Maverick
 #llama-4-scout-instruct-basic: Llama-4 Scout
 #grok-3-beta: Grok-3
@@ -165,7 +165,7 @@
 #qwen3-235b-a22b-thinking-2507: Qwen-3 235B A22B Thinking
 #fw-glm-4.5: GLM-4.5
 #fw-glm-4.5-air: GLM-4.5 Air
-gpt-5-2025-08-07-medium: GPT-5
+#gpt-5-2025-08-07-medium: GPT-5
 ##gpt-5-2025-08-07-high: GPT-5 High
 ##gpt-5-2025-08-07-low: GPT-5 Low
 ##gpt-5-2025-08-07-minimal: GPT-5 Minimal
@@ -190,4 +190,4 @@ gpt-5-2025-08-07-medium: GPT-5
 #claude-sonnet-4-5-20250929-low: Claude Sonnet 4.5 Thinking
 #grok-4-fast: Grok-4 Fast
 #gemini-2.5-flash-preview-09-2025: Gemini-2.5 Flash
-gemini-2.5-flash-lite-preview-09-2025: Gemini-2.5 Flash-Lite
+#gemini-2.5-flash-lite-preview-09-2025: Gemini-2.5 Flash-Lite
