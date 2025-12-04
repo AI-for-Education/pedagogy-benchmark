@@ -1,0 +1,205 @@
+Source,question,answer_a,answer_b,answer_c,answer_d,answer_e,answer_f,answer_g,correct_answer,category,subdomain,age_group,pedagogical_subdomain,year,secondary_category
+Pedagogy Benchmark Luganda,"Omutendesi y’alina okusooka kukola ki eri abayizi be mu kibiina nga bayita mu kusomesa okwesigamiziddwa ku pulojekiti?
+","Leetawo ekibuuzo ekiggusa oba ekizibu kinene ddala, era okibuulirire.
+","Makuluza g’ebiruubirirwa by’okuyiga n’ebivaamu.
+","Kola okunoonyereza ku mbeera y'ebikolebwa ebipya ebitali bimu.
+","Lungereza abayizi mu bitundu ebitannanoonyerezebwaako.
+",,,,A,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Soma embeera eno: Abayizi abali mu S.6 bamaze okuzuula ekizibu mu ssomero lyabwe: tewaliwo we basobola okugula emmere ennungi ey’akawungeezi mu kiseera ky’okuwummula. Okuddamu, bawadde ekirowoozo ky’okuzimba akakiosk akatunda ebibala n’omukyomo, nga bakaddukanya bokka. Bayinza kukolagana na somo ki okutumbula omulimu guno?
+","Mu by'obuyiiya, okuyambako n'obumanyirivu mu nkola y'ebyamamawulire mu kutondekawo akabonero (logo) okubamanyisa.
+","Mu essomo ly'Ekibalangulo, okukola okunoonyereza okw'ekibalangulo okusobola okuzuula omuwendo gw'abayizi abaagala emmere ennungi eri obulamu.
+","Mu by'Obulamu, okukebera ebiriisa n'amaanyi agali mu by'emmere ebitundibwa.
+","Nga tukozesa okusomesa kw’ebyemizannyo, twongere ku mulamwa gw’emmere ennungi n’okukola dduyiro.
+",,,,A,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Ekibiina ky'abayizi kitegeeza omusomesa waabwe ow'Eby'emikono nti baagala okuyiga ku nkola y'okukola pulogulaamu za kompyuta kyokka ne balaga nti tebamanyi ngeri gye banaatandikaamu omulimu guno kubanga bagutwala nga mugumu nnyo. Kintu ki omusomesa ky'ayinza okukola okukubiriza abayizi n'okubanguyiza okuyiga essomo lino?
+","Yanjula abayizi eri enkoode z’ebiterekezo bya pulogulaamu ze bamanyi era ze bakozesa mu bulamu bwabwe obwa bulijjo.
+","Yanjula abayizi eri ennimi z'okukoodinga ze bamanyi, gamba nga Java, C++, oba PHP
+","Laga abayizi eby'okulabirako bya simulato ezisobozesa okutegeera enkozesa y'ebipimo bya data eby'oluse olugolokofu.
+","Tuyigirize abayizi ebintu ebikulu ebikozesebwa mu pulogulaamu, gamba nga aligolizimu, nga bikozesebwa mu bulamu obwa bulijjo.
+",,,,D,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Okusinziira ku bwetaavu bw’obutonde bwabwe, abayizi abali mu mwaka ogw’omunaana bazimbye ebitebe ku kisaawe ky’abaana abato mu ssomero. Nga twekenneereza embeera ennyonnyoddwa, biragiro ki omusomesa by’alina okutunuulira okusobola okukebera ebintu ebyakolebwa abayizi, okusinziira ku abo abagenda okubikozesa?
+","Okukozesa ebintu ebitagasa nnyo oba ebintu ebyakakozesebwa, bityo okukendeeza ku nsaasaanya y'ebintu.
+","Okukozesa ebintu ebiddamu okukozesebwa oba ebyo ebirina obuzibu bw’obutonde bw’ensi obutono oluvannyuma lw’obulamu bw’entebe obw’omugaso
+","Okulonda ebintu ebimala ebbanga era nga binywevu ebisobozesa okukola ebintu eby’enjawulo ebiyamba entebe okuba enkalubo n’okunywevu.
+","Okukozesa ebintu ebikkiriza okubaawo kw'endabika ennungamu etuukana n'empisa z'essomero.
+",,,,C,Technology,Assessment,Secondary,,,
+Pedagogy Benchmark Luganda,"Mu kibiina kya Tekinologiya, abayizi ab'ekitabo eky'okutaano bazimba akabonero k'emmotoka aka kkalekeeti ke baakubise, nga bakozesa ebintu n'ebikozesebwa eby'enjawulo, omuli n'ebimu ebisala.
+Kiragiro ki ekisooka omusomesa ky'asaanidde okuwa abayizi basobole okukozesa ebikozesebwa ebisala obulungi?
+","Tegeka ekifo weegenda okusalira nga tonnatandika kusala.
+","Londa ekintu ekikaluba era ekyenkanankana okusalako ebintu.
+","Laba nti ebikozesebwa biri mu mbeera nnungi era nga birina obuwaze obutereevu.
+","Londa ekyuma ekisala okusinziira ku mulimu n'ebintu by'ogenda okukozesa.
+",,,,D,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Mu kibiina kya munaana, omusomesa w’ebyemikono asaba abayizi be okunoonyereza ku ngeri ekifo ekiddamu okukozesa ebipapula, ebbinika, butulo za pulasitiki, n’ebibokisi bya tetrapack gye kikosezzaamu abantu abali okumpi n’essomero. Okusinziira ku mbeera ennyonnyoddwa, engeri ki ey’okusomesa esinga okuba entuufu abayizi okuyiga okumanya engeri ekifo ekiddamu okukozesa ebintu gye kikosezzaamu abantu?
+","Leeta ebifaananyi ebiraga oba ebintu ebirala ebiraga engeri kazambi ono gy’akosaobutonde bw’ensi, era okusinziira ku kino, olonde ebirungi ebiri mu kifo ekiddamu okukozesa ebintu mu kitundu.
+","Bawe abaana abali ku mutindo ogw’oku Intaneeti ogw’ebibuuzo n’okunoonyereza okusobola okukozesebwa ku bantu abangi, era mwembi mukole ku nsonga ez’okwebuuzaako okusobola okuzuula ebinavaamu ekifo ekiddamu okukozesa ebintu mu kitundu.
+","Zimba ekifaananyi ekiraga abayizi nga beekubaganya ebirowoozo era nga balaga obubi obuva mu kika ky'akasasiro kano, n'obulungi obuli mu kuddamu okukozesa ebintu by'ekika kino okukuuma obutonde bw'ensi, n'okuleeta obulamu obulungi mu kitundu.
+","Noonyereza wamu n'abayizi ku bikozesebwa bya TIC ebisobola okukozesebwa okwebuuza ku bantu abali okumpi n'essomero, okukung'aanya ebirowoozo byabwe ku bukulu bw'okuba n'ekifo ky'okuddamu okukozesa ebintu ebiyoonoonwa ebiri mu maka.
+",,,,B,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Mu kiseera ky’okuteekateeka omulimu gw’okuweereza abalala, ebibinja by’abayizi ba siniya bisoomooza omusomesa abakulembera mu ngeri ezitali zimu. Ng’addamu ku kimu ku byo, omusomesa abawa amagezi okukola eki चार्ट kya Gantt. Nga tweyambisa amagezi ago waggulu, kibuuzo ki ekiyinza okuba nga kyasoomooza ekibinja kino?
+","Ebikozesebwa bye twetaaga okukulaakulanya obuweereza bwaffe tebikwatagana na byo bye tulina.
+","Tulina ebifo bingi eby'amawulire ebiri ku mukutu ogwa Web kyokka tetumanyi kye kigenda okuba eky'omugaso ku buli mulimu.
+","Waliwo emirimu mingi gye tulina okukola era tweraliikirira okubula obwesimbu, okusaanyawo obudde obutono bwe tulina okutuuka ku kiruubirirwa.
+","Ekizibu kye twazuula kirina engeri ez’enjawulo ezisobola okugonjoolwa, twetaaga akabonero akatuyamba okusalawo engeri esinga okuba entuufu.
+",,,,C,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Mu kibiina ky'ebyemikono mu Ssomero Eya Wakati, omutendera gw'okukola enteekateeka y'okuweereza gwe gukolebwako. Omusomesa asabye ebibinja by'abakyizi okukola olulango olulaga enkulaakulana mu mutendera guno ogw'emirimu gyabwe. Okusinziira ku nkola y'omulimu guno, mugaso ki ogw'okulaga abayizi bonna enkulaakulana mu mutendera gw'okuteekateeka?
+","Okukolera awamu, nga mulaga obweteefu bw’ekibiina n’obwesigwa okufuna ebiteeso n’endowooza okuva eri banno ku mulimu gwammwe.
+","Okwekenneenya obukulu bw'enteekateeka ya ssente ezikozeseddwa okutuusa kati n'okuteekateeka enkyukakyuka ezigenda okusobozesa okutuukiriza ebigendererwa by'omulimu guno.
+","Okukola omulimu ogw’omugaso mu kuteesa okw’okulambulula ensonga ez’obuwaze ezaakolebwa mu kutuukiriza omulimu okusinziira ku bigendererwa by’omulimu ogwo.
+","Okukubaganya ebirowoozo ku nkulaakulana mu nteekateeka ya serivisi, okufuna endowooza y’ebibiina byonna n’okugattako obulungi obutongole okusinziira ku kiruubirirwa ekyasooka.
+",,,,D,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Omukulu w’essomero atunuulidde okweyongera okunene mu kukozesa amazzi era n’ategeeza abasomesa b’essomero ekyo. Omusomesa w’ebyuma ow’ekibiina kya II Medio asalawo okuleeta ekizibu kino eri abayizi be, mu mutwe gw’ekitabo “Okutereeza enkozesa y’ebintu”, nga alina ekigendererwa eky’okunoonya eby’okukola okumalawo ekizibu ekyo. Ku mirimu egiddwa wano, gumu ku guyinza okusobozesa abayizi okuwa eby’okukola okumalawo ekizibu ekyo?
+","Nnonyezereza ku byokulabirako eby’engeri endala ez’okukozesaamu amazzi obuvunaanyizibwa mu mbeera z’ebyenjigiriza endala ebisobola okukoppebwa mu ssomero
+","Ebiragiro Ekkumi Eby’Okukendeeza n’Okukuuma Enkozesa y’Amazzi mu Ssomero:
+
+1. Tegeka enkola y’okukozesa amazzi mu ssomero lyonna era oginyweze.
+2. Londa akakiiko k’abayizi akakwasisa empenda z’okukozesa amazzi mu ngeri entuufu.
+3. Longoosezza amazzi agava mu nkuba era ogakozese mu ngeri endala nga okunaabiriza ebinaabiro.
+4. Kozesa ebikozesebwa ebiketereza amazzi nga omuliifu ezitakozesa mazzi mangi.
+5. Ziba engira zonna ezitonnya mangu ddala.
+6. Gamba abantu bonna ku bubaka obw’okukendeeza amazzi nga oyita mu bubaati n’ebitabo by’essomero.
+7. Tegeka empaka z’okukendeeza amazzi wakati w’ebibiina by’abayizi.
+8. Fundiza ebimera by’oku ssomero mu makya oba akawungeezi okwewala amazzi okwanguwa okukala.
+9. Kozesa amazzi agakoleddwa okunaaba engoye okunaabiriza ebinaabiro.
+10. Yigiriza abayizi n’abakozi bonna ku bukulu bw’okukuuma amazzi n’engeri y’okukikola.
+","Kaweefube ow’okukozesa amazzi obulungi n’engeri obutakikola bwe kiyinza okukosa ensi yonna, era n’omu ssomero, mukulu nnyo. Mukubaganye ebirowoozo ku nsonga eno.
+","Kebera engeri amazzi gye gakozesebwa mu bifo eby'enjawulo mu ssomero okusobola okuzuula wekitandise ekizibu.
+",,,,D,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Omusomesa yeetaaga okulonda omukutu ogw’okuyigiriza okukozesa enkola enzibu, ekwatagana n’okukozesa ebikozesebwa eby’amasannyalaze. Okusingira ddala, asuubira abayizi be okuyiga okukozesa ebikozesebwa ng’asinga okussa essira ku butebenkevu bwabwe bo bennyini n’obw’abalala mu kubikozesa. Mu ngeri zino wammanga, ngeri ki esobola okukwasaganya okuyiga kuno butereevu?
+","Teekawo bigambo ebikulembera
+","Omusomo ogw'ekikwaata
+","Okulaga ng'obuyambi bw'omuntu omukulu.
+","Okukonjoola ebizibu
+",,,,C,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Mu tekinologiya zino wammanga, y’erina eyinza okusobozesa omusomesa ow’ekitabo eky’okutaano okulaga mu butereevu engeri enkulaakulana y’ebyuma bya tekinologiya gy’etuukirizaamu ebyetaago by’abantu?
+","Okukola batiri eya kikulukuto (ecological battery) eyejjusa amanyi buli lw’etambula, nga kyakukola okusobola okukendeeza ku masannyalaze agakozesebwa.
+","Okufulumya jacket erimu obusannyalaze bw'amatabaala agasobozesa okukola amasannyalaze, nga kuddamu eri obwetaavu bw'okuchajiinga essimu ez'omu ngalo.
+","Okukola ekyuma ekisobola okukyusa empapula ezikozeseddwa mu woofiisi n’azifuula obupiira bw’okwetukuza, nga kigendereddwa okukozesa obuyambi obulungi.
+","Okukulaakulanya ebirime ebisobola okuvaamu ekitangaala awatali bwoki, nga kye kyetaago eky’okukyusa engeri ez’ekiddaala ezikozesebwa n’endala ezikola obulungi.
+",,,,B,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Abasomesa b'ebyemikono ne ssaayansi mu kibiina eky'okutaano bakkaanyizza okukolera awamu ku mulamwa gwa ssaayansi guno: okukula kw'ekimera. Okusobola okukola kino, omusomesa w'ebyemikono asabye abayizi be okukola olulimi lw'okunnyonnyola ku nkula y'ekimera, okusobola okunyweza okumanya kwe bafunye mu ssaayansi era n'okwongerako, okutondekawo ebikozesebwa mu kusomesa abayizi b'ekibiina eky'okusatu, abetaaga okuyiga ku nkula eno.
+Mu bikozesebwa eby'omukono ebigattiddwa wammanga, kiki ekisinga okuba ekituufu okukozesebwa mu kuteekateeka olulimi olwo, nga tutunuulidde ekigendererwa n'omutendera gw'abayizi?
+","PowerPoint, nga tukozesa ebiwandiiko n'ebifaananyi
+","Omukozi wa firimu, okukwata n'okulongoosa vidiyo
+","AnimatorDV, okukola katuni akalaga omutendera ogwo
+","Padlet, okufulumya ebintu ebigasa okutegeera omulingo omukolwa gye gutambuliramu
+",,,,C,Technology,Teaching strategies,Primary,,,
+Pedagogy Benchmark Luganda,"Abayizi mu kibiina eky’okutaano babadde bakola ku mutwe ogwogera ku kigendererwa ky’okuyiga “Okukola ebintu eby’omulembe okugonjoola ebizibu, nga bakebera era nga bakyusa ebintu.” Babadde balina okulonda ebizibu ebitagonjoleddwa mu maka gaabwe era ne balonda ekintu ekimu, nga bwe kikyusiddwa, kiyinza okubigonjoola. Balina okwanjula ebyava mu mulimu gwabwe eri ekibiina okufuna ebirowoozo okuva eri bannaabwe. Mu bigambo bino wammanga, biruwa ebiri ebituukirawo okuteekebwa mu mulamwa gw’okukebera ogukozesebwa abayizi okuwa bannaabwe ebirowoozo ku kutuukiriza ekigendererwa?
+","Balonda ekintu ekisobola okukola ku bwetaavu obulambuluddwa mu maka. Bawa amagezi ku nkyukakyuka mu kintu ekyo nga bakozesa ebifaananyi oba dayagulaamu.
+","Balondoola eky’okukola okugonjoola obwetaavu obulabiddwa mu maka. Batuumuula era bannyonnyola ebikolwa ebyetaagisa okutereeza ekintu eky’omulembe.
+","Bannyonnyola era ne basinnyonnyola ebintu ebyetaagisa okukolebwa okutereeza ekintu eky'omulembe. Balonda era ne bannyonnyola engeri egenda okukozesebwa okutereeza ekintu ekyo.
+","Balondoola ebyo ebivaamu nga tukozesa ebintu byobutonde n'engeri gye bikosa abantu. Balonda ebikozesebwa n'ebyuma ebyetaagisa buli kitundu ky'ekintu kye bagenda okukyusa.
+",,,,A,Technology,Assessment,Primary,,,
+Pedagogy Benchmark Luganda,"Mu butonde bw'essomo ""Okukebera n'enkola y'ekikozesebwa"", omusomesa w'ekibiina eky'omunaana ateekateeka essomo lye, nga alina ekigendererwa eky'okuddamu okukola ekintu eky'omulembe ekyalondeddwa, nga yeesigamiziddwa ku mawulire agakuŋŋaanyiziddwa mu kukebera abakozesa. Mu bino ebikwata ku bukugu, kiki omusomesa ky'asaanidde okugumya okusobola okutuukiriza ekigendererwa ekyogeddwa?
+","Kozesa engeri z'okulaga n'okukiikirira ebintu nga weekozesa ebifaananyi.
+","Laga ebintu ebikulu n'obuyambi ebikozesebwa mu kukola ebifaananyi.
+","Manya obukodyo obukozesebwa mu kukungaanya obubaka n’okuvaamu eby’okumalirizo.
+","Manyike ag’okukungaanya amawulire n’engeri gaalina.
+",,,,C,Technology,Student understanding,Secondary,,,
+Pedagogy Benchmark Luganda,"Ku mirimu egiddwa wammanga, kkiru ki ekisinga okukwatagana n’endagiriro y’ebisomesebwa ku kulambika ebirowoozo eby’amagezi mu somo ly’Ebyuma n’Tekinologiya?
+","Abayizi banoonyereza obujulizi mu nsibuko ez’enjawulo ne ku mikutu gy’emikutu gy’ebyempuliziganya ku nkwe eyo, era bageraageranya okubuusabuusa kwe kireetawo n’amawulire ag’ekikugu agaliwo.
+","Abayizi bakola olukalala lw'ensonga eziyinza okuba nga ze zaviiriddeko obuboddomu era ne bazikenneenya nga basinziira ku mbeera z'ebyenfuna, eby'embeera z'abantu n'eby'ekikugu.
+","Abayizi bakola ebibuuzo eby’okubuuza omuntu eyali ku mwezi nga bye bayita ebirowoozo byabwe ku byo abantu bye balowooza ku nsonga eyo. Oluvannyuma, banoonyereza ku byo abantu abaagenda ku mwezi bye baayogerako mu bitabo eby’enjawulo.
+","Abayizi balaba filimu ennyonnyofu “Ddala Omuntu Yatuuka ku Mwezi?”, eyooleka obujulizi obuliwo obukwata ku kutuuka kw’omuntu ku mwezi mu 1969. Oluvannyuma, bawandiika omulimu ogw’okuwandiika (essay) nga balaga endowooza yaabwe ku nsonga eyo.
+",,,,A,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Omusomesa mu kibiina kya P6 ayagala okuyigiriza abayizi be endowooza z’obugulumivu, empuyi, n’enteekateeka, basobole okukiikirira ebintu bye bateekateeka mu bifaananyi. Ku bikolwa by’omusomesa bino wammanga, kiki ekiyinza okuyamba abayizi okutegeera enkola y’okukola endowooza ezo?
+","Saba abayizi balowoole ekitebe nga ""kibuuka"" mu nsonda y'ekisenge era bakimulisize nga kikwatagana butereevu ku bisenge n'ettaka. Laga nti ebisiikirize ebirabika bikwatagana n'endaba buli emu. Oluvannyuma, babuuze ebibuuzo bino: ndaba meka eziriwo? Mukwano ki oguli wakati waazo?
+","Saba abayizi okulowooza ku ndabika enkulu ey'ekintu oba ekitundu era balonde ekisiikirize ekituufu ku buli ndege, okufaanana ezo eziri mu kibiina. Oluvannyuma, balage nti endege ezo ziyitibwa endege ey'obugulumivu, endege y'enteekateeka, n'endege y'ekifaananyi, ng'ebifaananyi ebisiigiddwa ku buli emu ye ndabika y'obugulumivu.
+","Nnyonnyola abayizi nti ebifananyi ebiragibwa by’ekintu biyitibwa ndaba, kubanga buli kifaananyi ekiragibwa kifaananira ddala endaba gye twandibadde nayo ku kintu ekyo singa tukitunuulira nga tuli wala nnyo, nga tukozesa lensi ey’amaanyi ennyo, mu bwangu bw’emisaana egiraga.
+","Buuza abayizi: Ekintu kirina endabaazi mmeka? Endabaazi mmeka ku zino ze twetaaga okukiikirira ekintu? Oluvannyuma, nnyonnyola nti byonna bisinga kwesigama ku kifo ekintu we kiri okutunuulira ennyanguyirizi ezisiiga ebifaananyi, era nti mu nkola ekintu kirina okuteekebwa mu kifo eky’engeri eyo nti obwenyi bwakyo obusinga obungi buba bugendagana oba butunuulidde ennyanguyirizi ezo.
+",,,,A,Technology,Teaching strategies,Primary,,,
+Pedagogy Benchmark Luganda,"Mu kwogera eri abayizi abali mu kibiina kya munaana, omusomesa ayanjula omulamwa gw'okukaddiwa okwategekebwa (planned obsolescence - PO), ng'ayogera ku ngeri gwe gukosa okukung'aanyizibwa kw'ebisasiro bya tekinologiya. Bwe baba beekenneenya engeri y'okulwanyisa ekizibu kino, abayizi balaga okubuusabuusa era ne bagaba ebirowoozo eby'enjawulo ku ngeri bwe kizibu okukyusa omugendo gw'akatale ogw'okukola n'okutunda ebintu bingi. Mu nnyonnyola zino ez'omusomesa, ennyonnyola ki eyandigonjodde obweraliikirivu bw'abayizi era n'ekulaakulanya obukugu obusuubirwa okukuzibwa mu somo?
+","“Mazima ddala, ekintu kya PO kitulaga nti enkulaakulana y’ebyuma erina obubi bwayo ku mitendera egy’enjawulo era tekiyinza kulowoozebwa ng’ekintu kirungi kyokka nga tetubuuza bibuuzo, oba tujja kuba tuleeta okwonooneka kw’obutonde obutalikyuka.”
+","“Okuva kino bwe kizibu ky’ensi yonna, kyeyoleka bulungi nti obweteefu bw’amawanga gonna bwetaagisa okukigonjoola; n’olwekyo, tuteekwa okussaayo omwoyo ku nkiiko ez’enjawulo ezibaawo ezinaatusobozesa okukola endagaano ku mutendera gw’ensi yonna.”
+","""Akatale tekakola kokka, kaddamu eri ebyetaago by'abaguzi, era ekizibu kino kiraga nti tulina okwekenneenya n'okuddamu okwetegereza empisa zaffe ez'okukozesa ebintu okulaba engeri gye twenyigiramu mu muzingo guno omubi n'engeri gye tusobola okugukyusaamu.""
+","""N'olwekyo obukulu bw'ebibiina okubeera abakulembeza enkyukakyuka, ng'ebibiina by'abantu abalwanirira eddembe bwe bikola nga byolesa obuzibu buno eri abantu bonna, abakulembeze balyoke bakole ekintu, ng'ekyokulabirako ekibiina kya SOP (Awataaliiwo Kukaddiwa Kutegekeddwa).""
+",,,,C,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Omusomesa w’ebyemikono mu S.2, agenda okutandika omulimu gw’omukutu, asazeewo okukozesa okukebera okuzuula obumanyirivu bw’abayizi be ku mitendera gy’omukutu, egyali gyayigirizibwa omwaka oguwedde. Nga tutunuulidde ekigendererwa n’ebigenda okukeberwa, kiki ku bino wammanga ekisaanidde okukozesebwa okukebera?
+","Olukalala lw'ebigambo olukung'aanya endowooza enkulu mu ssomero ku bikolwa eby'enjawulo ebikolebwa mu buli mutendera gw'omulimu ogutegekeddwa.
+","Akakalu ka kalonda akalimu obubonero bw'omutindo obuteekwa okubaawo mu nkulaakulana ya buli mutendera gwa pulojekiti era nga busobozesa okukakasibwa mu mirimu egikolebwa.
+","Omubuuzo oguwandiike ogulina ebibuuzo ebyetaaga okwanukuddwa mu bujjuvu, omuli okukubuuza ekyokulabirako, olonde ebiseera eby'enjawulo eby'omulimu era owa obujulizi ku by'olonze.
+","Omutindo gw’ebirubulirwa ogulina ebiragiro ebifa ku mutendera gw’obukugu obulagiddwa mu bitundu by’omulimu, nga bwe bakulaakulanya buli kimu mu mulimu gw’ekibinja
+",,,,C,Technology,Assessment,Secondary,,,
+Pedagogy Benchmark Luganda,"Abayizi ba siniya bali mu nkola ya kuteekateeka omulimu gwabwe. Okubayamba okukulaakulanya enteekateeka zaabwe, omusomesa asalawo okwewaayo essaawa emu mu ssomo okuyiga engeri y’okukozesa ebifaano bya PERT, mwe balina okussaawo enkolagana y’obwesigamizo bw’ebikolebwa okusobola okuteekateeka omulimu gwabwe. Ku nkomerero y’essaawa y’essomo, omusomesa asalawo okukebera amangu okutegeera kw’abayizi ku bifaano bino bye biri n’omugaso gwabyo, okusobola okukyusa enteekateeka y’essaawa eddako okusinziira ku by’addamu ebiweereddwa. Ku bikozesebwa bino wammanga, kiki ekisobozesa omusomesa okukuŋŋaanya amangu era mu ngeri entuufu amawulire agakwata ku kutegeera kw’abayizi n’omugaso gw’ebifaano bya PERT?
+","Omuko ogw’okwekebejja omuntu ku muntu, abayizi mwe babuuliriziganya nti, “Engeri y’okuzimbamu ekibalangulo kya PERT,” ate oluvannyuma ne bakolera awamu okutereeza eby’okuddamu byabwe
+","Tiketi y’okuva, ng’esaba abayizi okulaga ebintu bisatu bye bayize mu kibiina n’ebibuuzo bibiri bye bakyali nabyo ku bikwata ku dayagulaamu za PERT n’omugaso gwazo.
+","Omutindo ogw'okubaza okutegeera, nga gutondeka abayizi mu bibinja okusinziira ku mutendera gw'okutegeera kwabwe okwesigamiziddwa ku by'addamu byabwe ku kibuuzo: “Ekibalanguzi kya PERT kye ki?”
+","Akakodyo k’okubuuza abayizi okuddamu bye bayize ku kikwaatiriro kya PERT n’ekigendererwa kyakyo, okusinziira ku mitendera gino: “Nkimanyi bulungi; mmanyi, naye sisobola kukinyonnyola; era simanyi.”
+",,,,B,Technology,Assessment,Secondary,,,
+Pedagogy Benchmark Luganda,"Omusomesa w’ekibiina eky’okubiri mu siniya alina enteekateeka y’okuyigiriza ey’ekigendererwa “Okulaga embeera ez’enjawulo eziva mu nkulaakulana y’ebyuma eziriwo kati, ezireetawo enkyukakyuka ennungi oba embi mu bulamu bw’omuntu, mu mbeera z’abantu, obutonde bw’ensi, amateeka, ebyenfuna, oba mu bintu ebirala.” Ku somo erisooka, bagenda kwetegereza ekigendererwa kino: “Okuteebereza ebiriva mu nkulaakulana y’ebyuma ezaayita.”
+Ku mirimu egiddwa wano, gumu ku mirimu ki ogusobola okuyamba omusomesa okutuukiriza ekigendererwa ky’agenda okukolerako mu somo erisooka?
+","Laga abayizi vidiyo eraga engeri ebintu bya tekinologiya eby’enjawulo gye byakolebwa era ne bikulaakulana, n’engeri gye bikosezzaamu abantu ba leero, oluvannyuma obasabe okulaga ebyo ebikoze bubi okusinga.
+","Balangirira abayizi ku ngeri akabonero k’obwolekero (compass) gye kakolera emirimu emirungi n’emibi, oluvannyuma mubasabe okunoonyereza ku bintu ebirala ebikoze ebintu bye bimu okusinziira ku kino.
+","Laga abayizi vidiyo ekwata ku kyuma ekikozesa omukka n’engeri gye kyakyukaamu ne kireetawo ebipya. Oluvannyuma obabuulire okwogera ku bintu ebyaleetebwawo okukula kwakyo okw’eddaala ku ddaala.
+","Laga abayizi engeri ekintu eky’omulembe omuteekinologiya gye kyatondebwawo, gamba nga telegulaafu, n’engeri gye kikosezzaamu embeera z’abantu mu kiseera kino. Oluvannyuma, basabe okuzuza ekyaati nga balaga emiganyulo n’obubi bwabyo.
+",,,,C,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Omusomesa mu ssomero lya secondary asomesa abayizi be omutwe ""Emikisa n'Okusoomoozebwa kw'Ebyuma bya Tekinologiya Ennaku Zino"" era ng'adda mu birowoozo by'abayiizi bye baasoose okuba nabyo ku mirimu gy'ekibiina. Nga bagabana ebyo bye baazuula, enkozesa y'omulamwa ""okuddamu okukozesa"" eddamu emirundi mingi okutegeeza ekikolwa kyonna ekikwaatagana n'okuddamu okukozesa ekintu kya tekinologiya. Abayizi baleme okutabukirwa, omusomesa abawa ebyokulabirako bibiri bibiri okubayamba okwawula omulamwa gw'okuddamu okukozesa n'okuddamu okukola ebipya.
+Mu bigere by'ebyokulabirako bino wammanga ebiraga okuddamu okukozesa n'okuddamu okukola ebipya, kiki ekisobola okuyamba abayizi okwawula enjawulo wakati w'emiramwa gino?
+","Kyusa omulimu gw'ebintu ebisaasaanyizibwa obusaasaanyi, gamba nga okukola ebintu omuteekebwa obbalaamu okuva mu byuma by'ebinywebwa, era okukyusa ekintu, gamba nga okufuula eccupa ya pulasitiika okuba akasuuluulu k'okufukirira.
+","Kozesa olupapula ku njuyi zombi olyoke olusuule mu bintu ebiteerekebwamu ebiri mu bifo ebirongoofu mu kitundu, era leeta akasawo ko bw’ogenda mu dduuka, obutetaaga kapya.
+","Kola kompoosi y’ebimera nga okukozesa ebikuta by’ebibala n’ebisigala by’enva endiirwa, era okukozesa ebikozesebwa mu bujjuvu nga okwongera omuwendo gw’emirundi gye bikozesebwa.
+","Okukyusa ebipipa bya caayi ebikozeseddwa nga tubisaanuusa n'okubiumba obutya okukola ebikopo oba ebijiiko by'ebimuli, n'okuwaayo engoye ezitakyakozesebwa eri abantu abalala.
+",,,,D,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Omusomesa w’ekibiina eky’omunaana atandika omulimu n’abayizi be nga alina ekigendererwa eky’okuwa obuweereza eri abakadde mu kifo ekivunaanyizibwa essomero. Ku lw’ekyo, mu mutendera guno, beetaaga okukung’aanya amawulire agakwata ku bantu ababeera mu kifo kino n’ebyo bye beetaaga. Ku bino ebikolebwa wammanga, kiki ekiyinza okuyambako abayizi okuyiga okuzuula ebyetaago by’ekibinja ky’abantu?
+","Zimba omuti gw'ebizibu okuzuula embeera embi, ng'olaga ebintu ebigiviiriddeko n'ebigivaamu.
+","Gerageranya engeri ez’enjawulo ez’okukung’aanyizaamu amawulire, gamba ng’ebibuuzo n’okuyita mu kubuuza abantu, era olambike emigaso gyabyo n’obubi bwabyo.
+","Noonyereza ku mukutu gwa SWOT era okomekkereze omulagirizi ku nsonga, ng'olaga amaanyi, emikisa, obunafu, n'ebintiisa.
+","Lowooza ku bizibu ebiyinza okuba nga bibakosa, oluvannyuma nonde engeri z’okukungaanya amawulire.
+",,,,A,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Mu kibiina kya P.8, mu somo erisooka ery’essomo erikwata ku Bintu eby’Tekinologiya Ebikola Obulungi Ate Ebigumirawo, omusomesa atandika ng’annyonnyola amakulu g’ekigambo okugumirawo. Okusobola okuyamba abayizi okutegeera, omusomesa asalawo okukinyonnyola ng’akozesa olugero olufaananyi. Lugero ki omusomesa lw’ayinza okukozesa okusobola okwongera okutegeza abayizi amakulu g’okugumirawo?
+","Mu maka, bafumba paketi y’obuwunga bwa noodles ku kyekiro eri abantu bana. Basatu bokka be batuula okulya era olw’enjala ennyingi, balyawo obuwunga bwa noodles bwonna. Omuntu eyabadde abuze bw’atuuka, amaka gaddamu okukozesa amaanyi n’amazzi okufumba obuwunga bwa noodles obulala eri omuntu eyabadde abuze.
+","Omulimi w’akatale akatono asiga ebika by’enva ez’enjawulo ezirina obwetaavu bw’emmere enjawulo, gamba nga ennyaanya, karoti, n’omumwaanyi omwaka ogumu, ate obulo, obutungulu, n’ebbeetisi omwaka oguddako, okusobola okukuuma ettaka nga lirimu ebirungo ebyetaagisa okusobola okusiga ebirime ebirala mu biseera eby’omu maaso.
+","Omuyizi alina essimu erina batuli entono era natandika okugi-chaajiinga. Mu kiseera kye kimu, atandika okuzannya omuzannyo, naye omuzannyo gunywa batuli mangu okusinga ekyuma ekichaajiinga bwe kigizzaawo. Mu ngeri eyo, essimu ejja kuggwaamu amaanyi oluvannyuma lw'ekiseera, kale omuyizi akyusa n'akozesa ekichaajiinga ekyaanyiiza amangu.
+","Omukugu akola emmeeza ateekateeka era akola emmeeza mu ngeri nti bw'asalako ebiceere okuva ku lubaawo olw'omuti, omukugu akola emmeeza akozesa olubaawo mu bujjuvu era awa ebikutule emirimu emirala, ng'akendeeza omuwendo gw'ebintu ebikozesebwa era ng'atumbula enkola eno ng'ekintu ekimanyiddwa okwongera ku ntundwe.
+",,,,D,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Omusomesa ow’ekibiina eky’omunaana akolera wamu n’abayizi be ku pulojekiti erimu okuzimba ekifananyi ky’amasannyalaze g’ennyumba. Bw’akebera emirimu gy’abayizi, akiraba nti ekibinja kimu tekisobolodde okukola ettaala za LED mu bisenge eby’enjawulo okukolela awamu n’okuzikirawo buli emu kuayo. Ku bikolwa bino omusomesa by’ayinza okukola, kiki ekiyinza okuyamba ekibinja kino okutegeera engeri y’okuzimbamu omutendera gw’amasannyalaze gwe beetaaga?
+","Balage nti enkolagana wakati w’amatala erina okuba nga ya mugattiro (parallel) gasobole okuba nga geeyimiriddeko. Oluvannyuma, basabe bakole ekifaananyi ekiraga enkolagana eno era bagikope mu muzingo gw’ekyokulabirako.
+","Landiisa engeri z’omutendera gw’amasannyalaze ogwa seriizi n’ogwa paraleli, ng’olaga nti mu gwa seriizi, amasannyalaze gakwata ekkubo limu, kale ettaala tezeeyimiridde. Oluvannyuma, basabe bakwatte ettaala mu mutendera gwa paraleli era bakebere ebijja muvvuddemu.
+","Mutunule ekifaananyi ky’omulandira gw’amasannyalaze gwe bazimbye era mubannyonnyole nti okusobola amatala okukola nga tegakwatagana, galina kukwasibwa mu nkola ey’omukwanaganyo. Oluvannyuma, mbasabe bongere bakole ekifaananyi ky’amasannyalaze nga bakwasa amatala gonna okuva ku nsibuko era bazimbe omulandira gw’amasannyalaze omupya.
+","Munoonyereze nabo engeri ettaala gye zeeyisaamu nga zikwasiddwa mu nsengeka eya siriizi n’eya paraleli nga muliko ezimu muziggyako. Oluvannyuma, mwekkaanye ekifaananyi ky’omukutu gw’amasannyalaze gwe bazimbye okusobola okumanya enkyukakyuka ze bagenda okukola. Mu nkomerero, mbasabe bakwasize ettaala zonna eziri mu kyoogerero okusinziira ku kifaananyi ekipya.
+",,,,D,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Omusomesa ow'ekibiina eky'omukaaga agenda kukebera abayizi be ng'akozesa ekigendererwa kino: ""Okukyusakyusa ebyuma ebiriwo mu tekinologiya n'okuzuula obwetaavu bwe byaddamu mu mbeera mwe byakuzibwa."" Ku bikolwa by'omuyizi bino wammanga, kiki ekisobozesa okulaga nti ekigendererwa omusomesa ky'ateese kyatuukiddwaako?
+","Bageraageranya engeri ez’enjawulo ez’okugonjoola ebizibu ezikwatagana n’ekibinja ky’obwetaavu obumu obwateekebwawo.
+","Bageraageranya ku bwetaavu obubadde buzzeewo mu bitundu eby’enjawulo eby’enkulaakulana y’embeera z’abantu n’enkyukakyuka zaabyo okuyita mu biseera.
+","Bannyonnyola okufaanagana mu mbeera z'ebyafaayo ebyakozesebwa okuteekateeka ebintu bya tekinologiya eby'ekika kye kimu okumala ekiseera.
+","Bageraageranya ebyetaago ebyaliwo mu kutondeka ebintu bya tekinologiya ebifaanagana okusinziira ku mulembe mwe byatondekerwa.
+",,,,D,Technology,Assessment,Secondary,,,
+Pedagogy Benchmark Luganda,"Omusomesa aleeta eri abayizi be ab'ekibiina ekya munaana, ng'omutwe gw'ekibiina, ebirivaamu okukozesa ekkompyuta ennyo ku by'okusoma. Oluvannyuma lw'okwanjula omutwe, asaba abayizi okunoonya ebimanyiddwa ku mutwe ogwo ku yintaneeti.
+Kiki ky'ayinza okubawa ng'amagezi abayizi basobole okufuna ebimanyiddwa ebituufu ku mutwe ogwateereddwawo ku byuma eby'enjawulo ebinoonyeza ebintu ku yintaneeti?
+","Noonya obuwandiike obusookerwako n'ebbanka y'ebiwandiiko endala, nga weekubira mu ezo ez'ebibiina ebimanyiddwa oba ebikiikirira, ng'osooka okufuba okulonda emikutu gyabyo egya yintaneeti emikulu okuyita mu mannya ga domini zaabyo: .org (ekibiina), .gov (gavumenti n'ebitongole byayo ebitongole) ne .edu (eby'enjigiriza). Kozesa omulamwa ogusalako bulungi ekyo ekinoonyezebwa, oba okirambike ebigambo mu kyuma ekinoonya, okusobola okukendeeza ku bivaamu.
+","Okukozesa ebifananyi ebiri ku sikaani, okunoonya ebivaamu ebyangu okuyita mu bigambo ebikozeseddwa mu ngeri ez’enjawulo, gamba: okukozesa ebifananyi ebiri ku sikaani, nga tetukozezza bubonero. Oluvannyuma okukendeeza ku kunoonya nga tuwandiika ebigambo ebinnyonnyola obulungi, gamba: okukozesa ekifananyi ekiri ku sikaani okumala essaawa 8 nga tonnawummuza. Era n’okuteeka eggwanga, olulimi, ebigambo ebikulu, n’ekiseera eky’okukyusaamu ebiriwo ku mutwe gw’ekigambo. Teeka ekigambo mu bubonero era okozese obubonero + ne –, okwongera ekigambo ekikulu oba okuggyawo bye tutayagala.
+","Londa ennyanguyirizi ennyangu era eyanguwa (jukira nti ennyanguyirizi bw’eba ng’eyingira mu dayatabeesi ennyingi, yegendereza). Oluvannyuma nonya amawulire ng’olonda eggwanga ly’oyagala okumanya ebikwata ku ly’eryo n’ekitundu ky’omutwe gw’ogenda okunoonya, gamba nga: ssaayansi, tekinologiya, eby’amasanyu, emizannyo. Okunoonya, kozesa ebigambo ebikulu, tokosa bubonero oba ennukuta ennene; bw’oba omanyi engeri ekigambo gye kirina okweyoleka, kikube mu bunnuku “nga bw’ekiri”, n’ebigambo byonna.
+","Okukola enteekateeka y'emirimu erimu okukungaanya ebyawandiikibwa ebikwata ku mulamwa ogunoonyerezebwako. Oluvannyuma lw'okutuuka ku mutendera guno, genda mu nsibuko z'amawulire, gamba ng'ebitabo, magazini, ebiwandiiko, ebifo by'ebitabo ku yintaneeti, omulamwa gye gwekenneenyezebwa mu bujjuvu. Weegendereze ennyukuta ennene n'ennene entono ng'owandiika ebiwandiiko. Fuba okussa obubonero ku bigambo oba ebinyonyola by'oyagala okunoonya, okwongera okunoonyereza n'okukendeeza ku bivaamu.
+",,,,A,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Omusomesa ow’omu middle school asabye abayizi be okwekenneenya engeri omulimu gwabwe gye gukoleddwamu okukakasa oba kyeyambye okugonjoola obwetaavu obwazuulwa ku ntandikwa y’omulimu. Abayizi bwe bakeenenya ebyavaamu, bakizuula nti abantu be baakolera tebalowooza nti enteekateeka yaabwe egonjodde ekizibu ekyaliwo era, kyekiva gibalemesa okutuukiriza ekigendererwa omusomesa kye yali ateese. Ku bikolwa bino eby’obuyigiriza, kiki ekisinga okuba ekituufu okuyamba abayizi okwaŋŋanga obuzibu mu kuteekateeka omulimu gwabwe?
+","Baawe amagezi ge banaawa omukozesa, agamuyamba okutegeera ebintu ebyo obuweereza bye bukola obulungi.
+","Bateese okukola okunoonyereza ku mawulire agafuniddwa okusobola okuzuula n'okutereeza ebitundu ebitatuukirizibwa mu nkulaakulana y'obuweereza.
+","Baanike amagezi ku ngeri y’okutereezaamu obuweereza obwo obuweereddwa era mubasabe okuddamu okunoonyereza ku byetaago by’abakozesa ebituufu.
+","Bakubirize okukola enkyukakyuka ez’amaanyi mu pulojekiti yaabwe era obasabe beebuze ku bakozesa emirundi emirala, nga bassira nnyo ku bitundu ebyali tebikulaakulanyiziddwa bulungi mu pulojekiti yaabwe.
+",,,,B,Technology,Teaching strategies,Secondary,,,
+Pedagogy Benchmark Luganda,"Mu kitundu Eky’okwagala okukolera awamu n’Omusuubuzi, abayizi abali mu Siniya ey’Omwaka ogw’Olubereberye bakola ku kukola omulimu gw’enteekateeka. Mu mbeera eno, ekibinja kisalawo okuzimba ebintu ebikuŋŋaanya amazzi g’enkuba okusobola okukozesa amazzi ago agakuŋŋaanyiziddwa. Bateekateeka okunoonyereza, oluvannyuma ne bayiiya ebintu ebyo okusinziira ku bungi bw’amazzi gebayinza okuŋŋaanya. Oluvannyuma bagenda kumalawo ekifo we bagenda okubiteeka n’ebintu ebyetaagisa. Era bagenda kuteekateeka ekkaati ya Gantt n’ensimbi ezigenda okukozesebwa mu mulimu ogwo. Nga tutunuulidde okuyiga n’enkola ekolebwamu, buzibu ki obuleetebwawo mu kukola omulimu ogwo ogw’enteekateeka abayizi bwe bakoze?
+","Ebirowoozo ebikozesebwa mu pulojekiti tebikwatagana na buzibu oba bwetaago obwali bumaze okutegeerekeka abayizi.
+","Ebirowoozo ebikulu ebikozesebwa mu pulojekiti tebirimu nteekateeka ya mirimu eginaakolebwa abayizi mu buli mutendera gwa pulojekiti.
+","Ebirowoozo ebikulu ebikozesebwa mu pulojekiti tebiraga biragiro bya tekiniki abayizi bye balina okutunuulira nga bazimba ebiyungirizi by'amazzi g'enkuba.
+","Eteeka erikwata ku pulojekiti teritwala mu ngeri nti abayizi bageraageranya enteekateeka z'ebintu ebiteekebwamu amazzi g'enkuba ebiri ku katale nga tebannatondekawo zaabwe.
+",,,,A,Technology,Student understanding,Secondary,,,
+Pedagogy Benchmark Luganda,"Mu kibiina kya S.4, omusomesa akolera wamu n'abayizi ku kiruubirirwa kino: “Okutegeera obutandikwa n'amaanyi g'ebintu ebireeta obucaafu mu nampewo.” Ng'omukolo, omusomesa asaba abayizi okukolera mu bibinja okunoonyereza ku bintu ebyo n'amaanyi gaabyo, n'okuteekateeka olutindo lw'obubaka (PowerPoint presentation) nga mulimu amawulire ge bazuula. Ng'ebibinja biyanjula emirimu gyabyo, omusomesa akiraba nti abayizi abasinga bamaliriza nga bagamba nti ebintu ebireeta obucaafu mu nampewo biva ku bantu bokka.
+
+Kati mu bigambo bino omusomesa by'ayogera, ebiruwa ebiyinza okuba eby'omugaso okuyamba abayizi okutereeza emirimu gyabwe n'okutuukiriza ekiruubirirwa?
+","Kituufu, olaze nti ebikolwa by’abantu birina omukosa omubi nnyo ku bwengula. Wabula, mikutu ki emirala egivaamu obucaafu bw’empewo egitaliimu bikolwa bya bantu? Mikosa ki egiva mu mikutu gy’obucaafu gino?
+","Obulungi obw'enjawulo, mu kwolesa kwo wasinziddeko nti ffenna tukosebwa obucaafu bw'empewo. Eky'okukola ekisigadde kwe kwongera ku kunoonyereza kuno nga tuddamu ebibuuzo ku tekinologiya ki azza obucaafu mu bbanga? Kiki ky'osobola okuteesa okukendeeza ku bukosefu bw'ebintu ebyo ebivaamu obucaafu?
+","Omulimu mulungi nnyo, okirizza nti amafuta agasimbibwa mu ttaka ge nsonga enkulu evaaako obucaafu bw’empewo olw’okukozesebwa kwayo ennyo mu bikolwa by’abantu eby’enjawulo. Wabula, olowooza nti ngeri ki amafuta gano agasimbibwa mu ttaka gy’agalina ku mbeera y’obutonde n’obulamu bw’abantu? Ngeri ki ezo ngeri ezo ze tuyinza okukozesa okukendeeza ku buzibu obwo?
+","Kulungi, olaze bulungi obubi bwa kaboni monoksaidi ng’ekintu ekizza omukka. Naye olina okubuuza nti omuwendo gwa kaboni monoksaidi oguva mu mmotoka z’abantu gwenkana ki ku mwonoonefu gw’omukka? Tuyinza kukendeeza tutya obungi bw’ekifulumizibwa nga tukozesa entambula y’olukale?
+",,,,A,Technology,Assessment,Secondary,,,
+Pedagogy Benchmark Luganda,"Omusomesa mu mwaka ogw’olubereberye ogw’amasomero agawaggulu asaba abayizi be okuteekateeka ekyaati ya Gantt okukola enteekateeka y’obuweereza bwe bategeka okukola mu ssomero. Mu kuteekateeka kwayo, omusomesa akiraba nti abayizi tebabala bulungi budde obunaabatwalira okukola buli ku mirimu era, n’olwekyo, tebagenda kusobola okumaliriza okuteekateeka okukola obuweereza ku budde. Mu ngeri ki omusomesa gy’ayinza okuyambamu abayizi okuddamu okuteekateeka emirimu gyabwe okusobola okutuukiriza omulimu ogwabaweereddwa?
+","Laga abayizi eky'okulabirako ky'omulimu ogwa bulijjo ogwetaagisa okulowooza ku budde obwetaagisa okukola oguddako.
+","Saba abayizi okulowooza ku kigendererwa ky'omulimu gwabwe era okuva ku kyo bakole entereeza y'ebintu byonna ebyetaagisa okukola omulimu oguteereddwamu.
+","Waayo abayizi embeera ey’okufaananira ddala ng’abalina obuzibu okukola ekintu olw’okuba tebasoose kukola kirala ekyetaagisa okukikola.
+","Ng’oli wamu n’abayizi, kola okunoonyereza ku ngeri y’emirimu egiteereddwawo, gikwataganye n’ebiseera ebyassiddwaawo, era weerabire oba ebyo ebyassiddwaawo bituufu.
+",,,,D,Technology,Student understanding,Secondary,,,
+Pedagogy Benchmark Luganda,"Mu kitundu ekiyigiriza ku Nkulaakulana n'Okuteekerateekera Omuwendo mu kibiina ky'omwaka ogusooka mu Siniya, omusomesa agenda okutandika okukolera awamu n'abayizi be ku nteekateeka y'emirimu gy'ekibinja omwaka gwonna. Okusobola okutuuka ku kino, ekigendererwa ekisooka kye bagenda okukoleraako kwe: ""Okutegeera obwetaavu n'emikisa egikwaatagana n'okutondekawo omuwendo"". Misinde ki gy'emirimu omusomesa gy'alina okukolera awamu n'abayizi be okusobola okutuuka ku kigendererwa kino?
+","Omusomesa annyonnyola omulamwa gw'obwetaavu n'obuweereza era n'awa ebyokulabirako ebitangaala ku miramwa gyombi. Oluvannyuma, asaba abayizi okunnyonnyola n'okulambulula ebika by'obuweereza eby'enjawulo mu bibinja okusinziira ku bwetaavu bwe bukola.
+","Omusomesa aleeta embeera z’obwetaavu ezibaddewo mu mbeera ez’enjawulo ezedda era nga zaagonjoolwa okuyita mu buweereza obw’enjawulo. Oluvannyuma, abasaba okunoonyereza mbeera ki ezireeteddeewo obuweereza obupya bubiri obw’omulembe guno ogwa 21.
+","Omusomesa abuuzizza abayizi kye bategeera mu ky'etaago. Bawandiika amakulu ge bakkaanyizzaako. Oluvannyuma, bawa ebyokulabirako ne basaba abayizi okukubaganya ebirowoozo mu bibinja ku biruwa ku bino ebiyinza okugonjoolwa ekikolebwa eky'omulembe. Bwe bamala okutuula mu lukiiko olukulu, babawa obukodyo obumu obw'okutegeera etaago.
+","Omusomesa annyonnyola amakulu g'omulamwa gw'obwetaavu era n'awa abayizi eby'okulabirako. Oluvannyuma, abasaba okukola okunoonyereza ku mirimu egiriwo mu bitundu byabwe. Abasaba okuteekateeka omulimu mu lulimi oluddako mwe banaayogererako ku mirimu egyo n'okunnyonnyola engeri gye giwaamu eby'okuddamu eri obwetaavu.
+",,,,C,Technology,Teaching strategies,Secondary,,,

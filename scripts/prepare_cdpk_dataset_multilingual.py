@@ -14,7 +14,7 @@ DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 # Load dataset
 #######################
 
-cdpk_dataset = pd.read_csv(DATA_DIR / "pedagogy_benchmark_luganda_cdpk_cleaned.csv")
+cdpk_dataset = pd.read_csv(DATA_DIR / "pedagogy_benchmark_luganda_cdpk_reviewed.csv")
 print(cdpk_dataset.shape)
 cdpk_dataset.head(1)
 
@@ -23,7 +23,7 @@ cdpk_dataset.head(1)
 #   - add source, add Answer E, add Answer F, add Answer G (before Correct answer)
 #   - remove question number
 cdpk_dataset.insert(0, "Source", "Pedagogy Benchmark Luganda") # insert source
-cdpk_dataset.drop(columns = ["question_id"], inplace=True) # remove question number
+#cdpk_dataset.drop(columns = ["question_id"], inplace=True) # remove question number
 #cdpk_dataset.insert(6, "Answer E", None)
 #cdpk_dataset.insert(7, "Answer F", None)
 #cdpk_dataset.insert(8, "Answer G", None)
@@ -40,7 +40,7 @@ cdpk_dataset.head(2)
 # %%
 ## SEND mcqs ##
 # get SEND mcqs
-send_dataset = pd.read_csv(DATA_DIR / "pedagogy_benchmark_luganda_send.csv")
+send_dataset = pd.read_csv(DATA_DIR / "pedagogy_benchmark_luganda_send_reviewed.csv")
 print(send_dataset.shape)
 send_dataset.head(1)
 
@@ -92,7 +92,7 @@ few_shot_examples_idx_dict = {
 }
 #print(json.dumps(few_shot_examples_idx_dict, indent=2))
 
-def create_subcsv_cdpk(df, folder_path, categories, levels, suffix=""):
+def create_subcsv_cdpk(df, folder_path, categories, levels, suffix="", use_question_id=False):
 
     # Create folder if it does not exist
     Path(folder_path).mkdir(parents=True, exist_ok=True)
@@ -101,6 +101,7 @@ def create_subcsv_cdpk(df, folder_path, categories, levels, suffix=""):
 
     # check categories in the dataset
     for category in categories:
+        print(f"\nProcessing category: {category}")
         if category not in df["category"].unique():
             print(f"Category {category} not in the dataset!")
             raise ValueError
@@ -111,10 +112,22 @@ def create_subcsv_cdpk(df, folder_path, categories, levels, suffix=""):
                 # split df into df_test and df_few_shot
                 #idx_few_shot = get_few_shot_examples_new(sub_df, n_examples=3)
                 idx_few_shot = few_shot_examples_idx_dict[category]
-
-                df_few_shot = df.loc[idx_few_shot].reset_index(drop=True)
-                # Remove the few shot examples from the main df, as the indices refer to the original df
-                df_wo_fs = df.drop(index=idx_few_shot).reset_index(drop=True)
+                if use_question_id:
+                    # Use the column question_id to get the few shot examples
+                    if 'question_id' not in df.columns:
+                        print("Column 'question_id' not in the dataframe!")
+                        raise ValueError
+                    df_few_shot = df[df['question_id'].astype(int).isin(idx_few_shot)].reset_index(drop=True)
+                    # Remove the few shot examples from the main df, as the indices refer to the original
+                    df_wo_fs = df[~df['question_id'].astype(int).isin(idx_few_shot)].reset_index(drop=True)
+                    # drop question_id column from both dfs
+                    df_few_shot = df_few_shot.drop(columns=['question_id'])
+                    df_wo_fs = df_wo_fs.drop(columns=['question_id'])
+                else:
+                    df_few_shot = df.loc[idx_few_shot].reset_index(drop=True)
+                    # Remove the few shot examples from the main df, as the indices refer to the original df
+                    df_wo_fs = df.drop(index=idx_few_shot).reset_index(drop=True)
+                
                 # Get the sub_df for the current category, which does not have the few-shot examples
                 sub_df = df_wo_fs[df_wo_fs["category"] == category].reset_index(drop=True)
                 df_test = sub_df
@@ -122,6 +135,7 @@ def create_subcsv_cdpk(df, folder_path, categories, levels, suffix=""):
                 # Test
                 if df_few_shot['category'].nunique() != 1 or df_few_shot['category'].unique()[0] != category:
                     print("Few-shot examples do not contain the right category!")
+                    print(df_few_shot['category'].value_counts())
                     raise ValueError
                 if df_test['category'].nunique() != 1 or df_test['category'].unique()[0] != category:
                     print("Test examples do not contain the right category!")
@@ -261,13 +275,14 @@ def process_csv_and_update_yaml(input_folder, output_folder, yaml_template):
 #    print("-----")
 # %%
 
-language = "Luganda_ep"
+language = "Luganda_ep_reviewed"
 
 create_subcsv_cdpk(cdpk_dataset, 
                    folder_path = f"./../data/{language}/CDPK_per_category",
                    categories = ["Science", "Literacy", "Creative arts", "Maths", "Social studies", "Technology", "General"],
                    levels = None,
-                   suffix=language
+                   suffix=language,
+                   use_question_id=True
                      )
 # %%
 yaml_template = {
@@ -288,5 +303,56 @@ process_csv_and_update_yaml(input_folder = f"./../data/{language}/CDPK_per_categ
                             yaml_template = yaml_template,
                             )
 
+
+# %%
+# Test
+# Make sure each csv files in Luganda_ep_reviewed/CDPK_per_category/dev 
+# are exactly similar to the ones in
+# Luganda_ep_new/CDPK_per_category/dev
+# Only check columns "question", "answer_a", "answer_b", "answer_c", "answer_d", "answer_e", "answer_f", "answer_g", "correct_answer", "category", "subdomain", "age_group"
+
+folder_ref = "./../data/Luganda_ep_new/CDPK_per_category/dev"
+folder_test = "./../data/Luganda_ep_reviewed/CDPK_per_category/dev"
+
+for filename in os.listdir(folder_ref):
+    if filename.endswith('.csv'):
+        df_ref = pd.read_csv(os.path.join(folder_ref, filename))
+        filename_test = filename.replace("ep_new", "ep_reviewed")
+        df_test = pd.read_csv(os.path.join(folder_test, filename_test))
+
+        # Make sure columns of df_test have same type as df_ref
+        for col in df_ref.columns:
+            df_test[col] = df_test[col].astype(df_ref[col].dtype)
+
+        # select only relevant columns
+        cols_check = ["question", "answer_a", "answer_b", "answer_c", "answer_d", "answer_e", "answer_f", "answer_g", "correct_answer", "category", "age_group", 'year']
+        df_ref_sub = df_ref[cols_check].copy()
+        df_test_sub = df_test[cols_check].copy()
+
+        # make sure both dataframes have the same number of rows
+        if df_ref_sub.shape[0] != df_test_sub.shape[0]:
+            print(f"{filename}: Different number of rows! Ref: {df_ref_sub.shape[0]}, Test: {df_test_sub.shape[0]}")
+            continue
+        # make sure they have the same type for each column
+        for col in cols_check:
+            if df_ref_sub[col].dtype != df_test_sub[col].dtype:
+                print(f"{filename}: Different dtype for column {col}! Ref: {df_ref_sub[col].dtype}, Test: {df_test_sub[col].dtype}")
+
+
+        # check if they are equal
+        if df_ref_sub.equals(df_test_sub):
+            print(f"{filename}: OK")
+        else:
+            print(f"{filename}: NOT OK")
+            print("Differences:")
+            print(f"Ref shape: {df_ref_sub.shape}\nTest shape: {df_test_sub.shape}")
+            # print columns of both
+            print(f"Ref columns: {df_ref_sub.columns.tolist()}\nTest columns: {df_test_sub.columns.tolist()}")
+            # Type check
+            print("Column types:")
+            print(f"Ref dtypes:\n{df_ref_sub.dtypes}\n")
+            print(f"Test dtypes:\n{df_test_sub.dtypes}\n")
+            
+            #display(df_ref_sub.head(2), df_test_sub.head(2))
 
 # %%

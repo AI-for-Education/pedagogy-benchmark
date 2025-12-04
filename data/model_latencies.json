@@ -1,33 +1,133 @@
 {
     "gemini-2.5-flash-lite-preview-09-2025": {
         "CDPK_Luganda_ep_science": 546.02978515625,
-        "CDPK_Luganda_ep_literacy": 448.1224205493927
+        "CDPK_Luganda_ep_literacy": 448.1224205493927,
+        "CDPK_Luganda_ep_new_science": 223.36977910995483,
+        "CDPK_Luganda_ep_new_literacy": 187.84485721588135,
+        "CDPK_Luganda_ep_new_creative_arts": 176.38927245140076,
+        "CDPK_Luganda_ep_new_maths": 153.74042010307312,
+        "CDPK_Luganda_ep_new_social_studies": 137.36165761947632,
+        "CDPK_Luganda_ep_reviewed_science": 45.565757274627686,
+        "CDPK_Luganda_ep_reviewed_literacy": 58.72902321815491,
+        "CDPK_Luganda_ep_reviewed_creative_arts": 64.33031058311462,
+        "CDPK_Luganda_ep_reviewed_maths": 63.75779485702515,
+        "CDPK_Luganda_ep_reviewed_social_studies": 44.5622456073761
     },
     "o4-mini-2025-04-16": {
-        "CDPK_Luganda_ep_science": 1503.039823293686
+        "CDPK_Luganda_ep_science": 1503.039823293686,
+        "CDPK_Luganda_ep_new_maths": 1379.899112701416,
+        "CDPK_Luganda_ep_new_science": 2058.0164370536804,
+        "CDPK_Luganda_ep_new_literacy": 1783.753023147583,
+        "CDPK_Luganda_ep_new_creative_arts": 1650.9121730327606,
+        "CDPK_Luganda_ep_new_social_studies": 1171.7817132472992,
+        "CDPK_Luganda_ep_reviewed_science": 356.9022192955017,
+        "CDPK_Luganda_ep_reviewed_literacy": 361.28180980682373,
+        "CDPK_Luganda_ep_reviewed_creative_arts": 413.0172641277313,
+        "CDPK_Luganda_ep_reviewed_maths": 567.1490249633789,
+        "CDPK_Luganda_ep_reviewed_social_studies": 290.6346890926361
     },
     "gemma-3-4b-it": {
-        "CDPK_Luganda_ep_science": 126.10671973228455
+        "CDPK_Luganda_ep_science": 126.10671973228455,
+        "CDPK_Luganda_ep_new_science": 227.90813422203064,
+        "CDPK_Luganda_ep_new_literacy": 95.5932228565216,
+        "CDPK_Luganda_ep_new_creative_arts": 101.18127965927124,
+        "CDPK_Luganda_ep_new_maths": 89.64040851593018,
+        "CDPK_Luganda_ep_new_social_studies": 77.89811587333679,
+        "CDPK_Luganda_ep_reviewed_science": 25.19739055633545,
+        "CDPK_Luganda_ep_reviewed_literacy": 31.730037450790405,
+        "CDPK_Luganda_ep_reviewed_creative_arts": 38.9795618057251,
+        "CDPK_Luganda_ep_reviewed_maths": 31.284696102142334,
+        "CDPK_Luganda_ep_reviewed_social_studies": 24.843505859375
     },
     "gemma-3-27b": {
-        "CDPK_Luganda_ep_science": 199.09124541282654
+        "CDPK_Luganda_ep_science": 199.09124541282654,
+        "CDPK_Luganda_ep_new_science": 336.6204106807709,
+        "CDPK_Luganda_ep_new_literacy": 207.92659211158752,
+        "CDPK_Luganda_ep_new_creative_arts": 204.70288705825806,
+        "CDPK_Luganda_ep_new_maths": 161.80036282539368,
+        "CDPK_Luganda_ep_new_social_studies": 124.77231311798096,
+        "CDPK_Luganda_ep_reviewed_science": 52.29816913604736,
+        "CDPK_Luganda_ep_reviewed_literacy": 49.41861057281494,
+        "CDPK_Luganda_ep_reviewed_creative_arts": 44.80266976356506,
+        "CDPK_Luganda_ep_reviewed_maths": 84.1636176109314,
+        "CDPK_Luganda_ep_reviewed_social_studies": 31.631627798080444
     },
     "claude-sonnet-4-5-20250929": {
-        "CDPK_Luganda_ep_science": 571.7863388061523
+        "CDPK_Luganda_ep_science": 571.7863388061523,
+        "CDPK_Luganda_ep_new_science": 585.3155529499054,
+        "CDPK_Luganda_ep_new_literacy": 703.6581792831421,
+        "CDPK_Luganda_ep_new_creative_arts": 523.9320049285889,
+        "CDPK_Luganda_ep_new_maths": 451.50451040267944,
+        "CDPK_Luganda_ep_new_social_studies": 382.4846341609955,
+        "CDPK_Luganda_ep_reviewed_science": 126.24729251861572,
+        "CDPK_Luganda_ep_reviewed_literacy": 126.76167964935303,
+        "CDPK_Luganda_ep_reviewed_creative_arts": 151.3354048728943,
+        "CDPK_Luganda_ep_reviewed_maths": 156.2803258895874,
+        "CDPK_Luganda_ep_reviewed_social_studies": 101.04522848129272
     },
     "gemini-2.5-flash-preview-09-2025": {
-        "CDPK_Luganda_ep_science": 1453.3639912605286
+        "CDPK_Luganda_ep_science": 1453.3639912605286,
+        "CDPK_Luganda_ep_new_science": 1156.4348804950714,
+        "CDPK_Luganda_ep_new_literacy": 1003.7081484794617,
+        "CDPK_Luganda_ep_new_creative_arts": 895.3248293399811,
+        "CDPK_Luganda_ep_new_maths": 795.1689100265503,
+        "CDPK_Luganda_ep_new_social_studies": 710.2343137264252,
+        "CDPK_Luganda_ep_reviewed_science": 249.13053274154663,
+        "CDPK_Luganda_ep_reviewed_literacy": 232.48350739479065,
+        "CDPK_Luganda_ep_reviewed_creative_arts": 256.7999701499939,
+        "CDPK_Luganda_ep_reviewed_maths": 251.30238318443298,
+        "CDPK_Luganda_ep_reviewed_social_studies": 200.057870388031
     },
     "qwen-3-32b": {
-        "CDPK_Luganda_ep_science": 2100.483705997467
+        "CDPK_Luganda_ep_science": 2100.483705997467,
+        "CDPK_Luganda_ep_new_science": 2721.971415758133,
+        "CDPK_Luganda_ep_new_literacy": 3199.954754114151,
+        "CDPK_Luganda_ep_new_creative_arts": 2221.427817106247,
+        "CDPK_Luganda_ep_new_maths": 1685.8622300624847,
+        "CDPK_Luganda_ep_new_social_studies": 1454.0574338436127,
+        "CDPK_Luganda_ep_reviewed_science": 715.7356050014496,
+        "CDPK_Luganda_ep_reviewed_literacy": 527.5867230892181,
+        "CDPK_Luganda_ep_reviewed_creative_arts": 477.82404708862305,
+        "CDPK_Luganda_ep_reviewed_maths": 866.1869871616364,
+        "CDPK_Luganda_ep_reviewed_social_studies": 415.111031293869
     },
     "gemini-2.5-pro-preview-06-05": {
-        "CDPK_Luganda_ep_science": 2538.120947599411
+        "CDPK_Luganda_ep_science": 2538.120947599411,
+        "CDPK_Luganda_ep_new_science": 2541.8774950504303,
+        "CDPK_Luganda_ep_new_literacy": 2915.672598838806,
+        "CDPK_Luganda_ep_new_creative_arts": 2141.9364597797394,
+        "CDPK_Luganda_ep_new_maths": 1866.8773641586304,
+        "CDPK_Luganda_ep_new_social_studies": 1729.6519224643707,
+        "CDPK_Luganda_ep_reviewed_science": 523.1537599563599,
+        "CDPK_Luganda_ep_reviewed_literacy": 470.2115550041199,
+        "CDPK_Luganda_ep_reviewed_creative_arts": 631.3052349090576,
+        "CDPK_Luganda_ep_reviewed_maths": 623.6610634326935,
+        "CDPK_Luganda_ep_reviewed_social_studies": 411.028936624527
     },
     "gpt-5-2025-08-07-medium": {
-        "CDPK_Luganda_ep_science": 3253.864363193512
+        "CDPK_Luganda_ep_science": 3253.864363193512,
+        "CDPK_Luganda_ep_new_science": 4710.865245580673,
+        "CDPK_Luganda_ep_new_literacy": 4414.428076028824,
+        "CDPK_Luganda_ep_new_creative_arts": 3681.4840610027313,
+        "CDPK_Luganda_ep_new_maths": 2981.1568355560303,
+        "CDPK_Luganda_ep_new_social_studies": 2775.12323141098,
+        "CDPK_Luganda_ep_reviewed_science": 872.728408575058,
+        "CDPK_Luganda_ep_reviewed_literacy": 821.1960093975067,
+        "CDPK_Luganda_ep_reviewed_creative_arts": 964.0190651416779,
+        "CDPK_Luganda_ep_reviewed_maths": 1058.860119819641,
+        "CDPK_Luganda_ep_reviewed_social_studies": 725.2328054904938
     },
     "fw-deepseek-r1-0528": {
-        "CDPK_Luganda_ep_science": 1313.5205183029175
+        "CDPK_Luganda_ep_science": 1313.5205183029175,
+        "CDPK_Luganda_ep_new_science": 981.7200989723206,
+        "CDPK_Luganda_ep_new_literacy": 826.1485254764557,
+        "CDPK_Luganda_ep_new_creative_arts": 1947.9155251979828,
+        "CDPK_Luganda_ep_new_maths": 935.6294512748718,
+        "CDPK_Luganda_ep_new_social_studies": 636.8725910186768,
+        "CDPK_Luganda_ep_reviewed_science": 169.13339114189148,
+        "CDPK_Luganda_ep_reviewed_literacy": 274.51408529281616,
+        "CDPK_Luganda_ep_reviewed_creative_arts": 229.76244616508484,
+        "CDPK_Luganda_ep_reviewed_maths": 332.4383924007416,
+        "CDPK_Luganda_ep_reviewed_social_studies": 190.73875212669373
     }
 }

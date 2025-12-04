@@ -16,6 +16,24 @@ gpt-4.1-mini,OpenAI,False,https://platform.openai.com/docs/models/gpt-4.1-mini,0
 gpt-4.1,OpenAI,False,https://platform.openai.com/docs/models/gpt-4.1,04/2025,,2.0,8.0,GPT-4.1
 o3-2025-04-16,OpenAI,False,https://platform.openai.com/docs/models/o3,04/2025,,2.0,8.0,o3
 o4-mini-2025-04-16,OpenAI,False,https://platform.openai.com/docs/models/o4-mini,04/2025,,1.10,4.40,o4-Mini
+fw-gpt-oss-20b,OpenAI,True,https://huggingface.co/openai/gpt-oss-20b,08/2025,20000000000.0,0.07,0.3,gpt-oss 20B
+fw-gpt-oss-120b,OpenAI,True,https://huggingface.co/openai/gpt-oss-120b,08/2025,120000000000.0,0.15,0.6,gpt-oss 120B
+gpt-5-2025-08-07-low,OpenAI,False,https://platform.openai.com/docs/models/gpt-5,08/2025,,1.25,10.0,GPT-5 (Low)
+gpt-5-mini-2025-08-07-low,OpenAI,False,https://platform.openai.com/docs/models/gpt-5-mini,08/2025,,0.25,2.0,GPT-5 Mini (Low)
+gpt-5-nano-2025-08-07-low,OpenAI,False,https://platform.openai.com/docs/models/gpt-5-nano,08/2025,,0.05,0.4,GPT-5 Nano (Low)
+gpt-5-2025-08-07-medium,OpenAI,False,https://platform.openai.com/docs/models/gpt-5,08/2025,,1.25,10.0,GPT-5 (Medium)
+gpt-5-mini-2025-08-07-medium,OpenAI,False,https://platform.openai.com/docs/models/gpt-5-mini,08/2025,,0.25,2.0,GPT-5 Mini (Medium)
+gpt-5-nano-2025-08-07-medium,OpenAI,False,https://platform.openai.com/docs/models/gpt-5-nano,08/2025,,0.05,0.4,GPT-5 Nano (Medium)
+gpt-5-2025-08-07-high,OpenAI,False,https://platform.openai.com/docs/models/gpt-5,08/2025,,1.25,10.0,GPT-5 (High)
+gpt-5-mini-2025-08-07-high,OpenAI,False,https://platform.openai.com/docs/models/gpt-5-mini,08/2025,,0.25,2.0,GPT-5 Mini (High)
+gpt-5-nano-2025-08-07-high,OpenAI,False,https://platform.openai.com/docs/models/gpt-5-nano,08/2025,,0.05,0.4,GPT-5 Nano (High)
+gpt-5-2025-08-07-minimal,OpenAI,False,https://platform.openai.com/docs/models/gpt-5,08/2025,,1.25,10.0,GPT-5 (Minimal)
+gpt-5-mini-2025-08-07-minimal,OpenAI,False,https://platform.openai.com/docs/models/gpt-5-mini,08/2025,,0.25,2.0,GPT-5 Mini (Minimal)
+gpt-5-nano-2025-08-07-minimal,OpenAI,False,https://platform.openai.com/docs/models/gpt-5-nano,08/2025,,0.05,0.4,GPT-5 Nano (Minimal)
+gpt-5.1-2025-11-13-medium,OpenAI,False,https://platform.openai.com/docs/models/gpt-5.1,11/2025,,1.25,10.0,GPT-5.1
+gpt-5.1-2025-11-13-high,OpenAI,False,https://platform.openai.com/docs/models/gpt-5.1,11/2025,,1.25,10.0,GPT-5.1 High
+gpt-5.1-2025-11-13-low,OpenAI,False,https://platform.openai.com/docs/models/gpt-5.1,11/2025,,1.25,10.0,GPT-5.1 Low
+gpt-5.1-2025-11-13-none,OpenAI,False,https://platform.openai.com/docs/models/gpt-5.1,11/2025,,1.25,10.0,GPT-5.1 None
 fw-llama-v3p1-405b-instruct,Meta,True,https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct,07/2024,405000000000.0,3.0,,Llama-3.1 405B
 fw-llama-v3p2-1b-instruct,Meta,True,https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct,09/2024,1000000000.0,0.1,,Llama-3.2 1B
 fw-llama-v3p2-3b-instruct,Meta,True,https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct,09/2024,3000000000.0,0.1,,Llama-3.2 3B
@@ -41,6 +59,11 @@ claude-opus-4-20250514,Anthropic,False,https://docs.anthropic.com/en/docs/about-
 claude-sonnet-4-20250514,Anthropic,False,https://docs.anthropic.com/en/docs/about-claude/models/overview#model-comparison-table,05/2025,,3.0,15.0,Claude Sonnet 4
 claude-opus-4-20250514-low,Anthropic,False,https://docs.anthropic.com/en/docs/about-claude/models/overview#model-comparison-table,05/2025,,15.0,75.0,Claude Opus 4 Thinking (low)
 claude-sonnet-4-20250514-low,Anthropic,False,https://docs.anthropic.com/en/docs/about-claude/models/overview#model-comparison-table,05/2025,,3.0,15.0,Claude Sonnet 4 Thinking (low)
+claude-sonnet-4-5-20250929,Anthropic,False,https://docs.anthropic.com/en/docs/about-claude/models/overview#model-comparison-table,09/2025,,3.0,15.0,Claude Sonnet 4.5
+claude-sonnet-4-5-20250929-low,Anthropic,False,https://docs.anthropic.com/en/docs/about-claude/models/overview#model-comparison-table,09/2025,,3.0,15.0,Claude Sonnet 4.5 Thinking (low)
+claude-sonnet-4-5-20250929-medium,Anthropic,False,https://docs.anthropic.com/en/docs/about-claude/models/overview#model-comparison-table,09/2025,,3.0,15.0,Claude Sonnet 4.5 Thinking
+claude-haiku-4-5-20251001,Anthropic,False,https://docs.claude.com/en/docs/about-claude/models/overview#model-comparison-table,10/2025,,1.0,5.0,Claude Haiku 4.5
+claude-opus-4-5-20251101,Anthropic,False,https://docs.claude.com/en/docs/about-claude/models/overview#model-comparison-table,11/2025,,5.0,25.0,Claude Opus 4.5
 gemini-1.5-flash-001,Google,False,https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-flash,05/2024,,0.075,0.3,Gemini-1.5 Flash
 gemini-1.5-pro-001,Google,False,https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-pro,05/2024,,1.25,5.0,Gemini-1.5 Pro
 fw-gemma2-9b-it,Google,True,https://huggingface.co/google/gemma-2-9b-it,08/2024,9000000000.0,0.2,,Gemma-2 9B
@@ -60,8 +83,13 @@ gemini-2.5-flash-preview-04-17,Google,False,https://ai.google.dev/gemini-api/doc
 gemini-2.5-pro-preview-05-06,Google,False,https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro,05/2025,,1.25,10.0,Gemini-2.5 Pro Preview (May '25)
 gemini-2.5-pro-preview-06-05,Google,False,https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro,06/2025,,1.25,10.0,Gemini-2.5 Pro
 gemini-2.5-flash-preview-05-20,Google,False,https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash,05/2025,,0.30,2.50,Gemini-2.5 Flash
-gemma-3n-e4b-it,Google,True,https://huggingface.co/google/gemma-3n-E4B-it-litert-preview,05/2025,4000000000.0,,,Gemma-3n E4B
+gemma-3n-e4b-it,Google,True,https://huggingface.co/google/gemma-3n-E4B-it,05/2025,4000000000.0,,,Gemma-3n E4B
 gemini-2.5-flash-lite-preview-06-17,Google,False,https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite,06/2025,,0.10,0.40,Gemini-2.5 Flash-Lite Preview
+gemma-3n-e2b-it,Google,True,https://huggingface.co/google/gemma-3n-E2B-it,06/2025,2000000000.0,,,Gemma-3n E2B
+gemma-3-1b-it,Google,True,https://huggingface.co/google/gemma-3-1b-it,03/2025,1000000000.0,,,Gemma-3 1B
+gemini-2.5-flash-preview-09-2025,Google,False,https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash,09/2025,,0.30,2.50,Gemini-2.5 Flash
+gemini-2.5-flash-lite-preview-09-2025,Google,False,https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite,09/2025,,0.10,0.40,Gemini-2.5 Flash-Lite
+gemini-3-pro-preview,Google,False,https://ai.google.dev/gemini-api/docs/models#gemini-3-pro,11/2025,,2.0,12.0,Gemini-3 Pro
 fw-yi-large,01.AI,False,https://www.01.ai/,06/2024,,3.0,,Yi-Large
 yi-lightning,01.AI,False,https://www.01.ai/,10/2024,,0.14,,Yi Lightning
 fw-mixtral-8x7b-instruct,Mistral,True,https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1,12/2023,56000000000.0,0.5,,Mixtral-8x7B
@@ -74,9 +102,14 @@ fw-mistral-small-3-instruct,Mistral,True,https://huggingface.co/mistralai/Mistra
 pixtral-large-2411,Mistral,True,https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411,11/2024,124000000000.0,2.0,6.0,Pixtral Large
 mistral-small-3.1-24b-instruct-2503,Mistral,True,https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503,03/2025,24000000000.0,0.1,0.3,Mistral Small 3.1 24B
 mistral-small-3-1-24b,Mistral,True,https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503,03/2025,24000000000.0,0.1,0.3,Mistral Small 3.1 24B
-mistral-medium-3,Mistral,False,https://mistral.ai/news/mistral-medium-3,05/2025,,0.4,2.0,Mistral Medium 3
+mistral-medium-3,Mistral,False,https://docs.mistral.ai/models/mistral-medium-3-25-05,05/2025,,0.4,2.0,Mistral Medium 3
 mistral-nemo-instruct-2407-fp8,Mistral,True,https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407,07/2024,12000000000.0,0.01,0.027,Mistral Nemo
 mistral-small-24b-instruct-2501-fp8,Mistral,True,https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501,01/2025,24000000000.0,0.05,0.10,Mistral Small 3
+magistral-small-2506,Mistral,True,https://huggingface.co/mistralai/Magistral-Small-2506,06/2025,24000000000.0,0.5,1.5,Magistral Small
+magistral-medium-2506,Mistral,False,https://mistral.ai/news/magistral,06/2025,,2.0,5.0,Magistral Medium
+mistral-small-3p2-24b-instruct,Mistral,True,https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506,06/2025,24000000000.0,0.1,0.3,Mistral Small 3.2
+mistral-medium-3.1,Mistral,False,https://docs.mistral.ai/models/mistral-medium-3-1-25-08,08/2025,,0.4,2.0,Mistral Medium 3.1
+mistral-large-3-2512,Mistral,False,https://docs.mistral.ai/models/mistral-large-3-25-12,12/2025,,0.5,1.5,Mistral Large 3
 fw-qwen2p5-72b-instruct,Alibaba,True,https://huggingface.co/Qwen/Qwen2.5-72B-Instruct,09/2024,72000000000.0,0.9,,Qwen-2.5 72B
 fw-qwen2p5-7b-instruct,Alibaba,True,https://huggingface.co/Qwen/Qwen2.5-7B-Instruct,09/2024,7000000000.0,0.2,,Qwen-2.5 7B
 fw-qwen2p5-14b-instruct,Alibaba,True,https://huggingface.co/Qwen/Qwen2.5-14B-Instruct,09/2024,14000000000.0,0.2,,Qwen-2.5 14B
@@ -84,12 +117,17 @@ fw-qwen2p5-32b-instruct,Alibaba,True,https://huggingface.co/Qwen/Qwen2.5-32B-Ins
 qwen2.5-vl-72b-instruct,Alibaba,True,https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct,02/2025,72000000000.0,0.7,,Qwen-2.5 VL 72B
 qwen-qvq-72b-preview,Alibaba,True,https://huggingface.co/Qwen/QVQ-72B-Preview,03/2025,32000000000.0,0.9,,Qwen QVQ 72B
 qwen-qwq-32b,Alibaba,True,https://huggingface.co/Qwen/QwQ-32B,03/2025,32800000000.0,0.15,0.2,Qwen QwQ-32B
-qwen-3-30b-a3b,Alibaba,True,https://huggingface.co/Qwen/Qwen3-30B-A3B,04/2025,30000000000.0,0.1,0.3,Qwen-3 30B (3B active)
-qwen-3-235b-a22b,Alibaba,True,https://huggingface.co/Qwen/Qwen3-235B-A22B,04/2025,235000000000.0,0.2,0.6,Qwen-3 235B (22B active)
+qwen-3-30b-a3b,Alibaba,True,https://huggingface.co/Qwen/Qwen3-30B-A3B,04/2025,30000000000.0,0.1,0.3,Qwen-3 30B A3B
+qwen-3-235b-a22b,Alibaba,True,https://huggingface.co/Qwen/Qwen3-235B-A22B,04/2025,235000000000.0,0.2,0.6,Qwen-3 235B A22B
 qwen-3-14b,Alibaba,True,https://huggingface.co/Qwen/Qwen3-14B,04/2025,14000000000.0,0.07,0.24,Qwen-3 14B
 qwen-3-32b,Alibaba,True,https://huggingface.co/Qwen/Qwen3-32B,04/2025,32000000000.0,0.1,0.3,Qwen-3 32B
 qwen-3-8b-fp8,Alibaba,True,https://huggingface.co/Qwen/Qwen3-8B,04/2025,8000000000.0,0.035,0.138,Qwen-3 8B
 qwen-2p5-7b-instruct-bf16,Alibaba,True,https://huggingface.co/Qwen/Qwen2.5-7B-Instruct,09/2024,7000000000.0,0.04,0.10,Qwen-2.5 7B
+hf-qwen3-0-6b,Alibaba,True,https://huggingface.co/Qwen/Qwen3-0.6B,04/2025,600000000.0,,,Qwen-3 0.6B
+hf-qwen3-1-7b,Alibaba,True,https://huggingface.co/Qwen/Qwen3-1.7B,04/2025,1700000000.0,,,Qwen-3 1.7B
+hf-qwen3-4b,Alibaba,True,https://huggingface.co/Qwen/Qwen3-4B,04/2025,4000000000.0,,,Qwen-3 4B
+qwen-3-235b-a22b-2507-bf16,Alibaba,True,https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507,07/2025,235000000000.0,0.15,0.85,Qwen-3 235B A22B
+qwen3-235b-a22b-thinking-2507,Alibaba,True,https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507,07/2025,235000000000.0,0.22,0.88,Qwen-3 235B A22B Thinking
 fw-phi-3-vision-128k-instruct,Microsoft,True,https://huggingface.co/microsoft/Phi-3.5-vision-instruct,08/2024,4200000000.0,0.2,,Phi-3.5 Vision
 microsoft-phi-4-bf16,Microsoft,True,https://huggingface.co/microsoft/phi-4,12/2024,14000000000.0,0.07,0.14,Phi-4
 phi-4-multimodal-instruct-bf16,Microsoft,True,https://huggingface.co/microsoft/Phi-4-multimodal-instruct,02/2025,5600000000.0,0.07,0.14,Phi-4 Multimodal
@@ -99,29 +137,56 @@ hunyuan-large,Tencent,True,https://huggingface.co/tencent/Tencent-Hunyuan-Large,
 hunyuan-large-longcontext,Tencent,True,https://huggingface.co/tencent/Tencent-Hunyuan-Large,11/2024,389000000000.0,0.83,2.49,Hunyuan Large (Long Context)
 command-r-plus,Cohere,True,https://huggingface.co/CohereForAI/c4ai-command-r-plus,08/2024,104000000000.0,2.37,9.5,Command-R+ August
 cohere-r7b-1224,Cohere,True,https://huggingface.co/CohereForAI/c4ai-command-r7b-12-2024,12/2024,7000000000.0,0.0375,0.15,Command R7B
-amazon-nova-pro-v1,Amazon,False,https://aws.amazon.com/ai/generative-ai/nova/?gclid=Cj0KCQiA0--6BhCBARIsADYqyL9s2q_C9822V4j_NXVBC_Fc5jZWg4HMEI5yNtAX-jQN-Xm8iZdmk0gaAiasEALw_wcB&trk=5eef8ffa-5155-4b81-9303-69672b9516c1&sc_channel=ps&ef_id=Cj0KCQiA0--6BhCBARIsADYqyL9s2q_C9822V4j_NXVBC_Fc5jZWg4HMEI5yNtAX-jQN-Xm8iZdmk0gaAiasEALw_wcB:G:s&s_kwcid=AL!4422!3!691967599587!p!!g!!amazon%20nova!21054972206!158684197585,12/2024,,0.8,,Nova Pro
-amazon-nova-lite-v1,Amazon,False,https://aws.amazon.com/ai/generative-ai/nova/?gclid=Cj0KCQiA0--6BhCBARIsADYqyL9s2q_C9822V4j_NXVBC_Fc5jZWg4HMEI5yNtAX-jQN-Xm8iZdmk0gaAiasEALw_wcB&trk=5eef8ffa-5155-4b81-9303-69672b9516c1&sc_channel=ps&ef_id=Cj0KCQiA0--6BhCBARIsADYqyL9s2q_C9822V4j_NXVBC_Fc5jZWg4HMEI5yNtAX-jQN-Xm8iZdmk0gaAiasEALw_wcB:G:s&s_kwcid=AL!4422!3!691967599587!p!!g!!amazon%20nova!21054972206!158684197585,12/2024,,0.06,,Nova Lite
-amazon-nova-micro-v1,Amazon,False,https://aws.amazon.com/ai/generative-ai/nova/?gclid=Cj0KCQiA0--6BhCBARIsADYqyL9s2q_C9822V4j_NXVBC_Fc5jZWg4HMEI5yNtAX-jQN-Xm8iZdmk0gaAiasEALw_wcB&trk=5eef8ffa-5155-4b81-9303-69672b9516c1&sc_channel=ps&ef_id=Cj0KCQiA0--6BhCBARIsADYqyL9s2q_C9822V4j_NXVBC_Fc5jZWg4HMEI5yNtAX-jQN-Xm8iZdmk0gaAiasEALw_wcB:G:s&s_kwcid=AL!4422!3!691967599587!p!!g!!amazon%20nova!21054972206!158684197585,12/2024,,0.035,,Nova Micro
-jamba-1-5-large,AI21labs,True,https://huggingface.co/ai21labs/AI21-Jamba-1.5-Large,08/2024,399000000000.0,2.0,8.0,Jamba 1.5 Large
-jamba-1-5-mini,AI21labs,True,https://huggingface.co/ai21labs/AI21-Jamba-1.5-Mini,08/2024,52000000000.0,0.2,0.4,Jamba 1.5 Mini
+amazon-nova-pro-v1,Amazon,False,https://aws.amazon.com/ai/generative-ai/nova/,12/2024,,0.8,,Nova Pro
+amazon-nova-lite-v1,Amazon,False,https://aws.amazon.com/ai/generative-ai/nova/,12/2024,,0.06,,Nova Lite
+amazon-nova-micro-v1,Amazon,False,https://aws.amazon.com/ai/generative-ai/nova/,12/2024,,0.035,,Nova Micro
+jamba-1-5-large,AI21labs,True,https://huggingface.co/ai21labs/AI21-Jamba-1.5-Large,08/2024,399000000000.0,2.0,8.0,Jamba Large 1.5
+jamba-1-5-mini,AI21labs,True,https://huggingface.co/ai21labs/AI21-Jamba-1.5-Mini,08/2024,52000000000.0,0.2,0.4,Jamba Mini 1.5
 jamba-instruct,AI21labs,True,https://www.ai21.com/jamba,08/2024,,0.5,0.7,Jamba Instruct
+jamba-1-6-large,AI21labs,True,https://huggingface.co/ai21labs/AI21-Jamba-Large-1.6,03/2025,399000000000.0,2.0,8.0,Jamba Large 1.6
+jamba-1-6-mini,AI21labs,True,https://huggingface.co/ai21labs/AI21-Jamba-Mini-1.6,03/2025,52000000000.0,0.2,0.4,Jamba Mini 1.6
+jamba-large-1.7,AI21labs,True,https://huggingface.co/ai21labs/AI21-Jamba-Large-1.7,07/2025,399000000000.0,2.0,8.0,Jamba Large 1.7
+jamba-mini-1.7,AI21labs,True,https://huggingface.co/ai21labs/AI21-Jamba-Mini-1.7,07/2025,52000000000.0,0.2,0.4,Jamba Mini 1.7
 grok-beta,xAI,False,https://docs.x.ai/docs/models,11/2024,,5.0,15.0,Grok Beta
 grok-2-1212,xAI,False,https://x.ai/blog/grok-1212,12/2024,,2.0,10.0,Grok-2
-grok-2-vision-1212,xAI,False,https://x.ai/blog/grok-121,12/2024,,2.0,10.0,Grok-2 Vision
-grok-3-beta,xAI,False,https://docs.x.ai/docs/models,02/2025,,3.0,15.0,Grok-3
-grok-3-mini-beta,xAI,False,https://docs.x.ai/docs/models,02/2025,,0.3,0.5,Grok-3 Mini
+grok-2-vision-1212,xAI,False,https://docs.x.ai/docs/models/grok-2-vision-1212,12/2024,,2.0,10.0,Grok-2 Vision
+grok-3-beta,xAI,False,https://docs.x.ai/docs/models/grok-3,02/2025,,3.0,15.0,Grok-3
+grok-3-mini-beta,xAI,False,https://docs.x.ai/docs/models/grok-3-mini,02/2025,,0.3,0.5,Grok-3 Mini
+grok-4,xAI,False,https://docs.x.ai/docs/models/grok-4-0709,07/2025,,3.0,15.0,Grok-4
+grok-4-fast,xAI,False,https://docs.x.ai/docs/models/grok-4-fast-reasoning,09/2025,,0.20,0.50,Grok-4 Fast
+grok-4.1-fast,xAI,False,https://docs.x.ai/docs/models/grok-4-1-fast-non-reasoning,11/2025,,0.20,0.50,Grok-4.1 Fast
 fw-deepseek-v2p5,DeepSeek-AI,True,https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210,09/2024,236000000000.0,0.14,0.28,Deepseek V2.5
 fw-deepseek-v3,DeepSeek-AI,True,https://huggingface.co/deepseek-ai/DeepSeek-V3,12/2024,671000000000.0,0.14,0.28,Deepseek V3
 fw-deepseek-r1,DeepSeek-AI,True,https://huggingface.co/deepseek-ai/DeepSeek-R1,01/2025,671000000000.0,0.55,2.19,Deepseek R1
 deepseek-v3-0324-fp8,DeepSeek-AI,True,https://huggingface.co/deepseek-ai/DeepSeek-V3-0324,03/2025,685000000000.0,0.27,1.1,Deepseek V3 0324
 fw-deepseek-r1-0528,DeepSeek-AI,True,https://huggingface.co/deepseek-ai/DeepSeek-R1-0528,05/2025,671000000000.0,3.00,3.00,Deepseek R1 (May '25)
+fw-deepseek-v3p1,DeepSeek-AI,True,https://huggingface.co/deepseek-ai/DeepSeek-V3.1,08/2025,671000000000.0,0.56,1.68,Deepseek V3.1
 liquid-lfm-7b,Liquid AI,False,https://www.liquid.ai/lfm-7b,01/2025,7000000000.0,0.01,0.01,LFM-7B
 liquid-lfm-3b,Liquid AI,False,https://www.liquid.ai/liquid-foundation-models,09/2024,3100000000.0,0.02,0.02,LFM-3B
+lfm2-1.2b-f16-gguf,Liquid AI,True,https://huggingface.co/LiquidAI/LFM2-1.2B-GGUF,07/2025,1200000000.0,,,LFM2-1.2B
+lfm2-700m-f16-gguf,Liquid AI,True,https://huggingface.co/LiquidAI/LFM2-700M-GGUF,07/2025,700000000.0,,,LFM2-700M
+lfm2-350m-f16-gguf,Liquid AI,True,https://huggingface.co/LiquidAI/LFM2-350M-GGUF,07/2025,350000000.0,,,LFM2-350M
+lfm2-8b-a1b,Liquid AI,True,https://huggingface.co/LiquidAI/LFM2-8B-A1B,10/2025,8000000000.0,0.05,0.10,LFM2-8B-A1B
+hf-lfm2-2.6b,Liquid AI,True,https://huggingface.co/LiquidAI/LFM2-2.6B,10/2025,2600000000.0,,,LFM2-2.6B
 doubao-1.5-pro-32k,ByteDance,False,https://www.volcengine.com/product/doubao,01/2025,,0.11,0.28,Doubao-1.5 Pro
 doubao-1.5-lite-32k,ByteDance,False,https://www.volcengine.com/product/doubao,01/2025,,0.041,0.083,Doubao-1.5 Lite
 doubao-1-5-vision-pro-32k,ByteDance,False,https://www.volcengine.com/product/doubao,01/2025,,0.21,0.62,Doubao-1.5 Vision Pro
 sonar,Perplexity,False,https://docs.perplexity.ai/home,01/2025,,1.0,1.0,Sonar
 cohere-command-a,Cohere,True,https://huggingface.co/CohereForAI/c4ai-command-a-03-2025,03/2025,111000000000.0,2.5,10.0,Command A
-jamba-1-6-large,AI21labs,True,https://huggingface.co/ai21labs/AI21-Jamba-Large-1.6,03/2025,399000000000.0,2.0,8.0,Jamba 1.6 Large
-jamba-1-6-mini,AI21labs,True,https://huggingface.co/ai21labs/AI21-Jamba-Mini-1.6,03/2025,52000000000.0,0.2,0.4,Jamba 1.6 Mini
 ernie-4.5-8k-preview,Baidu,False,https://cloud.baidu.com/doc/WENXINWORKSHOP/s/dm8ag8pbl,03/2025,,0.55,2.2,ERNIE 4.5
+hf-smollm2-135m-instruct,Hugging Face,True,https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct,02/2025,135000000.0,,,SmolLM2-135M
+hf-smollm2-360m-instruct,Hugging Face,True,https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct,02/2025,360000000.0,,,SmolLM2-360M
+hf-smollm2-1-7b-instruct,Hugging Face,True,https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct,02/2025,1700000000.0,,,SmolLM2-1.7B
+hf-smollm3-3b-instruct,Hugging Face,True,https://huggingface.co/HuggingFaceTB/SmolLM3-3B,07/2025,3000000000.0,,,SmolLM3-3B
+hf-smollm3-3b-base,Hugging Face,True,https://huggingface.co/HuggingFaceTB/SmolLM3-3B-Base,07/2025,3000000000.0,,,SmolLM3-3B Base
+kimi-k2,Moonshot AI,True,https://huggingface.co/moonshotai/Kimi-K2-Instruct,07/2025,1000000000000.0,0.57,2.30,Kimi K2
+fw-kimi-k2-instruct-0905,Moonshot AI,True,https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905,09/2025,1000000000000.0,0.6,2.50,Kimi K2
+fw-kimi-k2-thinking,Moonshot AI,True,https://huggingface.co/moonshotai/Kimi-K2-Thinking,11/2025,1000000000000.0,0.6,2.50,Kimi K2 Thinking
+glm-4.1v-9b-thinking,THUDM,True,https://huggingface.co/THUDM/GLM-4.1V-9B-Thinking,07/2025,9000000000.0,0.035,0.138,GLM-4.1V-9B Thinking
+fw-glm-4.5,Z.ai,True,https://huggingface.co/zai-org/GLM-4.5,07/2025,355000000000.0,0.55,2.19,GLM-4.5
+fw-glm-4.5-air,Z.ai,True,https://huggingface.co/zai-org/GLM-4.5-Air,07/2025,106000000000.0,0.22,0.88,GLM-4.5 Air
+fw-glm-4.6,Z.ai,True,https://huggingface.co/zai-org/GLM-4.6,09/2025,357000000000.0,0.55,2.19,GLM-4.6
+hf-olmo-2-0425-1b-instruct,Ai2,True,https://huggingface.co/allenai/OLMo-2-0425-1B-Instruct,04/2025,1000000000.0,,,Olmo-2 1B
+hf-olmo-2-1124-7b-instruct,Ai2,True,https://huggingface.co/allenai/OLMo-2-1124-7B-Instruct,11/2024,7000000000.0,,,Olmo-2 7B
+hf-olmo-2-1124-13b-instruct,Ai2,True,https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct,11/2024,13000000000.0,,,Olmo-2 13B
+hf-olmo-2-0325-32b-instruct,Ai2,True,https://huggingface.co/allenai/OLMo-2-0325-32B-Instruct,03/2025,32000000000.0,,,Olmo-2 32B

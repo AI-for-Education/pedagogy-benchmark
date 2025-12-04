@@ -13,15 +13,15 @@ from cdpk.benchmark_utils import fulldf_accuracy_by_category
 
 load_dotenv(override=True)
 
-language = "Luganda_ep"
+language = "Luganda_ep_reviewed"
 
 QUESTIONS_LIST_DICT = {
     "cdpk": [
         f"CDPK_{language}_science",
-        #f"CDPK_{language}_literacy",
-        #f"CDPK_{language}_creative_arts",
-        #f"CDPK_{language}_maths",
-        #f"CDPK_{language}_social_studies",
+        f"CDPK_{language}_literacy",
+        f"CDPK_{language}_creative_arts",
+        f"CDPK_{language}_maths",
+        f"CDPK_{language}_social_studies",
     ],
     #"send": [f"CDPK_{language}_send"],
 }
@@ -30,7 +30,7 @@ def main(opt):
     if opt.models_config is None:
         if opt.benchmark == "cdpk":
             #opt.models_config = "cdpk_online_leaderboard"
-            opt.models_config = "full_list_20251015"
+            opt.models_config = "full_list_20251015_small"
         elif opt.benchmark == "send":
             opt.models_config = "send_online_leaderboard"
         else:
