@@ -1,32 +1,42 @@
 {
     "gemini-2.5-flash-lite-preview-09-2025": {
-        "CDPK_Nyankore_science": 551.6677465438843
+        "CDPK_Nyankore_science": 551.6677465438843,
+        "CDPK_Nyankore_new_science": 368.7776267528534
     },
     "claude-sonnet-4-5-20250929": {
-        "CDPK_Nyankore_science": 2020.963018655777
+        "CDPK_Nyankore_science": 2020.963018655777,
+        "CDPK_Nyankore_new_science": 2221.1376469135284
     },
     "gemini-2.5-flash-preview-09-2025": {
-        "CDPK_Nyankore_science": 2554.917338371277
+        "CDPK_Nyankore_science": 2554.917338371277,
+        "CDPK_Nyankore_new_science": 1898.7289106845856
     },
     "o4-mini-2025-04-16": {
-        "CDPK_Nyankore_science": 2868.8201775550842
+        "CDPK_Nyankore_science": 2868.8201775550842,
+        "CDPK_Nyankore_new_science": 2844.360809803009
     },
     "gpt-5-2025-08-07-medium": {
-        "CDPK_Nyankore_science": 4881.449731588364
+        "CDPK_Nyankore_science": 4881.449731588364,
+        "CDPK_Nyankore_new_science": 5699.748536109924
     },
     "gemma-3-27b": {
-        "CDPK_Nyankore_science": 5334.909585952759
+        "CDPK_Nyankore_science": 5334.909585952759,
+        "CDPK_Nyankore_new_science": 5023.590751409531
     },
     "qwen-3-32b": {
-        "CDPK_Nyankore_science": 5439.908811092377
+        "CDPK_Nyankore_science": 5439.908811092377,
+        "CDPK_Nyankore_new_science": 8322.408873319626
     },
     "fw-deepseek-r1-0528": {
-        "CDPK_Nyankore_science": 6326.739001989365
+        "CDPK_Nyankore_science": 6326.739001989365,
+        "CDPK_Nyankore_new_science": 3609.5799522399902
     },
     "gemma-3-4b-it": {
-        "CDPK_Nyankore_science": 6599.702310800552
+        "CDPK_Nyankore_science": 6599.702310800552,
+        "CDPK_Nyankore_new_science": 7918.931710720062
     },
     "gemini-2.5-pro-preview-06-05": {
-        "CDPK_Nyankore_science": 7484.784007310867
+        "CDPK_Nyankore_science": 7484.784007310867,
+        "CDPK_Nyankore_new_science": 6289.2212681770325
     }
 }

@@ -261,7 +261,7 @@ for i in few_shot_examples_idx_dict['Science']:
     print("-----")
 # %%
 
-language = "Nyankore"
+language = "Nyankore_new"
 
 create_subcsv_cdpk(cdpk_dataset, 
                    folder_path = f"./../data/{language}/CDPK_per_category",

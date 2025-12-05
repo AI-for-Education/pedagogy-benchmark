@@ -1,0 +1,1944 @@
+answers,resps,success,Latency,TokensUsed,TokensUsedCompletion,TokensUsedReasoning
+D,D,True,1.2772135000122944,1749,1,
+A,"D
+B
+C",True,1.283387200004654,1888,5,
+D,D,True,1.0861221999948611,1749,1,
+C,"D
+
+A
+
+C
+
+B",True,1.1750459000031697,1836,7,
+A,"D
+
+B
+
+C
+
+A
+
+H",True,1.5412329999962822,1691,9,
+D,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omwegyesa ariyo nashoborra abaana enkyukakyuka eziraba omu mbeera y'amaizi. Ni engyenderwaho ki aha ezirikubaasa kworeka eky'okurugaanira hamwe (condensation)?
+
+A. Okugwa kw'omuzinga gw'omushana omu maizi g'omugyera
+B. Okuhindura omunyinya gukahinduka omwika kuraba omu maani g'eizooba
+C. Okutahoza amaizi g'enyanja n'okugihindura omu barafu
+D. Okutohaaza amabaare agarikworekwa omwoyo gw'ekyanga ky'amaizi g'omuriro
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 5:**
+
+Garukamu ekibuuzo ekihikire kyonyini.
+
+Handiika enyuguta yonka y'eky'okugarukamu kyawe.
+
+Hemera ahanyuguta honka.
+
+**Eky'okugarukamu: B**",True,6.5622846000042045,3519,1803,
+B,"D
+B
+C",True,1.1425930999976117,1685,5,
+C,"D
+
+B
+
+D
+
+B",True,1.4684946999914246,1695,7,
+A,D,True,1.174767399992561,1750,1,
+B,"D
+B
+C",True,1.4610309999989113,1736,5,
+D,D,True,1.2817101999971783,1772,1,
+D,"D
+
+B
+
+D
+
+B",True,0.9919683000043733,1686,7,
+A,D,True,1.1128690999903483,10522,1,
+B,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omugyezibwa aine ekigyendererwa ky'okwegyesa abeeshuri be kumanya embeera y'okuzimba nk'ekicweka ky'obwirwanirizi bw'omubiri obw'omuzaaro. Ni nshonga ki aha zirikukurira ezishemereire kuba zimanyirwe abeeshuri kubaasa kuhikiiriza ekigyendererwa eki?
+
+A. Obuhagyi burikwata ebirwanisa endwaara nibyo bireetera obutofaali bwa T kureeba ebirwanisa endwaara
+B. Obuturofiri nibwo buryo bw'okurya obutofaayo bw'ebintu ebirwaza eby'omutaano.
+C. Obuturo bw'omubiri (T lymphocytes) oburikukwata aha kintu eki (antigen) butandika kweyongyera.
+D. Oburofa B nigarukira omu oburofa bwa plasma oburekura obuzito bw'omubiri kurwanisa endwara
+
+**Eky'okugarukamu: C**
+
+Garukamu ekibuuzo ekihikire kyonyini.
+
+Handiika enyuguta yonka y'eky'okugarukamu kyawe.
+
+**C**",True,6.007906300001196,3628,1843,
+D,"D
+
+B
+
+D",True,1.2594349999999395,1833,5,
+B,D,True,1.036725000012666,1739,1,
+D,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omwegyesereza aine ekigyendererwa ky'okureetera abanyeshuri be kuteekateeka ebi barikuteekateeka ebirikukwata aha bintu ebimwe ebi abantu barikukoresa ebimanyiso by'ebiramu. Ni enki aha bintu ebi ekyabaasa kwemerera omwegyesereza kuhikiiriza ekigyendererwa kye?
+
+A. Ekisho ekirikworeka empinduka ezabaho omu muringo gw'okukopiinga ebintu.
+B. Okukora ekipande aha muringo gw'okukora ebinyabuzima eby'omutaano
+C. Okushoma kw’ekiteefu aha buheereza bw’obutonde bw’omubiri (gene therapy) omu kwongyera amagara omu ndwaara
+D. Omwandiko ogurikukwata aha nkoresa y'obutoffaali bwa stem omu kwongyerera abantu abarikurwaire endwaara
+
+**Eky'okugarukamu: C**
+
+Garukamu ekibuuzo ekihikire kyonyini.
+
+Handiika enyuguta yonka y'eky'okugarukamu kyawe.
+
+**C**",True,6.6539895000023535,3628,1843,
+A,"D
+
+B
+
+C",True,1.160059400004684,1834,5,
+C,"D
+B
+C
+D",True,1.3764635999978054,1838,7,
+B,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?**
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**D**
+
+**Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?**
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**C**
+
+**Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?**
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**B**
+
+**Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe: Omuhendo ki omwegyesa ashemereire tebeekanisa abegi be kukora nk’ekicweka ky’okushoma kwabo, omu bitebyo by’omutwe gw’ebishushani by’ensi n’omukago gwabyo n’okweyongyera kw’ebihanga, okubaho kw’emisisi, n’okubaho kw’ebirunga, n’ebindi, kubaasa kwetegyereza ngu saayansi n’omuringo oguhinduka kandi ogukorwa abantu boona omu bwire oburikwingana?**
+
+A. Shwijura ebirikuhigaana n'enyegyerera y'ebitare by'ensi (plate tectonics)
+B. Kukora omukago ogw'omugambo gw'okutetenkanya kw'ebitare by'ensi gwatungwa ota?
+C. Ahabw'enki ekiyitwa ""enyegyesa y'ebitare by'ensi""?
+D. Buzaho ebireeberezi ebyabaireho omu mwiko gw'ensi ahabw'okugyeza kw'ebipande by'omwiko gw'ensi
+
+**B**
+
+**Garukamu ekibuuzo ekihikire kyonyini.**
+
+**Handiika enyuguta yonka y'eky'okugarukamu kyawe.**
+
+**Hemera ahanyuguta honka.**
+
+**B**",True,6.865425999989384,3637,1819,
+D,"D
+
+C
+
+B
+
+B",True,1.184445599996252,1899,7,
+A,D,True,1.3885292000049958,1670,1,
+D,D,True,0.9206585999927483,2007,1,
+D,"D
+B
+C
+B",True,1.864511499996297,1985,7,
+C,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omugyezibwa naayenda kukora omurimo gw'okubuuriza ogurikwebemberwa n'abeeshuri be, nukwo bategeere ngu obuhame oburikurugamu okukora ebintu nibwo bukuru omu kuzooka okumanya. Omugyezibwa yaaba naayenda kushuuruura oku ekyenderwa eki kyahikiiriziibwe, ni birikukurataho byona ebirikumworeka ebirikumwemerera kukikora butoosha?
+
+A. Nibarikiriza ebiragiro ebirikumanyisa ebyatungwa omu mutendera gw'okugezesa.
+B. Nibarikorera ebiragiro ebirikumanyisa ebyafunirwe omu mutendera gw'okukora ebishomeso omu kunoonyereza
+C. Nibarikiriza omu kubangaanisa ebiirikurangaaha nibarikukwataganya obuhame bw'ebirikurangaaha n'ekibuuzo ky'okushoma ekibaire kibaziibweho.
+D. Nibarikora omulingo gw'okukora okucungura ebiragiro ebibasobozesa kutunga obuhame oburikweshongyera aha by'okukora (empirical evidence) kugarukamu ekibuuzo kyabo ky'okushwijuma.
+
+**Eky'okugarukamu: D**
+
+**Garukamu ekibuuzo ekihikire kyonyini.**
+
+Handiika enyuguta yonka y'eky'okugarukamu kyawe.
+
+**D**",True,6.763397799993982,3777,1918,
+D,"D
+
+B
+
+C
+
+B",True,1.196517299991683,1847,7,
+A,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omwegyesereza omwegyesa kuhamuririra abeeshuli be amakuru g'obukorane bw'okubanza, nk'enki ekyarugirweho eki arikubaasa kukoresa kushuuruurira?
+
+A. Enyonyi ya African hornbill etunga ebiwuka bingi omu mwabo omu kikaali kyayo, ebiirya obuceezi; omu muringo ogu, nibyo birukya obuceezi oburikwekwatanisa omu kikaali.
+B. Enshojo zirimu obutakiteriya omu nda zaazo oburikubaasa kucweeka seluloosi, nukwo ogwo omugati gubaireho ahabw'enshojo zombi.
+C. Ebirabyo bya orikidi nibegamiira aha miti kubaasa kutunga omushana, amaizi, n'ebirikurisa ebirungi, hatariho kubitwaara kuruga omu muti, ogutarikukwatwaho orikidi.
+D. Obutakitiiria bwa Rhizobium nibutunga ebiriisa ebi burikwetaga kuruga omu mireenzi y'ebishyimbo, kandi omu mwanya gw'ekyo, obutakitiiria obu nibukwata nitrogeni ei ebimera ebi birikwetaga.
+
+**Eky'okugarukamu: C**
+
+Garukamu ekibuuzo ekihikire kyonyini.
+
+Handiika enyuguta yonka y'eky'okugarukamu kyawe.
+
+**C**",True,6.795956900008605,3776,1917,
+B,D,True,1.07666920000338,2053,1,
+C,"D
+
+A
+
+C
+
+B
+
+A",True,1.3241755000053672,1781,9,
+B,D,True,1.0401252000010572,1710,1,
+B,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa bagonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omuhereza w’ebyamagara omu kwesomesa okuhikiirira, omwegyesa wa bayolojiya atwariramu ekibuuzo ekirikukurataho: ‘Ni nkyukakyuuka ki ez’omubiri eziraareebwa omu mukazi orikuheebwa omuti ogurikuzibira omurimo gwa GnRH? Zigambe.’ Ni ndagiriro ki y’okushomesa erikukwatwaho n’ekintu eki ekitebeekanisiibwe?
+
+A. Shoborora omuringo gw'omukora gw'emishumurizo ogurikukwata aha nkyukakyuuka z'obutoosha.
+B. Shoborora oku gavumenti y'emihormone y'omu hypothalamus aha mutwaro gw'ebiro by'omushana omu ibyairo n'omunda y'omukazi
+C. Shobora omukwenda gw'ebintu ebirikukurataana omu mutwaro gw'amagi, orikugambira aha kicweka ky'obuhumbo bw'amagi, okurekurwa kw'eigi, n'ekicweka ky'omubiri ogurikurekurwa.
+D. Rondookereza orutondeekye rw'ebirikurugaho omu mutumbi gw'omukazi omu bwire bw'okucwecera, eky'omutumbi kweyongyera, hamwe n'eky'omutumbi kureetera ebintu birugaho.
+
+**Eky'okugarukamu: B**
+
+**Garukamu ekibuuzo ekihikire kyonyini.**
+
+**Hemera ahanyuguta honka.**
+
+**B**",True,6.22400380000181,3841,1945,
+B,"D
+B
+C
+D",True,1.4891706999915186,1849,7,
+D,"D
+
+B
+
+C
+
+D",True,1.2396775999950478,1854,7,
+C,D,True,1.4194167999958154,1880,1,
+A,"D
+B
+C
+D",True,1.3870010999962687,1937,7,
+B,"D
+
+B
+
+C
+
+A",True,1.2723203000059584,2003,7,
+C,"D
+
+A
+
+C
+
+B",True,1.4452737000101479,1997,7,
+C,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Eky'okureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Eky'okureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Eky'okureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Eky'okureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Ni ki eki aha mirimo egi erikwemerera abeeshuri kushwijuma omu bwijwire iteeka ry'okukuumira amaani g'eby'okutwara?
+
+A. Nirikira omuringo ekipinga erikuzingirira aha rubaju orw'ahaiguru erikwendekyere.
+B. Kurabura omuringo gw'okukozesa ekikozeso ekirikuhikiire, oreekoodi omwendeso ogu akafera kahitsya ahansi obu karugwa aha meza.
+C. Kurora omugisha gw'ekintu ekiri nk'enjuba (sphere) kurabira omuhanda ogwetegyereize nk'enjoka (U-shaped track), orore obureingwa bwaiguru obu kirikushikaaho omu bwire oburikugyenda.
+D. Kuruga omuhendo gw'amaani g'okuhingura n'amaani g'okugumira omubumbi ogurikugyenda aha rugyendo rw'omugaiga ogutaine kabiishwa kuruga omu kashushani ka kompyuta.
+
+**Eky'okugarukamu: C**
+
+Handiika enyuguta yonka y'eky'okugarukamu kyawe.
+**C**",True,6.316993599990383,3661,1854,
+C,D,True,1.3288256999949226,2095,1,
+B,"D
+B
+C
+A",True,1.1671568999881856,1957,7,
+D,D,True,1.3784314999938942,2481,1,
+C,D,True,1.2002886999980547,1751,1,
+B,"D
+
+B
+
+C
+
+D
+
+A",True,1.481669000000693,1763,9,
+C,D,True,1.1769214999949327,1934,1,
+B,D,True,1.394854900005157,2069,1,
+C,D,True,1.199501800001599,1869,1,
+C,D,True,1.2250779999885708,1880,1,
+C,D,True,1.407691500004148,2027,1,
+A,"D
+
+B
+
+C
+
+A
+
+C",True,0.5037537000025623,1680,9,
+C,D,True,0.7480093000049237,1686,1,
+C,D,True,0.6769345999928191,1725,1,
+A,"D
+B
+C
+B",True,0.5904629999859026,1812,7,
+C,D,True,0.7400255999964429,1866,1,
+B,D,True,0.8845615000027465,1919,1,
+C,D,True,0.587794599996414,1794,1,
+C,"D
+B
+C
+A",True,0.9606920000078389,1931,7,
+B,"D
+B
+D
+B",True,0.787990600001649,1954,7,
+C,D,True,0.4892656000010902,1768,1,
+A,"D
+
+B
+
+C
+
+A",True,0.9187301999918418,1721,7,
+A,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Shoma omwegyesa arikureeba embeera egi:
+Omwegyesa w'abaana abato areeba Mariana, orikufukamira omu rubaraza aine endorerwamu omu mukono gwe. Areeba omuishwa ogwo naayimutsya amabaare kandi areeba ahansi yaago, nashuuruura ahansi y'ebimera, kandi naggyaho ebikooko by'omutsyo. Omwegyesa amwiira haihi, amubuuza eki arikukora, kandi Mariana amushoboorora ngu arikushaka enjojo z'amabaare ahabw'okuba naazikunda kuziingazinga omu mikono ye. Omwegyesa amubuuza, ""Noora ngu shi enjojo z'amabaare nibakiira zita?""
+Bukumanyirizi ki obw'obuhangwa omwegyesa arikwesiga kuteera aha mutwe Mariana obu arikumuza eki kibuuzo?
+
+A. Okuragura
+B. Kureeba
+C. Kugyezaho
+D. Okugyenda omu kubumbura ebikumire
+
+**Eky'okugarukamu: B**
+
+**Hemera ahanyuguta honka:**
+
+B",True,6.55437399999937,3652,1840,
+D,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa bagonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omwegyesereza naayenda kumanya yaaba abeeshuri beine obushoboorozi bw’okutebeekanisa omurimo gw’okukora ebiteeso kurugiirira aha kibuuzo eki baheebwa. Aha mirimo ekurikukurira etegyeka ki eyaaba neyikiriza ekigyendererwa eki kucungurwa?
+
+A. Nibarikiriza ebishushani n'okugyayo amakuru omuri byo
+B. Nibarikoresa kandi bashwijuma eby'okureeberaho kureeta obuhabuzi bwabo.
+C. Nibarikana ebikaguzo bya saayansi n'ebitari bya saayansi
+D. Nibarikira kushobora kwerengyesa n'empindahinduka ezirikwejumburwa n'ezitarikwejumburwa omu kunoonyereza
+
+**Eky'okugarukamu: B**
+
+Handiika enyuguta yonka y'eky'okugarukamu kyawe.
+**B**",True,6.039439999993192,3540,1792,
+D,"D
+
+B
+
+D",True,0.8573395999992499,1855,5,
+C,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?**
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**D**
+
+**Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?**
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**C**
+
+**Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?**
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**B**
+
+**Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe: Ni ebiki aha binu ebikorwa ebirikwija kureka abeeshure kushwijuma ekirikureeta okwokya kw'ensi yoona?**
+
+A. Ekitabo ky'omukura ogurimu ebimurikwa omu jurnali y'eby'obuhangwa nikiragaza aha migisha n'obubi bw'ebintu ebirimu chlorofluorocarbons (CFCs). Nikigamba ngu CFCs zikozesibwa omu by'okukonyeza, omu by'okucwekyereza, n'omu by'okukora ebintu by'amabaati, kandi ngu nibita obuziba bw'omwanya ogurikukuumira ensi, obwo ozone layer. Obwo buziba bw'omwanya ogurikukuumira ensi nibukendeera, emishana y'akasana erimu obubi neeyingira omu nsi, egi neereeta endwara nk'ekooko y'aha ruhu n'okuhinduka kw'obwire. Ekitabo eki nikigamba ngu ensi yoona neetaaine kukora hamwe kukendeeza aha kukoresa CFCs n'okushanga ebintu ebirukukora nkazo ebitarikweta obuziba bw'omwanya ogurikukuumira ensi.
+B. Shwijuma ekicweka ky'omukura ky'eshaayansi ekirikugamba aha bwingi bwa CO2 omu bwire butari bumwe omu mwaka omu byaro bitari bimwe
+C. Okureetera hamu n'ebicweka by'omucwe gw'okushwijuma ogurikukwata aha kwongyera obwingi bwa CO2 omu bwengye.
+D. Shwijuma omu by’okushwijuma ebya sayansi ebirimu amakuru agizire aha mikoranire y’ekihindamisho ky’obushomerezi aha bwingi bw’emigaza ehumbya.
+
+**A**
+
+**Garukamu ekibuuzo ekihikire kyonyini.**
+
+**Handiika enyuguta yonka y'eky'okugarukamu kyawe.**
+
+**A**",True,6.347765800004709,4001,1996,
+C,D,True,0.5160092000005534,1927,1,
+B,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omugureesi acwireho kucungura kureeba yaaba abeeshuri beebembera kumanya kwabo aha by'okurya ebi baayegire omu magara gaabo. Ni mirimo ki erikuhikaana n'ekigyendererwa eki?
+
+A. Omu kubuuti, nibahandiika endyo erikukwata aha miteera y'okulya y'abatooro.
+B. Buri omu, bakora ebyokurya byabo, kwesiga oburemi bwabo, okurenga, emirimo y’omubiri, n’ekikomekyo
+C. Omwe omwe na omwe, bakora orutonde rw'ebyokurya ebirimu omugisha mwingi ebi barikurya.
+D. Omu mirongo, nibashwijuma ebirugiremu by'okubonereza okwakozirwe omu ishomero ryabo aha mbeera y'okurya.
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 5:**
+
+Garukamu ekibuuzo ekihikire kyonyini.
+
+Handiika enyuguta yonka y'eky'okugarukamu kyawe.
+
+**Eky'okugarukamu: C**",True,5.6027598999935435,3620,1849,
+B,"Ebibuuzo byawe birikwerekera ku kwegyesa abana bato (early childhood education) n'okucweka eby'obutonde (science concepts). N'ebikwata ku kwegyesa abana bato, eby'okugarukamu byawe birikwerekera ku kwegyesa abana kwetegereza ebintu, kwetegereza ebintu ebiri omu kintu kimwe, n'okweteekereza ku by'obutonde.
+
+N'ebikwata ku by'okugarukamu byawe:
+
+**Ekyokureeberaho 1:**
+
+Ekyokureeberaho kirikwerekera ku **kucweka eby'obutonde** (kugamba aha bintu bikuru ebiri omu by'obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi).
+
+*   **A:** Santiago naashushaniisa amabaare g'obunene obutari bumwe. (Kureeba obunene - **Kucweka**).
+*   **B:** Pablo areeba ekijiiko kandi yaareeba omushusho gwe. (Kureeba oburungi/omushushani - **Kucweka**).
+*   **C:** María akoraaniza amataare g'emiti agari mushushani omu kashaaho. (Kureeba oburungi/omushushani - **Kucweka**).
+*   **D:** Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma"". (Kureeba **obushushu** - **Kucweka**).
+
+**Eky'okugarukamu kyehikire:** **D** (Kugamba ku mbuto eziruma kureeba obushushu, nikworeka ngu omwana arikucweka ku bintu bikuru by'obutonde, nk'obushushu).
+
+---
+
+**Ekyokureeberaho 2:**
+
+Ekyokureeberaho kirikwerekera ku **kucweka n'okweteekereza ku by'obutonde** (kumanya eby'okukozesa n'omurimo gwabyo) n'okukoresa eby'okureeba (zoning) n'okweteekereza.
+
+Omugyetsi arikwenda abegi bakore **kucweka** ku bintu by'okukozesa (omunana, orungyebwa, n'eppere) n'okubakoresha ibara, oburungi, n'obunene.
+
+*   **A:** Kureeba eby'okugarukamu by'ebibuuzo ku **mibaala** (kibala ki ekya ranga ya yellow?). (Kucweka ku mibaala).
+*   **B:** Kureeba **emiringo** erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi). (Kucweka ku **bwengye** n'okubyegyesa).
+*   **C:** Kureeba eby'okugarukamu by'ebibuuzo ku **bwengye** (Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura?). (Kucweka ku bwengye).
+*   **D:** Kureeba eby'okugarukamu byaawe ku **mishushani** (akamwenyu/obusaasi) n'okubyegyesa. (Kucweka ku bwengye).
+
+**Eky'okugarukamu kyehikire:** **C** (Ekyokureeberaho C kireeba ku **bwengye** (emotions/feelings) n'okubyegyesa, kandi ebyo nibikwata ku **kucweka** n'okweteekereza ku bintu by'okukozesa (ebitookye, epere, omucungwa) n'okubyegyesa).
+
+---
+
+**Ekyokureeberaho 3:**
+
+Ekyokureeberaho kirikwerekera ku **kweteekereza ku miringo etari emwe ey'okwaanya ebintu ebikwatiraine** (classification/sorting) n'okweteekereza ku **buhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi** (scientific inquiry).
+
+Abana barikukoresha ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Baine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe.
+
+*   **A:** Nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize. (Kureeba **omuringo** ogurikukiraho - **Kucweka**).
+*   **B:** Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma **obwingana bw'okubaasa kukikora**. (Kureeba **obwingana** bw'okubaasa kukikora - **Kunoonyereza/Kucweka**).
+*   **C:** Omu omwe omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira. (Kureeba **omuringo** ogu bateekwa kukuratira).
+*   **D:** Omu omwe omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe. (Kukurata **omuringo** ogworekwa).
+
+**Eky'okugarukamu kyehikire:** **B** (Kureeba **obwingana bw'okubaasa kukikora** nikworeka abana barikweteekereza ku **buhame** bw'ebirikuruga omu kunoonyereza kw'obwomeezi, aho kugira ngo barikureeba omuringo omwe gwekwatana).
+
+---
+
+**Ekyokureeberaho 4:**
+
+Ekyokureeberaho kirikwerekera ku **kucweka omukago** (relationship) ahagati y'omurimo gw'akacu n'ebicweka byako.
+
+*   **A:** Shobora orugufu nk’ekintu kikuru ekirikugyendererwa omu bintu ebiriho byona. (Kureeba **ekintu kikuru**).
+*   **B:** Geranisiza ebirimu omunda y’akatuuti n’ebizimbiso by’akatuuti ebiri omu bika by’akatuuti eby’enjawulo. (Kureeba **ebicweka** by'akatuuti).
+*   **C:** Shoborora emiterere y'ebintu ebiri omu kashushani k'akacu k'ekirikari n'ak'ekitarikari. (Kureeba **emiterere** y'ebintu).
+*   **D:** Huura ebicweka by’akacu n’ebi abahanga nk’aba Hooke, Leeuwenhoek, Virchow, Schleiden, na Schwann baahwereireho. (Kureeba **ebicweka** by'akacu n'abahanga).
+
+**Eky'okugarukamu kyehikire:** **B** (Omurimo gw'akacu n'ebicweka byako (cell structure) nikworeka **ebicweka** by'akatuuti n'ebizimbiso by'akatuuti, ebyo nibyo bicweka by'akacu).
+
+---
+
+**Ekyokureeberaho 5:**
+
+Ekyokureeberaho kirikwerekera ku **kucweka omukago** (relationship) ahagati y'omurimo gw'akacu n'ebicweka byako.
+
+Eki nikikwata ku **kucweka** (analysis) n'okweteekereza ku **buhame** bw'ebintu.
+
+*   **A:** Shobora orugufu nk’ekintu kikuru ekirikugyendererwa omu bintu ebiriho byona. (Kureeba **ekintu kikuru**).
+*   **B:** Geranisiza ebirimu omunda y’akatuuti n’ebizimbiso by’akatuuti ebiri omu bika by’akatuuti eby’enjawulo. (Kureeba **ebicweka** by'akatuuti).
+*   **C:** Shoborora emiterere y'ebintu ebiri omu kashushani k'akacu k'ekirikari n'ak'ekitarikari. (Kureeba **emiterere** y'ebintu).
+*   **D:** Huura ebicweka by’akacu n’ebi abahanga nk’aba Hooke, Leeuwenhoek, Virchow, Schleiden, na Schwann baahwereireho. (Kureeba **ebicweka** by'akacu n'abahanga).
+
+**Eky'okugarukamu kyehikire:** **B** (Omurimo gw'akacu n'ebicweka byako (cell structure) nikworeka **ebicweka** by'akatuuti n'ebizimbiso by'akatuuti, ebyo nibyo bicweka by'akacu).
+
+---
+
+**Eby'okugarukamu byawe by'okwasa:**
+
+1.  **D**
+2.  **C**
+3.  **B**
+4.  **B**
+5.  **B**",True,6.685807699992438,4090,2277,
+A,D,True,0.48013060000084806,1998,1,
+B,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Ni eni aha ebiri erikukurira aha, niki ekirikworeka enyikiriza etahikire abeeshuri abari omu P7/P8 abamanyire kugira aha nkyukakyuka omu bintu?
+
+A. Empindahinduka ry'ebirikale nirishobora kuba eririkugarukwamu nari eritarikugarukwamu
+B. Amazi kugyera nikikwatanisa n'empinduka etarikugaruka enyima
+C. Obusyo bw'omubiri tiguhinduka amazzi gaaba nigahinduka kuruga omu ngaro nkomeire okugyenda omu ngaro y'amazzi.
+D. Obunzima bw'ekintu nibuguma butyo obu kigyezibwa omu kikarikukyusa embeera y'omubiri.
+
+**Eky'okugarukamu: D**
+
+**Garukamu ekibuuzo ekihikire kyonyini.**
+
+Handiika enyuguta yonka y'eky'okugarukamu kyawe.
+
+**Hemera ahanyuguta honka.**
+
+D",True,5.745592499995837,3546,1807,
+B,D,True,0.8372604000032879,2022,1,
+C,D,True,0.6645112999976845,1836,1,
+C,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omwegi orikwegyesibwa akahwa akakurira: DDT ekaba omuti ogurikukozesibwa munonga kwita ebinyegere; kwonka, bwanyima y’emyaka mikye ogw’okugukoresa munonga, gukaba gutakyakora aha binyegere. Ahabwenki DDT yarekereraaho kukora aha binyegere bwanyima y’okugikoresa munonga? Omwegi yaagarukiremu ahabw’omuringo ogu: Bwanyima y’obwire buri heru obw’okumanyira DDT, ebinyegere bikakora obwomeezi obwabire nibibasiisa n’abaana baabyo kutarikwetenga omuti ogwo. Ni nteekateeka ki etahikire erikworekwa omu kugarukamu kw’omwegi?
+
+A. Abantu omu bwingi bw'abantu abaine ebintu ebirungi nibo barokoka kandi bareke ebyana
+B. Abantu omuri ekikungu abagira empindahinduka ezibagasa nibo barokoka kandi bakahereza empindahinduka eziyo aha baana baabo
+C. Abantu abali omu bwingi bw'abantu, okusobora kwetantara embeera y'obwire, baine kutebeza ebintu ebibasobozesa kuramuka n'okusiiga abazukulu
+D. Abantu abasinga omu bwiire nibafiira omu kuhiganwa n'abarikugira enshisha ezirungi, kandi aba nibo abaraareke abana.
+
+**Eky'okugarukamu: D**
+
+**Garukamu ekibuuzo ekihikire kyonyini.**
+
+**Hemera ahanyuguta honka.**
+
+**D**",True,6.114714600000298,3902,1975,
+B,D,True,0.8456315000075847,1902,1,
+C,D,True,0.5537297999981092,1885,1,
+B,D,True,0.8119886999920709,2026,1,
+C,D,True,0.6897995000035735,1982,1,
+C,"D
+
+A
+
+C
+
+B
+
+A",True,0.8393699000007473,1855,9,
+D,"D
+
+A
+
+B
+
+B",True,0.7031846000027144,1756,7,
+D,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omugyezibwa aine ekigyendererwa ky'okukuzamu abeeshuri be obushoboorozi bw'okutorana ebiri aha mukura gw'entaneeto ahabw'okukora purojekiti z'okushushuurza. Omu kiraasi, abashaba kukoresa mashini ehururuza aha mukura gw'entaneeto kushanga ebikwaata aha bushoboorozi bw'okuragura eby'okutengyeka. Ni bintu ki aha bintu ebi omwegyesa arikutebeekanisa ebirikubaasa kushobooza abeeshuri kuhikiiriza ekigyendererwa eki kirikugambwaho?
+
+A. Reeba omukura gw'emikura eshatu eya webu, oihireho ogu orikwunda munonga, orikworeka gye ebi orikushingamira aha kucwamu kwaawe.
+B. Ohandiika omuhanda gw'ekicweka kurugiirira aha bi orikureeba ebirikukushemeza munonga aha mukura gwa internet.
+C. Baigarukye omubaanzi ogurikugyeragyeranisa ebiri omu mitwaro eshatu ey'ebiteekateeko eby'okubanza ebi barahindwireho.
+D. Teeraniza kuruga aha muko gw'omukura ogurikwesigwa munonga kuhika aha muko ogurikwesigwa kukye omu mikura eshatu ey'obaire omu kutandika, orikuhereza enshonga ezirikukoresibwa.
+
+**Eky'okugarukamu: D**
+
+Garukamu ekibuuzo ekihikire kyonyini.
+
+Handiika enyuguta yonka y'eky'okugarukamu kyawe.
+
+**Hemera ahanyuguta honka: D**",True,6.551286899994011,3905,1986,
+C,D,True,0.4838841000018874,2052,1,
+A,D,True,0.7944341999973403,1825,1,
+A,"D
+
+A
+
+B
+
+A",True,0.844330700012506,1884,7,
+D,D,True,0.5758798999886494,2031,1,
+D,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omwegyesereza naaba atandika omutwe gw'okwegaita kw'ebirikale bya kemisiri kandi nayenda kworeka abegi ngu okumanya omu kemisiri nikukura, nikuhinduka kandi kurimu empaka. Kuti kuhikiiriza eki, ekirikukurikira aha, niki eki kyaaba nikikwatana?
+
+A. Empaka aha miringo y'akatomu
+B. Poroota y'okucwekyereza aha mugenzo gwa VSEPR (Valence Shell Electron Pair Repulsion)
+C. Empaka aha kworeka amateeka g'empewo
+D. Nshaba y'okushwijuma ebyahandiikirwe aha byafaayo by'ekiteekateeko ky'omukago
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 5:**
+
+Garukamu ekibuuzo ekihikire kyonyini.
+
+Handiika enyuguta yonka y'eky'okugarukamu kyawe.
+
+Hemera ahanyuguta honka.
+
+**Eky'okugarukamu: B**",True,6.176819500004058,3537,1812,
+A,D,True,0.92245460000413,1897,1,
+C,"D
+
+B
+
+D
+
+B",True,0.7726608000084525,1745,7,
+C,"D
+
+B
+
+C
+
+D",True,0.7473595000046771,1838,7,
+C,"D
+C
+B
+D",True,0.7672129999991739,1912,7,
+D,"D
+B
+C",True,0.8113806000037584,1874,5,
+B,D,True,0.5521866999915801,1813,1,
+C,D,True,0.6147648000041954,2003,1,
+C,D,True,0.7430048999958672,1869,1,
+B,D,True,0.8532017999968957,2163,1,
+D,D,True,0.7603227999934461,2203,1,
+A,D,True,0.6039472999982536,1681,1,
+D,D,True,0.6455931000091368,1978,1,
+D,"D
+
+B
+
+C
+
+B
+
+A",True,0.6794283999915933,1722,9,
+D,"D
+
+A
+
+C
+
+B",True,0.6035513999959221,1833,7,
+B,D,True,0.6931495000026189,2146,1,
+D,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omugyezibwa asomesa aine kukora n'ekigyendererwa ky'okwegyesa ekirikukurataho n'abanyeshuri abali omu mwaka gwabo ogw'abiri omu mashomero agari haihi: ""Kukuraaza omushoborora gw'obwomeezi, kurugiirira aha buhame, aha bikorwa by'okuhungura emiringo omu nyamaishwa"". Ebikorwa ebiri ahansi aha nibiija kubasiisa kukora aha kigyendererwa eki?
+
+A. Kurugiira aha mishangwa y'emyaka y'ab'eka abaine endwaire ezirikushushana, abeegi nibagyeragyeranisa kandi niboonyereza ekirikureeta buli ndwaire.
+B. Kurigyira aha mishangwa y'ebisembe by'endwaara ezirikukwata omubiri gwona, abeeshuri bashwijuma ebi bishangwa kandi bamanye omulingo endwaara ezo zirikukwata.
+C. Abeshomesha nibahinga omu mmeeza ebiranga by'ebishoro ebirikukurwa omumuryango gw'ebinyama kandi bagyerengyereza omu muringo buri kimwe kirikworekyerwa.
+D. Abeshomesha nibahanga oruganda rw'omuryango (pedigree) rurimu emigwi y'eshagama y'abanyeshuri bagyenzi baabo n'emyaka yaabo kandi nibaha obushobororo bw'oku emigwi y'eshagama etungwa.
+
+**Eky'okugarukamu: D**
+
+**Handiika enyuguta yonka y'eky'okugarukamu kyawe.**
+
+D",True,6.077881499993964,3866,1954,
+B,D,True,0.8433688000077382,2131,1,
+A,D,True,0.7979939999931958,1883,1,
+A,"D
+
+A
+
+C
+
+B",True,0.8778147999983048,1944,7,
+A,D,True,0.85289819999889,1974,1,
+C,"D
+B
+C
+A",True,0.9053800999972736,1838,7,
+B,"D
+
+B
+
+C
+
+D",True,0.656413499993505,1946,7,
+B,"D
+
+B
+
+C",True,0.7530216000013752,1874,5,
+A,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omwegyesereza omwegyesa orukurato orurikukurira abegyirwa b'ekicweka kya mbere omu mashomero agarikukuru, aine ekigyendererwa ""Kwetegyereza obukuru bw'okukora okushukuruza omu by'omusisa omu kuzooka okumanya kw'ebitare"". Omu mirimo egi erikukurira ahansi, n'enki erikukwatana n'ekigyendererwa eki?
+
+A. Shoborora omuringo ogurikukoresibwa omu kucwekyereza emikuba ya seisei omu kwega ebiri omunda y'ensi.
+B. Manya g'amaani agarekurwa omu musisa nigatambura guta kuraba omu mirumbo ya primary, secondary, na surface.
+C. Gambamu ebintu ebirikureeta omutingito eby'obutonde, nk'okushobana kw'ebipande bya tekitoniki ahabw'okugyeenda kwabyo
+D. Shuuruura omuhanda gw'omushana gw'omutingo gw'omutima gw'ensi orikurabira omu kubaririra omuhanda kurabira omu bifo bishatu eby'okupimisa eby'omutingo gw'ensi, orikurugiirira aha bipimo by'omutingo ebyatungwa buri kifo.
+
+**Eky'okugarukamu: D**
+
+Handiika enyuguta yonka y'eky'okugarukamu kyawe.
+
+**D**",True,6.006483799996204,3803,1923,
+D,D,True,0.6000059999933001,1979,1,
+D,"D
+
+B
+
+D
+
+B",True,0.8916729000047781,2031,7,
+A,D,True,0.7388805999944452,1777,1,
+B,D,True,0.7826801999908639,1767,1,
+B,"D
+B
+C
+A",True,0.8956049999978859,1848,7,
+A,D,True,0.8059936999925412,1993,1,
+B,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Eky'okureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Eky'okureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Eky'okureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Eky'okureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omwegyesereza omwegyesa owa sekenda, omu kubitebeekanisa bye by'eisomo, ateireho ekigyendererwa ky'abegyeswa okuhikaana eky'okuhinduka okurikukora omu bwiini bw'obutini obw'emishisa n'obumanzi bwabwo. Ni bintu ki ebiraheereza omwegyesa kuhikiiriza ekigyendererwa eki omu kiraasi?
+
+A. Shaba abeshomesa kworeka emitwarize y’ebintu ebirikurugwa omu kintu ekiriyo nikyeyenda omu mucwe gw’obutareeba.
+B. Shaba abeshomesa bashoboorore omutaano gw'ebintu ebirikurugamu omu kashushani k'omukanda gw'obumanzi bw'enkyerere.
+C. Shaba abeeshuri bacuunde aha maani g'okureebana n'okukwatana agari omunda y'akacwe kamatomu, n'ekigyendererwa ky'okutunga obumanzi.
+D. Basomesa abeeshuri kwetegekereza akameeza akarikukwata aha miringo y'okubumbuka kw'ebintu ebiriyo ebintu ebiriyo obutwa ebi nyukiriya erikukora kugira ngu etereere?
+
+**Eky'okugarukamu: C**
+
+**Handiika enyuguta yonka y'eky'okugarukamu kyawe:**
+
+C",True,7.00598170000012,3778,1912,
+D,D,True,0.7589582000073278,1935,1,
+C,D,True,0.6594306999904802,2499,1,
+B,"D
+B
+C",True,0.8992029999935767,1964,5,
+B,D,True,0.8644475999899441,1738,1,
+B,D,True,0.8724171000067145,1712,1,
+C,D,True,0.7966569999989588,1932,1,
+C,D,True,0.7975311000045622,1862,1,
+D,D,True,0.6389396000013221,1891,1,
+B,"D
+
+B
+
+C
+
+A",True,0.7657249000039883,1817,7,
+C,"D
+
+B
+
+C
+
+D
+
+B",True,0.6278574000025401,1922,9,
+A,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Abaana abari omu Pre-kindergarten, omwegyesa abaeta aha rubaraza kwetegyereza embeera z'ebintu. Eki nikitwariramu kureka etabaaza omu izooba kureeba ekirikubaho. Enyima, abaana nibakora okuteebereza kandi nibabishushaniisa omu katarabo. Omu kumanyisa oku, nkyukakyuka ki y'embeera y'ekintu egi abaana b'omutendeka ogu barikubaasa kureeba?
+
+A. Okushaanisa
+B. Okwehisa
+C. Kuguma
+D. Okuhinduka omukka kugira amazi
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 5:**
+
+Garukamu ekibuuzo ekihikire kyonyini.
+
+Handiika enyuguta yonka y'eky'okugarukamu kyawe.
+
+Hemera ahanyuguta honka.
+
+**Eky'okugarukamu: D**",True,5.661181200004648,3492,1790,
+B,"D
+B
+C
+B",True,0.8946754999924451,1907,7,
+A,D,True,0.6320720999938203,2088,1,
+A,D,True,0.7630821999919135,2238,1,
+C,D,True,0.6902176000003237,2022,1,
+A,D,True,0.8061291000049096,1980,1,
+D,D,True,0.6506746999948518,2054,1,
+C,D,True,0.7514876000059303,2098,1,
+B,D,True,0.6791317000024719,1820,1,
+D,D,True,0.7322028999915347,2214,1,
+D,"D
+
+A
+
+C
+
+B",True,0.6584844999888446,1986,7,
+B,D,True,0.7697358000004897,2058,1,
+C,"D
+
+B
+
+C",True,0.6493678000115324,1832,5,
+C,"D
+
+B
+
+D
+
+B",True,0.703657000005478,1810,7,
+C,"D
+
+B
+
+C",True,0.613201600004686,1936,5,
+B,"D
+B
+C",True,0.7017057000048226,1874,5,
+C,D,True,0.8634866000065813,1887,1,
+D,"D
+B
+C",True,0.6923753000010038,1971,5,
+C,D,True,0.9636852999974508,2155,1,
+A,"D
+
+A
+
+B
+
+C",True,1.1819343000097433,1960,7,
+B,D,True,0.9758685999986483,3075,1,
+B,D,True,0.6872752000053879,1882,1,
+B,D,True,0.9031904000003124,1995,1,
+C,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?**
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**D**
+
+**Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?**
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**C**
+
+**Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?**
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**B**
+
+**Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe: Omucondo gw'omwegyesa ogurikukirayo obuhikire kushoborora okutahurira kw'omwegi, kurikugarukamu omuhanda ogurikwetegyereza kandi n'obuhikire bw'ebirikukirayo, n'oguha?**
+
+A. Reeba omuhanda gumwe n'ogundi gw'ekijiiko. Ekishushani eki orikwereeba omuhanda ogurikwetenga nikyo ky'obushushani obutahikire, n'ekishushani eki orikwereeba omuhanda ogurikukwenda ahansi nikyo ky'amazima.
+B. Oshemereire kwijuka ngu ebishushani by’amazima buri obwiire nibiba bihinduraine, kuruga ahaiguru okuhika ahansi, obwo ebishushani by’obushangwa buri obwiire nibiba birugaine omu bwengye.
+C. Ebifananyi eby'obushuba nibireebeka nk'ebiri enyima y'endorerwamu, kwonka ebifananyi by'amazima nibireebeka omu maisho gay'endorerwamu kandi nibishobora kworekwa aha kikoomi.
+D. Ebifananyi eby'obushuba nibikoleka omu kibanza ky'obushuba eky'omuriro kuraba omu kwongyera aha misiri egwire, obu ebifananyi eby'amazima bikolekera omu kworekwa kw'emisiri eyeretsire.
+
+**A**
+
+**Garukamu ekibuuzo ekihikire kyonyini.**
+
+**Handiika enyuguta yonka y'eky'okugarukamu kyawe.**
+
+**Hemera ahanyuguta honka.**
+
+**A**",True,6.48968590000004,3808,1905,
+A,"D
+
+B
+
+D
+
+B",True,0.8717476000019815,1724,7,
+B,"D
+
+B
+
+C",True,0.716028400012874,1923,5,
+C,"D
+B
+C
+A",True,0.5374116000020877,1869,7,
+B,D,True,0.6477245999994921,1887,1,
+D,D,True,0.9588991000055103,2235,1,
+B,"D
+B
+C
+B",True,0.7390104999940377,1970,7,
+A,D,True,0.6007918999966932,1724,1,
+C,D,True,0.7255885000049602,2228,1,
+B,D,True,1.0403134000080172,1917,1,
+C,"D
+
+B
+
+C
+
+A",True,0.8949506999924779,1862,7,
+C,D,True,1.182737899987842,1730,1,
+C,"Ebibuuzo byawe birikwerekera ku kwegyesa abana bato n'abakuru, arikukoresa ubumwe bw'okucweekereza eby'obutonde n'okwega kw'abana.
+
+**Ekyokureeberaho 1:**
+
+**Eky'okureeberaho:** Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+*   A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe. (Kureeba obunene)
+*   B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!"" (Kureeba)
+*   C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho. (Kureeba, kucweekereza)
+*   D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma"" (Kuhurira obushushu)
+
+**Eky'okugarukamu niky'okuba:** **A**
+
+**Eky'okugarukamu:** A
+
+**Ekyokureeberaho 2:**
+
+**Eky'okureeberaho:** Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+*   A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye? (Kureeba, kunuunuza)
+*   B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi. (Kureeba, kunuunuza, kukwata)
+*   C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba? (Kureeba, kunuunuza, kukwata)
+*   D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda? (Kuhurira, kureeba, kunuunuza)
+
+**Eky'okugarukamu niky'okuba:** **C** (Eki kirikwerekera ku kucweekereza eby'obutonde nk'okubona ibara, kunuunuza, kukwata, n'okureeba, kandi C nikirimu eby'okureeba n'okucweekereza ku bwengye bw'ebintu ebi.)
+
+**Eky'okugarukamu:** C
+
+**Ekyokureeberaho 3:**
+
+**Eky'okureeberaho:** Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+*   A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo. (Kukora omurimo omugasho)
+*   B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora. (Kucweekereza, kunoonyereza)
+*   C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora. (Kuteekateeka)
+*   D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe. (Kukuratira)
+
+**Eky'okugarukamu niky'okuba:** **B** (Kukora omwe-omwe, kuteekateeka, noona kucweekereza ku bwingana bw'okubaasa kukikora, nikworeka kwega kw'obwomeezi.)
+
+**Eky'okugarukamu:** B
+
+**Ekyokureeberaho 4:**
+
+**Eky'okureeberaho:** Omutwe gw'abanyeshuri abali omu mwaka ogwa kabiri omu mashomero g'ahaiguru baine kukora omurimo ogurikugyenderera aha mugasho gw'okwega: ""Kushoborora ebintu ebirimu obutonde bw'ebyomubiri kuraba omu mitwe yaabyo egirikukora"". Ni kirikurugamu aha birikukurataho ekirikuba kitarikuhikaana n'ekigyendererwa ekirikumanyisibwa kandi tikishemereire kuba kimwe aha birikugyendererwa omu kubaza omurimo ogu?
+
+*   A. Kumanya ebirango by'emikora (Eby'okukora)
+*   B. Orikushora ebintu ebirikukora omu muringo ogurikushushana. (Kucweekereza)
+*   C. Orikushora ebintu ebirikukwatana omuhanda gw'okushushana kw'emiterere yabyo (Kucweekereza)
+*   D. Kutegyeka ebintu by'obutonde bw'ensi ebirikushushana orikukoresa amagara g'okutebyeka IUPAC. (Kutegyeka, kucweekereza)
+
+**Eky'okugarukamu niky'okuba:** **A** (Ekirikugyendererwa n'okucweekereza ku butonde bw'ebyomubiri, A nikirimu kumanya ebirango by'emikora, ekirikuba kitarikuhikana n'okucweekereza ku butonde bw'ebyomubiri.)
+
+**Eky'okugarukamu:** A
+
+---
+**Eky'okugarukamu ekihikire kyonyini:**
+
+**A**",True,7.040607400005683,4117,2316,
+A,D,True,1.2561849000048824,2021,1,
+B,"D
+
+B
+
+C
+
+D",True,0.6667250999889802,1840,7,
+B,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omwegyesereza naayetebeekanisa omutwe gw'ebiramu bya ""Ideal Gases"" ogu arakuza omu kiraasi ey'omwenda. Ekigyendererwa ky'ekimu aha masomo g'omutwe ogu nikyo: ""Kwetegyereza omukago oguri hagati y'obushuushu n'obwinganiza bw'empeho omu mbeera z'obwomeezi obwa buri izooba."" Kwolekya omukago ogu, omwegyesereza araakoresa eky'okureeberaho ekirikukwatana n'amateeka g'empeho. Ni enki aha mbeera ezirikukurugaho ekiri eky'okureeberaho kirungi okuhikaana n'ebirikwija kwegyesibwa omu kiraasi?
+
+A. Omukoragiro gw'ekyoma ekiteekyesa eby'omucwezi
+B. Oburo bwekyata ky'omugaati ogukozirweho omuseetwe
+C. Okuhuumura omukka kuruga n'okwingira omu bumba.
+D. Okutandika kubaho kw'ebipooli obu orikuguraho eccupa ya soda
+
+**Eky'okugarukamu: C**
+
+Handiika enyuguta yonka y'eky'okugarukamu kyawe.
+
+**C**",True,5.566170700010844,3707,1875,
+D,D,True,0.773661400002311,2000,1,
+D,"D
+B
+C
+A",True,0.8330830999911996,1801,7,
+D,"D
+
+B
+
+D
+
+B",True,0.5837724000011804,1776,7,
+A,D,True,0.6809136000083527,1906,1,
+D,D,True,0.6072342000115896,2032,1,
+C,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omwegyesereza omwegyesa naija kucweeka akabonero aka omu kiraasi eya mushanju: ""Okutaanisa embeera ezikozesebwa kushoboorora ekyanyaikani"". Murimo ki ogurikwija kwikiriza abegyi kukora eky'okwereka ngu bakuruhiire akabonero aka?
+
+A. Shanga eicenter y'omusisa ogurikukirira kimu omu rikoodi z'ebitaagi bisatu eby'ebyoma ebirikushobora kushobora emisa.
+B. Noonyereza aha misisa mikuru eyabaho omuri Chile n'ebihwereire ebyagikurataireho
+C. Shisha ebyetabiremu eby'obushobezi omu nshangwa y'ebigambo obunene na amaani omu maripoota y'abanyamakuru.
+D. Shoborora enshuranuro eri ahagati y'omutaano gw'oburemeezi bubiri ogukurataireho aha kipimo kya Richter omu bwijwire bw'amaani agaashohorirwe.
+
+**Eky'okugarukamu: D**
+
+Handiika enyuguta yonka y'eky'okugarukamu kyawe.
+
+**H**",True,5.710628600005293,3653,1848,
+B,D,True,1.858823200003826,2383,1,
+D,D,True,0.8955088999937288,2325,1,
+D,"D
+
+D
+
+C
+
+B
+
+D",True,0.6858978000091156,2021,9,
+C,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omugyezaho w’omushomesha w’omu mwaka gwa kabiri omuishomero erikuru, omu bwiire bw’ekicweka ekirikukwata aha DNA n’okubyara kw’obutofaali, ari kutebeekanisa omurimo gw’okukora aha mugingo gw’okwega ogurikukurira: “Kwetegyereza oku bizimba bya kansa birikukura”. Ni bumanyi ki abeeshuri bashemereire kuba baine kare kubaasa kukora aha mugingo ogu?
+
+A. Ebiringo by'omutendera gw'ekyanga ky'obutofaali
+B. Obukuru bw'okweyabiza kw'obutofaali (mitosis)
+C. Ebitegyerezo by'ebicweka by'omutwaro gw'akacweka k'obuto
+D. Emiringo y’okuhinduka kw’ebirikwa omubiri (DNA) n’okw’ebice by’omubiri (chromosome)
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 5:**
+
+Garukamu ekibuuzo ekihikire kyonyini.
+
+Handiika enyuguta yonka y'eky'okugarukamu kyawe.
+
+Hemera ahanyuguta honka.
+
+**Eky'okugarukamu: B**",True,6.294086200010497,3655,1871,
+D,D,True,0.8160483999963617,1913,1,
+D,"D
+A
+C
+B",True,0.5371574999880977,1831,7,
+B,"D
+
+B
+
+C
+
+D",True,0.7845935000077588,2083,7,
+C,D,True,0.7673759999888716,2194,1,
+C,"D
+
+B
+
+C
+
+B
+
+A",True,0.7124377000000095,1777,9,
+C,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Ekyokureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu: D**
+
+**Ekyokureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu: C**
+
+**Ekyokureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu: B**
+
+**Ekyokureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omwegyesereza omwegyesa w’ekibiina ky’omwaka ogw’okubanza omuheesiire enteekateeka y’okukora ekizibu ky’okugyezaho aha muheru gw’eishomo erikukwata aha bintu ebirikuhurira. Ni birikukurataho ebikorwa by’omwegi ebirikworeka ngu bamanyire ebireetera embeera ya Doppler?
+
+A. Nibagyenderera omu kikube ekirikworeka omuhanda ogurikworeka omugyigyo gw'amaizi nigugyigana nari nigutaana ahabw'omuhindo gw'ekintu ekirikugyenda.
+B. Nibarikira omulingo ekintu ekirikukora oruyo kigendera hamu n'omulingo oruyo rurikukora, nukwo bashobole kuraganira omulingo omuntu arakuuhurira oruyo.
+C. Nibashobora kushoborora oku omutindo gw’okwehindura hagati y’omuhereza n’omuhairwe guhindura omuringo gw’omugisha ogu amahanga agyira aha muhairwe.
+D. Nibamannya embeera omuntu arikureeba enshonga y’omururu gw’ebintu kuruga aha bwangu bw’okuza haihi nari okwihaho ekintu ekirikukurugyaho omururu.
+
+**Eky'okugarukamu: B**
+
+**Garukamu ekibuuzo ekihikire kyonyini.**
+
+Handiika enyuguta yonka y'eky'okugarukamu kyawe.
+
+**Eky'okugarukamu: B**",True,6.519183399999747,3821,1944,
+A,D,True,0.7219315000111237,1996,1,
+D,"Ebibuuzo ebi n'eby'okureeberaho by'okutooranamo (n'ebigaruzo).
+
+**Eky'okureeberaho 1:**
+
+Omu n’ekibiina ky’abegyesa omu mashomero g’abaana abato nibaija kwetegereza omu mbeera za butoosha omugasho ogurikukurataho kuruga omu mutwe gw’okucweekereza eby’obutonde: “Kugamba aha bintu bikuru ebiri omu by’obutonde ebi barikucweekereza, nk’emibala, oburungo, obunene, obushushu n’ebindi.” Ni mbeera ki ey’abaana erikworeka ngu omugasho ogwo gutungwa?
+
+A. Omuhinguzi Santiago naabaasa kuta omwanya gw'okwega, naashushaniisa amabaare g'obunene obutari bumwe.
+B. Omuhimbo gw'emisana, Pablo areeba ekijiiko kandi yaareeba omushusho gwe naagira ati: ""Reeba, Pablo!""
+C. Omu María omu kubanzaara, akoraaniza amataare g'emiti agari mushushani omu kashaaho.
+D. Omuhanda gw'okubungana omu rurembo, Soledad naaza aha mbuto omu mikono ye, yaagira ati: ""Eziruma""
+
+**Eky'okugarukamu:** D
+
+**Eky'okureeberaho 2:**
+
+Omwegyesereza omwegyesa omubanza ari kukora omurimo gw'ekibina gw'okukora aha bu умеgyezi bw'okucungura hamwe n'ekigyendererwa ky'eklassi: ""Kumanya eby'okukozesa n'omurimo gwabyo."" Okutandika omurimo, naija kuha ekiina kyona omunana, orungyebwa, n'eppere, kandi naija kubagambira kunuunuza, kureeba, kukwata, n'okureeba buri kibala. Twahiriza aha mbeera eri ahaiguru, omurimo gwaha ogu omwegyesa arikubaasa kuteekamu okukuraho abegyeswa gonde ekigyendererwa ekyagambirweho?
+
+A. Omu omutabo ogurikugamba aha mitero y’ebibala, shaza eby’okugarukamu by’ebibuuzo ebirikubaasa kugarukwamu turikukoresa ebigyirizo: Ni kibala ki ekya ranga ya yellow? Ni kibala ki ekirikukoma? Ni kibala ki ekirikukwata kubi? Ni kibala ki ekirikunuunuuka gye?
+B. Omu rupapura orukubairemu emiringo erikubaasa kworekwa n'obumwe aha bw'obwengye (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi), taangira ebijanjaara omu muringo egirikukuratira embeera ezi.
+C. Omu rupapura orukukwata aha mukoro ogurikworeka buri kamwe aha bwengye, shaza eby’okugarukamu by’ebibuuzo ebi: Ni bwengye ki obu orikukoresa kwetegyereza ngu ekitookye ni kiragura? Ni bwengye ki obu orikukoresa kwetegyereza ngu epere ni nshumiire? Ni bwengye ki obu orikukoresa kwetegyereza ngu ekishishwa ky’ekitookye ni kirerere? Ni bwengye ki obu orikukoresa kwetegyereza ngu omucungwa ni guhumba?
+D. Omu mweshomi ogurikworeka ebishushani by'ebijuma ebi, harimu emisingi erikukurira, ogumu gurimu akamwenyu n'ogundi gurimu obusaasi, shushani eby'okugarukamu byaawe aha bibuuzo ebi: Ku waaba noorya akacweka k'omucungwa, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba nooreeba ibara ry'entege, okarikunda rundi torikukunda? Ku waaba nookora aha kikoba ky'epere, okahurira omuhindo gw'okushemererwa rundi ogw'obusaasi? Ku waaba noohumurira omucungwa, okagukunda rundi torikukunda?
+
+**Eky'okugarukamu:** C
+
+**Eky'okureeberaho 3:**
+
+Omwegyesereza omwegyesi, omugyezibwa naayenda kworeka abegi emiringo etari emwe ey'okwaanya ebintu ebikwatiraine. Ahabw'ekyo, ayorekire abegi be ecupa erimu amaizi, amabaare, amajuta, n'omunyo. Omugyezibwa aine ecupa nyingi ezitebeekanisiibwe n'ebintu ebi bimwe. Aha mirimo ei erikukurataho, niki ekira kuleetera abegi kwega aha miringo y'okwaanya ebintu ebikwatiraine, kandi nabo nibakuzya obwengye bwabo omu kucungura obuhame bw'ebirikuruga omu kunoonyereza kw'obwomeezi?
+
+A. Omu mirwi, nibasharamu omuringo ogurikukiraho kubasa kw'ahukanisa emicwe n'obwo babihurikize ekyabaretere kwikiriza batyo.
+B. Omu omwe omwe, nibataana omutaano kurugiirira omu muringo gwona ogubasa kuba gubaire gusaaniire, kandi bashwijuma obwingana bw'okubaasa kukikora.
+C. Omwe-omwe, nibaha ebi barikuteekateeka aha muringo ogu bateekwa kukuratira, bagira omuringo ogw'omukago, reero bagutandika kukora.
+D. Omwe-omwe, nibakurata omuringo ogworekwa omwegyesa kw'ahukanisa emicwe n'okumanya oburyo bw'okwahukanisa obukozesibwe omuri buri omwe.
+
+**Eky'okugarukamu:** B
+
+**Eky'okureeberaho 4:**
+
+Garukamu ekibuuzo eki ekihikire orikukurata empandiika emwe:
+Omwe omu aha migyenderero abeeshuri abari omu mwaka gw'akabiri gw'aha secondary bakakoraho n'okukora n'okushoboorora data erikukwata aha miringo y'ebintu ebiriyo omu by'omubiri n'eby'obushoboorozi bw'ebintu ebiriyo. Ni ki aha bikorwa ebi orikubaasa kucungura omugyendereero ogwo ogugambirweho?
+
+A. Ha abaana data aha bw'okutemba kw'amazzi kw'ebinyabwooya bya hydrocarbon ebirikukura omu bunini, reero obagambire bashwijume obubaire nibaba omu mbeera y'amaizi, ekintu kikuru nari omuyaga aha bwiire bw'obushuushu obutari bwingi.
+B. Shaba abeshomesa bacuubaaze aha bwokureenga kw'amazzi kw'ebinyabwooya bya hydrocarbon ebirimu obureingwa obutari bumwe, babitebeekanise omu meza, kandi bashuuruure obuba omu mbeera y'amaishoonga, amazzi, rundi omuyaga aha bwokukara bw'ekyombeko.
+C. Ha abeeshuri abeeshuri data aha bw'okutemba kw'amazzi kw'ebinyabuzima eby'emiringo erikushushana erikutebeekanisibwe omu meza, reero obasabe bashoboorore emitwarize kurugiirira aha mikoranire erikwolekyerwa ebintu ebi.
+D. Ha abaana data aha bw'okutenta kw'ebizibiti bya haidrokarbons ez'obureingwa obutari bumwe, ebi bashemereire kutebeekanisa omu taabule nikukurata omuhendo gw'ekaaboni omu bureingwa bwazo reero bashoboorore emikorere egi nikukurata obwingi bw'omukago ogurikwolekyerwa molekyuuru.
+
+**Eky'okugarukamu:** C
+
+Handiika enyuguta yonka y'eky'okugarukamu kyawe.
+**C**",True,7.211564400000498,4101,2072,
+D,D,True,0.5525617999956012,1956,1,
+B,D,True,0.8630029999912949,1657,1,
