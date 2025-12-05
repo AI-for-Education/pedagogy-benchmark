@@ -1,0 +1,225 @@
+answers,resps,success,Latency,TokensUsed,TokensUsedCompletion,TokensUsedReasoning
+D,Lwaki abantu bagoberera enkola ennamu mu biseera by’emisana?,True,20.430056899989722,2435,934,896
+A,D,True,4.642575600009877,2127,467,448
+D,Omutima gw’omuntu gulinga ekikonde kye.,True,22.27967190000345,2513,991,960
+C,C,True,13.661184800002957,2047,467,448
+A,_Olulabirako lw’okussa amazzi wansi naye mafuta gawuka gwa ddako kitegeeza obusobozi bw’ekintu okusaanuuka (buoyancy)._,True,15.006013900012476,3018,1527,1472
+D,"1. Mu mbeera zino, ekintu ki kyandigerekeka nga ekifulukwa (condensation)?",True,14.302340499998536,2816,1323,1280
+B,B. Okufuuyuka,True,41.6001452000055,2667,1240,1216
+C,"B. Empewo, ebiseera by’omwaka, n’ob溫度 (ebbugumu oba obunnyoguvu)",True,12.087720100011211,2606,1134,1088
+A,"Ekibuuzo: Lwaki amazzi g’ennyanja gakunta nga bwe tiwerako vidiyo ya nnyanja mu mpewo ezikunta?  
+A. Omuyaga  
+B. Amaanyi agasikira ebintu ku Mwezi  
+C. Enjawulo mu bwoki bw’omu bbanga  
+D. Enkyukakyuka mu bwoki bw'amazzi g'ennyanja  
+
+Enukuta y’ekyanulo: “Omuyaga: kuba omuyaga gulaga empala ku nnyanja nga gutereka essugu ku mazzi, okusobozesa okunyuka okw’enjawulo n’ensonga enkulu eyitamu okukunga (wave formation).”",True,33.81886640001903,3074,1570,1408
+B,B,True,6.234503499988932,1970,467,448
+D,D,True,6.223780000000261,2143,532,512
+D,B,True,12.825776399986353,2437,979,960
+A,A,True,19.09791429998586,3434,1811,1792
+B,B,True,30.188982799998485,2762,1236,1216
+D,C,True,16.988768799987156,2429,659,640
+B,"Lwaki abayizi bangi balina endowooza enkyamu ku buwuka obutono (microbiota) mu mubiri gwa muntu?  
+  
+Nukuta (eky’analizisi ey’ekyanulo):  
+Obuyinza obw’empandiika eri ‘microbiota’ ne ‘probiotic’ busangibwa mu bitabo n’omuwendo gwa zaayansi egy’enjawulo nga bisoomooza ku buwuka obutono, nga bino bibiri tebikolebwa mu ngeri eyanonyereza ya ssayansi. Abayizi bajjukira ‘probiotic’ nga bwebiyitibwa ebikwata ku bubiika obulungi, wabula ssayansi egamba nti ‘microbiota’ ye community y’ebiwuka byonna (bacteria, fungi, viruses) mu mubiri gwa muntu. Okutawana kuno kwe kwaaliriza ennyonnyole yabwe era kyavaamu endowooza enkyamu.",True,40.78512939999928,6034,4519,4288
+D,Olulimi olulaga enkyukakyuka eziibaddewo mu nkola z'okukoppa ebintu ebiramu.,True,20.476963399996748,3752,2222,2176
+A,"Kubanga nnyiga ekijjanjalo (dialysis tubing) ejagala okuwera nga cell membrane ekika ekya semi-permeable, era eky’obulabirizi eky’obutereevu okukulaga amazzi gavunaana mu ngeri ya plasmolysis.",True,13.172416300018085,3075,1483,1408
+C,C. Zikola omukago wakati w’emitendera egy’enjawulo egy’entegeka y’ebiramu,True,17.726784699974814,2244,684,640
+B,Noonyereza ku nkyukakyuka ezibaddewo mu kigugu k’ensi olw’obuyitirivu bw’ebipande by’ensi?,True,13.066662800003542,2857,1267,1216
+D,B,True,11.719115199986845,2209,531,512
+A,"Mu mutendera gw’ekibiina ekisoma ku “Bbugumu”, omusomesa ayagala abayizi be okutegeera omulamwa gw’ekipimo ky’obubugumu. Ku bino ebiri wammanga, kiki ekisooka okusomesebwa okusobola okutuuka ku kiruubirirwa ekyo?
+
+A. Amasoboza ag’ekinyetikki  
+B. Okutuukana kw’ebbugumu  
+C. Okwewaguza kw’ebintu olw’ebbugumu  
+D. Empeera z’okupima ebbugumu  
+
+Enyuli: __D. Empeera z’okupima ebbugumu__",True,8.278384399978677,2523,1060,896
+D,C,True,10.646159399999306,2172,467,448
+D,"Enkola C eyanguyira omusomesa okulaba nti abayizi basobodde okutendereza ekigendererwa ky’eno, kubanga eyogera nti: “Teekamu buli kipande ku dduuka eriyindizibwako, zuuza okuyindizibwa mu kukema okutuusa kyetandika okusereerera, oluvannyuma pima ogere (angle) gye kyetandise okusereerera.” Kino kituyamba okulaba nti abayizi baakizuula obuwanguzi obuli wakati w’ebipande bye by’enjawulo n’okukola enjawulo mu kusalira poliisi ya friction, era kiddukanya ensonda y’enoonyereza nga kitegeerekeka n’okulabika.",True,19.77515889998176,2721,1014,832
+C,D,True,14.008749000000535,2194,595,576
+D,D,True,13.828806300007273,3028,1427,1408
+A,"A. Ekinyonyi kya African hornbill kisobola okukozesebwa okusookerwako okulaga enkyu ezisibulwa mu kisu bwe zitannaba kukolera obulungi mu nsigo, nga kitegeeza okulwala kwa bukoleraano.",True,27.719356500019785,5076,3471,3392
+B,A,True,8.291955599997891,2716,916,896
+C,C,True,12.393537399999332,3093,1555,1536
+B,"Mu nteekateeka y’essomo ku nkola y’endocrine system, kiki mu bintu bino kye kyandibadde okutandika okuterekebwa okusobola okuyamba abayizi okutegeera enkola z’endagabuzizo za homoni?",True,13.098194299993338,3117,1611,1536
+B,C,True,33.84360290001496,3492,1875,1856
+B,D,True,9.23068689997308,2688,1107,1088
+D,Vvuunula ebigezo ebiraga nti DNA ye molekyu etisse amawulire g'obusika.,True,17.290381700004218,2540,940,896
+C,A,True,20.488607999985106,2545,915,896
+A,A,True,12.621045100007905,2377,723,704
+B,A,True,8.406337099993834,3006,1235,1216
+C,A,True,3.898593999998411,2179,467,448
+C,"Ng’okozesa olubalama olwewunzise, weetegereze engeri akapiira bwe katambuliraako nga kaliringita.",True,7.596390699996846,2296,753,704
+C,D,True,7.331476699997438,2581,787,768
+B,A,True,4.720899900014047,2151,467,448
+D,"Nnyonnyola enkolagana wakati w’okukyuka mu ngeri y’okuzimba ebyuma by’amazzi (steam engines) okuva mu ky’okubiri ekya 17 (Papin, Savery, Newcomen) okutuuka ku sitimu ya Watt mu 1776, era onnyonnyole enkulakulana y’ebyenfuna n’eby’emabega eyayitamu mu bifo ebyo.",True,17.140080699988175,4266,2161,2048
+C,C,True,13.513369699998293,2125,595,576
+B,Obuwanvu bw’ejjengo n’omugatte gw’omuvumbo byalongedde ki enjawulo mu ddoboozi ly’ennimba ez’enjawulo?,True,15.005428500007838,3240,1719,1664
+C,A,True,7.958755400002701,2595,915,896
+B,"Ggonomola ebizibu by’entambula ennyonjo eyanguyiziddwa, ng’okozesa emiramwa gy’ekinenematiki n’enkolagana z’ekibalangulo wakati waayo, oluvannyuma ogerageranye ebyavaamu n’endowooza zo ez’emabega.",True,15.752350199996727,2557,852,768
+C,C,True,5.201107900007628,2276,659,640
+C,Enkola ey’okutonnya ekinywebwa mu firiji n’okulaba emiduulu gy’amazzi gyeyongera okukuŋŋaanya ku lubiri lwo zikwatako okutereera kw’ebbugumu (kyeya) n’obutemyevu.,True,46.63495430001058,4323,2705,2624
+C,"Mu butonde bw’ebintu ebya polima mu Ssomero Eya Wakati, kiki ekisengeka ebintu okuva ku kikulu okudda ku kitono?",True,26.79790950001916,3286,1528,1472
+A,"Mu by’enjigiriza bya nukuliyeri, tutunuulira ebintu ebina: empalirizo eziri mu atomu, enkyukakyuka z’enukiriya, okusattuluka kw’enukiriya, n’ebika by’obusattuluzi. Kiki mu bintu bino kyogera ku ngeri amasannyalaze gavubuka okuva mu nucleus era nga gala alfa, beta ne gamma?",True,63.08420279997517,4489,2993,2880
+C,D,True,18.359651800012216,3226,1747,1728
+C,Kintu ki omuyizi ky’alina okuba ng’amanyi okusobola okutegeera n’okukozesa enkola ya valence shell electron pair repulsion (VSEPR) mu kubeeraawo amateeka ga pare za electron mu molekyu ez’enjawulo:,True,11.839833200006979,2833,1359,1280
+A,Bagenderera okumanya obungi bw’asidi ennywevu nga basinziira ku bungi obumanyiddwa bw’asidi ekinafu.,True,31.653089899977203,3220,1650,1600
+C,"Mu demonstration eyalabiddwa, “atoms” ez’enjawulo ze ziteekeddwamu (amazzi, amayinja, amafuta n’omunnyo). Onduulidde oba ekikolebwa “atoms” ezimu kyasindika mu ionic bond oba mu covalent bond, era onnyonnyole lwaki.",True,48.39244990001316,3733,2141,2048
+B,B,True,18.263870900002075,3484,1811,1792
+C,Ayoni za kkalolayidi zigenda ku anode okwoksidizibwa.,True,6.716887699993094,2316,741,704
+C,"A. Saccharin aleeta kookolo w'ensigo, nga waliwo okunoonyereza okwakolebwa ku mpuku okwalaga kino.",True,8.2022280000092,2554,884,832
+B,B,True,21.160929400008172,4209,2515,2496
+C,B,True,19.755993700004183,2387,851,832
+A,Egga enjigge enfumbe,True,7.030189100012649,2134,665,640
+A,"A. Okuteebereza
+
+Nukuta: Omusomesa bwe amubuuza Mariana lwaki obuwuka bwa pill bugs butuula bwe butyo, ateeka ku ttiko eky’okuteebereza kubanga ayamba omuwala okuteekawo endagaano oba empapula egy’omuwendo ku nsonga ey’obuwonvu agy’obuuma okuva mu by’obuwunyisa bye yategeera.",True,10.857162600004813,2771,1200,1088
+D,Balondoola ebintu ebikyuka n’ebyo ebireetera okukyuka mu kunoonyereza.,True,9.219009799999185,2647,1130,1088
+D,"D  
+Okusaba abayizi bapange ekifaananyi eky’okulaga engeri y’ebiwandiiko ebyetambula mu nsi kyebayamba omulimu okusindikira ebirowoozo byabwe ku bwekesera obulimba (convection) mu nsi.",True,10.403088600025512,2953,1359,1280
+C,B,True,8.548972899996443,2851,1107,1088
+C,"N’okukola empaka ku birungi n’obubi by’engeri ez’enjawulo ezisobola okukendeeza obucaafu bw’obutonde bw’ensi (C), omusomesa ateeka mu nkola ey’okuteekateeka n’okuwungeeza abayizi ku nsonga y’okukendeeza obucaafu nga babeerawo n’okubala enjawulo z’enteekateeka ezibweebwa.",True,5.662217700009933,2298,624,512
+B,"B. Buli omu ku lwabwe, akola enteekateeka y’emmere esinzira ku buzito bwe, obuwanvu bwe, okukola dduyiro, n’ekikula kye.",True,5.726481999998214,2107,576,512
+B,A. Seliyo ng’ennyingo enkulu ezimba ebiramu.,True,15.859879199997522,3625,2081,2048
+A,Omulimu guno guyamba abayizi mu kuwandiika n’okulondoola ebikwatagana n’obungi bw’omusaayi n’enteekateeka y’omubiri ey’okukendeeza oba okwongera obungi bw’amazzi mu mubiri.,True,29.106880200008163,3217,1481,1408
+B,"Mu ndagaano ezirambuddwa wammanga, endowooza ki eyabaamu baana mu bibiina 7 ne 8 ku nkyukakyuka mu matter?",True,49.503944399999455,4061,2554,2496
+B,B,True,29.487127700005658,3079,1363,1344
+C,"“Nnyonnyola mu bigambo byo lwaki amaanyi g’amasannyalaze agava mu bubala bubiri mu mutendera gwa series galina enjawulo, era ekyo kiba kibadde kivaamu ku maanyi g’amasannyalaze ag’omu bubala obumu ku ngeri y’engeri z’amasannyalaze agattiddwa mu series?”",True,14.83631559999776,3259,1571,1472
+C,C,True,14.476825599995209,3427,1747,1728
+B,A,True,12.41662780000479,3186,1555,1536
+C,D,True,5.414513600000646,2264,595,576
+B,B,True,4.76416269998299,2241,467,448
+C,A. Obuzibu mu kusoma ebigambo ebikozesebwa mu bibuuzo bya kinemaatika,True,9.8684580999834,2871,1195,1152
+C,A,True,29.814934399997583,5402,3795,3776
+D,B,True,13.11321529999259,2164,659,640
+D,D,True,6.022724100010237,2244,595,576
+C,D,True,10.04740040001343,2943,1171,1152
+A,A – Okuleka omusana mu kinnya ne kukola ku bujaasaana n’obugumu bw’amayengo kulaga ebikolwa by’omusana mu ngeri y’okusaasaana n’okwenyoola.,True,34.925656200008234,3540,1798,1728
+A,D,True,17.746906300017145,3510,1876,1856
+D,"Okusaba abayizi mu bibinja okusalaawo tekiniiki ey’enjawulo ey’ayamba okuwawula omugatte n’okunyonyola lwaki baalondedde tekiniiki eyo kuyinza okulaga obusobozi bwabwe mu kuteekateeka ennonoza ya kisayansi, okuweereza amakulu ag’amaanyi mu kunoonyereza, era okutegekera omusomesa okukebera engeri gye bakkirizaamu enkola zabo.",True,32.712045899999794,3403,1657,1536
+D,"Kiki mu mirimu egyo gino ekiraga nti okumanya mu kemisitule kukulakulana, kwa maanyi era kujjudde empaka?",True,21.127184999990277,3913,2421,2368
+A,A.,True,4.874525100021856,2182,532,512
+C,Abayizi balowooza nti ebintu ebigenda nga byokka na bwabyo bigenda mangu nnyo.,True,7.825383500021417,2454,940,896
+C,"Wandiika empandiika enfunze za elektroni mu atomu za Carbon (Z=6), Nitrogen (Z=7) ne Oxygen (Z=8) mu mbeera ya bulijjo.",True,49.55398729999433,4137,2558,2496
+C,C. Enkolagana z’amaanyi agasirikale aga molekyu n’obusobozi bw’ebintu eby’enjawulo okusaanuuka mu mazzi.,True,6.270993999991333,2554,886,832
+D,D,True,5.627217600005679,2310,723,704
+B,B,True,6.462211899983231,2388,851,832
+C,B,True,7.204612399975304,2647,915,896
+C,C,True,15.933451000018977,2618,979,960
+B,A,True,11.075480400002562,3368,1491,1472
+D,A,True,8.782726000004914,3180,1235,1216
+A,Kiki abayizi balina okutegeera ku biranga by'obwewomi obw’omuzaaliranwa okusobola okunnyonnyola enkola y’okugemebwa ekolebwa eddagala erigema?,True,8.914604999998119,2658,1157,1088
+D,C. Okukkiriza nti namba y'obuzito etegereza omuwendo gwa chaji ennungi n’embi,True,10.140610300004482,3058,1388,1344
+D,"Abayizi basobola okuba nga bamaze okumanya ki, okuyambako okutegeera enneyisa y’ebinyonyi mu bukwatane n’etteeka lya Boyle?",True,9.096612699999241,2755,1277,1216
+D,C,True,5.487688699999126,2257,659,640
+B,B,True,3.1302766999870073,2146,339,320
+D,C,True,7.508117700024741,2099,467,448
+B,"Lubaale ki olukolagana wakati w’enkuba y’asidi n’obucaafu bw’obutonde bw’ensi, era ng’olina okuddamu ekibuuzo kino ng’oyita mu kugezesa?",True,8.498296300007496,2780,1026,960
+A,Ennyanguyirizi ekkiriza amazzi okuyitawo gwokka.,True,22.455384500004584,2815,1187,1152
+A,Saba abayizi okukola engeri CFCs (chlorofluorocarbons) gye ziri mu lubbobbo lw’empewo (stratosphere) n’omuwendo gwa ozone molecules gye bikwatagana.,True,26.42261890001828,2942,1283,1216
+A,Zimba model ya Ensi ne Obwengula nga ukozesa shapes ez’enjawulo (circle ne semicircle). Onnyonnyola engeri shapes zino ezikujjanga obukulu mu bulamu bwa buli lunaku.,True,22.969252800015965,4668,2948,2880
+C,B,True,8.88991579998401,2112,531,512
+B,B,True,11.806056600005832,3311,1619,1600
+B,C,True,6.290488700004062,2392,787,768
+A,A,True,14.562813199998345,2393,787,768
+D,B,True,6.737327300012112,2579,851,832
+D,B,True,3.5399229000031482,2099,339,320
+A,"Okutegeera amaanyi ga sentripita n’obumalirivu bwagwo mu ntambula ey’omuzingo ogwa kyenkanyi, kiki abaana bwebalina okumanya ku vekita?",True,19.553064500010805,2685,1151,1088
+B,C,True,9.54244399999152,1999,467,448
+B,B,True,14.58593010000186,2366,787,768
+A,"Ekibuuzo D kisinziira ku mukwanaganyo ogw’eky’okwawula ebbugumu obusingako n’obugenyi bwe bigenderako, v = ω r. Kino kiraga engeri gye tukozezamu ebbugumu (tangential speed) okumanya ekiseera ne kizingiramu obutali bimu nga tukozesa omubala gwa angular speed (ω) n’ensalessale (r), era kiriwo okumanya obusobozi bw’abayizi mu kutunuulira engeri eriimu enkulu za angular formulas.",True,5.807251799997175,2420,718,576
+B,D.,True,17.72864899999695,2485,852,832
+D,D,True,6.134098199981963,2515,851,832
+C,D.,True,24.46404000002076,2994,1236,1216
+B,Mutya okukola okunoonyereza okusobola okulaba engeri ebintu eby’enjawulo ebyinza okutaataganya obutaggwaawo mu nkola za kemistry gye bikolera?,True,31.93490359999123,6351,4668,4608
+B,Obupimiro bw’ebbugumu bukwatagana butya n’enteekateeka y’okuwunga oba okwunyogoga?,True,23.60672209999757,2822,1135,1088
+B,"Ekibiina ky’abayizi abali mu mwaka ogwokusatu mu siniya bwe beetegekera lipooti y’ekigezo ekirina omutwe “Ebintu Ebikosa Embiro y’Enkyukakyuka.” Kiki kye bandibadde basooka okuyiga okusobola okunnyonnyola ebyava mu kigezo ekyo?
+
+A. Etteeka ly’omuwendo gw’ekikolwa  
+B. Omulamwa gw’obutomera  
+C. Okunnyonnyola omugatte ogw’enkalubo y’obutonde  
+D. Ebintu ebikosa obwangu bw’ekikolwa ky’obutonde",True,10.82645799999591,2984,1503,1344
+C,C,True,4.986026799975662,2221,531,512
+C,B,True,18.469775599980494,3886,2324,2304
+D,B,True,7.633077700011199,2591,979,960
+B,B,True,22.883497200004058,5092,3541,3520
+C,Saba abaana okuteeka ebifaananyi by'ebitundu by'omubiri ku kifaananyi ky'omubiri gw'omuntu era okukoppa engeri gye bakozesezzaamu ebipimo.,True,7.498758000001544,2543,894,832
+A,Okutabika,True,3.913425099977758,1808,404,384
+B,B,True,25.283475400006864,2894,1235,1216
+A,C,True,6.428050599992275,2463,658,640
+A,"Mazima ddala ebyokulabirako birungi! Naye aba “R” bonna weebali? Nkusaba owandiike amakulu ga buli “R” ku bano basatu: Okukendeeza, Okuddamu okukozesa, n’Okuzza obuggya, ng’ogoberera ebyokulabirako, ate oluvannyuma oddemu ekibuuzo kino: Ku nkola zino, gy’olowooza nti esinga okuba ey’omugaso mu bulamu obwa bulijjo?",True,7.650690200011013,3022,1097,960
+C,C,True,15.753641100018285,3851,2131,2112
+A,D,True,19.40051079998375,2713,979,960
+D,B,True,9.399227599991718,3034,1235,1216
+C,C,True,4.290653799980646,2356,531,512
+B,"Enkola etegeka ebintu mu ngeri esobozesa ebintu okutereera mu kkolero kubanga cytoskeleton ye nnamba y’amatiibwa mu kisagazi eky’etereereza okutambuza n’okuteeka ebintu mu mawulire ag’okukola, ekitegeeza nti ekifaananyi kino kiwagala okukwatibwako n’okuyingiza mu ngeri nnyingi mu butoffaali, nga ekitundu ky’okusasula ekyeyongera mu byenfuna.",True,6.412499199999729,2267,706,576
+D,D,True,4.666403199982597,2488,531,512
+D,C,True,22.995027500001015,2735,1043,1024
+B,"Mu binary fission y’obulamu bwa pulokaryooti, DNA egoppiibwa ne enzimi za transglycosylase/transpeptidase zizaala ekizimba kya septumu ya peptidoglycan mu kifo ekiri waggulu mu mubiri. Kino kireeta okwemanyiza kw’amayuluwali g’obutaffaali nga guyongera mu ddyo lya septumu, era buli kye ky’amangu kyeyongera kubanga septumu eraga nga kisatiddwa mu biseera eby’enjawulo, so buli fission eyongera okukola ekifu ku bitundu bibiri ebisinga obunene.",True,42.091714100009995,3801,2014,1856
+C,C,True,5.924583399988478,2265,723,704
+C,"Ku kifaananyi ekikiraga omuti, wewandiikeko ebintu ebyetaagibwa (inputs) ne ebyogerwako (outputs) mu mukolo gw’emmere (photosynthesis).",True,29.670037300005788,5637,4089,4032
+C,B,True,10.97095960000297,3145,1491,1472
+B,"B. Ddamu ebibuuzo nga osinziira ku kunoonyereza okukoleddwa ku kladogramu
+
+Okussaba abayizi okuyita mu bibuuzo ebyukwata ku kladogramu kubayamba okwetegeera enkolagana ya ebyafaayo eri eby’obusobozi bw’ebiramu, era kino kituyamba okutegeera nti ebyafaayo bisika eby’obulabirizi biva ku bintu ebimu.",True,8.221521600004053,2565,949,832
+C,C,True,7.489230400009546,2530,915,896
+D,"C. Omuyizi yazudde mu nsonda z’okukwatagana kwa endocrine axis: yakakasa nti follicle ekola luteinizing hormone era that’s what triggers estrogen, mu kiseera nga mu mateeka ga reproduction LH gy’ava mu pituitary anterior, follicle eyinza okukola estrogen ne corpus luteum eyinza okukola progesterone, naye ensonga za source n’ekirina okutandika byebeeramu ziye mu nsonda.",True,14.381769200001145,3607,1908,1792
+C,C,True,6.2131277000007685,2681,595,576
+A,Fludarabine ddagala erikkiriza okujjanjaba kansa nga liziyiza enzayimu ya DNA primase mu kukoppa kwa DNA. Kiki kyipimwa mu buvunaanyizibwa bwa enzayimu eno?,True,14.801442500000121,3554,1930,1856
+B,B,True,7.000795200001448,4078,915,896
+B,D,True,5.720890800002962,2377,723,704
+B,"D. Ekiraga abayizi nti omugendo gw’amasannyalaze mu sseketi gulinga omugendo gw’amazzi mu tuyembe. Kino kibayambako okumanya n’ekifaananyi, naye kireeta engeso y’okukkiriza nti “amagulu” g’amasannyalaze gasaliddwa mu bisenge nga bwe gava mu tuyembe, bwe kiba nti balemiyiza nti current ejja kusuuka ku karesoto era eggya kubutuusaako okumalira — ekiva mu kugwa mu buwangwa mu nteekateeka y’amazzi. Kino kitukiriza obusobozi bw’abayizi mu kulowooza obutali butuufu ku current ne voltage.",True,14.969087600009516,3753,2033,1856
+C,"Omusomesa yakozeseza ekiragiro ky’okulabira ku orientation y’ebifaananyi (uyizeko: eby’olaba nga birinnyonnyola bibeera inverted era tubikyuliranga nga eby’obulimba, ate eby’olaba nga birinnyonnyola nga bye bulijjo bibeera upright era tubikyuliranga nga eby’obutuufu) okukuuma okutali kuyita mu ddakkubi naye okuwa abayizi ekkubo ly’okuwawula entre n’obutali bubutuufu bw’ebifaananyi.",True,25.561169099994004,3167,1422,1280
+A,A,True,7.689500300009968,2424,915,896
+B,"Mu ky’okulabirako B waliwo endowooza ebbiri enkyamu ezikyamu nteekateeka ya Newton’s First Law:  
+(1) nti omubiri ogenda mu lugendo tewali maanyi gakola ku ggwe,  
+(2) naye nti kutambula kwekomekkebwa maanyi agimu (impetus).  
+Bino bibiri byogeraganya amateeka gavudde mu ngeri entono y’obuwangwa bw’amateeka ga Newton era byegayiriza okuyiga nga net force gye genda ku zero kityo omubiri agenda nga kitalina ngeri y’okweyongera okutegeera amateeka ga Newton.",True,15.019964599981904,3672,2021,1856
+C,D,True,5.975298200006364,2318,723,704
+B,B,True,19.19034939998528,4354,2707,2688
+D,B,True,10.407411299995147,3351,1427,1408
+B,"Mu ibuprofen, enantiomer ki (R oba S) gye mulimu anti-inflammatory activity?  
+A. R-ibuprofen  
+B. S-ibuprofen  
+C. Buli enantiomer  
+D. Teali activity ku bipya byonna",True,17.431244200008223,3777,2123,2048
+A,"A. Kozesa omugatte gwa Tyndall mu kintu ekikolebwa nga colloid okulaga nti mu colloid ensonga y’essubi esasanya essubi, mu bisanyizo tekyisasanya.",True,12.531110600015381,3108,1414,1344
+C,D,True,5.573024000012083,2504,531,512
+B,D. Bannyonnyola ebiva mu data okuva mu ggulaafu eraga omuwendo gwa oxyhemoglobin mu musaayi okusinziira ku bunene bwʼakanyigirizi k’omukka ogwa oxygen.,True,23.84435400000075,2630,961,896
+C,D,True,6.0097866999858525,2227,659,640
+C,Akaziba n’ebibangirizi by’amasoboza ag’akaziba,True,7.223159499990288,2444,932,896
+C,"Abayizi bakoze emirimu gino okusobola okutondeka ebiramu mu bibinja okusinzira ku biranga ebikozesebwa. Kiki mu mirimu gino tekikyusa okuweereza ekigendererwa kino?  
+A. Bawulira ku kyambalo ky’ensolo (amagarru, amasaasi, ebifaananyi) era ne bawuzuula mu bibinja okusinzira ku kyambalo kye basobaako.  
+B. Babala obuwanvu bw’omubiri mu bibeera eb’enjawulo era ne bawuzuula mu bibinja okusinzira ku bunene bwabwe.  
+C. Baakulula amazina ga IUPAC g'ebikemia eby'emu mu biramu.  
+D. Babala omuwendo gw’ensigo mu maaso g’ebinyonyi era ne bawuzuula mu bibinja okusinzira ku bugumu bwaabwe.  
+
+**C. Baakulula amazina ga IUPAC g'ebikemia eby'emu mu biramu.**",True,35.793449499993585,6336,4787,4544
+A,B,True,8.26856399999815,2613,915,896
+B,A,True,61.53411520001828,4460,2899,2880
+B,A. Enkola y’ekyoto ekifumbisa mu bwangu (pressure cooker),True,9.71251559999655,2987,1384,1344
+D,A,True,6.179264999984298,2440,723,704
+D,C,True,7.3347175999952015,2518,979,960
+D,D,True,17.158896300010383,3991,2451,2432
+A,A,True,8.358634100004565,2746,1107,1088
+D,B,True,18.62567399998079,2575,851,832
+C,"D. Ennukuta: Bwe basobola okujjumbira obubonero bubiri ebipimibwa ku kipimo kya Richter nga balaga obusumuluzo bw’amayinja mu bubonero buli bwe bubeeramu, kino kyerekedde nti baategezezza engeri y’okutawula ekikankano ky’ettaka.",True,7.8990734000108205,2490,926,832
+B,B.,True,30.94067849998828,3759,1684,1664
+D,Kubanga egg cell (oocyte) cytoplasm erimu reprogramming factors ezisobola okuggyawo programming ya transplanted nucleus n’okutegeera obulamu bwa embryogenesis.,True,28.411865300004138,3354,1339,1280
+D,"D. Kitegeeza nti omuntu awona, kubanga IgG ne IgM ze ntambalazo ezikola ku buli kika kya akawuka, nga zikolebwa mu kiseera omuntu lw'alumbiddwa obulwadde, okusooka IgM oluvannyuma IgG, nga oluvannyuma IgG esigala mu musaayi okumala ebbanga ddene.",True,5.8755017000075895,2433,677,576
+C,"Ekibuuzo: Kiki abayizi balina okuba bamaze okumanya okusobola okukola omulimu gw’okunoonyereza ogwa “Okutegeera engeri ebizimba bya kansa gye bikolebwa”?
+
+Ekyanulo: Ebika by’enkyukakyuka mu DNA ne mu chromosome.",True,18.082713799987687,2618,1111,1024
+D,A,True,5.31284090000554,2371,723,704
+D,A,True,6.352867400011746,2384,787,768
+B,"D. Omulimu ogukolebwa ku kompyuta ogusobozesa omuyizi okulaba nga omutangaavu bwe gutumizibwa ku kintu ekigabanya ebintu bibiri eby’enjawulo, ekitundu kimu kiguddamu ate ekitundu ekirala ne kiyitamu nga buli kimu kirina engeli yakyo.",True,43.516156099998625,4298,2529,2432
+C,A,True,3.5533395999809727,2278,339,320
+C,Omugatte gw’emirundi n’obuwanvu bw’amayengo.,True,5.200381400005426,2212,610,576
+C,C,True,9.800115000020014,3011,1363,1344
+A,C. Kubala n’okuteekawo ensisinkano ya kemikawo ebalirira okwongeza oba okukendeeza obungi bwa oxygen kugalira obutegeera bw’abaana ku kigendererwa.,True,9.138598699995782,3018,1282,1216
+D,D,True,7.1646149000152946,2589,851,832
+D,D. Kiri ku kika ky’ebikolwa bye waleese ekisobola okusangibwa mu bikolwa bya bulijjo?,True,40.867179099994246,3838,2158,2112
+B,C,True,7.2064445999858435,2246,788,768
