@@ -16,7 +16,7 @@ DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 
 cdpk_dataset = pd.read_csv(DATA_DIR / "pedagogy_benchmark_luganda_cdpk_reviewed.csv")
 print(cdpk_dataset.shape)
-cdpk_dataset.head(1)
+cdpk_dataset.head(2)
 
 # %%
 # - format columns: 
@@ -34,6 +34,10 @@ cdpk_dataset.insert(0, "Source", "Pedagogy Benchmark Luganda") # insert source
 print(cdpk_dataset.columns.tolist())
 print(cdpk_dataset.shape)
 cdpk_dataset.head(2)
+
+# %%
+# custom processing for luganda reviewed dataset:
+#cdpk_dataset['question_id_original'] = cdpk_dataset['question_id'] # keep original question id
 
 
 #########################################################################################

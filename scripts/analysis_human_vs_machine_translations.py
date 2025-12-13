@@ -42,17 +42,6 @@ for category in cdpk_dataset_reviewed['category'].unique():
 print("Category to question IDs mapping:")
 print(json.dumps(category_question_ids_dict, indent=2))
 
-# %%
-#test
-model = "qwen-3-32b"
-category = "science"
-answers_machine = pd.read_csv(f"./../data/cache_local/CDPK_{machine_translations_tag}_{category}/resps_{model}.csv")
-print(answers_machine.shape)
-answers_machine.head()
-# %%
-answers_human = pd.read_csv(f"./../data/cache_local/CDPK_{human_translations_tag}_{category}/resps_{model}.csv")
-print(answers_human.shape)
-answers_human.head()
 
 # %%
 # Reproduce full results dataframe with questions and preds for each model
@@ -68,6 +57,8 @@ def create_results_dataframes(benchmark, version, model_config_file, output_fold
             f"CDPK_{version}_creative_arts",
             f"CDPK_{version}_maths",
             f"CDPK_{version}_social_studies",
+            f"CDPK_{version}_technology",
+            f"CDPK_{version}_general",
         ],
         #"send": [f"CDPK_{language}_send"],
     }
@@ -144,7 +135,7 @@ def create_results_dataframes(benchmark, version, model_config_file, output_fold
 
     return models_dict_PK
 
-
+# %%
 models_dict_PK = create_results_dataframes(
     benchmark="cdpk",
     version=human_translations_tag,
@@ -161,7 +152,6 @@ models_dict_PK = create_results_dataframes(
 )
 
 # %%
-#
 full_df_humans = pd.read_csv(f"./../data/results/Luganda_ep_reviewed_cdpk_results_full_full_list_20251015_small.csv")
 print(full_df_humans.shape)
 
@@ -173,31 +163,10 @@ print(full_df_machine.shape)
 col_pred = [col for col in full_df_humans.columns if col.startswith("pred_")][0]
 print(full_df_humans[full_df_humans[col_pred] == "Few-shot example"].shape)
 print(full_df_machine[full_df_machine[col_pred] == "Few-shot example"].shape)
-
+print(f"Columns in full_df_humans:  {full_df_humans.columns.tolist()}")
+print(f"Columns in full_df_machine: {full_df_machine.columns.tolist()}")
 display(full_df_humans.head(2), full_df_machine.head(2))
 
-# %%
-# add the original question_id from cdpk reviewed dataset by matching on question text
-full_df_humans['question_id_original'] = full_df_humans['question'].apply(
-    lambda x: cdpk_dataset_reviewed[cdpk_dataset_reviewed['question'] == x]['question_id'].values[0]
-    if len(cdpk_dataset_reviewed[cdpk_dataset_reviewed['question'] == x]['question_id'].values) == 1
-    else None
-)
-
-# place new column in 2n position
-full_df_humans = full_df_humans[full_df_humans.columns[:1].tolist() + ['question_id_original'] + full_df_humans.columns[1:-1].tolist()]
-
-
-# %%
-# check
-for i, idx in enumerate(full_df_humans['question_id_original'].values):
-    #print question column of both dataframe
-    print(f"Index: {idx}")
-    print(f"Question human reviewed: {full_df_humans[full_df_humans['question_id_original'] == idx]['question'].values}")
-    print(f"Question machine transl: {full_df_machine[full_df_machine['question_id'] == idx]['question'].values}\n")
-
-    if i == 3:
-        break
 
     
 # %%
@@ -207,11 +176,29 @@ full_df_machine_subset = full_df_machine[full_df_machine['question_id'].isin(ful
 print(f"Dataset of machine translations shape: {full_df_machine_subset.shape}")
 print(f"Dataset of human rev. translat. shape: {full_df_humans.shape}")
 
+# move question_id_original to 2nd column
+cols = full_df_humans.columns.tolist()
+cols.remove('question_id_original')
+cols.insert(1, 'question_id_original')
+full_df_humans = full_df_humans[cols]
+
 # print different columns
 print(full_df_machine_subset.columns.difference(full_df_humans.columns))
 print(full_df_humans.columns.difference(full_df_machine_subset.columns))
 
 display(full_df_machine_subset.head(2), full_df_humans.head(2))
+
+# %%
+# Check: print side by side 3 rows of full_df_humans and full_df_machine_subset for the same question_id_original
+#for qid in full_df_humans['question_id_original'].unique()[:3]:
+#
+#    human_row = full_df_humans[full_df_humans['question_id_original'] == qid]
+#    machine_row = full_df_machine_subset[full_df_machine_subset['question_id'] == qid]
+#    print(f"Question ID: {qid}")
+#    print("Human Reviewed Translation:")
+#    display(human_row)
+#    print("Machine Translation:")
+#    display(machine_row)
 
 # %%
 # compare performance of each model between human reviewed translations and machine translations
@@ -288,18 +275,63 @@ accuracy_overall_merged.head()
 # %%
 # plot overall accuracy comparison
 
-plt.figure(figsize=(12, 6))
-sns.barplot(
+plt.figure(figsize=(8, 4)) # Increased width slightly to make room for text
+
+# 1. Capture the axes object (ax) when creating the plot
+ax = sns.barplot(
     data=accuracy_overall_merged,
-    x='display_name',
-    y='Overall',
-    hue='Translation'
+    y='display_name',
+    x='Overall',
+    hue='Translation',
+    palette={'Humans': 'skyblue', 'LLM': 'salmon'},
 )
-plt.xticks(rotation=45, ha='right')
-plt.ylabel('Accuracy (%)')
-plt.title('Overall Accuracy Comparison: Human Reviewed vs Machine Translations')
-plt.legend(title='Translation Type')
+
+# 2. Iterate over the labels actually plotted on the Y-axis
+# This ensures we match the visual order, even if Seaborn sorted them differently
+y_labels = [t.get_text() for t in ax.get_yticklabels()]
+
+for i, model_name in enumerate(y_labels):
+    # Filter the dataframe for the current model
+    model_data = accuracy_overall_merged[accuracy_overall_merged['display_name'] == model_name]
+    
+    # Get the specific values for LLM and Humans
+    # (Using .values[0] safely extracts the number)
+    try:
+        val_llm = model_data[model_data['Translation'] == 'LLM']['Overall'].values[0]
+        val_human = model_data[model_data['Translation'] == 'Humans']['Overall'].values[0]
+        
+        # Calculate the difference
+        diff = val_llm - val_human
+        
+        # Determine placement: Place it to the right of the longer bar
+        max_val = max(val_llm, val_human)
+        
+        # Add the text annotation
+        # x = max_val + offset (e.g., 1 or 2 units)
+        # y = i (the index of the tick mark)
+        ax.text(
+            x=max_val + 1, 
+            y=i, 
+            s=f"{diff:+.1f}%",  # Format with sign (e.g., +2.5% or -1.2%)
+            va='center', 
+            fontsize=9, 
+            fontweight='bold',
+            color='green' if diff > 0 else 'red'
+        )
+    except IndexError:
+        continue # Skip if data is missing for a pair
+
+ax.xaxis.grid(True, linestyle='--', which='major', color='lightgrey', alpha=0.7)
+ax.set_axisbelow(True)
+plt.xticks(rotation=0, ha='right')
+plt.xlabel('Accuracy (%)')
+plt.ylabel('')
+plt.title('Overall Accuracy Comparison: LLM vs Human Reviewed Translations')
+plt.legend(title='Translation')
+# remove top and right spines
+sns.despine()
 plt.tight_layout()
+plt.show()
 
 # %%
 # Prepare data for per category plot
@@ -321,26 +353,80 @@ accuracy_cat_merged['display_name'] = accuracy_cat_merged['Model'].apply(
 accuracy_cat_merged.head()
 
 # %%
-# subplots per category 1x5 grid
-fig, axs = plt.subplots(1, 5, figsize=(15,5), sharey=True)
+# subplots per category 1x7 grid
+fig, axs = plt.subplots(1, 7, figsize=(20, 5), sharey=True, sharex=True)
+
+global_models_order = accuracy_cat_merged.sort_values(
+    by=['Accuracy'],
+    ascending=False
+)['display_name'].unique().tolist()
 
 for i, cat in enumerate(accuracy_cat_merged['Category'].unique()):
 
-    acc_category_subset = accuracy_cat_merged[accuracy_cat_merged['Category'] == cat]
+    # Use .copy() to avoid SettingWithCopyWarning
+    acc_category_subset = accuracy_cat_merged[accuracy_cat_merged['Category'] == cat].copy()
+    
+    # set global order
+    acc_category_subset['display_name'] = pd.Categorical(
+        acc_category_subset['display_name'],
+        categories=global_models_order,
+        ordered=True
+    )
 
     sns.barplot(
         data=acc_category_subset,
         x='display_name',
         y='Accuracy',
         hue='Translation',
-        ax=axs[i]
+        ax=axs[i],
+        palette={'Humans': 'skyblue', 'LLM': 'salmon'},
     )
-    
-    axs[i].set_title(cat, fontsize=12, fontweight='bold')
-    # rotate x labels to 45
-    # set number of x ticks to 5
-    axs[i].set_xticks(acc_category_subset['display_name'].unique())
-    axs[i].set_xticklabels(axs[i].get_xticklabels(), rotation=45, ha='right', fontsize=8)
-plt.tight_layout()
 
+    # --- START OF NEW LOGIC ---
+    # Get the list of models exactly as they appear on the X-axis
+    # (This ensures we align the calculation with the correct bar)
+    models_on_axis = [label.get_text() for label in axs[i].get_xticklabels()]
+
+    for j, model_name in enumerate(models_on_axis):
+        # Filter the subset for the current model
+        model_data = acc_category_subset[acc_category_subset['display_name'] == model_name]
+
+        try:
+            # Extract values safely
+            val_llm = model_data[model_data['Translation'] == 'LLM']['Accuracy'].values[0]
+            val_human = model_data[model_data['Translation'] == 'Humans']['Accuracy'].values[0]
+
+            diff = val_llm - val_human
+            max_val = max(val_llm, val_human)
+
+            # Add text annotation
+            # x = j (the index of the bar group)
+            # y = max_val + offset (e.g., 2% higher)
+            axs[i].text(
+                x=j,
+                y=max_val + 2, 
+                s=f"{diff:+.1f}%",
+                ha='center',
+                va='bottom',
+                fontsize=8,
+                rotation=90,  # Vertical text prevents overlapping in tight grids
+                color='green' if diff > 0 else 'red',
+                fontweight='bold'
+            )
+        except (IndexError, KeyError):
+            continue
+    # --- END OF NEW LOGIC ---
+
+    axs[i].set_title(cat, fontsize=12, fontweight='bold')
+    axs[i].set_xlabel('')
+    axs[i].set_ylabel('Accuracy (%)')
+    
+    # It is safer to not force set_xticks if using sharex with Categorical data, 
+    # but if you need to enforce rotation:
+    axs[i].set_xticks(axs[i].get_xticks())  # Ensure ticks are set
+    axs[i].set_xticklabels(axs[i].get_xticklabels(), rotation=90, ha='right', fontsize=8)
+
+plt.suptitle('Accuracy Comparison per Category: LLM vs Human Reviewed Translations', fontsize=16, fontweight='bold')
+plt.tight_layout()
+plt.show()
 # %%

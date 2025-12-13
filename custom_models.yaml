@@ -1,5 +1,6 @@
 Fireworks:
   Api_Interface: OpenAI
+  Api_Key_Env_Var: FIREWORKS_API_KEY
   Max_Tokens_Arg_Name: max_tokens
   Token_Window: 128000
   Client_Args:

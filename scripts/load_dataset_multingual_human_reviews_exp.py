@@ -12,13 +12,20 @@ DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 # %%
 # Load human reviewed translations from HF Hub
 
-human_reviewed_dataset = load_dataset("CraneAILabs/pedagogy-luganda-reviewed", "default", split="train")
+human_reviewed_dataset = load_dataset("CraneAILabs/pedagogy-luganda-replaced", "default", split="train")
 
 df = human_reviewed_dataset.to_pandas()
 
 print(f"CDPK questions: {len(df)}")
 print(f"CDPK columns: {df.columns.tolist()}")
 df.head(5)
+
+# %%
+# print the number of nan or none in each column
+print("Missing values per column:")
+for col in df.columns:
+    num_missing = df[col].isna().sum()
+    print(f"{col}: {num_missing}")
 
 # %%
 # Preprocessing

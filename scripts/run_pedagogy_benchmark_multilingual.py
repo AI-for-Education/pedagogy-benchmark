@@ -22,6 +22,8 @@ QUESTIONS_LIST_DICT = {
         f"CDPK_{language}_creative_arts",
         f"CDPK_{language}_maths",
         f"CDPK_{language}_social_studies",
+        f"CDPK_{language}_technology",
+        f"CDPK_{language}_general",
     ],
     #"send": [f"CDPK_{language}_send"],
 }

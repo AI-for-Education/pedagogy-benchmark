@@ -1,10 +1,10 @@
-Source,question,answer_a,answer_b,answer_c,answer_d,answer_e,answer_f,answer_g,correct_answer,category,subdomain,age_group,pedagogical_subdomain,year,secondary_category
+Source,question,answer_a,answer_b,answer_c,answer_d,answer_e,answer_f,answer_g,correct_answer,category,subdomain,age_group,pedagogical_subdomain,year,secondary_category,question_id_original
 Pedagogy Benchmark Luganda,"Ku mirimu gy'eby'obuwangwa egiddirira, kkirina ewa omwana omukisa omungi okukulaakulanya ekitone kye eky'obuyiiya?
 ","Okukuba langi y'amazzi ku ndabirwamu ya mandala
 ","Okukozesa empapula ez’enjawulo okukola ebifaananyi nga ozizinga.
 ","Okukola omuti ogulabika okuva mu ssaluuni ng’okozesa ebbumba.
 ","Okukuba empapula ez'ebala mu ndabirwamu ez'enjawulo
-",,,,C,General,,Pre-primary,Other,2017.0,
+",,,,C,General,,Pre-primary,Other,2017.0,,841
 Pedagogy Benchmark Luganda,"Soma embeera y’omu ক্লাসরুম muno:
 Ku ntandikwa y’omwaka, abayizi mu ssomero basabwa okuwa emboozi ya ddakiika 2 ku luwummula lwabwe olw’ekyeya. Paula, omuwala omuswavu era omutonotono, alindirira omukisa gwe okwogera. Bw’akola bw’atyo, omutima gwe gutandika okukuba nnyo, ebiganja bye bitandika okutuuyuka n’olubuto lwe lumuluma. Omusomesa we bw’amuyita mu maaso era Paula n’atandika okwogera, afuna obuzibu okujjukira ky’ayagala okwogera n’emikono gye gitandika okukankana.
 Mu mbeera eweereddwa, kiki ekisinga okutegeerekeka okuva mu birowoozo bya Paula n’enneeyisa ye?
@@ -12,10 +12,10 @@ Mu mbeera eweereddwa, kiki ekisinga okutegeerekeka okuva mu birowoozo bya Paula 
 ","Akaziba ke akamuziyiza okuyiga kakkakkiddwa.
 ","Munyavu okwogera ku luwummula lwe.
 ","Oboolyawo ayinza okuba ng’ayolekagana n’ekizibu ekimu.
-",,,,A,General,,"Primary, Secondary",Student understanding,2017.0,
+",,,,A,General,,"Primary, Secondary",Student understanding,2017.0,,842
 Pedagogy Benchmark Luganda,"Okusinziira ku Bowlby's theory, ki ku bino wammanga ekikwatagana n'empisa y'omukwano (attachment)?
 ","Nkola emala ebbanga okutuusa emyaka egy’obuto.
 ","Ggwe busibiro obuteekwa okuba obunywevu era obw’omugattako okusobola okukakasa enkulaakulana ennungi
 ","Gwe muguwa ogusalawo enkolagana yonna ey’omutima mu bulamu n’enkulaakulana.
 ","Gwe mukwano omubereberye omwana omuto gw’alina ne nnyina era teguyinza kuddibwamu muntu mulala.
-",,,,B,General,,All,Education theories,2019.0,
+",,,,B,General,,All,Education theories,2019.0,,843
