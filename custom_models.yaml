@@ -754,6 +754,36 @@ OpenAIBenchmrks:
       Token_Limit_Completion: 128000
       Call_Args:
         reasoning_effort: none
+    gpt-5.2-2025-12-11-none:
+      Api_Model_Name: gpt-5.2-2025-12-11
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: none
+    gpt-5.2-2025-12-11-low:
+      Api_Model_Name: gpt-5.2-2025-12-11
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: low
+    gpt-5.2-2025-12-11-medium:
+      Api_Model_Name: gpt-5.2-2025-12-11
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: medium
+    gpt-5.2-2025-12-11-high:
+      Api_Model_Name: gpt-5.2-2025-12-11
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: high
+    gpt-5.2-2025-12-11-xhigh:
+      Api_Model_Name: gpt-5.2-2025-12-11
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: xhigh
 
     
 ByteDance:

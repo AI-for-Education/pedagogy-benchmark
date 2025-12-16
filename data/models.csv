@@ -179,10 +179,9 @@ hf-smollm2-360m-instruct,Hugging Face,True,https://huggingface.co/HuggingFaceTB/
 hf-smollm2-1-7b-instruct,Hugging Face,True,https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct,02/2025,1700000000.0,,,SmolLM2-1.7B
 hf-smollm3-3b-instruct,Hugging Face,True,https://huggingface.co/HuggingFaceTB/SmolLM3-3B,07/2025,3000000000.0,,,SmolLM3-3B
 hf-smollm3-3b-base,Hugging Face,True,https://huggingface.co/HuggingFaceTB/SmolLM3-3B-Base,07/2025,3000000000.0,,,SmolLM3-3B Base
-kimi-k2,Moonshot AI,True,https://huggingface.co/moonshotai/Kimi-K2-Instruct,07/2025,1000000000000.0,0.57,2.30,Kimi K2
 fw-kimi-k2-instruct-0905,Moonshot AI,True,https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905,09/2025,1000000000000.0,0.6,2.50,Kimi K2
 fw-kimi-k2-thinking,Moonshot AI,True,https://huggingface.co/moonshotai/Kimi-K2-Thinking,11/2025,1000000000000.0,0.6,2.50,Kimi K2 Thinking
-glm-4.1v-9b-thinking,THUDM,True,https://huggingface.co/THUDM/GLM-4.1V-9B-Thinking,07/2025,9000000000.0,0.035,0.138,GLM-4.1V-9B Thinking
+glm-4.1v-9b-thinking,Z.ai,True,https://huggingface.co/THUDM/GLM-4.1V-9B-Thinking,07/2025,9000000000.0,0.035,0.138,GLM-4.1V-9B Thinking
 fw-glm-4.5,Z.ai,True,https://huggingface.co/zai-org/GLM-4.5,07/2025,355000000000.0,0.55,2.19,GLM-4.5
 fw-glm-4.5-air,Z.ai,True,https://huggingface.co/zai-org/GLM-4.5-Air,07/2025,106000000000.0,0.22,0.88,GLM-4.5 Air
 fw-glm-4.6,Z.ai,True,https://huggingface.co/zai-org/GLM-4.6,09/2025,357000000000.0,0.55,2.19,GLM-4.6

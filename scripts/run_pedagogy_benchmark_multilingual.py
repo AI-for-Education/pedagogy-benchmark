@@ -13,7 +13,7 @@ from cdpk.benchmark_utils import fulldf_accuracy_by_category
 
 load_dotenv(override=True)
 
-language = "Luganda_ep_reviewed"
+language = "Luganda_ep_new"
 
 QUESTIONS_LIST_DICT = {
     "cdpk": [

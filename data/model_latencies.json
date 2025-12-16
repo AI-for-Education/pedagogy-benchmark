@@ -169,5 +169,37 @@
         "CDPK_Luganda_ep_reviewed_general": 103.44817996025085,
         "CDPK_Luganda_ep_new_technology": 776.4837529659271,
         "CDPK_Luganda_ep_new_general": 566.5467069149017
+    },
+    "gpt-5.2-2025-12-11-medium": {
+        "CDPK_Luganda_ep_new_science": 1127.5315897464752,
+        "CDPK_Luganda_ep_reviewed_science": 171.66630244255066,
+        "CDPK_Luganda_ep_reviewed_literacy": 180.27483940124512,
+        "CDPK_Luganda_ep_reviewed_creative_arts": 188.69741201400757,
+        "CDPK_Luganda_ep_new_literacy": 886.0085802078247,
+        "CDPK_Luganda_ep_reviewed_maths": 182.58833193778992,
+        "CDPK_Luganda_ep_reviewed_social_studies": 171.17791485786438,
+        "CDPK_Luganda_ep_reviewed_technology": 132.88842058181763,
+        "CDPK_Luganda_ep_reviewed_general": 90.42527294158936,
+        "CDPK_Luganda_ep_new_creative_arts": 703.074342250824,
+        "CDPK_Luganda_ep_new_maths": 698.9333882331848,
+        "CDPK_Luganda_ep_new_social_studies": 638.4441103935242,
+        "CDPK_Luganda_ep_new_technology": 496.69471883773804,
+        "CDPK_Luganda_ep_new_general": 375.8806049823761
+    },
+    "gemini-3-pro-preview": {
+        "CDPK_Luganda_ep_new_science": 4519.864136457443,
+        "CDPK_Luganda_ep_reviewed_science": 767.003577709198,
+        "CDPK_Luganda_ep_reviewed_literacy": 1298.2683560848236,
+        "CDPK_Luganda_ep_reviewed_creative_arts": 909.9481339454651,
+        "CDPK_Luganda_ep_reviewed_maths": 1206.7885522842407,
+        "CDPK_Luganda_ep_new_literacy": 4819.57882976532,
+        "CDPK_Luganda_ep_new_technology": 2116.2527327537537,
+        "CDPK_Luganda_ep_reviewed_social_studies": 701.0209205150604,
+        "CDPK_Luganda_ep_reviewed_technology": 566.2694170475006,
+        "CDPK_Luganda_ep_reviewed_general": 410.5109121799469,
+        "CDPK_Luganda_ep_new_general": 2010.9041826725006,
+        "CDPK_Luganda_ep_new_creative_arts": 4070.5698761940002,
+        "CDPK_Luganda_ep_new_maths": 4008.562981367111,
+        "CDPK_Luganda_ep_new_social_studies": 4231.988058567047
     }
 }
