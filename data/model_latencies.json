@@ -38,5 +38,11 @@
     "fw-deepseek-r1-0528": {
         "CDPK_Swahili_ep_science": 3163.925515651703,
         "CDPK_Swahili_ep_new_science": 3120.2533490657806
+    },
+    "gpt-5.2-2025-12-11-medium": {
+        "CDPK_Swahili_ep_new_science": 565.6977586746216
+    },
+    "gemini-3-pro-preview": {
+        "CDPK_Swahili_ep_new_science": 3006.110287666321
     }
 }
