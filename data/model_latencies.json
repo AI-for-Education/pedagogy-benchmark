@@ -38,5 +38,11 @@
     "gpt-5-2025-08-07-medium": {
         "CDPK_Yoruba_ep_science": 2908.1221075057983,
         "CDPK_Yoruba_ep_new_science": 3847.326765060425
+    },
+    "gpt-5.2-2025-12-11-medium": {
+        "CDPK_Yoruba_ep_new_science": 851.2704951763153
+    },
+    "gemini-3-pro-preview": {
+        "CDPK_Yoruba_ep_new_science": 3028.155100107193
     }
 }
