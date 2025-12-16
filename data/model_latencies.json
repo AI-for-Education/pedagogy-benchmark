@@ -38,5 +38,11 @@
     "gpt-5-2025-08-07-medium": {
         "CDPK_Hausa_ep_science": 2595.257666826248,
         "CDPK_Hausa_ep_new_science": 2708.3809604644775
+    },
+    "gpt-5.2-2025-12-11-medium": {
+        "CDPK_Hausa_ep_new_science": 664.8893096446991
+    },
+    "gemini-3-pro-preview": {
+        "CDPK_Hausa_ep_new_science": 2873.264991044998
     }
 }
