@@ -38,5 +38,11 @@
     "gemma-3-27b": {
         "CDPK_Luganda_science": 3940.1576573848724,
         "CDPK_Luganda_new_science": 3619.179069519043
+    },
+    "gpt-5.2-2025-12-11-medium": {
+        "CDPK_Luganda_new_science": 902.8975393772125
+    },
+    "gemini-3-pro-preview": {
+        "CDPK_Luganda_new_science": 3390.36346244812
     }
 }
