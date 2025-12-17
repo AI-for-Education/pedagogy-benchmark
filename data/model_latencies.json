@@ -38,5 +38,11 @@
     "fw-deepseek-r1-0528": {
         "CDPK_English_science": 3582.517459630966,
         "CDPK_English_new_science": 3776.975335121155
+    },
+    "gpt-5.2-2025-12-11-medium": {
+        "CDPK_English_new_science": 497.10517716407776
+    },
+    "gemini-3-pro-preview": {
+        "CDPK_English_new_science": 2808.7373666763306
     }
 }
