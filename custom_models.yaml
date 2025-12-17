@@ -104,6 +104,10 @@ Fireworks:
       Api_Model_Name: accounts/fireworks/models/deepseek-r1
       Token_Window: 64000
       Token_Limit_Completion: 8000
+    #deepseek-v3-0324:
+    #  Api_Model_Name: accounts/fireworks/models/deepseek-v3-0324
+    #  Token_Window: 20480
+    #  Token_Limit_Completion: 4000
     llama-4-maverick-instruct-basic:
       Api_Model_Name: accounts/fireworks/models/llama4-maverick-instruct-basic
       Token_Window: 1050000
@@ -124,6 +128,52 @@ Fireworks:
       Api_Model_Name: accounts/fireworks/models/deepseek-r1-0528
       Token_Window: 160000
       Token_Limit_Completion: 20480
+    fw-deepseek-r1-0528-2nd-run:
+      Api_Model_Name: accounts/fireworks/models/deepseek-r1-0528
+      Token_Window: 160000
+      Token_Limit_Completion: 20480
+    fw-gpt-oss-20b:
+      Api_Model_Name: accounts/fireworks/models/gpt-oss-20b
+      Token_Window: 128000
+      Token_Limit_Completion: 33000
+    fw-gpt-oss-120b:
+      Api_Model_Name: accounts/fireworks/models/gpt-oss-120b
+      Token_Window: 128000
+      Token_Limit_Completion: 33000
+    fw-glm-4.5:
+      Api_Model_Name: accounts/fireworks/models/glm-4p5
+      Token_Window: 128000
+      Token_Limit_Completion: 8000
+    fw-glm-4.5-air:
+      Api_Model_Name: accounts/fireworks/models/glm-4p5-air
+      Token_Window: 131072
+      Token_Limit_Completion: 8000
+    fw-deepseek-v3p1:
+      Api_Model_Name: accounts/fireworks/models/deepseek-v3p1
+      Token_Window: 163000
+      Token_Limit_Completion: 20480
+    fw-kimi-k2-instruct-0905:
+      Api_Model_Name: accounts/fireworks/models/kimi-k2-instruct-0905
+      Token_Window: 256000
+      Token_Limit_Completion: 8000
+    fw-kimi-k2-thinking:
+      Api_Model_Name: accounts/fireworks/models/kimi-k2-thinking
+      Token_Window: 262000
+      Token_Limit_Completion: 262000
+    fw-glm-4.6:
+      Api_Model_Name: accounts/fireworks/models/glm-4p6
+      Token_Window: 202800
+      Token_Limit_Completion: 202800
+
+VertexAI:
+  Client_Args:
+    base_url: https://us-central1-aiplatform.googleapis.com/v1beta1/projects/bionic-run-429809-p5/locations/us-central1/endpoints/openapi
+  models:
+#    gemini-1.5-flash-001: {}
+#    gemini-1.5-pro-001: {}
+    gemini-1.0-pro-001: {}
+    gemini-1.0-pro-002: {}
+    gemini-1.0-pro-vision-001: {}
 
 LingYiWanWu:
   Api_Interface: OpenAI
@@ -136,6 +186,15 @@ LingYiWanWu:
     yi-large-fc:
       Token_Window: 32000
       Tool_Use: True
+      
+AzureMistralAI:
+  Api_Interface: AzureMistralAI
+  Client_Args:
+    endpoint: "https://fabdata-ai-devel-francecentral-Mistral-large-niwlt-serverless.francecentral.inference.ai.azure.com"
+    api_key: key
+  models:
+    fabdata-ai-devel-francecentral-Mistral-large:
+      Token_Window: 32000
 
 Scaleway:
   Api_Interface: OpenAI
@@ -161,10 +220,6 @@ Tencent:
       Api_Model_Name: hunyuan-large-longcontext
       Token_Window: 128000
       Token_Limit_Completion: 6000
-    hunyuan-a13b:
-      Api_Model_Name: hunyuan-a13b
-      Token_Window: 224000
-      Token_Limit_Completion: 32000
 
 OpenRouter:
   Api_Interface: OpenAI
@@ -232,12 +287,6 @@ OpenRouter:
       Token_Window: 64000
       Token_Limit_Completion: 4000
       Api_Model_Name: deepseek/deepseek-r1
-      Client_Args:
-        extra_body:
-          provider:
-            order:
-              - Deepseek
-            allow_fallbacks: False
     liquid-lfm-7b:
       Token_Window: 33000
       Token_Limit_Completion: 4000
@@ -246,12 +295,6 @@ OpenRouter:
       Token_Window: 64000
       Token_Limit_Completion: 4000
       Api_Model_Name: deepseek/deepseek-r1
-      Client_Args:
-        extra_body:
-          provider:
-            order:
-              - NovitaAI
-            allow_fallbacks: False
     sonar:
       Token_Window: 127000
       Token_Limit_Completion: 4000
@@ -264,12 +307,6 @@ OpenRouter:
       Token_Window: 131000
       Token_Limit_Completion: 4000
       Api_Model_Name: qwen/qwq-32b
-      Client_Args:
-        extra_body:
-          provider:
-            order:
-              - DeepInfra
-            allow_fallbacks: False
     liquid-lfm-3b:
       Token_Window: 33000
       Token_Limit_Completion: 4000
@@ -296,92 +333,52 @@ OpenRouter:
       Api_Model_Name: ai21/jamba-1.6-mini
     gemma-3-27b:
       Token_Window: 128000
-      Token_Limit_Completion: 8192
+      Token_Limit_Completion: 128000
       Api_Model_Name: google/gemma-3-27b-it
-      Client_Args:
-        extra_body:
-          provider:
-            order:
-              - Parasail
-            allow_fallbacks: False
     olmo-2-32b:
       Token_Window: 4000
       Token_Limit_Completion: 4000
       Api_Model_Name: allenai/olmo-2-0325-32b-instruct
-      Client_Args:
-        extra_body:
-          provider:
-            order:
-              - Parasail
-            allow_fallbacks: False
     mistral-small-3-1-24b:
       Token_Window: 128000
       Token_Limit_Completion: 4000
       Api_Model_Name: mistralai/mistral-small-3.1-24b-instruct-2503
-      Client_Args:
-        extra_body:
-          provider:
-            order:
-              - Mistral
-            allow_fallbacks: False
     deepseek-v3-0324-fp8:
       Token_Window: 66000
       Token_Limit_Completion: 4000
       Api_Model_Name: deepseek/deepseek-chat-v3-0324
-      Client_Args:
-        extra_body:
-          provider:
-            order:
-              - DeepInfra
-            allow_fallbacks: False
     gemma-3-12b-it:
       Token_Window: 131000
       Token_Limit_Completion: 8192
       Api_Model_Name: google/gemma-3-12b-it
     gemma-3-4b-it:
-      Token_Window: 131000
-      Token_Limit_Completion: 8192
+      Token_Window: 128000
+      Token_Limit_Completion: 128000
       Api_Model_Name: google/gemma-3-4b-it
     grok-3-beta:
       Token_Window: 131000
       Token_Limit_Completion: 4000
       Api_Model_Name: x-ai/grok-3-beta
-      Client_Args:
-        extra_body:
-          provider:
-            order:
-              - xAI
-            allow_fallbacks: False
     grok-3-mini-beta:
       Token_Window: 131000
       Token_Limit_Completion: 4000
       Api_Model_Name: x-ai/grok-3-mini-beta
-      Client_Args:
-        extra_body:
-          provider:
-            order:
-              - xAI
-            allow_fallbacks: False
+    #qwen-3-235b-a22b:
+    #  Token_Window: 41000
+    #  Token_Limit_Completion: 4000
+    #  Api_Model_Name: qwen/qwen3-235b-a22b
+    #qwen-3-30b-a3b:
+    #  Token_Window: 41000
+    #  Token_Limit_Completion: 4000
+    #  Api_Model_Name: qwen/qwen3-30b-a3b
     qwen-3-32b:
-      Token_Window: 41000
-      Token_Limit_Completion: 4000
+      Token_Window: 32000
+      Token_Limit_Completion: 32000
       Api_Model_Name: qwen/qwen3-32b
-      Client_Args:
-        extra_body:
-          provider:
-            order:
-              - DeepInfra
-            allow_fallbacks: False
     qwen-3-14b:
       Token_Window: 41000
       Token_Limit_Completion: 4000
       Api_Model_Name: qwen/qwen3-14b
-      Client_Args:
-        extra_body:
-          provider:
-            order:
-              - DeepInfra
-            allow_fallbacks: False
     phi-4-reasoning-plus:
       Token_Window: 33000
       Token_Limit_Completion: 4000
@@ -394,22 +391,10 @@ OpenRouter:
       Token_Window: 160000
       Token_Limit_Completion: 20480
       Api_Model_Name: deepseek/deepseek-r1-0528
-      Client_Args:
-        extra_body:
-          provider:
-            order:
-              - Lambda
-            allow_fallbacks: False
     qwen-3-8b-fp8:
       Token_Window: 128000
       Token_Limit_Completion: 20000
       Api_Model_Name: qwen/qwen3-8b
-      Client_Args:
-        extra_body:
-          provider:
-            order:
-              - DeepInfra
-            allow_fallbacks: False
     magistral-small-2506:
       Token_Window: 40000
       Token_Limit_Completion: 4000
@@ -442,6 +427,65 @@ OpenRouter:
       Token_Window: 1000000
       Token_Limit_Completion: 40000
       Api_Model_Name: minimax/minimax-m1
+    mistral-small-3p2-24b-instruct:
+      Token_Window: 131000
+      Token_Limit_Completion: 40000
+      Api_Model_Name: mistralai/mistral-small-3.2-24b-instruct
+    grok-4:
+      Api_Model_Name: x-ai/grok-4
+      Token_Window: 255000
+      Token_Limit_Completion: 255000
+      Tool_Use: True
+      Vision: True 
+    kimi-k2:
+      Token_Window: 130000
+      Token_Limit_Completion: 130000
+      Api_Model_Name: moonshotai/kimi-k2
+    glm-4.1v-9b-thinking:
+      Api_Model_Name: thudm/glm-4.1v-9b-thinking
+      Token_Window: 66000
+      Token_Limit_Completion: 8000
+      Vision: True
+    qwen-3-235b-a22b-2507-bf16:
+      Token_Window: 262000
+      Token_Limit_Completion: 8000
+      Api_Model_Name: qwen/qwen3-235b-a22b-07-25
+    qwen3-235b-a22b-thinking-2507:
+      Token_Window: 262000
+      Token_Limit_Completion: 8000
+      Api_Model_Name: qwen/qwen3-235b-a22b-thinking-2507
+    glm-4.5-air:
+      Token_Window: 131000
+      Token_Limit_Completion: 8000
+      Api_Model_Name: z-ai/glm-4.5-air
+    mistral-medium-3.1:
+      Token_Window: 131000
+      Token_Limit_Completion: 8000
+      Api_Model_Name: mistralai/mistral-medium-3.1
+    jamba-large-1.7:
+      Token_Window: 256000
+      Token_Limit_Completion: 4100
+      Api_Model_Name: ai21/jamba-large-1.7
+    jamba-mini-1.7:
+      Token_Window: 256000
+      Token_Limit_Completion: 4100
+      Api_Model_Name: ai21/jamba-mini-1.7
+    grok-4-fast:
+      Token_Window: 2000000
+      Token_Limit_Completion: 30000
+      Api_Model_Name: x-ai/grok-4-fast
+    grok-4.1-fast:
+      Token_Window: 2000000
+      Token_Limit_Completion: 30000
+      Api_Model_Name: x-ai/grok-4.1-fast
+    lfm2-8b-a1b:
+      Token_Window: 30000
+      Token_Limit_Completion: 30000
+      Api_Model_Name: liquid/lfm2-8b-a1b
+    mistral-large-3-2512:
+      Token_Window: 260000
+      Token_Limit_Completion: 260000
+      Api_Model_Name: mistralai/mistral-large-2512
 
 AmazonBedrock:
   Api_Interface: Bedrock
@@ -534,7 +578,8 @@ Google:
       Token_Window: 1048576
       Token_Limit_Completion: 8192
     gemini-2.5-pro-preview-06-05:
-      Api_Model_Name: models/gemini-2.5-pro-preview-06-05
+      #Api_Model_Name: models/gemini-2.5-pro-preview-06-05
+      Api_Model_Name: models/gemini-2.5-pro
       Vision: True
       Token_Window: 1048576
       Token_Limit_Completion: 65536
@@ -543,8 +588,33 @@ Google:
       Vision: True
       Token_Window: 1000000
       Token_Limit_Completion: 64000
+    gemma-3n-e2b-it:
+      Api_Model_Name: models/gemma-3n-e2b-it
+      Vision: True
+      Token_Window: 131000
+      Token_Limit_Completion: 8192
+    gemma-3-1b-it:
+      Api_Model_Name: models/gemma-3-1b-it
+      Vision: True
+      Token_Window: 131000
+      Token_Limit_Completion: 8192
+    gemini-2.5-flash-preview-09-2025:
+      Api_Model_Name: models/gemini-2.5-flash-preview-09-2025
+      Vision: True
+      Token_Window: 1048576
+      Token_Limit_Completion: 65536
+    gemini-2.5-flash-lite-preview-09-2025:
+      Api_Model_Name: models/gemini-2.5-flash-lite-preview-09-2025
+      Vision: True
+      Token_Window: 1048576
+      Token_Limit_Completion: 65536
+    gemini-3-pro-preview:
+      Api_Model_Name: models/gemini-3-pro-preview
+      Vision: True
+      Token_Window: 1048576
+      Token_Limit_Completion: 65536
 
-OpenAIBenchmarks:
+OpenAIBenchmrks:
   Api_Interface: OpenAI
   Token_Window: 200000
   Token_Limit_Completion: 100000
@@ -557,6 +627,8 @@ OpenAIBenchmarks:
       Api_Model_Name: o3-mini-2025-01-31
     o3-mini-high:
       Api_Model_Name: o3-mini-2025-01-31
+    #o3-mini-high-wo-fs:
+    #  Api_Model_Name: o3-mini-2025-01-31
     gpt-4.5-preview:
       Api_Model_Name: gpt-4.5-preview-2025-02-27
       Token_Window: 16384
@@ -575,8 +647,144 @@ OpenAIBenchmarks:
     o3-2025-04-16:
       Api_Model_Name: o3-2025-04-16
       Token_Window: 100000
-    
+    # GPT-5 models
+    gpt-5-2025-08-07-minimal:
+      Api_Model_Name: gpt-5-2025-08-07
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: minimal
+    gpt-5-2025-08-07-low:
+      Api_Model_Name: gpt-5-2025-08-07
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: low
+    gpt-5-2025-08-07-medium:
+      Api_Model_Name: gpt-5-2025-08-07
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: medium
+    gpt-5-2025-08-07-high:
+      Api_Model_Name: gpt-5-2025-08-07
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: high
+    gpt-5-mini-2025-08-07:
+      Api_Model_Name: gpt-5-mini-2025-08-07
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+    gpt-5-mini-2025-08-07-minimal:
+      Api_Model_Name: gpt-5-mini-2025-08-07
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: minimal
+    gpt-5-mini-2025-08-07-low:
+      Api_Model_Name: gpt-5-mini-2025-08-07
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: low
+    gpt-5-mini-2025-08-07-medium:
+      Api_Model_Name: gpt-5-mini-2025-08-07
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: medium
+    gpt-5-mini-2025-08-07-high:
+      Api_Model_Name: gpt-5-mini-2025-08-07
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: high
+    gpt-5-nano-2025-08-07:
+      Api_Model_Name: gpt-5-nano-2025-08-07
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+    gpt-5-nano-2025-08-07-minimal:
+      Api_Model_Name: gpt-5-nano-2025-08-07
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: minimal
+    gpt-5-nano-2025-08-07-low:
+      Api_Model_Name: gpt-5-nano-2025-08-07
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: low
+    gpt-5-nano-2025-08-07-medium:
+      Api_Model_Name: gpt-5-nano-2025-08-07
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: medium
+    gpt-5-nano-2025-08-07-high:
+      Api_Model_Name: gpt-5-nano-2025-08-07
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: high
+    # GPT-5.1 models
+    gpt-5.1-2025-11-13-high:
+      Api_Model_Name: gpt-5.1-2025-11-13
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: high
+    gpt-5.1-2025-11-13-medium:
+      Api_Model_Name: gpt-5.1-2025-11-13
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: medium
+    gpt-5.1-2025-11-13-low:
+      Api_Model_Name: gpt-5.1-2025-11-13
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: low
+    gpt-5.1-2025-11-13-none:
+      Api_Model_Name: gpt-5.1-2025-11-13
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: none
+    gpt-5.2-2025-12-11-none:
+      Api_Model_Name: gpt-5.2-2025-12-11
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: none
+    gpt-5.2-2025-12-11-low:
+      Api_Model_Name: gpt-5.2-2025-12-11
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: low
+    gpt-5.2-2025-12-11-medium:
+      Api_Model_Name: gpt-5.2-2025-12-11
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: medium
+    gpt-5.2-2025-12-11-high:
+      Api_Model_Name: gpt-5.2-2025-12-11
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: high
+    gpt-5.2-2025-12-11-xhigh:
+      Api_Model_Name: gpt-5.2-2025-12-11
+      Token_Window: 400000
+      Token_Limit_Completion: 128000
+      Call_Args:
+        reasoning_effort: xhigh
 
+    
 ByteDance:
   Api_Interface: OpenAI
   Api_Key_Env_Var: BYTEDANCE_API_KEY
@@ -657,3 +865,163 @@ Anthropic_Thinking:
         thinking:
           type: enabled
           budget_tokens: 16000
+    claude-sonnet-4-5-20250929:
+      Api_Model_Name: claude-sonnet-4-5-20250929
+      Token_Limit_Completion: 64000
+    claude-sonnet-4-5-20250929-low:
+      Api_Model_Name: claude-sonnet-4-5-20250929
+      Token_Limit_Completion: 64000
+      Call_Args:
+        thinking:
+          type: enabled
+          budget_tokens: 16000
+    claude-sonnet-4-5-20250929-medium:
+      Api_Model_Name: claude-sonnet-4-5-20250929
+      Token_Limit_Completion: 64000
+      Call_Args:
+        thinking:
+          type: enabled
+          budget_tokens: 32000
+    claude-haiku-4-5-20251001:
+      Api_Model_Name: claude-haiku-4-5-20251001
+      Token_Limit_Completion: 64000
+    claude-opus-4-5-20251101:
+      Api_Model_Name: claude-opus-4-5-20251101
+      Token_Limit_Completion: 64000
+
+OpenAIFineTune:
+  Api_Interface: OpenAI
+  Tool_Use: True
+  Vision: True
+  Client_Args:
+    api_key: key
+  models:
+    gpt-4.1-nano-pa-ft-v1:
+      Api_Model_Name: ft:gpt-4.1-nano-2025-04-14:fab:teacher-support-v1:Blk3YFk6
+      Token_Window: 1047576
+      Token_Limit_Completion: 16384
+    gpt-4.1-nano-pa-ft-v1-try2:
+      Api_Model_Name: ft:gpt-4.1-nano-2025-04-14:fab:teacher-support-v1:Blk3YFk6
+      Token_Window: 1047576
+      Token_Limit_Completion: 16384
+
+FireworksCompletions:
+  Api_Interface: OpenAICompletions
+  Max_Token_Arg_Name: max_tokens
+  Api_Key_Env_Var: FIREWORKS_API_KEY
+  Client_Args:
+    base_url: https://api.fireworks.ai/inference/v1
+  models:
+    ablation-model-fineweb-edu:
+      Api_Model_Name: accounts/robince-fd38a7/deployedModels/ablation-model-fineweb-edu-e9topzrm
+      Token_Window: 2048
+      Vision: False
+
+HuggingFace:
+  Api_Interface: OpenAI
+  Api_Key_Env_Var: HUGGINGFACE_API_KEY
+  models:
+    hf-qwen3-0-6b:
+      Client_Args:
+        base_url: https://f61z2n0u33kfvi2b.us-east-1.aws.endpoints.huggingface.cloud/v1
+      Api_Model_Name: tgi
+      Token_Window: 32768
+    hf-qwen3-1-7b:
+      Client_Args:
+        base_url: https://swcpne4plcuwsom4.us-east-1.aws.endpoints.huggingface.cloud/v1
+      Api_Model_Name: tgi
+      Token_Window: 32768
+    hf-qwen3-4b:
+      Client_Args:
+        base_url: https://ev0137trbyv644fx.us-east-1.aws.endpoints.huggingface.cloud/v1
+      Api_Model_Name: tgi
+      Token_Window: 32768
+    hf-smollm2-135m-instruct:
+      Client_Args:
+        base_url: https://hslbg5mh8bsmkpjv.us-east-1.aws.endpoints.huggingface.cloud/v1
+      Api_Model_Name: tgi
+      Token_Window: 8192
+    hf-smollm2-360m-instruct:
+      Client_Args:
+        base_url: https://jool76huemsod9d0.us-east-1.aws.endpoints.huggingface.cloud/v1
+      Api_Model_Name: tgi
+      Token_Window: 8192
+    hf-smollm2-1-7b-instruct:
+      Client_Args:
+        base_url: https://vvn1d3yrancspb1r.us-east-1.aws.endpoints.huggingface.cloud/v1
+      Api_Model_Name: tgi
+      Token_Window: 8192
+    hf-smollm3-3b-instruct:
+      Client_Args:
+        base_url: https://dlq66es12hkfzqy9.us-east-1.aws.endpoints.huggingface.cloud/v1
+      Api_Model_Name: HuggingFaceTB/SmolLM3-3B
+      Token_Window: 60000
+    hf-eth-tutorrl-7b:
+      Client_Args:
+        base_url: https://stwqxbbcw7xmj1r0.us-east-1.aws.endpoints.huggingface.cloud/v1
+      Api_Model_Name: tgi
+      Token_Window: 32768
+    hf-gemma-3-270m-it:
+      Client_Args:
+        base_url: https://d7lprsk9sn294yfr.us-east-1.aws.endpoints.huggingface.cloud/v1
+      Api_Model_Name: tgi
+      Token_Window: 32000
+    hf-olmo-2-0425-1b-instruct:
+      Client_Args:
+        base_url: https://wa1hrknssvt3fdf0.us-east-1.aws.endpoints.huggingface.cloud/v1
+      Api_Model_Name: tgi
+      Token_Window: 4096
+    hf-olmo-2-1124-7b-instruct:
+      Client_Args:
+        base_url: https://mly1zqxt9zk6r0bi.us-east-1.aws.endpoints.huggingface.cloud/v1
+      Api_Model_Name: tgi
+      Token_Window: 4096
+    hf-olmo-2-1124-13b-instruct:
+      Client_Args:
+        base_url: https://hvb2uprii28sn4qx.us-east-1.aws.endpoints.huggingface.cloud/v1
+      Api_Model_Name: tgi
+      Token_Window: 4096
+    hf-olmo-2-0325-32b-instruct:
+      Client_Args:
+        base_url: https://hd9gq2bidqg3vk9m.us-east-1.aws.endpoints.huggingface.cloud/v1
+      Api_Model_Name: tgi
+      Token_Window: 4096
+    hf-swahili-gemma-1b:
+      Client_Args:
+        base_url: https://yv1jcyliuxny1681.us-east-1.aws.endpoints.huggingface.cloud/v1
+      Api_Model_Name: CraneAILabs/swahili-gemma-1b
+      Token_Window: 4096
+    hf-lfm2-2.6b:
+      Client_Args:
+        base_url: https://jnit05r6ppk2aznv.us-east-1.aws.endpoints.huggingface.cloud/v1
+      Api_Model_Name: LiquidAI/LFM2-2.6B
+      Token_Window: 32768
+
+
+Grok:
+  Api_Interface: OpenAI
+  Api_Key_Env_Var: XAI_API_KEY
+  Client_Args:
+    base_url: https://api.x.ai/v1 
+  models:
+    xai-grok-4:
+      Api_Model_Name: grok-4-0709
+      Token_Window: 255000
+      Token_Limit_Completion: 255000
+      Tool_Use: True
+      Vision: True
+
+LlamaCpp:
+  Api_Interface: OpenAI
+  Client_Args:
+    base_url: http://localhost:8080/v1
+  models:
+    #lfm2-1.2b-f16-gguf:
+    #  Api_Model_Name: model-on-server
+    #  Token_Window: 32768
+    #lfm2-700m-f16-gguf:
+    #  Api_Model_Name: model-on-server
+    #  Token_Window: 32768
+    lfm2-350m-f16-gguf:
+      Api_Model_Name: model-on-server
+      Token_Window: 32768

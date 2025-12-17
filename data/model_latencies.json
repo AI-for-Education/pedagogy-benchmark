@@ -38,5 +38,11 @@
     "fw-deepseek-r1-0528": {
         "CDPK_Yoruba_science": 7865.806743144989,
         "CDPK_Yoruba_new_science": 14125.996075630188
+    },
+    "gpt-5.2-2025-12-11-medium": {
+        "CDPK_Yoruba_new_science": 796.3671476840973
+    },
+    "gemini-3-pro-preview": {
+        "CDPK_Yoruba_new_science": 2968.877154111862
     }
 }
