@@ -13,6 +13,7 @@ REPAT = [
     r"^<think>[\s\S]*?</think>[\s\S]*?([ABCDEFG])$",  # for deepseek R1
     r"^## Step 1[\s\S]*?([ABCDEFG])[\.\s]*$",  # for llama 4
     r'[\s\S]*\n([A-G])"?$',  # for claude 4
+    r"^\s*([ABCDEFG])[,.]",  # generic pattern added
 ]
 REQ = [re.compile(pat) for pat in REPAT]
 
