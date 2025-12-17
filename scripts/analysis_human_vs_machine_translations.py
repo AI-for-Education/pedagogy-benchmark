@@ -21,6 +21,9 @@ cdpk_dataset_reviewed = pd.read_csv(f"./../data/pedagogy_benchmark_luganda_cdpk_
 print(f"CDPK reviewed dataset shape: {cdpk_dataset_reviewed.shape}")
 cdpk_dataset_reviewed.head()
 
+models_csv = pd.read_csv(ROOT / "data" / "models.csv")
+providers_csv = pd.read_csv(ROOT / "data" / "providers.csv")
+
 # open fs examples dictionary
 with open("./../data/few_shot_examples_idx_dict.json", "r") as f:
     few_shot_examples_idx_dict = json.load(f)
@@ -199,6 +202,159 @@ display(full_df_machine_subset.head(2), full_df_humans.head(2))
 #    display(human_row)
 #    print("Machine Translation:")
 #    display(machine_row)
+
+
+# %%
+# get detailed for both dataframe for statistical analysis
+
+acc_rows_detailed = []
+
+def clean_list(list):
+    """Replaces any NaN/nat with None in a list"""
+    # very important when saving to csv later
+    return [None if pd.isna(x) else x for x in list]
+
+
+def clean_fulldf_for_stats(fulldf):
+    cols_variables = ['pred_', 'Latency_', 'TokensUsed_', 'TokensUsedCompletion_', 'TokensUsedReasoning_']
+
+    models_list = [col.replace("pred_", "") for col in fulldf.columns if col.startswith("pred_")]
+
+    acc_rows_detailed = []
+
+    for cat in fulldf['category'].unique():
+        subset_df = fulldf[fulldf['category'] == cat]
+
+        for model in models_list:
+
+            df_res = subset_df[['question_id', f'pred_{model}', f'Latency_{model}', f'TokensUsed_{model}', f'TokensUsedCompletion_{model}', f'TokensUsedReasoning_{model}']].copy()
+            df_res = df_res.rename(columns={
+                f'pred_{model}': 'Prediction',
+                f'Latency_{model}': 'Latency',
+                f'TokensUsed_{model}': 'TokensUsed',
+                f'TokensUsedCompletion_{model}': 'TokensUsedCompletion',
+                f'TokensUsedReasoning_{model}': 'TokensUsedReasoning',
+            })
+
+            # get lists
+            predictions = df_res['Prediction'].values.tolist()
+            correct_ans = subset_df['correct_answer'].values.tolist()
+            tokens_used = df_res['TokensUsed']
+            tokens_used_completion = df_res['TokensUsedCompletion']
+            tokens_used_reasoning = df_res['TokensUsedReasoning']
+
+            # Append a dictionary for this specific result directly to the list
+            row = {
+                "category": cat,
+                "model": model,
+                "correct": [True if pred == correct else False for pred, correct in zip(predictions, correct_ans)],
+                "Latency": clean_list(df_res['Latency'].values.tolist()),
+                "TokensUsed": clean_list(tokens_used.tolist()),
+                "TokensUsedCompletion": clean_list(tokens_used_completion.tolist()),
+                "TokensUsedReasoning": clean_list(tokens_used_reasoning.tolist())
+            }
+            acc_rows_detailed.append(row)
+ 
+    return pd.DataFrame(acc_rows_detailed)
+        
+full_df_humans_detailed = clean_fulldf_for_stats(full_df_humans)
+full_df_humans_detailed['display_name'] = full_df_humans_detailed['model'].apply(lambda x: models_csv.loc[models_csv['model_id'] == x, 'display_name'].values[0] if x in models_csv['model_id'].values else x)
+full_df_humans_detailed['provider'] = full_df_humans_detailed['model'].apply(lambda x: models_csv.loc[models_csv['model_id'] == x, 'provider'].values[0] if x in models_csv['model_id'].values else 'Unknown')
+
+full_df_machine_detailed = clean_fulldf_for_stats(full_df_machine_subset)
+full_df_machine_detailed['display_name'] = full_df_machine_detailed['model'].apply(lambda x: models_csv.loc[models_csv['model_id'] == x, 'display_name'].values[0] if x in models_csv['model_id'].values else x)
+full_df_machine_detailed['provider'] = full_df_machine_detailed['model'].apply(lambda x: models_csv.loc[models_csv['model_id'] == x, 'provider'].values[0] if x in models_csv['model_id'].values else 'Unknown')
+
+print("Human Reviewed Translations - Detailed DataFrame:")
+print(full_df_humans_detailed.shape)
+print(f"Number of models: {full_df_humans_detailed['model'].nunique()}")
+print(f"Number of categories: {full_df_humans_detailed['category'].nunique()}")
+print(f"Category breakdown in human detailed df:")
+print(full_df_humans_detailed['category'].value_counts())
+
+print("\nMachine Translations - Detailed DataFrame:")
+print(full_df_machine_detailed.shape)
+print(f"Number of models: {full_df_machine_detailed['model'].nunique()}")
+print(f"Number of categories: {full_df_machine_detailed['category'].nunique()}")
+print(f"Category breakdown in machine detailed df:")
+print(full_df_machine_detailed['category'].value_counts())
+
+display(full_df_humans_detailed.head(2), full_df_machine_detailed.head(2))
+
+
+
+# %%
+# check: every cells in same category should have same number of elements in lists of columns correct, Latency, TokensUsed, TokensUsedCompletion, TokensUsedReasoning
+dict_check = []
+
+for cat in full_df_humans_detailed['category'].unique():
+    subset_df = full_df_humans_detailed[full_df_humans_detailed['category'] == cat]
+
+    for model in subset_df['model'].unique():
+        model_subset = subset_df[subset_df['model'] == model]
+
+        for col in ['correct', 'Latency', 'TokensUsed', 'TokensUsedCompletion', 'TokensUsedReasoning']:
+            list_values = model_subset[col].values.tolist()[0]
+            #print(list_values)
+            list_length = len(list_values)
+            dict_check.append({
+                "category": cat,
+                "model": model,
+                "column": col,
+                "list_lengths": list_length
+            })
+
+check_df = pd.DataFrame(dict_check)
+# check, all values in list_lengths are same for each category
+#for cat in check_df['category'].unique():
+print(f"Dataframe shape of check_df: {check_df.shape}")
+print(f"Number of unique categories in check_df: {check_df['category'].nunique()}")
+print(f"Number of unique models in check_df: {check_df['model'].nunique()}")
+print(f"Number of unique columns in check_df: {check_df['column'].nunique()}")
+
+for cat in check_df['category'].unique():
+    # each column should have same length of list
+    subset_df = check_df[check_df['category'] == cat]
+    if subset_df['list_lengths'].nunique() != 1:
+        print(f"[X] Category {cat} has different list lengths:")
+        display(subset_df)
+    else:
+        print("[OK]")
+
+check_df.head()
+
+# %%
+# explode columns with list: [correct, Latency, TokensUsed, TokensUsedCompletion, TokensUsedReasoning]
+
+full_df_humans_detailed_exploded = full_df_humans_detailed.explode(
+    ['correct', 'Latency', 'TokensUsed', 'TokensUsedCompletion', 'TokensUsedReasoning']
+)
+full_df_machine_detailed_exploded = full_df_machine_detailed.explode(
+    ['correct', 'Latency', 'TokensUsed', 'TokensUsedCompletion', 'TokensUsedReasoning']
+)
+print("Exploded DataFrames:")
+print(f"Human Reviewed Translations - Exploded DataFrame shape: {full_df_humans_detailed_exploded.shape}")
+print(f"Machine Translations - Exploded DataFrame shape: {full_df_machine_detailed_exploded.shape}")
+
+# combine both dataframes adding a column 'translation_type' with values 'Human' and 'Machine'
+full_df_humans_detailed_exploded['translation_type'] = 'Human'
+full_df_machine_detailed_exploded['translation_type'] = 'LLM'
+
+full_df_detailed_combined = pd.concat(
+    [full_df_humans_detailed_exploded, full_df_machine_detailed_exploded],
+    axis=0,
+).reset_index(drop=True)
+
+print(f"Combined Detailed DataFrame shape: {full_df_detailed_combined.shape}")
+full_df_detailed_combined.head(2)
+
+
+# %%
+# save
+full_df_detailed_combined.to_csv("./../data/results/cdpk_luganda_human_vs_llm_translated_exploded.csv", index=False)
+
+
+
 
 # %%
 # compare performance of each model between human reviewed translations and machine translations

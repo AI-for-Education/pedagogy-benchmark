@@ -30,10 +30,15 @@ gpt-5-nano-2025-08-07-high,OpenAI,False,https://platform.openai.com/docs/models/
 gpt-5-2025-08-07-minimal,OpenAI,False,https://platform.openai.com/docs/models/gpt-5,08/2025,,1.25,10.0,GPT-5 (Minimal)
 gpt-5-mini-2025-08-07-minimal,OpenAI,False,https://platform.openai.com/docs/models/gpt-5-mini,08/2025,,0.25,2.0,GPT-5 Mini (Minimal)
 gpt-5-nano-2025-08-07-minimal,OpenAI,False,https://platform.openai.com/docs/models/gpt-5-nano,08/2025,,0.05,0.4,GPT-5 Nano (Minimal)
-gpt-5.1-2025-11-13-medium,OpenAI,False,https://platform.openai.com/docs/models/gpt-5.1,11/2025,,1.25,10.0,GPT-5.1
-gpt-5.1-2025-11-13-high,OpenAI,False,https://platform.openai.com/docs/models/gpt-5.1,11/2025,,1.25,10.0,GPT-5.1 High
-gpt-5.1-2025-11-13-low,OpenAI,False,https://platform.openai.com/docs/models/gpt-5.1,11/2025,,1.25,10.0,GPT-5.1 Low
-gpt-5.1-2025-11-13-none,OpenAI,False,https://platform.openai.com/docs/models/gpt-5.1,11/2025,,1.25,10.0,GPT-5.1 None
+gpt-5.1-2025-11-13-medium,OpenAI,False,https://platform.openai.com/docs/models/gpt-5.1,11/2025,,1.25,10.0,GPT-5.1 (Medium)
+gpt-5.1-2025-11-13-high,OpenAI,False,https://platform.openai.com/docs/models/gpt-5.1,11/2025,,1.25,10.0,GPT-5.1 (High)
+gpt-5.1-2025-11-13-low,OpenAI,False,https://platform.openai.com/docs/models/gpt-5.1,11/2025,,1.25,10.0,GPT-5.1 (Low)
+gpt-5.1-2025-11-13-none,OpenAI,False,https://platform.openai.com/docs/models/gpt-5.1,11/2025,,1.25,10.0,GPT-5.1 (None)
+gpt-5.2-2025-12-11-none,OpenAI,False,https://platform.openai.com/docs/models/gpt-5.2,12/2025,,1.75,14.0,GPT-5.2 (None)
+gpt-5.2-2025-12-11-low,OpenAI,False,https://platform.openai.com/docs/models/gpt-5.2,12/2025,,1.75,14.0,GPT-5.2 (Low)
+gpt-5.2-2025-12-11-medium,OpenAI,False,https://platform.openai.com/docs/models/gpt-5.2,12/2025,,1.75,14.0,GPT-5.2 (Medium)
+gpt-5.2-2025-12-11-high,OpenAI,False,https://platform.openai.com/docs/models/gpt-5.2,12/2025,,1.75,14.0,GPT-5.2 (High)
+gpt-5.2-2025-12-11-xhigh,OpenAI,False,https://platform.openai.com/docs/models/gpt-5.2,12/2025,,1.75,14.0,GPT-5.2 (xHigh)
 fw-llama-v3p1-405b-instruct,Meta,True,https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct,07/2024,405000000000.0,3.0,,Llama-3.1 405B
 fw-llama-v3p2-1b-instruct,Meta,True,https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct,09/2024,1000000000.0,0.1,,Llama-3.2 1B
 fw-llama-v3p2-3b-instruct,Meta,True,https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct,09/2024,3000000000.0,0.1,,Llama-3.2 3B
