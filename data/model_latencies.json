@@ -41,5 +41,11 @@
     },
     "hf-swahili-gemma-1b": {
         "CDPK_Swahili_science": 87.11238813400269
+    },
+    "gpt-5.2-2025-12-11-medium": {
+        "CDPK_Swahili_new_science": 614.2645602226257
+    },
+    "gemini-3-pro-preview": {
+        "CDPK_Swahili_new_science": 2888.584159374237
     }
 }
