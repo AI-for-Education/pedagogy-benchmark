@@ -30,7 +30,7 @@ def main(opt):
     if opt.models_config is None:
         if opt.benchmark == "cdpk":
             #opt.models_config = "cdpk_online_leaderboard"
-            opt.models_config = "full_list_20251015"
+            opt.models_config = "full_list_20251015_small"
         elif opt.benchmark == "send":
             opt.models_config = "send_online_leaderboard"
         else:
