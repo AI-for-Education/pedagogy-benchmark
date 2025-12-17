@@ -208,5 +208,5 @@ __marimo__/
 
 #####
 data/Chile/**/*.csv
-#data/results
+data/results
 #data/cache_local

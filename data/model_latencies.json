@@ -38,5 +38,11 @@
     "gpt-5-2025-08-07-medium": {
         "CDPK_Nyankore_ep_science": 4258.857016801834,
         "CDPK_Nyankore_ep_new_science": 6309.630668401718
+    },
+    "gpt-5.2-2025-12-11-medium": {
+        "CDPK_Nyankore_ep_new_science": 1031.1161046028137
+    },
+    "gemini-3-pro-preview": {
+        "CDPK_Nyankore_ep_new_science": 4143.95694065094
     }
 }
