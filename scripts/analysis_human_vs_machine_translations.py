@@ -161,6 +161,7 @@ print(full_df_humans.shape)
 full_df_machine = pd.read_csv(f"./../data/results/Luganda_ep_new_cdpk_results_full_full_list_20251015_small.csv")
 print(full_df_machine.shape)
 
+
 # %%
 # check if there is any cells with "Few-shot example" in pred_ columns
 col_pred = [col for col in full_df_humans.columns if col.startswith("pred_")][0]
@@ -407,8 +408,8 @@ display(accuracy_machine_cat.head(10))
 
 # %%
 # merge accuracy dataframes and remove first layer of columns
-accuracy_humans['Translation'] = 'Humans'
-accuracy_machine['Translation'] = 'LLM'
+accuracy_humans['Translation'] = 'Human-translated'
+accuracy_machine['Translation'] = 'Machine-translated'
 accuracy_overall_merged = pd.concat(
     [accuracy_humans, accuracy_machine],
     axis=0,
@@ -421,6 +422,10 @@ accuracy_overall_merged['display_name'] = accuracy_overall_merged['Model'].apply
     if len(models_csv[models_csv['model_id'] == x]['display_name'].values) == 1
     else x
 )
+
+# change name Deepseek R1 (May '25) to Deepseek R1 for better readability
+accuracy_overall_merged['display_name'] = accuracy_overall_merged['display_name'].replace({"Deepseek R1 (May '25)": "Deepseek R1"})
+
 # order by Overall accuracy of LLM translations
 accuracy_overall_merged = accuracy_overall_merged.sort_values(
     by=['Overall', 'Translation'],
@@ -439,7 +444,7 @@ ax = sns.barplot(
     y='display_name',
     x='Overall',
     hue='Translation',
-    palette={'Humans': 'skyblue', 'LLM': 'salmon'},
+    palette={'Human-translated': 'skyblue', 'Machine-translated': 'salmon'},
 )
 
 # 2. Iterate over the labels actually plotted on the Y-axis
@@ -453,11 +458,11 @@ for i, model_name in enumerate(y_labels):
     # Get the specific values for LLM and Humans
     # (Using .values[0] safely extracts the number)
     try:
-        val_llm = model_data[model_data['Translation'] == 'LLM']['Overall'].values[0]
-        val_human = model_data[model_data['Translation'] == 'Humans']['Overall'].values[0]
+        val_llm = model_data[model_data['Translation'] == 'Machine-translated']['Overall'].values[0]
+        val_human = model_data[model_data['Translation'] == 'Human-translated']['Overall'].values[0]
         
         # Calculate the difference
-        diff = val_llm - val_human
+        diff = val_human - val_llm
         
         # Determine placement: Place it to the right of the longer bar
         max_val = max(val_llm, val_human)
@@ -482,8 +487,8 @@ ax.set_axisbelow(True)
 plt.xticks(rotation=0, ha='right')
 plt.xlabel('Accuracy (%)')
 plt.ylabel('')
-plt.title('Overall Accuracy Comparison: LLM vs Human Reviewed Translations')
-plt.legend(title='Translation')
+plt.title('AI Model Performance in Luganda\nComparing Machine Translations and Human Translations', fontsize=14)
+plt.legend(title='Translation Method')
 # remove top and right spines
 sns.despine()
 plt.tight_layout()
@@ -493,8 +498,8 @@ plt.show()
 # Prepare data for per category plot
 accuracy_humans_cat_melted = accuracy_humans_cat.reset_index().melt(id_vars=['Model'], var_name='Category', value_name='Accuracy')
 accuracy_machine_cat_melted = accuracy_machine_cat.reset_index().melt(id_vars=['Model'], var_name='Category', value_name='Accuracy')
-accuracy_humans_cat_melted['Translation'] = 'Humans'
-accuracy_machine_cat_melted['Translation'] = 'LLM'
+accuracy_humans_cat_melted['Translation'] = 'Human-translated'
+accuracy_machine_cat_melted['Translation'] = 'Machine-translated'
 
 accuracy_cat_merged = pd.concat(
     [accuracy_humans_cat_melted, accuracy_machine_cat_melted],
