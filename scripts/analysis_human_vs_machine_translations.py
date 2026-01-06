@@ -540,7 +540,7 @@ for i, cat in enumerate(accuracy_cat_merged['Category'].unique()):
         y='Accuracy',
         hue='Translation',
         ax=axs[i],
-        palette={'Humans': 'skyblue', 'LLM': 'salmon'},
+        palette={'Human-translated': 'skyblue', 'Machine-translated': 'salmon'}
     )
 
     # --- START OF NEW LOGIC ---
@@ -554,10 +554,10 @@ for i, cat in enumerate(accuracy_cat_merged['Category'].unique()):
 
         try:
             # Extract values safely
-            val_llm = model_data[model_data['Translation'] == 'LLM']['Accuracy'].values[0]
-            val_human = model_data[model_data['Translation'] == 'Humans']['Accuracy'].values[0]
+            val_llm = model_data[model_data['Translation'] == 'Machine-translated']['Accuracy'].values[0]
+            val_human = model_data[model_data['Translation'] == 'Human-translated']['Accuracy'].values[0]
 
-            diff = val_llm - val_human
+            diff = val_human - val_llm
             max_val = max(val_llm, val_human)
 
             # Add text annotation

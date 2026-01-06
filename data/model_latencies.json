@@ -209,6 +209,13 @@
         "CDPK_Luganda_ep_new_creative_arts": 4369.7565014362335,
         "CDPK_Luganda_ep_new_science": 5673.315091133118,
         "CDPK_Luganda_ep_new_technology": 6092.950096607208,
-        "CDPK_Luganda_ep_new_maths": 6839.260462999344
+        "CDPK_Luganda_ep_new_maths": 6839.260462999344,
+        "CDPK_Luganda_ep_reviewed_general": 210.7293016910553,
+        "CDPK_Luganda_ep_reviewed_science": 664.3241481781006,
+        "CDPK_Luganda_ep_reviewed_literacy": 952.3120927810669,
+        "CDPK_Luganda_ep_reviewed_creative_arts": 1467.5878551006317,
+        "CDPK_Luganda_ep_reviewed_social_studies": 1513.3463599681854,
+        "CDPK_Luganda_ep_reviewed_technology": 1573.2190990447998,
+        "CDPK_Luganda_ep_reviewed_maths": 3018.307327270508
     }
 }

@@ -221,43 +221,6 @@ Science,claude-sonnet-4-5-20250929,False,2.430625400003919,1930.0,4.0,0.0,Claude
 Science,claude-sonnet-4-5-20250929,False,2.3702057999980752,1945.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
 Science,claude-sonnet-4-5-20250929,False,2.664259500001208,2226.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
 Science,claude-sonnet-4-5-20250929,False,3.171203300000343,2169.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
-Science,gemini-2.5-flash-preview-09-2025,True,4.930967399996007,2736,1,953,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,False,4.446924799995031,2480,1,823,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,2.9727628999971785,2105,1,485,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,False,2.885104100001626,1967,1,374,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,False,4.612347200003569,2434,1,764,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,3.983017700003984,2487,1,690,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,5.371152200001234,2789,1,942,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,6.470893799996702,2918,1,1111,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,False,5.183990099998482,2962,1,1096,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,3.8675895999986096,2277,1,686,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,4.251945099997101,2293,1,664,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,5.119573099997069,2698,1,950,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,5.522877399998833,2609,1,974,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,9.478175299998838,3796,1,1926,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,9.593163799996546,3415,1,1822,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,6.994076800001494,3306,1,1317,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,False,3.395991299999878,2248,1,591,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,5.532088599997223,2583,1,908,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,5.194334299994807,2647,1,887,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,False,5.634752600002685,3108,1,1229,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,5.325168200004555,2680,1,974,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,False,3.9940349999960745,2395,1,747,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,4.155646800005343,2521,1,781,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,False,5.32553960000223,2769,1,986,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,5.225617799995234,2383,1,823,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,3.618821800002479,2358,1,640,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,6.060514199998579,2822,1,1083,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,4.922210600001563,2698,1,905,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,5.7315812000015285,3095,1,1153,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,4.612389100002474,2649,1,889,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,6.205702700004622,2942,1,1124,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,5.705359200001112,2971,1,1069,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,False,8.89228049999656,4186,1,1906,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,4.373743899996043,2479,1,779,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,False,4.822324799999478,2604,1,888,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,False,8.017604000000574,3449,1,1476,Gemini-2.5 Flash,Google,Human
-Science,gemini-2.5-flash-preview-09-2025,True,6.996659500000533,3157,1,1243,Gemini-2.5 Flash,Google,Human
 Science,gemini-2.5-flash-lite-preview-09-2025,False,1.0223287000044363,1783,1,,Gemini-2.5 Flash-Lite,Google,Human
 Science,gemini-2.5-flash-lite-preview-09-2025,False,0.9282039999961852,1657,1,,Gemini-2.5 Flash-Lite,Google,Human
 Science,gemini-2.5-flash-lite-preview-09-2025,False,1.0269199999966077,1620,1,,Gemini-2.5 Flash-Lite,Google,Human
@@ -369,6 +332,43 @@ Science,gpt-5.2-2025-12-11-medium,False,1.7566349999979138,1564,47,37,GPT-5.2 (M
 Science,gpt-5.2-2025-12-11-medium,True,4.177976700011641,1673,136,126,GPT-5.2 (Medium),OpenAI,Human
 Science,gpt-5.2-2025-12-11-medium,False,4.935957000008784,1860,111,101,GPT-5.2 (Medium),OpenAI,Human
 Science,gpt-5.2-2025-12-11-medium,True,5.947790700010955,1950,245,235,GPT-5.2 (Medium),OpenAI,Human
+Science,gemini-3-flash-preview,True,4.495448700006818,2397,1.0,614,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,False,14.58733020001091,3963,1.0,2306,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,3.1515062999969814,2043,1.0,423,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,3.5233693000045605,2111,1.0,517,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,False,5.609887999977218,2458,1.0,788,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,2.975160500005586,2219,1.0,422,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,5.100207900017267,2595,1.0,743,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,15.70142389999819,4377,1.0,2566,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,False,13.634103499993216,4029,1.0,2158,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,3.373911900009261,2092,1.0,501,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,3.7937291999987792,2165,1.0,532,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,17.825199500017334,4795,1.0,3047,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,3.1566056000010576,2092,1.0,456,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,13.4350509000069,4029,1.0,2154,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,False,19.499159700004384,4888,1.0,3291,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,17.465708200004883,4729,1.0,2740,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,False,14.852609599998686,3963,1.0,2306,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,3.9433451000077184,2243,,565,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,7.519360400008736,2929,1.0,1168,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,False,301.6074001000088,64789,,62911,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,7.018414799997117,2744,1.0,1037,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,False,7.59653789998265,2856,1.0,1208,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,38.6936876999971,8157,1.0,6416,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,False,5.548593099985737,2634,1.0,850,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,5.52923029998783,2410,,849,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,2.809985100000631,2090,1.0,371,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,False,17.467786900000647,4765,,3023,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,3.291537499986589,2256,1.0,463,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,4.457800400006818,2650,1.0,708,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,3.885800799995195,2327,1.0,567,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,7.81113099999493,3071,1.0,1249,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,4.714872600015951,2591,1.0,689,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,9.400168399995891,3804,1.0,1524,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,3.4266848000115715,2154,1.0,454,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,8.92406699998537,3092,1.0,1376,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,48.82065249999869,10252,1.0,8274,Gemini-3 Flash,Google,Human
+Science,gemini-3-flash-preview,True,6.5145498999918345,2943,1.0,1029,Gemini-3 Flash,Google,Human
 Literacy,gemma-3-27b,False,6.992074500005401,1330,3,0,Gemma-3 27B,Google,Human
 Literacy,gemma-3-27b,False,7.234727900002326,1307,3,0,Gemma-3 27B,Google,Human
 Literacy,gemma-3-27b,True,1.4322957999975188,1480,3,0,Gemma-3 27B,Google,Human
@@ -597,44 +597,6 @@ Literacy,claude-sonnet-4-5-20250929,False,2.5666860999990604,1542.0,4.0,0.0,Clau
 Literacy,claude-sonnet-4-5-20250929,True,2.4549941000004765,1889.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
 Literacy,claude-sonnet-4-5-20250929,False,2.462786199997936,1507.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
 Literacy,claude-sonnet-4-5-20250929,False,2.504778800001077,1444.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,3.7882370999941486,2029,1,709,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,3.684321599997929,1906,1,609,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,5.710496300001978,2475,1,1005,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,False,4.975461900001392,2204,1,850,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,False,4.816956400005438,2147,1,800,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,5.44829700000264,2320,1,951,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,3.066085400001612,1845,1,545,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,4.742008200002601,2359,1,866,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,False,7.36497159999999,2985,1,1292,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,4.597332500001357,2124,1,816,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,6.098192200006452,2766,1,1146,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,4.180774100001145,2209,1,775,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,6.181870899999922,2648,1,1145,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,False,5.650485000005574,2388,1,976,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,False,4.60940500000288,1999,1,693,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,4.388681300006283,1967,1,661,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,3.5039848999949754,2285,1,724,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,4.774008499996853,2141,1,806,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,False,5.531237100003636,2693,1,1130,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,False,7.199682099999336,3104,1,1387,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,False,4.181477899997844,2028,1,708,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,False,10.171408200003498,2997,1,1726,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,3.482589300001564,2018,1,634,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,False,7.098576600001252,3016,1,1356,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,False,5.502594500001578,2648,1,1064,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,False,6.039809300003981,2867,1,1203,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,False,6.797602400001779,2649,1,1275,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,False,5.087173499996425,2322,1,867,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,4.216928699999698,2028,1,708,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,4.096141000001808,2029,1,709,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,False,6.070126699996763,2732,1,1148,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,5.781197100004647,2471,1,973,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,False,4.15764350000245,2028,1,708,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,4.979585499997484,2474,1,833,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,False,4.88463739999861,2253,1,858,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,6.628074699998251,2947,1,1249,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,True,6.13093860000663,2393,1,1041,Gemini-2.5 Flash,Google,Human
-Literacy,gemini-2.5-flash-preview-09-2025,False,3.929144300003827,1916,1,614,Gemini-2.5 Flash,Google,Human
 Literacy,gemini-2.5-flash-lite-preview-09-2025,False,0.5396012000055634,1320,1,,Gemini-2.5 Flash-Lite,Google,Human
 Literacy,gemini-2.5-flash-lite-preview-09-2025,False,0.9009894999981044,1297,1,,Gemini-2.5 Flash-Lite,Google,Human
 Literacy,gemini-2.5-flash-lite-preview-09-2025,False,0.8566984000062803,1470,1,,Gemini-2.5 Flash-Lite,Google,Human
@@ -749,6 +711,44 @@ Literacy,gpt-5.2-2025-12-11-medium,False,4.567993500037119,1395,186,176,GPT-5.2 
 Literacy,gpt-5.2-2025-12-11-medium,True,4.263504699978512,1630,131,121,GPT-5.2 (Medium),OpenAI,Human
 Literacy,gpt-5.2-2025-12-11-medium,True,3.3347635999671184,1274,103,93,GPT-5.2 (Medium),OpenAI,Human
 Literacy,gpt-5.2-2025-12-11-medium,False,4.697524500021245,1280,145,135,GPT-5.2 (Medium),OpenAI,Human
+Literacy,gemini-3-flash-preview,True,14.210471800004598,3551,1.0,2231,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,3.59098300000187,1797,1.0,500,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,4.368039299995871,2174,1.0,700,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,8.156482199992752,2609,1.0,1254,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,3.628321500000311,1927,1.0,580,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,False,18.842126300005475,4414,,3042,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,2.901355700014392,1719,1.0,418,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,7.69327630000771,2743,,1245,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,9.362781400006496,3054,1.0,1356,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,False,8.006471300002886,2610,1.0,1302,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,4.923573100008071,2319,1.0,699,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,4.561830499995267,2111,1.0,677,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,50.81448140001157,10633,1.0,9130,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,302.5276569999987,64327,,62912,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,False,27.41609899999457,5586,1.0,4279,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,3.098630899999989,1763,1.0,457,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,3.567458499979693,2067,1.0,501,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,3.4935340999800246,1824,1.0,489,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,False,4.761755900020944,2299,1.0,736,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,False,10.897058899980038,3407,1.0,1686,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,False,14.138750400015851,3551,1.0,2231,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,8.673512800014578,2610,1.0,1339,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,2.541525600012392,1716,1.0,328,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,12.5743061999965,3648,1.0,1984,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,False,4.179483499989146,2148,1.0,564,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,18.913729000021704,4860,1.0,3192,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,5.180495900014648,2122,,749,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,False,9.379146400024185,2987,1.0,1532,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,13.879065599991009,3551,1.0,2231,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,14.103695600002538,3551,1.0,2231,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,302.436555399996,64494,1.0,62910,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,7.2407814000034705,2576,1.0,1074,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,False,13.965691199991852,3551,1.0,2231,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,8.700889900006587,3089,1.0,1448,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,False,4.281533500005025,2037,,640,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,5.9044578000030015,2549,1.0,847,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,True,3.4024926999991294,1841,1.0,489,Gemini-3 Flash,Google,Human
+Literacy,gemini-3-flash-preview,False,3.1353975999809336,1755,1.0,453,Gemini-3 Flash,Google,Human
 Creative arts,gemma-3-27b,False,3.245707399997628,1076,3,0,Gemma-3 27B,Google,Human
 Creative arts,gemma-3-27b,True,3.903593099996215,1088,3,0,Gemma-3 27B,Google,Human
 Creative arts,gemma-3-27b,False,1.948442700006126,1294,3,0,Gemma-3 27B,Google,Human
@@ -989,46 +989,6 @@ Creative arts,claude-sonnet-4-5-20250929,True,2.358653499999491,1426.0,4.0,0.0,C
 Creative arts,claude-sonnet-4-5-20250929,True,2.24697659999947,1357.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
 Creative arts,claude-sonnet-4-5-20250929,True,3.3994945000013104,1195.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
 Creative arts,claude-sonnet-4-5-20250929,True,2.6770896000016364,1665.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,4.725142499999492,1830,1,764,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,3.7456483999994816,1726,1,648,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,6.279659899999388,2419,1,1135,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,3.2892676000046777,1597,1,545,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,False,5.151485800000955,2178,1,926,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,False,4.403835400000389,1756,1,686,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,False,4.906470800000534,2064,1,878,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,5.120699300001434,2157,1,948,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,False,4.205613500002073,1772,1,715,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,5.567002700001467,2030,1,943,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,4.85977709999861,1869,1,748,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,4.069833000001381,1884,1,750,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,4.794916300001205,1959,1,787,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,3.4705579000001308,1598,1,580,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,False,4.446507599997858,1899,1,758,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,3.582608699995035,1724,1,639,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,5.528006400003505,2224,1,976,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,False,4.960469899997406,2044,1,873,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,False,3.800004199998512,1646,1,609,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,False,5.27320360000158,1920,1,882,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,False,5.852750400001241,2442,1,1131,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,False,3.5871858000027714,1668,1,611,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,False,4.6566399000003,1902,1,810,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,False,7.831154499996046,3014,1,1495,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,4.766945100003795,1977,1,811,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,5.531803400001081,2249,1,1043,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,5.328127100001439,1999,1,864,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,5.344843399994716,2212,1,971,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,False,3.868198099997244,1668,1,611,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,False,6.522179100000358,2353,1,1109,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,5.359464299996034,2419,1,1081,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,False,7.371864000000642,2580,1,1340,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,7.055794299994886,2864,1,1314,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,9.984672499995211,3264,1,1915,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,False,5.440267099998891,2124,1,979,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,6.441991600004258,2616,1,1212,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,False,5.671500000004016,2349,1,1104,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,5.917679199999839,2171,1,971,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,4.092821199999889,1668,1,611,Gemini-2.5 Flash,Google,Human
-Creative arts,gemini-2.5-flash-preview-09-2025,True,6.608378900004027,2790,1,1329,Gemini-2.5 Flash,Google,Human
 Creative arts,gemini-2.5-flash-lite-preview-09-2025,True,0.7725738999943133,1066,1,,Gemini-2.5 Flash-Lite,Google,Human
 Creative arts,gemini-2.5-flash-lite-preview-09-2025,True,1.0517468000034569,1078,1,,Gemini-2.5 Flash-Lite,Google,Human
 Creative arts,gemini-2.5-flash-lite-preview-09-2025,True,0.928211200000078,1284,1,,Gemini-2.5 Flash-Lite,Google,Human
@@ -1149,6 +1109,46 @@ Creative arts,gpt-5.2-2025-12-11-medium,True,3.1591911000432447,1221,108,98,GPT-
 Creative arts,gpt-5.2-2025-12-11-medium,True,3.546753600006923,1166,101,91,GPT-5.2 (Medium),OpenAI,Human
 Creative arts,gpt-5.2-2025-12-11-medium,True,2.8237245999625884,1020,84,74,GPT-5.2 (Medium),OpenAI,Human
 Creative arts,gpt-5.2-2025-12-11-medium,True,3.247142000007443,1397,89,79,GPT-5.2 (Medium),OpenAI,Human
+Creative arts,gemini-3-flash-preview,True,305.3622794000257,63983,1.0,62913,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,4.371954099973664,1667,1.0,589,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,5.400359899998875,2103,1.0,815,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,3.2908788999775425,1579,1.0,527,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,False,11.54943089999142,3097,1.0,1842,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,False,12.431913499982327,3085,1.0,2015,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,6.424946600018302,2080,1.0,893,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,False,8.904483100021025,2603,1.0,1389,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,52.91260919999331,9839,1.0,8782,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,False,304.693362799997,63998,,62912,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,3.7355276999878697,1679,1.0,555,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,4.300348999997368,1727,1.0,593,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,3.961734599986812,1727,1.0,550,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,3.952437600004487,1586,1.0,568,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,11.645944499992764,3078,,1934,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,False,8.622730400005821,2323,1.0,1238,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,4.199964800005546,1965,1.0,713,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,False,6.429152199998498,2150,1.0,979,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,False,3.822627900022781,1595,1.0,558,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,False,22.3066145000048,4803,,3766,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,False,4.842363500007195,2020,1.0,709,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,False,53.33549289999064,9839,1.0,8782,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,False,312.612690799986,64004,,62912,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,6.779288499994436,2563,1.0,1044,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,3.545826100016712,1650,1.0,483,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,6.034442800009856,2228,1.0,1019,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,55.194101700006286,10583,1.0,9448,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,5.418443400005344,2081,1.0,840,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,False,53.58692050000536,9839,1.0,8782,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,False,4.6929212999821175,2038,1.0,794,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,False,6.1323689999990165,2334,1.0,996,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,14.415985400002684,3511,,2272,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,7.874436699989019,2722,1.0,1172,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,18.83405970002059,4621,1.0,3268,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,False,41.79578099999344,8125,,6976,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,4.06820599999628,2022,1.0,617,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,14.040680300007809,3446,1.0,2201,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,5.804827100015245,2123,,923,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,False,52.76924839999992,9839,1.0,8782,Gemini-3 Flash,Google,Human
+Creative arts,gemini-3-flash-preview,True,4.360095899988664,2065,1.0,604,Gemini-3 Flash,Google,Human
 Maths,gemma-3-27b,False,5.591099600002053,1041,3,0,Gemma-3 27B,Google,Human
 Maths,gemma-3-27b,False,2.8431715999977314,1084,3,0,Gemma-3 27B,Google,Human
 Maths,gemma-3-27b,False,4.289211700001033,1152,3,0,Gemma-3 27B,Google,Human
@@ -1389,46 +1389,6 @@ Maths,claude-sonnet-4-5-20250929,False,2.607867700004136,1716.0,4.0,0.0,Claude S
 Maths,claude-sonnet-4-5-20250929,True,2.3843593999990844,1361.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
 Maths,claude-sonnet-4-5-20250929,False,2.588610200000403,1278.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
 Maths,claude-sonnet-4-5-20250929,True,3.401167300005909,1139.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
-Maths,gemini-2.5-flash-preview-09-2025,False,3.285246300001745,1691,1,660,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,4.023944400003529,1810,1,736,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,False,4.139808600004471,1890,1,748,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,4.898366700006591,1989,1,896,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,5.360046300003887,2097,1,969,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,4.094283099999302,1768,1,686,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,4.048324600000342,1767,1,653,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,False,4.403342400000838,1822,1,725,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,5.521525299998757,2388,1,1038,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,5.9617031999951,2234,1,1011,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,5.376946700002009,2024,1,885,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,False,4.6655928999971366,2070,1,865,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,4.406376999999338,1878,1,748,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,5.698921099996369,2595,1,1165,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,False,6.98409740000352,2813,1,1350,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,4.809677500001271,2204,1,915,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,4.751868600003945,2055,1,852,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,3.717613100001472,1746,1,637,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,7.961641400004737,2696,1,1516,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,False,3.807504299998982,1928,1,725,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,6.040668499997992,2326,1,1055,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,False,4.591582399996696,1997,1,814,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,4.04785379999521,1908,1,708,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,False,5.759158499997284,2536,1,1154,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,4.913501100003487,2137,1,914,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,4.899537400000554,2337,1,1022,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,5.0777376999976696,2192,1,885,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,False,9.919309800003248,3081,1,1838,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,4.285817800002405,1760,1,711,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,False,6.897080700000515,2606,1,1374,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,4.81304889999592,2090,1,861,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,False,7.796263199998066,3110,1,1597,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,False,7.55137019999529,3038,1,1491,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,5.273131800000556,2118,1,885,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,7.641975099999399,2880,1,1551,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,5.031647499999963,2250,1,960,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,False,7.575425900002301,3178,1,1661,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,False,5.064705700002378,2108,1,911,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,3.9715118000021903,1851,1,734,Gemini-2.5 Flash,Google,Human
-Maths,gemini-2.5-flash-preview-09-2025,True,3.4806641999966814,1611,1,608,Gemini-2.5 Flash,Google,Human
 Maths,gemini-2.5-flash-lite-preview-09-2025,False,0.4239526000019396,1031,1,,Gemini-2.5 Flash-Lite,Google,Human
 Maths,gemini-2.5-flash-lite-preview-09-2025,False,0.8320394000038505,1074,1,,Gemini-2.5 Flash-Lite,Google,Human
 Maths,gemini-2.5-flash-lite-preview-09-2025,True,0.9668837999925016,1142,1,,Gemini-2.5 Flash-Lite,Google,Human
@@ -1549,6 +1509,46 @@ Maths,gpt-5.2-2025-12-11-medium,False,4.525938899954781,1512,168,158,GPT-5.2 (Me
 Maths,gpt-5.2-2025-12-11-medium,False,4.57506620005006,1234,160,150,GPT-5.2 (Medium),OpenAI,Human
 Maths,gpt-5.2-2025-12-11-medium,True,2.63092989998404,1089,90,80,GPT-5.2 (Medium),OpenAI,Human
 Maths,gpt-5.2-2025-12-11-medium,True,2.692517100018449,968,72,62,GPT-5.2 (Medium),OpenAI,Human
+Maths,gemini-3-flash-preview,False,10.161244799994163,2532,1.0,1501,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,4.810628999985056,1762,1.0,688,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,False,318.5912871999899,64059,1.0,62913,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,4.92359300001408,1810,1.0,717,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,13.745207400002982,3244,1.0,2115,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,3.5583613000053447,1600,1.0,518,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,3.2428758000023663,1536,1.0,422,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,False,5.246288900001673,1834,1.0,737,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,4.827507100009825,2052,1.0,702,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,4.130261300015263,1837,1.0,606,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,4.112626300018746,1748,1.0,605,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,False,13.229221200017491,3252,1.0,2047,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,False,308.5124706000206,64041,,62912,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,False,311.20067319998634,64340,1.0,62910,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,False,14.259070400003113,3726,1.0,2259,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,4.105043099989416,1899,1.0,599,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,3.6692802000034135,1746,1.0,543,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,9.851826700003585,2763,1.0,1653,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,9.137319999979807,2778,1.0,1598,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,False,299.53341440000804,64120,2.0,62912,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,5.26043490000302,2062,1.0,791,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,3.97860820000642,1775,1.0,592,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,28.535692199977348,5952,1.0,4748,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,10.16598590000649,2988,1.0,1606,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,6.3936893999925815,2192,1.0,969,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,3.05716160000884,1712,1.0,393,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,306.4633278999827,64298,77.0,62913,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,10.366219899995484,2938,1.0,1691,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,3.9841247999866014,1621,1.0,572,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,False,309.81333119998453,64146,1.0,62910,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,11.48299620000762,3061,,1829,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,False,10.394566300004954,3221,1.0,1704,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,303.1656670999946,64457,,62911,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,28.583912700007204,5945,1.0,4712,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,294.4884093000146,64251,,62911,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,4.609149199997773,2092,1.0,797,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,4.718102399987401,2275,1.0,750,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,False,301.61347639997257,64110,1.0,62913,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,3.006113200011896,1572,1.0,451,Gemini-3 Flash,Google,Human
+Maths,gemini-3-flash-preview,True,7.144757000001846,2125,1.0,1122,Gemini-3 Flash,Google,Human
 Social studies,gemma-3-27b,False,4.3125259000080405,1310,3,0,Gemma-3 27B,Google,Human
 Social studies,gemma-3-27b,False,3.157106599988765,1021,3,0,Gemma-3 27B,Google,Human
 Social studies,gemma-3-27b,False,3.8038678000011714,1012,3,0,Gemma-3 27B,Google,Human
@@ -1729,36 +1729,6 @@ Social studies,claude-sonnet-4-5-20250929,False,2.2651304000028176,1791.0,4.0,0.
 Social studies,claude-sonnet-4-5-20250929,False,2.769757200003369,1894.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
 Social studies,claude-sonnet-4-5-20250929,True,2.7810657000081846,1741.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
 Social studies,claude-sonnet-4-5-20250929,True,4.134547900001053,1241.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
-Social studies,gemini-2.5-flash-preview-09-2025,True,8.37640230001125,2860,1,1560,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,11.853684500005327,3093,1,2082,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,6.373683300000266,2094,1,1092,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,4.479563100001542,1839,1,802,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,True,5.696494399991934,2200,1,969,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,8.099239000002854,3048,1,1595,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,5.374933700004476,2176,1,1063,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,4.7077109000092605,1888,1,799,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,5.75514480000129,2226,1,1055,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,True,3.94944929999474,1822,1,688,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,3.93977409999934,1700,1,663,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,4.1445750999992015,1700,1,663,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,True,4.925737600002321,1984,1,826,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,True,9.82290980000107,3159,1,1884,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,7.455225700003211,2442,1,1242,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,5.738586599996779,2177,1,1012,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,True,6.413708299995051,2635,1,1321,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,4.673185399995418,1956,1,833,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,4.657969899999443,2010,1,823,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,True,4.245779899996705,1875,1,793,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,True,6.419006000010995,2286,1,1097,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,4.791087300007348,1994,1,888,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,True,4.806053299995256,2159,1,825,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,3.919464699996752,1700,1,663,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,5.774421900001471,2172,1,998,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,6.797810799995204,2682,1,1340,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,5.457938599996851,2590,1,1009,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,8.548475600007805,3463,1,1803,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,True,5.880577300005825,2626,1,1121,Gemini-2.5 Flash,Google,Human
-Social studies,gemini-2.5-flash-preview-09-2025,False,4.58422679999785,1933,1,844,Gemini-2.5 Flash,Google,Human
 Social studies,gemini-2.5-flash-lite-preview-09-2025,False,0.5174901999998838,1300,1,,Gemini-2.5 Flash-Lite,Google,Human
 Social studies,gemini-2.5-flash-lite-preview-09-2025,False,0.8632209999923361,1011,1,,Gemini-2.5 Flash-Lite,Google,Human
 Social studies,gemini-2.5-flash-lite-preview-09-2025,False,0.9614726999861888,1002,1,,Gemini-2.5 Flash-Lite,Google,Human
@@ -1849,6 +1819,36 @@ Social studies,gpt-5.2-2025-12-11-medium,False,8.831411899998784,1689,284,274,GP
 Social studies,gpt-5.2-2025-12-11-medium,False,6.751192900002934,1679,197,187,GPT-5.2 (Medium),OpenAI,Human
 Social studies,gpt-5.2-2025-12-11-medium,True,3.4351514000445604,1445,104,95,GPT-5.2 (Medium),OpenAI,Human
 Social studies,gpt-5.2-2025-12-11-medium,False,6.309881399967708,1204,244,234,GPT-5.2 (Medium),OpenAI,Human
+Social studies,gemini-3-flash-preview,False,8.132852300012019,2677,,1377,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,False,6.272537200013176,1946,1.0,931,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,False,6.866713399998844,2055,1.0,1053,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,False,101.63610070000868,18307,1.0,17270,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,True,3.333689000020968,1622,1.0,391,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,False,298.4675043000025,64366,1.0,62913,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,False,308.4508345000213,64027,,62911,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,True,22.945100700017065,4815,1.0,3726,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,True,11.076347900001563,2981,1.0,1806,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,True,4.2113690999976825,1795,1.0,661,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,False,100.323959500005,18307,1.0,17270,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,False,102.77035929998964,18307,1.0,17270,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,True,3.715962199989008,1725,1.0,562,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,True,10.187117199995557,2901,1.0,1626,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,False,303.02896689999034,64112,,62912,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,True,5.673454700008733,2046,,882,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,True,4.463071700010914,1909,1.0,590,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,True,5.258747599989874,1896,1.0,769,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,True,3.16640039999038,1686,1.0,498,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,True,5.640079200005857,1886,1.0,803,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,True,10.867322100006277,2875,1.0,1686,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,False,16.19241059999331,3754,1.0,2647,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,True,10.184638600010658,2859,1.0,1525,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,False,99.8758639000007,18307,1.0,17270,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,False,4.88716199999908,1883,1.0,709,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,True,4.692104499990819,2082,1.0,736,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,False,11.455082700005732,3349,,1741,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,False,11.452476600010414,3494,,1835,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,True,4.221610299980966,2068,1.0,558,Gemini-3 Flash,Google,Human
+Social studies,gemini-3-flash-preview,True,21.43915680001373,4611,1.0,3522,Gemini-3 Flash,Google,Human
 Technology,gemma-3-27b,False,3.9090894000109984,2058,3,0,Gemma-3 27B,Google,Human
 Technology,gemma-3-27b,False,4.152002300004824,2219,3,0,Gemma-3 27B,Google,Human
 Technology,gemma-3-27b,True,1.480714800010901,2201,3,0,Gemma-3 27B,Google,Human
@@ -2035,37 +2035,6 @@ Technology,claude-sonnet-4-5-20250929,False,3.862839900000836,2373.0,4.0,0.0,Cla
 Technology,claude-sonnet-4-5-20250929,True,3.65807340000174,2977.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
 Technology,claude-sonnet-4-5-20250929,True,3.4644947000051616,2640.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
 Technology,claude-sonnet-4-5-20250929,False,2.5102180000103544,2373.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,3.279903500006185,2638,1,590,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,False,6.043512399992324,3240,1,1031,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,4.752589399999124,2957,1,766,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,6.198745000001509,3213,1,1001,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,False,4.399862499994924,2816,1,701,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,False,5.722266199998558,3302,1,1001,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,4.972691999995732,3002,1,794,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,False,6.304345500000636,3389,1,1116,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,5.969818199999281,3637,1,1040,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,4.581177899992326,2805,1,739,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,False,6.0480842999968445,3169,1,982,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,6.376432399993064,3332,1,1093,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,7.350149100006092,3585,1,1227,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,False,4.286880500003463,2792,1,721,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,6.665752799992333,3450,1,1109,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,7.585246799993911,3896,1,1405,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,6.9268200999940746,3877,1,1329,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,False,3.5517187000077683,2646,1,575,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,6.301255800004583,3588,1,1154,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,7.059423800004879,3677,1,1265,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,6.658620299989707,3441,1,1222,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,False,6.160579000003054,3225,1,1002,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,False,4.605338900000788,2792,1,721,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,7.561805700010154,3935,1,1432,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,6.037727899994934,3275,1,1029,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,8.80397810001159,4610,1,1768,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,6.544109599999501,3472,1,1150,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,3.6525198000017554,2646,1,575,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,6.590387399992324,3888,1,1283,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,True,5.674229500000365,3303,1,997,Gemini-2.5 Flash,Google,Human
-Technology,gemini-2.5-flash-preview-09-2025,False,4.443285999994259,2792,1,721,Gemini-2.5 Flash,Google,Human
 Technology,gemini-2.5-flash-lite-preview-09-2025,False,1.6964294000063092,2048,1,,Gemini-2.5 Flash-Lite,Google,Human
 Technology,gemini-2.5-flash-lite-preview-09-2025,False,0.700403599999845,2209,1,,Gemini-2.5 Flash-Lite,Google,Human
 Technology,gemini-2.5-flash-lite-preview-09-2025,False,1.053280199994333,2191,1,,Gemini-2.5 Flash-Lite,Google,Human
@@ -2159,6 +2128,37 @@ Technology,gpt-5.2-2025-12-11-medium,False,3.0103075000224635,1890,74,64,GPT-5.2
 Technology,gpt-5.2-2025-12-11-medium,True,3.168002999969758,2367,95,85,GPT-5.2 (Medium),OpenAI,Human
 Technology,gpt-5.2-2025-12-11-medium,True,3.5333688000100665,2125,115,105,GPT-5.2 (Medium),OpenAI,Human
 Technology,gpt-5.2-2025-12-11-medium,False,3.294464600039646,1917,101,91,GPT-5.2 (Medium),OpenAI,Human
+Technology,gemini-3-flash-preview,True,3.3622006000077818,2531,1.0,483,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,37.00006979997852,8133,1.0,5924,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,3.968848100019386,2699,1.0,508,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,False,3.905924300022889,2734,1.0,518,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,13.80516859999625,4280,1.0,2159,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,False,10.36715770000592,4075,1.0,1770,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,3.69585369998822,2767,1.0,555,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,10.814460199995665,3957,1.0,1680,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,290.3092343999888,65524,,62911,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,4.613783600012539,2701,1.0,635,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,False,309.1977793999831,65097,,62911,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,6.060142600006657,3081,1.0,841,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,22.25531159999082,6035,,3678,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,False,15.449551000026986,4587,1.0,2516,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,False,9.070510699995792,3748,1.0,1403,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,False,13.129207499994664,4639,1.0,2148,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,5.025395800010301,3300,1.0,748,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,False,15.565859800000908,4587,1.0,2516,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,8.678837899991777,3773,1.0,1335,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,25.93171299999813,6751,1.0,4338,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,6.307878699997673,3315,1.0,1096,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,False,21.61785119998968,5661,1.0,3434,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,False,15.491843099996911,4587,1.0,2516,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,9.703100199985784,4020,,1513,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,314.2947603999928,65161,,62912,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,18.97717579998425,5778,1.0,2935,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,20.86826230000588,5731,1.0,3409,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,False,15.377312199998414,4587,1.0,2516,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,3.653881599981105,3099,1.0,491,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,True,316.8664837999968,65220,,62912,Gemini-3 Flash,Google,Human
+Technology,gemini-3-flash-preview,False,15.42675959999906,4587,1.0,2516,Gemini-3 Flash,Google,Human
 General,gemma-3-27b,True,5.861968999990495,948,3,0,Gemma-3 27B,Google,Human
 General,gemma-3-27b,False,1.0614100000093458,871,3,0,Gemma-3 27B,Google,Human
 General,gemma-3-27b,False,0.6045966000092449,972,3,0,Gemma-3 27B,Google,Human
@@ -2273,25 +2273,6 @@ General,claude-sonnet-4-5-20250929,True,2.2200451999960933,1099.0,4.0,0.0,Claude
 General,claude-sonnet-4-5-20250929,True,2.930289500000072,1227.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
 General,claude-sonnet-4-5-20250929,False,2.257398000001558,1318.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
 General,claude-sonnet-4-5-20250929,True,2.1824137999938102,970.0,4.0,0.0,Claude Sonnet 4.5,Anthropic,Human
-General,gemini-2.5-flash-preview-09-2025,True,4.156238399998983,1634,1,696,Gemini-2.5 Flash,Google,Human
-General,gemini-2.5-flash-preview-09-2025,True,3.606219499997678,1489,1,628,Gemini-2.5 Flash,Google,Human
-General,gemini-2.5-flash-preview-09-2025,False,4.262831100000767,1696,1,734,Gemini-2.5 Flash,Google,Human
-General,gemini-2.5-flash-preview-09-2025,False,4.928870100004133,1676,1,783,Gemini-2.5 Flash,Google,Human
-General,gemini-2.5-flash-preview-09-2025,True,5.543052099994384,2063,1,999,Gemini-2.5 Flash,Google,Human
-General,gemini-2.5-flash-preview-09-2025,True,5.166220899991458,1851,1,869,Gemini-2.5 Flash,Google,Human
-General,gemini-2.5-flash-preview-09-2025,False,5.325988299999153,1703,1,832,Gemini-2.5 Flash,Google,Human
-General,gemini-2.5-flash-preview-09-2025,False,4.131526900004246,1455,1,631,Gemini-2.5 Flash,Google,Human
-General,gemini-2.5-flash-preview-09-2025,True,5.23193419999734,1880,1,873,Gemini-2.5 Flash,Google,Human
-General,gemini-2.5-flash-preview-09-2025,True,4.528658900002483,1676,1,732,Gemini-2.5 Flash,Google,Human
-General,gemini-2.5-flash-preview-09-2025,False,4.792217899987008,1835,1,797,Gemini-2.5 Flash,Google,Human
-General,gemini-2.5-flash-preview-09-2025,False,6.7714906000037445,2362,1,1155,Gemini-2.5 Flash,Google,Human
-General,gemini-2.5-flash-preview-09-2025,True,4.720597299994552,1806,1,830,Gemini-2.5 Flash,Google,Human
-General,gemini-2.5-flash-preview-09-2025,True,4.6083409999992,1889,1,800,Gemini-2.5 Flash,Google,Human
-General,gemini-2.5-flash-preview-09-2025,False,6.3817385000002105,2303,1,1113,Gemini-2.5 Flash,Google,Human
-General,gemini-2.5-flash-preview-09-2025,True,9.63624290000007,2693,1,1697,Gemini-2.5 Flash,Google,Human
-General,gemini-2.5-flash-preview-09-2025,True,6.659045699998387,2159,1,1043,Gemini-2.5 Flash,Google,Human
-General,gemini-2.5-flash-preview-09-2025,True,7.078668200003449,2415,1,1232,Gemini-2.5 Flash,Google,Human
-General,gemini-2.5-flash-preview-09-2025,True,4.735196499997983,1609,1,722,Gemini-2.5 Flash,Google,Human
 General,gemini-2.5-flash-lite-preview-09-2025,True,0.5589595000055851,938,1,,Gemini-2.5 Flash-Lite,Google,Human
 General,gemini-2.5-flash-lite-preview-09-2025,False,0.8270202999992762,861,1,,Gemini-2.5 Flash-Lite,Google,Human
 General,gemini-2.5-flash-lite-preview-09-2025,True,0.9892933000082847,962,1,,Gemini-2.5 Flash-Lite,Google,Human
@@ -2349,6 +2330,25 @@ General,gpt-5.2-2025-12-11-medium,True,4.3185882000252604,1014,161,151,GPT-5.2 (
 General,gpt-5.2-2025-12-11-medium,True,4.301516000006814,1089,127,117,GPT-5.2 (Medium),OpenAI,Human
 General,gpt-5.2-2025-12-11-medium,False,9.18412689998513,1263,237,227,GPT-5.2 (Medium),OpenAI,Human
 General,gpt-5.2-2025-12-11-medium,False,8.838807900028769,1086,328,318,GPT-5.2 (Medium),OpenAI,Human
+General,gemini-3-flash-preview,True,3.923890600010054,1459,1.0,521,Gemini-3 Flash,Google,Human
+General,gemini-3-flash-preview,True,10.416130199999316,2640,1.0,1779,Gemini-3 Flash,Google,Human
+General,gemini-3-flash-preview,True,10.469679000001634,2634,,1669,Gemini-3 Flash,Google,Human
+General,gemini-3-flash-preview,False,19.87567099998705,4044,1.0,3151,Gemini-3 Flash,Google,Human
+General,gemini-3-flash-preview,True,4.814194900012808,1827,1.0,763,Gemini-3 Flash,Google,Human
+General,gemini-3-flash-preview,True,11.137400000006892,2709,1.0,1727,Gemini-3 Flash,Google,Human
+General,gemini-3-flash-preview,True,14.347882400004892,3009,1.0,2137,Gemini-3 Flash,Google,Human
+General,gemini-3-flash-preview,False,4.509288400004152,1531,1.0,707,Gemini-3 Flash,Google,Human
+General,gemini-3-flash-preview,True,27.82657229999313,5632,1.0,4625,Gemini-3 Flash,Google,Human
+General,gemini-3-flash-preview,True,4.444714400015073,1578,1.0,628,Gemini-3 Flash,Google,Human
+General,gemini-3-flash-preview,False,3.927235000010114,1623,1.0,582,Gemini-3 Flash,Google,Human
+General,gemini-3-flash-preview,True,4.819252999994205,1873,1.0,666,Gemini-3 Flash,Google,Human
+General,gemini-3-flash-preview,True,4.030033200018806,1640,1.0,660,Gemini-3 Flash,Google,Human
+General,gemini-3-flash-preview,True,3.81288310000673,1683,1.0,594,Gemini-3 Flash,Google,Human
+General,gemini-3-flash-preview,True,21.212596099998336,4609,,3420,Gemini-3 Flash,Google,Human
+General,gemini-3-flash-preview,False,35.09744939999655,6852,1.0,5856,Gemini-3 Flash,Google,Human
+General,gemini-3-flash-preview,True,4.005706399999326,1726,1.0,610,Gemini-3 Flash,Google,Human
+General,gemini-3-flash-preview,True,10.576698599994415,2787,1.0,1604,Gemini-3 Flash,Google,Human
+General,gemini-3-flash-preview,False,9.795326899999054,2469,1.0,1582,Gemini-3 Flash,Google,Human
 Science,gemma-3-27b,False,0.9906979000661522,1862,2,,Gemma-3 27B,Google,LLM
 Science,gemma-3-27b,True,1.337999900104478,1768,2,,Gemma-3 27B,Google,LLM
 Science,gemma-3-27b,True,1.267731900094077,1672,2,,Gemma-3 27B,Google,LLM
@@ -2571,43 +2571,6 @@ Science,claude-sonnet-4-5-20250929,True,2.354677600087598,1902,4,0,Claude Sonnet
 Science,claude-sonnet-4-5-20250929,True,2.9351711999624968,2009,4,0,Claude Sonnet 4.5,Anthropic,LLM
 Science,claude-sonnet-4-5-20250929,False,3.787988099968061,2226,4,0,Claude Sonnet 4.5,Anthropic,LLM
 Science,claude-sonnet-4-5-20250929,True,2.247778999852017,2193,4,0,Claude Sonnet 4.5,Anthropic,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,6.75701340008527,2931,1,1078.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,4.078894899925217,2447,1,688.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,6.270723599940538,2633,1,970.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,8.686719299992546,2953,1,1365.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,False,4.256672499934211,2276,1,601.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,4.337152699939907,2498,1,696.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,5.681952999904752,2769,1,917.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,6.473243799991906,2919,1,1111.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,False,6.3285924000665545,2967,1,1096.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,4.10172970010899,2394,1,728.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,4.40111290011555,2400,1,760.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,4.553325000219047,2633,1,880.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,4.390772399958223,2309,1,675.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,7.280153699917719,3244,1,1369.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,False,11.560445199953392,4046,1,2261.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,5.879468200029805,3117,1,1137.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,6.716870100004599,3221,1,1281.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,4.814329900080338,2553,1,863.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,6.1728862000163645,2703,1,941.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,False,6.044007200049236,2947,1,1071.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,4.814275599783287,2659,1,951.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,7.883558599976823,3025,1,1322.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,4.482881099916995,2547,1,796.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,False,5.939829599810764,2833,1,1028.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,False,4.313375899801031,2210,1,648.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,4.981843700166792,2527,1,801.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,6.163285899907351,2954,1,1229.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,5.56769960001111,2825,1,1022.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,6.11158230016008,3086,1,1140.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,5.834851699881256,2785,1,940.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,5.635561800096184,2863,1,1027.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,6.199888000031933,3010,1,1103.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,False,12.099797900067642,4364,1,2050.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,False,6.04430459998548,2756,1,1076.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,False,5.631940999999642,2704,1,923.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,8.861635399982333,3704,1,1726.0,Gemini-2.5 Flash,Google,LLM
-Science,gemini-2.5-flash-preview-09-2025,True,6.987724200123921,3182,1,1248.0,Gemini-2.5 Flash,Google,LLM
 Science,gemini-2.5-flash-lite-preview-09-2025,False,1.260919600026682,1853,1,,Gemini-2.5 Flash-Lite,Google,LLM
 Science,gemini-2.5-flash-lite-preview-09-2025,True,1.4603576001245528,1759,1,,Gemini-2.5 Flash-Lite,Google,LLM
 Science,gemini-2.5-flash-lite-preview-09-2025,True,1.2275658999569714,1663,1,,Gemini-2.5 Flash-Lite,Google,LLM
@@ -2719,6 +2682,43 @@ Science,gpt-5.2-2025-12-11-medium,False,2.416936099994928,1531,41,31,GPT-5.2 (Me
 Science,gpt-5.2-2025-12-11-medium,False,16.23578880005516,2061,481,471,GPT-5.2 (Medium),OpenAI,LLM
 Science,gpt-5.2-2025-12-11-medium,False,6.601792899949942,2018,266,256,GPT-5.2 (Medium),OpenAI,LLM
 Science,gpt-5.2-2025-12-11-medium,True,7.854321599996183,2007,286,276,GPT-5.2 (Medium),OpenAI,LLM
+Science,gemini-3-flash-preview,False,41.159264000016265,8812,1.0,6959,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,3.041612900007749,2145,1.0,386,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,4.510437300021295,2254,1.0,591,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,3.243504000012763,2010,1.0,422,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,False,3.682659000012791,2161,1.0,486,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,2.6929791000147816,2177,1.0,375,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,5.55793119998998,2595,1.0,743,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,5.171117299993057,2680,1.0,872,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,False,13.388851600000637,4029,1.0,2158,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,12.268489600013709,3726,1.0,2060,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,3.461713400000008,2175,1.0,535,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,6.86281130000134,2843,1.0,1090,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,2.928181700001005,2018,1.0,384,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,13.537531499983745,4029,1.0,2154,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,5.67318179999711,2617,1.0,832,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,False,16.24151239998173,4518,1.0,2538,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,7.311535000015283,3077,1.0,1137,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,4.374551500019152,2299,1.0,609,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,4.704761800006963,2482,1.0,720,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,False,5.257951000006869,2760,1.0,884,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,4.142637200013269,2317,1.0,609,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,4.86840750000556,2350,1.0,647,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,False,4.753497199999401,2443,1.0,692,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,False,7.806699400010984,2965,1.0,1160,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,False,26.39007739999215,5774,1.0,4212,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,2.572334800002864,2109,1.0,383,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,False,13.140443500014952,3813,1.0,2088,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,3.635623000009218,2239,1.0,436,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,4.799892300012289,2646,1.0,700,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,7.052096800005529,2855,1.0,1010,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,5.033770799986087,2512,1.0,676,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,10.621580900013214,3493,1.0,1586,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,315.86090759999934,65224,1.0,62910,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,False,10.171587799995905,3138,1.0,1458,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,40.65386550000403,7969,1.0,6188,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,51.67910919999122,10252,1.0,8274,Gemini-3 Flash,Google,LLM
+Science,gemini-3-flash-preview,True,8.487092800001847,3192,1.0,1258,Gemini-3 Flash,Google,LLM
 Literacy,gemma-3-27b,False,1.6032015001401303,1354,2,,Gemma-3 27B,Google,LLM
 Literacy,gemma-3-27b,False,1.4223875000607222,1312,2,,Gemma-3 27B,Google,LLM
 Literacy,gemma-3-27b,True,1.203492100117728,1499,3,,Gemma-3 27B,Google,LLM
@@ -2947,44 +2947,6 @@ Literacy,claude-sonnet-4-5-20250929,True,3.597394600044936,1548,4,0,Claude Sonne
 Literacy,claude-sonnet-4-5-20250929,False,5.758826599922031,1920,4,0,Claude Sonnet 4.5,Anthropic,LLM
 Literacy,claude-sonnet-4-5-20250929,True,3.286814199993387,1514,4,0,Claude Sonnet 4.5,Anthropic,LLM
 Literacy,claude-sonnet-4-5-20250929,False,2.9182982998900115,1457,4,0,Claude Sonnet 4.5,Anthropic,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,4.4595244999509305,2055,1,710.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,4.155519000021741,1871,1,568.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,5.327413599938154,2360,1,870.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,False,10.28483449993655,2974,1,1593.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,False,4.913103800034151,2102,1,737.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,False,5.2502091999631375,2172,1,794.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,3.6948388000018895,1843,1,539.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,5.864376699784771,2498,1,942.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,False,7.9732233001850545,2990,1,1292.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,False,5.17302619991824,2137,1,824.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,False,6.775369599927217,2825,1,1195.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,False,5.49087840016,2333,1,885.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,False,7.400314599974081,2676,1,1158.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,False,7.065257899928838,2566,1,1152.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,False,5.197141099954024,2084,1,767.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,4.000406599836424,1975,1,665.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,4.156325399875641,2290,1,724.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,3.5623903998639435,1999,1,651.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,False,5.789819999830797,2684,1,1116.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,7.198522699996829,3153,1,1428.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,6.71109059988521,2882,1,1285.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,False,4.437853399896994,1987,1,718.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,3.3474322999827564,2003,1,615.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,False,5.811545399948955,2745,1,1126.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,False,5.816719700116664,2684,1,1092.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,False,6.65930789988488,3004,1,1311.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,False,4.420432600192726,2167,1,790.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,6.856524699833244,3021,1,1210.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,5.428671800065786,2629,1,1088.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,6.052551900036633,2806,1,1145.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,False,5.758644399931654,2689,1,1077.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,5.231295899953693,2361,1,868.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,5.64106409996748,2590,1,1043.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,7.088992199860513,2951,1,1302.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,4.675543499877676,2242,1,844.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,6.326662000035867,2737,1,1020.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,True,3.452698500128463,1974,1,606.0,Gemini-2.5 Flash,Google,LLM
-Literacy,gemini-2.5-flash-preview-09-2025,False,4.173401900101453,1986,1,671.0,Gemini-2.5 Flash,Google,LLM
 Literacy,gemini-2.5-flash-lite-preview-09-2025,True,1.3317108999472111,1345,1,,Gemini-2.5 Flash-Lite,Google,LLM
 Literacy,gemini-2.5-flash-lite-preview-09-2025,False,1.1358804998453709,1303,1,,Gemini-2.5 Flash-Lite,Google,LLM
 Literacy,gemini-2.5-flash-lite-preview-09-2025,True,1.3682877998799086,1490,1,,Gemini-2.5 Flash-Lite,Google,LLM
@@ -3099,6 +3061,44 @@ Literacy,gpt-5.2-2025-12-11-medium,True,2.973999999987427,1322,100,90,GPT-5.2 (M
 Literacy,gpt-5.2-2025-12-11-medium,True,6.995728800015058,1758,238,228,GPT-5.2 (Medium),OpenAI,LLM
 Literacy,gpt-5.2-2025-12-11-medium,True,2.411644999985583,1258,74,64,GPT-5.2 (Medium),OpenAI,LLM
 Literacy,gpt-5.2-2025-12-11-medium,False,4.619162999966648,1257,115,105,GPT-5.2 (Medium),OpenAI,LLM
+Literacy,gemini-3-flash-preview,True,7.182448899984593,2389,1.0,1044,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,3.791454599995632,1816,1.0,513,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,4.789238400000613,2241,1.0,751,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,False,13.8341333999997,3712,1.0,2331,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,False,3.501643800002057,1858,1.0,493,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,False,7.703280899993842,2612,1.0,1234,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,3.332550800027093,1744,1.0,440,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,11.882483900000809,3326,1.0,1770,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,9.715040000010047,3054,1.0,1356,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,False,6.455431400012458,2255,,943,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,False,18.63857730000745,4553,1.0,2923,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,4.029730700014625,2026,1.0,578,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,21.54205240000738,5003,1.0,3485,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,12.297704600001452,3224,,1811,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,6.83986580002238,2334,1.0,1017,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,3.390384199999972,1764,1.0,454,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,3.695103700010805,2067,1.0,501,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,3.291980399983004,1826,1.0,478,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,False,4.343568000011146,2305,1.0,737,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,11.39695229998324,3571,1.0,1846,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,11.792990099987946,3399,1.0,1802,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,10.63074019999476,2875,1.0,1606,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,2.364426700019976,1716,1.0,328,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,False,34.55935799999861,7180,1.0,5561,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,False,3.833937599993078,2096,1.0,504,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,5.275135499978205,2451,1.0,758,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,3.93644220000715,1937,1.0,560,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,85.146358900005,15406,,13596,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,False,7.172090300009586,2597,1.0,1056,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,4.873592599993572,2370,1.0,709,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,False,11.204960800008848,3318,1.0,1706,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,3.325097000022652,1921,1.0,428,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,False,11.26209689999814,3231,1.0,1684,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,19.87796330000856,4776,1.0,3127,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,False,5.342521999991732,2157,1.0,759,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,6.40833050000947,2646,1.0,929,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,True,3.9943468999990728,1954,1.0,586,Gemini-3 Flash,Google,LLM
+Literacy,gemini-3-flash-preview,False,31.420751500001643,6334,1.0,5019,Gemini-3 Flash,Google,LLM
 Creative arts,gemma-3-27b,False,0.7155400000046939,1085,3,,Gemma-3 27B,Google,LLM
 Creative arts,gemma-3-27b,False,2.131814999971539,1143,3,0.0,Gemma-3 27B,Google,LLM
 Creative arts,gemma-3-27b,False,0.902706400025636,1299,2,,Gemma-3 27B,Google,LLM
@@ -3339,46 +3339,6 @@ Creative arts,claude-sonnet-4-5-20250929,False,3.2276826999150217,1868,4,0,Claud
 Creative arts,claude-sonnet-4-5-20250929,True,2.59136820002459,1372,4,0,Claude Sonnet 4.5,Anthropic,LLM
 Creative arts,claude-sonnet-4-5-20250929,False,3.4194640000350773,1355,4,0,Claude Sonnet 4.5,Anthropic,LLM
 Creative arts,claude-sonnet-4-5-20250929,True,3.802682900102809,1680,4,0,Claude Sonnet 4.5,Anthropic,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,4.822025700006634,1828,1,752.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,5.405173099832609,1852,1,719.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,5.677110800053924,2311,1,1021.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,4.235567499883473,1700,1,647.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,6.80717879999429,2381,1,1074.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,4.456496899947524,1724,1,659.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,5.518316200003028,2170,1,955.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,6.183871399844065,2180,1,966.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,6.548144800122827,2050,1,877.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,False,4.425385999958962,1787,1,691.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,4.833891799906269,1878,1,739.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,False,9.876022400101649,2804,1,1662.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,8.545538800070062,2727,1,1342.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,4.436081799911335,1707,1,684.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,False,4.242147199809551,1930,1,754.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,3.378395900130272,1691,1,604.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,False,7.009986999910325,2498,1,1225.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,4.297468299977481,2016,1,841.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,False,4.530793300131336,1844,1,783.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,3.62644899985753,1616,1,580.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,5.927119300002232,2301,1,985.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,False,8.272865100065246,2784,1,1498.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,4.562032500049099,1932,1,796.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,7.168999900110066,2913,1,1426.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,4.678205800009891,1982,1,804.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,False,6.108951900154352,2224,1,1008.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,False,5.265635400079191,1983,1,842.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,5.561682499945164,2267,1,1008.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,7.53928849985823,2793,1,1381.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,5.46609149989672,2091,1,872.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,6.876692899968475,2610,1,1260.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,False,6.844171199947596,2541,1,1299.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,7.221858300035819,2959,1,1469.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,5.605775399832055,2476,1,1091.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,False,5.668077199952677,2129,1,979.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,False,6.220657699974254,2560,1,1128.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,False,7.016474500065669,2784,1,1148.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,5.326217700028792,2196,1,979.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,False,7.688342799898237,2558,1,1353.0,Gemini-2.5 Flash,Google,LLM
-Creative arts,gemini-2.5-flash-preview-09-2025,True,5.789395600091666,2578,1,1098.0,Gemini-2.5 Flash,Google,LLM
 Creative arts,gemini-2.5-flash-lite-preview-09-2025,False,1.3328718999400735,1076,1,,Gemini-2.5 Flash-Lite,Google,LLM
 Creative arts,gemini-2.5-flash-lite-preview-09-2025,False,1.1839746001642195,1133,1,,Gemini-2.5 Flash-Lite,Google,LLM
 Creative arts,gemini-2.5-flash-lite-preview-09-2025,True,1.3615645999088883,1290,1,,Gemini-2.5 Flash-Lite,Google,LLM
@@ -3499,6 +3459,46 @@ Creative arts,gpt-5.2-2025-12-11-medium,False,3.2470202000113204,1556,99,89,GPT-
 Creative arts,gpt-5.2-2025-12-11-medium,True,2.990884199971333,1170,93,83,GPT-5.2 (Medium),OpenAI,LLM
 Creative arts,gpt-5.2-2025-12-11-medium,False,4.489105999993626,1203,135,125,GPT-5.2 (Medium),OpenAI,LLM
 Creative arts,gpt-5.2-2025-12-11-medium,True,3.452520499995444,1441,118,108,GPT-5.2 (Medium),OpenAI,LLM
+Creative arts,gemini-3-flash-preview,True,3.7344564000086393,1616,1.0,540,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,14.281390599993756,3377,1.0,2244,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,3.7265630000038072,1791,,502,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,3.470708600012585,1533,1.0,480,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,316.137433099997,64217,1.0,62910,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,3.742413600004511,1566,,502,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,7.718911599979037,2249,1.0,1034,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,False,8.638680100004422,2603,1.0,1389,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,3.166514299984556,1528,1.0,355,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,False,3.0667133999813814,1534,,439,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,4.814583600003971,1831,1.0,692,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,4.836847799975658,1816,1.0,674,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,15.140414800000144,3714,1.0,2329,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,3.712099199998193,1574,1.0,551,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,312.5548996000143,64087,,62912,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,10.496150399994804,2588,1.0,1501,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,4.36709049998899,1978,1.0,705,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,4.664976300002309,1855,1.0,680,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,False,15.785279699979585,3418,1.0,2357,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,14.39782089999062,3177,1.0,2141,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,False,5.056514800002333,2025,1.0,709,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,19.629298899992136,4382,1.0,3096,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,False,9.693378800002392,2617,1.0,1481,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,7.195517999993172,2500,1.0,1013,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,3.203591699973913,1601,1.0,423,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,4.901094300003024,1970,1.0,754,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,9.666101299982984,2561,,1421,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,8.241067599999951,2565,1.0,1306,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,6.295963699987624,2346,1.0,934,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,4.962482400005683,2000,1.0,781,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,False,5.473132400016766,2194,,845,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,False,318.73264450000715,64155,1.0,62913,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,3.4410449999850243,2009,1.0,519,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,5.509859900019364,2254,1.0,869,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,False,42.62172289998853,8125,,6976,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,False,16.329324599995743,4115,1.0,2683,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,False,10.623661299992818,3354,1.0,1718,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,4.807499100017594,1929,1.0,712,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,False,3.523005800001556,1731,1.0,526,Gemini-3 Flash,Google,LLM
+Creative arts,gemini-3-flash-preview,True,4.793021600024076,2164,1.0,684,Gemini-3 Flash,Google,LLM
 Maths,gemma-3-27b,False,4.256851600017399,1062,3,,Gemma-3 27B,Google,LLM
 Maths,gemma-3-27b,False,2.769188900012523,1090,2,,Gemma-3 27B,Google,LLM
 Maths,gemma-3-27b,False,1.7188949000556022,1146,3,,Gemma-3 27B,Google,LLM
@@ -3739,46 +3739,6 @@ Maths,claude-sonnet-4-5-20250929,False,2.452090500155464,1680,4,0,Claude Sonnet 
 Maths,claude-sonnet-4-5-20250929,False,2.515115500194952,1729,4,0,Claude Sonnet 4.5,Anthropic,LLM
 Maths,claude-sonnet-4-5-20250929,False,2.685768499970436,1298,4,0,Claude Sonnet 4.5,Anthropic,LLM
 Maths,claude-sonnet-4-5-20250929,True,2.732907900121063,1170,4,0,Claude Sonnet 4.5,Anthropic,LLM
-Maths,gemini-2.5-flash-preview-09-2025,False,4.17601600009948,1654,1,602.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,4.699987299973145,1768,1,687.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,False,5.9171806001104414,2081,1,944.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,4.767870599869639,1928,1,796.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,False,4.45705630001612,1854,1,712.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,False,4.352019800106064,1729,1,618.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,5.219204599969089,1945,1,820.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,3.080441400175914,1757,1,607.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,6.475414799991995,2505,1,1139.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,5.870771600166336,2257,1,1011.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,5.551319200079888,2091,1,948.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,False,5.832765799947083,2213,1,1002.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,8.743114199955016,2782,1,1598.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,8.014960099942982,2960,1,1509.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,False,7.65027720015496,2957,1,1462.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,5.547737800050527,2215,1,915.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,False,5.013422799995169,2067,1,838.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,6.366610299795866,2182,1,1069.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,5.472135200165212,2193,1,995.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,False,4.469963599927723,1994,1,796.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,False,9.682239799993113,3066,1,1785.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,False,3.846676600165665,1939,1,752.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,4.766596599947661,1987,1,784.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,6.816193899838254,2691,1,1303.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,4.318503600079566,2048,1,820.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,4.836486800108105,2279,1,943.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,6.026552800089121,2475,1,1104.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,4.856693600071594,2182,1,926.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,5.309329199837521,1892,1,812.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,7.706892800051719,3053,1,1536.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,4.74369759997353,2119,1,877.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,8.599493199959397,3339,1,1772.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,False,6.939996300032362,2962,1,1395.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,5.348209700081497,2227,1,981.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,7.784407100174576,2937,1,1575.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,5.035928199999034,2237,1,942.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,False,6.8624222001526505,2829,1,1335.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,False,5.475225700065494,2503,1,968.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,6.881942699896172,2278,1,1144.0,Gemini-2.5 Flash,Google,LLM
-Maths,gemini-2.5-flash-preview-09-2025,True,4.0438963999040425,1748,1,715.0,Gemini-2.5 Flash,Google,LLM
 Maths,gemini-2.5-flash-lite-preview-09-2025,False,1.3054679001215843,1052,1,,Gemini-2.5 Flash-Lite,Google,LLM
 Maths,gemini-2.5-flash-lite-preview-09-2025,False,1.4284826000221074,1081,1,,Gemini-2.5 Flash-Lite,Google,LLM
 Maths,gemini-2.5-flash-lite-preview-09-2025,False,1.384165900060907,1137,1,,Gemini-2.5 Flash-Lite,Google,LLM
@@ -3899,6 +3859,46 @@ Maths,gpt-5.2-2025-12-11-medium,True,8.451725799997803,1642,321,311,GPT-5.2 (Med
 Maths,gpt-5.2-2025-12-11-medium,False,2.8564014000003226,1457,93,83,GPT-5.2 (Medium),OpenAI,LLM
 Maths,gpt-5.2-2025-12-11-medium,True,3.808912299980875,1122,114,104,GPT-5.2 (Medium),OpenAI,LLM
 Maths,gpt-5.2-2025-12-11-medium,True,3.69267109996872,1115,196,186,GPT-5.2 (Medium),OpenAI,LLM
+Maths,gemini-3-flash-preview,False,10.837858300015796,2628,1.0,1576,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,3.94074510000064,1679,1.0,598,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,320.6456606000138,64047,1.0,62910,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,5.494011700007832,2015,1.0,883,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,6.321012000000337,2126,1.0,984,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,False,314.7383953999961,64024,1.0,62913,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,4.580473700014409,1744,1.0,619,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,3.4260527000005823,1653,1.0,503,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,4.74927729999763,2051,1.0,685,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,4.222897499974351,1882,1.0,636,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,4.546433600015007,1798,1.0,655,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,False,11.100625999999464,3005,1.0,1794,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,False,321.6259063000034,64094,,62911,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,False,314.97806510000373,64361,1.0,62910,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,False,13.273442100005925,3555,1.0,2060,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,4.217910500010476,1899,1.0,599,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,319.6843020000088,64139,,62911,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,3.3978028999990784,1597,1.0,484,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,8.750283600005787,2633,1.0,1435,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,34.46008340001572,6959,1.0,5761,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,5.33497629998601,2054,1.0,773,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,4.33774300001096,1798,1.0,611,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,10.62908429998788,2797,1.0,1594,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,10.40727969998261,3021,1.0,1633,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,3.250086399988504,1708,1.0,480,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,2.644852600002196,1663,1.0,327,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,12.43525910002063,3365,,1995,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,6.215217599994503,2198,1.0,942,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,3.2417930999945384,1508,1.0,428,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,8.444606000004569,2853,1.0,1336,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,7.933652000006987,2397,1.0,1155,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,9.012105200003134,3048,1.0,1481,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,78.69523509999271,15323,,13757,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,11.037061599985464,2960,1.0,1714,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,12.976893900020514,3543,1.0,2181,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,5.166727999981958,2092,1.0,797,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,4.433988300006604,2132,1.0,638,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,False,40.992605100007495,8210,1.0,6675,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,False,8.893126100010704,2425,1.0,1291,Gemini-3 Flash,Google,LLM
+Maths,gemini-3-flash-preview,True,3.831094199995277,1587,1.0,554,Gemini-3 Flash,Google,LLM
 Social studies,gemma-3-27b,True,1.749183899955824,1352,3,,Gemma-3 27B,Google,LLM
 Social studies,gemma-3-27b,False,1.5104140001349151,1114,3,0.0,Gemma-3 27B,Google,LLM
 Social studies,gemma-3-27b,False,1.3607173000928017,1017,2,,Gemma-3 27B,Google,LLM
@@ -4079,36 +4079,6 @@ Social studies,claude-sonnet-4-5-20250929,False,3.2242850998882204,1838,4,0,Clau
 Social studies,claude-sonnet-4-5-20250929,False,3.6800869000144303,1902,4,0,Claude Sonnet 4.5,Anthropic,LLM
 Social studies,claude-sonnet-4-5-20250929,True,6.1762218999210745,1741,4,0,Claude Sonnet 4.5,Anthropic,LLM
 Social studies,claude-sonnet-4-5-20250929,True,2.3814393000211567,1246,4,0,Claude Sonnet 4.5,Anthropic,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,True,6.500602699816227,2512,1,1170.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,False,15.518509899964556,3711,1,2607.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,False,7.818560400046408,2225,1,1217.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,True,6.627318299841136,2367,1,1131.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,True,6.023179200012237,2354,1,1072.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,False,5.440272900043055,2384,1,926.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,True,5.503054599976167,2055,1,912.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,False,5.707065399968997,2056,1,938.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,True,7.143684899900109,2463,1,1287.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,True,4.560519500169903,1885,1,757.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,True,6.883306999923661,2312,1,1126.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,True,5.579700300004333,2259,1,981.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,True,1.0598322001751512,1163,1,,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,False,11.12585170008242,3407,1,2124.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,True,5.034579399973154,2141,1,947.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,True,5.086654699873179,2120,1,941.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,True,6.136835900135338,2503,1,1184.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,True,4.546507699880749,2023,1,872.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,False,5.224686699919403,2145,1,946.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,True,3.728182600112632,1837,1,731.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,True,5.339546200120822,2252,1,1071.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,False,6.354429899947718,2240,1,1126.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,False,11.018760500010105,3418,1,2074.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,False,5.475115800043568,2268,1,981.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,True,5.052313899854198,2069,1,881.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,True,6.056437900057063,2673,1,1295.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,False,5.548643100075424,2614,1,965.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,False,10.88772329990752,3886,1,2218.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,True,6.752979600103572,2670,1,1160.0,Gemini-2.5 Flash,Google,LLM
-Social studies,gemini-2.5-flash-preview-09-2025,False,4.787471299991012,1922,1,825.0,Gemini-2.5 Flash,Google,LLM
 Social studies,gemini-2.5-flash-lite-preview-09-2025,True,1.0581230998504907,1342,1,,Gemini-2.5 Flash-Lite,Google,LLM
 Social studies,gemini-2.5-flash-lite-preview-09-2025,False,1.2914148999843746,1104,1,,Gemini-2.5 Flash-Lite,Google,LLM
 Social studies,gemini-2.5-flash-lite-preview-09-2025,False,1.263271100120619,1008,1,,Gemini-2.5 Flash-Lite,Google,LLM
@@ -4199,6 +4169,36 @@ Social studies,gpt-5.2-2025-12-11-medium,False,5.965305500023533,1683,242,232,GP
 Social studies,gpt-5.2-2025-12-11-medium,False,6.6044571999809705,1697,209,199,GPT-5.2 (Medium),OpenAI,LLM
 Social studies,gpt-5.2-2025-12-11-medium,True,4.133327300020028,1483,139,129,GPT-5.2 (Medium),OpenAI,LLM
 Social studies,gpt-5.2-2025-12-11-medium,False,4.453051399963442,1107,145,135,GPT-5.2 (Medium),OpenAI,LLM
+Social studies,gemini-3-flash-preview,True,5.11251729997457,2076,1.0,734,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,False,20.548171000002185,4511,1.0,3407,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,True,318.6437985000084,63918,,62911,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,True,5.286509300000034,2008,1.0,772,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,True,15.258694299991475,3563,1.0,2281,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,True,3.6563948999973945,1951,1.0,493,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,False,15.023091399983969,3482,1.0,2339,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,True,13.224866000004113,3106,,1989,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,True,312.4747008999984,64086,1.0,62910,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,True,3.996862600004533,1763,1.0,635,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,False,6.555748600017978,2099,1.0,913,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,True,4.8587198999885,1929,1.0,651,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,True,3.8351796000206377,1725,1.0,562,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,True,32.200456199992914,6089,1.0,4806,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,True,5.120115600002464,1958,1.0,764,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,True,4.978821400000015,1891,1.0,712,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,True,4.786589399998775,1909,1.0,590,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,False,15.242636999988465,3487,1.0,2336,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,True,4.341035799996462,1808,1.0,609,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,True,7.942831499996828,2196,1.0,1090,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,False,25.0195032999909,5336,1.0,4155,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,False,7.084485600003973,2118,1.0,1004,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,False,314.23537330000545,64254,1.0,62910,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,False,3.9372231000161264,1872,1.0,585,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,True,4.4716443000070285,1823,1.0,635,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,True,3.8646764000004623,1950,1.0,572,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,False,310.9683161000139,64559,1.0,62910,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,False,68.22971349998261,13517,,11850,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,True,4.365526100009447,2068,1.0,558,Gemini-3 Flash,Google,LLM
+Social studies,gemini-3-flash-preview,False,311.8645586000057,64007,1.0,62910,Gemini-3 Flash,Google,LLM
 Technology,gemma-3-27b,True,0.60603500000434,2059,3,0.0,Gemma-3 27B,Google,LLM
 Technology,gemma-3-27b,False,1.056475200006389,2214,3,0.0,Gemma-3 27B,Google,LLM
 Technology,gemma-3-27b,True,0.6482802999962587,2213,3,0.0,Gemma-3 27B,Google,LLM
@@ -4385,37 +4385,6 @@ Technology,claude-sonnet-4-5-20250929,False,2.3647362000047,2733,4,0,Claude Sonn
 Technology,claude-sonnet-4-5-20250929,True,2.946626700009801,2976,4,0,Claude Sonnet 4.5,Anthropic,LLM
 Technology,claude-sonnet-4-5-20250929,True,3.074175800007652,2664,4,0,Claude Sonnet 4.5,Anthropic,LLM
 Technology,claude-sonnet-4-5-20250929,True,2.49957309999445,2906,4,0,Claude Sonnet 4.5,Anthropic,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,3.850322700003744,2669,1,620.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,4.666366599994944,3042,1,838.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,4.558073799998965,2987,1,784.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,4.972226600002614,3134,1,922.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,False,6.498395100003108,3243,1,1111.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,False,7.220129599998472,3707,1,1314.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,5.1823569999978645,3081,1,869.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,6.508023100002902,3492,1,1198.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,5.817521299992222,3654,1,1040.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,4.529721400002018,2843,1,742.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,5.060823699997854,3050,1,832.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,5.164962499999092,3217,1,968.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,False,6.521483199991053,3646,1,1276.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,4.5240907999977935,2966,1,788.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,5.157765500000096,3401,1,1096.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,6.69564900000114,3881,1,1390.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,5.873556399994413,3680,1,1164.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,4.632567700013169,3254,1,962.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,6.656387400013045,3741,1,1280.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,6.4910452000040095,3746,1,1307.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,9.143760499995553,4341,1,1860.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,False,4.992990200000349,3206,1,960.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,False,4.962919300000067,3461,1,920.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,6.389844200006337,3863,1,1355.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,5.065172699993127,3172,1,930.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,7.83192229999986,4571,1,1726.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,5.50889769999776,3431,1,1103.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,6.09993029999896,3624,1,1228.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,6.7692517999967095,4080,1,1468.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,4.379974300012691,3267,1,940.0,Gemini-2.5 Flash,Google,LLM
-Technology,gemini-2.5-flash-preview-09-2025,True,6.934011100005591,3926,1,1385.0,Gemini-2.5 Flash,Google,LLM
 Technology,gemini-2.5-flash-lite-preview-09-2025,True,0.9657957000017632,2049,1,,Gemini-2.5 Flash-Lite,Google,LLM
 Technology,gemini-2.5-flash-lite-preview-09-2025,False,0.9997699000086868,2204,1,,Gemini-2.5 Flash-Lite,Google,LLM
 Technology,gemini-2.5-flash-lite-preview-09-2025,False,0.8709092999924906,2203,1,,Gemini-2.5 Flash-Lite,Google,LLM
@@ -4509,6 +4478,37 @@ Technology,gpt-5.2-2025-12-11-medium,False,5.975545199995395,2307,202,192,GPT-5.
 Technology,gpt-5.2-2025-12-11-medium,True,3.0094843999831937,2373,95,85,GPT-5.2 (Medium),OpenAI,LLM
 Technology,gpt-5.2-2025-12-11-medium,True,4.08711459999904,2143,107,97,GPT-5.2 (Medium),OpenAI,LLM
 Technology,gpt-5.2-2025-12-11-medium,True,3.122224399994593,2330,103,93,GPT-5.2 (Medium),OpenAI,LLM
+Technology,gemini-3-flash-preview,True,3.60433900001226,2508,1.0,459,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,13.954220499988878,4324,1.0,2120,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,2.4291242999897804,2453,1.0,250,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,21.26563979999628,5588,,3377,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,11.54152209998574,3830,1.0,1698,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,False,6.626215199998114,3331,1.0,938,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,3.681733500008704,2771,1.0,559,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,10.14311429997906,3850,,1557,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,314.88121990000946,65524,,62911,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,False,7.408513500005938,3135,1.0,1034,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,12.204951699997764,4037,1.0,1819,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,7.323985499999253,3290,1.0,1041,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,False,21.8061761999852,5897,1.0,3527,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,False,316.634539199993,65089,,62912,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,310.3369902000122,65218,1.0,62913,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,5.886806599999545,3298,1.0,807,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,12.707104800007071,4365,,1850,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,26.87710780001362,6279,,3988,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,4.742802099994151,3161,1.0,700,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,False,30.10356909999973,7248,1.0,4809,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,310.44006510000327,65391,,62911,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,False,25.26912179999636,6675,1.0,4429,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,False,9.76445699998294,3954,1.0,1413,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,10.388987800019096,4020,,1513,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,5.816137899993919,3185,,944,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,4.852989800012438,3469,1.0,624,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,9.363695400010329,3698,1.0,1370,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,29.098626099992543,7051,1.0,4655,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,4.3702820999897085,3213,1.0,601,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,24.51706240000204,6271,,3945,Gemini-3 Flash,Google,LLM
+Technology,gemini-3-flash-preview,True,7.572202800016385,3580,1.0,1039,Gemini-3 Flash,Google,LLM
 General,gemma-3-27b,True,0.6949899000028381,955,3,0.0,Gemma-3 27B,Google,LLM
 General,gemma-3-27b,False,0.7206102999916766,876,3,0.0,Gemma-3 27B,Google,LLM
 General,gemma-3-27b,False,0.724485899991123,983,3,0.0,Gemma-3 27B,Google,LLM
@@ -4623,25 +4623,6 @@ General,claude-sonnet-4-5-20250929,False,2.620129300004919,1124,4,0,Claude Sonne
 General,claude-sonnet-4-5-20250929,True,2.8356478000059724,1225,4,0,Claude Sonnet 4.5,Anthropic,LLM
 General,claude-sonnet-4-5-20250929,True,2.506920999992872,1333,4,0,Claude Sonnet 4.5,Anthropic,LLM
 General,claude-sonnet-4-5-20250929,False,3.633432900009211,963,4,0,Claude Sonnet 4.5,Anthropic,LLM
-General,gemini-2.5-flash-preview-09-2025,True,3.685923900004127,1579,1,634.0,Gemini-2.5 Flash,Google,LLM
-General,gemini-2.5-flash-preview-09-2025,True,3.678360900012194,1478,1,612.0,Gemini-2.5 Flash,Google,LLM
-General,gemini-2.5-flash-preview-09-2025,False,4.312969899998279,1725,1,752.0,Gemini-2.5 Flash,Google,LLM
-General,gemini-2.5-flash-preview-09-2025,False,3.832803099998273,1538,1,637.0,Gemini-2.5 Flash,Google,LLM
-General,gemini-2.5-flash-preview-09-2025,True,5.180238400003873,1992,1,926.0,Gemini-2.5 Flash,Google,LLM
-General,gemini-2.5-flash-preview-09-2025,False,4.476547700003721,1814,1,841.0,Gemini-2.5 Flash,Google,LLM
-General,gemini-2.5-flash-preview-09-2025,False,4.609371900005499,1554,1,706.0,Gemini-2.5 Flash,Google,LLM
-General,gemini-2.5-flash-preview-09-2025,False,4.230528499989305,1482,1,651.0,Gemini-2.5 Flash,Google,LLM
-General,gemini-2.5-flash-preview-09-2025,False,8.30264179999358,2581,1,1553.0,Gemini-2.5 Flash,Google,LLM
-General,gemini-2.5-flash-preview-09-2025,True,4.393904600001406,1682,1,732.0,Gemini-2.5 Flash,Google,LLM
-General,gemini-2.5-flash-preview-09-2025,False,5.039573500005645,1922,1,885.0,Gemini-2.5 Flash,Google,LLM
-General,gemini-2.5-flash-preview-09-2025,True,6.070165900004213,2420,1,1208.0,Gemini-2.5 Flash,Google,LLM
-General,gemini-2.5-flash-preview-09-2025,True,4.62551290000556,1900,1,923.0,Gemini-2.5 Flash,Google,LLM
-General,gemini-2.5-flash-preview-09-2025,True,3.916966099990532,1897,1,803.0,Gemini-2.5 Flash,Google,LLM
-General,gemini-2.5-flash-preview-09-2025,False,4.9858619000006,2189,1,1002.0,Gemini-2.5 Flash,Google,LLM
-General,gemini-2.5-flash-preview-09-2025,False,12.26655749999918,3312,1,2294.0,Gemini-2.5 Flash,Google,LLM
-General,gemini-2.5-flash-preview-09-2025,True,5.382356899994193,2174,1,1053.0,Gemini-2.5 Flash,Google,LLM
-General,gemini-2.5-flash-preview-09-2025,True,6.248007899994263,2436,1,1238.0,Gemini-2.5 Flash,Google,LLM
-General,gemini-2.5-flash-preview-09-2025,True,4.449991699992097,1676,1,796.0,Gemini-2.5 Flash,Google,LLM
 General,gemini-2.5-flash-lite-preview-09-2025,True,1.059301300003426,945,1,,Gemini-2.5 Flash-Lite,Google,LLM
 General,gemini-2.5-flash-lite-preview-09-2025,False,0.9405897999968148,866,1,,Gemini-2.5 Flash-Lite,Google,LLM
 General,gemini-2.5-flash-lite-preview-09-2025,True,0.8798296000022674,973,1,,Gemini-2.5 Flash-Lite,Google,LLM
@@ -4699,3 +4680,22 @@ General,gpt-5.2-2025-12-11-medium,True,4.860719799995422,999,133,123,GPT-5.2 (Me
 General,gpt-5.2-2025-12-11-medium,True,2.6186662999680266,1043,78,68,GPT-5.2 (Medium),OpenAI,LLM
 General,gpt-5.2-2025-12-11-medium,True,4.171948200033512,1159,120,110,GPT-5.2 (Medium),OpenAI,LLM
 General,gpt-5.2-2025-12-11-medium,False,4.297491400036961,913,162,152,GPT-5.2 (Medium),OpenAI,LLM
+General,gemini-3-flash-preview,True,7.428509999997914,2085,1.0,1140,Gemini-3 Flash,Google,LLM
+General,gemini-3-flash-preview,True,6.220140399993397,1799,1.0,933,Gemini-3 Flash,Google,LLM
+General,gemini-3-flash-preview,True,6.540390300011495,1945,1.0,972,Gemini-3 Flash,Google,LLM
+General,gemini-3-flash-preview,False,19.33263300001272,3803,1.0,2902,Gemini-3 Flash,Google,LLM
+General,gemini-3-flash-preview,True,4.08831019999343,1662,1.0,596,Gemini-3 Flash,Google,LLM
+General,gemini-3-flash-preview,True,9.58456620000652,2431,1.0,1458,Gemini-3 Flash,Google,LLM
+General,gemini-3-flash-preview,True,10.081859500001883,2345,1.0,1497,Gemini-3 Flash,Google,LLM
+General,gemini-3-flash-preview,True,3.6893661999783935,1384,1.0,553,Gemini-3 Flash,Google,LLM
+General,gemini-3-flash-preview,False,15.045594400027769,3469,1.0,2441,Gemini-3 Flash,Google,LLM
+General,gemini-3-flash-preview,True,4.090145499998471,1578,1.0,628,Gemini-3 Flash,Google,LLM
+General,gemini-3-flash-preview,False,318.1458413999935,63947,,62911,Gemini-3 Flash,Google,LLM
+General,gemini-3-flash-preview,True,9.579315500013765,2591,1.0,1379,Gemini-3 Flash,Google,LLM
+General,gemini-3-flash-preview,True,14.390297800011467,3191,1.0,2214,Gemini-3 Flash,Google,LLM
+General,gemini-3-flash-preview,True,3.500536399980774,1674,1.0,580,Gemini-3 Flash,Google,LLM
+General,gemini-3-flash-preview,False,5.430065799999284,2039,,853,Gemini-3 Flash,Google,LLM
+General,gemini-3-flash-preview,False,17.491553900006693,3792,1.0,2774,Gemini-3 Flash,Google,LLM
+General,gemini-3-flash-preview,True,9.301933899987487,2532,1.0,1411,Gemini-3 Flash,Google,LLM
+General,gemini-3-flash-preview,False,5.291516199999023,1989,1.0,791,Gemini-3 Flash,Google,LLM
+General,gemini-3-flash-preview,True,9.435957000008784,2357,1.0,1477,Gemini-3 Flash,Google,LLM
