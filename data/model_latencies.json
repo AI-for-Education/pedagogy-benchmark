@@ -201,5 +201,14 @@
         "CDPK_Luganda_ep_new_creative_arts": 4070.5698761940002,
         "CDPK_Luganda_ep_new_maths": 4008.562981367111,
         "CDPK_Luganda_ep_new_social_studies": 4231.988058567047
+    },
+    "gemini-3-flash-preview": {
+        "CDPK_Luganda_ep_new_general": 949.8433220386505,
+        "CDPK_Luganda_ep_new_social_studies": 4063.96044754982,
+        "CDPK_Luganda_ep_new_literacy": 4339.057144880295,
+        "CDPK_Luganda_ep_new_creative_arts": 4369.7565014362335,
+        "CDPK_Luganda_ep_new_science": 5673.315091133118,
+        "CDPK_Luganda_ep_new_technology": 6092.950096607208,
+        "CDPK_Luganda_ep_new_maths": 6839.260462999344
     }
 }

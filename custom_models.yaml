@@ -614,6 +614,11 @@ Google:
       Vision: True
       Token_Window: 1048576
       Token_Limit_Completion: 65536
+    gemini-3-flash-preview:
+      Api_Model_Name: models/gemini-3-flash-preview
+      Vision: True
+      Token_Window: 1048576
+      Token_Limit_Completion: 65536
 
 OpenAIBenchmrks:
   Api_Interface: OpenAI
