@@ -44,5 +44,8 @@
     },
     "gemini-3-pro-preview": {
         "CDPK_English_new_science": 2808.7373666763306
+    },
+    "gemini-3-flash-preview": {
+        "CDPK_English_new_science": 4844.414010286331
     }
 }
