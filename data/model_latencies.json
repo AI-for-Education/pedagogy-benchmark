@@ -44,5 +44,8 @@
     },
     "gemini-3-pro-preview": {
         "CDPK_Yoruba_new_science": 2968.877154111862
+    },
+    "gemini-3-flash-preview": {
+        "CDPK_Yoruba_new_science": 1178.1414904594421
     }
 }
