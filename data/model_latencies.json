@@ -44,5 +44,8 @@
     },
     "gemini-3-pro-preview": {
         "CDPK_Luganda_new_science": 3390.36346244812
+    },
+    "gemini-3-flash-preview": {
+        "CDPK_Luganda_new_science": 1176.2490150928497
     }
 }
