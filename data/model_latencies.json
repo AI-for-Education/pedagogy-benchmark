@@ -44,5 +44,8 @@
     },
     "gemini-3-pro-preview": {
         "CDPK_Hausa_ep_new_science": 2873.264991044998
+    },
+    "gemini-3-flash-preview": {
+        "CDPK_Hausa_ep_new_science": 3328.942275762558
     }
 }
