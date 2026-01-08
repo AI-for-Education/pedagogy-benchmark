@@ -47,5 +47,8 @@
     },
     "gemini-3-pro-preview": {
         "CDPK_Swahili_new_science": 2888.584159374237
+    },
+    "gemini-3-flash-preview": {
+        "CDPK_Swahili_new_science": 8850.437237262726
     }
 }
