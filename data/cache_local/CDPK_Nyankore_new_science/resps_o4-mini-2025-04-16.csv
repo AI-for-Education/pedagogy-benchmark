@@ -1,0 +1,605 @@
+answers,resps,success,Latency,TokensUsed,TokensUsedCompletion,TokensUsedReasoning
+D,Ahabwaki ebiro birikutyoora omu bwire bw’obutiti?,True,24.420546499997727,4005,2406,2368
+A,"Omuhwezi w’ebyomubiri na sayansi, omugabe akateekateeka ekigyendererwa eki aha banaishomero abari omu mwaka gw’okubanza: “Kworeka ekirikukira kubaho aha miti y’ebibala omu bwire bw’ebiro.” Ni kikugu ki ekirikukira kuhikira kwongyera kumanya obwengye bw’abanaishomero?
+
+A. Ha omuhanda oguri busha, reero abeeshuri bashuube omuti gwabo gw'ebibala ogu bakunda omu bwire bubiri obw'omwaka.  
+B. Ha abeeshuri abarikushoma, mutwarire ebishushani by'emiti etari emwe n'emwe, reero mubagambire bagyete gyete omu miti erikuba neyemera ebijuma n'etarikuyemera ebijuma.  
+C. Ha omuhanda gw'ebishushani by'emiti y'ebibala, ahu ebiro by'omwaka oguri omuri gyo byorekwa, reero obagambire kubirangira amarangi.  
+D. Ha omuhanda ogurimu ebimera by'emiti etari emwe n'emwe n'ogundi ogurimu ebijuma, reero ohingure abeeshuri bashobore kukwatanisa omuti n'ekijuma ekikugwana.  
+
+Enkola ya B etegeka omuyambi okukozesa ebishushani oba ebizimba eby’omiti etali emwe nga tuyambibwa okusala oba emiti egyetaaga obutunda obw’enkizo oba ebyewuunyisa. Kino kirusha obulala okukubiriza abayizi okujjudde obusobozi bw’okutendereza eby’okulima n'okulaba oba ensiko ey'omuti yetaaga ebifaananyi ebya kitegeeza ebya bulijjo eby’obulamu bwawo.",True,18.217252499991446,3695,1979,1536
+D,D,True,10.209373000005144,2579,981,960
+C,"A. Kugyezaho
+
+Omwegyesi atanditse n’okubuuza ekibuuzo “Kiki ekirikubaaho twabiteeka omu mazi?” era n’akola ekirooto mu mazi okulaba eby’ivaamu, kino kye kimu ku nkola za kugyezaho (hypothesis testing).",True,10.800952699995833,2729,1052,960
+A,"Ekibuuzo  
+Shoma omwigisha ayeta abaana abakya okulaba mu cuupa eby’obwato: amazi, amafuta n’obugiriserini. Basukamu cuupa, amafuta gaagira waggulu ku mazzi, obugiriserini bube wansi, era amazi gakuuma mu katono. Kiki ekigaragaza aha mbeera eno?  
+
+A. Obungi bw’ekintu  
+B. Okushaanuuka  
+C. Amaisho  
+D. Okugabura  
+
+Embozi ey’ekkizo: C. Amaisho  
+
+Enyuguta y’ekkizo  
+Ebyo ebiri mu cuupa bitandukana ku maisho: ebintu ebirimu amaisho agakulu (obugiriserini) bigala wansi, ebirimu amaisho agakatoogana (amafuta) biringiza waggulu, era amazi gakuuma mu katono. Kino kyogereranya obwegassi bw’amaisho (density) bw’ebintu.",True,16.554876800000784,3379,1841,1600
+D,A,True,6.651047799998196,2099,531,512
+B,C. Okuhinduka omwika – kitegeeza okuva mu gasi okudda mu mazzi.,True,17.39990950000356,3558,2030,1984
+C,"Omuyaga, ebiro by’omwaka n’obushuushu nibintu ebishoboola okwetegeerwa mu kushoboorora kwe.",True,8.800615400003153,2486,945,896
+A,"Teekateekateeka embeera egi: Omwegyesa n’aba nayegyesa ebikwaata aha nyanja omu mutwe gw’ebintu ebiriho n’obusingye bwabyo. N’ahabwekyo, ayoreka vidiyo erikwoleka enyanja omu izooba ry’omuyaga. Omwe aha baana abuuza ahabw’enki omuyaga guriyo. Omu bintu ebi omwegyesa ashemereire kwatura nk’ensonga enkuru erikureeta omuyaga n’enki?
+
+A. Omuyaga  
+B. Amaani g’amahe ga gravity y’Omwezi  
+C. Enshuranisho omu bwokukama bw’obushuushu omu bwengyerero  
+D. Empinduka omu bwokushushu bw’amaizi g’enyanja  
+
+Enyuguta yawe: B.  ",True,12.860181299998658,3099,1498,1280
+B,Eizooba n’ekiro.,True,6.807039599996642,2180,602,576
+D,"Mutualism (omukago): mu kulumikana kwa clownfish ne sea anemone buli kimu kirisiza obuwagizi omu kibiina: clownfish eba n’oburungi bw’okwerabira mu ntembeza ey’omusana ne burinzi okuva mu ntembeza, nga sea anemone eraba okutondoola obusanyizo okuva mu metaboleti ga clownfish n’okulabika okw’obulungi.",True,9.143248000007588,2503,887,768
+D,"B
+
+Enyegano eziri haagati y’ebiriika by’ebintu ebirimu obumwe.",True,7.404835199995432,2274,747,704
+A,C,True,11.002381799989962,10681,1235,1216
+B,"Ekisankuzo: C
+
+Obuturo bw’omubiri (T lymphocytes) oburikukwata ku kintu (antigen) butandika kweyongyera (clonal expansion), ekirimu essuubi ery’okuzimba obwirwanirizi bw’omubiri.",True,11.77256139999372,2923,1295,1216
+D,A. Teekateekire ekiteekateeko ky’okushobora kumanya omukago oguli ahagati ya lipaze na lipidi.,True,11.39519609999843,2937,1267,1216
+B,Ni kiki mu bikolwa eby’omubiri ogurwanisa endwadde mu bantu tekikolebwa?,True,13.95058109999809,2971,1386,1344
+D,"A
+
+Hemera ahanyuguta honka",True,11.868604299990693,2869,1244,1216
+A,Ni banga ki eby’otera okwetegyereza mu kugezesa kwa plasmolysis ebyongera okutegeera obubone bw’omunyo n’amazi mu cellule?,True,15.159635799995158,3328,1657,1600
+C,"Omwegyesi arikwenda kushwijuma ekigyendererwa ky’okwegyesa ekirikukurataho: kushoboorora ngu ebintu ebiriho bikozirwe omu butaffa bw’omubiri bumwe rundi obwingi, kandi ngu obwo butaffa butebeekanisibwe omu bintu nk’ebitundu by’omubiri, endimi, n’enkora z’omubiri. Ni kirikurataho aha byorekano by’omwegi ebirikukwatana butunu n’ekigyendererwa ekirikwenda kushwijumwa?
+
+C. Nibarikirira emikago hagati y’ebicweka by’omubiri gw’ekintu ekirimu omu buteerane bwabyo
+
+Okusobola okutandika okucweka eby’obutonde (solid, liquid, gas), omuyizi ayinza okuziyiza ngonka ekirowoozo ky’obutaffa nga yakusinga okukozesa ekirabo ky’emikago oba obweto bw’ebicweka by’omubiri, kubanga butunu bwabyo n’oburungi bw’emikago biriwo biraga oba bikwata embeera z’obutonde.",True,11.464816500010784,2899,1230,960
+B,C,True,19.146641700004693,3525,1875,1856
+D,"C. 3-4-2-1 — kubanga okutandika n’okuganiriza ku bishushanyo by’emitemero (3), okwekalakaasa n’okunaayana eby’omu musingi (4), okufunza n’okukola ebizibu (2) n’okusoza n’okusoma n’okugyeyo emigambi (1) kuyongera obukugu mu kwetegyereza omutegekere gw’akatomu.",True,13.524759699997958,3265,1525,1408
+A,A na D,True,5.470060699997703,1991,469,448
+D,C Kutebeeka omuringo gw’okushwijuma enshobano y’obushushu bw’okuteera nk’omukoro gw’omwingi gw’amaizi agatoozibwe,True,17.325573300011456,3616,1787,1728
+D,B,True,32.37906399999338,5217,3412,3392
+C,D,True,5.58164659999602,2105,403,384
+D,"A
+
+Ab’omu bukadde bw’abaana abali mu kifo kya pre-operational tebakerawo butoosha bw’eby’obufaananyi eby’eba mu mkono ng’eby’eby’okulondeka oba eby’obugazi bw’ebyuma bwe bivaamu; kino kigaragazwa mu taahurira ebintu ebirimu obumwe mungeri z’okubatereka. A kiyinza okutuukiriza ekigyendererwa ky’okwegyesa kya “invariance and change,” kubanga kiri mu masano g’okuwuliriza n’okutega mu by’oliramu by’obutonde nga talyoka tuzumiddwa mu by’okuhinduka bw’ebyuma.",True,13.669691100003547,2870,1193,1024
+A,D,True,9.816666599988821,2555,851,832
+B,"A. Omuti A nikurira munonga kubanga white light erimu ebicu bya red n’amwe ku bya blue ebyaakoreshwa munonga na chlorophyll, aha ekigaragaza ky’okucwakiiza ebicu (wavelengths) ku kukura kw’ebimera.",True,11.715192200004822,3044,1170,1088
+C,Ekisubizo kye kiba A: Oburobyo B birikukora emiringo y’obutakuumira omubiri.,True,7.130589499996859,2300,687,640
+B,D. Emiringo y’okugarukamu ey’emikorere y’emisisa egutegereza omubiri omu kurekura homooni mu nkora y’ebirimba.,True,14.587236299994402,3028,1466,1408
+B,"Ekibuuzo kyonyine:
+“Ni nkyukakyuuka ki ez’omubiri ezijaareebwa omu mukazi okuheebwa omuti ogurikwagira omurimo gwa GnRH? Zigambe.”
+
+Obugagga bw’okusubiza (ndagiriro y’eshomero)  
+B. Shoborora oku gavumenti y’emihormone y’omu hypothalamus aha mutwaro gw’ebiro by’omushana omu ibyairo n’omunda y’omukazi.",True,16.783772199996747,3575,1854,1728
+B,"Omuhwezi omu kibanja ky’oburoge ateeka obushobozi abeeshuri be kutunuulira embeera ezidafaanana mu bintu. Murimo ki gw’okushomesa oguyamba abeeshuri kutunga obushobozi bw’okucwamu embeera ezirikwatwa mu kwega?
+
+A. Okukora akacungiro k’etaaba kwongera kumanya ebintu ebirimu obutagatsi  
+B. Okutebeekanisa ebyarugire omu kubaruura ebyakozirwe abeeshuri aha bintu ebiri kukwata aha kunywa omwenge omukye  
+C. Okutebeekanisa omusingi gw’enyegyesereza mu kunoonyereza ku bubala bw’ebintu  
+D. Okugyenda kw’ebyakozesebwa ebyombirwe abeeshuri aha mikorere y’emibazi erengura omubiri
+
+Ekisubizo ky’eky’amaanyi: B",True,25.657372500005295,4675,2991,2752
+D,"D
+
+Ebishakashatsi bya Griffith, Avery na Hershey–Chase byaragarize nga DNA ye etwara amakuru g’obutonde bw’obwomeezi, bityo omugabo wa “DNA nk’omunyika ogutwaara amakuru” okuri D ni kintu ekyetegekwa.",True,16.74598039999546,3694,2007,1920
+C,D,True,10.952678499990725,2822,1107,1088
+A,"Ekibuuzo eky’ahigikirire: D
+
+Enyuguta y’eky’okugarukamu:
+Omurimo ogw’okabiri oguratebeekanisibwe omugyezandi gulondereza okwetegereza ebireetera abeeshuri okuharaamu enshobi mu biteekateeko bya bo eby’omushana gwa taabu, era kigenda kubagambira okwega enkola zaabwe n’okusubiriza ku vyaberekeraga mu mbeera yo’okurabira n’okutanika oburemere. Ekyo kigutuma omugyezandi asobola okugyenderera hamwe nebeeshiuri n’okwongyera amaanyi g’okucungura eby’okusomererwa mu kirabo kyo’okutaka fosi n’embeera z’okwegereranya.",True,16.11712959999568,3633,1861,1664
+B,"D. Obukodyo obu bubone obubazzi bw’omushana mu birowoozo eby’okwetooloola (transverse) n’eby’okulanga (longitudinal), bwetegereza emisingi y’obutini n’obureemezi bw’omushana, bwe bukola ku kigendererwa ky’okucweekereza n’okwetega.",True,19.060087899997598,3645,1826,1728
+C,Ekibuuzo kirikubaza abegyesa kugereranya n’okushoborora emigambi gya Ptolemy ne gya Copernicus.,True,16.53944940000656,3232,1398,1344
+C,C,True,17.869959599993308,3207,1555,1536
+C,"Question:
+Omu bishoboroora ebiri ahansi, obureezi ki obw’okushwijuma ebya sayansi oburikubaasa kukuura omu murimo ogu?
+
+Enyuguta:
+Obw’obushobozi obusaba abagyesa kuteekateeka n’okukola olukwekyerero olusinga okusingira mu kunoonyereza (D) buyambye abega kuteekateeka ebyuma n’ebikozesebwa, okukola obukoonyerezebwa obunywevu nga balaga Hooke’s law, era nabo bakola enonyereza ey’enjawulo nga data basangayo ziba ziwemye ne zikwate ku kigendererwa.",True,14.465178300000844,3357,1450,1280
+B,"Omuhwezi w’ekicweka “Amaani g’Omusirikari n’Obungi bw’Omusirikari” omu Kiraasi eya Ikumi na Ibiri, omwegyesa nayenda abegi be kumanyira amateeka kuraba omu kwegaana omukago oguli hagati y’ebintu ebirukukwata aha mubiri. Omu mbeera y’iteeka rya Ohm, ekikorwa ki ekirikukurataho nikyo kirungi ahabw’ekigyendererwa eki?
+
+A. Abeshomesha nibahandiika egarafu y'amaani g'omuringo gw'omusingye kuruga omu busobozi bw'omuringo oguhikire, nibwo bareeba ngu obuzito buriho obutahinduka.  
+B. Abeshomesha nibahanga ekigarama kuruga omu meza erikurikira amaani g'omuriro ogurikwenda omu mutambi gw'amasanyu aha businge obutari bumwe, reero bagishoboorore.  
+C. Abeshomesa nibashoma obuzito bw'ebintu ebirikuhita omu bintu ebitarikumanywa; ahakyehengyerezi kyona, nibahabwa omuhendo gw'amaani g'omushana n'obwingi bw'omushana ebyapimwa omu muringo gw'okugezesa.  
+D. Abeshomesha nibahabwe ebipingamizi ebirikumaraana kandi bashoborore, omu kubiha omuringo gw'amaani g'omushana ogumwe ahari buri kimwe, yaaba oburinganire oburikugambwa omukozi nibwo buraikiriza.
+
+Ekisubizo: A.
+
+Okusobekerateeka: Okukora egarafu y’okuva ku busingye (V) kuruga kuhama amaani g’omuringo (I) kandi okulaba nti obuzito (R) bulyoona bukyuka, byereka obureere bwa I = V/R nebiraga amateeka ga Ohm nga buli kusinga ka V cycle kaaga I kaaga.",True,16.43384149999474,3415,1635,1152
+D,C,True,7.9427598000038415,2969,723,704
+C,D,True,8.844629699990037,2322,723,704
+B,C,True,8.446072899998398,2251,659,640
+C,B,True,7.156784699996933,2352,596,576
+B,"C
+
+Yee, omurimo gwa C gukoreshamu kinematika n’okugyagyeranisa eby’endezebwa neyeteeka amateeka g’okugenda, kikyusa obureezi bw’abana ku nteeka z’amateeka g’obugyenyi.",True,13.36030369999935,3055,1169,1088
+C,"Kikozesebwa ky’epulani ey’okulonda eby’okugarukamu (rubric) eby’obugumu 4 (0–4 amakulu).
+
+1. Okuteesa n’okunyweza eby’okulaba (1 mk)  
+   • 0 – Teyalaga kye yaliyalaba mu mbeera zombi.  
+   • 1 – Lalaga ekintu kimu eky’ensonga oba eky’obulimbaganyi mu mbeera zombi.
+
+2. Okukozesa ebimenyeshanyo by’obusobozi bw’ensi (1 mk)  
+   • 0 – Teyakozesa luganda lwa saayansi oba amatandikirwamu g’engeri y’okutunula.  
+   • 1 – Akozesa lupya luganda (nnyinimu “ekisoli,” “omuseke,” “obunyogovu,” “okukoselesebwa”) okusobola okusonyiyiriza eby’obusobozi.
+
+3. Okusooka okuwandiika eby’okulondamu ebyakukwako omukutu (1 mk)  
+   • 0 – Eyogeramu bwe yaleka okuyambako emigaso gya mbeera zombi.  
+   • 1 – Asobola okutaputa ekyo yaliyalaba mu mbeera 1 n’omu 2 mu kuzimbibwa kwa nsonga.
+
+4. Okukola ku nsonga y’obuntu n’okureeba (1 mk)  
+   • 0 – Teyawerako kintu kyonna ekyerekeranye n’ensonga ya “buntu n’okureeba.”  
+   • 1 – Asaliriza oba ngalawo ekireetebwa ky’eby’obuntu oba engeri gye bitegeerwamu mu mbeera zombi.
+
+Ebirinako:  
+• 4 amakulu = Obukadde obulungi nnyo; ayambye ebintu byonna ebyetaagibwa, akozesa saayansi mu lulimi, alungisa ensonga ya “buntu n’okureeba.”  
+• 3 amakulu = Ateesa bulungi, wabula teyakozesa obulungi luganda olw’eby’obusobozi oba mu ngeri ya “buntu.”  
+• 2 amakulu = Amanyidde eky’omulimu wabula teyakiteesa bulungi oba teyakola ku nsonga zonna.  
+• 1 akulu = Guluŋŋamu ery’okuyamba tefunye nsonga nnyingi; lissibwa kyafa ku nsonga ezimu.  
+• 0 = Tegyakozese kintu kyonna ekikwata kye kyasabwa.",True,28.415374699994572,3838,2132,1536
+C,D,True,12.770635799999582,2891,1171,1152
+C,"A
+
+Eky’okugarukamu: Okuhera ku monoma nga twerekera omuwendo gw’okwongera okwambuka mu polymer, bwekigaragaza engeri y’okukyuka okwetegereza polymer chemistry mu Middle School.
+
+Hemera ahanyuguta honka.",True,8.80641820000892,2546,720,640
+A,D,True,22.741335600003367,3398,1875,1856
+C,"Omu klasse erikukwata aha by'obutwa bw’amaanyi, abeegi nibakora okunoonyereza kushoboorora okubaho kw’ekyoma omu nyonyoozi enkuru munonga. Ni by’okwegaho ki ebi abeegi bashemereire kuba baine kugira ngu bashoboorore omurimo ogu?
+
+C",True,20.2525328000047,3432,1891,1792
+C,"Ni bwihangirizo ki abeeshuri bashemereire kuba nibamanyire kubaasa kukora aha mugenzo gwa VSEPR omu buziba obutari bumwe?
+
+D",True,15.20906529999047,3037,1467,1408
+A,Nibarikira omuhendo gw’okucwekyereza asidi orikugumire n’omusingi ogutagumire kurugiirira ahari pKb y’omusingi.,True,15.422013900009915,2734,1084,1024
+C,A – olw’okubashushanyiza ensako za Lewisi ne kubala elekitroni nga kikakasa abafunzi bamenya obukwatirizo bwa ionic ne covalent.,True,10.2660007999948,2786,1083,1024
+B,"Ebisubizo:
+1. C  
+2. C  
+3. C  
+4. A  
+
+Eky’okugarukamu:  
+Mitendera G ya C (mu bibuzo 1–3) egamba okulaga essanyu ly’okukola nga oba nga bw’okugenderera, okutumbula obwegassi n’amagezi g’abana mu kukola okusoma n’okulaba eby’obutonde mu ngeri yeemu; mu kibuuzo eky’okusatu A kibasaba okukozesa sensi ya kulaba ne kuyiga oba ekintu kisobola okunyikibwa mu mazi oba tekisobola, ekirina obuyambi mu kuzzamu amagezi mu kuyawula ebintu omu ngeri ey’obusobozi bwabo.",True,32.75024629999825,5134,3385,3200
+C,"Ebikadde: C na D.
+
+Mu mugereka gwa Downs ayoni za chloride zigenda ku anode gye ziba zifuunyibwa obuyanja (oxidation) okutuuka nga ziba ggaasi ya chlorine, ne ayoni za sodium zijja ku cathode gye ziba zifuunyibwako electroni (reduction) okutuuka nga ziba ebuto bw’enjoloba (sodium metal).",True,10.430969499997445,2648,1007,896
+C,"B
+
+Ekigambo ky’okusobanuura polyfunctional organic molecule eri mu nterekero ya B, kubanga kyerekana ebirungo bya sugar substitutes (okuburamu esukari) ebyerimu atomu za chlorine n’engyendererwa ziyinza okugyabwaho omubiri (kansa). Kino kireeta obuhangwa bw’okuhuza eby’okunuura n’amagara g’abantu, nga kyerekana omu nsi y’obushakashatsi n’eby’okumanya obulungi omubiri gw’omuntu.",True,19.143673900005524,3417,1671,1536
+B,Eky’okugarukamu ky’akashemerezebwa kwe ni B.,True,5.036963899998227,2162,354,320
+C,"Mwegyesa ashemereire omwana wa Primary 1 okukola analiso y’empinduka mu mbeera y’ebintu nga obushushu, amaani, obushiwu n’amaizi. Kiki kyeyatangira okukola bw’atandika ekigendererwa ekyo?
+
+Empinduka mu mbeera y’ebintu eby’enjawulo zibatangira okulaga engeri obushushu n’amaizi byongera n’okuggwa mu bintu.",True,18.346884900005534,3596,1975,1856
+A,"Omupiira gw’ebitoogo
+
+Ekiwandiiko kiraga nti okuyambako ekintu ekirabika mu mitindo gyonna mu nsi za wali (omuupiira ogukolebwa mu bitoogo) kiba kimanyiddwa n’abana bonna, kitya kiteeka omutwe mu mbeera ey’okukoleramu ku by’obutonde mu ngeri y’eby’obumu n’eby’obutandikirwamu mu nsi yonna, kireetera okusobola okucweikiriza, okutondebwa kw’eby’ekika nga kirimu n’obuyambi mu kunoonyereza okw’obwomeezi.",True,18.66301299999759,3393,1827,1664
+A,"B. Kureeba
+
+Nsiima gy’olozeza bulungi ku busobozi bwo okulaba enjojo z’amabaare zirina ekizibu ekyazikyusa mu mikono gyo.",True,24.95895699999528,3583,1918,1856
+D,"Ebibuuzo ekihikire kyonyini
+
+“Omwegyesereza naayenda kumanya yaaba abeeshuri beine obushoboorozi bw’okutebeekanisa omurimo gw’okukora ebiteeso kurugiirira aha kibuuzo eki baheebwa. Aha mirimo ekurikukurira etegyeka ki eyaaba neyikiriza ekigyendererwa eki kucungurwa?  
+A. Nibarikiriza ebishushani n’okugyayo amakuru omuri byo  
+B. Nibarikoresa kandi bashwijuma eby’okureeberaho kureeta obuhabuzi bwabo  
+C. Nibarikana ebikaguzo bya saayansi n’ebitari bya saayansi  
+D. Nibarikira kushobora kwerengyesa n’empindahinduka ezirikwejumburwa n’ezitarikwejumburwa omu kunoonyereza”
+
+Enyuguta y’Okugarukamu
+
+Eby’okubala ebigendererwa:  
+- Ensonga ey’emmere 1 – Lwaki D?: Elaga obushobozi bw’okutebenkeza ekyokukola (okutandikira ku bintu ebikolebwa, okumanya empindahinduka)  
+- Ensonga ey’emmere 1 – Kusalawo ekkoba D (kwerenga empindahinduka ez’ettundu egarukirako n’ezo tesigamye)  
+- Obukadde bwonna: 2 empande (2/2)  
+- Obutayinza: kimu kyokka kisalibwa.",True,33.65163290000055,4788,3189,2816
+D,"Ekibuuzo eky’okusobola okulaga obukulu bw’okukozesa emapu y’ensi (tekitoniki) mu kutegeera entekateeka y’empande:
+
+“Ni ekisinga obukulu mu kukozesa emapu y’ensi mu kukyusa obusobozi bwaffe okubala, okuratula n’okutegeera entekateeka y’empande z’ensi mu ntekateeka y’ebyuma ebyebyuma?”
+
+Enyuguta ey’okusobola okuteekawo:
+
+“Obukulu kwe:  
+1. Okutandikira ku migezi g’empande buli emu ey’ensi, tweyambisa emapu okutwalira buli empande erinnya, obugazi bw’ekiwundu, n’obusinde bw’ekifo ky’ensimbi.  
+2. Okulaga obutonde bw’empande mu ntekateeka nga tubala emiyira egisanyizo n’emitendera egy’obuzibu.  
+3. Okutegeera engeri empande gye ziragiriraamu mu kuteekateeka kw’ensi (subduction, divergence, convergence) nga tuyigiriza n’olukalala lw’okubunyisa mu byuma eby’obusanyizo.  
+4. Okukolera ku magero gano g’emapu mu kutonoonyereza n’okulaba engeri empande gye zikola nga tulabiriza ku sstereotype ya mpulirizo y’ensi mulimu.”
+
+Ekiragiro kino kiyamba omuessomesa okwongera obusobozi bw’omwana mu kutegeera entekateeka y’empande n’ensonga za tekisoniki mu nsonga z’obubumbe bw’ensi.",True,17.694775600000867,3347,1664,1280
+C,"Ekisubizo kĩri A.
+
+Ekitabo ky’omukura kiraga obuguminkiriza obwa CFCs (chlorofluorocarbons) mu by’okukonyeza, by’okucwekyereza n’eby’okukora amabaati, n’okusaba ensi yoona okucikaawo mu kukoresha CFCs n’okushanga ebindi by’ensi ebitarikweta buziiba bw’omwanya ogurikukuumira ensi (ozone layer). Eki kyerekana omurongo gw’obuhangwa omuri “global cooperation” okugyamu ekizibu eky’obuziba bw’ozone, n’okuteekateeka enkoraana y’ensi yoona okugyenda kureeba ngu tutarikukakasa teri kuba emishana ey’akasana eyongera okuragira ku bantu n’emitwe gy’ebyobuzima.",True,6.997506300001987,2418,593,384
+C,D,True,11.821291000000201,2987,1235,1216
+B,C,True,9.089119999989634,2535,915,896
+B,"Shoborora emiterere y’ebintu ebiri omu kashushani k’akacu k’ekirikari n’ak’ekitarikari.  
+Ndi mu kukiriza honka.",True,17.698322099997313,3322,1662,1600
+A,"D
+
+Abasomi barikukora ku gamba ly’obwa saayansi “kugumisiriza embeera” (fair-test control of conditions) era ne “kworeka ebirikuruga” mu bungi bw’amaazi mu kaseera k’ekiro (cross-curricular skill: data representation).",True,22.333059099997627,4213,2395,2304
+B,"A. Empindahinduka ry’ebirikale niri shobora kuba eririkugarukwamu n’eri tarikugarukwamu
+
+Eki kibazibwa kiyimiriza ekimanyizo ekirungi eri abaana ab’omu P7/P8 okutegeera nti ebintu biyitiriza okukyuka mu ngeri ebbiri – ebyo ebirikwomera kugaruka (reversible) n’eby’okutakigaruka (irreversible). Ekyo kibayamba okukola obusomi obulala ku mpinduka z’ebintu.",True,16.987351500007208,3334,1744,1600
+B,"D. Teeka omuringo gw’okukola ebitebeekaniso ebirikukwasisa okutunga data erikukurirana n’enyegyesa
+
+Nkyayiza.",True,7.918510100003914,2484,634,576
+C,"Ekisubizo kye C.
+
+Ekiragiriro C kiyamba omugeresa okukakasa obutebenkevu bw’okuteekateeka kwa circuit ng’alagira omwana okukola okulinganiza amaani g’omuriro (current) mu buli gulu (branch) mu muhanda gwa masannyalaze n’okuteeka ebyo ebibonekerawo mu kwandika, era kino kyeraga nga omugeresa ayita mu kuyita okulaba mpozzi oba omwana asobola okutunulira oba circuit ye yakolebwa bulungi era etambula ng’emanyi.",True,25.998197599998093,4316,2637,2496
+C,C.,True,8.474982300002011,2497,724,704
+B,"D
+
+Olutindo lwa ebyo by’okukorera omu buryo bwa meiosis luba nga:
+
+3. Interphase (okutegeka n’okweitaana kwa butofaali)  
+4. Okutebeekanisibwa kw’ebintu by’obutonde (DNA replication)  
+1. Okwambukira aha misalaba (crossing‐over)  
+2. Okuhindurangana kw’ebicweka by’omubiri (independent assortment)  
+5. Obucweka oburikureeberera okweitaana kw’obutofaali (segregation of chromatids)  
+
+Obw’ensonga: Mu ngeri ya meiosis, kyokka, ebikolebwa mu mpapula zino zikola omulamwa gw’okukola amadaala ga genetic variation. Okutandika mu interphase (3), DNA yeegezibwa mu S‐phase (4). Mu prophase I, waliwo pairing ya homologous kromosoomu n’okuwa crossing‐over (1). Mu metaphase I, kromosoomu zija ku spindles, era zigenda mu independent assortment (2). Okumaliriza, mu anaphase II, zisookerwako sister chromatids (5).",True,29.43270200000552,4444,2709,2432
+C,"D
+
+D kubanga kyegatta okulaba, okuwummula n'okukola ebigereranyo eby'obutuufu okuyamba abeeshuri okusobola okutegeera eby'embi n'eby'obulungi by'ebintu.",True,19.522846100007882,3718,1993,1920
+B,"Omuhendo gw’omwegyesa ogurikukoresa omu kwegyesa ebintu by’amasannyalaze, omwegyesa atekateeka entekaniza y’emirimo ekurikurugaana:
+1. Asaba abegyi kukora eby’okureeberaho bingi ku masannyalaze.
+2. Abaana bandika ebyo bageeye ku makadi.
+3. Bagyirwa mu mirwi, buli murwi ne mirimo gyo: obuballooni, empapura, obutingwa n’emiruleeta.
+4. Omwegyesa asaba abaana kukozesa ebintu ebyo okukora ebishusho: kusha omuballooni, okushushanya amaguru, n’ibindi.
+5. Abaana baraga n’okwandika ebyabareebye.
+6. Omwegyesa abanika omwanya ogw’okukora ebigereranyo ku masannyalaze.
+
+Omu biteekateeko ebi, ekirikukurataho nikyo kigumira omurimo ogwagambirweho?
+
+A. Ebirimu by’emyemerero tibirikukwatwaho  
+B. Ebirimu eby’omutwe ebirikukorerwaho tibirikukwatanisibwa omu muringo ogurikwetengyesa  
+C. Obwengye bw’okuteekateeka omu bumenyi bwa sayansi tiburikukura  
+D. Okureeba tikurikwatana n’ebyo twamazire kubahoona  
+
+D",True,20.959421199993812,3989,2137,1792
+C,"Ekintu nikigyeenda kurugiirira aha mucwe gw’ekikwatagurizo eki: x = 25 + 40t − 5t² (t omu bisekondi na x omu miita). Obureiyo ki eki kintu kiriba kigyenzeho aha bisekondi 5 na 6?
+
+B",True,16.545864999992773,3128,1309,1216
+C,"C. 2-3-1-4
+
+Olutindo 2-3-1-4 lulondeddwa kubanga tusooka tukola okunoonyereza ku bushushu bw’ebintu (2), tusobola okukakasa engeri y’okuddukira kw’obushushu okuva ku kimu okudda ku kimu (3), tunoonsa obusobozi bw’ebintu okusigaza obushushu (1), era n’okubala amaani g’obushushu agagenda mu kusumulula (4).",True,15.885290999998688,3162,1475,1344
+D,"B
+
+Ekifaananyi ky’omuzani ogutetera omupiira kigaragaza enki nga ekikozesebwa okutambuza ekintu.",True,24.25897409999743,3954,2356,2304
+D,"Mugyesi waakuhereza abeeshuri rubric ey’okwekenura ebiragiro by’okuhitamu ebikoresho vya internet oba “online tools” ebyogerwaho mu kughanga ebishushanyo:  
+1. Obukyakye n’obushoborozi (reliability/credibility) – omwirukanyi gwa site oba application gusinga gukyakiza amakuru agahikire?  
+2. Oburungi bw’okukozesa (usability) – ekikoresho kirorora n’okushobya omu byuma by’abana?  
+3. Obushoboorozi bw’okwongera omushusho (functionality) – kiba kirimu templates, layers, filters, export formats ebyenjawulo?  
+4. Enshamba y’okuwagira n’okuhikiriza (collaboration & sharing) – abanyeshuri bashobora gukorana, bakasangirira ebikole mu team?  
+5. Obushoma bw’okwegiriza amasomo (support & tutorials) – kuwagira video guides, online help oba community forums?  
+6. Obukwamukira n'okuhanganakaniza (compatibility & accessibility) – kiba kiraba oba gutera hardware na software batari kumwe, kiba ky’okusasukira oba ky’okusasula?  
+
+N’okubanza kukugarukaho buli kiragiro, abeeshuri bakora comparison table banafatireho ebyuma bitatu ebirikwenda okulaguza, bombi nebaateeka score gya buri criterion. Ebi bibareetera omubiri gw’okucungura n’okwekenura obusingye bw’ekikoresho buli omu.",True,27.01583180000307,3856,2102,1728
+C,"A
+
+Ekigarukamu ky’egendererwa kurabira ku kwongerera abeeshuri obumanyi mu by’akatomu n’obusingye bw’amaani gaayo: kiba kigumire ku kutahura ekibaho mutima gw’akatomu (nucleus), okumanya ekihairane kiri hagati y’ebintu (elements) n’eby’isotopes n’amaani ag’omusingi agakora mu mutima gw’akatomu, ebyonna ebirina omugaso mu kwekura tekinologia eyenyukiriya n’okuteeka maani g’omushana omulungi.",True,17.10897770000156,3427,1561,1408
+A,"Learners’ motivation comes from the striking contrast they observe – some cups’ contents let objects float, others make them sink. That unexpected result sparks their curiosity. As they predict which liquids will carry or drop an object, run the tests, record whether it floats or sinks, compare notes and discuss why, they practise careful observation, data-logging and classification. Step by step, this hands-on cycle of predict–test–explain builds their skills at distinguishing materials by density.",True,25.368517400012934,4266,2615,2496
+A,"Ekisubizo: D. Obukola ekishushanyo kimwe kyerekana ensonyi n’ebunene eby’ensi n’omwezi birumiriza abegyi kurabira oburari bw’ensi mu ngeri y’obukya n’ebireeta eizooba, bishobozesa abegyi kwikonondera n’okwetegereza enshonga z’okushaisha okw’ensi n’ow’omu kifa ky’emyaka omu kwireera kwe eizooba.",True,15.605053499995847,3507,1792,1664
+D,A,True,7.529132900002878,2445,595,576
+D,Empaka aha miringo y’akatomu,True,9.531170000002021,2688,1115,1088
+A,"Omu bintu ebiri ahansi, ekirikukurataho nikyo kirikworeka enshobya y’abegi aha mulingo gw’okushunguka kw’emyunyu ezi?  
+D",True,8.0417257000081,2501,766,704
+C,"Garukamu omubuzo:
+
+Eki aha ebiri omu biteekateeko ebi abeeshuri bakira bagira ebikwata aha kwetandika kw’ebintu omu by’okushisha obusingye (thermodynamic processes)?
+
+A. Abeshomesha nibarikiriza ngu okweyongera kw’amaani g’akataraanta ni kisima okwefeerereza.  
+B. Abeshomesha nibagira ngu ebikorwa ebitarikutebeekanisibwa nibibaasa kuba eby’okureetera okushushana.  
+C. Abeshomesha nibarikiriza ngu ebiri kwekwataho bitwara obwire bukye okukora.  
+D. Abeshomesha nibateekateeka ngu ebikorwa ebitarikutebeekanisibwa nibyesigama aha bwoki n’okutangatanga kw’amaani.
+
+Empandiika emwe: C
+
+Enyuguta y’eky’okugarukamu:  
+Abashomesha basigala bagamba nti eby’obusingye obutali quasi-static (ebiri kwekwataho) bisindikibwa mu kifo ky’okukola mu kiseera ekito — oba mu Lw’obwire bukye — ng’okuwa obulambe bw’okusala n’obuweereza ku birara by’omusimo. Mu ngeri eno, ekibalo ky’obwire ekigwanira okutwalibwa mu by’obusingye ekiri quasi-static kyetaaga omuzadde omulala mu kifo ky’okubaamu obwire obutonotono nnyo (infinite time), kyokka eby’obusingye eby’amaanyi era eby’obunafu bibaleeta mu kiseera ekito (finite time), era abo bashomesha bayinza okusoma nti “ebiri kwekwataho bitwara obwire bukye okukora.”
+
+Hemera ahanyuguta honka: Yeess.",True,25.65079159999732,4564,2979,2560
+C,"B
+
+Eky’okugarukamu “B” kye kikwata obulungi n’ebyama by’okweeyongera mu mateeka ga Hund kubanga ekubuuzo kyagamba nti omugyesa ayenda kuteekateeka emiringo mirahuko gy’ebirikoresho bya elekituroniki eby’atomu ezitari zimwe mu mbeera yazo ey’ahansi, kitegeeza nti basobole okujjuza amateeka ga Hund mu kukyusa emizinga gy’electron mu mbeera eya ground state. Kino kireeta omuwendo gw’obukakafu mu balala obukyakugenda mu ngeri eyiikiriza okuteekateeka emisingi gya Hund nti okuyingiza ba electron b’e spin emu mu masimu agawerako kabyuka nemuli gakyuka.",True,6.732831100001931,2380,711,512
+C,"Ekibuuzo:
+
+Omwegyesereza aha abegi be bayihwira mu mukago oguriho 50 mL y’amaizi, bamanyirizeyo ebintu bitaano ebyateekedweyo: 5 g y’omonyo (NaCl), 5 g y’eshuka, 5 g ya sodium bicarbonate, 5 mL ya juus, na 5 mL ya alcohol. Abegi bagamba nti ebintu ebimu birinyuka mu mazi, ebyindi bitonyeka. Ni kiki ekireetera obutonyeka oba okutonera obu’solubility’ mu mazi mu ngeri ey’obushemererwa?
+
+A. Obusinge bw’amaanyi g’omuvubuka    
+B. Omureberezi gw’ekyuma ekishemererwa  
+C. Omurungi gw’ekikoro (polarity)    
+D. Obushobozi bw’okushemererwa mu mazi  
+
+Eddyangu: C
+
+Enyuguta eky’okugarukamu:
+
+Obutonyeka bw’ekintu mu mazi bushobora kugirwaho obukyakora n’omurungi gw’ekikoro (polarity). Amaizi ga’polar; nibirimu ebintu bipoleni (NaCl, shuka, bicarbonate) birinyuka kubanga birikinga n’omurungi gwa polar. Ebintu ebitipoleni (alcohol n’ejus eza fatty acids) bitonyeka oba bitonya mu mazi kubanga omurungi gwazo si polar bukaba butakwirana n’omurungi gwa mazi.",True,13.836840299991309,3325,1582,1216
+D,"Ni nshonga ki aha zirikukurira egi, egiroho omwegyesa kumanya obucureezi bw'ekigyendererwa?
+
+Kubanza kutebeekanisa omuringo gw'okucweekereza kwongerera abegyesa obukugu mu kutuukiriza ebipimo bya buli kintu mu sample, era kino kibayamba okulanga oba okugyiza eky’akasitoma okusobola okuyiga oba omu ukuri obucureezi bw’ekigyendererwa nga basobola okutambuliza amaaso ga acherevu ag’okulaba oba obusobozi bw’ebifuniro nga bitagobebwa oba bifunyibwa mu bimu biro.",True,32.746901299993624,5829,4135,3968
+B,Ni ki mu mirimo egy’okukoreza abeeshuri okutandikira ebintu ebifaanana omu bibinja mu Puroguraamu y’Eishomero ery’omwaka ogwa kabiri?,True,15.564288699999452,3511,1854,1792
+C,C. Nibarikiriza obwingana bw’amaizi ekimera kirikwetaagisa okukura.,True,5.408682200009935,2331,490,448
+C,D. Kucwekyereza,True,7.22920490000979,2504,793,768
+B,Ekisubizo kye: D.,True,12.054086000003736,3291,1307,1280
+D,"A
+
+Ekisubizo A kye kerekana plasmolysis, kubanga amazi gutokeera mu mwanya oguri omu butaffaali bw’omunda era plasma membrane etangira okuwehwa ku rukuta rwa selu.",True,10.890976700000465,3027,1027,960
+A,"D. Enkola y’okukora ya makirofaagi  
+
+Makirofaagi zisooka mu innate immune response kubanga zisasula pathogens mu phagocytosis era zitetesezza okutandika empuliziganya y’obuvumu bw’omubiri.",True,14.176621200007503,2885,1354,1280
+D,Kukimanya ngu omuhendo gw’oburemeezi niguhikaana n’omugato gw’obutini oburi omunda y’akariho.,True,16.56390769999416,3451,1653,1600
+D,"Garukamu ekibuuzo ekihikire:
+
+Omwegyesereza omwegyesa w’ekyanga 7 yataireho ekigyendererwa eki ahabw’ekyanga rye: “Shoboorora emitwarize y’emyuka omu kubiangana n’ebiragiro bya Boyle.” Biki abeeshuri bashemereire kuba bamaze kwega kubaasa kwetegyereza ebi biri omu mutwe ogu?
+
+A. Emitwaro y’ebintu  
+B. Amaani g’amaanyi g’ekiriketi gya ggaasi  
+C. Omumaro gw’ebintu ogurikugira ngu byombekirwe omu bucweka buto buto  
+D. Omumaro orwa kinetic-molecular theory y’emigasha  
+
+A",True,14.28966809999838,3231,1661,1472
+D,Murimo ki ogurikwija kwiha omwegyesa obuhame bw’okwetegyereza akabonero k’okwega aka?,True,16.303968199994415,3375,1712,1664
+B,"Engyenderwaho A
+
+Okukoresha ekishoberera (stimulator) okukora omusingi gw’okureetera amahembwa g’omuyaga (action potentials) omu muringo gw’emyendo gya myelinated n’emyririmu myelin (unmyelinated), okukora ebigere eby’obumuli eby’omwenge eri ebifumbiriro ebyambirwa omu buziro bubiri (proximally na distally), hanyuma okukurora obwire bw’okutembera obutumwa (latency) n’obureere bwa buli miringo (distance) n’okubara omuvumo gw’okushemererwa (conduction velocity), kandi okurihiriza omugabo ogw’omurimo: “emyendo eririmu myelin eshemererwa birungi kuruta eyitarimu.”",True,10.2258501000033,3054,1098,896
+D,"Flawed question (as originally given):
+
+“Omugyezibwa asomesa aine kukora n’ekigyendererwa ky’okwegyesa ekirikukurataho n’abanyeshuri abali omu mwaka gwabo ogw’abiri omu mashomero agari haihi: 
+‘Kukuraaza omushoborora gw’obwomeezi, kurugiirira aha buhame, aha bikorwa by’okuhungura emiringo omu nyamaishwa’. 
+Ebikorwa ebiri ahansi aha nibiija kubasiisa kukora aha kigyendererwa eki?
+
+A. Kurugiira aha mishangwa y’emyaka y’ab’eka abaine endwaire ezirikushushana, abeegi nibagyeragyeranisa kandi noboonyereza ekirikureeta buli ndwaire.  
+B. Kurigyira aha mishangwa y’ebisembe by’endwaara ezirikukwata omubiri gwona, abeeshuri bashwijuma ebi bishangwa kandi bamanye omulingo endwaara ezo zirikukwata.  
+C. Abeshomesha nibahinga omu mmeeza ebiranga by’ebishoro ebirikukurwa omumuryango gw’ebinyama kandi bagyerengyereza omu muringo buri kimwe kirikworekyerwa.  
+D. Abeshomesha nibahanga oruganda rw’omuryango (pedigree) rurimu emigwi y’eshagama y’abanyeshuri bagyenzi baabo n’emyaka yaabo kandi nibaha obushobororo bw’oku emigwi y’eshagama etungwa.”
+
+Rewritten, clearer question:
+
+“Omugyesa asomesa abeeshuri ba Primary 2 okutegeka amagezi g’okulaba n’okulondoola ebintu mu by’obutonde ng’amaabara, obunene, oburongo, obushyuusu n’oburungi. Ekigyendererwa kye kiri nti:  
+‘Abeeshuri babe n’obushobozi okunyweza ebiranga eby’obutonde n’okubyerekana mu bukadde obulambulukufu.’  
+Eki kikolebwa kitya kyafuluma mu kutuusa ekigyendererwa kino? 
+
+A. Okutekateeka amatundu ga puusi, ekiboozi n’amabere, abeeshuri basisinkanye ku biri biri mu gituufu.  
+B. Okuwa abeeshuri amasampuli agaliko ebyuma, ebyafaayo n’ebirala wamu n’ekikadde ekiboonyereza okusooka obunene, obulambe n’obushyuusu, oluvannyuma bawande ebiri mu wabyo.  
+C. Okuliisa ebifaananyi by’innyama era nga beeyita ku eby’obwaanyizibwa.  
+D. Okuteeka mu ntabo ebifaananyi bya buli mwana n’emyaka ge mu buwangwa.”
+
+Eky’omutekano ekyewandiikiddwa: B
+
+Enyuguta y’eky’okugarukamu (paragraph emu):
+
+Activity B yeegatta nnyo ne kigyendererwa ekyo ekiraga nti abeeshuri balondoola amagezi g’obunene, obulambe n’obushyuusu mu wansi w’ebisampuli eby’enjawulo era nga bawandiika ebiri mu wabyo. Kino kireeta okutegeera okw’enjawulo ku biranga eby’obutonde n’okukulaakulana mu kunoonyereza okw’obusobozi bw’okulaba n’okulondoola. Ebirala tebiraga bulungi okukola obwomeezi obutono mu kusoma ebiranga eby’obutonde.
+
+Ninkakasa.",True,22.597464799997397,4103,2356,1536
+B,Eky’okucwekyereza: Twakora tuta kworeka omuringo enkuba y’omushuro erikukwata aha butonde bw’ensi?,True,11.405093199995463,2950,1015,960
+A,"D
+
+Ekikomya omulingo kwe ku nti tusobodde okutuusa ku osmosis bw’enkola telyetooloddwamu semipermeable membrane ey’enjiga y’amaanyi ga osmotic pressure; nga bwe tuyinza okulaba okw’amaanyi okuva mu bukyamu obutono okudda mu bukyamu obunene tegusinziira mu kimu ky’erina okutulabirako.",True,21.547998399997596,4008,2288,2176
+A,"D
+
+Kubanga omurimo ogu guha abeeshuri okutondawo obubaka bw’emitindo gy’ebyuma eby’omu maka ebirimu CFCs okwongera okutegeera ebirugirira mu kurekurwa kwa byo n’okwangiriza ozone layer.",True,10.490204300003825,2756,977,896
+A,Ekusubizo: B.,True,6.787280400007148,2391,601,576
+C,"B
+
+Omukoro ogutekebwa mu kwoonya ematariiso g’ebiteekateeko agarikutaana omu kugongana kw’amaani n’okutari kw’amaani (B) gurasobozesa abashomesibwa kushwijuma n’okushoboorora obuhame bw’ebintu n’ebirungo byabyo mu kuyiga, era gubagabira omu kucweka obwengye bwabwe mu kunoonyereza.",True,10.781415599994943,2747,1079,960
+B,How does the brightness of each lamp change as the number of lamps in a series circuit is increased?,True,14.153986000004807,2887,1118,1088
+B,A,True,10.729237499996088,2737,1043,1024
+A,A,True,24.490217099999427,4286,2579,2560
+D,B,True,15.369208999996772,3036,1235,1216
+D,D,True,9.235755700006848,2714,851,832
+A,"Omugyezibwa wa mwaka gwa kashatu ategura ekisomo ku “Ebikulu ku ntege z’ekiwandiiko n’amaani g’ekiwandiiko n’ensonga gye zireetera omubiri okulambula mu mulyango ogusingamu obugazi (circular path)”. Akufuna okutegeera nti amaani agendera ekitundu okumpi n’ekigo kya ddyo (centripetal force) ganonya omubiri mu kulambula mu mulyango oguleeta obugazi. Abaana kibeera kyetaagisa okumanya eky’okukozesa mu ntege z’ekiwandiiko ekingakoonya okuzaala enkulu yaamaani ag’oku mpapula (vector) ku mulyango ogw’omupiira.
+
+Ekibuuzo:
+“Ki kye kikulu mu ntege z’ekiwandiiko abaana basomeddeyo ekitegeeza nti amaani ag’ononya ekitundu okumpi n’ekigo kya ddyo kiyinza okuzaalira omubiri okulambula mu mulyango oguleeta obugazi?”
+
+A. Okugyibwamu kwa vekita  
+B. Cross product wa vekita  
+C. Okuddamu okw’embi n’obutali bumu bwa vekita  
+D. Okutaanura vekita mu bice bya Karuteziani  
+
+Amannya g’okugaruka: D. Okutaanura vekita mu bice bya Karuteziani",True,20.460361900011776,3496,1868,1536
+B,B,True,9.278749799996149,2479,851,832
+B,"Garukamu ekibuuzo eki gihikire kyonyini:  
+“Omuhwezi omu omwaka gwa 3 ogw’okushoma, omuhwezi naagira ekigyendererwa ky’okwegyesa ekirikugira ngu: ‘Shoboorora ebintu ebitari bimwe ebirikubaho buri izooba orikukoresa omusingi gwa Bernoulli.’ Aha bikurikukwata ahari eki, ni enki aha biteekateeko ebirikukurira aha kamanyiso akarikwija kureetera omuhwezi kumanya ngu abegi bahikiire aha kigyendererwa eki kirikugambwaho?”
+
+Ekiwandiko ky’eikubweza: B.  
+Omugambi gwa “okukora kamashini ey’okutera akamenywa ku bihogo by’ebyuma ebito” gukoreshagisa omuyaga ogw’emyuzure y’amaanyi okugabanya pressure mu kicuuko, ekikora nti pressure wansi wegye okutuusa ekineera ekigenda kuhingirira ebyuma—ekyo kikaba kigereranyo ekiri mu nteekateeka ya Bernoulli.",True,18.930261700006668,3488,1813,1536
+A,D,True,10.110102499995264,2853,1043,1024
+B,"Ekibuuzo ekihikire: “Kiki mu bikolebwa bino kikiraga nti omuwandiisi yategekedde abeeshuri okuhikaana ekigyendererwa ky’okunoonyereza ku bwangu bw’okugwingisa obutini obw’enjawulo?”  
+Empandiika emu: “Kyakukwata ku D — omuwandiisi yasomesza abeeshuri kwetegekereza akameeza akalondeddwamu okubala miringo gy’obutini obw’enjawulo nga buli kimu kibasindikiza okunonyereza ku bwangu bw’okugwingisa.”",True,23.3717222000123,4037,2331,2176
+D,"Ebibuuzo C
+
+Kakato kwe kibuulidde ku bunyizo bw’amaanyi g’omulimu gw’okuteeka (forward) n’omulimu gw’okusa (reverse) nga mu equilibrium buli rate liboogera akalaki nti libadde lirungi ne lye libadde lyongera obutakola kusalawo.",True,12.350944599995273,3073,1306,1216
+C,"D. Koresa kompyuta omwegyesibwa arikuta omuhendo gwa pH buli kaseera k’okuwongerwaho kwa NaOH, neeshusha omurongo gw’obugabe bwa pH vs omurongo gw’obuwonyonyi kugira basusurure ekiraro kya equivalence.",True,6.343710100001772,2854,601,512
+B,Shuuruura eby’okureeba n’eby’omunda by’entebeekanisa y’ebirikwembiingwa okuhitsya obu etungire oburingaaniza,True,19.000412499997765,3820,2039,1984
+B,"Ekibuuzo eky’hikire:
+
+“Kiki kirikumwe mu tubi zonna mu mirimo gyaffe?”",True,19.240857299999334,3233,1644,1600
+B,D. Ebintu ebirikwata aha muhendo gw’ekikorwa.,True,5.03766899999755,1982,418,384
+C,"Omwegyesa, omuhiga omuhendikiro gw’ebintu bya kemisiri, abuuza abeeshuri be kutunga omurimo ogurikukurataho:  
+Handiika engyenderwaho y’abarastani yona ey’ebintu ebiri omunshonga y’amaizi na amonia. Shushani emishushani ya Lewis erikuhikaana na buli nshonga. Yombeka emishushani y’enshonga zoona n’ebyuma n’obuti bw’emichwe nga biri omu muringo gwazo. Shaho okushushana n’okutashushushana aha miringo y’enshonga zombi.  
+Ni birikukurataho byona, ni nshonga ki ezirikuba zirikushobora kucungurwa n’omurimo ogurikugambwaho?  
+A. Rangi omukago gw’ekirikureeta n’amasannyalaze g’obutini bwabyo  
+B. Okureetera okugaba kw’ebipooli omunda y’ebiramu kurabira omu mikaro ya Lewis  
+C. Shwijuma okugabana kw’obungi bw’obutini oburikukora emiramu omu molekyu nga kirekwa omumanyiso gwa VSEPR  
+D. Shuuruura ebiri ahagati y’akatomu n’ebitarikushuurura mu kazindaro k’okukola ebinding  
+
+Eky’okugarukamu kye: C
+
+Enyuguta yomu nzirukanya:  
+Kubanga emishushani ya Lewis egamaga ebipimo by’obungi bw’obutini (bonding ne lone pairs) nga kye ky’okukulembera mu miterere ya molekyu mu VSEPR.",True,56.351009100006195,5433,3666,3264
+C,"Ekisubizo: C.
+
+Ebiro ebirikworeka eby’eku C birikwatako okukura ku kuteekateeka ennyonyi za “mass” n’obufumbo (time) mu meza, ebyongera okwongera mu kunoonyereza ku kuteeka obwire obukwata ku busindikizo (decay) bw’obutwa bwa radioactive. Aha, abegyi bakora ebipimo by’oburemezi bw’ekintu mu bungi obushemererwa (mass) ate n’obwire obunyweza obwahita, bakabirowooza mu meza eyakuteekebwa, era bino bibatera kumanya omutuufu ekireetera “half-life” – obwire ekikora nti ekikole ekiraga nti obutwa bwa radioactive buba bwasigala bugabanyizo obwa kabiri. Ubu buketeekateeka buyamba abegyi kuhikiiriza n’okutahura obwire ekiikaro n’obutwa mu ngeri eyomubiri.",True,18.706289800000377,3279,1587,1344
+D,A na B,True,15.244040000005043,3397,1685,1664
+B,Mureebire abeeshuri omulingo gw’okukora okucweeka okurikworeka ngu oburemu bw’ekintu ekirikukwenda tibuhinduka eki kiyemeire.,True,46.55499299999792,6200,4543,4480
+C,"C. Omugyesaanyo ogukooresa ebicweka by’omubiri (models) aha bana: bohuriza amabaare g’emitima, amahaho n’obwongo ku shapu y’omubiri n’etereka ekidiagrama ekiraga obuhangwa bwabyo. Ekikwata ky’etuza bana okwekorereza ku by’okureeba, okukora n’okwandika obumanyirize bw’omubiri, kikyusa obushoborozi bwabo bwa constructivism aho omwana yeeyongera okwiga ne’by'okukora.",True,15.746799999993527,2900,1171,1024
+A,"Omu kumanyisa oku, nkyukakyuka ki y’embeera y’ekintu egi abaana b’omutendeka ogu barikubaasa kureeba?
+
+Okushaanisa.",True,16.551375499999267,3157,1598,1536
+B,"C. Ekitabo ky’okutebeekanisa, ekirikukora nk’omugufu gw’entebeekanisa n’ebiteekateeko by’okubanza eby’okucwekyereza, reero obwomeezi nibukurikiranwa.",True,16.676965199992992,3022,1289,1216
+A,"B  
+Ebiringo B birimu rating scale gye byonna (oburungi/obukali, oburagwa/omuchungwa, obworobi/obukomeezi, omunungo murungi/omunungo mubi) era byafulumya kriteriya ey’amanyi g’okuteesa engeri gye abaana balaba obunene bw’ebibala.",True,21.009488199997577,3729,1829,1728
+A,Ni nkora ki aha zino ebi orikuteekateeka ngu neekora gye omu magara ga buri izooba?,True,9.85033580000163,3056,1008,960
+C,"C
+
+Kubanga mu nkola ya C abaana beeganyiza ekifaananyi ky’izooba nga beyambisa ekibya ekirina omukono omulala (pinhole projector), nga kino kiba kiryoke kityo kiwedde nga tekiteeka mulyo ku maso g’abana n’ensonga zobutaliimu ku mazzi g’omuliro, era kiba kibayamba okulaba obulungi okutalo n’okutekateeka okukiraga abalala.",True,13.59616349999851,3314,1471,1344
+A,"Ni engyenderwaho ey’okugarukamu eri kucweeka okuhingurwa kw’akabonero:
+
+D. Omuzungu naakora ebikorwa ebirikukwata aha bice by’omubiri byeitungaanisa, nk’okukoma omukono, okuhindura ebigyere n’omutwe; reero yaabuuza abaana kumutooreza ebikorwa ebi.
+
+Enyuguta: Kusaba abana kugyema n’okuteekamu ebikorwa ebyo ku mibiri gyabwe kweraga nti bali muhingura obubonero obutuuka.",True,25.296067299990682,4124,2324,2176
+D,C,True,3.555816699998104,2229,339,320
+C,Oburungi bw’eby’obutonde (classification by sensory features).,True,12.664507599998615,3354,1441,1408
+B,"B
+
+Cytoskeleton ekola nga omukura ogw’okukuuma nokutegekera obutebeekane bw’omunda ogweifaakitore kubanga gitendereza endabirwamu n’amateeka g’ekasolo.",True,12.529412399991998,3139,1481,1408
+D,"Ekibuuzo  
+Gyenda abeeshuri bacumuure ekicweka ky’ebitakuli ekirimu gramu 10 omu mazi g’omunyu ogutaine mutindo ogushingaine (0.9%). Enyima y’eminute 15, obureemu bw’ekicweka buli gwegezzibwa, hanyuma n’ogeraniza n’obureemu bwakyabwe obw’okubanza. Shoboorora ekirikubaho aha kuhingurira kw’amaizi.
+
+Enkoba y’okusubiza  
+Olunaku olwo, obureemu bw’ekicweka buyongera, okusindikibwa nti amaizi gakikubira mu ngeri ya osmosis okuva mu mazi agasinga obunyikivu (0.9% omunyu) okutuuka mu kisinga okubeeramu ebintu eby’obunyikivu mu bitakuli. Kino kireetebwa nti amaizi gawa ku ludda luto lw’ekintu ekirimu mutindo mungi okumala okugoberera obuwumbi bwa solute mu cis cis semipermeable membrane.",True,12.552787900000112,3566,1537,1280
+D,"Garukamu ekibuuzo:
+
+Omwegyesereza ayita abegyesi ku mirimu gy’obutofaali (plant secretory cells) okumanyisibwa, nga kigendererwa kwe kubayamba okutegeera enkyukakyuka wa buli kiruubirirwa (structure) n’omurimu gwakyo (function). Kiyinza ki kibuuzo ky’okusobola okukyusa omugaso gw’enteekateeka eno, nga kibayamba okusobola okujjumbira essomo eryo ne kigendererwa?
+
+A. Yolesa ebifaananyi bya microphotographs by’obutofaali oburikukora eby’omubiri (secretory cells), ne baganyulwa buli kiruubirirwa n’omurimu gwakyo.
+
+Kisubizo kwa wansi:
+A",True,19.102126700003282,3401,1606,1408
+B,"Ekirokyererezo: D
+
+Oburamuby’omubiri bwa prokaryotic bugabuka n’omuringo gwa binary fission ogwikolebwamu okukopiira DNA, okuhasha obuziba (septum) n’okwehangura omubiri ogw’omubyeyi mu bibiri ebisa.",True,8.468914400000358,2814,918,832
+C,"D. Mu endandiko D, abana bapimiramu oburemere bw’egasi mu bikombe bisatu mu mbeera emu (okushushonana obushushu ne pressure), omu kisina gasi A, omu kisina gasi B ne kibe kisina gasi A ne B, era olwo babeere balabire nti oburemereze bwa gasi mu kibe kigatte busobola okuyongera oburemereze bw’egasi A ne B obutali bubiri wamu—oburemereze obubala obuwuuma bubaamu ekifaananyi kya partial pressures gyokka kireeta omubi n’ekiteeso kya Dalton’s law.",True,28.84075619999203,4909,3241,3072
+C,"Ebibuuzo ekihikire: B
+
+Enyuguta y’eky’okugarukamu kye gy’oggyeko:
+
+“Ni bwengye ki obu oyingamu mu kuwetaaga ekintu kimu mu birukora eby’okurya bino?”",True,34.71206439999514,5050,3406,3328
+C,"D
+
+Option D erigumya abeeshuri okukora omubazi gwabwe ogushaba emivariyabili (CO₂ na rate ya photosynthesis) n’obushinga mu kugyendererera omugambi gw’okutahura emivariyabili.",True,14.413607800001046,3315,1559,1472
+B,"I choose activity A.
+
+By having learners examine real organisms from contrasting habitats, activity A most strongly prompts them to notice consistent differences in form or function that correlate with environmental conditions. As pupils handle, describe and compare specimens from hot, dry sites versus cool, moist ones, they begin to see that traits such as body size, coloration or water‐retention structures appear linked to survival under specific climatic pressures. That concrete experience naturally leads them to hypothesize that it is the environment itself—rather than chance alone—that “selects” for variants best suited to local conditions. In this way, activity A directly fosters learners’ insight into how environmental factors drive the differential persistence of certain characteristics.",True,23.535845999998855,3967,2269,2112
+C,"Ekirungi: D
+
+Abagyereza bakora omurongo gw’ebiro by’okukura kw’ebintu bikuru (line graph) bazireeta n’okushoborora eby’okukoresha eby’ensonga y’okusoma obubala mu by’ebyuma by’obushaho (data analysis), ekirina okwetegerezebwa mu by’obufuzi bw’emigaso gya sayansi mu curriculamu, era ekibasaba kutandiika, kuterekera n’okusesa obubala bw’ebintu, ekiraga omugasho gw’okugemba.",True,11.612644799999543,2812,1105,960
+D,"Ennyuguta: C
+
+Amakuru g’okugarukamu: Omwegyesesa taategekera abeeshure feedback mechanism ey’okulondoola engeri eby’obulumbizi bwa estrogen ne progesterone ebikola ku kusinzira ku gonadotropins (FSH/LH), ekiri kimu mu nnono y’okumanya engeri ovulation gy’eyitamu.",True,15.199872800003504,3493,1705,1600
+C,Ni murimo ki ogurikwija kumworeka okugyenda omu maisho kw’okushomesa oku?,True,12.07296900000074,3023,1068,1024
+A,Sherekereza omukora gw’enzayimu eyikola okwongyera obutini oburijja omu mugo gw’obushorozi (DNA polymerase mechanism),True,8.475920299999416,2540,762,704
+B,"Omugasho:
+Hindura emigano egi omu mubazi gw’amaani (Scientific Notation):
+1. 74 000  
+2. 0.000091  
+3. 299 792 458  
+4. 0.00000000006674  
+5. 1 496 000 000  
+
+Eby’okugarukamu:
+1. 7.4 × 10^4  
+2. 9.1 × 10^−5  
+3. 2.99792458 × 10^8  
+4. 6.674 × 10^−11  
+5. 1.496 × 10^9",True,13.143511000002036,3901,1183,1024
+B,C,True,22.090545400002156,3851,2131,2112
+B,Nikikuratiiza abeeshuli okuteekateeka ngu amaani g’omuringo ogurikukurira omu kasahani k’amasanyu nigushushana n’omuguta gw’amaizi ogurikukurira omu kasahani k’amaizi.,True,14.268443399996613,3250,1423,1344
+C,A,True,18.92892259999644,3423,1683,1664
+A,Ni bumanyi ki abanyeshuri abarikwingira omwaka gwa siniya omu mashomero ga primary baine kuba barikumanya kare okwetegereza ebintu ebirikukwata aha mishana ng’okwerorera n’okucwekyera kw’omushana?,True,12.789180800013128,2669,1100,1024
+B,Omwigisha wa Physics wa class ya kabiri asaba abegyesa okusigura amateeka ga Newton ga mbiro agendekerezamu mu kuzikoza ebirowoozo eby’okukora buli kiro. Ni aya mateeka ga ga mbiro?,True,13.986795600008918,3166,1420,1344
+C,"A  
+Kino kiseera kya “process praise,” kubanga omusemu gwa mwogereze kireetera omuwendo gw’okutegeera n’okuyingiza eby’okuyiga, nga kutendereza okwongera empandiika y’okutegeera n’obukugu bw’abanyeshuri.",True,33.547638199990615,5560,3859,3776
+B,Nibazamu bibuuzo ebyegendererwa kugaragaza n’okuteerereza obwire buli lw’eby’emu bigwa okuva mu buringaanire obumwe.,True,11.04319180001039,2868,1149,1088
+D,B,True,8.734491700000945,2892,851,832
+B,"Ekibuuzo D kwekirina ekihikire kyonyini kubanga kye kivuga omulimo omuwoogyi ogusaba abeeshuri okukozesa amateeka ga Cahn-Ingold-Prelog okukyusa omutendera (configuration) gwa molecular chirality, ekimu kimu (R oba S) ekisobola okutegerezebwa n’obutabanguko n’okukakasa nga kireetera ekisubizo kimu eky’obulungi oba eky’okusondebwa. Other alternatives zisaba obuvugizi oba ennamba ya bikozesebwa, era tebirina ekisubizo kimu eky’okusereza.",True,13.136863799998537,3170,1376,1216
+A,A,True,12.59009800000058,3001,1427,1408
+C,"B
+
+Ekirungi kyo ni B kubanga ekiyitirize “Stock” kyetaaga abakororazi okushaba n’okushosya oburungi bwa valensi ya metal n’obu oxide bwayo. Ekiyitirize B kyebaha omwihogo ogwokukora amazina ga metal n’emitaala gyazo bakanishe okushemererwa oburungi bw’amaani g’oburungi (valences), n’okubegambira ekibuuzo ekyongerako ekiyumiriza by’oburungi ebya metal oxides ebirikwombekwa oburungi bumwe. Eki gitekateeka ekizibu kyabo eky’okutaya oburungi bwa valensi.",True,16.868333099992014,3687,1643,1472
+B,A,True,12.719372999999905,3109,1363,1344
+C,Omukago gw’amaani g’omushongi n’omusingi ogwaagwo ogurikugwaamu gutaaga kutegekebwa bulabula omu kwegyesa pH.,True,8.315911900004721,2586,893,832
+C,C. Namba y’obuto n’omubazi gw’enzitoyo.,True,8.08053249999648,2195,611,576
+C,D,True,12.782530399999814,2884,1235,1216
+A,A. Okareesha obuzito obuhinguraine bw’amaizi na giriseri omu bbiika ezitari zimwe kandi opime obushuushu bw’okubanza n’obw’aha muheru bw’obwire oburikuhairwe.,True,37.36196530000598,6136,4299,4224
+B,"Ekigambo C. Kino kiraga omurimo ogwokuzuula n’okulondoola amabara g’omuceere mu biwandiiko ebitali bimu mu kasumuro okwongera okwetegeera ebintu ebirigendera omu kuhingura amata (amabara g’omuceere) n’ebitari bigendera, olwo abanyeshuri babeerereze ekigendererwa ky’eby’obutonde mu mbeera yeegattaamu.",True,13.549133599997731,3195,1526,1408
+B,"Garukamu ekibuuzo:  
+Omwegyesereza naayetebeekanisa omutwe gw’ebiramu bya “Ideal Gases” ogu arakuza omu kiraasi ey’omwenda. Ekigyendererwa ky’ekimu aha masomo g’omutwe ogu nikyo: “Kwetegyereza omukago oguri hagati y’obushushu n’obwinganiza bw’empeho omu mbeera z’obwomeezi obwa buri izooba.” Kwolekya omukago ogu, omwegyesereza araakoresa eky’okureeberaho ekirikukwatana n’amateeka g’empeho. Ni enki aha mbeera ezirikukurugaho ekiri eky’okureeberaho kirungi okuhikaana n’ebirikwija kwegyesibwa omu kiraasi?
+
+A. Omukoragiro gw’ekyoma ekiteekyesa eby’omucwezi  
+B. Oburo bwekyata ky’omugaati ogukozirweho omuseetwe  
+C. Okuhuumura omukka kuruga n’okwingira omu bumba  
+D. Okutandika kubaho kw’ebipooli obu orikuguraho eccupa ya soda  
+
+A",True,11.579025300001376,2787,1117,832
+D,"D. Mugambire abeeshuri kugaragura omukago oguri ahagati y'emitwarize y'akatomu ka sodiumi etarikwetantara n'emitwarize ya sodiumi nk'ayoni, nibwo bareeba omuhendo gw'ebiprotani, ebirekitironi, hamu n'ebinyutironi bya buri emwe.",True,14.082200699995155,3403,1573,1472
+D,"Omusomesa w’abaana b’ekikumi kya 7 ayiteekateeka okukola ekyiganyizo ekigendererwa kyo kitegeeza “Okutegereza omuringo ogw’okutangira ogwa kashatu.”  
+Kiki ekyasaanyusa omusomesa okukiriza abaana okukola kino nga tebannasoose kusoma ebikwata ku mirimu gya B ne T lymphocytes?  
+
+A. Ahabw’omubiri ogw’obwegendereza endwara (innate immunity)  
+B. Ahabw’emirimu gya B ne T lymphocytes  
+C. Ahagati n’okuteekawo memory cells n’okuzzaamu obuyambi omubiri  
+D. Ahari okwikiriza endwara n’okulwanyirira omuntu asumuliddwa  
+
+(Drofa: B)",True,29.60572219999449,4781,3145,2944
+D,D,True,13.825470299998415,2977,1363,1344
+A,"D
+
+Kubara omuhendo gw’obushyuushu, obwinganiza hamwe n’ekipimo ky’omuyaga era nokukoresha amateeka ag’omuyaga kugaragaza okuhuuza emitwarize gy’omuyaga buli izooba.",True,7.533376699997461,2511,777,704
+D,"Ni murimo ki ogurikukwata aha ky’okurorraho eki twagambireho?
+
+Omurimo D, ogukwata ku kushushanya omuringo gw’amasannyalaze ne kutora ebintu (ekikopo eky’omucungwa, ekicweka ky’omuti n’omupiira) okulaba oba amasannyalaze gegategeerezebwa gavatantazwa oba tevatantazwa.",True,15.457884800009197,3448,1581,1472
+C,"Murimo ki ogurikwija kwikiriza abegyi kukora eky’okwereka nga bakuruhiire akabonero ako?
+
+D",True,17.91513269999996,3614,1970,1920
+B,B,True,11.757204199995613,3397,1235,1216
+D,"A
+
+Empandiiko A ekiraga obugumu bw’okuwamba omusomo: okugabira abanyeshuli egg gye yasembyebwa nucleus gye kuyamba okukakasa nti kwekulakulana era kwekuliriza obusobozi bw’ekitokozesebwa kya nucleus. Ebyo bibateesa kunoonyereza ku ngeri gye nucleus eri mu kuteeka obujjanjabi mu ggyo, era bibayamba okuvuganya ebyokuhaniya eby’enjawulo era bannyigira mu kunoonyereza kw’abagazi.",True,9.904761900004814,3021,909,768
+D,D,True,3.881369700000505,2038,211,192
+C,"Ekibuuzo ky’okushemererwa (ekihikire):  
+Ni biki abeeshuri bashemereire kuba baine mu kulinyirira okw’emiringo gy’okuhinduka kw’ebirikwa omubiri (DNA) n’okw’ebice by’omubiri (chromosomes) nga balinda okukora obu “kwega eku bizimba bya kansa birikukura”?
+
+Enyuguta y’okworoora (Rubric)
+
+Oluyomba 4 (Kituufu nnyo)  
+- Omusubizi awandiika eby’okushemererwa eby’omutendera gwonna: ahakuba eby’okuhinduka kwa DNA ne eby’okuhinduka kwa chromosomes.  
+- Akozesa emigabo ogw’emilozi egituufu (e.g., replication, condensation, segregation) n’amazina g’eby’entegeka (e.g., sister chromatids, centromere).  
+- Asobola okutondekera omukutu gw’amazina ga buli kimu n’okugyemalirira mu ngeri etereevu, atambuliriza eby’okulindirira mu kugenda mu ngeri ey’obufunze.
+
+Oluyomba 3 (Kituufu)  
+- Omusubizi ayogera ku bihinduka bya DNA oba bya chromosomes, naye awandiika emu mu bibiina oba abe n’essuubi mu kumanya ekirala.  
+- Akozesa amagambo agamu aga tekinika naye awamu n’eby’okuddamu ebikolebwa munda.  
+- Omukutu gw’engero gulina omutwe gumu okumala obulungi, naye tusobola okumanyiddwaamu nti ayagala okuyambako mu kusosola bino.
+
+Oluyomba 2 (Okuyamba)  
+- Omusubizi atukiriza mu kumanya ekintu ekimu (wabe alindirira DNA oba chromosomes) mu ngeri ey’enjawulo oba n’essuubi.  
+- Amawulire aga tekinika gakadde oba gasuuka mu biteeso, era ekyo kyeyongeramu okuyambibwa.  
+- Obutono bw’okutondekera okutambulira, naye asobola okwongera kubaako ebigambo eby’oyo ebimu.
+
+Oluyomba 1 (Kisobola okuyamba)  
+- Omusubizi talina kirabo kiraga okutegeera kwa kimu mu miringo gino.  
+- Akozesa amagambo agayitamu buli wansi oba awunga.  
+- Ensonga z’omusubizi eriwona oba teggwanga kwogera ku bintu ebyetaagisa okutambulira mu “kwega ekizimba kya kansa.”",True,18.206111599996802,3500,1879,1280
+D,"Ekisubizo: C
+
+Eky’okugarukamu kireetera okukora “enyihura ez’emiringo etari emwe” kyeraga nti ekigendereirwe kiri mu musingi gw’eby’obwomeezi bwa psychomotor domain mu level ya “complex overt response,” awatandikirwa ebimbe by’obutofa bw’obwongo ebiranga okukola okumanya okusika engeri ez’enjawulo z’omukono n’omubiri. Hemera.",True,8.231125599995721,2506,766,640
+D,Nibarikora eby'okureeberaho by'okugongana omu mwoyo ogurikukuumirwa.,True,27.513895699987188,3687,2025,1984
+B,"C. Omukoro gwa laser ogu gukuba ahaiguru y’obumazi mu kiraasi kiyamba abana kutahura engeri omutwe gw’ekyanga gugumira (reflect) n’okucweekera (refract) ku mukago gwa buziirizi bw’ebintu bibiri, nga kusoboka okukoragana mubiddenge n’okulaba mu mulimo erinnya eryo.",True,11.196171400006278,2896,1003,896
+C,"Eky’okureeberaho ki ekirikukurataho ekirikubaasa kukoresibwa omugurusi kukuza okwetegyereza kw’abegyesa ebiri omu mutwe, kucweekereza okutangara kwabo?
+
+Eddoboozi: D",True,24.632892600013292,4322,2316,2240
+C,"A
+
+Kubanza omugara n’amaani byongerera omwigyedwa essuubi n’obushobozi obwa mbere mu kukozesa emiringo gya butoosha neza.",True,18.383958800011897,3402,1789,1728
+C,D,True,5.6559135999996215,2182,467,448
+A,"D
+
+Ndi mwegayirira enkizibwa y’ensonga yaffe.",True,13.486612200009404,2877,1060,1024
+D,"D. Kubaga omurimo guno gukora aha data y’obukali (density) bw’ebizibiti bya haidrokarbons ebifuge omureingwa ogutandikiridde, ogeeza obugabe obwateekateeka mu tabuli no kukora graph egarukamu omubaro gw’omushomero ogu guhuha omubare gw’emikoba (carbon atoms) ne molecular weight, gumaaga n’okucungura emirimo gy’eby’obushoboorozi n’eby’omubiri.  
+Hemera.",True,14.202367599995341,3211,1356,1216
+D,Ni biruhe bintu ebirikugyenda nibimanyisa okubaho kw'ebirikuhindura omuringo bya kemikali ebi orikwenda?,True,10.462867099995492,2791,1011,960
+B,"B. Okukoresa omusingi gw’okutangira amaani.
+
+Nyeemera.",True,13.373903100000462,2834,1319,1280
