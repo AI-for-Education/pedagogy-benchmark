@@ -1,0 +1,297 @@
+answers,resps,success
+D,C,True
+A,D,True
+D,D,True
+C,D,True
+A,B,True
+D,D,True
+B,C,True
+C,D,True
+A,C,True
+B,D,True
+D,D,True
+D,C,True
+A,"Looking at this question, I need to understand what teaching strategy would best help students learn about technological innovations in the circulatory system (like pacemakers).
+
+The question asks which approach would best help students achieve the learning objective about technological innovations in the circulatory system.
+
+Let me analyze each option:
+
+A. Discusses creating a demonstration of how a pacemaker works in groups, following a known and real procedure.
+
+B. Mentions creating modified heart models and making an informational paper.
+
+C. Presents a reading/text about the current state of pacemakers, including information about wireless pacemakers, brain-heart connection pacemakers, and sensor-based pacemakers, along with their benefits and considerations.
+
+D. Refers to a timeline showing scientists who contributed to knowledge about pacemakers.
+
+For learning about technological innovations, option C provides comprehensive information about current pacemaker technology, different types of innovations, their benefits, and important considerations - which directly addresses understanding technological innovations in the circulatory system.
+
+C",True
+B,C,True
+D,D,True
+B,C,True
+D,D,True
+A,D,True
+C,C,True
+B,C,True
+D,"Looking at this question, I need to determine which sequence of activities best promotes deep understanding of atomic models.
+
+The activities are:
+1. Read and discuss a book about current atomic model and its key components
+2. Solve problems related to atomic models and their uses, electron configuration, and quantum numbers
+3. Discuss in groups a book about how the atom evolved and its key components with illustrations (Democritus, Dalton, Thomson, Rutherford, Bohr)
+4. Compare different atomic models showing their key components
+
+For deep conceptual understanding of atomic models, the logical progression should be:
+- Start with historical evolution (activity 3) - understanding how models developed
+- Compare the different models (activity 4) - seeing differences and improvements
+- Learn about the current model in detail (activity 1) - understanding modern theory
+- Apply knowledge through problem-solving (activity 2) - reinforcing understanding
+
+This gives the sequence: 3 - 4 - 1 - 2
+
+D",True
+A,D,True
+D,D,True
+D,D,True
+C,D,True
+D,C,True
+A,D,True
+B,C,True
+C,D,True
+B,C,True
+B,C,True
+B,C,True
+D,D,True
+C,C,True
+A,D,True
+B,C,True
+C,B,True
+C,C,True
+C,D,True
+B,C,True
+D,D,True
+C,C,True
+B,C,True
+C,C,True
+B,C,True
+C,C,True
+C,D,True
+C,C,True
+A,C,True
+C,C,True
+C,D,True
+A,C,True
+C,C,True
+B,C,True
+C,C,True
+C,C,True
+B,B,True
+C,C,True
+A,D,True
+A,D,True
+D,D,True
+D,D,True
+C,D,True
+C,D,True
+B,C,True
+B,C,True
+A,"Looking at this question, I need to identify what scientific skills and learning objectives students will work on through this experiment.
+
+The experiment involves:
+1. Three subjects drinking different amounts (water, sports drink, nothing)
+2. Running 90 meters and collecting urine samples at intervals
+3. Measuring urine volume and testing it with test strips
+4. Drawing conclusions about what causes changes in urine for each person
+
+This is clearly an experiment about:
+- Collecting data (urine samples, measurements)
+- Understanding how the body regulates fluid/water balance (homeostasis)
+
+The key scientific processes are data collection and understanding body regulation of fluids.
+
+B",True
+B,C,True
+B,C,True
+C,D,True
+C,B,True
+B,D,True
+C,D,True
+B,B,True
+C,C,True
+C,C,True
+D,C,True
+D,D,True
+C,D,True
+A,D,True
+A,C,True
+D,C,True
+D,D,True
+A,D,True
+C,D,True
+C,D,True
+C,D,True
+D,D,True
+B,B,True
+C,C,True
+C,C,True
+B,C,True
+D,C,True
+A,D,True
+D,"Looking at this question, students were asked to determine the number of protons, neutrons, and electrons in aluminum with mass number 27 and atomic number 13.
+
+The students answered:
+- 27 protons
+- 13 neutrons  
+- 14 electrons
+
+The correct answer should be:
+- 13 protons (= atomic number)
+- 14 neutrons (= mass number - atomic number = 27 - 13)
+- 13 electrons (= atomic number in neutral atom)
+
+The students' error was confusing which number represents what. They assigned:
+- Mass number (27) to protons instead of atomic number (13)
+- Atomic number (13) to neutrons instead of the difference (14)
+- The difference (14) to electrons instead of atomic number (13)
+
+This shows they don't understand that the atomic number equals the number of protons.
+
+B",True
+D,D,True
+D,C,True
+B,D,True
+D,C,True
+B,C,True
+A,C,True
+A,C,True
+A,C,True
+C,D,True
+B,C,True
+B,B,True
+A,D,True
+D,C,True
+D,C,True
+A,C,True
+B,C,True
+B,C,True
+A,"Looking at this question, I need to identify which option demonstrates using mathematical formulas to describe uniform circular motion in different contexts.
+
+Let me analyze each option:
+
+A. Measuring the quality of children's circular movement around a field - this is about observation/measurement, not using formulas.
+
+B. Finding the procedure a book requires with an angle measure of 5π/2 radians - this mentions an angle but doesn't clearly show using formulas to describe uniform circular motion.
+
+C. Calculating the speed of a body rotating around the sun when its distance from the sun is R and its uniform speed is 100 m/s when the distance is R/2 - this involves applying formulas to calculate speed in circular motion at different distances (different contexts).
+
+D. Using/applying formulas to calculate the speed of a cyclist from angular velocity, showing the formula v = rω with definitions - this explicitly shows using the circular motion formula, but it's presented as a single teaching example rather than applying it to different contexts.
+
+Option C best demonstrates using formulas to describe uniform circular motion that can be applied to different contexts (different orbital distances), which aligns with ""oburemeezi obutari bumwe"" (different contexts/situations).
+
+C",True
+B,C,True
+D,C,True
+C,C,True
+B,C,True
+B,C,True
+B,D,True
+C,C,True
+C,C,True
+D,C,True
+B,C,True
+C,C,True
+A,D,True
+B,C,True
+A,C,True
+A,C,True
+C,D,True
+A,D,True
+D,C,True
+C,C,True
+B,C,True
+D,C,True
+D,D,True
+B,D,True
+C,C,True
+C,D,True
+C,D,True
+B,D,True
+C,D,True
+D,C,True
+C,B,True
+A,C,True
+B,"Looking at this question, the teacher is working on a lesson about the solar system and wants to demonstrate the size of Earth and the Sun using scientific notation in a table. The question asks what would be the best next step to build on the table and address the teaching objective in the most appropriate way.
+
+Let me analyze each option:
+
+A. Organize the contents of the table from largest to smallest and have students memorize their order as a way to organize numerical information.
+
+B. Use Earth's diameter as the main measure on the table, develop another column that shows the ratio between the diameter of celestial objects being shown and Earth's.
+
+C. This appears to be about a planet and its size, with a question and answer about Jupiter being the largest planet.
+
+D. This is a detailed explanation about scientific notation with examples and exercises.
+
+The question is asking for the best next step after showing a table with sizes of Earth and Sun in scientific notation. Option B makes the most pedagogical sense because it:
+- Builds directly on the table already created
+- Uses Earth as a reference point (relatable for students)
+- Helps students understand relative sizes through ratios
+- Addresses the teaching objective about demonstrating the solar system
+
+B",True
+B,C,True
+B,C,True
+C,C,True
+A,C,True
+B,C,True
+C,C,True
+B,B,True
+D,D,True
+B,C,True
+A,B,True
+C,C,True
+B,C,True
+C,C,True
+C,C,True
+C,D,True
+A,C,True
+B,C,True
+B,C,True
+D,D,True
+D,C,True
+D,C,True
+A,D,True
+D,D,True
+C,D,True
+B,"Looking at this question, the teacher is asking students about the purpose of comparing amino acid sequences in protein C from different animals to understand evolutionary relationships.
+
+The student asks: ""Since living things differ in their DNA, what is the purpose of comparing amino acid sequences in proteins?""
+
+I need to find which answer best explains why comparing amino acid sequences helps understand evolutionary relationships:
+
+A. Talks about proteins being found in different organisms and information being written in ""misiri"" (genes/genetic material), and how comparing these can establish evolutionary relationships.
+
+B. Discusses how protein structures are made from sequences of amino acids found in DNA, and how comparing sequences of the same protein allows determining how closely two species are related evolutionally.
+
+C. Discusses proteins being made from RNA and how they can show changes in the genetic code structure.
+
+D. Discusses codons and messenger RNA, and how mutations can produce proteins with different numbers of amino acids.
+
+The question is specifically about using amino acid sequence comparison to understand evolutionary relationships. Option B directly addresses this by explaining that comparing amino acid sequences of the same protein between species allows us to determine their evolutionary relatedness.
+
+B",True
+D,D,True
+D,D,True
+C,D,True
+D,D,True
+D,C,True
+B,C,True
+C,C,True
+C,C,True
+C,C,True
+A,C,True
+D,D,True
+D,C,True
+B,C,True
