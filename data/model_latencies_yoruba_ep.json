@@ -1,0 +1,51 @@
+{
+    "gemma-3-4b-it": {
+        "CDPK_Yoruba_ep_science": 150.83926582336426,
+        "CDPK_Yoruba_ep_new_science": 123.7546603679657
+    },
+    "gemma-3-27b": {
+        "CDPK_Yoruba_ep_science": 235.8734486103058,
+        "CDPK_Yoruba_ep_new_science": 318.4606683254242
+    },
+    "gemini-2.5-flash-lite-preview-09-2025": {
+        "CDPK_Yoruba_ep_science": 475.93480801582336,
+        "CDPK_Yoruba_ep_new_science": 191.70682334899902
+    },
+    "claude-sonnet-4-5-20250929": {
+        "CDPK_Yoruba_ep_science": 1194.7414994239807,
+        "CDPK_Yoruba_ep_new_science": 1295.9799485206604
+    },
+    "fw-deepseek-r1-0528": {
+        "CDPK_Yoruba_ep_science": 1371.701054096222,
+        "CDPK_Yoruba_ep_new_science": 1675.3382060527802
+    },
+    "gemini-2.5-flash-preview-09-2025": {
+        "CDPK_Yoruba_ep_science": 1505.195793390274,
+        "CDPK_Yoruba_ep_new_science": 1231.469452381134
+    },
+    "o4-mini-2025-04-16": {
+        "CDPK_Yoruba_ep_science": 1669.894532442093,
+        "CDPK_Yoruba_ep_new_science": 1874.2900869846344
+    },
+    "qwen-3-32b": {
+        "CDPK_Yoruba_ep_science": 2273.450188398361,
+        "CDPK_Yoruba_ep_new_science": 2710.8195703029633
+    },
+    "gemini-2.5-pro-preview-06-05": {
+        "CDPK_Yoruba_ep_science": 2651.7362563610077,
+        "CDPK_Yoruba_ep_new_science": 2410.729254961014
+    },
+    "gpt-5-2025-08-07-medium": {
+        "CDPK_Yoruba_ep_science": 2908.1221075057983,
+        "CDPK_Yoruba_ep_new_science": 3847.326765060425
+    },
+    "gpt-5.2-2025-12-11-medium": {
+        "CDPK_Yoruba_ep_new_science": 851.2704951763153
+    },
+    "gemini-3-pro-preview": {
+        "CDPK_Yoruba_ep_new_science": 3028.155100107193
+    },
+    "gemini-3-flash-preview": {
+        "CDPK_Yoruba_ep_new_science": 3070.5798716545105
+    }
+}
