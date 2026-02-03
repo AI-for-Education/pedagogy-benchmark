@@ -1,0 +1,43 @@
+answers,resps,success,Latency,TokensUsed,TokensUsedCompletion,TokensUsedReasoning
+C,B,True,15.230498599994462,2369,1.0,1069
+A,"D
+
+",True,54.2230133000412,5127,2.0,4115
+B,C,True,79.6608768000151,7058,1.0,6056
+C,A,True,10.695610599999782,1644,1.0,607
+C,C,True,13.058687400014605,2018,,788
+D,B,True,10.18025639996631,2155,1.0,702
+D,D,True,23.32668359996751,2681,1.0,1568
+C,C,True,27.24040770001011,2980,1.0,1891
+B,B,True,21.6112473999965,2711,1.0,1540
+D,D,True,9.582873300008941,1829,1.0,695
+C,A,True,10.16364100005012,1644,1.0,607
+C,A,True,10.287183700012974,1644,1.0,607
+C,C,True,7.5471249999827705,1551,1.0,393
+C,C,True,23.509214100020472,2851,,1577
+B,B,True,19.289605500001926,2532,1.0,1332
+C,C,True,12.903810099989641,2090,,926
+D,D,True,10.755558100005146,1997,,684
+B,B,True,21.050286699959543,2481,1.0,1358
+D,D,True,10.617546399997082,1862,1.0,675
+D,"A
+
+**Okunnyonnyola (Explanation):**
+Ekiruubirirwa ky'omusomesa mu mulimu guno kwe kukulaakulanya obusobozi bw'abayizi mu **kunoonyereza** (Inquiry/Research).
+
+*   **Okubuuza (Inquiry/Research):** Ekikolwa ky'okunoonya amawulire, okugakebera/okugakubaganyaako ebirowoozo (nga bwe bakola ku bukulu bw'obutonde n'engeri y'okubukuuma), n'okwanjula ebyo ebizuuliddwa, byonna bitundu bya nkola ya kunoonyereza (Inquiry).
+*   **Endowooza y'ekifo (Spatial thinking):** Kino kikwata nnyo ku maapu n'ebifo, sso si ku kunoonya mawulire ku yintaneeti n'okukubaganya ebirowoozo ku kukuuma obutonde.
+*   **Okukola n'ensonda (Working with sources):** Wadde nga bakozesa yintaneeti (ensonda), ekigendererwa si kukola ku nsonda zokka (ng'okukebera obutuufu bwazo), wabula okuzikozesa okufuna eby'okwanjula.
+*   **Endowooza enzijuvu:** Kino kiyinza okutegeeza ""Critical thinking"", naye enkola y'okunoonya amawulire n'okuganjula esinga kugwa mu kiti ky'okunoonyereza (Okubuuza).
+
+N'olwekyo, omulimu ogw'okunoonya, okwekenneenya, n'okwanjula gugwa mu kiti kya **Okubuuza** (Inquiry).",True,72.05749170004856,6402,411.0,4910
+B,B,True,14.428688800020609,2121,1.0,932
+A,B,True,31.226586000004318,3222,1.0,2116
+B,D,True,27.87519530003192,3121,1.0,1787
+A,A,True,11.157064599974547,1644,1.0,607
+C,C,True,20.651455399987753,2546,1.0,1372
+B,B,True,14.110317899961956,2322,,981
+C,B,True,44.75603180000326,4816,1.0,3235
+B,C,True,20.849789700005203,3013,1.0,1353
+B,B,True,13.851081100001466,2378,1.0,873
+C,D,True,31.315473599999677,3163,1.0,2074

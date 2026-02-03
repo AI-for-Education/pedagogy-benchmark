@@ -1,0 +1,192 @@
+answers,resps,success,Latency,TokensUsed,TokensUsedCompletion,TokensUsedReasoning
+C,C,True,3.494100300129503,1472,4,0
+A,C,True,2.9958673999644816,1499,4,0
+D,D,True,3.5036105001345277,1561,4,0
+D,D,True,3.5760168998967856,1564,4,0
+B,C,True,3.721586799947545,1568,4,0
+A,C,True,2.8059202001895756,1442,4,0
+D,C,True,5.151874100090936,1716,4,0
+D,D,True,4.942593399900943,1654,4,0
+D,C,True,3.92150119994767,1628,4,0
+A,D,True,5.552160700084642,1665,4,0
+D,D,True,3.484684299910441,1482,4,0
+C,C,True,3.532999000046402,1569,4,0
+C,C,True,3.2638340999837965,1464,4,0
+D,C,True,2.862054399913177,1425,4,0
+D,D,True,5.004641399951652,1536,4,0
+D,D,True,3.577268300112337,1541,4,0
+C,C,True,4.073735599871725,1808,4,0
+C,D,True,3.888897299999371,1676,4,0
+A,C,True,4.989539800211787,1648,4,0
+A,D,True,4.888648600084707,1512,4,0
+B,C,True,4.685000400058925,1547,4,0
+B,C,True,5.409594799857587,1524,4,0
+C,C,True,3.7426835000514984,1580,4,0
+C,C,True,3.3436434001196176,1623,4,0
+D,D,True,3.9441722000483423,1548,4,0
+B,A,True,5.129766099853441,1458,4,0
+D,A,True,3.584199999924749,1741,4,0
+C,"I notice that the question text appears to be corrupted with repeated characters (ক্লা repeated many times). However, based on the question at the end which asks:
+
+""Kibuuzo kino kigenderera ku birubirirwa by'okusoma biki?"" (What reading objective does this question focus on?)
+
+And looking at the answer options:
+A. Finding and identifying things, games and entertainment
+B. Finding news that supports Canadian sports
+C. Finding the main idea and some support in non-fiction texts
+D. Finding key words, phrases and words used in non-fiction texts
+
+Given the pattern from the examples where questions assess specific reading comprehension skills, and considering this appears to be about identifying reading objectives in instructional contexts:
+
+C",True,8.595765799982473,10124,168,0
+B,D,True,3.4359136999119073,1899,4,0
+C,C,True,3.894534300081432,1705,4,0
+C,C,True,7.486595600144938,33259,4,0
+A,D,True,3.435843100072816,1701,4,0
+B,C,True,5.089923900086433,7901,4,0
+B,D,True,4.183164899935946,1548,4,0
+A,D,True,3.4171082000248134,1470,4,0
+B,C,True,4.566313299816102,1467,4,0
+A,C,True,3.691877800039947,1675,4,0
+C,C,True,4.179186699911952,1810,4,0
+C,C,True,5.176607299828902,1612,4,0
+C,C,True,3.1201742000412196,1761,4,0
+A,B,True,3.4295693999156356,1691,4,0
+D,D,True,3.8853655999992043,1773,4,0
+D,D,True,3.9928548999596387,1781,4,0
+B,B,True,3.4053925999905914,1546,4,0
+C,C,True,3.7598037000279874,1574,4,0
+C,B,True,4.32222480000928,1469,4,0
+A,C,True,3.0503082000650465,1534,4,0
+D,C,True,3.359542799880728,1522,4,0
+B,B,True,3.19055650010705,2054,4,0
+B,D,True,3.3326753999572247,1658,4,0
+A,C,True,9.8589423999656,1464,4,0
+A,D,True,3.3998216001782566,1876,4,0
+C,B,True,3.9519607999827713,1768,4,0
+C,C,True,4.870807999977842,1900,4,0
+D,D,True,2.871375599876046,1741,4,0
+B,B,True,3.883929500123486,1510,4,0
+B,B,True,5.584979299921542,1489,4,0
+B,D,True,3.711131300078705,1601,4,0
+D,D,True,3.588954199803993,2297,4,0
+C,D,True,4.009592900052667,1772,4,0
+C,C,True,3.082005799980834,2197,4,0
+A,D,True,4.204335100017488,2204,4,0
+D,"Looking at this question, the teacher wants to help students who incorrectly think the text describes past events, when it actually describes future events (the narrator will be executed tomorrow at 9 AM).
+
+Let me analyze each option:
+
+A. Provides examples distinguishing between flashback (ekiddizo) and narrative account (olubalo) - this directly addresses the confusion about time by showing how past events are actually presented in narratives.
+
+B. Focuses on word relationships using a tool in texts - not directly about understanding verb tenses for time.
+
+C. Provides examples of how past tense is used to describe historical events - this would reinforce the students' misconception rather than correct it, since they already think it's about the past.
+
+D. About distinguishing types of future predictions - not relevant to the specific confusion.
+
+The students' error is confusing verb tenses. Option A directly teaches them to recognize different temporal structures in narratives, which would help them understand that the passage is actually about future events despite any past-tense framing.
+
+A",True,10.053330199792981,2934,229,0
+A,C,True,3.4963991998229176,1738,4,0
+B,B,True,3.169570100028068,2985,4,0
+D,D,True,4.541556400014088,1648,4,0
+A,B,True,3.5391377001069486,1744,4,0
+B,D,True,3.7075326000340283,1584,4,0
+C,C,True,4.813605400035158,1469,4,0
+D,C,True,3.1018058999907225,1644,4,0
+A,C,True,6.572601000079885,1925,4,0
+C,C,True,2.5617792999837548,1937,4,0
+A,D,True,3.978138400008902,1624,4,0
+C,C,True,3.799590399954468,1725,4,0
+B,C,True,3.349004600197077,1596,4,0
+D,B,True,3.867692600004375,1788,4,0
+B,B,True,4.143849699990824,1514,4,0
+B,D,True,6.345282800029963,1413,4,0
+B,D,True,3.6987182998564094,1593,4,0
+D,D,True,3.767571199918166,1544,4,0
+C,C,True,3.7239590999670327,1578,4,0
+B,D,True,4.154534700093791,1614,4,0
+C,D,True,11.141250800108537,1677,4,0
+C,D,True,3.656330400146544,1643,4,0
+C,C,True,3.379795099841431,2006,4,0
+D,D,True,3.345802800031379,1764,4,0
+C,C,True,3.5686248000711203,1586,4,0
+B,D,True,3.937913700006902,2251,4,0
+D,D,True,2.9167093001306057,1805,4,0
+C,C,True,3.855259100208059,1556,4,0
+D,D,True,3.4228920999448746,1556,4,0
+D,D,True,2.8019363000057638,1954,4,0
+A,C,True,5.146740500116721,5173,4,0
+A,C,True,3.6092908000573516,1673,4,0
+A,C,True,3.9897706999909133,1818,4,0
+A,D,True,4.1759329999331385,2110,4,0
+D,D,True,5.086022799834609,1649,4,0
+C,D,True,4.632243300089613,1796,4,0
+C,C,True,3.272548499982804,1672,4,0
+D,B,True,3.199985600076616,1774,4,0
+D,D,True,3.1345734000205994,1830,4,0
+B,D,True,4.234879600116983,1584,4,0
+A,C,True,4.194555300055072,1971,4,0
+D,C,True,3.867981699993834,1890,4,0
+A,C,True,3.1353025999851525,1552,4,0
+C,D,True,2.7510005000513047,1683,4,0
+C,C,True,2.967355800094083,1888,4,0
+D,C,True,2.7258685999549925,1950,4,0
+B,C,True,2.5485264000017196,1715,4,0
+B,B,True,5.565588199999183,1533,4,0
+D,D,True,3.905007699970156,1585,4,0
+B,C,True,4.237192099913955,1815,4,0
+D,C,True,3.392469899961725,1635,4,0
+D,D,True,3.0522289001382887,1835,4,0
+C,D,True,6.334699200000614,2008,4,0
+D,C,True,3.5144364999141544,1780,4,0
+C,C,True,3.3259688999969512,1712,4,0
+C,D,True,2.8895006999373436,1970,4,0
+A,B,True,3.905034099938348,1727,4,0
+A,C,True,3.1273400001227856,1822,4,0
+D,"Looking at this question, the teacher wants to verify if students understand the objective: ""Okutegeera ebikulu ebikola ekitontome"" (Understanding the elements that make up a poem).
+
+Let me analyze each option:
+
+A. Presents a humorous text and asks students to identify a feature in it, then discuss in small groups - this is about humor, not specifically about poetic elements.
+
+B. Shows two poems (a sonnet and free verse) and asks students to compare their similarities and differences - this directly addresses understanding the structural elements that make up different types of poems.
+
+C. Shows a poem and asks students to identify the speaker, purpose, and subject - this is more about content analysis than structural elements.
+
+D. Presents a poem and asks technical questions about verses, stanzas, rhyme scheme, meter, and literary devices - this directly tests understanding of the fundamental elements that constitute a poem.
+
+Option D most directly assesses whether students understand the basic elements (ebikulu) that make up a poem through specific technical questions about poetic structure.
+
+D",True,11.312778800027445,2909,234,0
+C,D,True,3.631450100103393,1562,4,0
+B,C,True,2.982882299926132,1798,4,0
+D,C,True,2.6720448001287878,1629,4,0
+B,C,True,3.307067299960181,1979,4,0
+C,C,True,2.8313064000103623,1506,4,0
+A,D,True,3.240753299789503,1993,4,0
+D,D,True,5.251306900056079,1665,4,0
+B,A,True,6.022826200118288,1710,4,0
+D,D,True,3.5701492000371218,2070,4,0
+D,A,True,5.74587560002692,1782,4,0
+C,C,True,3.0327141999732703,1905,4,0
+B,D,True,3.546442699851468,1767,4,0
+C,D,True,3.303264500107616,1729,4,0
+C,D,True,5.626873799832538,1718,4,0
+B,C,True,5.600962199969217,1572,4,0
+A,C,True,4.337951499968767,1844,4,0
+A,C,True,3.4510633999016136,1665,4,0
+C,B,True,2.8460778000298887,1825,4,0
+C,C,True,3.597394600044936,1548,4,0
+B,B,True,3.939188600052148,2042,4,0
+C,D,True,3.1493337999563664,1989,4,0
+D,C,True,3.877357200020924,2791,4,0
+D,D,True,3.2558644998352975,1966,4,0
+A,A,True,2.7941304999403656,1841,4,0
+C,D,True,5.758826599922031,1920,4,0
+C,C,True,3.631093299947679,1579,4,0
+A,D,True,5.7240724000148475,1618,4,0
+B,D,True,3.0483119001146406,1808,4,0
+B,B,True,3.286814199993387,1514,4,0
+A,D,True,2.9182982998900115,1457,4,0

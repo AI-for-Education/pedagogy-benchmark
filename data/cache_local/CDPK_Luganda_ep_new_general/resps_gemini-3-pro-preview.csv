@@ -1,0 +1,129 @@
+answers,resps,success,Latency,TokensUsed,TokensUsedCompletion,TokensUsedReasoning
+B,B,True,12.295028200023808,1709,1.0,698
+A,A,True,23.864746599982027,2562,,1673
+A,A,True,11.54347069998039,1728,1.0,783
+A,A,True,17.584695100027602,2009,1.0,1143
+C,"The question describes a type of play characterized as the ""first play for humans"" (""buzannyi obusooka eri abantu"") and involves ""movement... shaking of muscles"" (""okukankana kw’ebinywa""). In child development theories (like Piaget's), this corresponds to **Functional Play** (also known as Practice Play or Sensorimotor Play), which consists of repetitive muscle movements and is the earliest stage of play.
+
+Looking at the Luganda options:
+A. Ekizimba (Usually means swelling/tumor, or potentially derived from ""kuzimba"" meaning to build, implying Constructive Play, which comes later).
+B. Akabonero (Symbol/Sign - implies Symbolic Play).
+C. Nkola (Method/Practice/Function - implies **Functional/Practice Play**).
+D. Omukwanaganyo (Coordination/Association).
+
+Since the definition matches Functional Play, and ""Nkola"" translates to Function/Practice, this is the correct category.
+
+C",True,38.12255869997898,3610,208.0,2577
+C,B,True,14.74081109999679,1851,1.0,981
+A,A,True,10.921974900003988,1670,1.0,665
+D,D,True,27.551928900007624,2759,1.0,1786
+B,C,True,45.68420290003996,4106,1.0,3167
+A,A,True,9.053564300003927,1665,1.0,671
+B,B,True,27.98234109999612,3040,1.0,2109
+C,C,True,9.173678799998015,1430,1.0,543
+C,C,True,14.115350100037176,1848,1.0,874
+C,C,True,8.853439999977127,1437,1.0,520
+A,A,True,8.806404700037092,1429,1.0,537
+C,C,True,8.345958800055087,1348,1.0,475
+C,A,True,51.608394799986854,4566,1.0,3665
+C,C,True,16.420888299995568,2155,1.0,1157
+C,C,True,11.926721600000747,1732,1.0,856
+C,C,True,60.55750389996683,5207,1.0,4215
+D,D,True,6.9502575999940746,1484,,373
+B,B,True,8.742329300031997,1700,1.0,574
+B,B,True,28.230000899988227,3158,1.0,2007
+A,B,True,59.49050120002357,5267,1.0,4343
+A,A,True,9.947743900003843,1722,1.0,768
+C,C,True,8.556210999959148,1537,1.0,560
+B,B,True,12.162430799973663,1890,1.0,824
+B,D,True,73.29424590000417,6462,,5490
+B,"The question describes a classroom scenario where a teacher and students share physical achievements (yoga pose, jumping with two feet, winking). The question asks which aspect of **autonomy** (obwetwaze) is being worked on in this situation.
+
+In developmental psychology (specifically Erikson's stages of psychosocial development), the stage of **Autonomy vs. Shame and Doubt** is characterized by the development of physical skills and the ability to control one's own body (muscular maturation). The examples given—holding a yoga pose, jumping with feet together, and closing one eye—are all demonstrations of **physical self-control** and mastery.
+
+Let's analyze the Luganda options:
+A. **Okusaasira omuntu...** (Empathy/Compassion) - Incorrect, the scenario is not about feelings or pain.
+B. **Obwesige** (Trust) - Incorrect, this relates to the first stage (Trust vs. Mistrust) or general confidence, but the specific examples are about control.
+C. **Okwefuga** (Self-control/Self-regulation) - Correct. The examples (yoga, jumping, winking) are acts of controlling the body, which is the core component of developing autonomy.
+D. **Obumu bw’okubeera mu kifo** (Sense of belonging/Unity) - Incorrect, the focus is on individual physical capabilities.
+
+Therefore, the activity works on **Self-control** (Okwefuga), which is the foundation of Autonomy.
+
+C",True,77.3252309000236,6385,320.0,5103
+D,A,True,32.97674959996948,3400,1.0,2404
+A,"A
+
+",True,44.463529200002085,3797,2.0,2948
+B,B,True,10.666410900012124,1502,1.0,671
+A,A,True,10.473463400034234,1547,1.0,672
+A,A,True,11.355863100034185,1740,1.0,705
+B,B,True,12.90007799997693,1658,1.0,757
+A,A,True,9.143856599985156,1556,1.0,612
+C,D,True,41.579561899998225,3992,1.0,2964
+D,D,True,10.161667100037448,1506,1.0,636
+B,"Based on the analysis of the question:
+
+**Scenario:** A three-year-old boy cries when his mother is late, which disrupts his daily routine.
+**Question:** Based on the daily routine and daily life of the child, this behavior (crying) can be considered ""unusual"" (etali ya bulijjo - not of the daily/ordinary) according to which criterion?
+
+**Analysis of Options:**
+A. **Eky'okukebera** (Testing/Assessment)
+B. **Omubalirizo gw'omubiri ogw'omunda** (Internal body calculation/Biological rhythm/Internal working model)
+C. **Eby'embeera z'abantu n'ennono zaabwe** (Social conditions and norms)
+D. **Empirical-ekibalangulo** (Empirical-Mathematical / Statistical)
+
+**Reasoning:**
+The question defines the behavior as ""unusual"" or ""not of the daily"" (*etali ya bulijjo*) specifically in relation to the child's ""daily routine"" (*nkola ya bulijjo*).
+*   **Social Norms (C)** would generally consider a 3-year-old crying when a parent is late as *normal* and expected behavior, not unusual.
+*   **Biological/Internal (B)** mechanisms (like stress response or biological clock) explain *why* he cries, but they also view this reaction as *normal* for the organism.
+*   **Statistical/Empirical-Mathematical (D)** is the criterion that defines abnormality or ""unusualness"" based on frequency and deviation from a baseline. Since the child does not usually cry (in his daily routine), crying is a deviation from his statistical norm. The term ""Ekibalangulo"" (Mathematics) combined with ""Empirical"" points directly to the **Statistical Criterion** for defining behavior.
+
+Therefore, the behavior is considered ""unusual"" (a deviation from the routine) based on the statistical/mathematical criterion.
+
+D",True,181.98319500003709,15186,421.0,13852
+B,B,True,23.73161469999468,2489,1.0,1589
+D,D,True,14.57326680002734,1813,1.0,863
+C,C,True,10.290850799996406,1651,1.0,650
+B,"Okusinziira ku omulamwa gwa Piaget, ekiseera ky'enkomerero y'omutendera gwa 'sensorimotor' (Substage 6: Mental Representation) kiragibwa obusobozi bw'omwana okukozesa obubonero (symbols), okukoppa ebikolwa (deferred imitation), n'okukola ebintu mu birowoozo nga tannaba kubikola mu butuufu (mental combinations).
+
+*   **A (Pía):** Okukyusa ebipande by'ekizannyi kimu ku kimu (trial-and-error) kiraga 'Tertiary Circular Reactions' (Substage 5).
+*   **B (Rafael):** Okuggya ekibikkulo ku ttaka n'akitwala ku ntamu eri ewalala kiraga nti omwana alina ekifaananyi ky'ekikolwa mu bwongo bwe (mental representation) oba aliko ky'akoppa (deferred imitation), ekiri ku nkomerero ya sensorimotor stage.
+*   **C (Andrea):** Okunoonya omupiira ogubuze kiraga 'Object Permanence', naye okutunula mu njuyi ez'enjawulo kuyinza okulaga okunoonya kwa trial-and-error (Substage 5).
+*   **D (Pedro):** Okukankanya ekikerebwe kiraga 'Secondary Circular Reactions' (Substage 3).
+
+N'olwekyo, ekikolwa kya Rafael kye kiraga obukugu obw'enkomerero y'ekiseera kino.
+
+B",True,137.03715600003488,11974,360.0,10665
+D,C,True,41.13535860000411,3767,1.0,2730
+B,B,True,11.880341199983377,1671,,728
+B,A,True,17.338890499959234,2479,1.0,1187
+A,A,True,11.579268099972978,1800,,787
+A,A,True,12.731327500019688,1968,1.0,756
+D,D,True,45.98447379999561,4252,1.0,3183
+C,C,True,39.01977870002156,4091,,3115
+B,B,True,20.313979599974118,2290,1.0,1248
+D,D,True,9.051379600015935,1434,1.0,340
+D,D,True,12.118730899994262,1888,1.0,796
+A,A,True,10.776799800049048,1952,1.0,653
+C,B,True,33.36912799999118,3178,1.0,2247
+D,D,True,18.583803899993654,2453,1.0,1308
+B,D,True,30.704653699998744,3483,1.0,2234
+D,D,True,17.3979691999848,2109,1.0,1113
+C,D,True,19.481407700048294,2517,1.0,1389
+D,D,True,16.732984000002034,2264,1.0,1259
+A,A,True,17.204652599990368,2116,1.0,1048
+C,B,True,23.934857000014745,1962,1.0,775
+B,B,True,12.196038299996872,1947,1.0,857
+A,A,True,58.73949030000949,4973,1.0,3958
+D,A,True,10.868115400022361,1752,,684
+A,A,True,19.057306599977892,2621,1.0,1476
+A,B,True,65.89774369995575,5692,1.0,4674
+A,C,True,25.813868500001263,2791,1.0,1700
+D,B,True,20.979791299963836,2556,1.0,1405
+D,A,True,25.980437299993355,2993,1.0,1915
+B,B,True,12.036071100039408,1860,1.0,739
+D,D,True,10.312933199980762,1870,1.0,672
+A,A,True,7.808008099964354,1808,1.0,549
+C,B,True,26.008479600015562,2692,1.0,1812
+D,D,True,12.001862100034487,1694,,734
+C,C,True,12.812766200047918,1838,1.0,846
