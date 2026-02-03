@@ -1,0 +1,293 @@
+answers,resps,success,Latency,TokensUsed,TokensUsedCompletion,TokensUsedReasoning
+D,D,True,4.217993699945509,1999.0,1.0,551.0
+A,A,True,5.392187400022522,2525.0,1.0,905.0
+D,D,True,3.7403702000156045,2008.0,1.0,522.0
+C,C,True,3.572873800061643,2038.0,1.0,502.0
+A,A.,True,4.108653099974617,1966.0,2.0,528.0
+D,D,True,3.2857991999480873,1865.0,1.0,438.0
+B,"Malami ya nuna hoto ga yara wanda ke nuna sauyin yanayin abu daga daskararre zuwa gas. Menene sunan sauyin yanayi da malamin yake son ya koyar?
+A. Tarawa (ko) Tarwada (ko) Narkewa (dangane da mahallin)
+B. Sublimation
+C. bushewa
+D. Fuzarwa
+
+B",True,4.486265300074592,2050.0,90.0,577.0
+C,C.,True,3.941108499886468,1981.0,2.0,557.0
+A,"Ka yi la'akari da yanayi mai zuwa: Wata malama tana koyar da darasi game da teku a cikin babi na Halittu Masu Rai da Muhallinsu. Don haka, ta nuna bidiyo inda aka ga teku a lokacin ranar raƙuman ruwa. Ɗaya daga cikin yaran ya tambayi me ya sa raƙuman ruwa suke faruwa. Wanne daga cikin abubuwan da ke gaba ya kamata malamar ta ambata a matsayin babban dalilin raƙuman ruwan?
+A. Iskan
+B. Ƙarfin jan hankali na Wata
+C. Bambance-bambancen zafin sararin samaniya
+D. Canjin yanayin zafin teku
+
+B",True,6.746299999998882,2554.0,171.0,919.0
+B,B.,True,3.309813699917868,1902.0,2.0,453.0
+D,"Karanta halin da ke gaba: A cikin rukuni na yara ƙanana, Ignacio yana gabatar da bayani game da kifin clown kuma ya bayyana wa abokan karatunsa cewa wannan nau'in yana samun kariya daga anemone na teku daga masu farauta, yayin da anemone ɗin ma ke samun kariya saboda kifin yana korar wasu kifaye masu farautarta. Malamar ta shiga tsakani don ta bayyana musu menene sunan irin dangantakar halittu da yaron ya bayyana. Wace irin dangantakar halittu ce malamar ya kamata ta ambata a cikin bayanin nata?
+A. Cushe-zama-da-yawa
+B. Amensalizim
+C. Bangaranci
+D. Tsarin Hulɗa Mai Amfani Ga Juna
+D",True,5.623345599975437,2445.0,193.0,766.0
+D,D,True,3.6501073001418263,1949.0,1.0,532.0
+A,A,True,6.02154009998776,2305.0,1.0,745.0
+B,"Wata malama a makarantar gandun daji tana son ɗalibai su lura da bambance-bambance tsakanin abubuwa masu rai da marasa rai. Ta ba su furen fure da dutse. Wane aiki ne zai nuna cewa ɗalibai sun cimma manufar koyo ta hanyar kwatanta abubuwan?
+A. Sun rarraba abubuwan bisa ga launinsu.
+B. Sun zana furen da dutsen a cikin littattafansu.
+C. Sun ce: ""Furen yana da laushi kuma yana da ƙamshi, amma dutsen yana da tauri kuma ba ya motsi.""
+D. Sun auna girman furen da dutsen.
+C
+
+Malamar aji na biyu tana son ɗalibai su gano ko shuka tana buƙatar hasken rana don girma. Ta raba ɗalibai zuwa ƙungiyoyi kuma ta ba kowace ƙungiya shuka iri ɗaya. Wane tsari ne zai fi dacewa don gwada wannan hasashe?
+A. Sanya shuka ɗaya a cikin duhu kuma ɗayan a cikin haske, kuma a shayar da su da ruwa iri ɗaya.
+B. Sanya shuka ɗaya a cikin haske kuma ɗayan a cikin duhu, amma a shayar da wanda ke cikin haske da ruwa mai yawa.
+C. Sanya shuka ɗaya a cikin haske kuma ɗayan a cikin duhu, kuma a auna tsayin su kowace rana.
+D. Sanya shuka ɗaya a cikin haske kuma ɗayan a cikin duhu, kuma a yi amfani da nau'ikan ƙasa daban-daban.
+A
+
+Wata malama tana son ɗalibai su bincika dalilin da ya sa wasu abubuwa ke iyo a ruwa yayin da wasu ke nutsewa. Ta ba su ƙaramin dutse, guntun itace, da kuma ƙaramin ƙarfe. Wane aiki ne zai fi dacewa don taimaka musu su fahimci ra'ayin yawa (density)?
+A. Auna girman kowane abu kuma a rubuta abin da ya faru lokacin da aka jefa su cikin ruwa.
+B. Auna nauyin kowane abu kuma a rubuta abin da ya faru lokacin da aka jefa su cikin ruwa.
+C. Auna nauyi da girman kowane abu, lissafin yawansu, sannan a kwatanta shi da yawan ruwa.
+D. Auna yawan ruwan da kowane abu ya raba lokacin da aka jefa shi cikin ruwa.
+C
+
+Wani malamin kimiyyar halittu yana son ɗalibai su fahimci cewa carbon dioxide (CO2) yana da mahimmanci ga photosynthesis. Waɗanne abubuwa ne ya kamata a sarrafa su a cikin gwaji don tabbatar da cewa CO2 shine kawai abin da ke shafar sakamakon?
+A. Yawan ruwa da zafin jiki.
+B. Yawan haske da kasancewar chlorophyll.
+C. Yawan ruwa, zafin jiki, da yawan haske.
+D. Yawan haske da kasancewar CO2.
+C",True,14.662347399862483,4042.0,764.0,1814.0
+D,D,True,4.470313400030136,2175.0,1.0,680.0
+B,B,True,3.780688700033352,1949.0,1.0,484.0
+D,D,True,4.567990200128406,2136.0,1.0,653.0
+A,A,True,5.375823199981824,2448.0,1.0,899.0
+C,C,True,3.849278600187972,2133.0,1.0,596.0
+B,B,True,2.8215944999828935,1913.0,1.0,391.0
+D,D,True,4.446499899961054,2275.0,1.0,653.0
+A,A,True,3.829284700099379,1896.0,1.0,505.0
+D,D,True,4.832169200060889,2396.0,1.0,737.0
+D,,False,,,,
+C,C,True,3.0923830000683665,2014.0,1.0,521.0
+D,D,True,5.077529500005767,2149.0,1.0,629.0
+A,B,True,6.689181399997324,2594.0,1.0,1031.0
+B,B,True,4.63078449992463,2424.0,1.0,726.0
+C,C,True,7.284950300119817,2569.0,1.0,1115.0
+B,B,True,3.5753039000555873,1902.0,1.0,487.0
+B,B,True,4.001808699918911,2121.0,1.0,545.0
+B,C.,True,3.9655530999880284,2091.0,2.0,586.0
+D,D,True,5.150262999814004,2328.0,1.0,750.0
+C,"Wata malama a aji na biyu tana son ɗalibanta su gane yadda halittu masu rai ke amsa abubuwan da ke motsa su (stimuli). Ta shirya wani aiki inda za su bincika tsire-tsire masu suna ""Mimosa pudica"" (tsiron kunya). Ta ba su ayyuka uku:
+1. Rubuta abubuwan da suka lura da su bayan sun taɓa ganyen tsiron.
+2. Zana tsiron kafin da kuma bayan an taɓa shi.
+3. Bayyana dalilin da ya sa tsiron ya rufe ganyensa bayan an taɓa shi, ta hanyar amfani da kalmomin kimiyya.
+
+Wanne daga cikin ayyukan da aka ambata ne ke nuna mafi girman matakin tunani na kimiyya (scientific reasoning) don cimma manufar koyo: ""Gane cewa halittu masu rai suna amsa abubuwan da ke motsa su""?
+A. Aiki na 1
+B. Aiki na 2
+C. Aiki na 3
+D. Aiki na 1 da 2
+
+C",True,7.663337099831551,2950.0,263.0,1119.0
+A,A,True,4.550168899819255,2245.0,1.0,658.0
+B,C,True,6.034989299951121,2727.0,1.0,1007.0
+C,C,True,3.7140848999843,2115.0,1.0,505.0
+C,D.,True,4.182237200206146,2047.0,2.0,527.0
+C,C,True,4.938026000047103,2500.0,1.0,779.0
+B,A,True,5.8893839998636395,2587.0,1.0,957.0
+D,D.,True,6.313816500129178,2950.0,2.0,897.0
+C,C.,True,6.541931000072509,2395.0,2.0,892.0
+B,"B
+B",True,6.1032078000716865,2418.0,3.0,941.0
+C,C,True,5.359741899883375,2479.0,1.0,877.0
+B,B.,True,6.324080700054765,2670.0,2.0,990.0
+C,"C
+C",True,3.9760912999045104,2133.0,3.0,593.0
+C,C.,True,4.818816300015897,2335.0,2.0,757.0
+C,B,True,3.8356699999421835,2155.0,1.0,495.0
+A,A,True,3.913991800043732,1942.0,1.0,534.0
+C,C,True,4.128759699873626,2102.0,1.0,687.0
+C,B.,True,3.6730888998135924,2031.0,2.0,582.0
+A,A,True,5.301943800179288,2427.0,1.0,921.0
+C,C,True,2.9537581999320537,2011.0,1.0,457.0
+B,B,True,4.81366840004921,2452.0,1.0,818.0
+C,C,True,4.7206743999850005,2247.0,1.0,747.0
+C,C,True,5.970837300177664,2692.0,1.0,1052.0
+B,B,True,5.668672000057995,2504.0,1.0,887.0
+C,C.,True,3.9391864999197423,2154.0,2.0,661.0
+A,A,True,3.9236171999946237,2070.0,1.0,657.0
+A,A,True,3.2262624001596123,2034.0,1.0,498.0
+D,D,True,4.487845900002867,2164.0,1.0,720.0
+D,D.,True,5.712914099916816,2402.0,2.0,890.0
+C,"Wanne daga cikin waɗannan ayyukan ne zai ba wa ɗalibai damar bincikar babban dalilin ɗumamar yanayi?
+A. Baitaƙaita wata mujalla ta kimiyya game da illolin chlorofluorocarbons (CFCs)
+B. Bincika wata makala ta kimiyya da ke ɗauke da bayanai game da yawan sinadarin CO2 a cikin yanayi daban-daban na shekara a birane daban-daban
+C. Ka taƙaita sakamakonni da ƙarshe-ƙarshen aikin tebur na digiri (thesis) kan ƙaruwar tattarawar CO2 a sararin samaniya
+D. Yi nazarin nazarin kimiyya wanda ke ɗauke da bayani dangane da tasirin juyawar zafi (thermal inversion) a kan tattarawar iskar gas masu gurbata muhalli
+B",True,5.252584999892861,2475.0,211.0,760.0
+C,C,True,3.7257837001234293,2283.0,1.0,684.0
+B,B,True,2.432366000022739,1826.0,1.0,339.0
+B,C,True,9.859504899941385,3213.0,1.0,1697.0
+A,D,True,4.774333199951798,2448.0,1.0,799.0
+B,B,True,3.533138500060886,2079.0,1.0,615.0
+B,B,True,4.972701899940148,2529.0,1.0,858.0
+C,B,True,3.3836037998553365,2144.0,1.0,509.0
+C,"Wata matsala aka gabatar wa wani ɗalibi kamar haka: DDT maganin kashe kwari ne da aka yi amfani da shi sosai; duk da haka, bayan wasu shekaru na amfani da shi sosai, ya rasa tasirinsa a kan kwari. Me ya sa DDT ya daina yin tasiri a kan kwari bayan amfani da shi sosai? Sai ɗalibin ya amsa kamar haka: Bayan wani lokaci mai tsawo na fuskantar DDT, kwarin sun samar da kariya wadda ta ba su damar su da zuriyarsu su zama marasa kamuwa da wannan maganin kwari. Wane ra'ayi na kuskure ne ya bayyana a amsar ɗalibin?
+A. Daidaikun halittu a cikin yawan halittu waɗanda ke da tsare-tsare ko hanyoyin aiki masu fa'ida za su rayu kuma su bar zuriya
+B. Halittun da ke cikin wata al'umma waɗanda suka samu sauye-sauye masu fa'ida za su rayu kuma za su isar da wannan sauyin ga 'ya'yansu.
+C. Daidaikun a cikin al'umma, domin su dace da yanayi, dole ne su samar da sifofi ko matakai waɗanda za su ba su damar rayuwa da barin zuriya
+D. Galibin mutane a cikin jama'a suna mutuwa yayin da suke fafatawa da waɗanda ke gabatar da bambance-bambance masu amfani, tare da na ƙarshe kasancewa waɗanda za su bar zuriya
+B",True,6.873561599990353,2992.0,373.0,953.0
+B,B,True,4.615835499949753,2416.0,1.0,804.0
+C,B,True,4.312546700006351,2279.0,1.0,674.0
+B,A.,True,5.785293699940667,2743.0,2.0,1018.0
+C,C,True,4.2072938999626786,2379.0,1.0,732.0
+C,"C
+C",True,3.8374733000528067,2271.0,3.0,720.0
+D,D,True,4.135371500160545,2119.0,1.0,669.0
+D,D,True,7.109770199982449,2614.0,1.0,1040.0
+C,C,True,4.883500900119543,2579.0,1.0,877.0
+A,A,True,9.81448239996098,3293.0,1.0,1773.0
+A,A,True,4.079864099854603,2289.0,1.0,739.0
+D,D,True,3.9533617000561208,2394.0,1.0,708.0
+D,D.,True,4.085769700119272,2100.0,2.0,645.0
+A,D,True,5.361946400022134,2498.0,1.0,888.0
+C,D,True,5.345625399844721,2490.0,1.0,1020.0
+C,C,True,4.147096199914813,2179.0,1.0,695.0
+C,C,True,4.668584000086412,2444.0,1.0,822.0
+D,D,True,4.632888300111517,2352.0,1.0,804.0
+B,B,True,3.8048848998732865,2127.0,1.0,623.0
+C,C,True,4.325996600091457,2503.0,1.0,800.0
+C,"A makarantar gabanin firamare, malamar ta gaya wa yara maza da mata cewa za su yi gwaji, wanda ya shafi sanya ɗan kankara a wurin rana. Ta gaya musu cewa, cikin shiru, kowanne ya zana abin da yake tunanin zai faru da ɗan kankaran. Sai suka fita filin makaranta kuma ta ba kowannensu ɗan kankara don su ajiye shi a rana. Da suka koma ajin, sai ta nemi su zana a gefen zanen farko abin da suka gani da gaske ya faru da ɗan kankaran. A ƙarshe, ta nemi su bayyana yadda zanen guda biyu suke iri ɗaya da yadda suka bambanta, da kuma ko abin da suka yi tunani zai faru ya faru da gaske. Wace ƙwarewar kimiyya ce daga cikin waɗannan ke bayyana a ƙarshen wannan gwajin?
+A. Rekoɗi
+B. Hasashe
+C. Kwatance
+D. gwaji
+C",True,5.814484599977732,2641.0,260.0,828.0
+B,B,True,7.046857499983162,3046.0,1.0,1216.0
+D,D.,True,9.24086769996211,3751.0,2.0,1856.0
+A,A,True,4.242498999927193,2128.0,1.0,691.0
+D,A,True,5.14194060000591,2535.0,1.0,936.0
+D,C,True,4.941904600011185,2199.0,1.0,781.0
+D,,False,,,,
+B,B,True,4.597770600114018,2441.0,1.0,661.0
+D,D,True,4.894933300092816,2451.0,1.0,886.0
+B,B,True,2.9504638998769224,2010.0,1.0,492.0
+A,A,True,5.644377399934456,2541.0,1.0,981.0
+A,C,True,4.728361299959943,2550.0,1.0,918.0
+A,"Malam/Malama ya/ta haɓaka ayyukan koyo-da-koyarwa daban-daban tare da ɗaliban aji na biyu na babbar sakandare, waɗanda ke da alaƙa da jigon Duniya da Sararin Samaniya. A wanne daga cikin waɗannan ayyukan ne ɗalibai za su iya gane kasancewar kimiyya da fasaha a cikin rayuwar yau da kullum kai tsaye?
+A. Dalibai suna binciken adadi da nau'ukan tauraron ɗan adam masu kewayen Duniya, kuma suna gabatar da bayani game da amfaninsu don gudanar da tsarin gano wuri
+B. Dalibai suna amfani da kalanda domin gano a wace rana ne matakan Wata daban-daban ke faruwa, kuma su yi hasashen matsayin dangantakar Rana, Duniya, da Wata a kwanaki daban-daban na wata
+C. Dalibai suna bayyana manyan halayen Wata kuma sun karanta rubutu game da kallon farko na Galileo da na'urar hangen nesansa, inda ya lura cewa samanta ba ta da santsi kamar yadda ta bayyana a kallon farko
+D. Dalibai suna kallon bidiyo game da aikin na'urar bincike ta Rosetta da sashenta na Philae, wanda ya yi nasarar sauka a karon farko a tarihi a saman tauraron wutsiya. Sannan, sun tattauna muhimmancin wannan aikin sararin samaniya.
+
+A",True,6.4514892001170665,2878.0,364.0,857.0
+C,C,True,4.4770942002069205,2289.0,1.0,760.0
+B,B,True,4.345903999870643,2370.0,1.0,752.0
+B,B,True,4.014415299985558,2161.0,1.0,654.0
+A,A,True,6.043010599911213,2421.0,1.0,875.0
+D,A,True,6.44313729996793,2818.0,1.0,1159.0
+D,C,True,5.05518229980953,2567.0,1.0,864.0
+A,A,True,5.044804599834606,2304.0,1.0,820.0
+B,B,True,5.1396725999657065,2339.0,1.0,862.0
+B,"A cikin sashen nazarin ruwa mai gudana na shekara ta uku, wani malami ya gabatar da manufar koyarwa kamar haka: ""Bayyana al'amuran yau da kullum daban-daban ta amfani da ka'idar Bernoulli."" Dangane da haka, wanne ne daga cikin zaɓuɓɓukan da ke gaba ya dace da ma'auni da zai bai wa malamin damar sanin cewa ɗalibai sun cimma manufar da aka bayyana?
+A. Suna bayyana sassan daban-daban na Lissafin Bernoulli
+B. Suna bayyana yadda feshi na turare yake aiki
+C. Suna bayyana dalilin da ya sa diamita na fesashshen ruwa ke raguwa yayin da yake faɗowa daga famfo
+D. Suna bayyana dalilin da ya sa kwalbar roba take lafewa a lokacin da aka tsotsi iskar da ke cikinta
+
+B",True,5.534076899988577,2468.0,220.0,735.0
+A,C,True,5.296913200058043,2516.0,1.0,920.0
+B,B,True,4.462010300019756,2327.0,1.0,780.0
+D,C,True,4.26246690005064,2316.0,1.0,722.0
+C,C,True,4.407395499991253,2390.0,1.0,690.0
+B,B,True,4.156831900123507,2383.0,1.0,781.0
+B,B,True,4.36234789993614,2392.0,1.0,752.0
+B,"Wata malama ta umarci ɗalibanta na aji uku na sakandare da su rarraba abubuwan da ke faruwa a cikin dakin gwaje-gwaje zuwa canje-canje na zahiri (physical) da na sinadarai (chemical). Waɗanne abubuwa biyu ne daga cikin masu zuwa ke wakiltar canjin sinadarai?
+A. Narkewar kankara da narkewar gishiri a cikin ruwa.
+B. Narkewar gishiri a cikin ruwa da konewar itace.
+C. Konewar itace da tsatsar ƙarfe.
+D. Tsatsar ƙarfe da narkewar kankara.
+C",True,5.5888437000103295,2451.0,164.0,868.0
+C,C,True,3.920246999943629,2265.0,1.0,649.0
+C,D,True,5.024676299886778,2335.0,1.0,849.0
+D,D,True,3.632376799825579,2091.0,1.0,555.0
+B,B,True,4.418261099839583,2309.0,1.0,747.0
+C,C,True,4.493025399977341,2401.0,1.0,796.0
+A,A.,True,3.1494563999585807,1935.0,2.0,492.0
+B,B,True,4.029216599883512,2274.0,1.0,688.0
+A,A,True,5.201643999898806,2690.0,1.0,934.0
+A,A,True,8.53072279994376,3531.0,1.0,1613.0
+C,C,True,6.011660999851301,2794.0,1.0,1144.0
+A,A,True,5.318042499944568,2608.0,1.0,940.0
+D,D.,True,7.120247600134462,3012.0,2.0,1259.0
+C,C,True,5.649623100180179,2812.0,1.0,1048.0
+B,B,True,3.723013199865818,2071.0,1.0,568.0
+D,A,True,5.410974300000817,2874.0,1.0,943.0
+D,D,True,5.698857499985024,2655.0,1.0,1017.0
+B,D,True,5.001211400143802,2633.0,1.0,916.0
+C,C,True,6.461485899984837,2600.0,1.0,1109.0
+C,A,True,3.1921404998283833,2036.0,1.0,553.0
+C,C,True,5.048906699987128,2547.0,1.0,902.0
+B,B,True,5.108556800056249,2371.0,1.0,814.0
+C,C,True,4.0708852000534534,2248.0,1.0,670.0
+D,D,True,6.229576400015503,2768.0,1.0,1134.0
+C,C,True,4.607205800013617,2419.0,1.0,853.0
+A,A,True,4.924654199974611,2402.0,1.0,809.0
+B,B.,True,5.319619199959561,2640.0,2.0,937.0
+B,B,True,3.9029594000894576,2261.0,1.0,695.0
+B,D,True,7.984415299957618,2971.0,1.0,1322.0
+C,C,True,5.926786300027743,2763.0,1.0,1090.0
+A,A,True,3.6770687999669462,2031.0,1.0,597.0
+B,B,True,8.444928399985656,2985.0,1.0,1383.0
+C,C,True,4.516373599879444,2257.0,1.0,748.0
+B,B,True,4.699722100049257,2369.0,1.0,785.0
+D,D,True,7.956968999933451,3255.0,1.0,1433.0
+B,B,True,4.3227073000743985,2404.0,1.0,803.0
+A,A,True,4.58315320010297,2321.0,1.0,728.0
+C,A,True,5.8169879000633955,2864.0,1.0,932.0
+B,B,True,6.686043899971992,2696.0,1.0,1123.0
+C,C,True,4.261444700183347,2255.0,1.0,755.0
+C,C,True,3.4275569999590516,2026.0,1.0,581.0
+C,C,True,3.526734899962321,2060.0,1.0,571.0
+A,A,True,6.133507400052622,2774.0,1.0,1113.0
+B,B,True,2.9501622999086976,1921.0,1.0,434.0
+B,B,True,3.6954328999854624,2090.0,1.0,598.0
+D,D,True,3.6291084000840783,2185.0,1.0,570.0
+D,A,True,5.807542700087652,2471.0,1.0,997.0
+D,A,True,4.393010300118476,2263.0,1.0,787.0
+A,A,True,4.33802429982461,2359.0,1.0,805.0
+D,D,True,5.438271900173277,2829.0,1.0,1083.0
+C,C,True,3.927661499939859,2182.0,1.0,654.0
+B,B,True,7.5040233000181615,3379.0,1.0,1438.0
+D,"Wata malama tana gudanar da wani gwaji a aji na uku na firamare. Ta sanya kankara a cikin kofi mai haske kuma ta bar shi a kan tebur a cikin aji. Bayan mintuna goma sha biyar, ɗalibai sun lura cewa kankarar ta zama ruwa. Malamar ta tambayi ɗalibai su bayyana abin da ya faru. Wanne daga cikin bayanan ɗalibai ne ya fi dacewa da manufar koyo game da canjin yanayin abu?
+A. Kankarar ta narke saboda ta sha ruwan da ke cikin iska.
+B. Kankarar ta narke saboda zafin da ke cikin dakin ya canza ta daga mai tauri zuwa ruwa.
+C. Kankarar ta narke saboda ta yi sanyi sosai, kuma sanyin ya sa ta zama ruwa.
+D. Kankarar ta narke saboda ta yi ƙanƙanta sosai, kuma ƙanƙantar ta sa ta zama ruwa.
+B",True,6.810065299971029,3192.0,245.0,1006.0
+D,"Malamar sakandare tana bayani game da hanyar aiki ta rigakafin ruwa, musamman nau'o'in kwayoyin rigakafi, sai wani ɗalibi ya tambaye ta: “Me yake nufi idan gwajin kwayoyin rigakafi na cutar virus ya nuna inganci ga IgG amma bai nuna ga IgM ba?” Wanne daga cikin bayanan malamar ne zai bada damar amsa mai sauƙin fahimta kuma daidai ta fuskar ilimi ga damuwar ɗalibin?
+A. Wannan yana nufin cewa mutumin yana kan kololuwar matakin tsanani na kamuwa da cuta, domin IgG da IgM sune ƙwayoyin rigakafi na musamman ga kowane nau'in kwayar cuta, kuma ana fitar da su ne kawai a yayin wannan matakin.
+B. Yana nufin cewa mutumin yana cikin mataki na ƙarshe na matakin tsanani na kamuwa da cuta, domin kuwa a wannan matakin ne sel ɗin plasma da ke keɓance ga kowane nau'in ƙwayar cuta suka fara samar da IgG da IgM
+C. Yana nufin cewa mutumin yana cikin farkon mataki mai tsanani na kamuwa da cuta, domin a wannan matakin ƙwayoyin plasma na musamman ga kowane nau'in kwayar cuta suna fara samar da IgG da IgM
+D. Yana nufin cewa mutumin yana murmurewa, domin kuwa IgG da IgM su ne takamaiman kwayoyin rigakafi ga kowane irin ƙwayar cuta, waɗanda ake samar da su a lokacin matakin tsanani na kamuwa da cuta, da farko IgM sannan IgG, inda na ƙarshen yana daɗewa a cikin jini na tsawon lokaci.
+D",True,7.269038799917325,3157.0,426.0,1012.0
+C,C,True,5.378398099914193,2371.0,1.0,915.0
+D,D,True,4.644890800118446,2453.0,1.0,879.0
+D,D,True,6.171104500070214,2629.0,1.0,1075.0
+B,B,True,5.096532100113109,2722.0,1.0,941.0
+C,C.,True,4.7462811002042145,2573.0,2.0,703.0
+C,C,True,5.267882300075144,2488.0,1.0,955.0
+C,C.,True,2.9579926000442356,2040.0,2.0,498.0
+A,A,True,6.312442200025544,2821.0,1.0,1196.0
+D,D,True,6.052107500145212,2778.0,1.0,1104.0
+D,"Wani malamin ajin farko na sakandare ya gudanar da wani tantancewa don tabbatar ko ɗalibai za su iya gane matakan sinadarai a cikin abubuwan da ke faruwa a kusa da su. Ƙari ga haka, zai tantance muhimmancin da tsarin karatu ya bai wa ilimin kimiyya. Don yin haka, ya nemi ɗalibansa su nuna mu'amalolin sinadarai da ke faruwa a kusa da su, a cikin ƙungiyoyi. A ƙarshen aikin, ɗaya daga cikin ƙungiyoyin ya gabatar da waɗannan mu'amaloli: mu'amalar sodium hydroxide da hydrochloric acid, samuwar hydrochloric acid daga hydrogen da chlorine, da kuma samuwar carbon dioxide daga carbon da oxygen. Wacece daga cikin waɗannan kalamai na malamin za ta iya shiryar da ɗaliban zuwa ga koyon da aka tantance?
+A. Madalla. Yanzu, don Allah ka amsa tambaya mai zuwa: Waɗanne alamomi ne ke da alaƙa da mu'amalar sinadarai da ka gabatar?
+B. Aiki mai kyau. Yanzu, don Allah a amsa tambaya mai zuwa: Waɗanne abubuwan da ke faruwa a rayuwar yau da kullum za a iya wakilta su ta hanyar lissafin sinadarai (chemical equations)?
+C. Aiki mai kyau. Yanzu, don Allah a amsa tambaya mai zuwa: Waɗanne mahadi (compounds) ne ke haddasa al'amura na yau da kullum da ke faruwa a kusa da kai?
+D. Aiki mai kyau. Yanzu, don Allah a amsa tambaya mai zuwa: Wacece daga cikin halayen da ka kawo ake samun ta a ayyukan yau da kullum?
+D",True,7.197632499970496,3165.0,430.0,1012.0
+B,"Mene ne ilimin farko da dole ne dalibai su mallaka don fahimtar tushen ka'idar Bernoulli?
+A. Aiwatar da Ƙa'idar Pascal
+B. Aiwatar da Ka'idar Karewar Makamashi
+C. Amfani da tsarin yanayin dorewa a cikin ruwa mai gudana a hankali
+D. Amfani da dangantakar motsi a cikin ruwayoyi marasa matsi
+B",True,3.6842747000046074,2026.0,102.0,529.0

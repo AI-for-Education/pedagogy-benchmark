@@ -1,0 +1,51 @@
+{
+    "gemma-3-4b-it": {
+        "CDPK_Hausa_science": 155.81217122077942,
+        "CDPK_Hausa_new_science": 153.92184233665466
+    },
+    "gemma-3-27b": {
+        "CDPK_Hausa_science": 263.61540722846985,
+        "CDPK_Hausa_new_science": 339.63526034355164
+    },
+    "gemini-2.5-flash-lite-preview-09-2025": {
+        "CDPK_Hausa_science": 334.11071038246155,
+        "CDPK_Hausa_new_science": 181.7921266555786
+    },
+    "gemini-2.5-flash-preview-09-2025": {
+        "CDPK_Hausa_science": 1148.04390335083,
+        "CDPK_Hausa_new_science": 966.9106357097626
+    },
+    "o4-mini-2025-04-16": {
+        "CDPK_Hausa_science": 1335.182203054428,
+        "CDPK_Hausa_new_science": 1600.4325098991394
+    },
+    "claude-sonnet-4-5-20250929": {
+        "CDPK_Hausa_science": 1465.878998041153,
+        "CDPK_Hausa_new_science": 1271.712747335434
+    },
+    "gemini-2.5-pro-preview-06-05": {
+        "CDPK_Hausa_science": 2352.8290984630585,
+        "CDPK_Hausa_new_science": 2346.4847464561462
+    },
+    "fw-deepseek-r1-0528": {
+        "CDPK_Hausa_science": 2439.1921646595,
+        "CDPK_Hausa_new_science": 5758.201776981354
+    },
+    "gpt-5-2025-08-07-medium": {
+        "CDPK_Hausa_science": 3104.5514256954193,
+        "CDPK_Hausa_new_science": 2978.191240787506
+    },
+    "qwen-3-32b": {
+        "CDPK_Hausa_science": 10384.686328411102,
+        "CDPK_Hausa_new_science": 7453.960099697113
+    },
+    "gpt-5.2-2025-12-11-medium": {
+        "CDPK_Hausa_new_science": 655.2244830131531
+    },
+    "gemini-3-pro-preview": {
+        "CDPK_Hausa_new_science": 2964.834009885788
+    },
+    "gemini-3-flash-preview": {
+        "CDPK_Hausa_new_science": 998.022857427597
+    }
+}
