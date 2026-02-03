@@ -7,8 +7,8 @@ ROOT = Path(__file__).resolve().parents[2]
 CACHE_LOCAL_DIR = ROOT / "data" / "cache_local"
 CACHE_GLOBAL_DIR = ROOT / "data" / "cache"
 
-provider_df = pd.read_csv(ROOT / "data" / "providers.csv")
-models_df = pd.read_csv(ROOT / "data" / "models.csv")
+provider_df = pd.read_csv(ROOT / "fab-benchmarks-configs" / "providers.csv")
+models_df = pd.read_csv(ROOT / "fab-benchmarks-configs" / "models.csv")
 
 PROVIDER_MODEL_MAPPING = {}
 for _, row in models_df.iterrows():

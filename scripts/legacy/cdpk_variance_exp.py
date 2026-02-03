@@ -24,7 +24,7 @@ from cdpk.benchmark_constants import ROOT
 load_dotenv(override=True)
 BENCHMARKS_DIR = Path(os.getenv("BENCHMARKS_DIR", "./"))
 
-register_models(ROOT / "custom_models.yaml")
+register_models(ROOT / "fab-benchmarks-configs" / "custom_models.yaml")
 
 # %%
 #def create_subsample_dataset(df, N_samples, by_category=True):

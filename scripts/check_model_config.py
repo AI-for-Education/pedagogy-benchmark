@@ -20,7 +20,7 @@ def main(opt):
                 f"Custom models file {custom_models_file} does not exist."
             )
     else:
-        custom_models_file = ROOT / "custom_models.yaml"
+        custom_models_file = ROOT / "fab-benchmarks-configs" / "custom_models.yaml"
     register_models(custom_models_file)
 
     caller = get_caller(model=model)

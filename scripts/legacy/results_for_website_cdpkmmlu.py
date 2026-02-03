@@ -29,7 +29,7 @@ from cdpk.benchmark_constants import (
 load_dotenv(override=True)
 
 
-register_models(ROOT / "custom_models.yaml")
+register_models(ROOT / "fab-benchmarks-configs" / "custom_models.yaml")
 
 named_colors_mapping = get_named_colors_mapping()
 provider_color_mapping_hex = {

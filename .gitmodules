@@ -1,0 +1,3 @@
+[submodule "fab-benchmarks-configs"]
+	path = fab-benchmarks-configs
+	url = https://github.com/Fab-Inc/fab-benchmarks-configs.git

@@ -207,6 +207,7 @@ marimo/_lsp/
 __marimo__/
 
 #####
-data/Chile/**/*.csv
-#data/results
-#data/cache_local
+# Data directory - ignore all subdirectories and CSV files
+data/*/
+data/*.csv
+#data/*.json

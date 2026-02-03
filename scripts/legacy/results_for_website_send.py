@@ -99,7 +99,7 @@ accuracies_send.to_csv(SEND_DATA_DIR / "accuracies_send.csv", index=False)
 # %%
 acc_df = accuracies_send.copy()
 acc_df = acc_df.rename(columns={"Model": "model_id"})
-models_df = pd.read_csv(DATA_DIR / "models.csv")
+models_df = pd.read_csv(PROJECT_ROOT / "fab-benchmarks-configs" / "models.csv")
 
 res_df = acc_df.merge(
     models_df[

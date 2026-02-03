@@ -21,8 +21,8 @@ cdpk_dataset_reviewed = pd.read_csv(f"./../data/pedagogy_benchmark_luganda_cdpk_
 print(f"CDPK reviewed dataset shape: {cdpk_dataset_reviewed.shape}")
 cdpk_dataset_reviewed.head()
 
-models_csv = pd.read_csv(ROOT / "data" / "models.csv")
-providers_csv = pd.read_csv(ROOT / "data" / "providers.csv")
+models_csv = pd.read_csv(ROOT / "fab-benchmarks-configs" / "models.csv")
+providers_csv = pd.read_csv(ROOT / "fab-benchmarks-configs" / "providers.csv")
 
 # open fs examples dictionary
 with open("./../data/few_shot_examples_idx_dict.json", "r") as f:
@@ -416,7 +416,7 @@ accuracy_overall_merged = pd.concat(
 ).reset_index()
 
 # add display name
-models_csv = pd.read_csv(ROOT / "data" / "models.csv")
+models_csv = pd.read_csv(ROOT / "fab-benchmarks-configs" / "models.csv")
 accuracy_overall_merged['display_name'] = accuracy_overall_merged['Model'].apply(
     lambda x: models_csv[models_csv['model_id'] == x]['display_name'].values[0]
     if len(models_csv[models_csv['model_id'] == x]['display_name'].values) == 1

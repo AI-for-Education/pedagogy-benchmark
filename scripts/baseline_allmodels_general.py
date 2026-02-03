@@ -16,7 +16,7 @@ ROOT = HERE.parent
 dotenv_path = ROOT / ".env"
 load_dotenv(dotenv_path, override=True)
 
-project_models = ROOT / "custom_models.yaml"
+project_models = ROOT / "fab-benchmarks-configs" / "custom_models.yaml"
 home_models = Path.home() / ".fdllm" / "custom_models.yaml"
 # load a project custom_models if it exists
 # otherwise fall back to home directory (on maximes computer)

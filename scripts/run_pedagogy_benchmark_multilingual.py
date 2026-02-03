@@ -2,6 +2,7 @@
 from argparse import ArgumentParser
 from pathlib import Path
 from typing import Literal, Optional
+import sys
 
 import pandas as pd
 from dotenv import load_dotenv
@@ -11,26 +12,28 @@ from cdpk.benchmark_run import run_benchmark
 from cdpk.benchmark_constants import ROOT
 from cdpk.benchmark_utils import fulldf_accuracy_by_category
 
+# Add parent directory to path to import cdpk module
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+from cdpk.language_prompts import get_language_config, list_available_languages
+
 load_dotenv(override=True)
 
-language = "Luganda"
-
-QUESTIONS_LIST_DICT = {
-    "cdpk": [
-        f"CDPK_{language}_science",
-        #f"CDPK_{language}_literacy",
-        #f"CDPK_{language}_creative_arts",
-        #f"CDPK_{language}_maths",
-        #f"CDPK_{language}_social_studies",
-    ],
-    #"send": [f"CDPK_{language}_send"],
-}
 
 def main(opt):
+    # Get language configuration
+    config = get_language_config(opt.language)
+    language_slug_new = config['slug_new']
+
+    # Build questions list dynamically based on language and categories
+    QUESTIONS_LIST_DICT = {
+        "cdpk": [f"CDPK_{language_slug_new}_{cat}" for cat in opt.categories],
+        "send": [f"CDPK_{language_slug_new}_send"],
+    }
+
     if opt.models_config is None:
         if opt.benchmark == "cdpk":
             #opt.models_config = "cdpk_online_leaderboard"
-            opt.models_config = "full_list_20251015"
+            opt.models_config = "full_list_20251015_small"
         elif opt.benchmark == "send":
             opt.models_config = "send_online_leaderboard"
         else:
@@ -51,7 +54,7 @@ def main(opt):
     for cat_config_name in QUESTIONS_LIST_DICT[opt.benchmark]:
         print(f"Running {opt.benchmark} benchmark for {cat_config_name}")
         category_df, summary_df, config, models_dict_PK = run_benchmark(
-            questions_config=cat_config_name, models_config=config_models_PK
+            questions_config=cat_config_name, models_config=config_models_PK, language=opt.language
         )
         if opt.benchmark == "send":
             category_df["category"] = "SEND"
@@ -99,7 +102,16 @@ def main(opt):
 if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument(
+        "--language", required=True, type=str, choices=list_available_languages(),
+        help='Target language for benchmarking'
+    )
+    parser.add_argument(
         "--benchmark", required=True, type=str, choices=["cdpk", "send"]
+    )
+    parser.add_argument(
+        "--categories", nargs='+',
+        default=["science", "literacy", "creative_arts", "maths", "social_studies", "technology", "general"],
+        help='Categories to run (space-separated list)'
     )
     parser.add_argument(
         "--models-config", required=False, type=str, default=None
