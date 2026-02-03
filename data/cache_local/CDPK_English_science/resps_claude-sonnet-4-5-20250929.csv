@@ -1,0 +1,278 @@
+answers,resps,success
+D,D,True
+A,C,True
+D,D,True
+C,C,True
+A,A,True
+D,D,True
+B,B,True
+C,C,True
+A,A,True
+B,B,True
+D,D,True
+D,D,True
+A,A,True
+B,B,True
+D,D,True
+B,B,True
+D,D,True
+A,D,True
+C,C,True
+B,B,True
+D,"To determine the best sequence for progressive learning about atomic structure, I need to consider which order builds knowledge from foundational to more complex concepts.
+
+Activity 3: Discusses the evolution of atomic models (historical context, foundational understanding)
+Activity 4: Compares different atomic models (synthesizes the historical information)
+Activity 1: Focuses on the current atomic model in detail (applies understanding to modern theory)
+Activity 2: Solves problems about atomic structure (applies knowledge through practice)
+
+This sequence moves from historical foundation → synthesis → current detailed understanding → application through problem-solving.
+
+D",True
+A,A,True
+D,D,True
+D,D,True
+C,C,True
+D,D,True
+A,D,True
+B,B,True
+C,C,True
+B,B,True
+B,B,True
+B,B,True
+D,D,True
+C,C,True
+A,A,True
+B,B,True
+C,C,True
+C,D,True
+C,C,True
+B,B,True
+D,D,True
+C,C,True
+B,B,True
+C,C,True
+B,B,True
+C,C,True
+C,C,True
+C,B,True
+A,"To understand radioactive series, students need to know about nuclear transformations where parent nuclei decay into daughter nuclei through successive radioactive decays. This requires understanding what happens in the nucleus during radioactive decay.
+
+A",True
+C,B,True
+C,B,True
+A,A,True
+C,C,True
+B,B,True
+C,C,True
+C,"B
+
+Wait, let me reconsider this carefully.
+
+A valid scientific argument should be based on proper scientific evidence and reasoning:
+
+A. Studies in mice don't directly translate to humans - this is a limitation but it's still scientific evidence
+B. The presence of chlorine atoms doesn't automatically make something dangerous (table salt contains chlorine) - this is poor scientific reasoning
+C. Correlation doesn't equal causation, and the timeline is actually wrong (aspartame wasn't commercialized until 1981) - this is flawed reasoning
+D. Claims without peer-reviewed studies or proper evidence - not a valid scientific argument
+
+None of these are truly valid scientific arguments, but A is the closest to presenting actual scientific evidence, despite its limitations in extrapolating from mice to humans.
+
+A",True
+B,B,True
+C,C,True
+A,A,True
+A,A,True
+D,D,True
+D,D,True
+C,B,True
+C,C,True
+B,B,True
+B,B,True
+A,A,True
+B,B,True
+B,B,True
+C,C,True
+C,C,True
+B,"To structure contents from general to specific for understanding mechanisms of genetic information conservation, we need to start with the broadest concepts and move to more specific mechanisms.
+
+The logical sequence would be:
+- Start with how genetic material is organized (4 - most general foundation)
+- Then cover the cell division processes where conservation occurs (3 - general process)
+- Then the control mechanisms (5 - regulatory aspect)
+- Finally, the specific mechanisms within division (1 and 2 - most specific)
+
+Between options with crossing-over (1) and chromosomal permutation (2), crossing-over is a more fundamental mechanism that occurs during meiosis, while permutation is more specific.
+
+B",True
+C,C,True
+B,B,True
+C,C,True
+C,C,True
+D,D,True
+D,D,True
+C,C,True
+A,A,True
+A,B,True
+D,D,True
+D,D,True
+A,D,True
+C,C,True
+C,C,True
+C,C,True
+D,D,True
+B,B,True
+C,C,True
+C,C,True
+B,C,True
+D,A,True
+A,A,True
+D,"Looking at the student error:
+- Students said: 27 electrons, 13 protons, and 14 neutrons
+- Correct answer: 13 electrons, 13 protons, and 14 neutrons
+
+The students correctly identified:
+- Number of protons (13 = atomic number)
+- Number of neutrons (14 = mass number - atomic number = 27 - 13)
+
+Their error was assigning 27 (the mass number) to the number of electrons instead of recognizing that in a neutral atom, electrons equal protons.
+
+The students are confusing what the mass number represents. They think mass number (27) = number of electrons, when actually mass number = protons + neutrons (particles in the nucleus).
+
+This shows they believe mass number corresponds to the sum of positive and negative charges (protons + electrons) rather than understanding it represents the sum of particles in the nucleus (protons + neutrons).
+
+C",True
+D,C,True
+D,D,True
+B,B,True
+D,B,True
+B,B,True
+A,A,True
+A,A,True
+A,A,True
+C,C,True
+B,B,True
+B,C,True
+A,A,True
+D,D,True
+D,D,True
+A,A,True
+B,B,True
+B,B,True
+A,C,True
+B,B,True
+D,C,True
+C,C,True
+B,B,True
+B,B,True
+B,B,True
+C,C,True
+C,D,True
+D,A,True
+B,B,True
+C,C,True
+A,A,True
+B,D,True
+A,A,True
+A,"Looking at the student's response:
+1. Use washable masks - This is REUSE (using something multiple times)
+2. Plant plants in butter containers - This is REUSE (giving new purpose to containers)
+3. Separate and sort containers - This is RECYCLE
+
+The student has provided examples for Reuse and Recycle, but is missing REDUCE (using less, consuming less, buying only what's needed).
+
+The best feedback should:
+- Acknowledge what's correct
+- Point out what's missing (Reduce)
+- Guide the student to identify and provide the missing R
+
+Option A does this by:
+- Praising the examples
+- Asking if all Rs are there
+- Asking ""What measure allows you to spend fewer resources or acquire only the essential?"" (this directly guides toward REDUCE)
+- Asking for a new measure to complete the response
+
+A",True
+C,C,True
+A,A,True
+D,D,True
+C,C,True
+B,B,True
+D,D,True
+D,B,True
+B,D,True
+C,C,True
+C,C,True
+C,C,True
+B,B,True
+C,C,True
+D,"Looking at the student's explanation, I need to identify what misconception is being demonstrated.
+
+The student states: ""Once the follicle matures and the luteinizing hormone increases, it releases from the ovary and stops producing estrogen.""
+
+The key error here is that the student says the follicle ""stops producing estrogen"" immediately after ovulation. In reality:
+- Before ovulation: the mature follicle produces estrogen
+- After ovulation: the follicle transforms into the corpus luteum, which produces BOTH progesterone AND estrogen (though progesterone becomes dominant)
+
+The student incorrectly links the increase in LH (luteinizing hormone, which is a gonadotropic hormone) with the cessation of estrogen production, when in fact estrogen continues to be produced by the corpus luteum alongside progesterone.
+
+This represents an erroneous relationship between the stages of the ovarian cycle and the hormones involved.
+
+C",True
+C,C,True
+A,A,True
+B,B,True
+B,B,True
+B,B,True
+C,C,True
+A,A,True
+B,B,True
+C,C,True
+B,B,True
+D,D,True
+B,B,True
+A,A,True
+C,"The question asks which activity addresses the specific difficulty: students don't understand why Roman numerals (indicating valence) are needed only in SOME cases in Stock nomenclature.
+
+The key issue is understanding WHEN the Roman numeral is necessary versus when it's not. Roman numerals are only needed when a metal has multiple possible oxidation states. If a metal has only one oxidation state, the Roman numeral is omitted.
+
+Let me evaluate each option:
+
+A. Students calculate oxidation states and reflect on different values - this shows metals have different oxidation states but doesn't directly address when to include/omit Roman numerals.
+
+B. Students name oxides using Stock nomenclature rules - this is practice but doesn't specifically address the ""only in some cases"" question.
+
+C. Students compare dioxo and copper monoxide - this directly shows WHY Roman numerals are needed: copper has multiple oxidation states, so Cu₂O and CuO need to be distinguished as copper(I) oxide and copper(II) oxide. This addresses when the Roman numeral is necessary.
+
+D. Students explore why metals can form different compounds - this is about variable valency but doesn't directly connect to the nomenclature rule about when to include Roman numerals.
+
+Option C most directly addresses the specific difficulty by showing a concrete example of when the Roman numeral distinction is necessary.
+
+C",True
+B,B,True
+C,C,True
+C,C,True
+C,C,True
+A,A,True
+B,B,True
+B,D,True
+D,D,True
+D,D,True
+D,D,True
+A,A,True
+D,D,True
+C,C,True
+B,B,True
+D,D,True
+D,D,True
+C,C,True
+D,D,True
+D,D,True
+B,B,True
+C,C,True
+C,C,True
+C,C,True
+A,A,True
+D,D,True
+D,D,True
+B,B,True

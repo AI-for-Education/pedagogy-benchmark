@@ -1,0 +1,51 @@
+{
+    "gemma-3-4b-it": {
+        "CDPK_English_science": 141.59770107269287,
+        "CDPK_English_new_science": 118.039626121521
+    },
+    "gemma-3-27b": {
+        "CDPK_English_science": 228.70140075683594,
+        "CDPK_English_new_science": 294.57239818573
+    },
+    "gemini-2.5-flash-lite-preview-09-2025": {
+        "CDPK_English_science": 464.0203483104706,
+        "CDPK_English_new_science": 176.05127716064453
+    },
+    "claude-sonnet-4-5-20250929": {
+        "CDPK_English_science": 598.3856530189514,
+        "CDPK_English_new_science": 793.935840845108
+    },
+    "o4-mini-2025-04-16": {
+        "CDPK_English_science": 970.8063642978668,
+        "CDPK_English_new_science": 933.8026399612427
+    },
+    "gemini-2.5-flash-preview-09-2025": {
+        "CDPK_English_science": 1066.9231553077698,
+        "CDPK_English_new_science": 769.3892312049866
+    },
+    "qwen-3-32b": {
+        "CDPK_English_science": 1607.8896706104279,
+        "CDPK_English_new_science": 2283.6012926101685
+    },
+    "gpt-5-2025-08-07-medium": {
+        "CDPK_English_science": 1538.4221167564392,
+        "CDPK_English_new_science": 1537.6726379394531
+    },
+    "gemini-2.5-pro-preview-06-05": {
+        "CDPK_English_science": 2268.0962011814117,
+        "CDPK_English_new_science": 2095.9576609134674
+    },
+    "fw-deepseek-r1-0528": {
+        "CDPK_English_science": 3582.517459630966,
+        "CDPK_English_new_science": 3776.975335121155
+    },
+    "gpt-5.2-2025-12-11-medium": {
+        "CDPK_English_new_science": 497.10517716407776
+    },
+    "gemini-3-pro-preview": {
+        "CDPK_English_new_science": 2808.7373666763306
+    },
+    "gemini-3-flash-preview": {
+        "CDPK_English_new_science": 4844.414010286331
+    }
+}

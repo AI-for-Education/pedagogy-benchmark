@@ -12,9 +12,9 @@ DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 
 # Load datasets from HF Hub
 
-cdpk_dataset = load_dataset("CraneAILabs/pedagogy-benchmark-multilingual", "luganda", split="cdpk_main")
+cdpk_dataset = load_dataset("AI-for-Education/pedagogy-benchmark", "cdpk_main", split="train")
 
-send_dataset = load_dataset("CraneAILabs/pedagogy-benchmark-multilingual", "luganda", split="cdpk_send")
+send_dataset = load_dataset("AI-for-Education/pedagogy-benchmark", "cdpk_send", split="train")
 
 df_cdpk = cdpk_dataset.to_pandas()
 df_send = send_dataset.to_pandas()
@@ -56,8 +56,9 @@ print(f"Categories with missing values in SEND: {missing_rows_send['category'].v
 
 # %%
 # save as csv files
-df_cdpk.to_csv(f"{DATA_DIR}/pedagogy_benchmark_luganda_cdpk.csv", index=False)
-df_send.to_csv(f"{DATA_DIR}/pedagogy_benchmark_luganda_send.csv", index=False)
+df_cdpk.to_csv(f"{DATA_DIR}/pedagogy_benchmark_cdpk.csv", index=False)
+df_send.to_csv(f"{DATA_DIR}/pedagogy_benchmark_send.csv", index=False)
 
-#
+
+
 # %%
