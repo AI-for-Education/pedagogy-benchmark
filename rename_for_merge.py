@@ -56,9 +56,10 @@ print()
 if renamed_count > 0:
     print("Committing changes...")
     subprocess.run(['git', 'commit', '-m',
-                   f'Rename conflicting files with _{branch} suffix for merge'],
+                   #f'Rename conflicting files with _{branch} suffix for merge'],
+                   f'Rename additional conflicting files with _{branch} suffix for merge'],
                    check=True)
     print()
-    print(f"✓ Done! {renamed_count} files renamed on branch: {branch}")
+    print(f"[OK] Done! {renamed_count} files renamed on branch: {branch}")
 else:
     print("No files to rename.")
