@@ -10,7 +10,6 @@ from tqdm import tqdm
 from datasets import load_dataset
 from pathlib import Path
 from dotenv import load_dotenv
-import argparse
 import sys
 
 HERE = Path(__file__).resolve().parent
@@ -23,6 +22,14 @@ from cdpk.language_prompts import get_language_config, list_available_languages
 
 #dotenv_path = ROOT / ".env"
 #load_dotenv(dotenv_path, override=True)
+
+# ==================== CONFIGURATION ====================
+# Available languages: english, luganda, swahili, hausa, yoruba, nyankore, etc.
+# Use list_available_languages() to see all options
+LANGUAGE = 'luganda'
+OUTPUT_FILE = None  # Optional: Set to a filename like 'pedagogy_benchmark_luganda_cdpk.csv' or leave as None for default
+VERIFY = True  # Set to True to verify and retranslate missing values after initial translation
+# =======================================================
 
 gemini_api_key = os.getenv("GEMINI_API_KEY")
 
@@ -298,66 +305,45 @@ def retranslate_failed_translations(
     return translated_df
 
 # %%
-# run block only when script is executed directly
-# This block only runs when you execute the file as a script.
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Translate the pedagogy benchmark dataset using the Gemini API.")
-    parser.add_argument(
-        '--language',
-        type=str,
-        required=True,
-        choices=list_available_languages(),
-        help='The target language for translation (e.g., "luganda", "swahili").'
-    )
-    parser.add_argument(
-        '--output-file',
-        type=str,
-        required=False,
-        help='Output CSV filename (default: pedagogy_benchmark_{language}_cdpk.csv)'
-    )
-    parser.add_argument(
-        '--verify',
-        action='store_true',
-        help='Verify and retranslate missing values after initial translation'
-    )
-    args = parser.parse_args()
+# Main execution block
+# Get language configuration
+config = get_language_config(LANGUAGE)
+target_language = config['display_name']
+lang_slug = config['slug'].lower()
 
-    # Get language configuration
-    config = get_language_config(args.language)
-    target_language = config['display_name']
-    lang_slug = config['slug'].lower()
+# Default output filename if not provided
+if OUTPUT_FILE is None:
+    output_file = f"pedagogy_benchmark_{lang_slug}_cdpk.csv"
+else:
+    output_file = OUTPUT_FILE
 
-    # Default output filename if not provided
-    if not args.output_file:
-        args.output_file = f"pedagogy_benchmark_{lang_slug}_cdpk.csv"
+# Call the main function with the parsed language
+main(target_lang=target_language)
 
-    # Call the main function with the parsed language
-    main(target_lang=target_language)
+# Verify and retranslate if requested
+if VERIFY:
+    print("\nVerifying translations...")
+    translated_df = pd.read_csv(DATA_DIR / output_file)
+    print(translated_df.shape)
+    col_to_translate = ['question', 'answer_a', 'answer_b', 'answer_c', 'answer_d']
+    print(f"Number of missing translations found: {translated_df[col_to_translate].isna().sum().sum()}\n")
 
-    # Verify and retranslate if requested
-    if args.verify:
-        print("\nVerifying translations...")
-        translated_df = pd.read_csv(DATA_DIR / args.output_file)
-        print(translated_df.shape)
-        col_to_translate = ['question', 'answer_a', 'answer_b', 'answer_c', 'answer_d']
-        print(f"Number of missing translations found: {translated_df[col_to_translate].isna().sum().sum()}\n")
+    if translated_df[col_to_translate].isna().sum().sum() > 0:
+        print("Retranslating failed translations...")
+        # Load dataset from Hugging Face Hub
+        cdpk_dataset_hf = load_dataset("AI-for-Education/pedagogy-benchmark", "cdpk_main", split="train")
+        cdpk_dataset_hf = pd.DataFrame(cdpk_dataset_hf)
 
-        if translated_df[col_to_translate].isna().sum().sum() > 0:
-            print("Retranslating failed translations...")
-            # Load dataset from Hugging Face Hub
-            cdpk_dataset_hf = load_dataset("AI-for-Education/pedagogy-benchmark", "cdpk_main", split="train")
-            cdpk_dataset_hf = pd.DataFrame(cdpk_dataset_hf)
-
-            # Check for missing translations in the DataFrame
-            cleaned_translated_df = retranslate_failed_translations(
-                translated_df=translated_df,
-                original_df=cdpk_dataset_hf,
-                columns_to_check=col_to_translate,
-                target_language=target_language,
-                model_name="gemini-2.5-flash-preview-09-2025"
-            )
-            # Save the cleaned DataFrame back to CSV
-            cleaned_output = args.output_file.replace(".csv", "_cleaned.csv")
-            cleaned_translated_df.to_csv(DATA_DIR / cleaned_output, index=False)
-            print(f"Cleaned dataset saved to: {DATA_DIR / cleaned_output}")
+        # Check for missing translations in the DataFrame
+        cleaned_translated_df = retranslate_failed_translations(
+            translated_df=translated_df,
+            original_df=cdpk_dataset_hf,
+            columns_to_check=col_to_translate,
+            target_language=target_language,
+            model_name="gemini-2.5-flash-preview-09-2025"
+        )
+        # Save the cleaned DataFrame back to CSV
+        cleaned_output = output_file.replace(".csv", "_cleaned.csv")
+        cleaned_translated_df.to_csv(DATA_DIR / cleaned_output, index=False)
+        print(f"Cleaned dataset saved to: {DATA_DIR / cleaned_output}")
 ## %%

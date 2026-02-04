@@ -7,7 +7,6 @@ from pathlib import Path
 import json
 from tqdm import tqdm
 import yaml
-import argparse
 import sys
 
 # Add parent directory to path to import cdpk module
@@ -17,29 +16,25 @@ from cdpk.language_prompts import get_language_config, list_available_languages
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 
 # %%
-# Parse command line arguments
-parser = argparse.ArgumentParser(description='Prepare CDPK dataset for multilingual benchmarking')
-parser.add_argument('--language', required=True,
-                   choices=list_available_languages(),
-                   help='Target language for dataset preparation')
-parser.add_argument('--use-question-id', action='store_true',
-                   help='Use question_id column for matching few-shot examples (for reviewed datasets)')
-args = parser.parse_args()
+# ==================== CONFIGURATION ====================
+# Set your language and options here before running the script
+LANGUAGE = 'english'  # Choose from: english, luganda, luganda_ep, swahili, swahili_ep, hausa, hausa_ep, yoruba, yoruba_ep, nyankore, nyankore_ep
+USE_QUESTION_ID = False  # Set to True for reviewed datasets, False for cleaned datasets
+# =======================================================
 
 # Get language configuration
-config = get_language_config(args.language)
+config = get_language_config(LANGUAGE)
 language_slug = config['slug']
-language_slug_new = config['slug_new']
 language_display = config['display_name']
 
 # Build filenames dynamically based on language
-if args.use_question_id:
+if USE_QUESTION_ID:
     # For reviewed datasets
     cdpk_filename = f"pedagogy_benchmark_{language_slug.lower()}_cdpk_reviewed.csv"
     send_filename = f"pedagogy_benchmark_{language_slug.lower()}_send_reviewed.csv"
 else:
     # For cleaned datasets
-    if args.language == 'english':
+    if LANGUAGE == 'english':
         cdpk_filename = "pedagogy_benchmark_cdpk.csv"
         send_filename = "pedagogy_benchmark_send.csv"
     else:
@@ -61,7 +56,7 @@ cdpk_dataset.info()
 #   - add source, add Answer E, add Answer F, add Answer G (before Correct answer)
 #   - remove question number
 cdpk_dataset.insert(0, "Source", f"Pedagogy Benchmark {language_display}") # insert source
-if not args.use_question_id:
+if not USE_QUESTION_ID:
     cdpk_dataset.drop(columns = ["question_id"], inplace=True) # remove question number
 #cdpk_dataset.insert(6, "Answer E", None)
 #cdpk_dataset.insert(7, "Answer F", None)
@@ -316,11 +311,11 @@ for i in few_shot_examples_idx_dict['Science']:
 # %%
 
 create_subcsv_cdpk(cdpk_dataset,
-                   folder_path = f"./../data/{language_slug_new}/CDPK_per_category",
+                   folder_path = f"./../data/{language_slug}/CDPK_per_category",
                    categories = ["Science", "Literacy", "Creative arts", "Maths", "Social studies", "Technology", "General"],
                    levels = None,
-                   suffix=language_slug_new,
-                   use_question_id=args.use_question_id
+                   suffix=language_slug,
+                   use_question_id=USE_QUESTION_ID
                      )
 # %%
 yaml_template = {
@@ -336,7 +331,7 @@ yaml_template = {
 }
 
 
-process_csv_and_update_yaml(input_folder = f"./../data/{language_slug_new}/CDPK_per_category",
+process_csv_and_update_yaml(input_folder = f"./../data/{language_slug}/CDPK_per_category",
                             output_folder = f"./../configs/questions",
                             yaml_template = yaml_template,
                             )

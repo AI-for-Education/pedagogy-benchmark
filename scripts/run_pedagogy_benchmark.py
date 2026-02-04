@@ -1,4 +1,3 @@
-# %%
 from argparse import ArgumentParser
 from pathlib import Path
 from typing import Literal, Optional
@@ -13,24 +12,23 @@ from cdpk.benchmark_utils import fulldf_accuracy_by_category
 
 load_dotenv(override=True)
 
-language = "Luganda"
-
 QUESTIONS_LIST_DICT = {
     "cdpk": [
-        f"CDPK_{language}_science",
-        #f"CDPK_{language}_literacy",
-        #f"CDPK_{language}_creative_arts",
-        #f"CDPK_{language}_maths",
-        #f"CDPK_{language}_social_studies",
+        "CDPK_science",
+        "CDPK_literacy",
+        "CDPK_creative_arts",
+        "CDPK_maths",
+        "CDPK_social_studies",
+        "CDPK_technology",
+        "CDPK_gen_pk",
     ],
-    #"send": [f"CDPK_{language}_send"],
+    "send": ["CDPK_send"],
 }
 
 def main(opt):
     if opt.models_config is None:
         if opt.benchmark == "cdpk":
-            #opt.models_config = "cdpk_online_leaderboard"
-            opt.models_config = "full_list_20251015"
+            opt.models_config = "cdpk_online_leaderboard"
         elif opt.benchmark == "send":
             opt.models_config = "send_online_leaderboard"
         else:
@@ -54,12 +52,12 @@ def main(opt):
             questions_config=cat_config_name, models_config=config_models_PK
         )
         if opt.benchmark == "send":
-            category_df["category"] = "SEND"
-        if len(category_df["category"].unique()) > 1:
+            category_df["Category"] = "SEND"
+        if len(category_df["Category"].unique()) > 1:
             print("More than one category in the dataframe")
             break
         else:
-            category_name = category_df["category"].unique()[0]
+            category_name = category_df["Category"].unique()[0]
             print(f"Category: {category_name}")
 
         # append result
@@ -110,7 +108,7 @@ if __name__ == "__main__":
 
     ### register custom models
     if opt.custom_models_file is None:
-        custom_models_file = ROOT / "fab-benchmarks-configs" / "custom_models.yaml"
+        custom_models_file = ROOT / "custom_models.yaml"
     else:
         custom_models_file = Path(opt.custom_models_file)
     if not custom_models_file.exists():
@@ -119,5 +117,3 @@ if __name__ == "__main__":
     #
 
     main(opt)
-
-# %%

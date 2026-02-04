@@ -22,12 +22,12 @@ load_dotenv(override=True)
 def main(opt):
     # Get language configuration
     config = get_language_config(opt.language)
-    language_slug_new = config['slug_new']
+    language_slug = config['slug']
 
     # Build questions list dynamically based on language and categories
     QUESTIONS_LIST_DICT = {
-        "cdpk": [f"CDPK_{language_slug_new}_{cat}" for cat in opt.categories],
-        "send": [f"CDPK_{language_slug_new}_send"],
+        "cdpk": [f"CDPK_{language_slug}_{cat}" for cat in opt.categories],
+        "send": [f"CDPK_{language_slug}_send"],
     }
 
     if opt.models_config is None:
