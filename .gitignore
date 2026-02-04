@@ -208,6 +208,6 @@ __marimo__/
 
 #####
 # Data directory - ignore all subdirectories and CSV files
-data/*/
-data/*.csv
+#data/*/
+#data/*.csv
 #data/*.json

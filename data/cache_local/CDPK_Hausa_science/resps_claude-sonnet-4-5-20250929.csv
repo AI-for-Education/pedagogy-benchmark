@@ -1,0 +1,1420 @@
+answers,resps,success,Latency,TokensUsed,TokensUsedCompletion,TokensUsedReasoning
+D,D,True,2.666935299988836,1674,4,0
+A,D,True,2.5372695999685675,1877,4,0
+D,"D
+
+Zuciya ba ta samar da jini ba. Jini ana samarwa a cikin kasusuwa (bone marrow). Aikin zuciya shi ne ta tura jinin da aka riga aka samar zuwa ga dukkanin sassan jiki. Wannan kuskure ne na fahimta game da aikin zuciya.",True,5.762950900010765,1812,88,0
+C,C,True,2.7937952999491245,1780,4,0
+A,D,True,3.1612490999978036,1672,4,0
+D,"Tambayar tana tambayar misali na **takaitawa** (condensation) - wanda shine canjin yanayi daga tururi zuwa ruwa.
+
+Bari mu duba kowane zaɓi:
+
+A. Faduwar dusar ƙanƙara a kan ruwan kogi - Wannan ba takaitawa ba ce, dusar ƙanƙara ta riga ta kasance a yanayin daskare
+
+B. Canjin ƙanƙara zuwa tururi ta sanadiyar aikin Rana - Wannan **sublimation** ce (daga daskare kai tsaye zuwa tururi), ba takaitawa ba
+
+C. Sanyin ruwan teku da juyawarsa zuwa ƙanƙara - Wannan **daskarewa** ce (daga ruwa zuwa daskare), ba takaitawa ba
+
+D. Jikewar duwatsu da ke fuskantar tururin geyser - Wannan yana nuna **takaitawa** - tururin ruwa (gas) yana juyawa zuwa ruwa a kan duwatsun sanyi
+
+**D**",True,9.052681799978018,1947,285,0
+B,B,True,2.7133967999834567,1605,4,0
+C,D,True,2.573431800119579,1655,4,0
+A,B,True,2.754949599970132,1714,4,0
+B,B,True,2.7925227000378072,1681,4,0
+D,D,True,2.5519650999922305,1738,4,0
+D,D,True,2.6203566000331193,1643,4,0
+A,"Bari in duba manufar malamin: fahimta yanayin canzawa da yanayin gama gari na kimiyya a fannin ci gaban fasaha (na'urorin bugun zuciya).
+
+Zaɓi A: Ƙirƙiri samfurin - yana nuna ci gaba da canzawa a fasaha
+Zaɓi B: Yi bincike kan juyin halitta - yana nuna canzawa cikin lokaci
+Zaɓi C: Haɓaka faifai na bayani - yana nuna sabbin ci gaba
+Zaɓi D: Tsara jadawalin lokaci na masana kimiyya - wannan yana mai da hankali kan tarihi da mutane, ba kan fahimtar yanayin canzawa da yanayin gama gari na kimiyya ba
+
+A",True,6.9953956999816,2019,214,0
+B,B,True,2.734934699954465,1707,4,0
+D,"Bari in yi nazari kan wannan tambaya.
+
+Manufar ita ce ɗalibai su yanke hukunci game da **alaƙar da ke tsakanin aikin tsarin narkar da abinci da buƙatun abinci mai gina jiki na ƙwayoyin halitta**.
+
+Wannan yana nufin ɗalibai sun fahimci yadda enzymes (lipases, amylase, pepsin) ke narkar da manyan kwayoyin abinci (lipids, carbohydrates, sunadarai) zuwa ƙananan sassa waɗanda ƙwayoyin halitta za su iya amfani da su.
+
+Bari in duba zaɓuɓɓuka:
+
+A. Ƙaddamar da hasashe - Wannan yana nuna fahimtar alaƙa amma ba tantancewa ba ne
+B. Shirya gwaji - Wannan aiki ne na gwaji, ba tantancewa ba
+C. Bincika ma'aunin gwaji - Wannan aiki ne na gwaji, ba tantancewa ba
+D. Bincika zane game da canjin sukarin jini - Wannan yana nuna yadda jikin ke amfani da sakamakon narkar da abinci (carbohydrates zuwa glucose zuwa sukarin jini), wanda ke nuna **alaƙar tsakanin narkar da abinci da buƙatun ƙwayoyin halitta**
+
+Zaɓi D ya fi dacewa domin yana buƙatar ɗalibai su **bincika** (tantance) yadda tsarin narkar da abinci (carbohydrates) ke haɗuwa da buƙatun ƙwayoyin halitta (amfani da glucose).
+
+**D**",True,11.9118341000285,2202,466,0
+B,B,True,3.0100626000203192,1714,4,0
+D,"Bari in duba wannan tambaya a hankali.
+
+Manufar ita ce malama tana son ɗalibanta su ""gabatar da ra'ayoyi masu tushe"" akan aikace-aikacen ilimin halittar ƙwayoyin halitta.
+
+Bari in tantance kowane zaɓi:
+
+A. Gabatarwa da ke nuna canje-canjen da dabarun kilona suka samu - Wannan yana nuna canje-canje kawai, ba gabatar da ra'ayoyi masu tushe ba
+
+B. Shiryawa ko ƙirƙirar wani hoto-fosta a kan dabarun samar da halittu masu canjin kwayoyin halitta - Wannan yana buƙatar ƙirƙira da gabatar da bayanai, amma ba lallai ba ne ya haɗa da ra'ayoyi masu tushe
+
+C. Bincike na ka'ida game da jiyya ta kwayoyin halitta a maganin cututtuka - Wannan bincike ne kawai na ka'ida, ba gabatar da ra'ayoyi ba
+
+D. Makala kan amfani da ƙwayoyin halitta na asali wajen magance cututtuka - Wannan yana buƙatar ɗalibai su rubuta makala inda za su iya bayyana ra'ayoyinsu masu tushe akan yadda ake amfani da ƙwayoyin halitta na asali wajen magance cututtuka
+
+Zaɓin D ya fi dacewa domin makala tana ba da damar ɗalibai su gabatar da ra'ayoyinsu masu tushe akan aikace-aikacen ilimin halittar ƙwayoyin halitta.
+
+D",True,11.415455899899825,2188,461,0
+A,D,True,2.939942500088364,1790,4,0
+C,C,True,3.013187399832532,1788,4,0
+B,B,True,2.9013961998280138,1769,4,0
+D,"Bari in yi nazari akan tsarin koyo mai ci gaba don fahimtar tsarin kwayar halitta.
+
+Don koyo mai ci gaba, mafi kyau shine:
+- Fara da tarihi da juyin halitta (Aiki 3) - fahimtar yadda ra'ayin ya samo asali
+- Sa'an nan gina samfuran (Aiki 4) - aiwatar da fahimtar
+- Sa'an nan karanta game da samfurin na yanzu (Aiki 1) - fahimtar zurfi
+- A ƙarshe warware matsaloli (Aiki 2) - aiwatar da ilimi
+
+Wannan tsari yana bin ka'idar koyo mai ci gaba daga:
+- Tarihi/tushe → Aiki mai amfani → Nazari mai zurfi → Aikace-aikace na lissafi
+
+**C**",True,8.868560600094497,2110,225,0
+A,D,True,2.9617469999939203,1617,4,0
+D,"Looking at this question, Marcial's students believe that increasing the heat will make water boil faster and cook pasta more quickly. This is a common misconception - water boils at a constant temperature (100°C at standard pressure), and increasing heat beyond boiling point doesn't make it hotter, just makes it boil more vigorously.
+
+To challenge this misconception, students need to discover that:
+1. Water temperature doesn't increase beyond boiling point regardless of heat intensity
+2. Higher heat just causes more vigorous boiling, not higher temperature
+
+Let me analyze each option:
+
+A. Investigating how boiling point changes under different environmental conditions - This is about pressure/altitude effects, not about heat intensity after boiling starts.
+
+B. Measuring time for 200ml of water to boil at different heat intensities - This only shows that stronger heat makes water boil faster initially, but doesn't address what happens AFTER boiling starts.
+
+C. Presenting a method to study the relationship between boiling temperature and the amount of water heated - This is about water quantity, not heat intensity.
+
+D. Heating water in a beaker until it boils, increasing the heat intensity, and measuring temperature every 30 minutes for 4 minutes - This directly tests whether increasing heat after boiling increases temperature. Students will observe that temperature stays constant at boiling point despite increased heat.
+
+Option D directly challenges their misconception by having them measure and observe that temperature doesn't increase when heat is increased after boiling begins.
+
+D",True,11.549240399850532,2259,329,0
+D,D,True,2.6866392001975328,1925,4,0
+C,C,True,2.6426475001499057,1726,4,0
+D,B,True,3.2111410999204963,1772,4,0
+A,"Bari in duba wannan tambaya a hankali.
+
+Tambayar tana neman misali na **haɗin kai na farko** (mutualism) - inda duka halittu biyu suna samun fa'ida daga dangantakar.
+
+Bari in duba kowane zaɓi:
+
+**A. Tsuntsun Takala da kwari** - Tsuntsun yana samun fa'ida (tsaftace salo), amma ba a faɗi cewa kwarin suna samun fa'ida ba. Wannan ba cikakken haɗin kai ba ne.
+
+**B. Dabbobi masu taunar gyro da bacteria** - Bacteria suna taimaka wa dabbobin narkar da cellulose, kuma bacteria suna samun wurin zama da abinci daga dabbobin. Duka biyun suna samun fa'ida. Wannan haɗin kai ne.
+
+**C. Orchid da itace** - An faɗi a fili cewa ""ba ya shafar itacen ko kaɗan"" - wannan commensalism ne (ɗaya yana amfana, ɗayan ba ya shafa), ba mutualism ba.
+
+**D. Rhizobium da legumes** - Kwayoyin cuta suna samun abubuwan gina jiki daga tsire-tsire, kuma tsire-tsire suna samun nitrogen daga kwayoyin cuta. Duka biyun suna samun fa'ida. Wannan haɗin kai ne.
+
+Duka B da D suna nuna haɗin kai na farko, amma **D** ya fi bayyana a sarari yadda duka biyun suke samun fa'ida - kwayoyin cuta suna samun abubuwan gina jiki, tsire-tsire suna samun nitrogen.
+
+**D**",True,16.02933569997549,2307,473,0
+B,B,True,3.7517065999563783,1974,4,0
+C,B,True,2.825880999909714,1704,4,0
+B,B,True,2.41757749998942,1650,4,0
+B,B,True,2.6080750001128763,1831,4,0
+B,"Bari in duba wannan tambaya a hankali.
+
+Manufar koyarwa ita ce: ɗalibai su haɓaka ikon gano abubuwan canzawa (variables) na wani bincike.
+
+Bari in tantance kowane zaɓi:
+
+A. Gine-ginen matatar sigari - Wannan ya fi dacewa da gano abubuwa masu guba, ba gano abubuwan canzawa na bincike ba.
+
+B. Tsare-tsaren sakamako na wani bincike da ɗalibai suka shirya - Idan ɗalibai sun shirya binciken da kansu, to lallai sun gano abubuwan canzawa (masu zaman kansu, masu dogara, da masu sarrafawa). Tsare-tsaren sakamako yana nuna cewa sun yi aikin gano waɗannan abubuwan canzawa.
+
+C. Tsara Tsarin Nazari - Wannan ya fi dacewa da nazarin adabi, ba aikin kimiyya na gano abubuwan canzawa ba.
+
+D. Gina samfurai - Wannan ya fi dacewa da fahimtar tsarin aiki, ba gano abubuwan canzawa na bincike ba.
+
+Zaɓin B ne kawai yake nuna cewa ɗalibai sun yi aikin gano abubuwan canzawa a cikin bincike (domin sun shirya binciken da kansu), kuma tsare-tsaren sakamako yana ba malamar damar auna ko sun iya gano waɗannan abubuwan canzawa.
+
+B",True,11.718022899935022,2174,422,0
+D,D,True,2.8514378999825567,1840,4,0
+C,"Bari in yi nazari a kan ayyukan da aka bayar:
+
+1. Gina tsarin zagayowar tantanin halitta da wuraren sarrafa ta - Wannan aiki na asali ne, yana kafa tushen fahimtar zagayowar tantanin halitta.
+
+2. Gane ra'ayoyin yaɗuwar tantanin halitta da bambancin ta ta amfani da wasan ƙwaƙwalwa - Wannan yana ƙara matsayi, yana haɓaka fahimtar yadda tantanin halitta ke yaɗuwa da bambanta.
+
+3. Haɗa alaƙar shigar muhimman kwayoyin halitta a sarrafa zagayowar tantanin halitta da kuma a nau'ikan cutar kansa daban-daban - Wannan shine mafi rikitarwa, yana buƙatar haɗa dukkan ilimin da aka samu don fahimtar cutar kansa.
+
+Tsarin ci gaba daga mai sauƙi zuwa mai rikitarwa:
+- Farko: Koyi tushen zagayowar tantanin halitta (1)
+- Na biyu: Fahimci yaɗuwa da bambancin tantanin halitta (2)
+- Na uku: Haɗa duka zuwa cutar kansa (3)
+
+A",True,9.213365399977192,2192,358,0
+A,"Bari in duba wannan tambaya a hankali.
+
+Malamar ta tambaye ɗalibai wace fitila za ta fi ba da haske, kuma dukkansu sun amsa fitila B. Bayan haka, ta ba da shawarar su:
+1. Tabbatar da hasashensu ta hanyar gwaji
+2. Tattauna sakamakon da aka samu
+3. Kwatanta sakamakon da ra'ayoyinsu da fahimtarsu na asali
+
+Manufar aiki na biyu (gwaji da tattaunawa) shine:
+
+Zaɓi A: Don ba da rikici na sani da motsa sauyin tunani - Wannan yana dacewa saboda lokacin da ɗalibai suka yi gwaji kuma suka ga sakamakon (wanda zai iya bambanta da hasashensu), wannan zai haifar da rikici tsakanin abin da suka yi tsammani da ainihin sakamakon, wanda zai motsa su su sake tunani.
+
+Zaɓi B: Don auna koyo - A'a, wannan ba shine babban manufar ba
+
+Zaɓi C: Don gane ra'ayoyin farko - A'a, an riga an gano wannan a tambaya ta farko
+
+Zaɓi D: Don gano dalilan kuskure - Wannan yana da alaƙa amma ba shine babban manufar ba
+
+A",True,11.539261700119823,2201,372,0
+B,"Zan duba wannan tambaya a hankali.
+
+Manufar koyo ita ce: ""A binciki samfurin ƙwayoyin haske (corpuscular model) sosai don bayyanawa da kuma fassara al'amuran haske, a fahimci cewa samfuran suna da fa'idodi kuma a lokaci guda suna da iyakoki.""
+
+Manufar tana mai da hankali kan:
+1. Bincika samfurin ƙwayoyin haske
+2. Gano fa'idodinsa
+3. Gano iyakokinsa
+
+Don cimma wannan, ɗalibai suna buƙatar ganin inda samfurin ƙwayoyin haske ke aiki da kyau da kuma inda ba ya aiki da kyau.
+
+Zaɓi A: Raƙatar haske da rarrabewarsa - Waɗannan abubuwa ba za a iya bayyana su da samfurin ƙwayoyin haske ba. Wannan zai nuna iyakokin samfurin.
+
+Zaɓi B: Nunawa a madubi da tarwatsewar haske - Nunawa tana aiki da samfurin ƙwayoyin haske, amma tarwatsewar haske ba ta aiki sosai ba. Wannan yana nuna fa'idodi da iyakoki.
+
+Zaɓi C: Karyewar haske da dawowa - Duka biyun ana iya bayyana su da samfurin ƙwayoyin haske. Wannan yana nuna fa'idodi kawai.
+
+Zaɓi D: Samar da hotuna a madubai da ruwan tabarau - Ana iya bayyana wannan da samfurin ƙwayoyin haske. Yana nuna fa'idodi kawai.
+
+Zaɓi B ne ya fi dacewa domin yana ba da damar ganin duka fa'idodi (nunawa) da iyakoki (tarwatsewar haske) na samfurin.
+
+**B**",True,13.086629499914125,2525,533,0
+C,C,True,3.1957269001286477,1890,4,0
+C,D,True,3.0004172001499683,1759,4,0
+C,"Bari in duba wannan tambaya a hankali.
+
+Aikin da aka bayyana yana ƙunshi:
+1. Ɗalibai suna auna ma'aunin ƙarfi mai miƙewa na bazara ta hanyar gwaji
+2. Suna rubuta sakamakon a cikin teburi
+3. Suna tantance iyakar ƙarfin da bazara ke bin dokar Hooke
+4. Suna shirya rahoto a cikin nau'in fasta
+5. Suna gabatar da shi ga abokan karatun su
+
+Bari in duba kowane zaɓi:
+
+A. Auna binciken kimiyya domin inganta shi - Wannan ba a ambata a cikin aikin
+B. Tsara tambayoyi/matsaloli - Malamar ta riga ta gabatar da manufar, ba ɗalibai ba ne suka tsara tambayar
+C. Bayyana tare da bayar da hujjoji a rubuce da baki, gami da tebura, zane-zane, ICT - Wannan ya dace sosai: suna rubuta sakamakon a teburi, suna shirya fasta (bayani a rubuce), kuma suna gabatar da shi ga abokan karatun su (bayani a baki)
+D. Tsara tsare-tsaren binciken gwaji - Malamar ta riga ta tsara aikin, ba ɗalibai ba ne suka tsara shi
+
+C",True,9.855658499989659,2393,386,0
+B,"Bari in yi nazari a wannan tambayar.
+
+Manufar malama ita ce ɗalibai su fahimci yadda ake kafa dokoki ta hanyar nazarin dangantaka tsakanin masu canji na zahiri. A cikin mahallin dokar Ohm (V = IR), ana son ɗalibai su gano dangantakar tsakanin ƙarfin lantarki (V), ƙarfin wutar lantarki (I), da juriya (R).
+
+Bari in duba kowane zaɓi:
+
+A. Zana jadawali - Wannan yana nuna dangantakar da ta riga ta kasance, amma ba ya ba ɗalibai damar gano dokar da kansu ta hanyar bincike.
+
+B. Ƙirƙirar ginshiƙi daga tebur da ke rubuta bayanan gwaji, sannan fassara shi - Wannan yana ba ɗalibai damar gano dangantakar tsakanin masu canji ta kansu ta hanyar nazarin bayanan gwaji.
+
+C. Ƙididdige juriya ta amfani da ƙimar da aka riga aka ba su - Wannan kawai yin lissafi ne, ba gano dokar ba.
+
+D. Tabbatarwa ko bayanan masana'anta daidai ne - Wannan tabbatarwa ce kawai, ba gano dokar ba.
+
+Zaɓi B ya fi dacewa domin yana ba ɗalibai damar gano dokar Ohm da kansu ta hanyar nazarin bayanan gwaji da ƙirƙirar ginshiƙi.
+
+**B**",True,12.828110900009051,2369,439,0
+D,"Looking at this question, I need to determine what activities students can do based on the historical text about the development of the steam engine.
+
+The text provides:
+- Historical context about mining problems in the 17th century
+- Scientific developments by various scientists (Torricelli, von Guericke)
+- Evolution of steam engine technology (Papin, Savery, Newcomen, Watt)
+- How this technology spread and contributed to industrialization
+
+Let me analyze each option:
+
+A. ""Explain the function of the steam engine that Watt invented"" - This would require technical details not provided in the text. The text mentions Watt's innovation (separating the cooling component) but doesn't explain how the engine functions in detail.
+
+B. ""Conduct in-depth study on scientific designs, seeking their benefits and limitations in explaining natural phenomena"" - This is too broad and theoretical for what the text provides.
+
+C. ""Provide examples, representations, or analogies that would allow them to relate Physics concepts to understanding everyday world matters"" - The text doesn't really provide enough detail for students to create such connections.
+
+D. ""Explain how the process of building scientific knowledge is considered strong and evolutionary, and how its progress is related to social and historical context"" - This perfectly matches what the text demonstrates: it shows the evolution of steam engine technology over time (Papin → Savery → Newcomen → Watt), how each built on previous work, and explicitly connects this to social context (mining needs) and historical context (spread to industrializing nations, contribution to industrial revolution).
+
+D",True,11.848465100163594,2744,348,0
+C,D,True,2.6583643001504242,1752,4,0
+B,B,True,3.22593230009079,1715,4,0
+C,"Bari in duba wannan tambaya a hankali.
+
+Manufar koyo ita ce: ""Tsara bayanai game da wasu al'amuran lantarki (electrostatic phenomena), kamar su karkarar jikuna (electrization of bodies) da fitar lantarki (electric discharges).""
+
+Mabuɗin kalma a nan shine ""tsara bayanai game da al'amuran lantarki"" - musamman karkarar jikuna da fitar lantarki.
+
+Bari in duba kowane zaɓi:
+
+A. Bayyana sharuɗɗan gudanar da wutar lantarki a cikin daskararru, ruwa, da gas - Wannan ya shafi gudanar da wutar lantarki, ba al'amuran lantarki (electrostatic phenomena) ba.
+
+B. Bayyana sauye-sauye da sharuɗɗan dokar Coulomb - Wannan ya fi zurfi kuma ya shafi ƙididdiga, ba kawai tsara bayanai ba.
+
+C. Bayyana hanyoyin aiki da fasahohi da ke kare mutane daga abubuwan lantarki masu haɗari - Wannan yana nuna fahimtar aiki da amfani na al'amuran lantarki kamar karkarar jikuna da fitar lantarki (tsawa). Yana buƙatar tsara bayanai game da yadda waɗannan al'amura ke aiki don bayyana hanyoyin kariya.
+
+D. Bayyana cewa na'urorin da ke gudanar da wutar lantarki suna da juriya - Wannan ya shafi juriya ta lantarki, ba al'amuran lantarki ba.
+
+C",True,10.134799000108615,2324,447,0
+B,"Bari in yi nazari a hankali.
+
+Tambayar tana neman aiki wanda zai tabbatar da ƙwarewar ""Gano iyakokin samfura (models) da ƙa'idodin kimiyya.""
+
+Wannan ƙwarewa tana nufin iya gane inda samfuran kimiyya ko ƙa'idodi ba sa aiki sosai ko suna da iyakoki.
+
+Bari in duba kowane zaɓi:
+
+A. Tsara gwaji don auna saurin juyawa a kan farfajiya mai gangara - Wannan yana mai da hankali kan auna da kwatanta, ba gano iyakoki ba.
+
+B. Gwada faɗuwa mara tarewa kuma **kwatanta bayanan ainihi da hasashen ƙa'ida** - Wannan yana nuna inda ƙa'idar ta dace ko ta kasa, wanda shine gano iyakoki.
+
+C. Warware matsaloli ta amfani da kinematics - Wannan yana mai da hankali kan amfani da ƙa'idodi, ba gano iyakokinsu ba.
+
+D. Yi lissafi ta amfani da tsarin faɗuwa da harbi a tsaye - Wannan ma yana mai da hankali kan amfani da ƙa'idodi, ba tantance iyakokinsu ba.
+
+Zaɓi B yana ba da damar ɗalibai su ga inda hasashen ƙa'ida ya dace da gaskiya ko bai dace ba, wanda shine ainihin gano iyakokin samfura da ƙa'idodi.
+
+**B**",True,13.893932499922812,2388,442,0
+C,D,True,2.856097700074315,1794,4,0
+C,C,True,2.826135099865496,1833,4,0
+C,"Bari in yi nazari a kan wannan tambaya game da tsarin koyarwa na polymers daga fadi zuwa ga mai takaituwa.
+
+Tsarin koyarwa daga fadi zuwa ga mai takaituwa yana nufin farawa da:
+- Abubuwan da suka fi faduwa/gama-gari (misalai masu kama da rayuwar yau da kullum)
+- Sannan zuwa ga abubuwan da suka fi takaituwa/ƙayyadaddun ilimi (ka'idoji da manufofin kimiyya)
+
+Bari in duba kowane zaɓi:
+
+**A**: Yana farawa da monomers (takaituwa) → bayani na kimiyya → misalai na polymers (fadi)
+- Wannan DAGA TAKAITUWA ZUWA FADI ne
+
+**B**: Yana farawa da misalai na polymers a rayuwar yau da kullum (fadi) → bayani na samuwar su → bayani na monomer (takaituwa)
+- Wannan DAGA FADI ZUWA TAKAITUWA ne
+
+**C**: Yana farawa da misalai na polymers (fadi) → gano abubuwan da suke samar da su → bayani na halayen kemikal (takaituwa)
+- Wannan DAGA FADI ZUWA TAKAITUWA ne
+
+**D**: Yana farawa da halayen kemikal (takaituwa) → sannan misalai → gano polymers da tsara halaye
+- Wannan yana da rikitarwa amma yana farawa da takaituwa
+
+Zaɓin **B** ya fi dacewa da tsarin daga fadi zuwa takaituwa domin yana farawa da abubuwan da ɗalibai suka sani (polymers na yau da kullum), sannan yana bayyana yadda ake samar da su, kuma a ƙarshe yana bayyana manufofin kimiyya (monomer).
+
+**B**",True,14.891061799833551,2458,522,0
+A,D,True,3.0300529999658465,1634,4,0
+C,C,True,2.9500192999839783,1651,4,0
+C,D,True,2.797074700007215,1692,4,0
+A,B,True,3.0247125001624227,1756,4,0
+C,"Bari in duba manufar malamin da kuma ayyukan da aka bayar.
+
+Manufar: Ɗalibai su bayyana kuma su nuna samuwar haɗin gwiwar ionic da covalent.
+
+Bari in tantance kowane zaɓi:
+
+A. Nuna Tsarin Lewis na molecule mai nau'uka biyu na haɗi, tambayar kirga electrons na valence - Wannan yana mai da hankali ne kawai kan kirga electrons, ba kan bayyana ko nuna samuwar haɗin gwiwar ba.
+
+B. Ba da jerin sinadarai don tantance dokar biyu ko dokar takwas - Wannan yana mai da hankali ne kan tantance dokokin, ba kan bayyana ko nuna samuwar haɗin gwiwar ba.
+
+C. Ba da alamomi da lambobin atom na abubuwa uku, su kafa kwayoyin halitta biyu, kowanne da a kalla ɗaya daga cikin nau'ukan haɗin gwiwa guda biyu - Wannan yana buƙatar ɗalibai su yi aiki na kafa (nuna) kwayoyin halitta masu nau'ukan haɗi daban-daban, wanda ke nuna fahimtar yadda ake samuwar haɗin gwiwar.
+
+D. Gabatar da teburi mai nuna ma'aunin tafasawa da narkarwa, tambayar tantance nau'in ɗauri - Wannan yana mai da hankali ne kan tantance nau'in ɗauri bisa ga kaddarorin jiki, ba kan bayyana ko nuna samuwar haɗin gwiwar ba.
+
+Zaɓi C ne kawai yake buƙatar ɗalibai su yi aiki na kafa/nuna kwayoyin halitta masu nau'ukan haɗi daban-daban, wanda ke dace da manufar ""bayyana kuma nuna samuwar.""
+
+C",True,12.646369399968535,2320,518,0
+B,B,True,3.042656100122258,1896,4,0
+C,"Bari in yi nazarin aikin Downs cell:
+
+A cikin Downs cell:
+- Ana amfani da narkakken NaCl (sodium chloride)
+- Ana raba shi ta hanyar electrolysis
+
+A cathode (electrode mai ƙarancin lantarki):
+- Ana rage sodium ions: Na⁺ + e⁻ → Na
+- Sodium ɗin ƙarfe yana taruwa a nan
+
+A anode (electrode mai yawan lantarki):
+- Ana oxidize chloride ions: 2Cl⁻ → Cl₂ + 2e⁻
+- Iskar chlorine tana fitowa a nan
+
+Bari in duba zaɓuɓɓuka:
+
+A. Ba daidai ba - Sodium yana taruwa a cathode, ba anode ba
+B. Ba daidai ba - Chlorine yana fitowa a anode, ba cathode ba
+C. Daidai - Chloride ions (masu ƙarancin lantarki) suna motsawa zuwa anode (mai yawan lantarki) inda ake oxidize su
+D. Ba cikakke ba - Sodium ions suna motsawa zuwa cathode, amma kalmar ""kwayoyin"" ba ta dace ba, kuma ""rage su"" ya kamata ya kasance ""a rage su""
+
+C",True,10.04329920001328,2098,339,0
+C,"Zan yi nazari akan wannan tambaya game da hujja ingantacciya ta kimiyya.
+
+Tambayar tana neman hujja ingantacciya ta kimiyya game da alaƙar masu zaƙi da lafiyar ɗan Adam.
+
+Bari in duba kowane zaɓi:
+
+A. Yana ambaton bincike-bincike a kan beraye da suka tabbatar da cewa saccharin yana haddasa ciwon daji na mafitsara. Wannan yana nuna bincike na kimiyya mai inganci.
+
+B. Yana ambaton kasancewar ""ɗigon zarra masu haɗari"" amma ba ya bayar da shaida ta kimiyya mai ƙarfi.
+
+C. Yana nuna alaƙa ta lokaci kawai (correlation) ba dalili da sakamako ba (causation). Cewa abu ya faru bayan wani abu ba ya nufin cewa abu na farko ya jawo na biyu.
+
+D. Yana ambaton ""iƙirarin"" kungiyoyin kariya, wanda ba hujja ta kimiyya ba ce amma kawai iƙirari.
+
+Zaɓi mafi inganci na kimiyya shine wanda ya dogara akan bincike mai ƙarfi da shaida.
+
+**A**",True,12.589909000089392,2262,341,0
+B,"Bari in duba wannan tambaya a hankali.
+
+Tsarin gwajin yana nuna:
+1. Ana amfani da mahadi biyu: formaldehyde (aldehyde) da acetone (ketone)
+2. Ana gwada su da Tollens' reagent - babu canjin da aka gani
+3. Ana gwada su da chromic acid
+
+Bisa ga ilimin kimiyya na mahadi masu carbonyl:
+- Tollens' reagent yakan gane aldehydes (kamar formaldehyde) yana samar da madubi na azurfa
+- Chromic acid yana gane duka aldehydes da ketones
+
+Amma a cikin wannan gwaji, Tollens' reagent bai nuna wani canji ba (mataki 3), wanda ke nufin ba a sami sakamakon da ake tsammani ba.
+
+Mataki na 4 yana nufin za a sake gwada da chromic acid.
+
+Idan chromic acid ya gane duka biyun (formaldehyde da acetone), wannan zai nuna cewa:
+- Chromic acid yana da ikon gane duka aldehydes da ketones (duka mahadi masu carbonyl)
+
+Amfani da tsarin amsa kamar misalan da aka bayar, inda ake neman amsoshin da suka fi dacewa da yanayin da aka bayyana:
+
+**C**",True,11.940684500150383,2248,354,0
+C,"D
+
+Kafin ɗalibai su iya lura da kuma bayyana canje-canjen da ke faruwa a cikin kayayyaki lokacin da aka yi amfani da karfi, haske, zafi, da ruwa, suna buƙatar fahimtar ainihin aikin waɗannan abubuwa a kan kayayyaki daban-daban. Wannan shine tushen ilimi da zai ba su damar gane da kuma bayyana canje-canjen da suke gani.",True,5.684605199843645,1852,132,0
+A,D,True,3.0338041000068188,1644,4,0
+A,"Bari in yi nazari a wannan tambayar.
+
+Malamar ta tambayi Mariana: ""Me ya sa kike tunanin ƙwarin masu naɗewa suke ɗaukar wannan matsayin?""
+
+Wannan tambayar tana neman Mariana ta:
+- Yi tunani game da dalilin da yake sa ƙwari suke zaune a wuraren da take nema
+- Bayyana dalilin da yake bayan halayen ƙwarin
+- Yi hasashe ko bayyana fahimtarta game da dalilin da yake sa ƙwari suke zaune a ƙarƙashin duwatsu, tsire-tsire, da ganye
+
+Wannan yana nufin ƙwarewar **Annawarta** - yin hasashe ko bayyana dalilai da ke bayan abin da ake gani.
+
+**A**",True,9.44318570010364,2021,232,0
+D,D,True,3.3104242000263184,1679,4,0
+D,D,True,2.639125899877399,1758,4,0
+C,"Bari in yi nazarin wannan tambaya a hankali.
+
+Tambayar tana neman wane aiki ne zai ba wa ɗalibai damar **bincikar babban dalilin ɗumamar yanayi**.
+
+Bari in duba kowane zaɓi:
+
+A. Baitaƙaita wata mujalla ta kimiyya game da illolin CFCs - Wannan yana magana ne kawai game da CFCs, ba babban dalilin ɗumamar yanayi ba (wanda shine CO2 da sauran iskar gas masu gurbata muhalli)
+
+B. Bincika wata makala ta kimiyya da ke ɗauke da bayanai game da yawan sinadarin CO2 a cikin yanayi daban-daban na shekara a birane daban-daban - Wannan yana ba da damar bincika CO2 wanda shine babban dalilin ɗumamar yanayi, kuma yana ba da bayanai daga wurare da lokuta daban-daban
+
+C. Ka taƙaita sakamakonni da ƙarshe-ƙarshen aikin tebur na digiri (thesis) kan ƙaruwar tattarawar CO2 a sararin samaniya - Wannan yana magana ne game da CO2, amma taƙaitawa kawai ba bincike ba
+
+D. Yi nazarin nazarin kimiyya wanda ke ɗauke da bayani dangane da tasirin juyawar zafi (thermal inversion) a kan tattarawar iskar gas masu gurbata muhalli - Wannan yana magana ne game da juyawar zafi, ba babban dalilin ɗumamar yanayi kai tsaye ba
+
+Zaɓin B yana ba da damar bincike na ainihi na CO2 (babban dalilin ɗumamar yanayi) ta amfani da bayanai daga wurare da lokuta daban-daban.
+
+B",True,11.458490800112486,2262,511,0
+C,"C
+
+Aikin da malamin ya gabatar shine ɗalibai su shirya tare da gudanar da muhawara kan matakan kariya don warware matsalar gurbatar muhalli. Muhawara tana buƙatar bayyana ra'ayoyi daban-daban, jayayya, da kuma tattaunawa kan amfanoni da illoli na mafita daban-daban.
+
+Zaɓi C yana daidai da wannan manufa domin:
+- Yana haɗa da jayayya (wanda yake jigon muhawara)
+- Yana mai da hankali kan matakan kariya/mafita (kamar yadda malamin ya nema)
+- Yana buƙatar tantance amfanoni da illoli (wanda ke haɓaka tunani mai zurfi da ƙwarewar muhawara)
+
+C",True,8.753922899952158,2082,220,0
+B,B,True,3.0671697999350727,1714,4,0
+B,"Bari in duba manufar koyo da aka bayyana: ""Bayyana dangantakar dake tsakanin aikin kwayar halitta da sassan ta.""
+
+Wannan manufa tana neman ɗalibai su fahimci yadda sassan kwayar halitta (kamar nucleus, mitochondria, chloroplast, da sauransu) ke da alaƙa da ayyukan da suke gudanarwa.
+
+Bari in tantance kowane zaɓi:
+
+A. Siffanta tantanin halitta a matsayin ginshiƙin tsarin rayayyun halittu - Wannan yana magana ne kawai game da mahimmancin kwayar halitta, ba dangantakar sassan ta da ayyukanta ba.
+
+B. Kwatanta gabobin halitta da tsarin salula da ke bayyane a nau'o'in salula daban-daban - Wannan yana kwatanta gabobin halitta da tsarin salula, amma ba dangantakar sassan kwayar halitta da ayyukanta ba.
+
+C. Siffanta halayen tsare-tsaren da ke wanzu a cikin ƙwayar halitta ta prokaryotic da ƙwayar halitta ta eukaryotic - Wannan yana bambanta nau'o'in ƙwayoyin halitta, ba dangantakar sassan da ayyukan ba.
+
+D. Danganta sassa daban-daban na kwayar halitta da gudunmawar masana kimiyya - Wannan yana magana ne game da tarihin kimiyya, ba dangantakar sassan da ayyukan ba.
+
+Babu ɗaya daga cikin zaɓukan da ya dace da kyau, amma zaɓi B yana mafi kusa saboda yana ambaci ""tsarin salula"" wanda zai iya haɗawa da ayyukan sassan, ko da yake ba a faɗi a sarari ba.
+
+B",True,11.675299199996516,2281,511,0
+A,"Bari in yi nazari kan wannan tambaya a hankali.
+
+Tambayar tana tambayar waɗanne ƙwarewar kimiyya da abubuwan fanni daliban za su yi aiki a kai da wannan aikin.
+
+Bari in duba tsarin aikin:
+1. Zaɓar masu ba da kai guda uku da za su sha abubuwa daban-daban (ruwa, abin sha mai daidaita jiki, ko babu komai)
+2. Tattara fitsari a lokuta daban-daban
+3. Auna adadin fitsari da nauyinsa
+4. Yi nazari kan abubuwan da ke cikin jini/fitsari
+
+Wannan tsari yana nuna:
+- Akwai **masu canji** (variables): Nau'in abin sha (ruwa, isotonic, ko babu komai) shine mai canji mai zaman kansa (independent variable)
+- Ana **sarrafa** waɗannan masu canji ta hanyar zaɓar mutane daban-daban don sha abubuwa daban-daban
+- Ana **auna tasirin** waɗannan masu canji a kan sakamakon (adadin fitsari, nauyinsa, abubuwan da ke ciki)
+- Manufar ita ce **gano tasirin** nau'in abin sha a kan ma'aunin electrolytes a cikin fitsari
+
+Wannan shine misali na gwaji mai sarrafa masu canji (controlled experiment) inda ake gwada tasirin abu ɗaya (nau'in abin sha) akan wani abu (ma'aunin electrolytes a cikin fitsari).
+
+**D**",True,13.23084200010635,2331,432,0
+B,B,True,2.4424107999075204,1701,4,0
+B,"Looking at this question, the teacher had students:
+1. Make mathematical predictions about mixing water at 60°C and 20°C
+2. Conduct the actual experiment
+3. Observe that the actual temperature was LOWER than their mathematical calculation predicted
+4. Then asked them to provide arguments for WHY this happened and show the assumptions they made in their calculations
+
+The key here is that the teacher is asking students to explain the DISCREPANCY between their mathematical model and reality by examining their ASSUMPTIONS.
+
+Let me analyze each option:
+
+A. Finding calculation errors - This focuses on mathematical mistakes, but the question indicates the issue is that reality differs from the model, not that the math was wrong.
+
+B. Investigating the limitations of the model used for calculations - This directly addresses examining why their mathematical model (which was based on certain assumptions) didn't match reality. This is about understanding that models have limitations and assumptions.
+
+C. Finding procedural errors in the experiment - This would be looking for mistakes in how they did the experiment, but the teacher is asking them to examine their calculation assumptions.
+
+D. Building a new experimental method to get data that better matches theory - This misses the point; the goal is to understand WHY there's a difference, not to force the data to match.
+
+The teacher specifically asked students to ""show the assumptions they made during calculations"" - this is clearly about examining the limitations of their mathematical model.
+
+**B**",True,11.743574100080878,2246,308,0
+C,C,True,2.4576699000317603,1912,4,0
+C,"Bari in yi nazari a hankali kan wannan tambaya.
+
+Tambayar tana tambayar wane ra'ayi na kuskure ne ya bayyana a amsar ɗalibin game da dalilin da ya sa DDT ya daina yin tasiri a kan kwari.
+
+Amsar ɗalibin ta ce: ""Bayan wani lokaci mai tsawo na fuskantar DDT, kwarin sun samar da kariya wadda ta ba su damar su da zuriyarsu su zama marasa kamuwa da wannan maganin kwari.""
+
+Wannan amsa tana nuna cewa kwarin sun ""samar da kariya"" a matsayin martani ga fuskantar DDT - kamar dai halittun suna iya sauya kansu da gangan don su dace da yanayi.
+
+Bari in duba zaɓuɓɓukan:
+
+A. Yana magana ne akan zaɓi na halitta - waɗanda ke da halaye masu fa'ida suna rayuwa. Wannan daidai ne.
+
+B. Yana magana ne akan waɗanda suka riga suka samu sauye-sauye masu fa'ida suna isar da su ga 'ya'yansu. Wannan daidai ne.
+
+C. Yana cewa halittu ""dole ne su samar da sifofi ko matakai"" don su dace - wannan yana nuna cewa halittu suna samar da sauye-sauye da gangan don dacewa. Wannan KUSKURE ne. Sauye-sauye suna faruwa bazuwar, ba da gangan ba.
+
+D. Yana bayyana tsarin zaɓi na halitta inda waɗanda ba su da bambance-bambance masu amfani suna mutuwa. Wannan daidai ne.
+
+Amsar ɗalibin ta nuna cewa kwarin sun ""samar da kariya"" da gangan, wanda yake daidai da zaɓi C wanda ya ce halittu ""dole ne su samar da sifofi.""
+
+**C**",True,14.963048700010404,2473,533,0
+B,"Don cimma manufar koyo ta ""Fahimtar cewa akwai hanyoyin da ke ba da damar kiyaye bayanan kwayoyin halitta,"" muna buƙatar tsarin koyo daga gaba ɗaya zuwa takamaiman bayani.
+
+Bari mu duba tsarin da ya dace:
+
+1. Da farko, ya kamata mu fara da **tsarin abubuwan kwayoyin halitta a cikin kwayar halitta (4)** - wannan shine tushen gaba ɗaya
+
+2. Sa'an nan **lokacin hutun kwayar halitta da rarrabuwar kwayar halitta (3)** - tsarin gabaɗaya na rarrabuwar kwayar halitta
+
+3. Sa'an nan **ma'ajizan sarrafa rarrabuwar kwayar halitta (5)** - yadda ake sarrafa tsarin
+
+4. Sa'an nan **hayewa/Crossing-over (1)** - hanya ta musamman ta kiyaye bambancin kwayoyin halitta
+
+5. A ƙarshe **juyawar kwayoyin halitta (2)** - wata hanya ta musamman ta kiyaye bambancin
+
+Wannan tsari yana tafiya daga:
+- Tsarin gaba ɗaya (4)
+- Zuwa tsarin rarrabuwar kwayar halitta (3)
+- Zuwa sarrafa tsarin (5)
+- Zuwa hanyoyi na musamman na kiyaye bambanci (1, 2)
+
+**B**",True,11.040829400066286,2288,404,0
+C,C,True,3.1712718000635505,1867,4,0
+B,"Bari in duba wannan tambaya a hankali.
+
+Ana tambayar game da iyakancewar aikin koyarwa game da wutar lantarki na abubuwa.
+
+Bari in duba tsarin aikin:
+1. Ɗalibai sun gudanar da gwaje-gwaje don gano asalin wutar lantarki
+2. Tattaunawa game da asalin wutar lantarki
+3. An shirya ɗalibai zuwa ƙungiyoyi da kayan aiki
+4. Umurnin yin gwaji (shafa balan-balan da mizani, kusantar da ƙananan abubuwa)
+5. Sharhi da rubuta abin da aka gani
+6. Haɓaka bayanan da aka yarda da su game da asalin wutar lantarki
+
+Ana neman iyakancewar wannan tsari:
+
+A. Ba a yi magana a kan abun ciki na halaye ba - A'a, an yi magana a kan asalin wutar lantarki
+B. Abun ciki na ra'ayi da aka yi aiki a kansa ba a tsara shi ba - A'a, an tsara shi sosai
+C. Ba a bunƙasa dabarun tunani na kimiyya ba - A'a, akwai lura, sharhi, da kammala bayanan
+D. Kallace-kallace ba su da alaƙa da abubuwan da suka gabata - I, ga matsala: a matakin 1, ɗalibai sun riga sun yi gwaje-gwaje don ""gano"" asalin wutar lantarki, amma a matakin 4-5 ana sake ba su gwaji don su yi lura. Wannan yana nuna rashin jituwa a tsarin koyarwa.
+
+**D**",True,12.428475300082937,2461,465,0
+C,"Bari in duba wannan tambaya a hankali.
+
+Matsalar tana nuna cewa ɗalibai sun samu:
+- A daƙiƙa 5: x = 100 mita
+- A daƙiƙa 6: x = 85 mita
+
+Wannan yana nuna cewa abin ya koma baya (daga mita 100 zuwa mita 85), amma ɗalibai ba su gane wannan ba. Sun ɗauki lambobin kawai ba tare da tunani game da abin da suke nufi ba a zahiri.
+
+Matsalar ba ta kasance game da:
+- A: Karanta bayanan (sun iya karanta lissafin)
+- B: Amfani da lissafi (sun iya ƙididdige lambobin daidai)
+- D: Fasahar lissafi (sun sami lambobin daidai)
+
+Matsalar ita ce: Ba su yi tunani game da ma'anar sakamakon ba. Ba su tambaye kansu ba: ""Shin yana ma'ana abin ya koma baya?"" Wannan shine rashin tunani na inganci (qualitative thinking) game da sakamakon lambobi.
+
+C",True,10.668603800004348,2228,316,0
+C,"Bari in duba wannan tambaya a hankali.
+
+Muna neman jerin ci gaba daga ra'ayoyin yau da kullum (mafi sauƙi) zuwa ga waɗanda suka fi ma'ana (mafi ƙarfi a kimiyya).
+
+Bari mu duba ayyukan:
+1. Ƙididdige zafin da wani abu ya karɓa
+2. Auna da kwatanta zafin abubuwan guda biyu
+3. Tantance inda zafi ke gudana tsakanin abubuwan guda biyu
+4. Ƙididdige ƙarfin zafi na abubuwan
+
+Jerin ci gaba ya kamata ya kasance:
+- Farawa da abin da yake sauƙi/na yau da kullum: **Auna da kwatanta zafin** (2) - wannan shine abin da kowa zai iya yi
+- Sa'an nan: **Tantance inda zafi ke gudana** (3) - wannan yana nuna fahimta
+- Sa'an nan: **Ƙididdige zafin da aka karɓa** (1) - wannan yana buƙatar ƙarin ilimi
+- A ƙarshe: **Ƙididdige ƙarfin zafi** (4) - wannan shine mafi ƙarfi/ma'ana a kimiyya
+
+Don haka jerin shine: 2 - 3 - 1 - 4
+
+Wannan shine zaɓi C.
+
+**C**",True,10.565641900058836,2213,405,0
+D,D,True,2.5471527001354843,1696,4,0
+D,A,True,3.8413666000124067,1835,4,0
+C,C,True,2.9458286000881344,1987,4,0
+A,B,True,3.3403024999424815,1767,4,0
+A,"Bari in yi nazari a kan wannan tambaya.
+
+Tambayar tana game da aiki inda dalibai ke gina samfuri don wakiltar tsarin Duniya da Wata kuma su kwaikwayi kusufin rana ta amfani da hasken majigi. Ana neman sanin wane aiki zai ba su damar kimanta fahimtar su game da tsarin da ke haifar da kusufin rana.
+
+Kusufin rana yana faruwa ne lokacin da Wata ya shiga tsakanin Rana da Duniya, yana jefa inuwarsa a kan Duniya. Don fahimtar wannan:
+
+A. Suna nuna cewa Duniya, Wata, da Rana sun yi layi, suna samar da inuwa a kan Duniya - Wannan yana nuna jeri na abubuwa amma bai bayyana ainihin tsarin kusufin rana ba
+
+B. Suna bayyana cewa kusufin rana yana faruwa ne a lokacin da wata ya jefa inuwarsa a saman duniya - Wannan yana bayyana ainihin tsarin da ke haifar da kusufin rana
+
+C. Suna kwaikwayon motsin duniyar Wata a kewayen duniya a cikin tsawon wata ɗaya cikakke - Wannan game da motsi ne, ba kusufin rana ba
+
+D. Suna gina samfuri inda nisan dake tsakanin Duniya da Wata da kuma girmansu an nuna su a sikelin ma'auni guda ɗaya - Wannan game da sikeli ne, ba fahimtar kusufin rana ba
+
+Zabin B yana nuna fahimtar ainihin tsarin da ke haifar da kusufin rana.
+
+B",True,10.924704300006852,2263,460,0
+D,D,True,3.776710700010881,1948,4,0
+D,D,True,2.827920699957758,1693,4,0
+A,"Bari in duba wannan tambaya a hankali.
+
+Tambayar tana magana ne game da ɗaliban da suka yi hasashen cewa NaCl da NaHCO3 suna da narkewa iri ɗaya a cikin ruwa saboda dukkansu suna rabuwa zuwa Na+ da anion. Amma bayan gwaji, sun gano cewa ba su da narkewa iri ɗaya.
+
+Kuskuren fahimtar ɗaliban shine: sun yi tsammani cewa saboda dukkan gishirin biyu suna rabuwa zuwa ions (kamar yadda ma'aunin ya nuna), to sai su kasance suna da narkewa iri ɗaya.
+
+Ainihin gaskiyar ita ce: narkewa ba kawai ya dogara kan rabuwa zuwa ions ba, amma yana dogara da yawa akan hulɗar kwayoyin halitta tsakanin abin da ake narkar da shi (solute - gishirin) da abin da ake amfani da shi wajen narkarwa (solvent - ruwa). Ions daban-daban (Cl− da HCO3−) suna da hulɗa daban-daban da ruwa, wanda ke haifar da bambancin narkewa.
+
+Zaɓi D yana bayyana wannan: ""Ya dogara ne ga hulɗar kwayoyin halitta tsakanin abin narke da abin narkarwa""
+
+D",True,12.098334199981764,2255,382,0
+C,"Bari in yi nazari kan wannan tambaya game da kuskuren gama gari na ɗalibai game da yanayin kasancewar kai tsare a cikin matakan ilimin kimiyyar zafin jiki.
+
+Ina neman maganar da take KUSKURE ne gama gari:
+
+A. Ɗalibai sun yarda cewa ƙaruwar entropy tana tallafawa kai-tsaye - Wannan KUSKURE ne. A gaskiya, ƙaruwar entropy tana nuna cewa tsari ba zai iya zama kai-tsaye ba (irreversible ne).
+
+B. Ɗalibai sun tabbatar cewa hanyoyi masu faruwa da kansu za su iya zama masu fitar da zafi - Wannan KUSKURE ne. Hanyoyin da suke faruwa da kansu (spontaneous) ba lallai ba ne su fitar da zafi; wasu suna ɗaukar zafi (endothermic).
+
+C. Ɗalibai suna ganin cewa tafiyar matakai marasa buƙatar gaggawa suna da saurin motsi - Wannan KUSKURE ne. Matakai masu juyawa (reversible) suna faruwa a hankali sosai, ba da sauri ba.
+
+D. Ɗalibai na ɗauka cewa matakai masu faruwa ba zato ba tsammani sun dogara ne ga zafi da tarwatsewar kuzari - Wannan daidai ne don matakai marasa juyawa (irreversible).
+
+Zaɓi mafi dacewa da kuskuren gama gari shine:
+
+**A**",True,10.942694700090215,2148,432,0
+C,C,True,2.4595484000165015,1731,4,0
+C,"Bari in duba wannan tambaya a hankali.
+
+Aikin da aka bayyana yana nuna:
+- Narkar da abubuwa daban-daban (gishiri, sukar, bicarbonate, mai, barasa) a cikin ruwa
+- Lura da cewa wasu suna narkewa gaba ɗaya, wasu wani ɓangare, wasu ba su narkewa
+- Bayyana dalilin bambance-bambancen narkewar
+
+Bari in duba zaɓuɓɓuka:
+
+A. Gwada narkewar abubuwa masu polar da marasa polar a cikin narke-narke daban-daban - Aikin yana amfani da ruwa kawai a matsayin mai narke, ba narke-narke daban-daban ba
+
+B. Bayyana halayen abubuwa a cikin mai narke mara polar - Ruwa mai narke ne mai polar, ba mara polar ba
+
+C. Danganta mu'amalolin tsakanin kwayoyin halitta da narkewar kayan abubuwa daban-daban a cikin ruwa - Wannan ya dace sosai. Aikin yana nuna yadda abubuwa daban-daban (polar kamar gishiri da sukar, da marasa polar kamar mai) suke narkewa ko rashin narkewa a cikin ruwa saboda mu'amalar kwayoyin halittarsu
+
+D. Rarraba tasirin juna na kwayoyin halitta bisa ga narkewarsu - Wannan ya fi kunkuntar manufa
+
+Amsar da ta fi dacewa ita ce C saboda tana danganta tsarin kwayoyin halitta (polar/non-polar interactions) da abin da ake gani a aikace (narkewar daban-daban a cikin ruwa).
+
+C",True,12.429959299974144,2361,467,0
+D,D,True,2.617096900008619,1806,4,0
+B,B,True,2.760717500001192,1752,4,0
+C,"Looking at this question, I need to determine which conclusion students can appropriately draw from the experiment described.
+
+The experiment setup:
+- 3 identical cups with same soil and same type of seeds
+- All placed on classroom window (same light conditions)
+- Only variable changed: watering frequency
+  - Plant 1: once per day
+  - Plant 2: once per week  
+  - Plant 3: twice per week
+- Students observe and record what happens
+
+The key phrase is ""dangane da abin da ke canzawa"" (regarding what is being changed/varied). The only variable being changed in this experiment is the amount/frequency of water.
+
+Let me analyze each option:
+
+A. ""Relating light and water that plants need to survive"" - Light is NOT being varied in this experiment, so this conclusion wouldn't be appropriate.
+
+B. ""Discovering the nutrients that water provides for plant growth"" - This goes beyond what the experiment tests; it's about frequency/amount, not nutrient content.
+
+C. ""Determining the amount of water that plants need for their development"" - This directly relates to the variable being changed (water frequency/amount) and what can be observed from the different watering schedules.
+
+D. ""Explaining the function of roots in consuming water that plants need"" - The experiment doesn't specifically investigate root function.
+
+The experiment is designed to show the effect of different watering amounts on plant growth, which directly allows students to determine water requirements.
+
+C",True,11.64722859999165,2298,323,0
+C,C,True,3.1728967998642474,1804,4,0
+B,"Bari in yi nazari a hankali kan wannan tambaya.
+
+Manufar koyo ita ce: ""Gane cewa zafi yana gudana daga wani abu mai zafin jiki mafi girma zuwa wani mai zafin jiki mafi ƙaranci""
+
+Matsalar da ɗalibai suke da ita: Suna tunanin cewa tufafi na ""hana shigar sanyi"" maimakon fahimtar cewa zafi yana gudana daga jiki mai zafi zuwa wanda ba shi da zafi.
+
+Bari in duba kowane zaɓi:
+
+A. Taɓa abubuwa daban-daban (katako, ƙarfe, filastik) - Wannan yana nuna bambancin yadda abubuwa ke gudanar da zafi, amma ba ya nuna kai tsaye yadda zafi ke gudana daga abu mai zafi zuwa wanda ba shi da zafi.
+
+B. Zubar zafi tsakanin kofuna biyu na ruwa a yanayi daban-daban, yana nuna abin da ke faruwa lokacin da aka rufe ɗaya da safar ulu - Wannan yana nuna kai tsaye yadda zafi ke gudana tsakanin abubuwa biyu masu zafin jiki daban-daban, kuma yana nuna yadda rufewa ke rage wannan gudun.
+
+C. Sanya kofuna uku a wurare daban-daban (rana, kusa da mai ƙonawa, kusa da ruwan zafi) - Wannan yana nuna yadda zafi ke shiga ruwa daga wurare daban-daban.
+
+D. Sanya ƙarfe da allumin a wuta - Wannan yana nuna bambancin yadda kayan ƙarfe ke gudanar da zafi.
+
+Zaɓi B shine mafi dacewa domin yana nuna kai tsaye manufar: zafi yana gudana daga abu mai zafi zuwa wanda ba shi da zafi, kuma yana nuna yadda rufewa ke rage wannan gudun (ba ""hana shigar sanyi"" ba).
+
+B",True,14.511292799841613,2670,557,0
+D,D,True,3.3541257998440415,2209,4,0
+A,B,True,2.518897600006312,1674,4,0
+D,"Looking at this question, I need to identify what misconception the students are showing when they say aluminum has 27 electrons, 13 protons, and 14 neutrons.
+
+Given information:
+- Mass number = 27
+- Atomic number = 13
+- Neutral aluminum atom
+
+Correct answer should be:
+- Protons = 13 (atomic number)
+- Electrons = 13 (same as protons in neutral atom)
+- Neutrons = 27 - 13 = 14 (mass number - atomic number)
+
+Student answer:
+- Electrons = 27
+- Protons = 13
+- Neutrons = 14
+
+The students correctly identified protons (13) and neutrons (14), but incorrectly said electrons = 27.
+
+They confused the mass number (27) with the number of electrons. This shows they don't understand that in a neutral atom, the atomic number equals the number of protons AND the number of electrons.
+
+Looking at the options:
+- A talks about electrons equaling protons + neutrons (not what they did)
+- B says they don't understand that atomic number equals the number of positive charges (protons), which would also equal electrons in a neutral atom
+- C talks about mass number equaling positive and negative charges
+- D talks about mass number equaling particles in the nucleus
+
+The key misconception is that students didn't recognize that the atomic number (13) represents both the number of protons AND electrons in a neutral atom.
+
+**B**",True,9.00558070000261,2182,340,0
+D,D,True,3.1916547999717295,1647,4,0
+D,D,True,2.7491365000605583,1777,4,0
+B,B,True,2.7813084998633713,2084,4,0
+D,D,True,2.4205285001080483,1834,4,0
+B,B,True,3.4414906001184136,1741,4,0
+A,"Bari in duba wannan tambaya a hankali.
+
+Manufar gwajin shine nuna hanyoyin safara mara kuzari (passive transport) na abubuwa masu narkewa (solutes) da abubuwan narke su (solvents) ta cikin bargo.
+
+Bari in tantance tsarin:
+1. Jaka mai izinin wucewa tana ɗauke da narkarar sukari mai kauri
+2. An sa ta a cikin akwati mai ɗauke da narkarar sukari mai ƙarancin kauri
+3. Ana lura da abin da zai faru
+
+A cikin yanayin safara mara kuzari:
+- **Osmosis**: Ruwa (solvent) yana motsawa daga wurin da yake da yawa zuwa wurin da yake da ƙaranci (daga akwati zuwa jaka)
+- **Diffusion**: Sukari (solute) yana motsawa daga wurin da yake da yawa zuwa wurin da yake da ƙaranci (daga jaka zuwa akwati)
+
+Bari in duba zaɓuɓɓuka:
+
+A. ""Tsarin samfurin bai ƙyale a nuna motsi na abu mai narkewa ba"" - Ba daidai ba ne, sukari zai iya motsawa ta jakar mai izinin wucewa
+
+B. ""Samfurin kawai yana ba da damar motsin ruwa"" - Wannan yana nuna osmosis kawai, amma ba diffusion na sukari ba
+
+C. ""Samfurin baya nuna motsin ruwa bisa bambancin taro"" - Ba daidai ba ne, ruwa zai motsa bisa bambancin taro (osmosis)
+
+D. ""Samfurin ba ya ba da damar wakiltar motsin ƙwayoyi gaba da mizanin tarawa"" - Wannan ba shi da ma'ana sosai
+
+Zaɓi mafi dacewa shine **B** - domin samfurin zai nuna osmosis (motsin ruwa) fili, amma ba zai nuna diffusion na sukari sosai ba.
+
+**B**",True,13.05305440002121,2353,546,0
+A,A,True,2.999488500179723,1886,4,0
+A,"Bari in duba kowane zaɓi don ganin wanne ya fi nuna kasancewar kimiyya da fasaha a rayuwar yau da kullum kai tsaye:
+
+A. Binciken tauraron ɗan adam da amfaninsu don tsarin gano wuri - Wannan yana nuna amfani a rayuwar yau da kullum (tsarin gano wuri/GPS)
+
+B. Amfani da kalanda don gano matakan Wata - Wannan aiki ne na nazari kawai, ba ya nuna amfani kai tsaye a rayuwa
+
+C. Karanta game da Galileo da tarihinsa - Wannan tarihi ne kawai, ba amfani na yau da kullum ba
+
+D. Kallon bidiyo game da Rosetta da tattaunawa - Wannan aiki ne na ilimi kawai, ba ya nuna amfani kai tsaye a rayuwar yau da kullum
+
+Zaɓi A yana nuna yadda kimiyya da fasaha (tauraron ɗan adam) ke aiki a rayuwar yau da kullum ta hanyar tsarin gano wuri wanda mutane ke amfani da shi kullum.
+
+A",True,8.608867699978873,2236,302,0
+C,"Bari in duba wannan tambaya a hankali.
+
+Manufar darasi ita ce: ""Nazari da fassara bayanai kan gogayya tsakanin abubuwa""
+
+Ina neman aikin da:
+1. Ya ba ɗalibai damar nazari da bayanai
+2. Ya ba su damar fassara bayanai
+3. Ya shafi gogayya/karo tsakanin abubuwa
+4. Ya yi daidai da dabarun koyarwa na bunkasa ƙwarewar kimiyya
+
+Bari in duba kowane zaɓi:
+
+A. Yi lissafin ɗan-gau-gau - Wannan lissafi ne kawai, ba nazari da fassara ba
+
+B. Gudanar da bincike - Wannan ya haɗa da nazari da fassara bayanai daga binciken da aka gudanar, yana bai wa ɗalibai damar aiki da bayanai kai tsaye
+
+C. Ɗauki ƙarshe bisa ga ma'auni - Wannan ya fi kama da amfani da bayanai da aka riga aka bayar, ba nazari da fassara ba
+
+D. Bayanin arangamolin - Wannan bayani ne kawai na abin da suka gani, ba nazari da fassara bayanai ba
+
+Zaɓi B yana ba ɗalibai damar:
+- Gudanar da bincike (aikin kimiyya)
+- Tattara bayanai
+- Nazari da fassara bayanai
+- Bunkasa ƙwarewar kimiyya
+
+B",True,12.071150799980387,2198,422,0
+B,"Bari in yi nazari a hankali game da wannan tambaya.
+
+Ra'ayin kuskure da ɗalibai ke da shi shine: ""idan wutar lantarki ta ratsa ta cikin na'urorin lantarki daban-daban, sai ta ƙare.""
+
+Don kalubalanci wannan ra'ayin kuskure, muna buƙatar gwaji wanda zai nuna cewa wutar lantarki ba ta ƙare ba bayan ta ratsa na'urori.
+
+Bari in duba zaɓuɓɓuka:
+
+A. Fitiloli biyu daban-daban a jere - Wannan zai nuna bambanci a hasken, amma ba zai kalubalanci ra'ayin cewa wutar ta ""ƙare"" ba sosai.
+
+B. Fitiloli biyu iri ɗaya a jere - Wannan zai nuna cewa duka fitilolin suna haskakawa, wanda ke nuna cewa wutar lantarki tana ci gaba da gudana ta cikin na'urorin biyu. Wannan yana kalubalanci ra'ayin cewa wutar ta ""ƙare"" bayan na'ura ta farko.
+
+C. Fitiloli biyu daban-daban a layi ɗaya (parallel) - A haɗin parallel, wutar lantarki tana raba, ba ta ratsa ta cikin ɗaya zuwa wancan ba.
+
+D. Fitiloli biyu iri ɗaya a layi ɗaya (parallel) - Haka ma, a haɗin parallel, wutar lantarki tana raba.
+
+Haɗin jere (series) shine mafi dacewa don nuna cewa wutar lantarki tana ci gaba da gudana ta cikin na'urorin daban-daban ba tare da ""ƙarewa"" ba. Fitiloli biyu iri ɗaya sun fi dacewa don nuna cewa duka suna aiki daidai.
+
+**B**",True,15.542793800123036,2394,523,0
+B,"Bari in yi nazari kan wannan tambaya.
+
+Manufar darasi ita ce: baiwa ɗalibai damar **kwatanta girma da nisan da ke tsakanin Rana da taurarru masu bin ta, bisa ma'auni madaidaici**.
+
+Mahimman abubuwa:
+- Kwatanta girma da nisa
+- Bisa ma'auni madaidaici (scale model)
+
+Bari in duba zaɓuɓɓuka:
+
+A. Kiram fasalin rana da duniyoyi - Wannan zai iya nuna ma'auni amma ba a fayyace ba
+
+B. Samfurin dijital gwargwado na Rana da taurari - ""Gwargwado"" yana nufin cikakke/ainihi, amma ba lallai ba ne ya kasance bisa ma'auni madaidaici
+
+C. Tebur mai ɗauke da bayanai - Wannan kawai bayanai ne, ba kayan koyarwa mai nuna ma'auni ba
+
+D. Sallan tsarin rana tare da bayanai kan girma da nisan duniyoyin zuwa ga Rana - Sallan (hoton/zane) tare da bayanai zai iya nuna ma'auni madaidaici kuma yana baiwa ɗalibai damar kwatanta girma da nisa
+
+Idan aka yi la'akari da tsarin tambayoyin da suka gabata, amsoshin da suka dace sun kasance waɗanda suka fi dacewa da manufar da aka bayyana.
+
+Zaɓi D ya fi dacewa domin yana haɗa hoto/zane (wanda zai iya kasancewa bisa ma'auni) tare da bayanai masu ƙarfi akan girma da nisa.
+
+**D**",True,12.746776800137013,2231,479,0
+A,A,True,2.6346416000742465,1814,4,0
+D,"Bari in duba wannan tambaya a hankali.
+
+Manufar darasin ita ce: dalibai su yi amfani da tunanin yawa (density) yayin da suke kwatanta jiki da abubuwa daban-daban.
+
+Bayan aikin farko na gabatar da tunanin yawa, muna neman aikin da zai baiwa dalibai damar **yi amfani da** wannan tunani wajen **kwatanta** jikuna da abubuwa daban-daban.
+
+Bari mu duba zaɓuɓɓuka:
+
+A. Yi hasashen abin da zai faru idan aka zuba ruwa uku marasa haɗuwa a cikin silinda - Wannan yana buƙatar amfani da tunanin yawa don kwatanta ruwa daban-daban da bayyana matsayinsu. Yana dace da manufar.
+
+B. Ƙaddara yawan wani ruwa ta hanyar gwaji - Wannan yana ƙididdige yawa amma ba ya kai ga kwatanta jikuna daban-daban.
+
+C. Fada yadda narkar da kankara ke shafar matakin teku - Wannan yana amfani da yawa amma a yanayi takamaiman, ba kwatanta jikuna daban-daban ba.
+
+D. Bayyana dangantakar kauri ta fuskar inganci da adadi - Wannan yana bayyana manufar yawa kanta, ba amfani da shi don kwatanta ba.
+
+Zaɓi A ya fi dacewa domin yana buƙatar dalibai su **yi amfani da** tunanin yawa don **kwatanta** ruwa uku daban-daban da bayyana matsayinsu.
+
+**A**",True,11.615328999934718,2360,456,0
+D,D,True,2.4808520001824945,1979,4,0
+A,D,True,2.4101120000705123,1728,4,0
+B,"Ka'idar Archimedes ta bayyana cewa ƙarfin da ke aiki a kan wani jiki da aka tsunduma cikin ruwa yana daidai da nauyin ruwan da jikin ya kore, kuma wannan ƙarfin ba ya dogara da zurfin da aka nutsar da jikin, amma ya dogara da ƙarar ruwan da aka kore.
+
+Bari mu duba zaɓuɓɓukan:
+
+A. Matsin iska yana shafar matsin ruwa, amma wannan ba shine ainihin Ka'idar Archimedes ba
+
+B. Zurfin da aka nutsar da abu yana tasiri ga ƙarar ruwan da aka kore (wanda ke ƙayyade ƙarfin), amma ba kai tsaye ga ""jimillar ƙarfin"" ba - ƙarfin yana dogara da ƙarar ruwan da aka kore kawai, ba zurfin ba
+
+C. Wannan shine kuskure kai tsaye - matsewar (buoyant force) BA TA DOGARA da zurfin ba, sai dai ƙarar ruwan da aka kore. Wannan tsammani yana saba wa Ka'idar Archimedes kai tsaye.
+
+D. Matsin ruwa (hydrostatic pressure) yana dogara da zurfin, amma wannan ba shine Ka'idar Archimedes ba
+
+Amsar da ta fi dacewa ita ce **C** domin tana nuna kuskure kai tsaye game da Ka'idar Archimedes - tunanin cewa ƙarfin yana dogara da zurfin, alhali kuwa yana dogara da ƙarar ruwan da aka kore kawai.
+
+C",True,12.788843399845064,2162,446,0
+B,D,True,3.096986799966544,1766,4,0
+A,"Bari in duba wannan tambaya a hankali.
+
+Alamar tantancewa ita ce: ""Suna amfani da dangantarar lissafi da ke bayyana motsi mai zagaye iri ɗaya don warware matsaloli daban-daban""
+
+Wannan yana nufin cewa ɗalibai sun iya ɗaukar dangantaka ɗaya ta lissafi kuma su yi amfani da ita wajen warware matsaloli daban-daban.
+
+Bari in duba kowane zaɓi:
+
+A. Lissafa matsakaicin gudun kusurwa - Wannan matsala ɗaya ce kawai ta takamaiman yanayi
+B. Ƙayyade sau nawa juyawa da digiri - Wannan game da juyawa ne, ba amfani da dangantaka ɗaya don matsaloli daban-daban ba
+C. Nemi gudun layin tauraro mai wutsiya - Wannan yana buƙatar amfani da ka'idar kiyaye angular momentum (wata daidaitacciyar dangantaka) don warware yanayi daban-daban (nisa daban-daban daga Rana)
+D. Bayyana daidaito - Wannan kawai bayanin dangantaka ne, ba amfani da ita don warware matsaloli daban-daban ba
+
+Zaɓi C yana nuna amfani da dangantaka ɗaya (kiyaye angular momentum: $L = mvr = \text{tsayayye}$) don warware yanayi daban-daban.
+
+C",True,11.213632799917832,2265,414,0
+B,"Bari in duba wannan tambaya a hankali.
+
+Manufar koyo ita ce: ɗalibai su danganta canje-canjen da ke faruwa a cikin ƙwayoyin zarra masu aiki da rediyo da daidaitonsu.
+
+Wannan yana nufin ɗalibai sun fahimci:
+- Menene canje-canjen da ke faruwa a cikin ƙwayoyin zarra masu rediyo
+- Yadda waɗannan canje-canje ke haifar da daidaito
+
+Bari mu duba zaɓuɓɓuka:
+
+A. Wakiltar fitarwar nukilid a cikin jerin ruɓewa - Wannan yana nuna ainihin canje-canjen da ke faruwa (fitarwar nukilid) da yadda suke haifar da daidaito (jerin ruɓewa)
+
+B. Ƙayyade nau'in fitarwa daga taswirar zirin tsayuwa - Wannan game da gano nau'in fitarwa ne kawai, ba dangantawa da daidaito ba
+
+C. Binciki ƙarfin turawa da jan juna - Wannan game da ƙarfukan nukiliya ne, ba kai tsaye game da canje-canjen rediyo da daidaito ba
+
+D. Shirya tebur na taƙaitawa - Wannan game da tattarawa ne kawai, ba aiwatar da dangantawa ba
+
+Zaɓi A yana ba da damar ɗalibai su wakilci ainihin canje-canjen (fitarwar nukilid) da su ga yadda suke kai ga daidaito (ta hanyar jerin ruɓewa).
+
+A",True,11.388487600022927,2264,458,0
+D,"Bari in duba wannan tambaya a hankali.
+
+Malamar tana son taimaka wa ɗalibai su fahimci bambancin taro a cikin aikin sinadarai ta hanyar fassara ginshiƙin taro da lokaci.
+
+Matsalar ita ce: ɗalibai suna yin karatu na zahiri kawai na ginshiƙin, ba su fahimci ma'anar sa ba.
+
+Don fahimtar bambancin taro a cikin aikin sinadarai:
+- Reactants (abubuwan da ke aiki) suna raguwa yayin da lokaci ke tafiya
+- Products (abubuwan da aka samu) suna ƙaruwa yayin da lokaci ke tafiya
+- Akwai bambanci a tsakanin yadda taronsu ke canzawa
+
+Bari in duba zaɓuɓɓukan:
+
+A. Tambaya ce game da wurin asali - wannan ba zai taimaka wajen fahimtar bambancin ba
+B. Tambaya ce game da matsayin farko - wannan yana nufin fassara ginshiƙin don gano bambancin tsakanin reactants da products a farkon aikin
+C. Tambaya ce game da lokacin da za su daina - wannan ba ta kai tsaye game da bambancin taro ba
+D. Tambaya ce game da tsayawa - wannan ba ta kai tsaye game da bambancin taro ba
+
+Tambaya B tana buƙatar ɗalibai su fassara ginshiƙin don kwatanta matsayin (taro) na reactants da products a farkon aikin, wanda zai nuna bambancin.
+
+**B**",True,13.112645999994129,2301,442,0
+C,C,True,2.5534033998847008,1962,4,0
+B,D,True,2.9835694001521915,1862,4,0
+B,"Bari in yi nazarin wannan tambaya a hankali.
+
+Matsalar tana game da ɗaliban da suka yi hasashe cewa ƙanƙara ba za ta narke ba kuma ruwan zafi ba zai yi sanyi ba a cikin yanayin ɗakin da ke da zafin jiki na 20°C.
+
+Hasashen ɗaliban ba daidai ba ne saboda:
+- Ƙanƙara za ta narke idan ta sami zafi daga yanayin kewaye
+- Ruwan zafi zai yi sanyi idan ya rasa zafi zuwa yanayin kewaye
+
+Don sa ɗaliban su sake yin la'akari da hasashensu, malamar tana bukatar tambaya da za ta sa su yi tunani game da:
+- Yadda zafi ke gudana tsakanin abubuwa
+- Bambancin zafin jiki tsakanin abubuwan da ke cikin gilasan da yanayin kewaye
+
+Bari in duba zaɓuɓɓukan:
+
+A. Tana tambayar yadda zafi yake shafar tsarin kafa - wannan ba ta kai tsaye ba
+B. Tana tambayar daidaiton zafin jiki da tsarin - wannan tana da alaƙa amma ba ta kai tsaye ba
+C. Tana tambayar me yasa muke magana game da gilashi mai sanyi da mai zafi - wannan tana nuna bambancin zafin jiki amma ba ta kai tsaye ba
+D. Tana tambayar bambanci tsakanin zafin yanayin ɗakin (20°C) da zafin abubuwan da ke cikin gilasan (ƙanƙara < 0°C, ruwan zafi > 20°C)
+
+Zaɓi D shine mafi dacewa domin yana kai tsaye yana nuna bambancin zafin jiki wanda zai haifar da gudanar da zafi, wanda zai sa ɗaliban su gane cewa hasashensu ba daidai ba ne.
+
+D",True,13.963327500037849,2450,542,0
+B,D,True,3.3690671999938786,1659,4,0
+C,"Bari in duba wannan tambaya a hankali.
+
+Aikin yana buƙatar ɗalibai su:
+1. Rubuta cikakkun tsare-tsaren lantarki na atomin
+2. Zana tsare-tsaren Lewis
+3. Gina samfuran ƙwayoyin da laka da ashirin
+4. Samar da kamanceceniya da bambance-bambance tsakanin siffofin ƙwayoyin
+
+Bari in duba kowane zaɓi:
+
+A. Yi hasashen ɗauri na kwayar - Aikin bai haɗa da tantance ɗauri ba
+B. Wakilta rabon electrons ta amfani da Lewis structures - I, aikin yana haɗa da zana Lewis structures
+C. Bincika rabon atam bisa ga ka'idar VSEPR - I, aikin yana haɗa da gina samfuran 3D da laka da ashirin, wanda ke nuna siffar ƙwayar bisa ga ka'idar VSEPR
+D. Gano ma'adanarwa da ba-ma'adanarwa na electrons - Aikin bai fayyace wannan ba
+
+Duk da yake B yana daidai, C ya fi dacewa saboda aikin yana haɗa da gina samfuran 3D (da laka da ashirin) da kuma kwatanta siffofin ƙwayoyin biyu, wanda ke nuna binciken siffar ƙwayar bisa ga ka'idar VSEPR.
+
+C",True,9.705325899878517,2313,412,0
+C,B,True,3.0475097000598907,1724,4,0
+D,"Bari in duba wannan tambaya a hankali.
+
+Malamin yana son tantance fahimtar ɗalibai game da **ma'aunar stoykiyometri a cikin daidaitaccen lissafin sinadarai**.
+
+Ma'aunar stoykiyometri ita ce alaƙar lissafi (rabon) tsakanin abubuwan da suka yi aiki (reactants) da samfuroran (products) a cikin daidaitaccen lissafin sinadarai. Wannan yana nufin rabon mol tsakanin abubuwan.
+
+Bari in duba zaɓuɓɓuka:
+
+A. Yi lissafin rabon mol na adadi tsakanin abubuwan da suka yi aiki da samfuroran haɗuwar - Wannan yana kai tsaye nuna fahimtar ma'aunar stoykiyometri (rabon mol)
+
+B. Lissafo nauyin abubuwan - Wannan yana game da nauyi, ba ma'aunar stoykiyometri kai tsaye ba
+
+C. Gina tebur na daidaito... kashi dari - Wannan yana game da kashi dari, ba ma'aunar stoykiyometri ba
+
+D. Gina teburin daidaito tsakanin mol, kwayoyin halitta, da atom - Wannan yana game da juyawa tsakanin raka'a daban-daban, ba ma'aunar stoykiyometri a cikin lissafin ba
+
+Zaɓi A yana kai tsaye nuna fahimtar ma'aunar stoykiyometri (rabon mol) a cikin daidaitaccen lissafin sinadarai.
+
+**A**",True,9.617883400060236,2225,438,0
+B,B,True,2.627964299870655,1823,4,0
+C,"Bari in yi nazari a kan wannan tambaya.
+
+Manufar da ake so a cimma ita ce: ""Yana nunawa ko nuna wurin gabobin ciki kamar zuciya, huhu, kwakwalwa.""
+
+Bari in duba kowane zaɓi:
+
+A. Yin kwaikwayon sassan jiki da laka - Wannan yana mai da hankali kan yin kwaikwayo, ba nuna wurin gabobin ba
+
+B. Zaɓar gaba ta jiki da yin jawabi - Wannan yana mai da hankali kan aiki na gaba, ba nuna wurin gabobin ciki ba
+
+C. Dora hotunan gabobin a kan siffar jikin mutum - Wannan yana kai tsaye nuna wurin gabobin ciki a kan jikin mutum, wanda shine ainihin manufar
+
+D. Kallon bidiyo da tattaunawa - Wannan yana mai da hankali kan kallo da tattaunawa, ba aiki mai yiwuwa na nuna wurin gabobin ba
+
+Zaɓi C yana fi dacewa domin:
+- Yana buƙatar yara su nuna wurin gabobin ciki a kan siffar jiki
+- Yana kai tsaye tantance ikon nuna wurin zuciya, huhu, kwakwalwa
+- Yana dace da matakin makarantar yara
+- Yana da tsarin tantancewa mai kyau (ma'aunin ƙididdiga)
+
+C",True,11.224247500067577,2242,387,0
+A,"Bari in yi nazari a hankali game da wannan tambaya.
+
+Tambayar tana magana ne game da:
+- Yara 'yan K-kafin-aji (kindergarten)
+- Barin kyandir a rana
+- Ganin abin da zai faru
+- Wane canji na halin abu za su iya lura da shi
+
+Lokacin da aka bar kyandir a rana:
+- Zafi na rana zai sa kyandir ya narke
+- Kyandir zai canja daga tsayayyen yanayi zuwa ruwa
+- Wannan shine **narkewa** (melting)
+
+Bari in duba zaɓuɓɓukan:
+A. Haɗawa - Wannan shine haɗa abubuwa tare
+B. Turbuwa - Wannan shine canjin daga ruwa zuwa tururi
+C. Daskarewa - Wannan shine canjin daga ruwa zuwa ƙanƙara
+D. Tasirin danshi - Wannan shine tattara ruwa daga iska
+
+Kyandir a rana zai narke (melting/narkewa). A cikin Hausa, ""narkewa"" yana nufin canjin daga tsayayye zuwa ruwa saboda zafi.
+
+Daga cikin zaɓuɓɓukan da aka bayar, ""Turbuwa"" shine mafi kusa da canjin da ke faruwa saboda zafi, amma a zahiri turbuwa shine daga ruwa zuwa tururi.
+
+Amma idan muka yi la'akari da yanayin da aka bayyana - kyandir a rana - babban canjin da yara za su lura da shi shine **narkewa** wanda ke kusa da ""Turbuwa"" a cikin ma'anar canjin saboda zafi.
+
+**B**",True,14.555149300023913,2145,473,0
+B,B,True,2.6243801000528038,1843,4,0
+A,C,True,2.791623199824244,2028,4,0
+A,"Bari in duba wannan tambaya a hankali.
+
+Manufar koyo ita ce: ""Gane Dokar 3Rs a cikin ayyukan zahiri""
+
+Ɗalibin ya bayar da misalai uku:
+1. Yin amfani da abin rufe fuska mai wankewa (Rage - Reduce)
+2. Shuka tsire-tsire a cikin kwanonin man shanu (Sake Amfani - Reuse)
+3. Raba da kuma ajiye kwantenonin da za a jefar a gida (Sake Sarrafa - Recycle)
+
+Dukkan Rs ɗin uku sun kasance a cikin amsar. Amma bari in duba zaɓuɓɓukan:
+
+A. Yana tambayar wace mataki ce ke ba shi damar rage albarkatu, kuma yana neman sabuwar mataki - wannan yana nuna cewa akwai wata R da ta ɓace, amma dukkan Rs ɗin uku sun kasance.
+
+B. Yana neman ma'anar kowane R da kuma wacce ta fi tasiri - wannan yana taimakawa fahimtar ma'ana amma ba ya nuna cewa akwai matsala a amsar.
+
+C. Yana cewa ""ka manta da R guda ɗaya"" kuma yana neman ƙarin misalai - wannan ba daidai ba ne saboda dukkan Rs ɗin uku sun kasance.
+
+D. Yana cewa ""kun manta da R ɗaya"" kuma yana neman bayani game da ingancin ayyukan - wannan ma ba daidai ba ne saboda dukkan Rs ɗin uku sun kasance.
+
+Amma idan na sake duba, zaɓi A yana fi dacewa saboda yana ba ɗalibin damar inganta fahimtarsa ta hanyar bayyana wace mataki ce ta wane R, koda kuwa duk sun kasance.
+
+**A**",True,14.652214299887419,2781,520,0
+C,C,True,3.2419166998006403,1925,4,0
+A,"Bari in yi nazari a hankali.
+
+Alamar da ake so a tantance ita ce: ""Yana gane wasu sassan jikinsa ta hanyar nuna su idan aka faɗi sunansu.""
+
+Mahimman abubuwa:
+- Yaron ya gane sassan jiki
+- Ta hanyar NUNA su
+- Idan aka FAƊI sunansu
+
+Bari in duba kowane zaɓi:
+
+A. Babba yana tambayar yaro ina sassan fuska suke - Wannan yana buƙatar yaron ya yi magana/ya nuna, amma ba a faɗi sunan sassan ba a fili.
+
+B. Babba tana tambayar yaro game da azancin jiki, kuma ta ce su taɓa sassan fuskarsu - Wannan yana haɗa da tambayoyi da taɓawa, amma ba a faɗi sunan sassan jiki kai tsaye ba.
+
+C. Babba yana rera waƙoƙi game da sassan fuska, yana taɓa su, yana lura ko yaron zai maimaita - Wannan yana da alaƙa da kwaikwaiyo, ba nuna sassan jiki idan aka faɗi sunansu ba.
+
+D. Babba yana motsa sassa daban-daban na jikinsa, yana roƙon yara su kwaikwayi - Wannan yana da alaƙa da kwaikwaiyon motsi, ba nuna sassan jiki idan aka faɗi sunansu ba.
+
+A sake dubawa, zaɓi B ya fi dacewa domin:
+- Babba tana FAƊIN sunan azancin jiki (tambayoyi game da azancin jiki)
+- Yara suna NUNA/TAƁA sassan fuskarsu da ke da alaƙa
+
+B",True,12.768224300118163,2419,493,0
+D,"Bari in duba kowane zaɓi don ganin wanne ya fi dacewa da manufar koyo: ""Don tsara hasashe game da sakamakon al'amuran halitta da aka lura da su, bisa ga ilimi da gogewa na baya.""
+
+**Zaɓi A**: Nuna bidiyo sannan tattaunawa - Wannan yana mai da hankali kan tattaunawa game da abubuwan da suka faru a baya, amma ba ya ba da damar yara su tsara hasashe game da abin da zai faru.
+
+**Zaɓi B**: Nuna samfuri na bakin teku sannan kwaikwayon tsunami - Wannan yana nuna abin da zai faru tukuna, amma ba ya ba da damar yara su yi hasashe kafin su ga sakamakon.
+
+**Zaɓi C**: Gina dutsen wuta sannan kwaikwayon fashewa - Kamar B, wannan yana nuna abin da zai faru amma ba ya ba da damar yara su yi hasashe kafin su ga sakamakon.
+
+**Zaɓi D**: Tattaunawa game da girgizar ƙasa sannan lura da samfuri - Wannan yana fara da tattaunawa game da ilimin da suka riga suka samu (ilimi da gogewa na baya), sannan yana ba su damar lura da kwaikwayon kuma su bayyana abin da ya faru da kuma tasirin da zai yi. Wannan yana ba da damar yara su yi amfani da ilimin da suka riga suka samu don tsara hasashe game da abin da zai faru.
+
+**D**",True,11.182058200007305,2446,430,0
+C,C,True,3.2427173999603838,2054,4,0
+B,C,True,2.870960700092837,1759,4,0
+D,"Bari in yi nazari a hankali game da manufar koyarwa da kuma ayyukan da aka bayar.
+
+Manufar ita ce: ɗalibai su fahimci ma'anar osmosis (jigilar ruwa ta membrane mai zaɓi daga wurin da yake da ƙarancin solute zuwa wurin da yake da yawa).
+
+Bari in duba kowane zaɓi:
+
+**A**: Nutsar da dankali a cikin maganin sodium chloride - Wannan gwaji mai amfani ne wanda zai nuna jigilar ruwa ta hanyar membrane na tantanin halitta na dankali. Ɗalibai za su iya ganin canjin nauyi wanda ke nuna motsin ruwa (osmosis).
+
+**B**: Jakar shayi a cikin ruwa - Wannan yana nuna diffusion (yaduwar) ba osmosis ba. Shayin yana yaduwa daga jakar zuwa cikin ruwa, amma ba a da membrane mai zaɓi da ke hana wasu abubuwa wucewa yayin da yake barin ruwa ya wuce.
+
+**C**: Tawada a cikin ruwa - Wannan ma yana nuna diffusion, ba osmosis ba. Babu membrane mai zaɓi a nan.
+
+**D**: Hoton akori mai rabe-rabe da membrane - Wannan yana nuna osmosis amma ta hanyar hoto kawai, ba gwaji mai aiki ba. Duk da haka, yana da matsala: idan membrane tana barin solute (ƙwallaye) su wuce, to ba osmosis ba ne. Osmosis yana faruwa ne lokacin da membrane ke hana solute wucewa amma tana barin ruwa ya wuce.
+
+Zaɓi **A** shine mafi kyau domin:
+- Yana ba da gwaji mai aiki
+- Membrane na tantanin dankali yana aiki kamar membrane mai zaɓi
+- Ana iya auna sakamakon (canjin nauyi)
+- Yana nuna osmosis a zahiri
+
+**A**",True,17.76725560007617,2782,540,0
+D,"Bari in yi nazari a kan wannan tambaya.
+
+Manufar koyo ita ce: ɗalibai su danganta gagarumar ci gaban tsarin membrane na cikin kwayar halitta (intracellular membrane system) da aikinsa a cikin kwayoyin halittar da ke samar da ruwa (secretory cells).
+
+Bari in duba kowane zaɓi:
+
+A. Duba hotunan ƙananan ƙwayoyin halitta masu fitar da sinadarai kuma ka tambaye su su gano aikin kowane ɗayan ƙwayoyin halitta da ke wajen - Wannan yana mai da hankali kan ƙwayoyin halitta na waje, ba tsarin membrane na ciki ba.
+
+B. Ka ce su zana a kan hoton da aka ɗauka na ƙaramin kwayar halitta mai fitar da sinadarai hanyar da sunadarai ke bi ta hanyar exocytic sannan su bayyana shi - Wannan yana nuna yadda sunadarai ke tafiya ta hanyar tsarin membrane na ciki (exocytic pathway), wanda ke danganta tsarin da aikinsa kai tsaye.
+
+C. Nuna samfurin kwayar halittar mai fitarwa da kuma wani na kwayar halittar tsoka, sannan a roƙe su su kwatanta ayyukan sifofin da ke bambanta su - Wannan yana kwatanta nau'ikan kwayoyin halitta daban-daban, ba danganta tsari da aiki ba.
+
+D. Ku gabatar da samfuri na kwayar halitta mai fitar da sinadari da kuma wani na kwayar halittar tsoka, sa'annan ku tambaye su su tantance aikin kowace kwayar halitta bisa ga tsarin gininsu - Wannan ma yana kwatanta nau'ikan kwayoyin halitta daban-daban.
+
+Zaɓi B ne kawai ke ba ɗalibai damar danganta tsarin membrane na ciki da aikinsa ta hanyar bin hanyar da sunadarai ke bi.
+
+B",True,11.067857299931347,2453,556,0
+B,D,True,23.796933399979025,2033,4,0
+C,D,True,2.558008600026369,1739,4,0
+C,D,True,2.913112800102681,1732,4,0
+C,C,True,2.9524100001435727,1907,4,0
+B,B,True,2.4643944001290947,1803,4,0
+C,C,True,2.492670400068164,1834,4,0
+D,"Bari in duba wannan tambaya a hankali.
+
+Tambayar tana game da fahimtar ɗalibi game da juyin halittar ƙwai da mahaifa. Manufar aji ita ce ɗalibai su fahimci wannan juyi.
+
+A cikin bayanin ɗalibin, ya ce:
+- Follicle ya girma kuma hormone mai suna luteinizing ya ƙaru
+- Sai ya saki kansa daga ƙwan mace
+- Ya daina samar da estrogen
+- Wani sabon tsari yana fitowa wanda ake kira corpus luteum
+
+Bari in duba zaɓuɓɓukan:
+
+A. Game da rashin hormone yana haddasa fitar da kwai - Ba wannan ba ne matsalar a cikin bayanin
+B. Game da dogara ga gonadotropic - Ba wannan ba ne matsalar da aka bayyana
+C. Game da alaƙa marar inganci tsakanin matakan sake zagayowar - Wannan yana iya zama matsala
+D. Game da inda corpus luteum ke fitowa - Ɗalibin ya ce ""wani sabon tsari yana fitowa"" kamar ba ya fahimta cewa corpus luteum yana fitowa ne daga follicle da ya riga ya wanzu, ba wani sabon abu ba
+
+Matsalar babba a cikin bayanin ɗalibin ita ce: ya ce corpus luteum ""sabon tsari ne"" wanda ""ke fitowa"" a cikin ƙwan macen, amma a zahiri corpus luteum yana samuwa ne daga follicle da ya riga ya fitar da ƙwai, ba wani sabon tsari ba.
+
+**D**",True,12.97269990015775,2358,442,0
+C,C,True,2.849881600122899,1812,4,0
+A,"Bari in duba tambayar a hankali.
+
+Tambayar tana magana akan fludarabine wanda yake hana gina DNA ta hanyar ƙinƙance DNA primase.
+
+DNA primase shine enzyme da ke gina RNA primers (mai gindi) a lokacin kwafi na DNA. Waɗannan RNA primers suna buƙata don fara tsarin ƙara nucleotides.
+
+Bisa ga wannan:
+- Fludarabine yana hana DNA primase
+- DNA primase yana gina RNA primers
+- Wannan yana shafar matakin farko na shirya don kwafi
+
+Bari in duba zaɓuɓɓukan:
+
+A. Gano aikin enzyme ɗin da ke shiga cikin haɗar RNA mai gindi - Wannan shine ainihin aikin DNA primase (yana gina RNA primers)
+
+B. Bambanta aikin sinadarin da ke warware karkatacciyar kwayar - Wannan shine aikin helicase, ba primase ba
+
+C. Bambanta aikin sinadarin da ke ƙara nucleotides a jere-jere - Wannan shine aikin DNA polymerase, ba primase ba
+
+D. Bayyana hanyar aikin enzyme da ke lalata igiyoyin hydrogen - Wannan kuma yana nufin helicase
+
+Tambayar tana tambayar wane mataki fludarabine yake shafa kai tsaye. Da yake yana hana DNA primase, yana shafar kai tsaye haɗar RNA primers.
+
+**A**",True,11.173138900194317,2245,398,0
+B,B,True,3.062754000071436,1987,4,0
+B,D,True,2.5771381999365985,1817,4,0
+B,"D
+
+Misalin ""ruwa mai gudana"" yana kwatanta cajojin masu motsi da gudun ruwa. Babban iyakancin wannan misali shine cewa yana iya sa ɗalibai su yi tunanin cewa ƙarfin wutar lantarki (current) a cikin da'irar lantarki daidai yake da gudun ruwa a cikin bututu. A zahiri, ƙarfin wutar lantarki yana auna adadin cajojin da ke wucewa a wani lokaci, yayin da gudun ruwa yana auna ƙarar ruwa. Wannan kwatanci yana iya haifar da fahimta mara kyau game da ainihin yanayin ƙarfin wutar lantarki.
+
+**D**",True,7.269734000088647,2141,210,0
+C,C,True,2.9316153000108898,1948,4,0
+A,A,True,2.4370267000049353,1666,4,0
+B,"Bari in yi nazari kan wannan tambaya a hankali.
+
+Manufar koyo ita ce: ""Don fahimtar dokokin Newton da kuma amfani da su wajen bayyana yanayi na yau da kullum""
+
+Ina neman zaɓi biyu na ra'ayoyin kuskure waɗanda za su kawo cikas kai tsaye ga koyon wannan manufa.
+
+Bari in duba kowane zaɓi:
+
+**A. Nisa da gujewa kalmomi ne masu ma'ana ɗaya; ƙarfin da ake buƙata don motsa abu ya dogara ne akan nauyinsa**
+- Nisa da gujewa ba kalmomi ɗaya ba ne (nisa shine tazara, gujewa shine saurin canjin matsayi)
+- Ƙarfin da ake buƙata don motsa abu ba ya dogara kawai akan nauyi ba (F=ma, ya dogara akan taro da hanzari)
+
+**B. Idan jiki yana hutawa, babu wani ƙarfi da ke aiki a kansa; haɓaka gudu koyaushe yana faruwa a shugaba ɗaya da motsi**
+- Jiki na iya kasancewa a hutawa yayin da ƙarfin ke aiki (misali: ƙarfin nauyi da ƙarfin tallafi suna daidaita juna)
+- Haɓaka gudu ba lallai ne ya kasance a shugaba ɗaya da motsi ba (misali: motsa jiki yana raguwa)
+
+**C. Ana iya bayyana matsayin jiki ta hanyar nisansa daga wurin farawa; halittu masu rai ne kawai ke iya amfani da karfi**
+- Matsayi ana iya bayyana shi ta hanyar nisa daga wurin farawa - wannan daidai ne
+- Halittu masu rai ne kawai ke iya amfani da ƙarfi - wannan kuskure ne (duk abubuwa na iya amfani da ƙarfi)
+
+**D. Rikici koyaushe yana adawa da motsi; ƙarfin da ƙaramin abu ya yi a kan babban abu ya gaza ƙarfin amsawa na babban abu a kan ƙarami**
+- Rikici koyaushe yana adawa da motsi - wannan daidai ne
+- Ƙarfin ƙarami akan babba ya gaza ƙarfin amsawa - wannan kuskure ne (doka ta uku ta Newton: ƙarfin aiki da amsawa suna daidai)
+
+Zaɓi **B** yana ɗauke da ra'ayoyin kuskure biyu waɗanda suka shafi kai tsaye dokokin Newton.
+
+**B**",True,15.906977999955416,2602,739,0
+C,"D
+
+Manufar koyo tana neman ɗalibai su nuna fahimtar cewa ilimin Sararin Samaniya yana canzawa kuma yana ƙaruwa tare da sababbin shaidu. Wannan yana nufin ɗalibai sun fahimci cewa ra'ayoyin kimiyya suna canzawa lokacin da aka sami sababbin bayanai.
+
+Zaɓi D yana buƙatar ɗalibai su gwada bayanan da tsarin geocentric (duniya a tsakiya) da tsarin heliocentric (rana a tsakiya) suka yi. Wannan yana nuna a fili yadda ilimin sararin samaniya ya canza daga tsarin ɗaya zuwa wani saboda sababbin shaidu, wanda shine ainihin manufar koyo.
+
+Zaɓin A, B, da C suna bayyana bayanai na yanzu amma ba sa nuna yadda ilimin ya canza tare da lokaci da sababbin shaidu.
+
+D",True,9.46490989997983,2015,268,0
+B,B,True,2.5573700999375433,1834,4,0
+D,B,True,2.674683599965647,2134,4,0
+B,"Bari in duba manufar koyarwa da aka bayar: ""Gane muhimmancin tsarin R ko S a cikin sinadarai da ake amfani da su a rayuwar yau da kullum.""
+
+Manufar tana mai da hankali kan:
+1. Gane MUHIMMANCIN (ba kawai tantancewa ba)
+2. Tsarin R ko S
+3. A cikin sinadarai na rayuwar yau da kullum
+
+Bari in tantance kowane zaɓi:
+
+A. Nazarin tasirin tattalin arziki - Wannan yana magana ne akan tattalin arziki, ba muhimmancin kimiyya ko lafiya ba
+
+B. Bincika tasirin lafiya na enantiomers - Wannan yana nuna MUHIMMANCIN a zahiri na bambancin tsakanin R da S isomers akan lafiyar mutum
+
+C. Kwatanta sifofin kimiyya da zahiri - Wannan yana nuna bambance-bambance amma ba ya mai da hankali kan MUHIMMANCI
+
+D. Yi amfani da Dokokin Cahn-Ingold-Prelog - Wannan yana koyar da yadda ake TANTANCEWA R da S, ba muhimmancinsu ba
+
+Zaɓi B shine mafi dacewa domin yana bawa ɗalibai damar gane ainihin muhimmancin bambancin R/S ta hanyar ganin yadda enantiomers na iya samun tasiri daban-daban akan lafiyar mutum.
+
+B",True,12.726207700092345,2267,402,0
+A,B,True,2.4827328000683337,1860,4,0
+C,"Bari in yi nazari kan wannan tambaya a hankali.
+
+Matsalar da malamin ya gano ita ce: ɗaliban ba su fahimci dalilin da ya sa dole ne su haɗa da ƙarfin haɗi (valence) na ƙarfe a cikin lambobin Roman **a wasu lokuta kaɗai**.
+
+Wannan yana nufin cewa ɗaliban ba su gane ba cewa:
+- Wasu ƙarfafan suna da valence ɗaya kawai (ba sa buƙatar lambobin Roman)
+- Wasu ƙarfafan suna da valence da yawa (suna buƙatar lambobin Roman don bambanta)
+
+Bari in duba kowane zaɓi:
+
+**A.** Yana mai da hankali kan lissafin matakin oxidation - wannan bai kai tsaye magance matsalar fahimtar lokacin da ake buƙatar lambobin Roman ba.
+
+**B.** Yana tambayar dalilin da ya sa sunaye dabam-dabam - wannan yana kusa amma bai kai tsaye nuna lokacin da ake buƙatar lambobin Roman ba.
+
+**C.** Yana nuna misali na ƙarfe guda ɗaya (tagulla/copper) da oxides biyu dabam-dabam, yana tambayar yadda za a bambanta su - wannan yana kai tsaye nuna dalilin buƙatar lambobin Roman lokacin da ƙarfe yana da valence da yawa.
+
+**D.** Yana nuna cewa wasu ƙarfafan suna da valence da yawa - wannan yana bayyana lamarin amma bai kai tsaye nuna lokacin da ake buƙatar lambobin Roman ba.
+
+Zaɓi **C** ya fi dacewa domin yana nuna misali mai takaice na dalilin da ya sa ake buƙatar lambobin Roman (lokacin da ƙarfe yana da fiye da valence ɗaya).
+
+**C**",True,14.449119899887592,2805,540,0
+B,D,True,2.8462076999712735,1830,4,0
+C,D,True,2.3657358998898417,1755,4,0
+C,D,True,3.911092000082135,1679,4,0
+C,D,True,2.8645315999165177,1738,4,0
+A,"Bari in yi nazari a kan manufar da aka bayar: ""ɗalibai su nuna cewa zafin da aka sha ya dogara ne akan takamaiman zafin kowane abu.""
+
+Wannan yana nufin cewa abubuwa daban-daban suna buƙatar adadin zafi daban-daban don canza zafin jikinsu, wato suna da ""takamaiman zafi"" daban-daban.
+
+Bari in duba kowane zaɓi:
+
+A. Yana ɗumama ruwa da man gileriti daidai gwargwado - Wannan yana dace domin yana kwatanta yadda abubuwa biyu daban-daban (ruwa da man gileriti) suke amsawa ga adadin zafi iri ɗaya, wanda zai nuna bambancin takamaiman zafinsu.
+
+B. Yana kwatanta kofuna biyu daban-daban (gilashi da kumfa) amma da ruwa iri ɗaya - Wannan ba ya auna takamaiman zafin abubuwa daban-daban, amma yadda kwantena ke tasiri.
+
+C. Yana kwatanta ruwa mai tsafta da ruwan gishiri - Wannan yana nuna bambancin matakin tafasa, wanda yana da alaƙa da takamaiman zafi amma ba kai tsaye ba.
+
+D. Yana saka ƙarfe a cikin ruwa - Wannan yana nuna musayar zafi amma ba ya kai tsaye nuna takamaiman zafi na abubuwa daban-daban.
+
+Zaɓi mafi dacewa shine A domin yana kai tsaye yana kwatanta yadda abubuwa biyu daban-daban (ruwa da man gileriti) suke amsawa ga adadin zafi iri ɗaya.
+
+A",True,13.970540100010112,2423,489,0
+B,D,True,3.4961884000804275,1725,4,0
+B,A,True,3.9813153999857605,1735,4,0
+D,D,True,2.5351382999215275,1882,4,0
+D,D,True,2.52476659999229,1720,4,0
+D,"Dokar Hooke tana bayyana alaƙar da ke tsakanin ƙarfin da ake yi wa bazara da tsawon da bazara ke miƙewa (ko murɗewar da take fuskanta). Don fahimtar wannan doka, ɗalibai suna buƙatar sanin:
+
+- Manufar ƙarfi da yadda ake auna shi
+- Yadda ƙarfi ke shafar siffar abubuwa (murɗewa/miƙewa)
+- Alaƙar da ke tsakanin ƙarfin da aka yi amfani da shi da sauyin da ke faruwa
+
+Zaɓi B yana bayyana wannan alaƙa kai tsaye - alaƙar tsakanin ƙarfin da ake yi da murɗewar da jiki ke fuskanta, wanda shine ainihin abin da Dokar Hooke take magana a kai.
+
+**B**",True,9.19819899997674,1972,255,0
+A,"Bari in duba manufar koyo: ""Bayyana halayen gas mai manufa a yanayi na rayuwa na yau da kullum, tare da la'akari da dokokin da ke bayyana shi.""
+
+Manufar tana neman ɗalibai su:
+1. Bayyana halayen gas
+2. A yanayin rayuwa na yau da kullum
+3. Tare da la'akari da dokokin da ke bayyana shi
+
+Bari in duba kowane zaɓi:
+
+A. Suna amfani da ka'idojin Boyle, Gay-Lussac, da Charles a misalai na yau da kullum, ta hanyar kwatanta ingancinsu - Wannan yana nuna amfani da dokoki a misalan yau da kullum kuma yana bayyana halayen gas ta hanyar waɗannan dokoki.
+
+B. Suna fassara zane-zane, suna kafa alaƙa tsakanin ma'aunan matsi da zafin jiki - Wannan kawai yana magana ne akan fassara zane-zane, ba a yanayin yau da kullum ba.
+
+C. Suna gano girman kundin iska da zafin sa a rayuwar yau da kullum - Wannan yana gano kawai, ba bayyana halayen gas tare da dokokin ba.
+
+D. Suna lissafa ƙimar zafin jiki, murajin sarari, da matsin lamba - Wannan yana magana ne akan lissafin kawai, ba bayyana halayen gas a yanayin yau da kullum ba.
+
+Zaɓi A ya fi dacewa domin yana haɗa amfani da dokoki (Boyle, Gay-Lussac, Charles) a misalan yau da kullum, wanda ke nuna bayyana halayen gas ta hanyar waɗannan dokoki.
+
+A",True,11.166850800160319,2295,492,0
+D,D,True,3.0287907999008894,2040,4,0
+C,D,True,2.924582000123337,1769,4,0
+B,B,True,3.1125843999907374,2265,4,0
+D,B,True,2.641587199876085,2312,4,0
+D,"D
+
+Bayanin: Lokacin da gwajin kwayoyin rigakafi ya nuna inganci ga IgG amma bai nuna ga IgM ba, wannan yana nuna cewa mutumin ya riga ya kamu da cutar a baya kuma yanzu yana murmurewa. IgM shine kwayar rigakafin farko da ake samarwa a lokacin kamuwa da cuta (matakin tsanani), amma ba ya daɗewa a cikin jini. IgG kuma yana bayyana daga baya amma yana daɗewa na tsawon lokaci, yana ba da kariya mai dorewa. Don haka, kasancewar IgG kawai (ba tare da IgM ba) yana nuna cewa kamuwar da cutar ta faru a baya kuma jikin yana da kariya ta dogon lokaci.
+
+D",True,8.819346799980849,2267,226,0
+C,D,True,2.8889895998872817,1705,4,0
+D,D,True,3.0353135999757797,1840,4,0
+D,B,True,3.239972500130534,1804,4,0
+B,D,True,2.776336699957028,2056,4,0
+C,B,True,3.1951119999866933,2188,4,0
+C,D,True,3.28842160012573,1792,4,0
+C,D,True,2.7222180999815464,1782,4,0
+A,"Bari in duba wannan tambaya a hankali.
+
+Manufar ita ce: ""Gane matakai na *redox* a rayuwar yau da kullun da tasirinsu a kan al'ummar yau.""
+
+Manufar tana mai da hankali kan:
+1. Gane matakai na redox a rayuwar yau da kullun
+2. Tasirinsu a kan al'umma
+
+Bari in duba kowane zaɓi:
+
+A. Rubuta kasida game da lalacewar ƙarfe saboda ruwan sama mai guba - Wannan yana nuna fahimtar tasirin redox (lalacewar ƙarfe) a kan al'umma, kuma yana da alaƙa da rayuwar yau da kullun.
+
+B. Ƙididdigar yanayin iskar sadarwa na abubuwan sinadarai a cikin alcolest - Wannan aikin lissafi ne kawai, ba ya nuna gane redox a rayuwar yau da kullun ko tasirinsa a kan al'umma.
+
+C. Daidaita ma'auni na sinadarai don iskar tagulla a cikin bututun ruwa - Wannan aikin lissafi ne kawai na kimiyya, ba ya kai tsaye nuna fahimtar tasirin a kan al'umma.
+
+D. Ƙididdige ƙwayoyin lantarki a cikin batirin alkaline - Wannan aikin lissafi ne kawai, ba ya nuna fahimtar tasirin a kan al'umma ko rayuwar yau da kullun.
+
+Zaɓi A ne kawai yake buƙatar ɗalibai su yi tunani a kan misali na redox na gaske (lalacewar ƙarfe) a rayuwar yau da kullun da tasirinsa a kan al'umma (lalata gine-gine).
+
+A",True,11.65850119991228,2374,484,0
+D,D,True,3.2594292000867426,1976,4,0
+D,"D
+
+Malamar yana son tantance ko ɗalibai za su iya gane matakan sinadarai a cikin abubuwan da ke faruwa a kusa da su, da kuma muhimmancin da tsarin karatu ya bai wa ilimin kimiyya. Ƙungiyar ta gabatar da misalan mu'amalolin sinadarai waɗanda suka haɗa da:
+- mu'amalar sodium hydroxide da hydrochloric acid
+- samuwar hydrochloric acid daga hydrogen da chlorine  
+- samuwar carbon dioxide daga carbon da oxygen
+
+Waɗannan misalan sun fi zama na ɗakin gwaje-gwaje maimakon abubuwan yau da kullum. Don haka, tambayar da ta dace da manufar tantancewar ita ce ta nemi ɗalibai su gano wacece daga cikin waɗannan halayen ake samun ta a ayyukan yau da kullum - wannan zai tabbatar ko sun fahimci alaƙar kimiyya da rayuwar yau da kullum.
+
+D",True,8.667496300069615,2290,282,0
+B,B,True,2.5496453000232577,1627,4,0
