@@ -1,0 +1,5 @@
+outs:
+- md5: cf79beeed6b50432a4ed4a34d05ef2b2
+  size: 3213
+  hash: md5
+  path: CDPK_Luganda_ep_reviewed_literacy_dev.csv

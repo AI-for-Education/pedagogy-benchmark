@@ -1,0 +1,5 @@
+outs:
+- md5: 35115d0dfcbd7af7d6c17ff212664e60
+  size: 30078
+  hash: md5
+  path: CDPK_Luganda_ep_reviewed_science_test.csv

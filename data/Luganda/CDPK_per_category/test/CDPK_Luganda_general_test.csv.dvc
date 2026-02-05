@@ -1,0 +1,5 @@
+outs:
+- md5: 42b22ae42d2474d95f330a78f5600802
+  size: 61681
+  hash: md5
+  path: CDPK_Luganda_general_test.csv

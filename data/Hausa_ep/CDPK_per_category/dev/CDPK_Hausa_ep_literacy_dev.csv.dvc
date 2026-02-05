@@ -1,0 +1,5 @@
+outs:
+- md5: 7abc3f07983825051e8e6e6885b7473e
+  size: 2825
+  hash: md5
+  path: CDPK_Hausa_ep_literacy_dev.csv

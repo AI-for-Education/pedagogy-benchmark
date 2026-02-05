@@ -1,0 +1,5 @@
+outs:
+- md5: 9453095f1a3b68cdc3673f5dc83e8d3b
+  size: 118483
+  hash: md5
+  path: CDPK_Luganda_maths_test.csv

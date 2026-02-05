@@ -1,0 +1,5 @@
+outs:
+- md5: c418dd1a115d1d2e6ed0e085f7403c5d
+  size: 2017
+  hash: md5
+  path: CDPK_Luganda_general_dev.csv
