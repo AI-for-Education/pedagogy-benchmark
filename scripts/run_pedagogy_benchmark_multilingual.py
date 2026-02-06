@@ -1,4 +1,55 @@
 # %%
+"""
+Multilingual Pedagogy Benchmark Runner
+
+This script runs the CDPK pedagogy benchmark across different languages and categories.
+
+PARALLEL EXECUTION:
+-------------------
+This script is designed to run safely in parallel across multiple terminals, with each
+terminal running a different language. Results are automatically organized by language
+and category to prevent conflicts.
+
+USAGE EXAMPLES:
+--------------
+Single language:
+    uv run python scripts/run_pedagogy_benchmark_multilingual.py \\
+        --language english \\
+        --benchmark cdpk \\
+        --models-config full_list_20251015_small
+
+Parallel execution (run these in separate terminals):
+    Terminal 1: uv run python scripts/run_pedagogy_benchmark_multilingual.py --language english --benchmark cdpk
+    Terminal 2: uv run python scripts/run_pedagogy_benchmark_multilingual.py --language luganda --benchmark cdpk
+    Terminal 3: uv run python scripts/run_pedagogy_benchmark_multilingual.py --language swahili --benchmark cdpk
+
+Specific categories only:
+    uv run python scripts/run_pedagogy_benchmark_multilingual.py \\
+        --language english \\
+        --benchmark cdpk \\
+        --categories science maths literacy
+
+OUTPUT STRUCTURE:
+----------------
+Results are saved to language-specific directories:
+    data/results/English/
+    data/results/Luganda/
+    data/results/Swahili/
+    etc.
+
+Each directory contains:
+    - cdpk_results_accuracy_{models_config}.csv  (accuracy per model)
+    - cdpk_results_bad_format_{models_config}.csv (format errors per model)
+    - cdpk_results_full_{models_config}.csv      (complete results)
+
+CACHING:
+--------
+Results are cached per model and question configuration. If you re-run the same
+language+category+model combination, it will use cached results instead of calling
+the API again. Cache files are stored in:
+    data/cache_local/CDPK_{language}_{category}/resps_{model}.csv
+"""
+# %%
 from argparse import ArgumentParser
 from pathlib import Path
 from typing import Literal, Optional
@@ -41,9 +92,9 @@ def main(opt):
     config_models_PK = opt.models_config
     #
     if opt.output_folder is None:
-        res_dir = ROOT / "data" / "results"
+        res_dir = ROOT / "data" / "results" / language_slug
     else:
-        res_dir = Path(opt.output_folder)
+        res_dir = Path(opt.output_folder) / language_slug
     res_dir.mkdir(exist_ok=True, parents=True)
     #
     category_df_list = []
@@ -114,7 +165,7 @@ if __name__ == "__main__":
         help='Categories to run (space-separated list)'
     )
     parser.add_argument(
-        "--models-config", required=False, type=str, default=None
+        "--models-config", required=False, type=str, default=None,
     )
     parser.add_argument("--output-folder", required=False, type=str, default=None)
     parser.add_argument("--custom-models-file", required=False, type=str, default=None)

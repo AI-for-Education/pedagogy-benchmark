@@ -18,7 +18,7 @@ DATA_DIR = ROOT / "data"
 
 # Add parent directory to path to import cdpk module
 sys.path.insert(0, str(ROOT / "src"))
-from cdpk.language_prompts import get_language_config, list_available_languages
+from cdpk.language_prompts import get_language_config
 
 #dotenv_path = ROOT / ".env"
 #load_dotenv(dotenv_path, override=True)
