@@ -35,15 +35,21 @@ def format_example(
 
 def gen_prompt(
     df, example_rows, question_row, question_col, choice_cols, choices, answer_col,
-    language='english'
+    language,
 ):
     # Get language-specific prompts
     config = get_language_config(language)
 
-    prompt = config['intro'] + "\n\n"
+    # Add custom instructions if English prompt (ep) to explain code-switching
+    if "_ep" in language:
+        prompt = config['intro_ep'] + "\n\n"
+    else:
+        prompt = ""
+
+    prompt += config['intro'] + "\n\n"
     for i in example_rows:
         prompt += format_example(df, i, question_col, choice_cols, choices, answer_col)
-    prompt += config['instruction'] + "\n"
+    prompt += config['instruction'] + "\n\n"
     prompt += format_questions(df, question_row, question_col, choice_cols, choices)
     prompt += "\n\n" + config['final']
     return prompt
@@ -157,6 +163,7 @@ def evaluate_model(test_df, config, model, verbose=0, language='english'):
             answer_col,
             language=language,
         )
+
         try:
             msg = LLMMessage(Role="user", Message=prompt)
             prefixes = ("o1-",
