@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 RESULTS_DIR = ROOT / "data" / "results"
 FAB_CONFIGS_DIR = ROOT / "fab-benchmarks-configs"
 
+CATEGORY_TO_PLOT = "Overall"  # options: "Science", "Literacy", "Creative arts", "Maths", "Social studies", "Technology", "General", "Overall"
 
 # %%
 # import useful files
@@ -27,25 +28,34 @@ providers_csv = pd.read_csv(FAB_CONFIGS_DIR / "providers.csv")
 # Import results data
 ################################
 # Accuracy dataframe
-acc_df = pd.read_csv(RESULTS_DIR / "cdpk_multilingual_model_performance.csv")
-print("Accuracy df shape:", acc_df.shape)
+acc_df_all = pd.read_csv(RESULTS_DIR / "cdpk_multilingual_model_performance.csv")
+print("Accuracy df shape (all categories):", acc_df_all.shape)
+print("Available categories:", acc_df_all['category'].unique())
+
+# Filter to selected category
+acc_df = acc_df_all[acc_df_all['category'] == CATEGORY_TO_PLOT].reset_index(drop=True)
+print(f"Accuracy df shape (category={CATEGORY_TO_PLOT}):", acc_df.shape)
 acc_df.head()
 
 # %%
 # Latency dataframe
-latency_df = pd.read_csv(RESULTS_DIR / "cdpk_multilingual_model_latency.csv")
-print("Latency df shape:", latency_df.shape)
-latency_df.head()
+latency_df_all = pd.read_csv(RESULTS_DIR / "cdpk_multilingual_model_latency.csv")
+print("Latency df shape (all categories):", latency_df_all.shape)
 
+latency_df = latency_df_all[latency_df_all['category'] == CATEGORY_TO_PLOT].reset_index(drop=True)
+print(f"Latency df shape (category={CATEGORY_TO_PLOT}):", latency_df.shape)
+latency_df.head()
 
 # %%
 # Results dataframe detailed
-acc_df_detailed = pd.read_csv(RESULTS_DIR / "cdpk_multilingual_model_performance_detailed.csv")
+acc_df_detailed_all = pd.read_csv(RESULTS_DIR / "cdpk_multilingual_model_performance_detailed.csv")
 cols_to_fix = ['correct', 'bad_format', 'Latency', 'TokensUsed', 'TokensUsedCompletion', 'TokensUsedReasoning']
 # 2. Convert them from String -> List
 for col in cols_to_fix:
-    acc_df_detailed[col] = acc_df_detailed[col].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x)
-print("Detailed Accuracy df shape:", acc_df_detailed.shape)
+    acc_df_detailed_all[col] = acc_df_detailed_all[col].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x)
+
+acc_df_detailed = acc_df_detailed_all[acc_df_detailed_all['category'] == CATEGORY_TO_PLOT].reset_index(drop=True)
+print(f"Detailed Accuracy df shape (category={CATEGORY_TO_PLOT}):", acc_df_detailed.shape)
 acc_df_detailed.head(2)
 
 # %%
@@ -377,6 +387,11 @@ MODELS_METADATA_MAPPING = {
         "model_id": "gemma-3-27b",
         "size": "Medium",
         "reasoning": False,
+    },
+    "Gemini-3 Flash": {
+        "model_id": "gemini-3-flash-preview",
+        "size": "Medium",
+        "reasoning": True,
     },
     "Gemma-3 4B": {
         "model_id": "gemma-3-4b-it",
@@ -1149,9 +1164,9 @@ df_combined['Prompt Type'] = df_combined['english_prompt'].apply(
 # include only few models
 models_to_include = [
     "Claude Sonnet 4.5",
-    "GPT-5",
-    "Gemini-2.5 Pro",
-    #"Gemini-2.5 Flash",
+    "GPT-5.2 (Medium)",
+    "Gemini-3 Pro",
+    #"Gemini-3 Flash",
     #"Gemini-2.5 Flash-Lite",
     #"Deepseek R1",
     #"o4-Mini",

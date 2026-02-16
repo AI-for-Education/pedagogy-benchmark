@@ -109,48 +109,6 @@ def evaluate_model(test_df, config, model, verbose=0, language='english'):
         "TokensUsedReasoning",
     ]
 
-    ## Select specific provider ##
-    # DeepSeek
-    if model == "or-deepseek-2-5" or model == "deepseek-r1":
-        extra_body = {"provider": {"order": ["DeepSeek"], "allow_fallbacks": False}}
-    #NovitaAI
-    if model == "deepseek-r1-nvt" or model == "minimax-m1" or model == "kimi-k2":
-        extra_body = {"provider": {"order": ["NovitaAI"], "allow_fallbacks": False}}
-    # DeepInfra
-    if model in ["qwen-qwq-32b",
-                 "deepseek-v3-0324",
-                 "llama-v3p2-1b-instruct-bf16",
-                 "llama-v3p2-3b-instruct-bf16",
-                 "mistral-nemo-instruct-2407-fp8",
-                 "qwen-2p5-7b-instruct-bf16",
-                 "mistral-small-24b-instruct-2501-fp8",
-                 "qwen3-235b-a22b-thinking-2507",
-                 "gemma-3-4b-it",
-                 ]:
-        extra_body = {"provider": {"order": ["DeepInfra"], "allow_fallbacks": False}}
-    if model.startswith("qwen-3-") and model not in ["qwen-3-30b-a3b", "qwen-3-235b-a22b"]:
-        extra_body = {"provider": {"order": ["DeepInfra"], "allow_fallbacks": False}}
-    # Parasail
-    if model in ["gemma-3-27b",
-                 "olmo-2-32b",
-                 "qwen-3-235b-a22b-2507-bf16",
-                 ]:
-        extra_body = {"provider": {"order": ["Parasail"], "allow_fallbacks": False}}
-    # Mistral
-    if model =="mistral-small-3-1-24b" or model == "mistral-small-3p2-24b-instruct":
-        extra_body = {"provider": {"order": ["Mistral"], "allow_fallbacks": False}}
-    # xAI
-    if model in ["grok-3-beta",
-                 "grok-3-mini-beta",
-                 ]:
-        extra_body = {"provider": {"order": ["xAI"], "allow_fallbacks": False}}
-    # Lambda
-    if model == "deepseek-r1-0528-fp8-lambda":
-        extra_body = {"provider": {"order": ["Lambda"], "allow_fallbacks": False}}
-    else:
-        extra_body = {}
-
-
     for rowi in tqdm(range(len(example_rows), total_row)):
 
         prompt = gen_prompt(
@@ -179,12 +137,9 @@ def evaluate_model(test_df, config, model, verbose=0, language='english'):
                 temperature = 1
             else:
                 temperature = 0
-            if extra_body:
-                response = caller.call(
-                    msg, max_tokens=None, temperature=temperature, extra_body=extra_body
-                )
-            else:
-                response = caller.call(msg, max_tokens=None, temperature=temperature)
+                
+            response = caller.call(msg, max_tokens=None, temperature=temperature)
+            
             if verbose > 0:
                 print(response.Message)
             resps.append(response.Message)

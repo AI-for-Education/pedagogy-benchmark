@@ -7,7 +7,6 @@ import re
 import os
 import json
 from pathlib import Path
-from datasets import load_dataset
 from collections import defaultdict
 import tiktoken
 #from transformers import AutoTokenizer # to run tokenizer for deepseek
@@ -15,17 +14,18 @@ import tiktoken
 ROOT = Path(__file__).resolve().parents[1]
 
 DATA_DIR = ROOT / "data"
-CACHE_LOCAL_DIR = DATA_DIR / "cache_local"
-FIGS_DIR = DATA_DIR / "results"
+RESULTS_DIR = DATA_DIR / "results"
+CACHE_LOCAL_DIR = DATA_DIR / "cache_local"  # kept for DeepSeek reasoning token fallback
+OUTPUT_DIR = DATA_DIR / "results"
 FAB_CONFIGS_DIR = ROOT / "fab-benchmarks-configs"
 
-MODELS_TO_EXCUDE = [
+MODELS_TO_EXCLUDE = [
     "gemini-2.5-pro-preview-06-05",
     "gemini-2.5-flash-preview-09-2025",
     "gpt-5-2025-08-07-medium",
 ]
 
-CATEGORY_TO_PLOT = "science"  # options: "math", "reading", "science"
+CATEGORY_TO_PLOT = "Overall"  # options: "Science", "Literacy", "Creative arts", "Maths", "Social studies", "Technology", "General", "Overall"
 
 # %%
 # import useful files
@@ -33,25 +33,44 @@ models_csv = pd.read_csv(FAB_CONFIGS_DIR / "models.csv")
 providers_csv = pd.read_csv(FAB_CONFIGS_DIR / "providers.csv")
 
 # %%
-# Load datasets from HF Hub
-cdpk_dataset = load_dataset("AI-for-Education/pedagogy-benchmark", "cdpk_main", split="train")
-send_dataset = load_dataset("AI-for-Education/pedagogy-benchmark", "cdpk_send", split="train")
 
-df_cdpk = cdpk_dataset.to_pandas()
-df_send = send_dataset.to_pandas()
+# Helper: discover populated language subfolders in data/results/
+def discover_language_folders(results_dir):
+    """Scan results_dir for populated language subfolders.
+    Returns list of dicts: {path, language, english_prompt}"""
+    folders = []
+    for subfolder in sorted(results_dir.iterdir()):
+        if not subfolder.is_dir():
+            continue
+        acc_files = list(subfolder.glob("cdpk_results_accuracy_*.csv"))
+        if not acc_files:
+            continue  # skip empty folders
+        name = subfolder.name
+        if name.endswith("_ep"):
+            language = name[:-3]
+            english_prompt = True
+        else:
+            language = name
+            english_prompt = False
+        folders.append({
+            "path": subfolder,
+            "language": language,
+            "english_prompt": english_prompt
+        })
+    return folders
 
-print("CDPK dataset shape:", df_cdpk.shape)
-print("SEND dataset shape:", df_send.shape)
+def get_models_from_full_csv(full_df):
+    """Extract model names from full CSV column names (pred_[model] pattern)."""
+    return [col[5:] for col in full_df.columns if col.startswith("pred_")]
 
-categories_cdpk_dict = df_cdpk['category'].value_counts().to_dict()
-categories_send_dict = df_send['category'].value_counts().to_dict()
-
-display(df_cdpk.head(1), df_send.head(1))
+language_folders = discover_language_folders(RESULTS_DIR)
+print(f"Found {len(language_folders)} populated language folders:")
+for f in language_folders:
+    print(f"  {f['language']} (english_prompt={f['english_prompt']})")
 
 # %%
 
-# Accuracy plots
-# Load data from each language folder
+# Language configuration
 language_list = [
     "Luganda",
     "Nyankore",
@@ -197,19 +216,19 @@ MODELS_METADATA_MAPPING = {
         "size": "Large",
         "reasoning": True,
     },
-    "GPT-5 (Medium)": {
-        "model_id": "gpt-5-2025-08-07-medium",
+    "GPT-5.2 (Medium)": {
+        "model_id": "gpt-5.2-2025-12-11-medium",
         "size": "Large",
         "reasoning": True,
     },
-    "Gemini-2.5 Pro": {
-        "model_id": "gemini-2.5-pro-preview-06-05",
+    "Gemini-3 Pro": {
+        "model_id": "gemini-3-pro-preview",
         "size": "Large",
         "reasoning": True,
     },
-    "Gemini-2.5 Flash": {
-        "model_id": "gemini-2.5-flash-preview-09-2025",
-        "size": "Large",
+    "Gemini-3 Flash": {
+        "model_id": "gemini-3-flash-preview",
+        "size": "Medium",
         "reasoning": True,
     },
     "Gemini-2.5 Flash-Lite": {
@@ -240,148 +259,171 @@ MODELS_METADATA_MAPPING = {
 }
 
 # %%
+# Build acc_df from accuracy + bad_format CSVs and latency from full CSV
 
 acc_rows = []
 
-# Only take data from category = CATEGORY and without "reviewed" in the language name
-model_folders = [f for f in os.listdir(CACHE_LOCAL_DIR) if f.startswith("CDPK_") and
-                    (CATEGORY_TO_PLOT in f.lower()) and ("reviewed" not in f.lower())
-                    ]
+print(f"Processing {len(language_folders)} language folders for acc_df...")
 
-print(f"Processing {len(model_folders)} model folders...")
+for folder_info in language_folders:
+    folder_path = folder_info["path"]
+    language = folder_info["language"]
+    english_prompt = folder_info["english_prompt"]
 
-for model_folder in model_folders:
-    # --- Robust Folder Name Parsing ---
-    name_parts = model_folder.replace("CDPK_", "").split("_")
-    
-    # Check for and remove the english prompt flag
-    if "ep" in name_parts:
-        english_prompt = True
-        name_parts.remove("ep")
-    else:
-        english_prompt = False
-        
-    # Assume category is the last part, and language is everything before it
-    category = name_parts[-1].capitalize()
-    language = "_".join(name_parts[:-1]).capitalize().replace("_new", "")
-    # --- End of Parsing ---
+    # Find the 3 CSV files
+    acc_file = list(folder_path.glob("cdpk_results_accuracy_*.csv"))[0]
+    bf_file = list(folder_path.glob("cdpk_results_bad_format_*.csv"))[0]
+    full_file = list(folder_path.glob("cdpk_results_full_*.csv"))[0]
 
-    # Find all CSV files in the folder
-    files = list((CACHE_LOCAL_DIR / model_folder).glob("*.csv"))
+    # Read accuracy and bad_format CSVs (model x category matrices)
+    acc_csv = pd.read_csv(acc_file, index_col=0)
+    bf_csv = pd.read_csv(bf_file, index_col=0)
 
-    for file in files:
-        df_res = pd.read_csv(file)
-        model_name = file.stem
-        model = model_name.replace("resps_", "")
+    # Melt from wide to long format
+    acc_melted = acc_csv.reset_index().melt(
+        id_vars=[acc_csv.index.name or "index"],
+        var_name="category", value_name="accuracy"
+    ).rename(columns={acc_csv.index.name or "index": "model"})
 
-        if model in MODELS_TO_EXCUDE:
-            continue  # skip these models as newer versions exist
-        
-        # process dataframe (assuming clean_resps and clean_answers are defined)
-        df_res["resps"] = df_res["resps"].apply(clean_resps)
-        df_res["answers"] = df_res["answers"].apply(clean_answers)
+    bf_melted = bf_csv.reset_index().melt(
+        id_vars=[bf_csv.index.name or "index"],
+        var_name="category", value_name="bad_format"
+    ).rename(columns={bf_csv.index.name or "index": "model"})
 
-        acc_score = (df_res["resps"] == df_res["answers"]).mean()
-        bad_format_score = df_res["resps"].isna().mean()
+    # Merge accuracy and bad_format
+    merged = pd.merge(acc_melted, bf_melted, on=["model", "category"])
 
-        # Append a dictionary for this specific result directly to the list
-        row = {
-            "category": category,
+    # Compute latency from full CSV
+    full_df = pd.read_csv(full_file)
+    models = get_models_from_full_csv(full_df)
+
+    latency_rows = []
+    for model in models:
+        lat_col = f"Latency_{model}"
+        if lat_col not in full_df.columns:
+            continue
+        # Per-category latency
+        for cat, group in full_df.groupby("category"):
+            latency_vals = group[lat_col].dropna()
+            latency_rows.append({
+                "model": model,
+                "category": cat,
+                "Latency Mean": latency_vals.mean() if len(latency_vals) > 0 else np.nan,
+                "Latency Median": latency_vals.median() if len(latency_vals) > 0 else np.nan,
+            })
+        # Overall latency
+        latency_all = full_df[lat_col].dropna()
+        latency_rows.append({
             "model": model,
-            "language": language,
-            "english_prompt": english_prompt,
-            "accuracy": acc_score * 100,  # convert to percentage
-            "bad_format": bad_format_score * 100,  # convert to percentage
-            "Latency Mean": df_res['Latency'].mean(),
-            "Latency Median": df_res['Latency'].median()
-        }
-        acc_rows.append(row)
-        
-# Convert the list of rows to a DataFrame
-acc_df = pd.DataFrame(acc_rows)
+            "category": "Overall",
+            "Latency Mean": latency_all.mean() if len(latency_all) > 0 else np.nan,
+            "Latency Median": latency_all.median() if len(latency_all) > 0 else np.nan,
+        })
 
-# add metadata from models_csv
-#acc_df['display_name'] = acc_df['model'].apply(lambda x: models_csv.loc[models_csv['model_id'] == x, 'display_name'].values[0] if x in models_csv['model_id'].values else x)
-acc_df['provider'] = acc_df['model'].apply(lambda x: models_csv.loc[models_csv['model_id'] == x, 'provider'].values[0] if x in models_csv['model_id'].values else 'Unknown')
+    latency_summary = pd.DataFrame(latency_rows)
+
+    # Merge latency into accuracy/bad_format
+    merged = pd.merge(merged, latency_summary, on=["model", "category"], how="left")
+
+    # Add language and english_prompt
+    merged["language"] = language
+    merged["english_prompt"] = english_prompt
+
+    # Filter out excluded models
+    merged = merged[~merged["model"].isin(MODELS_TO_EXCLUDE)]
+
+    acc_rows.append(merged)
+
+    # For English, duplicate with english_prompt=True (questions are already in English)
+    if language == "English" and not english_prompt:
+        merged_ep = merged.copy()
+        merged_ep["english_prompt"] = True
+        acc_rows.append(merged_ep)
+
+# Concatenate all language folders
+acc_df = pd.concat(acc_rows, ignore_index=True)
+
+# Add provider metadata
+acc_df['provider'] = acc_df['model'].apply(
+    lambda x: models_csv.loc[models_csv['model_id'] == x, 'provider'].values[0]
+    if x in models_csv['model_id'].values else 'Unknown'
+)
 
 print("Accuracy DataFrame shape:", acc_df.shape)
+print("Categories:", acc_df['category'].unique())
 acc_df.head()
 
 # %%
 # save acc_df to csv
-acc_df.to_csv(FIGS_DIR / "cdpk_multilingual_model_performance.csv", index=False)
-
-
-
-
-
-
-
-
+acc_df.to_csv(OUTPUT_DIR / "cdpk_multilingual_model_performance.csv", index=False)
 
 
 
 # %%
-# Latency plots
+# Build latency_df from full CSVs
 
-all_dfs = []
+latency_rows = []
 
-for model_folder in model_folders:
+print(f"Processing {len(language_folders)} language folders for latency_df...")
 
-    # --- Robust Folder Name Parsing ---
-    name_parts = model_folder.replace("CDPK_", "").split("_")
+for folder_info in language_folders:
+    folder_path = folder_info["path"]
+    language = folder_info["language"]
+    english_prompt = folder_info["english_prompt"]
 
-    # Check for and remove the english prompt flag
-    if "ep" in name_parts:
-        english_prompt = True
-        name_parts.remove("ep")
-    else:
-        english_prompt = False
-        
-    # Assume category is the last part, and language is everything before it
-    category = name_parts[-1].capitalize()
-    language = "_".join(name_parts[:-1]).capitalize().replace("_new", "")
-    # --- End of Parsing ---
+    full_file = list(folder_path.glob("cdpk_results_full_*.csv"))[0]
+    full_df = pd.read_csv(full_file)
+    models = get_models_from_full_csv(full_df)
 
-    # Find all CSV files in the folder
-    files = list((CACHE_LOCAL_DIR / model_folder).glob("*.csv"))
+    # Count questions per category (from the data itself)
+    category_counts = full_df['category'].value_counts().to_dict()
 
-    for file in files:
-        df_res = pd.read_csv(file)
-        model_name = file.stem
-        model = model_name.replace("resps_", "")
+    for model in models:
+        if model in MODELS_TO_EXCLUDE:
+            continue
 
-        if model in MODELS_TO_EXCUDE:
-            continue  # skip these models as newer versions exist
-        
-        total_latency = df_res['Latency'].sum()
+        lat_col = f"Latency_{model}"
+        if lat_col not in full_df.columns:
+            continue
 
-        row = {
+        # Per-category latency
+        for cat, group in full_df.groupby("category"):
+            total_latency = group[lat_col].sum()
+            n_questions = category_counts.get(cat, 1)
+            latency_rows.append({
+                'model': model,
+                'language': language,
+                'english_prompt': english_prompt,
+                'category': cat,
+                'total latency time (s)': total_latency,
+                'latency per question (s)': total_latency / n_questions,
+            })
+
+        # Overall latency
+        total_latency_all = full_df[lat_col].sum()
+        n_questions_all = len(full_df)
+        latency_rows.append({
             'model': model,
-            'question config': model_folder,
             'language': language,
             'english_prompt': english_prompt,
-            'category': category,
-            'total latency time (s)': total_latency
-        }
-        df_latency = pd.DataFrame([row])
-        all_dfs.append(df_latency)
+            'category': 'Overall',
+            'total latency time (s)': total_latency_all,
+            'latency per question (s)': total_latency_all / n_questions_all,
+        })
 
-latency_df = pd.concat(all_dfs, ignore_index=True)
+latency_df = pd.DataFrame(latency_rows)
 
-#latency_df['language'] = latency_df['question config'].apply(lambda x: x.split('_')[1])
-#latency_df['category'] = latency_df['question config'].apply(lambda x: x.split('_')[-1].capitalize())
-# add latency per question column, use iterrows
-latency_df['latency per question (s)'] = latency_df.apply(lambda row: row['total latency time (s)'] / categories_cdpk_dict.get(row['category'], 1), axis=1)
-# create latency per question by taking median, not mean
-#latency_df['latency per question (s)'] = latency_df['latency per question (s)'].median()
+# For English, duplicate with english_prompt=True (questions are already in English)
+english_rows = latency_df[(latency_df['language'] == 'English') & (latency_df['english_prompt'] == False)].copy()
+if len(english_rows) > 0:
+    english_rows['english_prompt'] = True
+    latency_df = pd.concat([latency_df, english_rows], ignore_index=True)
 
-# add column to see if prompt in English, True if "ep" in 3rd group of question config
-#latency_df['english_prompt'] = latency_df['question config'].apply(lambda x: True if 'ep' in x.split('_')[2] else False)
-
-# add column display_name from models_csv, provider from providers_csv
-#latency_df['display_name'] = latency_df['model'].apply(lambda x: models_csv.loc[models_csv['model_id'] == x, 'display_name'].values[0] if x in models_csv['model_id'].values else x)
-latency_df['provider'] = latency_df['model'].apply(lambda x: models_csv.loc[models_csv['model_id'] == x, 'provider'].values[0] if x in models_csv['model_id'].values else 'Unknown')
+# Add provider metadata
+latency_df['provider'] = latency_df['model'].apply(
+    lambda x: models_csv.loc[models_csv['model_id'] == x, 'provider'].values[0]
+    if x in models_csv['model_id'].values else 'Unknown'
+)
 
 print("Latency DataFrame shape:", latency_df.shape)
 print(latency_df['language'].value_counts())
@@ -389,248 +431,136 @@ print(latency_df['category'].value_counts())
 latency_df.head()
 
 # %%
-# save acc_df to csv
-latency_df.to_csv(FIGS_DIR / "cdpk_multilingual_model_latency.csv", index=False)
-
-
-
+# save latency_df to csv
+latency_df.to_csv(OUTPUT_DIR / "cdpk_multilingual_model_latency.csv", index=False)
 
 
 # %%
+# Build acc_df_detailed from full CSVs
 
-# Latency and tokens count deeper analysis
-    
+# TODO: Implement DeepSeek reasoning token counting from cache_local raw responses.
+# The new full CSV only stores cleaned single-letter predictions (pred_*), not raw text.
+# For fw-deepseek-r1-0528, TokensUsedReasoning will be empty/0.
+# To fix: read raw responses from CACHE_LOCAL_DIR/CDPK_[lang]_[ep_][category]/resps_fw-deepseek-r1-0528.csv
+# and use tokenizer to count tokens in <think>...</think> blocks.
 
-# -----------------------------------------------------------------------------
-# 1. SETUP: Pattern & Tokenizers (Global Scope)
-# -----------------------------------------------------------------------------
-
-# Pattern to capture thinking blocks (including tags)
-# Note: This is defined outside as requested
-THINK_PATTERN = r'(<think>.*?</think>)'
-
-# Load Tokenizer 1: DeepSeek (Transformers)
-try:
-    # Using the specific model from your snippet
-    deepseek_tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/DeepSeek-R1-0528")
-    print("DeepSeek tokenizer loaded successfully.")
-except (OSError, ValueError):
-    print("Warning: DeepSeek tokenizer not found. Using fallback or verify path.")
-    deepseek_tokenizer = None
-
-# Load Tokenizer 2: OpenAI/TikToken (cl100k)
-cl100k_encoder = tiktoken.get_encoding("cl100k_base")
-
-# %%
-# -----------------------------------------------------------------------------
-# 2. UNIFIED FUNCTION
-# -----------------------------------------------------------------------------
-
-def count_tokens(text, tokenizer, tokenizer_name):
-    """
-    Unified function to count tokens for a given text string.
-    
-    Args:
-        text (str): The text to count.
-        tokenizer: The tokenizer object 
-                   
-    Returns:
-        int: Number of tokens.
-    """
-    if pd.isna(text):
-        return 0
-    
-    text = str(text)
-    
-    # ---------------------------------------------------------
-    # Case A: Hugging Face Tokenizers (DeepSeek, Llama, etc.)
-    # ---------------------------------------------------------
-    if tokenizer_name == "deepseek":
-        # add_special_tokens=False is CRITICAL to avoid inflating counts 
-        # with invisible "Start of Sentence" tokens.
-        return len(tokenizer.encode(text, add_special_tokens=False))
-    
-    # ---------------------------------------------------------
-    # Case B: TikToken (OpenAI cl100k, p50k, etc.)
-    # ---------------------------------------------------------
-    elif tokenizer_name == "cl100k":
-        # Tiktoken objects don't support 'add_special_tokens'
-        return len(tokenizer.encode(text))
-    else:
-        raise ValueError(f"Unknown tokenizer type: {type(tokenizer)}")
-
-def extract_and_count_think(text, tokenizer, tokenizer_name):
-        if pd.isna(text): return 0
-        # 1. Extract (Logic outside the count function)
-        matches = re.findall(THINK_PATTERN, str(text), re.DOTALL | re.IGNORECASE)
-        content_to_count = "".join(matches)
-        # 2. Count
-        return count_tokens(content_to_count, tokenizer, tokenizer_name)
-    
+def clean_list(lst):
+    """Replaces any NaN/nat with None in a list"""
+    return [None if pd.isna(x) else x for x in lst]
 
 acc_rows_detailed = []
-model_folders = [f for f in os.listdir(CACHE_LOCAL_DIR) if f.startswith("CDPK_")]
 
-def clean_list(list):
-    """Replaces any NaN/nat with None in a list"""
-    # very important when saving to csv later
-    return [None if pd.isna(x) else x for x in list]
+print(f"Processing {len(language_folders)} language folders for acc_df_detailed...")
 
-for model_folder in model_folders:
-    # --- Robust Folder Name Parsing ---
-    name_parts = model_folder.replace("CDPK_", "").split("_")
-    
-    # Check for and remove the english prompt flag
-    if "ep" in name_parts:
-        english_prompt = True
-        name_parts.remove("ep")
-    else:
-        english_prompt = False
-        
-    # Assume category is the last part, and language is everything before it
-    category = name_parts[-1].capitalize()
-    language = "_".join(name_parts[:-1]).capitalize().replace("_new", "")
-    # --- End of Parsing ---
+for folder_info in language_folders:
+    folder_path = folder_info["path"]
+    language = folder_info["language"]
+    english_prompt = folder_info["english_prompt"]
 
-    # Find all CSV files in the folder
-    files = list((CACHE_LOCAL_DIR / model_folder).glob("*.csv"))
+    full_file = list(folder_path.glob("cdpk_results_full_*.csv"))[0]
+    full_df = pd.read_csv(full_file)
+    models = get_models_from_full_csv(full_df)
 
-    for file in files:
-        df_res = pd.read_csv(file)
-        model_name = file.stem
-        model = model_name.replace("resps_", "")
+    for model in models:
+        if model in MODELS_TO_EXCLUDE:
+            continue
 
-        if model in MODELS_TO_EXCUDE:
-            continue  # skip these models as newer versions exist
-        
-        # Manually count tokens for Deepseek before cleaning responses
-        if model == "fw-deepseek-r1-0528":
-            tokenizer=deepseek_tokenizer
-            tokenizer_name="deepseek"
-            #tokenizer=cl100k_encoder
-            #tokenizer_name="cl100k"
-            
-            # Reasoning tokens  (use <think>...</think> tags)
-            tokens_used_reasoning = df_res['resps'].apply(lambda x:
-                extract_and_count_think(x, tokenizer=tokenizer, tokenizer_name=tokenizer_name)
-            ).values
-            # Recount completion tokens using same tokenizer
-            tokens_used_completion_new = df_res['resps'].apply(lambda x:
-                count_tokens(x, tokenizer=tokenizer, tokenizer_name=tokenizer_name)
-            ).values
-            # Update original completion tokens = new - reasoning
-            tokens_used_completion = tokens_used_completion_new - tokens_used_reasoning
+        pred_col = f"pred_{model}"
+        lat_col = f"Latency_{model}"
+        tok_col = f"TokensUsed_{model}"
+        tok_comp_col = f"TokensUsedCompletion_{model}"
+        tok_reas_col = f"TokensUsedReasoning_{model}"
 
-            # print original answer
-            #print(f"#####\nOriginal response example:\n{df_res['resps'].values[0]}\n######\n")
-        else:
-            tokens_used_completion = df_res['TokensUsedCompletion'].values
-            tokens_used_reasoning = df_res['TokensUsedReasoning'].values
-        # Tokens used do not change
-        tokens_used = df_res['TokensUsed'].values
+        # Check required columns exist
+        if pred_col not in full_df.columns:
+            continue
 
-        # process dataframe (assuming clean_resps and clean_answers are defined)
-        df_res["resps"] = df_res["resps"].apply(clean_resps)
-        df_res["answers"] = df_res["answers"].apply(clean_answers)
+        # Per-category detailed data
+        for cat, group in full_df.groupby("category"):
+            preds = group[pred_col]
+            correct_answers = group["correct_answer"]
 
-        correct = (df_res["resps"] == df_res["answers"]).values
-        bad_format = df_res["resps"].isna().values
+            correct = (preds == correct_answers).values
+            bad_format = preds.isna().values
+            latency = group[lat_col].values if lat_col in group.columns else np.full(len(group), np.nan)
+            tokens_used = group[tok_col].values if tok_col in group.columns else np.full(len(group), np.nan)
+            tokens_completion = group[tok_comp_col].values if tok_comp_col in group.columns else np.full(len(group), np.nan)
+            tokens_reasoning = group[tok_reas_col].values if tok_reas_col in group.columns else np.full(len(group), np.nan)
 
-        # print examples if completion tokens > 1
-        #if model == "fw-deepseek-r1-0528":
-        #   print(f"Model: {model}, Language: {language}, Category: {category}, English Prompt: {english_prompt}")
-        #   for idx in high_token_indices[:3]:  # print first 3 examples
-        #       #print(f"Example index: {idx}")
-        #       print(f"Response: {df_res['resps'].iloc[idx]}")
-        #       print(f"Answer: {df_res['answers'].iloc[idx]}")
-        #       print(f"Total Tokens Used: {df_res['TokensUsed'].iloc[idx]}")
-        #       print(f"Completion Tokens Used Original: {df_res['TokensUsedCompletion'].iloc[idx]}")
-        #       print(f"Reasoning Tokens Used: {df_res['TokensUsedReasoning'].iloc[idx]}")
-        #       print("\nAfter deepseek adaptation:")
-        #       print(f"Total Tokens Used Adapted: {tokens_used[idx]}")
-        #       print(f"Completion Tokens Used Adapted: {tokens_used_completion[idx]}")
-        #       print(f"Reasoning Tokens Used: {tokens_used_reasoning[idx]}\n")
-        #       break
+            row = {
+                "category": cat,
+                "model": model,
+                "language": language,
+                "english_prompt": english_prompt,
+                "correct": clean_list(correct.tolist()),
+                "bad_format": clean_list(bad_format.tolist()),
+                "Latency": clean_list(latency.tolist()),
+                "TokensUsed": clean_list(tokens_used.tolist()),
+                "TokensUsedCompletion": clean_list(tokens_completion.tolist()),
+                "TokensUsedReasoning": clean_list(tokens_reasoning.tolist()),
+            }
+            acc_rows_detailed.append(row)
 
+        # Overall (all categories combined)
+        preds_all = full_df[pred_col]
+        correct_answers_all = full_df["correct_answer"]
 
-        # Append a dictionary for this specific result directly to the list
+        correct_all = (preds_all == correct_answers_all).values
+        bad_format_all = preds_all.isna().values
+        latency_all = full_df[lat_col].values if lat_col in full_df.columns else np.full(len(full_df), np.nan)
+        tokens_used_all = full_df[tok_col].values if tok_col in full_df.columns else np.full(len(full_df), np.nan)
+        tokens_comp_all = full_df[tok_comp_col].values if tok_comp_col in full_df.columns else np.full(len(full_df), np.nan)
+        tokens_reas_all = full_df[tok_reas_col].values if tok_reas_col in full_df.columns else np.full(len(full_df), np.nan)
+
         row = {
-            "category": category,
+            "category": "Overall",
             "model": model,
             "language": language,
             "english_prompt": english_prompt,
-            "correct": clean_list(correct.tolist()),
-            "bad_format": clean_list(bad_format.tolist()),
-            "Latency": clean_list(df_res['Latency'].values.tolist()),
-            "TokensUsed": clean_list(tokens_used.tolist()),
-            "TokensUsedCompletion": clean_list(tokens_used_completion.tolist()),
-            "TokensUsedReasoning": clean_list(tokens_used_reasoning.tolist())
+            "correct": clean_list(correct_all.tolist()),
+            "bad_format": clean_list(bad_format_all.tolist()),
+            "Latency": clean_list(latency_all.tolist()),
+            "TokensUsed": clean_list(tokens_used_all.tolist()),
+            "TokensUsedCompletion": clean_list(tokens_comp_all.tolist()),
+            "TokensUsedReasoning": clean_list(tokens_reas_all.tolist()),
         }
         acc_rows_detailed.append(row)
-        
+
 # Convert the list of rows to a DataFrame
 acc_df_detailed = pd.DataFrame(acc_rows_detailed)
 
-# add metadata from models_csv
-#acc_df_detailed['display_name'] = acc_df_detailed['model'].apply(lambda x: models_csv.loc[models_csv['model_id'] == x, 'display_name'].values[0] if x in models_csv['model_id'].values else x)
-acc_df_detailed['provider'] = acc_df_detailed['model'].apply(lambda x: models_csv.loc[models_csv['model_id'] == x, 'provider'].values[0] if x in models_csv['model_id'].values else 'Unknown')
-print(acc_df_detailed.shape)
-acc_df_detailed.head()
+# For English, duplicate with english_prompt=True (questions are already in English)
+english_rows = acc_df_detailed[(acc_df_detailed['language'] == 'English') & (acc_df_detailed['english_prompt'] == False)].copy()
+if len(english_rows) > 0:
+    english_rows['english_prompt'] = True
+    acc_df_detailed = pd.concat([acc_df_detailed, english_rows], ignore_index=True)
 
+# Add provider metadata
+acc_df_detailed['provider'] = acc_df_detailed['model'].apply(
+    lambda x: models_csv.loc[models_csv['model_id'] == x, 'provider'].values[0]
+    if x in models_csv['model_id'].values else 'Unknown'
+)
+
+print("Detailed DataFrame shape:", acc_df_detailed.shape)
+print("Categories:", acc_df_detailed['category'].unique())
+acc_df_detailed.head()
 
 # %%
 # save acc_df_detailed to csv
-acc_df_detailed.to_csv(FIGS_DIR / "cdpk_multilingual_model_performance_detailed.csv", index=False)
-
+acc_df_detailed.to_csv(OUTPUT_DIR / "cdpk_multilingual_model_performance_detailed.csv", index=False)
 
 # %%
-# Check code
+# Check code - DeepSeek token usage
 deepseek_df = acc_df_detailed[acc_df_detailed['model'] == 'fw-deepseek-r1-0528']
 
-# plot all the values of TokensUsedCompletion where english_prompt is True
 deepseek_df_ep = deepseek_df[deepseek_df['english_prompt'] == True].reset_index(drop=True)
-deepseek_df_ep_exploded = deepseek_df_ep.explode(
-    ['correct', 'bad_format', 'Latency', 'TokensUsed', 'TokensUsedCompletion', 'TokensUsedReasoning']
-).reset_index(drop=True)
-print(deepseek_df_ep_exploded.shape)
-print(deepseek_df_ep_exploded['english_prompt'].value_counts())
-deepseek_df_ep_exploded.head(2)
-
-# %%
-# check code
-# plot 3 countplots: tokens used, tokens used completion, tokens used reasoning
-
-fig, axs = plt.subplots(1, 3, figsize=(18, 5))
-fig.suptitle(f'DeepSeek R1 Token Usage Distribution (English Prompt) - {tokenizer_name} tokenizer', fontsize=16, y=1.03)
-
-# Tokens Used
-sns.histplot(data=deepseek_df_ep_exploded,x='TokensUsed',bins=30,color='#1f77b4',ax=axs[0])
-axs[0].set_title('Total Tokens Used', fontsize=12)
-axs[0].set_xlabel('Tokens Used', fontsize=10)
-axs[0].set_ylabel('Count', fontsize=10)
-axs[0].grid(True, linestyle='--', alpha=0.6)
-
-# Tokens Used Completion
-sns.histplot(data=deepseek_df_ep_exploded,x='TokensUsedCompletion',bins=30,color='#ff7f0e',ax=axs[1])
-axs[1].set_title('Completion Tokens Used', fontsize=12)
-axs[1].set_xlabel('Completion Tokens Used', fontsize=10)
-axs[1].set_ylabel('Count', fontsize=10)
-axs[1].grid(True, linestyle='--', alpha=0.6)
-
-# Tokens Used Reasoning
-sns.histplot(data=deepseek_df_ep_exploded,x='TokensUsedReasoning',bins=30,color='#2ca02c',ax=axs[2])
-axs[2].set_title('Reasoning Tokens Used', fontsize=12)
-axs[2].set_xlabel('Reasoning Tokens Used', fontsize=10)
-axs[2].set_ylabel('Count', fontsize=10)
-axs[2].grid(True, linestyle='--', alpha=0.6)
-plt.tight_layout()
-
-# %%
-# compare how both tokenizer tokenize "<think> This is a test. </think>"
-#test_text = "</think>"# Test </think>"
-#deepseek_tokens = deepseek_tokenizer.encode(test_text, add_special_tokens=False) if deepseek_tokenizer else []
-#cl100k_tokens = cl100k_encoder.encode(test_text)
-#print(f"Test Text: {test_text}")
-#print(f"DeepSeek Tokens ({len(deepseek_tokens)}): {deepseek_tokens}")
-#print(f"cl100k Tokens ({len(cl100k_tokens)}): {cl100k_tokens}")
+if len(deepseek_df_ep) > 0:
+    deepseek_df_ep_exploded = deepseek_df_ep.explode(
+        ['correct', 'bad_format', 'Latency', 'TokensUsed', 'TokensUsedCompletion', 'TokensUsedReasoning']
+    ).reset_index(drop=True)
+    print(deepseek_df_ep_exploded.shape)
+    print(deepseek_df_ep_exploded['english_prompt'].value_counts())
+    deepseek_df_ep_exploded.head(2)
+else:
+    print("No DeepSeek EP data found.")
 
