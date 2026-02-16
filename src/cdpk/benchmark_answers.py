@@ -102,8 +102,6 @@ def evaluate_model(test_df, config, model, verbose=0):
     resps = list()
     success = list()
 
-    extra_body = {}
-
     for rowi in tqdm(range(len(example_rows), total_row)):
 
         prompt = gen_prompt(
@@ -127,14 +125,11 @@ def evaluate_model(test_df, config, model, verbose=0):
                 temperature = 1
             else:
                 temperature = 0
-            if extra_body:
-                response = caller.call(
-                    msg, max_tokens=None, temperature=temperature, extra_body=extra_body
-                ).Message
-            else:
-                response = caller.call(
-                    msg, max_tokens=None, temperature=temperature
-                ).Message
+
+            response = caller.call(
+                msg, max_tokens=None, temperature=temperature
+            ).Message
+            
             if verbose > 0:
                 print(response)
             resps.append(response)
