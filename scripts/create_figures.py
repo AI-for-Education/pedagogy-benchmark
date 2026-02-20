@@ -38,15 +38,6 @@ print(f"Accuracy df shape (category={CATEGORY_TO_PLOT}):", acc_df.shape)
 acc_df.head()
 
 # %%
-# Latency dataframe
-latency_df_all = pd.read_csv(RESULTS_DIR / "cdpk_multilingual_model_latency.csv")
-print("Latency df shape (all categories):", latency_df_all.shape)
-
-latency_df = latency_df_all[latency_df_all['category'] == CATEGORY_TO_PLOT].reset_index(drop=True)
-print(f"Latency df shape (category={CATEGORY_TO_PLOT}):", latency_df.shape)
-latency_df.head()
-
-# %%
 # Results dataframe detailed
 acc_df_detailed_all = pd.read_csv(RESULTS_DIR / "cdpk_multilingual_model_performance_detailed.csv")
 cols_to_fix = ['correct', 'bad_format', 'Latency', 'TokensUsed', 'TokensUsedCompletion', 'TokensUsedReasoning']
@@ -60,32 +51,24 @@ acc_df_detailed.head(2)
 
 # %%
 # Test whether all dataframes imported have same models
-if set(acc_df['model'].unique()) == set(latency_df['model'].unique()) == set(acc_df_detailed['model'].unique()):
+if set(acc_df['model'].unique()) == set(acc_df_detailed['model'].unique()):
     print("✅ All dataframes have the same set of models.")
 else:
     print("❌ Dataframes have different sets of models.")
-    # print only the differences
     acc_models = set(acc_df['model'].unique())
-    latency_models = set(latency_df['model'].unique())
     detailed_models = set(acc_df_detailed['model'].unique())
 
-    diff_acc_latency = acc_models.symmetric_difference(latency_models)
     diff_acc_detailed = acc_models.symmetric_difference(detailed_models)
-    diff_latency_detailed = latency_models.symmetric_difference(detailed_models)
 
-    if diff_acc_latency:
-        print(" - Models differing between Accuracy and Latency dataframes:", diff_acc_latency)
     if diff_acc_detailed:
         print(" - Models differing between Accuracy and Detailed Accuracy dataframes:", diff_acc_detailed)
-    if diff_latency_detailed:
-        print(" - Models differing between Latency and Detailed Accuracy dataframes:", diff_latency_detailed)
     
 
 # %%
 # Add display names to dataframes
 new_models_names = {
     'claude-sonnet-4-5-20250929': 'Claude Sonnet 4.5',
-    'fw-deepseek-r1-0528': 'Deepseek R1',
+    'deepseek-r1-0528-fp8': 'Deepseek R1',
     'gemini-2.5-flash-lite-preview-09-2025': 'Gemini-2.5 Flash-Lite',
     #'gemini-2.5-flash-preview-09-2025': 'Gemini-2.5 Flash',
     'gemini-3-flash-preview': 'Gemini-3 Flash',
@@ -100,7 +83,6 @@ new_models_names = {
 }
 
 acc_df['display_name'] = acc_df['model'].map(new_models_names)
-latency_df['display_name'] = latency_df['model'].map(new_models_names)
 acc_df_detailed['display_name'] = acc_df_detailed['model'].map(new_models_names)
 
 # %%
@@ -559,23 +541,17 @@ plot_avg_heatmap(pivot_df_bf_ep_avg,
 # %%
 # --- 1. Pivot the data to create a matrix ---
 
-latency_df_langp = latency_df[latency_df['english_prompt'] == False]
-latency_df_ep = latency_df[latency_df['english_prompt'] == True]
-
-print("Latency DataFrame shape:", latency_df_langp.shape)
-print("Latency DataFrame (English Prompt) shape:", latency_df_ep.shape)
-
 # %%
-pivot_df_latency = latency_df_langp.pivot_table(
+pivot_df_latency = acc_df_langp.pivot_table(
     index='display_name',
     columns='language',
-    values='latency per question (s)'
+    values='Latency Mean'
 )
 
-pivot_df_latency_ep = latency_df_ep.pivot_table(
+pivot_df_latency_ep = acc_df_ep.pivot_table(
     index='display_name',
     columns='language',
-    values='latency per question (s)'
+    values='Latency Mean'
 )
 
 # order index based on size in MODELS_METADATA_MAPPING
@@ -968,7 +944,7 @@ reasoning_shortlist = {
     #'o4-mini-2025-04-16',
     #'gemini-2.5-pro-preview-06-05', 
     'gemini-3-pro-preview',
-    'fw-deepseek-r1-0528',
+    'deepseek-r1-0528-fp8',
     #'qwen-3-32b', # missing reasoning tokens for swahili
 }
 

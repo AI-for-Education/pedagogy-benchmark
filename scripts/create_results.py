@@ -9,7 +9,6 @@ import json
 from pathlib import Path
 from collections import defaultdict
 import tiktoken
-#from transformers import AutoTokenizer # to run tokenizer for deepseek
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -23,6 +22,7 @@ MODELS_TO_EXCLUDE = [
     "gemini-2.5-pro-preview-06-05",
     "gemini-2.5-flash-preview-09-2025",
     "gpt-5-2025-08-07-medium",
+    "fw-deepseek-r1-0528",
 ]
 
 CATEGORY_TO_PLOT = "Overall"  # options: "Science", "Literacy", "Creative arts", "Maths", "Social studies", "Technology", "General", "Overall"
@@ -33,7 +33,6 @@ models_csv = pd.read_csv(FAB_CONFIGS_DIR / "models.csv")
 providers_csv = pd.read_csv(FAB_CONFIGS_DIR / "providers.csv")
 
 # %%
-
 # Helper: discover populated language subfolders in data/results/
 def discover_language_folders(results_dir):
     """Scan results_dir for populated language subfolders.
@@ -212,7 +211,7 @@ MODELS_METADATA_MAPPING = {
         "reasoning": True,
     },
     "Deepseek R1": {
-        "model_id": "fw-deepseek-r1-0528",
+        "model_id": "deepseek-r1-0528-fp8",
         "size": "Large",
         "reasoning": True,
     },
@@ -259,7 +258,7 @@ MODELS_METADATA_MAPPING = {
 }
 
 # %%
-# Build acc_df from accuracy + bad_format CSVs and latency from full CSV
+# Build acc_df from accuracy + bad_format CSVs and latency from full CSV in results/
 
 acc_rows = []
 
@@ -359,90 +358,11 @@ acc_df.to_csv(OUTPUT_DIR / "cdpk_multilingual_model_performance.csv", index=Fals
 
 
 
-# %%
-# Build latency_df from full CSVs
-
-latency_rows = []
-
-print(f"Processing {len(language_folders)} language folders for latency_df...")
-
-for folder_info in language_folders:
-    folder_path = folder_info["path"]
-    language = folder_info["language"]
-    english_prompt = folder_info["english_prompt"]
-
-    full_file = list(folder_path.glob("cdpk_results_full_*.csv"))[0]
-    full_df = pd.read_csv(full_file)
-    models = get_models_from_full_csv(full_df)
-
-    # Count questions per category (from the data itself)
-    category_counts = full_df['category'].value_counts().to_dict()
-
-    for model in models:
-        if model in MODELS_TO_EXCLUDE:
-            continue
-
-        lat_col = f"Latency_{model}"
-        if lat_col not in full_df.columns:
-            continue
-
-        # Per-category latency
-        for cat, group in full_df.groupby("category"):
-            total_latency = group[lat_col].sum()
-            n_questions = category_counts.get(cat, 1)
-            latency_rows.append({
-                'model': model,
-                'language': language,
-                'english_prompt': english_prompt,
-                'category': cat,
-                'total latency time (s)': total_latency,
-                'latency per question (s)': total_latency / n_questions,
-            })
-
-        # Overall latency
-        total_latency_all = full_df[lat_col].sum()
-        n_questions_all = len(full_df)
-        latency_rows.append({
-            'model': model,
-            'language': language,
-            'english_prompt': english_prompt,
-            'category': 'Overall',
-            'total latency time (s)': total_latency_all,
-            'latency per question (s)': total_latency_all / n_questions_all,
-        })
-
-latency_df = pd.DataFrame(latency_rows)
-
-# For English, duplicate with english_prompt=True (questions are already in English)
-english_rows = latency_df[(latency_df['language'] == 'English') & (latency_df['english_prompt'] == False)].copy()
-if len(english_rows) > 0:
-    english_rows['english_prompt'] = True
-    latency_df = pd.concat([latency_df, english_rows], ignore_index=True)
-
-# Add provider metadata
-latency_df['provider'] = latency_df['model'].apply(
-    lambda x: models_csv.loc[models_csv['model_id'] == x, 'provider'].values[0]
-    if x in models_csv['model_id'].values else 'Unknown'
-)
-
-print("Latency DataFrame shape:", latency_df.shape)
-print(latency_df['language'].value_counts())
-print(latency_df['category'].value_counts())
-latency_df.head()
 
 # %%
-# save latency_df to csv
-latency_df.to_csv(OUTPUT_DIR / "cdpk_multilingual_model_latency.csv", index=False)
-
-
-# %%
-# Build acc_df_detailed from full CSVs
-
-# TODO: Implement DeepSeek reasoning token counting from cache_local raw responses.
-# The new full CSV only stores cleaned single-letter predictions (pred_*), not raw text.
-# For fw-deepseek-r1-0528, TokensUsedReasoning will be empty/0.
-# To fix: read raw responses from CACHE_LOCAL_DIR/CDPK_[lang]_[ep_][category]/resps_fw-deepseek-r1-0528.csv
-# and use tokenizer to count tokens in <think>...</think> blocks.
+# Build acc_df_detailed from full CSVs in results/, 
+# extracting per-question correctness, bad_format, latency, 
+# and token usage for each model and category
 
 def clean_list(lst):
     """Replaces any NaN/nat with None in a list"""
@@ -549,18 +469,6 @@ acc_df_detailed.head()
 # save acc_df_detailed to csv
 acc_df_detailed.to_csv(OUTPUT_DIR / "cdpk_multilingual_model_performance_detailed.csv", index=False)
 
+
+
 # %%
-# Check code - DeepSeek token usage
-deepseek_df = acc_df_detailed[acc_df_detailed['model'] == 'fw-deepseek-r1-0528']
-
-deepseek_df_ep = deepseek_df[deepseek_df['english_prompt'] == True].reset_index(drop=True)
-if len(deepseek_df_ep) > 0:
-    deepseek_df_ep_exploded = deepseek_df_ep.explode(
-        ['correct', 'bad_format', 'Latency', 'TokensUsed', 'TokensUsedCompletion', 'TokensUsedReasoning']
-    ).reset_index(drop=True)
-    print(deepseek_df_ep_exploded.shape)
-    print(deepseek_df_ep_exploded['english_prompt'].value_counts())
-    deepseek_df_ep_exploded.head(2)
-else:
-    print("No DeepSeek EP data found.")
-

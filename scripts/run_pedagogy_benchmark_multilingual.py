@@ -85,18 +85,19 @@ def main(opt):
         if opt.benchmark == "cdpk":
             #opt.models_config = "cdpk_online_leaderboard"
             opt.models_config = "full_list_20251015_small"
+            #opt.models_config = "full_list_default_models_20260218"
         elif opt.benchmark == "send":
             opt.models_config = "send_online_leaderboard"
         else:
             raise NotImplementedError(f"'benchmark' must be one of 'send' or 'cdpk'")
     config_models_PK = opt.models_config
-    #
+    
     if opt.output_folder is None:
         res_dir = ROOT / "data" / "results" / language_slug
     else:
         res_dir = Path(opt.output_folder) / language_slug
     res_dir.mkdir(exist_ok=True, parents=True)
-    #
+    
     category_df_list = []
     accuracies_df = pd.DataFrame()
     bad_format_df = pd.DataFrame()
