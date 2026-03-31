@@ -152,7 +152,10 @@ language_list = [
     "Swahili",
     "Hausa",
     "Yoruba",
-    "English"
+    "English",
+    "Pashto",
+    "Dari",
+    "Arabic"
 ]
 
 language_speakers_dict = {
@@ -161,7 +164,10 @@ language_speakers_dict = {
   "Luganda": 6e6,
   "Hausa": 94e6,
   "Yoruba": 50e6,
-  "Nyankore": 3e6
+  "Nyankore": 3e6,
+  "Arabic": 335e6,
+  "Pashto": 55e6,
+  "Dari": 30e6
 }
 
 # import code from pedagogy benchmark code to clean resp files and create acc dataframes
@@ -205,7 +211,7 @@ def plot_heatmap(pivot_df,
     pivot_df = pivot_df[sorted(pivot_df.columns, key=lambda x: language_speakers_dict.get(x, 0), reverse=True)]
 
     # --- 2. Create the heatmap ---
-    plt.figure(figsize=(11, 6))
+    plt.figure(figsize=(14, 6))
 
     ax = sns.heatmap(
         pivot_df,

@@ -1,6 +1,6 @@
 outs:
-- md5: 9c10931f222178eccb1c88341b96ed99.dir
-  size: 12567675
-  nfiles: 16
+- md5: a811e98c0c01a04b1a304ab41ec2d2f3.dir
+  size: 19492389
+  nfiles: 22
   hash: md5
   path: pedagogy_benchmark_full_datasets

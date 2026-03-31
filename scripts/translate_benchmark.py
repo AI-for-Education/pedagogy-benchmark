@@ -1,40 +1,78 @@
+"""
+Translate the Pedagogy Benchmark (CDPK) dataset into a target language using Gemini.
+
+Usage
+-----
+1. **Interactive window (VS Code / Jupyter)**
+   - Open this file in VS Code and run cells with "Run Cell" (Ctrl+Shift+Enter).
+   - Edit the CONFIGURATION section below to set LANGUAGE, OUTPUT_FILE, and VERIFY
+     before running.
+
+2. **CLI (terminal)**
+   - Run directly with:
+       uv run python scripts/translate_benchmark.py
+   - To change the target language or other options, edit the CONFIGURATION
+     section at the top of the file before running.
+
+Configuration
+-------------
+LANGUAGE : str
+    Target language key (e.g. 'luganda', 'swahili', 'hausa', 'yoruba', 'nyankore').
+    See `cdpk.language_prompts.list_available_languages()` for all options.
+OUTPUT_FILE : str or None
+    Custom output CSV filename. Leave as None to auto-generate
+    'pedagogy_benchmark_{language}_cdpk.csv'.
+VERIFY : bool
+    If True, after the initial translation pass the script checks for missing
+    (None/NaN) cells and retranslates them, saving a '_cleaned.csv' variant.
+
+Environment
+-----------
+Requires a GEMINI_API_KEY environment variable (or set in a .env file at the
+project root).
+"""
+
 # %%
-import os
-import time
+import json
 import pandas as pd
-#import google.generativeai as genai
-#from google.generativeai import types
-from google import genai
-from google.genai import types
+from pydantic import BaseModel
 from tqdm import tqdm
 from datasets import load_dataset
 from pathlib import Path
 from dotenv import load_dotenv
 import sys
 
+from fdllm import get_caller
+from fdllm.llmtypes import LLMMessage
+from fdllm.sysutils import register_models
+
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
-DATA_DIR = ROOT / "data"
+DATA_DIR = ROOT / "data" / "pedagogy_benchmark_full_datasets"
 
 # Add parent directory to path to import cdpk module
 sys.path.insert(0, str(ROOT / "src"))
-from cdpk.language_prompts import get_language_config
 
-#dotenv_path = ROOT / ".env"
-#load_dotenv(dotenv_path, override=True)
+load_dotenv(override=True)
+
+# Register models from the project's custom_models.yaml
+custom_models_file = ROOT / "fab-benchmarks-configs" / "custom_models.yaml"
+register_models(custom_models_file)
+
+
+class TranslationResult(BaseModel):
+    """Structured output schema for translation responses."""
+    translated_text: str
+
 
 # ==================== CONFIGURATION ====================
 # Available languages: english, luganda, swahili, hausa, yoruba, nyankore, etc.
 # Use list_available_languages() to see all options
-LANGUAGE = 'luganda'
+LANGUAGE = 'Dari'
 OUTPUT_FILE = None  # Optional: Set to a filename like 'pedagogy_benchmark_luganda_cdpk.csv' or leave as None for default
 VERIFY = True  # Set to True to verify and retranslate missing values after initial translation
+MODEL_NAME = 'gemini-2.5-flash-preview-09-2025'  # Must match a key in custom_models.yaml
 # =======================================================
-
-gemini_api_key = os.getenv("GEMINI_API_KEY")
-
-#genai.configure(api_key=gemini_api_key)
-client = genai.Client(api_key=gemini_api_key)
 
 # %%
 # Test API
@@ -43,12 +81,16 @@ def test_gemini_api(model_name: str):
     #model = genai.GenerativeModel(model_name)
     #response = model.generate_content("Why is the sky blue?")
 
-    response = client.models.generate_content(
-        model=model_name,
-        contents="Why is the sky blue?"
-    )
+    #response = client.models.generate_content(
+    #    model=model_name,
+    #    contents="Why is the sky blue?"
+    #)
 
-    return response.text
+    caller = get_caller(model_name)
+    msg = LLMMessage(Role="user", Message="Why is the sky blue?")
+    response = caller.call(msg, max_tokens=None, temperature=0.0)
+
+    return response.Message
 
 # --- Core Translation Logic ---
 def translate_text(
@@ -56,61 +98,69 @@ def translate_text(
     model_name: str,
     target_language: str,
     source_language: str = "English",
-    retries: int = 3,
-    delay: int = 2,
 ) -> str:
     """
-    Translates a single string of text using the Gemini API.
+    Translates a single string of text using fdllm with structured output.
+
+    fdllm provides built-in retry logic (8 attempts, exponential backoff).
+    Uses Pydantic structured output (TranslationResult) to ensure the model
+    returns only the translation without stray explanations.
 
     Args:
         text_to_translate (str): The text to be translated.
+        model_name (str): The registered model name in custom_models.yaml.
         target_language (str): The language to translate the text into.
         source_language (str): The source language of the text.
-        retries (int): Number of times to retry if the API returns an empty string.
-        delay (int): Seconds to wait between retries.
 
     Returns:
         str: The translated text, or None if translation fails.
     """
     if not isinstance(text_to_translate, str) or not text_to_translate.strip():
         return text_to_translate  # Return non-strings or empty strings as is
+    
+    # Add Modern Standard Arabic in parentheses for Arabic translations to help 
+    # the model understand the target language better
+    if target_language.lower() == "arabic":
+        target_language += " (Modern Standard Arabic)"
 
+    #prompt = (
+    #    f"Translate the following text from {source_language} to {target_language}. "
+    #    "Do not add any extra explanations, introductory text, or quotation marks. "
+    #    "Just return the raw translated text.\n\n"
+    #    f"Text to translate: \"{text_to_translate}\""
+    #)
+    
+    # New prompt format from Translate Gemma paper
     prompt = (
-        f"Translate the following text from {source_language} to {target_language}. "
-        "Do not add any extra explanations, introductory text, or quotation marks. "
-        "Just return the raw translated text.\n\n"
-        f"Text to translate: \"{text_to_translate}\""
+        f"You are a professional {source_language} to {target_language} "
+        f"translator. Your goal is to accurately convey the meaning and "
+        f"nuances of the original {source_language} text while adhering to {target_language} grammar, "
+        f"vocabulary, and cultural sensitivities. Produce only the {target_language} "
+        f"translation, without any additional explanations or commentary. Please translate "
+        f"the following {source_language} text into {target_language}:\n\n\n{text_to_translate}"
     )
 
-    for attempt in range(retries):
-        try:
+    try:
+        caller = get_caller(model_name)
+        msg = LLMMessage(Role="user", Message=prompt)
+        response = caller.call(
+            msg,
+            max_tokens=None,
+            temperature=0.0,
+            response_schema=TranslationResult,
+        )
 
-            #model = genai.GenerativeModel(model_name)
-            #response = model.generate_content(prompt)
+        result = json.loads(response.Message)
+        translated_text = result["translated_text"].strip()
 
-            response = client.models.generate_content(
-                model=model_name,
-                contents=prompt
-            )
-
-            translated_text = response.text.strip()
-
-            if translated_text:  # If the response is not empty
-                return translated_text
-            else:
-                # This case handles a successful API call that returns an empty string
-                print(f"Warning: API returned an empty response for '{text_to_translate}'. Retrying ({attempt + 1}/{retries})...")
-        except Exception as e:
-            print(f"Attempt {attempt + 1}/{retries} failed for '{text_to_translate}': {e}")
-            # If this was the last attempt, we exit the loop and return None below
-            if attempt == retries - 1:
-                break
-
-        # Wait before the next retry
-        time.sleep(delay)
-
-    print(f"Error: Translation failed for '{text_to_translate}' after {retries} retries. Returning original text.")
-    return None
+        if translated_text:
+            return translated_text
+        else:
+            print(f"Warning: API returned empty translation for '{text_to_translate[:50]}...'")
+            return None
+    except Exception as e:
+        print(f"Translation failed for '{text_to_translate[:50]}...': {e}")
+        return None
 
 
 def translate_dataframe(
@@ -188,9 +238,16 @@ def translate_dataframe(
 ## Assert that the resulting DataFrame is identical to the expected one
 #pd.testing.assert_frame_equal(result_df, expected_df)
 
-# Translate the Pedagogy Benchmark datasets
+# %%
+# Another test with simple sentence
+#result = translate_text("Hello, how are you?", 
+#                        MODEL_NAME, "Arabic")
+#print(result)  # Should be clean translated text, no JSON wrapper or extra explanation
+
+
 
 # %%
+# Translate the Pedagogy Benchmark datasets
 
 # All the argparse code has been removed from inside it.
 def main(target_lang: str):
@@ -203,7 +260,7 @@ def main(target_lang: str):
     # Test API once
     # Note: 'gemini-2.5-pro' is not a valid public model name.
     # Use a valid one like 'gemini-1.5-pro-latest' or 'gemini-pro'.
-    api_test_response = test_gemini_api(model_name='gemini-2.5-flash-preview-09-2025')
+    api_test_response = test_gemini_api(model_name=MODEL_NAME)
 
     if api_test_response:
         print(f"Gemini API test successful. Starting translation to {target_lang}...")
@@ -226,7 +283,7 @@ def main(target_lang: str):
     cdpk_dataset_translated = translate_dataframe(
         cdpk_dataset_hf,
         #model_name='gemini-2.5-pro',
-        model_name='gemini-2.5-flash-preview-09-2025',
+        model_name=MODEL_NAME,
         columns_to_translate=['question', 'answer_a', 'answer_b', 'answer_c', 'answer_d'],
         target_language=target_lang
     )
@@ -307,9 +364,8 @@ def retranslate_failed_translations(
 # %%
 # Main execution block
 # Get language configuration
-config = get_language_config(LANGUAGE)
-target_language = config['display_name']
-lang_slug = config['slug'].lower()
+target_language = LANGUAGE
+lang_slug = LANGUAGE.lower().replace(" ", "_")
 
 # Default output filename if not provided
 if OUTPUT_FILE is None:
@@ -340,10 +396,59 @@ if VERIFY:
             original_df=cdpk_dataset_hf,
             columns_to_check=col_to_translate,
             target_language=target_language,
-            model_name="gemini-2.5-flash-preview-09-2025"
+            model_name=MODEL_NAME
         )
         # Save the cleaned DataFrame back to CSV
         cleaned_output = output_file.replace(".csv", "_cleaned.csv")
         cleaned_translated_df.to_csv(DATA_DIR / cleaned_output, index=False)
         print(f"Cleaned dataset saved to: {DATA_DIR / cleaned_output}")
+# %%
+# ==================== TRANSLATION ERROR DETECTION ====================
+# Common translation artifacts from Gemini, identified through manual inspection.
+# Typically affects 2-5% of translations.
+#TRANSLATION_ERROR_PATTERNS = {
+#    "silent_thinking": {
+#        "description": "Silent thinking / internal reasoning tokens leaked into the translation",
+#        "keywords": ["think", "thinking", "THINKING", "silent", "sorry", "system", "user"],
+#    },
+#    "multiple_alternatives": {
+#        "description": "Model provides 2-3 alternative translations instead of one",
+#        "keywords": ["or alternatively", "alternatively", "could also be translated as", "another translation", "it could translate to"],
+#    },
+#    "word_repetition": {
+#        "description": "A word or phrase repeated excessively (infinite loop artifact)",
+#        "max_char_length": 2000,
+#    },
+#    "parenthetical_english": {
+#        "description": "English words kept in parentheses alongside the translation",
+#        "regex": r"\([A-Za-z]+\)",
+#    },
+#}
 ## %%
+
+# %%
+# ==================== RETRANSLATE DARI CLEANED FILE ====================
+dari_cleaned_file = "pedagogy_benchmark_dari_cdpk_cleaned.csv"
+dari_translated_df = pd.read_csv(DATA_DIR / dari_cleaned_file)
+
+col_to_check = ['question', 'answer_a', 'answer_b', 'answer_c', 'answer_d']
+n_missing = dari_translated_df[col_to_check].isna().sum().sum()
+print(f"Missing translations in Dari cleaned file: {n_missing}")
+
+if n_missing > 0:
+    from datasets import load_dataset as _load_dataset
+    cdpk_original = pd.DataFrame(
+        _load_dataset("AI-for-Education/pedagogy-benchmark", "cdpk_main", split="train")
+    )
+    dari_cleaned_df = retranslate_failed_translations(
+        translated_df=dari_translated_df,
+        original_df=cdpk_original,
+        columns_to_check=col_to_check,
+        target_language="Dari",
+        model_name=MODEL_NAME,
+    )
+    dari_cleaned_df.to_csv(DATA_DIR / "pedagogy_benchmark_dari_cdpk_cleaned_2.csv", index=False)
+    print(f"Updated Dari cleaned file saved to: {DATA_DIR / 'pedagogy_benchmark_dari_cdpk_cleaned_2.csv'}")
+else:
+    print("No missing translations — Dari cleaned file is complete.")
+# %%

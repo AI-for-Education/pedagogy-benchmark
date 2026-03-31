@@ -18,7 +18,7 @@ DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 # %%
 # ==================== CONFIGURATION ====================
 # Set your language and options here before running the script
-LANGUAGE = 'english'  # Choose from: english, luganda, luganda_ep, swahili, swahili_ep, hausa, hausa_ep, yoruba, yoruba_ep, nyankore, nyankore_ep
+LANGUAGE = 'arabic_ep'  # Choose from: english, luganda, luganda_ep, swahili, swahili_ep, hausa, hausa_ep, yoruba, yoruba_ep, nyankore, nyankore_ep
 USE_QUESTION_ID = False  # Set to True for reviewed datasets, False for cleaned datasets
 # =======================================================
 
@@ -38,14 +38,16 @@ else:
         cdpk_filename = "pedagogy_benchmark_cdpk.csv"
         send_filename = "pedagogy_benchmark_send.csv"
     else:
-        cdpk_filename = f"pedagogy_benchmark_{language_slug.lower()}_cdpk_cleaned.csv"
-        send_filename = f"pedagogy_benchmark_{language_slug.lower()}_send.csv"
+        # remove "_ep" from the slug for cleaned datasets
+        base_slug = language_slug.replace("_ep", "")
+        cdpk_filename = f"pedagogy_benchmark_{base_slug.lower()}_cdpk_cleaned.csv"
+        send_filename = f"pedagogy_benchmark_{base_slug.lower()}_send.csv"
 
 # %%
 # Load dataset
 #######################
 
-cdpk_dataset = pd.read_csv(DATA_DIR / cdpk_filename)
+cdpk_dataset = pd.read_csv(DATA_DIR / "pedagogy_benchmark_full_datasets" / cdpk_filename)
 print(cdpk_dataset.shape)
 cdpk_dataset.head(1)
 

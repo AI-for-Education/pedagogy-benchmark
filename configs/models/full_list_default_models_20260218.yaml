@@ -4,9 +4,9 @@
 #claude-3-haiku-20240307: Claude-3 Haiku
 claude-haiku-4-5-20251001: Claude Haiku 4.5
 claude-opus-4-20250514: Claude Opus 4
-claude-opus-4-20250514-low: Claude Opus 4 Thinking (low)
+#claude-opus-4-20250514-low: Claude Opus 4 Thinking (low)
 claude-sonnet-4-20250514: Claude Sonnet 4
-claude-sonnet-4-20250514-low: Claude Sonnet 4 Thinking (low)
+#claude-sonnet-4-20250514-low: Claude Sonnet 4 Thinking (low)
 #deepseek-v3-0324-fp8: Deepseek V3 0324
 #doubao-1.5-lite-32k: Doubao-1.5 Lite
 #doubao-1.5-pro-32k: Doubao-1.5 Pro
@@ -22,7 +22,7 @@ gemini-2.0-flash-lite: Gemini-2.0 Flash-Lite
 gemini-2.5-flash-preview-09-2025: Gemini-2.5 Flash
 gemini-2.5-pro-preview-06-05: Gemini-2.5 Pro
 gemini-3-flash-preview: Gemini-3 Flash
-#gemini-3-pro-preview: Gemini-3 Pro
+gemini-3-pro-preview: Gemini-3 Pro
 gemma-3-12b-it: Gemma-3 12B
 gemma-3-27b: Gemma-3 27B
 gemma-3-4b-it: Gemma-3 4B
@@ -44,7 +44,7 @@ gpt-5.2-2025-12-11-medium: GPT-5.2 (Medium)
 #grok-4.1-fast: Grok-4.1 Fast
 #hf-qwen3-0-6b: Qwen-3 0.6B
 #hf-qwen3-1-7b: Qwen-3 1.7B
-#hf-qwen3-4b: Qwen-3 4B
+hf-qwen3-4b: Qwen-3 4B
 #hf-smollm2-135m-instruct: SmolLM2-135M
 #hf-smollm2-360m-instruct: SmolLM2-360M
 #hf-smollm3-3b-instruct: SmolLM3-3B
@@ -66,7 +66,7 @@ mistral-small-24b-instruct-2501-fp8: Mistral Small 3
 nova-2-lite-v1: Nova 2 Lite
 o3-2025-04-16: o3
 o4-mini-2025-04-16: o4-Mini
-olmo-3-7b-think: Olmo-3 7B Think
+#olmo-3-7b-think: Olmo-3 7B Think
 #phi-35-mini: Phi-3.5 Mini
 #qwen-2p5-7b-instruct-bf16: Qwen-2.5 7B
 qwen-3-14b: Qwen-3 14B
@@ -75,3 +75,7 @@ qwen-3-14b: Qwen-3 14B
 qwen-3-32b: Qwen-3 32B
 #qwen-3-8b-fp8: Qwen-3 8B
 #qwen3-235b-a22b-thinking-250: Qwen-3 235B A22B Thinking
+deepseek-r1-0528-fp8: Deepseek R1 (May '25)
+gemini-2.5-flash-lite-preview-09-2025: Gemini-2.5 Flash-Lite
+claude-sonnet-4-5-20250929: Claude Sonnet 4.5
+hf-gemma-3-1b-it: Gemma-3 1B

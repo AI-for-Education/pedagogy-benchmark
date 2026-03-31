@@ -88,7 +88,55 @@ LANGUAGE_PROMPTS = {
         'final': 'Only answer the real question.\nOnly provide the letter for your answer.\nStop exactly after the letter.',
         'display_name': 'English',
         'slug': 'English',
-    }
+    },
+    'dari': {
+        'intro_ep': None,
+        'intro': None,
+        'instruction': None,
+        'final': None,
+        'display_name': 'Dari',
+        'slug': 'Dari',
+    },
+    'dari_ep': {
+        'intro_ep': 'The following instructions are in English, but the example questions and the final question to be answered are in Dari.',
+        'intro': 'The following are example multiple choice questions (with answers).',
+        'instruction': 'Answer the following real question using same answer format:',
+        'final': 'Only answer the real question.\nOnly provide the letter for your answer.\nStop exactly after the letter.',
+        'display_name': 'Dari (English Prompt)',
+        'slug': 'Dari_ep',
+    },
+    'pashto': {
+        'intro_ep': None,
+        'intro': None,
+        'instruction': None,
+        'final': None,
+        'display_name': 'Pashto',
+        'slug': 'Pashto',
+    },
+    'pashto_ep': {
+        'intro_ep': 'The following instructions are in English, but the example questions and the final question to be answered are in Pashto.',
+        'intro': 'The following are example multiple choice questions (with answers).',
+        'instruction': 'Answer the following real question using same answer format:',
+        'final': 'Only answer the real question.\nOnly provide the letter for your answer.\nStop exactly after the letter.',
+        'display_name': 'Pashto (English Prompt)',
+        'slug': 'Pashto_ep',
+    },
+    'arabic': {
+        'intro_ep': None,
+        'intro': None,
+        'instruction': None,
+        'final': None,
+        'display_name': 'Arabic',
+        'slug': 'Arabic',
+    },
+    'arabic_ep': {
+        'intro_ep': 'The following instructions are in English, but the example questions and the final question to be answered are in Arabic.',
+        'intro': 'The following are example multiple choice questions (with answers).',
+        'instruction': 'Answer the following real question using same answer format:',
+        'final': 'Only answer the real question.\nOnly provide the letter for your answer.\nStop exactly after the letter.',
+        'display_name': 'Arabic (English Prompt)',
+        'slug': 'Arabic_ep',
+    },
 }
 
 # Regex patterns for answer extraction (same for all languages)
