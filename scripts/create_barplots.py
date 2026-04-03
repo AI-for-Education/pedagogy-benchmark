@@ -1,16 +1,38 @@
 """
 create_barplots.py
 
-CLI script to plot model performance bar plots for a given language benchmark.
+CLI script to plot model performance bar plots for language benchmarks.
+To have the latest data, make sure the files in data/results/<language>/
+are up to date (run the benchmark if needed).
 
 Usage:
+    # Single language
     python scripts/create_barplots.py Arabic_ep
-    python scripts/create_barplots.py Dari_ep
-    python scripts/create_barplots.py English
-    python scripts/create_barplots.py Hausa_ep --out-dir path/to/output
+    python scripts/create_barplots.py English --out-dir path/to/output
 
-The language argument is the name of the results sub-folder
+    # All languages in the LANGUAGES list
+    python scripts/create_barplots.py
+
+    # Multi-language overview only (shared x-axis, one subplot per language)
+    python scripts/create_barplots.py --overview
+
+The optional language argument is the name of the results sub-folder
 (e.g. Arabic_ep, Dari_ep, English, Hausa_ep, …).
+If omitted, figures are generated for every language in LANGUAGES.
+
+Options:
+    --out-dir   Output directory (default: data/results/figures/)
+    --overview  Generate only the multi-language overview figure: one barplot
+                per language on a shared x-axis (union of all models), with
+                gaps where a model was not run for that language.
+
+Output (normal mode, per language):
+    - accuracy_barplot_<lang>.svg
+    - bad_format_barplot_<lang>.svg
+    - category_heatmap_<lang>.svg
+
+Output (--overview mode):
+    - accuracy_overview_all_languages.svg
 """
 
 import argparse
@@ -36,6 +58,18 @@ CATEGORY_ORDER = [
     "Social studies",
     "Creative arts",
     "General",
+]
+
+LANGUAGES = [
+    "Hausa_ep",
+    "Swahili_ep",
+    "Yoruba_ep",
+    "Nyankore_ep",
+    "Luganda_ep",
+    "Arabic_ep",
+    "Dari_ep",
+    "Pashto_ep",
+    "English",
 ]
 
 BAR_WIDTH = 0.65
@@ -92,10 +126,10 @@ def find_result_file(lang_arg: str, kind: str) -> Path:
     folder = RESULTS_DIR / lang_arg
     if not folder.exists():
         sys.exit(f"[ERROR] Results folder not found: {folder}")
-    matches = sorted(folder.glob(f"cdpk_results_{kind}_*.csv"))
+    matches = list(folder.glob(f"cdpk_results_{kind}_*.csv"))
     if not matches:
         sys.exit(f"[ERROR] No '{kind}' CSV found in {folder}")
-    return matches[-1]  # most recent by filename
+    return max(matches, key=lambda p: p.stat().st_mtime)
 
 
 def load_result_csv(path: Path) -> pd.DataFrame:
@@ -257,6 +291,75 @@ def plot_category_heatmap(acc_df, label, lang_arg, display_name_map, out_dir):
 
 
 # ---------------------------------------------------------------------------
+# Multi-language overview subplot
+# ---------------------------------------------------------------------------
+
+def plot_all_languages_overview(acc_per_lang, display_name_map, model_provider_map,
+                                 provider_color_map, out_dir):
+    """
+    N_languages x 1 grid of accuracy bar plots with a shared x-axis.
+
+    Models on the x-axis = union of all models that have a score in at least
+    one language, sorted by mean accuracy across languages (desc).
+    Missing bars appear as gaps.
+    """
+    # Build combined DataFrame: rows=models, cols=languages
+    combined = pd.DataFrame({lang: s for lang, s in acc_per_lang.items()})
+
+    # Sort models by mean accuracy across languages (desc)
+    combined["_mean"] = combined.mean(axis=1)
+    combined = combined.sort_values("_mean", ascending=False).drop(columns="_mean")
+
+    all_models = combined.index.tolist()
+    x_labels = make_display_labels(all_models, display_name_map)
+    n = len(all_models)
+    langs = list(acc_per_lang.keys())
+    n_langs = len(langs)
+
+    fig, axes = plt.subplots(
+        n_langs, 1,
+        figsize=(max(20, n * 0.52), 4 * n_langs),
+        sharex=True,
+    )
+    if n_langs == 1:
+        axes = [axes]
+
+    x = range(n)
+
+    for ax, lang in zip(axes, langs):
+        series = combined[lang]
+        colors = make_bar_colors(all_models, model_provider_map, provider_color_map)
+
+        for i, (_, val) in enumerate(zip(all_models, series)):
+            if pd.notna(val):
+                ax.bar(i, val, width=BAR_WIDTH, color=colors[i], edgecolor="none", zorder=3)
+
+        label = get_lang_label(lang)
+        ax.set_ylabel("Accuracy (%)", fontsize=11, color="#333333")
+        ax.set_ylim(0, 102)
+        ax.tick_params(axis="y", labelsize=10, labelcolor="#333333")
+        apply_barplot_style(ax, label)
+
+    # Shared x-axis labels on the bottom subplot only
+    axes[-1].set_xticks(list(x))
+    axes[-1].set_xticklabels(x_labels, rotation=45, ha="right", fontsize=10, color="#333333")
+
+    # Single shared legend
+    handles = provider_legend_handles(all_models, model_provider_map, provider_color_map)
+    fig.legend(handles=handles, title="", fontsize=11, frameon=False,
+               loc="upper right", bbox_to_anchor=(1.0, 1.0))
+
+    fig.suptitle(f"Model Accuracy Across Languages — {n} models total",
+                 fontsize=16, fontweight="bold", y=1.002)
+    plt.tight_layout()
+
+    out_path = out_dir / "accuracy_overview_all_languages.svg"
+    plt.savefig(out_path, format="svg", bbox_inches="tight")
+    plt.close()
+    print(f"Saved: {out_path}")
+
+
+# ---------------------------------------------------------------------------
 # Entry point
 # ---------------------------------------------------------------------------
 
@@ -268,38 +371,58 @@ def main():
     )
     parser.add_argument(
         "language",
-        help="Results sub-folder name, e.g. 'Arabic_ep', 'Dari_ep', 'English', 'Hausa_ep'.",
+        nargs="?",
+        default=None,
+        help="Results sub-folder name, e.g. 'Arabic_ep', 'Dari_ep', 'English', 'Hausa_ep'. "
+             "If omitted, all languages in LANGUAGES are processed.",
     )
     parser.add_argument(
         "--out-dir",
         default=str(RESULTS_DIR / "figures"),
         help="Directory to save figures (default: data/results/figures/).",
     )
+    parser.add_argument(
+        "--overview",
+        action="store_true",
+        default=False,
+        help="Also generate the multi-language overview subplot (accuracy_overview_all_languages.svg).",
+    )
     args = parser.parse_args()
 
-    lang_arg = args.language
-    label = get_lang_label(lang_arg)
+    lang_args = [args.language] if args.language else LANGUAGES
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
-
-    print(f"Language folder : {lang_arg}  |  label = '{label}'")
-    print(f"Output dir      : {out_dir}\n")
+    print(f"Output dir : {out_dir}\n")
 
     display_name_map, model_provider_map, provider_color_map = load_configs()
 
-    acc_path = find_result_file(lang_arg, "accuracy")
-    bf_path = find_result_file(lang_arg, "bad_format")
-    print(f"Accuracy file   : {acc_path.name}")
-    print(f"Bad format file : {bf_path.name}\n")
+    if args.overview:
+        # Overview-only mode: load all languages and generate the overview plot
+        acc_per_lang = {}
+        for lang_arg in LANGUAGES:
+            acc_path = find_result_file(lang_arg, "accuracy")
+            acc_df = load_result_csv(acc_path)
+            acc_per_lang[lang_arg] = acc_df["Overall"].dropna()
+        plot_all_languages_overview(acc_per_lang, display_name_map,
+                                    model_provider_map, provider_color_map, out_dir)
+    else:
+        for lang_arg in lang_args:
+            label = get_lang_label(lang_arg)
+            print(f"--- {lang_arg}  |  label = '{label}' ---")
 
-    acc_df = load_result_csv(acc_path)
-    bf_df = load_result_csv(bf_path)
+            acc_path = find_result_file(lang_arg, "accuracy")
+            bf_path = find_result_file(lang_arg, "bad_format")
+            print(f"Accuracy file   : {acc_path.name}")
+            print(f"Bad format file : {bf_path.name}\n")
 
-    plot_accuracy_barplot(acc_df, label, lang_arg,
-                          display_name_map, model_provider_map, provider_color_map, out_dir)
-    plot_bad_format_barplot(bf_df, label, lang_arg,
-                            display_name_map, model_provider_map, provider_color_map, out_dir)
-    plot_category_heatmap(acc_df, label, lang_arg, display_name_map, out_dir)
+            acc_df = load_result_csv(acc_path)
+            bf_df = load_result_csv(bf_path)
+
+            plot_accuracy_barplot(acc_df, label, lang_arg,
+                                  display_name_map, model_provider_map, provider_color_map, out_dir)
+            plot_bad_format_barplot(bf_df, label, lang_arg,
+                                    display_name_map, model_provider_map, provider_color_map, out_dir)
+            plot_category_heatmap(acc_df, label, lang_arg, display_name_map, out_dir)
 
     print("\nDone.")
 
