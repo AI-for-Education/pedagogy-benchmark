@@ -7,7 +7,7 @@ claude-opus-4-20250514: Claude Opus 4
 #claude-opus-4-20250514-low: Claude Opus 4 Thinking (low)
 claude-sonnet-4-20250514: Claude Sonnet 4
 #claude-sonnet-4-20250514-low: Claude Sonnet 4 Thinking (low)
-#deepseek-v3-0324-fp8: Deepseek V3 0324
+deepseek-v3-0324-fp8: Deepseek V3 0324
 #doubao-1.5-lite-32k: Doubao-1.5 Lite
 #doubao-1.5-pro-32k: Doubao-1.5 Pro
 #fw-deepseek-r1-0528: Deepseek R1 (May '25)
@@ -26,9 +26,10 @@ gemini-3-pro-preview: Gemini-3 Pro
 gemma-3-12b-it: Gemma-3 12B
 gemma-3-27b: Gemma-3 27B
 gemma-3-4b-it: Gemma-3 4B
-#gemma-3n-e2b-it: Gemma-3n E2B
+gemma-3n-e2b-it: Gemma-3n E2B
+gemma-3n-e4b-it: Gemma-3n E4B
 #glm-4.7-flash: GLM-4.7 Flash
-#glm-5: GLM-5
+glm-5: GLM-5
 gpt-3.5-turbo-0125: GPT-3.5 Turbo
 gpt-4.1: GPT-4.1
 gpt-4.1-mini: GPT-4.1 Mini
@@ -41,23 +42,25 @@ gpt-5-nano-2025-08-07-medium: GPT-5 Nano (Medium)
 gpt-5.2-2025-12-11-medium: GPT-5.2 (Medium)
 #grok-4: Grok-4 # very long
 #grok-4-fast: Grok-4 Fast
-#grok-4.1-fast: Grok-4.1 Fast
-#hf-qwen3-0-6b: Qwen-3 0.6B
+grok-4.1-fast: Grok-4.1 Fast
+hf-qwen3-0-6b: Qwen-3 0.6B
 #hf-qwen3-1-7b: Qwen-3 1.7B
 hf-qwen3-4b: Qwen-3 4B
 #hf-smollm2-135m-instruct: SmolLM2-135M
 #hf-smollm2-360m-instruct: SmolLM2-360M
 #hf-smollm3-3b-instruct: SmolLM3-3B
-#kimi-k2.5: Kimi K2.5
+kimi-k2.5: Kimi K2.5
 #lfm-2.5-1.2b-thinking: LFM2.5-1.2B Thinking
 #lfm2-1.2b-f16-gguf: LFM2-1.2B
 #lfm2-350m-f16-gguf: LFM2-350M
 #lfm2-700m-f16-gguf: LFM2-700M
 #liquid-lfm-3b: LFM-3B
 #liquid-lfm-7b: LFM-7B
-#llama-4-maverick-instruct-basic: Llama-4 Maverick
-#llama-4-scout-instruct-basic: Llama-4 Scout
-#llama-v3p2-1b-instruct-bf16: Llama-3.2 1B
+llama-4-maverick-instruct-basic: Llama-4 Maverick
+llama-4-scout-instruct-basic: Llama-4 Scout
+llama-v3p2-1b-instruct-bf16: Llama-3.2 1B
+llama-v3p2-3b-instruct-bf16: Llama-3.2 3B
+fw-llama-v3p3-70b-instruct: Llama-3.3 70B
 ministral-3-3b-2512: Ministral 3 3B
 ministral-3-8b-2512: Ministral 3 8B
 mistral-medium-3: Mistral Medium 3
@@ -74,8 +77,26 @@ qwen-3-14b: Qwen-3 14B
 #qwen-3-30b-a3b: Qwen-3 30B A3B
 qwen-3-32b: Qwen-3 32B
 #qwen-3-8b-fp8: Qwen-3 8B
-#qwen3-235b-a22b-thinking-250: Qwen-3 235B A22B Thinking
+#qwen3-235b-a22b-thinking-2507: Qwen-3 235B A22B Thinking
 deepseek-r1-0528-fp8: Deepseek R1 (May '25)
 gemini-2.5-flash-lite-preview-09-2025: Gemini-2.5 Flash-Lite
 claude-sonnet-4-5-20250929: Claude Sonnet 4.5
 hf-gemma-3-1b-it: Gemma-3 1B
+claude-sonnet-4-6: Claude Sonnet 4.6
+o1-2024-12-17: o1
+claude-opus-4-6: Claude Opus 4.6
+gpt-5.4-2026-03-05: GPT-5.4
+gpt-5.4-2026-03-05-medium: GPT-5.4 (Medium)
+gpt-5.4-mini-2026-03-17: GPT-5.4 Mini
+gpt-5.4-mini-2026-03-17-medium: GPT-5.4 Mini (Medium)
+gpt-5.4-nano-2026-03-17: GPT-5.4 Nano
+gpt-5.4-nano-2026-03-17-medium: GPT-5.4 Nano (Medium)
+gemini-3.1-pro-preview: Gemini-3.1 Pro
+gemini-3.1-flash-lite-preview: Gemini-3.1 Flash-Lite
+gemma-4-31b-it: Gemma-4 31B
+gemma-4-26b-a4b-it: Gemma-4 26B A4B
+hf-gemma-4-e2b-it-gguf-bf16: Gemma-4 E2B
+hf-gemma-4-e4b-it-gguf-bf16: Gemma-4 E4B
+qwen3.5-27b: Qwen-3.5 27B
+hf-tiny-aya-earth-gguf: Tiny Aya Earth
+hf-tiny-aya-global-gguf: Tiny Aya Global

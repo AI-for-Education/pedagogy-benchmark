@@ -122,13 +122,20 @@ def get_lang_label(lang_arg: str) -> str:
 
 
 def find_result_file(lang_arg: str, kind: str) -> Path:
-    """Find cdpk_results_<kind>_*.csv in data/results/<lang_arg>/."""
+    """Find cdpk_results_<kind>_*.csv in data/results/<lang_arg>/.
+
+    Looks for files matching the glob ``cdpk_results_{kind}_*.csv`` inside
+    ``data/results/<lang_arg>/``.  When several files match,
+    the most recently modified file is selected so the plots always reflect
+    the latest run.
+    """
     folder = RESULTS_DIR / lang_arg
     if not folder.exists():
         sys.exit(f"[ERROR] Results folder not found: {folder}")
     matches = list(folder.glob(f"cdpk_results_{kind}_*.csv"))
     if not matches:
         sys.exit(f"[ERROR] No '{kind}' CSV found in {folder}")
+    # Pick the most recently modified file when multiple CSVs match
     return max(matches, key=lambda p: p.stat().st_mtime)
 
 
@@ -249,9 +256,8 @@ def plot_bad_format_barplot(bf_df, label, lang_arg,
 
 def plot_category_heatmap(acc_df, label, lang_arg, display_name_map, out_dir):
     """Heatmap: model (y, sorted by Overall desc) × category (x)."""
-    # Column order: predefined first, then any extras, Overall excluded
+    # Only keep known category columns (extras like provider, cost, etc. are ignored)
     cat_cols = [c for c in CATEGORY_ORDER if c in acc_df.columns]
-    cat_cols += [c for c in acc_df.columns if c not in CATEGORY_ORDER and c != "Overall"]
 
     # Sort models top → bottom by Overall accuracy
     models_sorted = acc_df["Overall"].dropna().sort_values(ascending=False).index.tolist()
@@ -260,7 +266,7 @@ def plot_category_heatmap(acc_df, label, lang_arg, display_name_map, out_dir):
     pivot.index = make_display_labels(models_sorted, display_name_map)
 
     n_models, n_cats = pivot.shape
-    fig, ax = plt.subplots(figsize=(max(13, n_cats * 1.5), max(6, n_models * 0.25)))
+    _, ax = plt.subplots(figsize=(max(13, n_cats * 1.5), max(6, n_models * 0.25)))
 
     sns.heatmap(
         pivot,
@@ -307,8 +313,13 @@ def plot_all_languages_overview(acc_per_lang, display_name_map, model_provider_m
     combined = pd.DataFrame({lang: s for lang, s in acc_per_lang.items()})
 
     # Sort models by mean accuracy across languages (desc)
-    combined["_mean"] = combined.mean(axis=1)
-    combined = combined.sort_values("_mean", ascending=False).drop(columns="_mean")
+    # Sort by English accuracy if available, otherwise fall back to mean
+    sort_key = "English" if "English" in combined.columns else None
+    if sort_key:
+        combined = combined.sort_values(sort_key, ascending=False, na_position="last")
+    else:
+        combined["_mean"] = combined.mean(axis=1)
+        combined = combined.sort_values("_mean", ascending=False).drop(columns="_mean")
 
     all_models = combined.index.tolist()
     x_labels = make_display_labels(all_models, display_name_map)
@@ -410,6 +421,8 @@ def main():
             label = get_lang_label(lang_arg)
             print(f"--- {lang_arg}  |  label = '{label}' ---")
 
+            # For each language, pick the newest cdpk_results_accuracy_*.csv
+            # and cdpk_results_bad_format_*.csv from data/results/<lang_arg>/
             acc_path = find_result_file(lang_arg, "accuracy")
             bf_path = find_result_file(lang_arg, "bad_format")
             print(f"Accuracy file   : {acc_path.name}")

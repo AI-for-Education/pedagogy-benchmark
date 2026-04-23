@@ -144,6 +144,16 @@ def main(opt):
     acc_file = res_dir / f"{opt.benchmark}_results_accuracy_{opt.models_config}.csv"
     bf_file = res_dir / f"{opt.benchmark}_results_bad_format_{opt.models_config}.csv"
     full_file = res_dir / f"{opt.benchmark}_results_full_{opt.models_config}.csv"
+
+    # Attach model metadata from fab-benchmarks-configs/models.csv to accuracy CSV
+    metadata_cols = [
+        "provider", "open", "release_date", "size",
+        "input_cost", "output_cost", "display_name",
+    ]
+    models_metadata_file = ROOT / "fab-benchmarks-configs" / "models.csv"
+    models_metadata = pd.read_csv(models_metadata_file).set_index("model_id")
+    accuracies_df = accuracies_df.join(models_metadata[metadata_cols], how="left")
+
     accuracies_df.to_csv(acc_file)
     bad_format_df.to_csv(bf_file)
     full_df.to_csv(full_file, index=False)
