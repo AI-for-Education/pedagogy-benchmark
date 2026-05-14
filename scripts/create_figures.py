@@ -79,7 +79,37 @@ new_models_names = {
     #'gpt-5-2025-08-07-medium': 'GPT-5',
     "gpt-5.2-2025-12-11-medium": "GPT-5.2 (Medium)",
     'o4-mini-2025-04-16': 'o4-Mini',
-    'qwen-3-32b': 'Qwen-3 32B'
+    'qwen-3-32b': 'Qwen-3 32B',
+    #'hf-gemma-3-1b-it': 'Gemma-3 1B',
+}
+
+old_new_models_mapping = {
+    'claude-sonnet-4-5-20250929': 'claude-sonnet-4-6',
+    'deepseek-r1-0528-fp8': 'deepseek-r1-0528-fp8',
+    'gemini-2.5-flash-lite-preview-09-2025': 'gemini-3.1-flash-lite-preview',
+    #'gemini-2.5-flash-preview-09-2025': 'Gemini-2.5 Flash',
+    'gemini-3-flash-preview': 'gemini-3-flash-preview',
+    #'gemini-2.5-pro-preview-06-05': 'Gemini-2.5 Pro',
+    "gemini-3-pro-preview": 'gemini-3.1-pro-preview',
+    'gemma-3-27b': 'gemma-4-31b-it',
+    'gemma-3-4b-it': 'hf-gemma-4-e4b-it-gguf-bf16',
+    #'gpt-5-2025-08-07-medium': 'GPT-5',
+    "gpt-5.2-2025-12-11-medium": 'gpt-5.4-2026-03-05-medium',
+    'o4-mini-2025-04-16': 'o4-mini-2025-04-16',
+    'qwen-3-32b': 'qwen3.5-27b'
+}
+
+new_models_display_names = {
+    'claude-sonnet-4-6': 'Claude Sonnet 4.6',
+    'deepseek-r1-0528-fp8': 'Deepseek R1',
+    'gemini-3.1-flash-lite-preview': 'Gemini-3.1 Flash-Lite',
+    'gemini-3-flash-preview': 'Gemini-3 Flash',
+    'gemini-3.1-pro-preview': 'Gemini-3.1 Pro',
+    'gemma-4-31b-it': 'Gemma-4 31B',
+    'hf-gemma-4-e4b-it-gguf-bf16': 'Gemma-4 E4B',
+    'gpt-5.4-2026-03-05-medium': 'GPT-5.4 (Medium)',
+    'o4-mini-2025-04-16': 'o4-Mini',
+    'qwen3.5-27b': 'Qwen-3.5 27B',
 }
 
 acc_df['display_name'] = acc_df['model'].map(new_models_names)
@@ -197,21 +227,26 @@ def clean_resps(resp):
 def clean_answers(ans):
     return ans.replace(" and", ",").strip()
 
-def plot_heatmap(pivot_df, 
-                 language_speakers_dict, 
+def plot_heatmap(pivot_df,
+                 language_speakers_dict,
                  title="TODO",
                  colorbarlabel="TODO",
                  reverse_cmap=False,
                  vmin=None,
                  vmax=None,
                  save_fig=False,
+                 languages=None,
                  ):
+
+    # filter columns if a language subset is requested
+    if languages is not None:
+        pivot_df = pivot_df[[c for c in languages if c in pivot_df.columns]]
 
     # order by number of speakers: reorder index in descending order of speakers
     pivot_df = pivot_df[sorted(pivot_df.columns, key=lambda x: language_speakers_dict.get(x, 0), reverse=True)]
 
     # --- 2. Create the heatmap ---
-    plt.figure(figsize=(14, 6))
+    plt.figure(figsize=(12, 6))
 
     ax = sns.heatmap(
         pivot_df,
@@ -238,7 +273,7 @@ def plot_heatmap(pivot_df,
     # --
     ax.set_xlabel('Language', fontsize=16)
     ax.set_ylabel('Model', fontsize=16)
-    ax.tick_params(axis='x', labelsize=14)
+    ax.tick_params(axis='x', labelsize=12)
     ax.tick_params(axis='y', labelsize=13)
 
     # --- Add number of speakers above each box ---
@@ -259,15 +294,20 @@ def plot_heatmap(pivot_df,
 
 
 
-def plot_avg_heatmap(pivot_df_avg, 
-                     language_speakers_dict, 
-                     title='TODO', 
-                     colorbarlabel='TODO', 
+def plot_avg_heatmap(pivot_df_avg,
+                     language_speakers_dict,
+                     title='TODO',
+                     colorbarlabel='TODO',
                      reverse_cmap=False,
                      vmin=None,
                      vmax=None,
                      save_fig=False,
+                     languages=None,
                      ):
+
+    # filter columns if a language subset is requested
+    if languages is not None:
+        pivot_df_avg = pivot_df_avg[[c for c in languages if c in pivot_df_avg.columns]]
 
     # order by number of speakers: reorder index in descending order of speakers
     pivot_df_avg = pivot_df_avg[sorted(pivot_df_avg.columns, key=lambda x: language_speakers_dict.get(x, 0), reverse=True)]
@@ -302,6 +342,8 @@ def plot_avg_heatmap(pivot_df_avg,
     ax.set_xlabel('Language', fontsize=12)
     ax.set_ylabel('', fontsize=12)
     ax.tick_params(axis='y', labelsize=10)
+    # x ticks to be horizontal and smaller
+    ax.tick_params(axis='x', labelsize=10, rotation=0)
 
     # --- Add number of speakers above each box ---
     for j, lang in enumerate(pivot_df_avg.columns):
@@ -423,17 +465,19 @@ plot_heatmap(pivot_df_acc,
              colorbarlabel='Accuracy (%)',
              reverse_cmap=False,
              vmin=35,
-             vmax=85
+             vmax=85,
+             #languages=["English", "Dari", "Pashto", "Arabic"]
 )
 plot_heatmap(pivot_df_acc_ep, 
              language_speakers_dict, 
-             title='AI Model Performance Across Languages\n' \
+             title='AI Model Performance Across Languages - January 2026\n' \
     'Values represent accuracy (%)',
              colorbarlabel='Accuracy (%)',
              reverse_cmap=False,
              vmin=35,
              vmax=85,
-             save_fig=True
+             save_fig=True,
+             #languages=["English", "Dari", "Pashto", "Arabic"]
 )
 
 
@@ -455,7 +499,8 @@ plot_avg_heatmap(pivot_df_acc_avg,
                 reverse_cmap=False,
                 vmin=35,
                 vmax=85,
-                save_fig=True
+                save_fig=True,
+                #languages=["English", "Dari", "Pashto", "Arabic"]
                 )
 
 plot_avg_heatmap(pivot_df_acc_ep_avg,
@@ -466,8 +511,160 @@ plot_avg_heatmap(pivot_df_acc_ep_avg,
                 reverse_cmap=False,
                 vmin=35,
                 vmax=85,
-                save_fig=True
+                save_fig=True,
+                #languages=["English", "Dari", "Pashto", "Arabic"]
                 )
+
+# %%
+# NEW MODELS HEATMAP (only those models that have data across all selected languages)
+
+# Build mapping from old display_name to new display_name
+_old_display_to_new_display = {}
+for old_id, new_id in old_new_models_mapping.items():
+    old_display = new_models_names.get(old_id)
+    new_display = new_models_display_names.get(new_id)
+    if old_display is not None and new_display is not None:
+        _old_display_to_new_display[old_display] = new_display
+
+# Filter acc_df_ep for new model IDs
+new_model_ids = list(old_new_models_mapping.values())
+acc_df_ep_new = acc_df_ep[acc_df_ep['model'].isin(new_model_ids)].copy()
+acc_df_ep_new['display_name'] = acc_df_ep_new['model'].map(new_models_display_names)
+
+# Pivot to heatmap format
+pivot_df_acc_ep_new = acc_df_ep_new.pivot_table(
+    index='display_name',
+    columns='language',
+    values='accuracy'
+)
+
+# Reorder rows to match old model y-axis order via old_new_models_mapping
+ordered_new_index = [_old_display_to_new_display[name] for name in pivot_df_acc_ep.index if name in _old_display_to_new_display]
+pivot_df_acc_ep_new = pivot_df_acc_ep_new.reindex(ordered_new_index)
+
+plot_heatmap(pivot_df_acc_ep_new,
+             language_speakers_dict,
+             title='AI Model Performance Across Languages - April 2026\n'
+                   'Values represent accuracy (%)',
+             colorbarlabel='Accuracy (%)',
+             reverse_cmap=False,
+             vmin=35,
+             vmax=85,
+)
+
+# Average heatmap for new models
+pivot_df_acc_ep_new_avg = pivot_df_acc_ep_new.copy()
+pivot_df_acc_ep_new_avg.loc['Average Model'] = pivot_df_acc_ep_new_avg.mean(axis=0)
+
+plot_avg_heatmap(pivot_df_acc_ep_new_avg,
+                language_speakers_dict,
+                title='Average AI Model Performance Across Languages (New Models)\n'
+                      'Values represent accuracy (%)',
+                colorbarlabel='Accuracy (%)',
+                reverse_cmap=False,
+                vmin=35,
+                vmax=85,
+)
+
+# %%
+# Heatmap of common models across a selected set of languages
+COMMON_LANGUAGES = ["English", "Dari", "Pashto", "Arabic"]
+
+# Keep only models (rows) that have data for ALL selected languages
+_cols_present = [c for c in COMMON_LANGUAGES if c in pivot_df_acc_ep.columns]
+pivot_df_acc_ep_common = pivot_df_acc_ep.dropna(subset=_cols_present, how='any')
+pivot_df_acc_ep_common = pivot_df_acc_ep_common[_cols_present]
+pivot_df_acc_ep_common = pivot_df_acc_ep_common.sort_values(by='English', ascending=False)
+print(f"Models common across {COMMON_LANGUAGES} ({len(pivot_df_acc_ep_common)} models):", pivot_df_acc_ep_common.index.tolist())
+
+plot_heatmap(pivot_df_acc_ep_common,
+             language_speakers_dict,
+             title='AI Model Performance — Common Models Across Languages\n'
+                   'Values represent accuracy (%)',
+             colorbarlabel='Accuracy (%)',
+             reverse_cmap=False,
+             vmin=35,
+             vmax=85,
+)
+
+# Average heatmap across those common models
+pivot_df_acc_ep_common_avg = pivot_df_acc_ep_common.copy()
+pivot_df_acc_ep_common_avg.loc['Average Model'] = pivot_df_acc_ep_common_avg.mean(axis=0)
+
+plot_avg_heatmap(pivot_df_acc_ep_common_avg,
+                 language_speakers_dict,
+                 title='Average AI Model Performance — Common Models Across Languages\n'
+                       'Values represent accuracy (%)',
+                 colorbarlabel='Accuracy (%)',
+                 reverse_cmap=False,
+                 vmin=35,
+                 vmax=85,
+)
+
+
+# %%
+# Average heatmap across ALL models in `acc_df_ep` (every model run with an
+# English prompt). Each cell = mean accuracy across all models for
+# that language.
+#
+# Filter: keep only models that have an accuracy value for every language
+# in the data. Models with partial coverage are dropped so the per-language
+# averages are all computed over the same model population (otherwise a
+# language run by, say, only the strongest models would look artificially
+# better than English).
+all_languages = sorted(acc_df_ep['language'].unique())
+n_languages = len(all_languages)
+
+coverage = (
+    acc_df_ep.dropna(subset=['accuracy'])
+             .groupby('model')['language']
+             .nunique()
+)
+fully_covered_models = coverage[coverage == n_languages].index.tolist()
+dropped_models = sorted(set(coverage.index) - set(fully_covered_models))
+
+acc_df_ep_full = acc_df_ep[acc_df_ep['model'].isin(fully_covered_models)]
+
+print(f"[INFO] Average across all-language-covered models: "
+      f"keeping {len(fully_covered_models)}/{len(coverage)} models "
+      f"(needed coverage of all {n_languages} languages: {all_languages}).")
+if dropped_models:
+    print(f"[INFO] Dropped {len(dropped_models)} models with partial coverage: "
+          f"{dropped_models}")
+
+pivot_df_acc_ep_avg_all = (
+    acc_df_ep_full
+    .groupby('language', as_index=True)['accuracy']
+    .mean()
+    .to_frame()
+    .T
+)
+pivot_df_acc_ep_avg_all.index = ['Average Model']
+
+# Sanity-check: should be one row, columns = the languages present in the data.
+print(f"Avg-all pivot shape: {pivot_df_acc_ep_avg_all.shape}, "
+      f"languages: {list(pivot_df_acc_ep_avg_all.columns)}")
+print(f"Average accuracy per language across "
+      f"{len(fully_covered_models)} fully-covered models:")
+print(pivot_df_acc_ep_avg_all.round(1))
+
+# %%
+plot_avg_heatmap(pivot_df_acc_ep_avg_all,
+                    language_speakers_dict,
+                    title='Average AI Model Performance Across 5 African Languages\n'
+                        'Values represent accuracy (%)',
+                    colorbarlabel='Accuracy (%)',
+                    reverse_cmap=False,
+                    vmin=35,
+                    vmax=85,
+                    save_fig=True,
+                    languages=["English", "Swahili", "Hausa", "Yoruba", "Luganda", "Nyankore"]
+                    )
+
+
+
+
+
 
 # %%
 # Bad format Heatmaps
@@ -1017,7 +1214,9 @@ g.set_titles(row_template="{row_name}", col_template="{col_name}")
 g.set_axis_labels("Latency (s)", "Reasoning Tokens")
 
 # Customize the Legend
-g._legend.remove() # Remove the default legend (it's often in a bad spot)
+legend = getattr(g, "_legend", None)
+if legend is not None:
+    legend.remove() # Remove the default legend (it's often in a bad spot)
 # We iterate over the legend text to replace "True" with "Correct" and "False" with "Incorrect"
 g.fig.legend(
     title="Response",

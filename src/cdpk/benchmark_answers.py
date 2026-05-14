@@ -134,6 +134,9 @@ def evaluate_model(test_df, config, model, verbose=0, language='english'):
                         "gpt-5",
                         "claude-sonnet-4-5-20250929-low",
                         "kimi-k2.5",
+                        "claude-sonnet-4-6-adaptive",
+                        "claude-opus-4-7",
+                        "kimi-k2.6",
                         )
             if any(model.startswith(p) for p in prefixes):
                 temperature = 1
@@ -164,5 +167,7 @@ def evaluate_model(test_df, config, model, verbose=0, language='english'):
             time.sleep(15)
         if model == "gemma-3n-e2b-it" or model == "gemma-3n-e4b-it":
             time.sleep(7)
+        if model == "qwen-2.5-7b-instruct":
+            time.sleep(5)
 
     return answers, resps, extra_fields, success
