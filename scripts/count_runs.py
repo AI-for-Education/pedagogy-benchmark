@@ -7,11 +7,24 @@ Usage:
 
     # Use a different cache directory
     python scripts/count_runs.py --cache-dir data/cache_local
+
+    # List models present (uncommented) in the LLM_benchmark reference list
+    # but still commented out / missing in this repo's local list
+    python scripts/count_runs.py --check_models
 """
 
 import os
 import argparse
 from collections import defaultdict
+
+# ── Default YAML paths for --check_models ────────────────────────────────
+DEFAULT_LOCAL_YAML = os.path.join(
+    os.path.dirname(__file__), "..", "configs", "models", "full_list_default_models_20260218.yaml"
+)
+DEFAULT_REF_YAML = os.path.join(
+    os.path.dirname(__file__),
+    "..", "..", "LLM_benchmark", "configs", "models", "full_list_20250627.yaml",
+)
 
 # ── Folders to scan (edit this list to add/remove languages) ──────────────
 LIST_FOLDERS = [
@@ -75,6 +88,82 @@ def build_expected_folders() -> list[str]:
     return folders
 
 
+def parse_model_yaml(path: str) -> tuple[dict[str, str], dict[str, str]]:
+    """Parse a model list YAML.
+
+    Returns (active, commented):
+        active[model_id]   = display_name   for uncommented entries
+        commented[model_id] = display_name  for entries commented out with '#'
+    Display names have inline '# ...' comments stripped.
+    """
+    active: dict[str, str] = {}
+    commented: dict[str, str] = {}
+    with open(path, "r", encoding="utf-8") as f:
+        for raw in f:
+            stripped = raw.strip()
+            if not stripped:
+                continue
+            is_commented = stripped.startswith("#")
+            if is_commented:
+                stripped = stripped.lstrip("#").strip()
+            if not stripped or ":" not in stripped:
+                continue
+            key, _, value = stripped.partition(":")
+            model_id = key.strip()
+            if not model_id:
+                continue
+            display = value.split("#", 1)[0].strip()
+            if is_commented:
+                commented[model_id] = display
+            else:
+                active[model_id] = display
+    return active, commented
+
+
+def check_models() -> None:
+    """Print models active in the LLM_benchmark reference YAML but not active locally."""
+    local_yaml = DEFAULT_LOCAL_YAML
+    ref_yaml = DEFAULT_REF_YAML
+    if not os.path.isfile(ref_yaml):
+        print(f"Reference YAML not found: {ref_yaml}")
+        return
+    if not os.path.isfile(local_yaml):
+        print(f"Local YAML not found: {local_yaml}")
+        return
+
+    local_active, local_commented = parse_model_yaml(local_yaml)
+    ref_active, _ = parse_model_yaml(ref_yaml)
+
+    missing: list[tuple[str, str, str]] = []
+    for model_id, display in ref_active.items():
+        if model_id in local_active:
+            continue
+        status = "commented" if model_id in local_commented else "missing"
+        missing.append((model_id, display, status))
+
+    print()
+    print(f"  Reference: {os.path.abspath(ref_yaml)}")
+    print(f"  Local:     {os.path.abspath(local_yaml)}")
+    print()
+    print(f"  {len(ref_active)} active in reference, {len(local_active)} active in local.")
+    print(f"  {len(missing)} models active in reference but not active in local:")
+    print()
+
+    if not missing:
+        print("  (none — local list covers all active reference models)")
+        return
+
+    w_id = max(len("Model ID"), max(len(m) for m, _, _ in missing))
+    w_name = max(len("Display Name"), max(len(d) for _, d, _ in missing))
+    w_status = max(len("Status"), max(len(s) for _, _, s in missing))
+
+    print(f"  {'Model ID':<{w_id}}  {'Display Name':<{w_name}}  {'Status':<{w_status}}")
+    print(f"  {'-' * w_id}  {'-' * w_name}  {'-' * w_status}")
+    for model_id, display, status in sorted(missing):
+        print(f"  {model_id:<{w_id}}  {display:<{w_name}}  {status:<{w_status}}")
+    print()
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Count model runs per language and category",
@@ -85,7 +174,17 @@ def main():
         default=os.path.join(os.path.dirname(__file__), "..", "data", "cache"),
         help="Path to cache directory (default: data/cache)",
     )
+    parser.add_argument(
+        "--check_models",
+        action="store_true",
+        help="List models active in the LLM_benchmark reference YAML that are not "
+             "yet active in this repo's local YAML, then exit.",
+    )
     args = parser.parse_args()
+
+    if args.check_models:
+        check_models()
+        return
 
     cache_dir = os.path.abspath(args.cache_dir)
     expected = build_expected_folders()

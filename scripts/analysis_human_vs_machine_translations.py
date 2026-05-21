@@ -14,10 +14,10 @@ from cdpk.benchmark_utils import fulldf_accuracy_by_category
 
 # %%
 # import data
-machine_translations_tag = "Luganda_ep_new"
+machine_translations_tag = "Luganda_ep"
 human_translations_tag = "Luganda_ep_reviewed"
 
-cdpk_dataset_reviewed = pd.read_csv(f"./../data/pedagogy_benchmark_luganda_cdpk_reviewed.csv")
+cdpk_dataset_reviewed = pd.read_csv(f"./../data/pedagogy_benchmark_full_datasets/pedagogy_benchmark_luganda_cdpk_reviewed.csv")
 print(f"CDPK reviewed dataset shape: {cdpk_dataset_reviewed.shape}")
 cdpk_dataset_reviewed.head()
 
@@ -158,7 +158,7 @@ models_dict_PK = create_results_dataframes(
 full_df_humans = pd.read_csv(f"./../data/results/Luganda_ep_reviewed_cdpk_results_full_full_list_20251015_small.csv")
 print(full_df_humans.shape)
 
-full_df_machine = pd.read_csv(f"./../data/results/Luganda_ep_new_cdpk_results_full_full_list_20251015_small.csv")
+full_df_machine = pd.read_csv(f"./../data/results/Luganda_ep_cdpk_results_full_full_list_20251015_small.csv")
 print(full_df_machine.shape)
 
 
@@ -492,6 +492,10 @@ plt.legend(title='Translation Method')
 # remove top and right spines
 sns.despine()
 plt.tight_layout()
+
+# save fig as svg
+plt.savefig("./../data/results/figures/cdpk_luganda_human_vs_llm_translated_overall_accuracy_comparison.svg", format='svg')
+
 plt.show()
 
 # %%

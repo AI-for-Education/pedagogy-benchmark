@@ -10,6 +10,7 @@ import ast
 from pathlib import Path
 import matplotlib.patches as mpatches
 import matplotlib.ticker as mtick
+from matplotlib.colors import Normalize
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -294,6 +295,127 @@ def plot_heatmap(pivot_df,
 
 
 
+LANGUAGE_GROUPS_TILES = [
+    ("English",                                ["English"]),
+    ("Asian-originating languages",    ["Arabic", "Pashto", "Dari"]),
+    ("African-originating languages",  ["Swahili", "Hausa", "Yoruba",
+                                                "Luganda", "Nyankore"]),
+]
+
+
+def _plot_grouped_language_tiles(values_by_lang,
+                                 language_speakers_dict,
+                                 title=None,
+                                 vmin=35,
+                                 vmax=85,
+                                 reverse_cmap=False,
+                                 save_fig=False,
+                                 fname="grouped_language_tiles.svg",
+                                 colorbarlabel="Accuracy (%)",
+                                 row_label=None):
+    """One-row tile plot: speaker count above, accuracy %, language name below.
+
+    Tiles are split into LANGUAGE_GROUPS_TILES (English | Asian-originating
+    | African-originating). Single-language groups (English) get no caption —
+    the tile's language name is enough. Multi-language groups get an italic
+    caption centred under their tiles. Colors follow the same RdYlGn ramp
+    as the regular heatmaps.
+    """
+    cmap = plt.get_cmap("RdYlGn_r" if reverse_cmap else "RdYlGn")
+    norm = Normalize(vmin=vmin, vmax=vmax)
+
+    resolved_groups = []
+    for label, langs in LANGUAGE_GROUPS_TILES:
+        present = [l for l in langs if l in values_by_lang
+                   and pd.notna(values_by_lang[l])]
+        # Sort languages within each region by speaker count, descending —
+        # matches the subtitle "ordered by number of estimated speakers
+        # within each region".
+        present.sort(key=lambda l: language_speakers_dict.get(l, 0),
+                     reverse=True)
+        if present:
+            resolved_groups.append((label, present))
+    if not resolved_groups:
+        print("[WARN] grouped_language_tiles: no data to plot.")
+        return
+
+    total_tiles = sum(len(langs) for _, langs in resolved_groups)
+    gap = 0.25  # gap (in tile-widths) between groups
+    n_gaps = max(len(resolved_groups) - 1, 0)
+    fig_width = max(8, total_tiles * 1.4 + n_gaps * gap)
+    fig, ax = plt.subplots(figsize=(fig_width, 3.0))
+
+    cursor = 0.0
+    for group_label, langs in resolved_groups:
+        group_x_start = cursor
+        for j, lang in enumerate(langs):
+            x = cursor + j
+            val = values_by_lang[lang]
+            color = cmap(norm(val))
+            ax.add_patch(mpatches.Rectangle((x, 0), 1, 1,
+                                            facecolor=color,
+                                            edgecolor="white", linewidth=2))
+            speakers_m = language_speakers_dict.get(lang, 0) / 1e6
+            spk_text = (f"{speakers_m:,.0f}m" if speakers_m >= 1
+                        else f"{speakers_m:.1f}m")
+            ax.text(x + 0.5, 1.1, spk_text,
+                    ha="center", va="bottom",
+                    fontsize=11, color="#888888")
+            ax.text(x + 0.5, 0.5, f"{val:.1f}",
+                    ha="center", va="center",
+                    fontsize=16,)
+            # Short tick mark below the tile centre — mirrors the heatmap
+            # axis ticks shown in the reference figure.
+            ax.plot([x + 0.5, x + 0.5], [-0.02, -0.10],
+                    color="#333333", linewidth=1.0, solid_capstyle="butt")
+            ax.text(x + 0.5, -0.18, lang,
+                    ha="center", va="top",
+                    fontsize=12, color="#333333")
+        group_x_end = cursor + len(langs)
+        if len(langs) > 1:
+            ax.text((group_x_start + group_x_end) / 2, -0.55, group_label,
+                    ha="center", va="top",
+                    fontsize=11, color="#555555", style="italic")
+        cursor = group_x_end + gap
+
+    ax.set_xlim(-0.6, cursor - gap + 0.2)
+    ax.set_ylim(-0.85, 1.55)
+    ax.set_aspect("equal")
+    ax.axis("off")
+    if title:
+        ax.set_title(title, fontsize=12, pad=18)
+    # Row label on the left of the tile row — mirrors the heatmap path's
+    # y-tick label (e.g. "Average Model"), rotated 90° to read bottom-to-top.
+    if row_label is not None:
+        ax.text(-0.35, 0.5, str(row_label),
+                rotation=90, ha="center", va="center",
+                fontsize=10, color="#333333")
+        # Short tick mark immediately left of the row, at its vertical centre.
+        ax.plot([-0.02, -0.10], [0.5, 0.5],
+                color="#333333", linewidth=1.0, solid_capstyle="butt")
+    # Subtitle: same italic-grey treatment as the regular heatmap path.
+    ax.text(0.5, 1.01,
+            "Languages ordered by number of estimated speakers "
+            "(grey values), within each region",
+            transform=ax.transAxes,
+            ha="center", va="bottom",
+            fontsize=10, color="grey", style="italic")
+
+    # Colorbar mirroring the RdYlGn ramp used for tile fills.
+    sm = plt.cm.ScalarMappable(cmap=cmap, norm=norm)
+    sm.set_array([])
+    cbar = fig.colorbar(sm, ax=ax, fraction=0.025, pad=0.02, aspect=18)
+    cbar.set_label(colorbarlabel, fontsize=11, color="#444444")
+    cbar.ax.tick_params(labelsize=10, colors="#555555")
+    # Drop the black box around the colorbar — match the clean reference.
+    for spine in cbar.ax.spines.values():
+        spine.set_visible(False)
+
+    plt.tight_layout()
+    if save_fig:
+        plt.savefig(RESULTS_DIR / fname, format="svg", bbox_inches="tight")
+
+
 def plot_avg_heatmap(pivot_df_avg,
                      language_speakers_dict,
                      title='TODO',
@@ -303,11 +425,32 @@ def plot_avg_heatmap(pivot_df_avg,
                      vmax=None,
                      save_fig=False,
                      languages=None,
+                     group_lang_regions=False,
                      ):
 
     # filter columns if a language subset is requested
     if languages is not None:
         pivot_df_avg = pivot_df_avg[[c for c in languages if c in pivot_df_avg.columns]]
+
+    # When grouping by region, the language order is dictated by
+    # LANGUAGE_GROUPS_TILES (English → Asian → African). Otherwise default to
+    # speaker-count descending order as before.
+    if group_lang_regions:
+        ordered = [l for _, langs in LANGUAGE_GROUPS_TILES for l in langs
+                   if l in pivot_df_avg.columns]
+        pivot_df_avg = pivot_df_avg[ordered]
+        _plot_grouped_language_tiles(
+            values_by_lang=pivot_df_avg.iloc[0].to_dict(),
+            language_speakers_dict=language_speakers_dict,
+            title=title,
+            vmin=vmin if vmin is not None else 0,
+            vmax=vmax if vmax is not None else 100,
+            reverse_cmap=reverse_cmap,
+            save_fig=save_fig,
+            colorbarlabel=colorbarlabel,
+            row_label=pivot_df_avg.index[0],
+        )
+        return
 
     # order by number of speakers: reorder index in descending order of speakers
     pivot_df_avg = pivot_df_avg[sorted(pivot_df_avg.columns, key=lambda x: language_speakers_dict.get(x, 0), reverse=True)]
@@ -641,6 +784,16 @@ pivot_df_acc_ep_avg_all = (
 )
 pivot_df_acc_ep_avg_all.index = ['Average Model']
 
+# do median
+pivot_df_acc_ep_avg_all_median = (
+    acc_df_ep_full
+    .groupby('language', as_index=True)['accuracy']
+    .median()
+    .to_frame()
+    .T
+)
+pivot_df_acc_ep_avg_all_median.index = ['Average Model']
+
 # Sanity-check: should be one row, columns = the languages present in the data.
 print(f"Avg-all pivot shape: {pivot_df_acc_ep_avg_all.shape}, "
       f"languages: {list(pivot_df_acc_ep_avg_all.columns)}")
@@ -651,18 +804,55 @@ print(pivot_df_acc_ep_avg_all.round(1))
 # %%
 plot_avg_heatmap(pivot_df_acc_ep_avg_all,
                     language_speakers_dict,
-                    title='Average AI Model Performance Across 5 African Languages\n'
+                    title='Average AI Model Performance Across All Languages\n'
                         'Values represent accuracy (%)',
                     colorbarlabel='Accuracy (%)',
                     reverse_cmap=False,
                     vmin=35,
                     vmax=85,
                     save_fig=True,
-                    languages=["English", "Swahili", "Hausa", "Yoruba", "Luganda", "Nyankore"]
+                    #languages=["English", "Swahili", "Hausa", "Yoruba", "Luganda", "Nyankore"]
                     )
 
+plot_avg_heatmap(pivot_df_acc_ep_avg_all_median,
+                    language_speakers_dict,
+                    title='Median AI Model Performance Across All Languages\n'
+                        'Values represent accuracy (%)',
+                    colorbarlabel='Accuracy (%)',
+                    reverse_cmap=False,
+                    vmin=35,
+                    vmax=85,
+                    save_fig=False,
+                    #languages=["English", "Swahili", "Hausa", "Yoruba", "Luganda", "Nyankore"]
+                    )
+
+# %%
+# Grouped-tile variant: English | Asian-originating | African-originating.
+# Mean
+plot_avg_heatmap(pivot_df_acc_ep_avg_all,
+                 language_speakers_dict,
+                 title='Average AI Model Performance Across Languages\n'
+                        'Values represent accuracy (%)',
+                 colorbarlabel='Accuracy (%)',
+                 reverse_cmap=False,
+                 vmin=35,
+                 vmax=85,
+                 save_fig=True,
+                 group_lang_regions=True,
+                 )
 
 
+# Median
+plot_avg_heatmap(pivot_df_acc_ep_avg_all_median,
+                 language_speakers_dict,
+                 title='Median AI Model Performance Across Languages',
+                 colorbarlabel='Accuracy (%)',
+                 reverse_cmap=False,
+                 vmin=35,
+                 vmax=85,
+                 save_fig=False,
+                 group_lang_regions=True,
+                 )
 
 
 
