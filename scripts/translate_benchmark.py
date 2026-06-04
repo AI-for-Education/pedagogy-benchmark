@@ -1,30 +1,68 @@
 """
 Translate the Pedagogy Benchmark (CDPK) dataset into a target language using Gemini.
 
+Modes
+-----
+- translate (default): one API call per cell, 5 calls per row.
+- optimized: one API call per row using a structured-output schema
+  (`RowTranslationResult`) that returns all 5 columns at once. ~5x fewer calls.
+- estimate_cost: dry-run that counts source words, converts to tokens via a
+  configurable ratio, and prints projected $ cost for both per-cell and per-row
+  modes side-by-side using prices from `fab-benchmarks-configs/models.csv`.
+  Makes no API calls.
+- retranslate: standalone re-verification of an already-translated CSV. Pass
+  `--file <name>` (a filename in data/pedagogy_benchmark_full_datasets/) and
+  `--language <name>`; missing (None/NaN) cells are retranslated against the
+  HF source and the result is saved with `_cleaned` appended to the stem.
+  Use this to re-verify a translation later without re-running the full pass.
+
 Usage
 -----
 1. **Interactive window (VS Code / Jupyter)**
    - Open this file in VS Code and run cells with "Run Cell" (Ctrl+Shift+Enter).
-   - Edit the CONFIGURATION section below to set LANGUAGE, OUTPUT_FILE, and VERIFY
-     before running.
+   - Edit the CONFIGURATION section below to set LANGUAGE, MODEL_NAME, OUTPUT_FILE,
+     and RETRANSLATE before running. CLI flags are ignored when no `sys.argv` is set.
 
 2. **CLI (terminal)**
-   - Run directly with:
-       uv run python scripts/translate_benchmark.py
-   - To change the target language or other options, edit the CONFIGURATION
-     section at the top of the file before running.
+   Default per-cell translation (current behavior):
+       uv run python scripts/translate_benchmark.py --language Dari
+
+   Optimized 1-call-per-row translation:
+       uv run python scripts/translate_benchmark.py --mode optimized --language Dari
+
+   Dry-run cost estimate (no API calls):
+       uv run python scripts/translate_benchmark.py --mode estimate_cost \\
+           --language Pashto --model gemini-3.1-pro-preview
+
+   Re-verify an existing translation file (no full re-run):
+       uv run python scripts/translate_benchmark.py --mode retranslate \\
+           --language swahili_tz \\
+           --file pedagogy_benchmark_swahili_tz_cdpk.csv
+
+   Available CLI flags:
+       --mode {translate, optimized, estimate_cost, retranslate}  (default: translate)
+       --language <name>                              (overrides LANGUAGE constant)
+       --model <model_id>                             (overrides MODEL_NAME constant)
+       --file <name>                                  (filename for retranslate mode;
+                                                       relative to DATA_DIR)
+       --no-retranslate                               (skip post-translation retranslate pass)
 
 Configuration
 -------------
 LANGUAGE : str
     Target language key (e.g. 'luganda', 'swahili', 'hausa', 'yoruba', 'nyankore').
     See `cdpk.language_prompts.list_available_languages()` for all options.
+MODEL_NAME : str
+    Registered model name in custom_models.yaml. Must also exist in
+    fab-benchmarks-configs/models.csv for cost estimation.
 OUTPUT_FILE : str or None
     Custom output CSV filename. Leave as None to auto-generate
     'pedagogy_benchmark_{language}_cdpk.csv'.
-VERIFY : bool
+RETRANSLATE : bool
     If True, after the initial translation pass the script checks for missing
     (None/NaN) cells and retranslates them, saving a '_cleaned.csv' variant.
+    Only applies to `translate` / `optimized` modes (the `retranslate` mode
+    always retranslates — that's its purpose).
 
 Environment
 -----------
@@ -33,7 +71,9 @@ project root).
 """
 
 # %%
+import argparse
 import json
+import logging
 import pandas as pd
 from pydantic import BaseModel
 from tqdm import tqdm
@@ -45,6 +85,12 @@ import sys
 from fdllm import get_caller
 from fdllm.llmtypes import LLMMessage
 from fdllm.sysutils import register_models
+
+# Silence the per-call "non-text parts in the response: ['thought_signature']"
+# warning emitted by google-genai for thinking models (e.g. Gemini 3 Pro) when
+# using structured output. The thought-signature parts are reasoning metadata;
+# the parsed JSON we consume is correct.
+logging.getLogger("google_genai.types").setLevel(logging.ERROR)
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
@@ -65,13 +111,55 @@ class TranslationResult(BaseModel):
     translated_text: str
 
 
+class RowTranslationResult(BaseModel):
+    """Structured output for translating all 5 CDPK columns in one call."""
+    question: str
+    answer_a: str
+    answer_b: str
+    answer_c: str
+    answer_d: str
+
+
+def _build_translation_prompt(
+    items: dict[str, str] | str,
+    source_language: str,
+    target_language: str,
+) -> str:
+    """Build the translation prompt. Shared by per-cell and per-row modes.
+
+    Keeps the existing Translate-Gemma-style instructions verbatim so per-cell
+    and per-row paths produce comparable quality. When `items` is a string, the
+    prompt asks for a single translation (per-cell mode). When `items` is a
+    dict {field_name: text}, the prompt lists every field by name and asks the
+    model to return one translation per field via the structured-output schema.
+    """
+    header = (
+        f"You are a professional {source_language} to {target_language} "
+        f"translator. Your goal is to accurately convey the meaning and "
+        f"nuances of the original {source_language} text while adhering to {target_language} grammar, "
+        f"vocabulary, and cultural sensitivities. Produce only the {target_language} "
+        f"translation, without any additional explanations or commentary. Please translate "
+        f"the following {source_language} text into {target_language}"
+    )
+    if isinstance(items, str):
+        return f"{header}:\n\n\n{items}"
+    fields_block = "\n\n".join(f"{k}: {v}" for k, v in items.items())
+    return (
+        f"{header}.\n\n"
+        f"There are {len(items)} separate fields to translate. Return one translation "
+        f"per field, using the same field names, in the structured output schema:\n\n\n"
+        f"{fields_block}"
+    )
+
+
 # ==================== CONFIGURATION ====================
 # Available languages: english, luganda, swahili, hausa, yoruba, nyankore, etc.
 # Use list_available_languages() to see all options
 LANGUAGE = 'Dari'
 OUTPUT_FILE = None  # Optional: Set to a filename like 'pedagogy_benchmark_luganda_cdpk.csv' or leave as None for default
-VERIFY = True  # Set to True to verify and retranslate missing values after initial translation
-MODEL_NAME = 'gemini-2.5-flash-preview-09-2025'  # Must match a key in custom_models.yaml
+RETRANSLATE = False  # Parameter to retranslate missing cells after initial translation pass
+#MODEL_NAME = 'gemini-2.5-flash-preview-09-2025'  # Must match a key in custom_models.yaml
+MODEL_NAME = 'gemini-3.1-pro-preview'
 # =======================================================
 
 # %%
@@ -118,27 +206,18 @@ def translate_text(
     if not isinstance(text_to_translate, str) or not text_to_translate.strip():
         return text_to_translate  # Return non-strings or empty strings as is
     
-    # Add Modern Standard Arabic in parentheses for Arabic translations to help 
+    # Add Modern Standard Arabic in parentheses for Arabic translations to help
     # the model understand the target language better
     if target_language.lower() == "arabic":
         target_language += " (Modern Standard Arabic)"
+    # Tanzanian Swahili variant — use slug `swahili_tz` to keep the filename
+    # distinct from the existing `swahili` translation.
+    elif target_language.lower() == "swahili_tz":
+        target_language = "Swahili (Tanzania)"
 
-    #prompt = (
-    #    f"Translate the following text from {source_language} to {target_language}. "
-    #    "Do not add any extra explanations, introductory text, or quotation marks. "
-    #    "Just return the raw translated text.\n\n"
-    #    f"Text to translate: \"{text_to_translate}\""
-    #)
-    
-    # New prompt format from Translate Gemma paper
-    prompt = (
-        f"You are a professional {source_language} to {target_language} "
-        f"translator. Your goal is to accurately convey the meaning and "
-        f"nuances of the original {source_language} text while adhering to {target_language} grammar, "
-        f"vocabulary, and cultural sensitivities. Produce only the {target_language} "
-        f"translation, without any additional explanations or commentary. Please translate "
-        f"the following {source_language} text into {target_language}:\n\n\n{text_to_translate}"
-    )
+    # New prompt format from Translate Gemma paper (built via shared helper so
+    # per-cell and per-row modes stay in lock-step).
+    prompt = _build_translation_prompt(text_to_translate, source_language, target_language)
 
     try:
         caller = get_caller(model_name)
@@ -161,6 +240,67 @@ def translate_text(
     except Exception as e:
         print(f"Translation failed for '{text_to_translate[:50]}...': {e}")
         return None
+
+
+def translate_row(
+    row: dict,
+    model_name: str,
+    target_language: str,
+    source_language: str = "English",
+) -> dict | None:
+    """Translate all fields of a single row in one structured API call.
+
+    Args:
+        row: Mapping of {field_name: source_text} — typically the 5 CDPK columns.
+        model_name: Registered fdllm model name.
+        target_language: Language to translate into.
+        source_language: Source language.
+
+    Returns:
+        Dict {field_name: translated_text} on success. If translation fails or
+        returns an empty string for a field, that field is set to None so the
+        verify-pass at the bottom of the script will retranslate it cell-wise.
+    """
+    # Skip rows where every field is empty / non-string
+    payload = {
+        k: v for k, v in row.items()
+        if isinstance(v, str) and v.strip()
+    }
+    if not payload:
+        return {k: row.get(k) for k in row}
+
+    if target_language.lower() == "arabic":
+        target_language += " (Modern Standard Arabic)"
+    elif target_language.lower() == "swahili_tz":
+        target_language = "Swahili (Tanzania)"
+
+    prompt = _build_translation_prompt(payload, source_language, target_language)
+
+    try:
+        caller = get_caller(model_name)
+        msg = LLMMessage(Role="user", Message=prompt)
+        response = caller.call(
+            msg,
+            max_tokens=None,
+            temperature=0.0,
+            response_schema=RowTranslationResult,
+        )
+        result = json.loads(response.Message)
+
+        translated = {}
+        for k in row:
+            if k in payload:
+                val = (result.get(k) or "").strip()
+                translated[k] = val if val else None
+            else:
+                # Field was empty/non-string in source — pass through unchanged
+                translated[k] = row.get(k)
+        return translated
+    except Exception as e:
+        first_key = next(iter(payload))
+        snippet = str(payload[first_key])[:50]
+        print(f"Row translation failed (e.g. '{snippet}...'): {e}")
+        return {k: None if k in payload else row.get(k) for k in row}
 
 
 def translate_dataframe(
@@ -192,7 +332,7 @@ def translate_dataframe(
             print(f"Warning: Column '{col}' not found in DataFrame. Skipping.")
             continue
 
-        print(f"\nTranslating column: '{col}' to {target_language}...")
+        print(f"\nTranslating column: '{col}' to {target_language} using model '{model_name}'...")
 
         # Using .progress_apply to show a progress bar
         df_translated[col] = df_translated[col].progress_apply(
@@ -208,6 +348,55 @@ def translate_dataframe(
         temp_output_path = DATA_DIR / temp_output_filename
         df_translated.to_csv(temp_output_path, index=False)
 
+    return df_translated
+
+
+def translate_dataframe_optimized(
+    df: pd.DataFrame,
+    model_name: str,
+    columns_to_translate: list,
+    target_language: str,
+    source_language: str = "English",
+    save_every: int = 50,
+) -> pd.DataFrame:
+    """One-API-call-per-row translation. ~5x fewer calls than translate_dataframe.
+
+    Output CSV shape matches the per-cell path so the verify/retranslate logic
+    works unchanged. Saves a `..._cdpk_partial.csv` snapshot every `save_every`
+    rows so a crash mid-run doesn't lose all progress.
+    """
+    df_translated = df.copy()
+    missing_cols = [c for c in columns_to_translate if c not in df_translated.columns]
+    if missing_cols:
+        print(f"Warning: columns not in DataFrame, skipping: {missing_cols}")
+        columns_to_translate = [c for c in columns_to_translate if c in df_translated.columns]
+    if not columns_to_translate:
+        return df_translated
+
+    print(f"\nTranslating {len(df_translated)} rows to {target_language} using model '{model_name}' "
+          f"(optimized: 1 call/row across columns {columns_to_translate})...")
+
+    lang_slug = target_language.lower().replace(" ", "_")
+    temp_output_path = DATA_DIR / f"pedagogy_benchmark_{lang_slug}_cdpk_partial.csv"
+
+    for i, (idx, row) in enumerate(tqdm(df_translated.iterrows(),
+                                        total=len(df_translated),
+                                        desc=f"Rows -> {target_language}")):
+        source_row = {c: row[c] for c in columns_to_translate}
+        translated = translate_row(
+            source_row,
+            model_name=model_name,
+            target_language=target_language,
+            source_language=source_language,
+        )
+        if translated is not None:
+            for c in columns_to_translate:
+                df_translated.at[idx, c] = translated.get(c)
+
+        if save_every and (i + 1) % save_every == 0:
+            df_translated.to_csv(temp_output_path, index=False)
+
+    df_translated.to_csv(temp_output_path, index=False)
     return df_translated
 
 
@@ -249,18 +438,107 @@ def translate_dataframe(
 # %%
 # Translate the Pedagogy Benchmark datasets
 
+WORDS_PER_TOKEN = 0.75  # ~1.43 tokens/word; common English approximation
+COLUMNS_TO_TRANSLATE = ['question', 'answer_a', 'answer_b', 'answer_c', 'answer_d']
+PER_CELL_PROMPT_TOKENS = 90   # approx token count of the per-cell prompt template
+PER_ROW_PROMPT_TOKENS = 130   # approx token count of the per-row prompt template (5 labelled fields)
+
+
+def estimate_translation_cost(
+    target_language: str,
+    model_name: str,
+    words_per_token: float = WORDS_PER_TOKEN,
+    columns: list[str] = COLUMNS_TO_TRANSLATE,
+) -> None:
+    """Estimate the $ cost of translating CDPK to `target_language` with `model_name`.
+
+    Reports per-cell mode (current default: 5 API calls per row) and per-row
+    optimized mode (1 call per row) side-by-side so the savings are obvious.
+    No API calls are made.
+    """
+    df = load_dataset("AI-for-Education/pedagogy-benchmark", "cdpk_main", split="train")
+    df = pd.DataFrame(df)
+    n_rows = len(df)
+
+    cell_words = 0
+    for c in columns:
+        if c in df.columns:
+            cell_words += df[c].fillna("").astype(str).str.split().str.len().sum()
+    content_tokens = cell_words / words_per_token
+
+    cell_calls = n_rows * len(columns)
+    cell_input_tokens = content_tokens + cell_calls * PER_CELL_PROMPT_TOKENS
+    cell_output_tokens = content_tokens  # assume 1:1 translation length
+
+    row_calls = n_rows
+    row_input_tokens = content_tokens + row_calls * PER_ROW_PROMPT_TOKENS
+    row_output_tokens = content_tokens
+
+    models_csv = ROOT / "fab-benchmarks-configs" / "models.csv"
+    registry = pd.read_csv(models_csv).set_index("model_id")
+    if model_name not in registry.index:
+        print(f"\nERROR: {model_name!r} not found in {models_csv}.")
+        print("Cannot estimate cost without per-million-token prices.")
+        return
+    input_per_M = registry.loc[model_name, "input_cost"]
+    output_per_M = registry.loc[model_name, "output_cost"]
+    if pd.isna(input_per_M) or pd.isna(output_per_M):
+        print(f"\nERROR: {model_name} has no input/output prices in models.csv.")
+        return
+
+    def _cost(in_tok, out_tok):
+        return (in_tok / 1_000_000) * input_per_M + (out_tok / 1_000_000) * output_per_M
+
+    cell_in_cost = (cell_input_tokens / 1_000_000) * input_per_M
+    cell_out_cost = (cell_output_tokens / 1_000_000) * output_per_M
+    cell_total = cell_in_cost + cell_out_cost
+
+    row_in_cost = (row_input_tokens / 1_000_000) * input_per_M
+    row_out_cost = (row_output_tokens / 1_000_000) * output_per_M
+    row_total = row_in_cost + row_out_cost
+
+    savings_pct = 100 * (cell_total - row_total) / cell_total if cell_total else 0
+
+    print("=" * 78)
+    print("TRANSLATION COST ESTIMATE")
+    print("=" * 78)
+    print(f"Dataset:                CDPK main ({n_rows} rows, {len(columns)} columns)")
+    print(f"Target language:        {target_language}")
+    print(f"Model:                  {model_name}")
+    print(f"Pricing (per 1M tok):   input ${input_per_M:.4f}  /  output ${output_per_M:.4f}")
+    print(f"Word->token ratio:      tokens = words / {words_per_token}  (~{1/words_per_token:.2f} tok/word)")
+    print(f"Total source words:     {cell_words:,}")
+    print(f"Content tokens (~):     {content_tokens:,.0f}")
+    print()
+    print(f"{'Mode':<22} {'Calls':>8} {'Input tok':>14} {'Output tok':>14} {'$ Input':>10} {'$ Output':>10} {'$ Total':>10}")
+    print("-" * 78)
+    print(f"{'per-cell (current)':<22} {cell_calls:>8,} {cell_input_tokens:>14,.0f} {cell_output_tokens:>14,.0f}"
+          f" {cell_in_cost:>10.4f} {cell_out_cost:>10.4f} {cell_total:>10.4f}")
+    print(f"{'per-row (optimized)':<22} {row_calls:>8,} {row_input_tokens:>14,.0f} {row_output_tokens:>14,.0f}"
+          f" {row_in_cost:>10.4f} {row_out_cost:>10.4f} {row_total:>10.4f}")
+    print("-" * 78)
+    print(f"Optimized savings:      ${cell_total - row_total:.4f}  ({savings_pct:.1f}%)")
+    print()
+    print("Notes:")
+    print("  - Output tokens assumed 1:1 with content tokens. Non-Latin scripts")
+    print("    (Arabic/Dari/Pashto) often tokenize 1.5-3x worse — expect higher cost.")
+    print("  - Excludes verify-pass retries (~2-5% of cells in current runs).")
+    print("=" * 78)
+
+
 # All the argparse code has been removed from inside it.
-def main(target_lang: str):
+def main(target_lang: str, optimized: bool = False, model_name: str | None = None):
     """
     Main function to load, translate, and save the pedagogy benchmark dataset.
 
     Args:
-        target_lang (str): The target language for translation.
+        target_lang: The target language for translation.
+        optimized: If True, translate all 5 columns per row in one API call.
+            If False (default), translate one cell per API call.
+        model_name: Registered model name. Falls back to MODEL_NAME constant.
     """
-    # Test API once
-    # Note: 'gemini-2.5-pro' is not a valid public model name.
-    # Use a valid one like 'gemini-1.5-pro-latest' or 'gemini-pro'.
-    api_test_response = test_gemini_api(model_name=MODEL_NAME)
+    model_name = model_name or MODEL_NAME
+    api_test_response = test_gemini_api(model_name=model_name)
 
     if api_test_response:
         print(f"Gemini API test successful. Starting translation to {target_lang}...")
@@ -279,13 +557,13 @@ def main(target_lang: str):
     print(f"Loaded CDPK dataset with {cdpk_dataset_hf.shape[0]} rows and {cdpk_dataset_hf.shape[1]} columns.")
 
     # Translate dataset using the language provided
-    print(f"\nStarting translation for {target_lang}...")
-    cdpk_dataset_translated = translate_dataframe(
+    print(f"\nStarting translation for {target_lang} (optimized={optimized})...")
+    translate_fn = translate_dataframe_optimized if optimized else translate_dataframe
+    cdpk_dataset_translated = translate_fn(
         cdpk_dataset_hf,
-        #model_name='gemini-2.5-pro',
-        model_name=MODEL_NAME,
+        model_name=model_name,
         columns_to_translate=['question', 'answer_a', 'answer_b', 'answer_c', 'answer_d'],
-        target_language=target_lang
+        target_language=target_lang,
     )
 
     # Create a dynamic output filename
@@ -362,46 +640,153 @@ def retranslate_failed_translations(
     return translated_df
 
 # %%
-# Main execution block
-# Get language configuration
-target_language = LANGUAGE
-lang_slug = LANGUAGE.lower().replace(" ", "_")
+# CLI dispatch
+def _parse_cli_args():
+    """Parse CLI args. Uses parse_known_args so Jupyter's `-f kernel.json`
+    flag doesn't crash interactive cell execution."""
+    p = argparse.ArgumentParser(description="Translate CDPK to a target language.")
+    p.add_argument(
+        "--mode",
+        choices=["translate", "estimate_cost", "optimized", "retranslate"],
+        default="translate",
+        help="translate: per-cell (current default). optimized: 1 API call per row. "
+             "estimate_cost: dry-run cost estimate, no API calls. "
+             "retranslate: re-verify an existing translated file (requires --file).",
+    )
+    p.add_argument("--language", default=None, help="Override LANGUAGE constant.")
+    p.add_argument("--model", default=None, help="Override MODEL_NAME constant.")
+    p.add_argument("--file", default=None,
+                   help="Filename (relative to DATA_DIR) for retranslate mode. "
+                        "Output is written to '<stem>_cleaned.csv' alongside it.")
+    p.add_argument("--no-retranslate", action="store_true",
+                   help="Skip the post-translation retranslate pass.")
+    args, _ = p.parse_known_args()
+    return args
 
-# Default output filename if not provided
-if OUTPUT_FILE is None:
-    output_file = f"pedagogy_benchmark_{lang_slug}_cdpk.csv"
-else:
-    output_file = OUTPUT_FILE
 
-# Call the main function with the parsed language
-main(target_lang=target_language)
-
-# Verify and retranslate if requested
-if VERIFY:
+def _run_verify(output_file: str, target_language: str, model_name: str):
+    """Verify and retranslate missing cells from `output_file`."""
     print("\nVerifying translations...")
     translated_df = pd.read_csv(DATA_DIR / output_file)
     print(translated_df.shape)
     col_to_translate = ['question', 'answer_a', 'answer_b', 'answer_c', 'answer_d']
-    print(f"Number of missing translations found: {translated_df[col_to_translate].isna().sum().sum()}\n")
+    n_missing = translated_df[col_to_translate].isna().sum().sum()
+    print(f"Number of missing translations found: {n_missing}\n")
+    if n_missing == 0:
+        return
 
-    if translated_df[col_to_translate].isna().sum().sum() > 0:
-        print("Retranslating failed translations...")
-        # Load dataset from Hugging Face Hub
-        cdpk_dataset_hf = load_dataset("AI-for-Education/pedagogy-benchmark", "cdpk_main", split="train")
-        cdpk_dataset_hf = pd.DataFrame(cdpk_dataset_hf)
+    print("Retranslating failed translations...")
+    cdpk_dataset_hf = load_dataset("AI-for-Education/pedagogy-benchmark", "cdpk_main", split="train")
+    cdpk_dataset_hf = pd.DataFrame(cdpk_dataset_hf)
+    cleaned_translated_df = retranslate_failed_translations(
+        translated_df=translated_df,
+        original_df=cdpk_dataset_hf,
+        columns_to_check=col_to_translate,
+        target_language=target_language,
+        model_name=model_name,
+    )
+    cleaned_output = output_file.replace(".csv", "_cleaned.csv")
+    cleaned_translated_df.to_csv(DATA_DIR / cleaned_output, index=False)
+    print(f"Cleaned dataset saved to: {DATA_DIR / cleaned_output}")
 
-        # Check for missing translations in the DataFrame
-        cleaned_translated_df = retranslate_failed_translations(
-            translated_df=translated_df,
-            original_df=cdpk_dataset_hf,
-            columns_to_check=col_to_translate,
-            target_language=target_language,
-            model_name=MODEL_NAME
-        )
-        # Save the cleaned DataFrame back to CSV
-        cleaned_output = output_file.replace(".csv", "_cleaned.csv")
-        cleaned_translated_df.to_csv(DATA_DIR / cleaned_output, index=False)
-        print(f"Cleaned dataset saved to: {DATA_DIR / cleaned_output}")
+
+def _run_retranslate_standalone(input_file: str, target_language: str, model_name: str):
+    """Standalone retranslate: read `input_file` from DATA_DIR, retranslate
+    missing (None/NaN) cells in the CDPK answer columns for `target_language`,
+    and write to '<stem>_cleaned.csv' next to it.
+    """
+    input_path = DATA_DIR / input_file
+    if not input_path.exists():
+        print(f"ERROR: file not found: {input_path}")
+        return
+
+    output_path = input_path.with_name(input_path.stem + "_cleaned.csv")
+    if output_path.exists():
+        print(f"ERROR: output file already exists: {output_path}")
+        print("Aborting to avoid overwriting. Rename/move/delete it and rerun, "
+              "or point --file at the existing cleaned file to continue cleaning.")
+        return
+
+    print(f"\nRetranslate mode — source: {input_path}")
+    translated_df = pd.read_csv(input_path)
+    print(f"Shape: {translated_df.shape}")
+    col_to_translate = ['question', 'answer_a', 'answer_b', 'answer_c', 'answer_d']
+    n_missing = translated_df[col_to_translate].isna().sum().sum()
+    print(f"Missing cells: {n_missing}")
+    if n_missing == 0:
+        print("Nothing to retranslate.")
+        return
+
+    print(f"Loading HF source dataset and retranslating to {target_language} "
+          f"using model '{model_name}'...")
+    cdpk_dataset_hf = pd.DataFrame(
+        load_dataset("AI-for-Education/pedagogy-benchmark", "cdpk_main", split="train")
+    )
+    cleaned_df = retranslate_failed_translations(
+        translated_df=translated_df,
+        original_df=cdpk_dataset_hf,
+        columns_to_check=col_to_translate,
+        target_language=target_language,
+        model_name=model_name,
+    )
+    cleaned_df.to_csv(output_path, index=False)
+    print(f"Cleaned dataset saved to: {output_path}")
+
+
+def _report_missing_cells(output_file: str, target_language: str):
+    """After a translate-mode run when auto-retranslate is disabled, report how
+    many cells are missing and show the exact command to fix them.
+    """
+    output_path = DATA_DIR / output_file
+    if not output_path.exists():
+        print(f"\nWARNING: expected translated file not found: {output_path}")
+        return
+    df = pd.read_csv(output_path)
+    cols = [c for c in ['question', 'answer_a', 'answer_b', 'answer_c', 'answer_d']
+            if c in df.columns]
+    n_missing = int(df[cols].isna().sum().sum())
+    print(f"\nMissing cells in {output_file}: {n_missing}")
+    if n_missing == 0:
+        print("Translation file is complete — no retranslate needed.")
+    else:
+        print("RETRANSLATE is disabled. To fix the missing cells, run:")
+        print(f"  uv run python scripts/translate_benchmark.py --mode retranslate \\")
+        print(f"      --language {target_language} \\")
+        print(f"      --file {output_file}")
+
+
+_cli = _parse_cli_args()
+MODE = _cli.mode
+target_language = _cli.language or LANGUAGE
+model_name = _cli.model or MODEL_NAME
+retranslate_after = RETRANSLATE and not _cli.no_retranslate
+lang_slug = target_language.lower().replace(" ", "_")
+output_file = OUTPUT_FILE or f"pedagogy_benchmark_{lang_slug}_cdpk.csv"
+
+if MODE == "estimate_cost":
+    estimate_translation_cost(target_language, model_name)
+elif MODE == "retranslate":
+    if not _cli.file:
+        print("ERROR: --mode retranslate requires --file <name> "
+              "(filename relative to DATA_DIR).")
+    else:
+        _run_retranslate_standalone(_cli.file, target_language, model_name)
+else:  # translate (default per-cell) or optimized (per-row)
+    output_path = DATA_DIR / output_file
+    if output_path.exists():
+        print(f"ERROR: output file already exists: {output_path}")
+        print("Translation appears to have already been completed for this "
+              "language. Rename/move/delete the file and rerun, or use "
+              "`--mode retranslate --file <name>` to fix missing cells.")
+    else:
+        optimized_mode = (MODE == "optimized")
+        main(target_lang=target_language, optimized=optimized_mode, model_name=model_name)
+        if retranslate_after:
+            _run_verify(output_file, target_language, model_name)
+        else:
+            _report_missing_cells(output_file, target_language)
+
+
 # %%
 # ==================== TRANSLATION ERROR DETECTION ====================
 # Common translation artifacts from Gemini, identified through manual inspection.
@@ -425,30 +810,3 @@ if VERIFY:
 #    },
 #}
 ## %%
-
-# %%
-# ==================== RETRANSLATE DARI CLEANED FILE ====================
-dari_cleaned_file = "pedagogy_benchmark_dari_cdpk_cleaned.csv"
-dari_translated_df = pd.read_csv(DATA_DIR / dari_cleaned_file)
-
-col_to_check = ['question', 'answer_a', 'answer_b', 'answer_c', 'answer_d']
-n_missing = dari_translated_df[col_to_check].isna().sum().sum()
-print(f"Missing translations in Dari cleaned file: {n_missing}")
-
-if n_missing > 0:
-    from datasets import load_dataset as _load_dataset
-    cdpk_original = pd.DataFrame(
-        _load_dataset("AI-for-Education/pedagogy-benchmark", "cdpk_main", split="train")
-    )
-    dari_cleaned_df = retranslate_failed_translations(
-        translated_df=dari_translated_df,
-        original_df=cdpk_original,
-        columns_to_check=col_to_check,
-        target_language="Dari",
-        model_name=MODEL_NAME,
-    )
-    dari_cleaned_df.to_csv(DATA_DIR / "pedagogy_benchmark_dari_cdpk_cleaned_2.csv", index=False)
-    print(f"Updated Dari cleaned file saved to: {DATA_DIR / 'pedagogy_benchmark_dari_cdpk_cleaned_2.csv'}")
-else:
-    print("No missing translations — Dari cleaned file is complete.")
-# %%
