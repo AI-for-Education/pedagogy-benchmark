@@ -137,6 +137,7 @@ def evaluate_model(test_df, config, model, verbose=0, language='english'):
                         "claude-sonnet-4-6-adaptive",
                         "claude-opus-4-7",
                         "kimi-k2.6",
+                        "claude-fable-5",   
                         )
             if any(model.startswith(p) for p in prefixes):
                 temperature = 1
