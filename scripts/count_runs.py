@@ -3,14 +3,14 @@ Count the number of model CSV files per language and category in cache folders.
 
 Usage:
     # Default: scan African languages + English folders
-    python scripts/count_runs.py
+    uv run python scripts/count_runs.py
 
     # Use a different cache directory
-    python scripts/count_runs.py --cache-dir data/cache_local
+    uv run python scripts/count_runs.py --cache-dir data/cache_local
 
     # List models present (uncommented) in the LLM_benchmark reference list
     # but still commented out / missing in this repo's local list
-    python scripts/count_runs.py --check_models
+    uv run python scripts/count_runs.py --check_models
 """
 
 import os
