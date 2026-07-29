@@ -5,6 +5,9 @@ format_data_web.py
 Generate multilingual leaderboard JSON files consumed by the fab-ai.org web
 leaderboard.
 
+Make sure to run scripts/create_results.py first to generate the benchmark CSV 
+(data/results/cdpk_multilingual_model_performance.csv).
+
 Inputs:
   fab-benchmarks-configs/models.csv    – model metadata (price, size, open, urls…)
   fab-benchmarks-configs/providers.csv – provider colors + SVG logos
