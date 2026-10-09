@@ -201,6 +201,15 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# macOS metadata
+.DS_Store
+
+# Local generated assets and presentation drafts
+/.codex-build/
+/artifacts/
+/infographic_build/
+/mockups/
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
@@ -210,3 +219,10 @@ __marimo__/
 data/Chile/**/*.csv
 data/results
 data/cache_local
+
+# Locally generated multilingual benchmark datasets
+/data/Amazigh_Core300_ep/
+/data/English_Core300_ep/
+/data/French_Core300_ep/
+/data/Modern_Standard_Arabic_Core300_ep/
+/data/Modern_Standard_Arabic_ep/
