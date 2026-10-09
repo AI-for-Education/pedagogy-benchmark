@@ -3,16 +3,16 @@ Count rows with success == False in cache CSV files.
 
 Usage:
     # Scan all folders in data/cache_local/
-    python scripts/count_failures.py
+    uv run python scripts/count_failures.py
 
     # Scan only folders matching specific prefixes (matches all subfolders starting with the prefix)
-    python scripts/count_failures.py CDPK_Hausa_ep CDPK_Swahili_ep CDPK_Yoruba_ep CDPK_Nyankore_ep CDPK_Luganda_ep CDPK_English
+    uv run python scripts/count_failures.py CDPK_Hausa_ep CDPK_Swahili_ep CDPK_Yoruba_ep CDPK_Nyankore_ep CDPK_Luganda_ep CDPK_English
 
     # Scan specific single folder
-    python scripts/count_failures.py CDPK_English
+    uv run python scripts/count_failures.py CDPK_English
 
     # Use a different cache directory
-    python scripts/count_failures.py --cache-dir data/other_cache CDPK_Hausa_ep
+    uv run python scripts/count_failures.py --cache-dir data/other_cache CDPK_Hausa_ep
 
 Output:
     Table of CSV files that have at least one False in the 'success' column,
@@ -22,6 +22,10 @@ Output:
 import os
 import csv
 import argparse
+
+# Some model responses (e.g. small models stuck in repetition loops) exceed the
+# csv module's default 128 KB field limit. sys.maxsize overflows a C long on Windows.
+csv.field_size_limit(2**31 - 1)
 
 
 def count_false_rows(cache_dir: str, folder_prefixes: list[str] | None = None) -> list[tuple[str, int]]:

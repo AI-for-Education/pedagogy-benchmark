@@ -33,7 +33,7 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-fabdata-llm = { git = "https://github.com/AI-for-Education/fabdata-llm.git", rev = "main" }
+fabdata-llm = { git = "https://github.com/AI-for-Education/fabdata-llm.git", rev = "dev" }
 
 [dependency-groups]
 dev = [

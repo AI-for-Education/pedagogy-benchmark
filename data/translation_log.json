@@ -1,0 +1,253 @@
+{
+  "pedagogy_benchmark_arabic_cdpk": {
+    "language": "arabic",
+    "dataset": "cdpk",
+    "source": {
+      "hf_repo": "AI-for-Education/pedagogy-benchmark",
+      "hf_config": "cdpk_main",
+      "split": "train",
+      "revision": "55133a11b8f3c05adc186c11d8e4e100219dd36d"
+    },
+    "translation": {
+      "model": "gemini-2.5-flash-preview-09-2025",
+      "mode": null,
+      "date": "2026-03-26"
+    },
+    "files": [
+      "pedagogy_benchmark_arabic_cdpk.csv",
+      "pedagogy_benchmark_arabic_cdpk_cleaned.csv"
+    ],
+    "synthetic": true,
+    "note": "Backfilled on 2026-10-09, not recorded at translation time. Assumed: translated from the Hugging Face revision current on that day (unchanged since 2025-06-24) with gemini-2.5-flash-preview-09-2025 (custom_models.yaml key; API model models/gemini-2.5-flash). mode unknown; translation.date is the date of the raw file."
+  },
+  "pedagogy_benchmark_dari_cdpk": {
+    "language": "dari",
+    "dataset": "cdpk",
+    "source": {
+      "hf_repo": "AI-for-Education/pedagogy-benchmark",
+      "hf_config": "cdpk_main",
+      "split": "train",
+      "revision": "55133a11b8f3c05adc186c11d8e4e100219dd36d"
+    },
+    "translation": {
+      "model": "gemini-2.5-flash-preview-09-2025",
+      "mode": null,
+      "date": "2026-03-25"
+    },
+    "files": [
+      "pedagogy_benchmark_dari_cdpk.csv",
+      "pedagogy_benchmark_dari_cdpk_cleaned.csv"
+    ],
+    "synthetic": true,
+    "note": "Backfilled on 2026-10-09, not recorded at translation time. Assumed: translated from the Hugging Face revision current on that day (unchanged since 2025-06-24) with gemini-2.5-flash-preview-09-2025 (custom_models.yaml key; API model models/gemini-2.5-flash). mode unknown; translation.date is the date of the raw file."
+  },
+  "pedagogy_benchmark_french_cdpk": {
+    "language": "french",
+    "dataset": "cdpk",
+    "source": {
+      "hf_repo": "AI-for-Education/pedagogy-benchmark",
+      "hf_config": "cdpk_main",
+      "split": "train",
+      "revision": "55133a11b8f3c05adc186c11d8e4e100219dd36d"
+    },
+    "translation": {
+      "model": "gemini-2.5-flash-preview-09-2025",
+      "mode": null,
+      "date": "2026-10-08"
+    },
+    "files": [
+      "pedagogy_benchmark_french_cdpk.csv",
+      "pedagogy_benchmark_french_cdpk_cleaned.csv"
+    ],
+    "synthetic": true,
+    "note": "Backfilled on 2026-10-09, not recorded at translation time. Assumed: translated from the Hugging Face revision current on that day (unchanged since 2025-06-24) with gemini-2.5-flash-preview-09-2025 (custom_models.yaml key; API model models/gemini-2.5-flash). mode unknown; translation.date is the date of the raw file."
+  },
+  "pedagogy_benchmark_hausa_cdpk": {
+    "language": "hausa",
+    "dataset": "cdpk",
+    "source": {
+      "hf_repo": "AI-for-Education/pedagogy-benchmark",
+      "hf_config": "cdpk_main",
+      "split": "train",
+      "revision": "55133a11b8f3c05adc186c11d8e4e100219dd36d"
+    },
+    "translation": {
+      "model": "gemini-2.5-flash-preview-09-2025",
+      "mode": null,
+      "date": "2026-02-06"
+    },
+    "files": [
+      "pedagogy_benchmark_hausa_cdpk.csv",
+      "pedagogy_benchmark_hausa_cdpk_cleaned.csv"
+    ],
+    "synthetic": true,
+    "note": "Backfilled on 2026-10-09, not recorded at translation time. Assumed: translated from the Hugging Face revision current on that day (unchanged since 2025-06-24) with gemini-2.5-flash-preview-09-2025 (custom_models.yaml key; API model models/gemini-2.5-flash). mode unknown; translation.date is the date of the raw file."
+  },
+  "pedagogy_benchmark_luganda_cdpk": {
+    "language": "luganda",
+    "dataset": "cdpk",
+    "source": {
+      "hf_repo": "AI-for-Education/pedagogy-benchmark",
+      "hf_config": "cdpk_main",
+      "split": "train",
+      "revision": "55133a11b8f3c05adc186c11d8e4e100219dd36d"
+    },
+    "translation": {
+      "model": "gemini-2.5-flash-preview-09-2025",
+      "mode": null,
+      "date": "2026-02-06"
+    },
+    "files": [
+      "pedagogy_benchmark_luganda_cdpk.csv",
+      "pedagogy_benchmark_luganda_cdpk_cleaned.csv",
+      "pedagogy_benchmark_luganda_cdpk_reviewed.csv"
+    ],
+    "synthetic": true,
+    "note": "Backfilled on 2026-10-09, not recorded at translation time. Assumed: translated from the Hugging Face revision current on that day (unchanged since 2025-06-24) with gemini-2.5-flash-preview-09-2025 (custom_models.yaml key; API model models/gemini-2.5-flash). mode unknown; translation.date is the date of the raw file."
+  },
+  "pedagogy_benchmark_luganda_send": {
+    "language": "luganda",
+    "dataset": "send",
+    "source": {
+      "hf_repo": "AI-for-Education/pedagogy-benchmark",
+      "hf_config": "cdpk_send",
+      "split": "train",
+      "revision": "55133a11b8f3c05adc186c11d8e4e100219dd36d"
+    },
+    "translation": {
+      "model": "gemini-2.5-flash-preview-09-2025",
+      "mode": null,
+      "date": "2026-02-06"
+    },
+    "files": [
+      "pedagogy_benchmark_luganda_send.csv",
+      "pedagogy_benchmark_luganda_send_reviewed.csv"
+    ],
+    "synthetic": true,
+    "note": "Backfilled on 2026-10-09, not recorded at translation time. Assumed: translated from the Hugging Face revision current on that day (unchanged since 2025-06-24) with gemini-2.5-flash-preview-09-2025 (custom_models.yaml key; API model models/gemini-2.5-flash). mode unknown; translation.date is the date of the raw file."
+  },
+  "pedagogy_benchmark_nyankore_cdpk": {
+    "language": "nyankore",
+    "dataset": "cdpk",
+    "source": {
+      "hf_repo": "AI-for-Education/pedagogy-benchmark",
+      "hf_config": "cdpk_main",
+      "split": "train",
+      "revision": "55133a11b8f3c05adc186c11d8e4e100219dd36d"
+    },
+    "translation": {
+      "model": "gemini-2.5-flash-preview-09-2025",
+      "mode": null,
+      "date": "2026-02-06"
+    },
+    "files": [
+      "pedagogy_benchmark_nyankore_cdpk.csv",
+      "pedagogy_benchmark_nyankore_cdpk_cleaned.csv"
+    ],
+    "synthetic": true,
+    "note": "Backfilled on 2026-10-09, not recorded at translation time. Assumed: translated from the Hugging Face revision current on that day (unchanged since 2025-06-24) with gemini-2.5-flash-preview-09-2025 (custom_models.yaml key; API model models/gemini-2.5-flash). mode unknown; translation.date is the date of the raw file."
+  },
+  "pedagogy_benchmark_nyankore_send": {
+    "language": "nyankore",
+    "dataset": "send",
+    "source": {
+      "hf_repo": "AI-for-Education/pedagogy-benchmark",
+      "hf_config": "cdpk_send",
+      "split": "train",
+      "revision": "55133a11b8f3c05adc186c11d8e4e100219dd36d"
+    },
+    "translation": {
+      "model": "gemini-2.5-flash-preview-09-2025",
+      "mode": null,
+      "date": "2026-02-06"
+    },
+    "files": [
+      "pedagogy_benchmark_nyankore_send.csv"
+    ],
+    "synthetic": true,
+    "note": "Backfilled on 2026-10-09, not recorded at translation time. Assumed: translated from the Hugging Face revision current on that day (unchanged since 2025-06-24) with gemini-2.5-flash-preview-09-2025 (custom_models.yaml key; API model models/gemini-2.5-flash). mode unknown; translation.date is the date of the raw file."
+  },
+  "pedagogy_benchmark_pashto_cdpk": {
+    "language": "pashto",
+    "dataset": "cdpk",
+    "source": {
+      "hf_repo": "AI-for-Education/pedagogy-benchmark",
+      "hf_config": "cdpk_main",
+      "split": "train",
+      "revision": "55133a11b8f3c05adc186c11d8e4e100219dd36d"
+    },
+    "translation": {
+      "model": "gemini-2.5-flash-preview-09-2025",
+      "mode": null,
+      "date": "2026-03-26"
+    },
+    "files": [
+      "pedagogy_benchmark_pashto_cdpk.csv",
+      "pedagogy_benchmark_pashto_cdpk_cleaned.csv"
+    ],
+    "synthetic": true,
+    "note": "Backfilled on 2026-10-09, not recorded at translation time. Assumed: translated from the Hugging Face revision current on that day (unchanged since 2025-06-24) with gemini-2.5-flash-preview-09-2025 (custom_models.yaml key; API model models/gemini-2.5-flash). mode unknown; translation.date is the date of the raw file."
+  },
+  "pedagogy_benchmark_swahili_cdpk": {
+    "language": "swahili",
+    "dataset": "cdpk",
+    "source": {
+      "hf_repo": "AI-for-Education/pedagogy-benchmark",
+      "hf_config": "cdpk_main",
+      "split": "train",
+      "revision": "55133a11b8f3c05adc186c11d8e4e100219dd36d"
+    },
+    "translation": {
+      "model": "gemini-2.5-flash-preview-09-2025",
+      "mode": null,
+      "date": "2026-02-06"
+    },
+    "files": [
+      "pedagogy_benchmark_swahili_cdpk.csv",
+      "pedagogy_benchmark_swahili_cdpk_cleaned.csv"
+    ],
+    "synthetic": true,
+    "note": "Backfilled on 2026-10-09, not recorded at translation time. Assumed: translated from the Hugging Face revision current on that day (unchanged since 2025-06-24) with gemini-2.5-flash-preview-09-2025 (custom_models.yaml key; API model models/gemini-2.5-flash). mode unknown; translation.date is the date of the raw file."
+  },
+  "pedagogy_benchmark_swahili_tz_cdpk": {
+    "language": "swahili_tz",
+    "dataset": "cdpk",
+    "source": {
+      "hf_repo": "AI-for-Education/pedagogy-benchmark",
+      "hf_config": "cdpk_main",
+      "split": "train",
+      "revision": "55133a11b8f3c05adc186c11d8e4e100219dd36d"
+    },
+    "translation": {
+      "model": "gemini-3.1-pro-preview",
+      "mode": null,
+      "date": "2026-06-04"
+    },
+    "files": [
+      "pedagogy_benchmark_swahili_tz_cdpk.csv"
+    ],
+    "synthetic": true,
+    "note": "Backfilled on 2026-10-09, not recorded at translation time. Assumed: translated from the Hugging Face revision current on that day (unchanged since 2025-06-24) with gemini-3.1-pro-preview (custom_models.yaml key; API model models/gemini-3.1-pro-preview), confirmed by the team on 2026-10-09. mode unknown; translation.date is the date of the raw file."
+  },
+  "pedagogy_benchmark_yoruba_cdpk": {
+    "language": "yoruba",
+    "dataset": "cdpk",
+    "source": {
+      "hf_repo": "AI-for-Education/pedagogy-benchmark",
+      "hf_config": "cdpk_main",
+      "split": "train",
+      "revision": "55133a11b8f3c05adc186c11d8e4e100219dd36d"
+    },
+    "translation": {
+      "model": "gemini-2.5-flash-preview-09-2025",
+      "mode": null,
+      "date": "2026-02-06"
+    },
+    "files": [
+      "pedagogy_benchmark_yoruba_cdpk.csv",
+      "pedagogy_benchmark_yoruba_cdpk_cleaned.csv"
+    ],
+    "synthetic": true,
+    "note": "Backfilled on 2026-10-09, not recorded at translation time. Assumed: translated from the Hugging Face revision current on that day (unchanged since 2025-06-24) with gemini-2.5-flash-preview-09-2025 (custom_models.yaml key; API model models/gemini-2.5-flash). mode unknown; translation.date is the date of the raw file."
+  }
+}
