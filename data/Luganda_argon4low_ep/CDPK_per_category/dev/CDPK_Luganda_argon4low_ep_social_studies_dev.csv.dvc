@@ -1,0 +1,5 @@
+outs:
+- md5: 586d6e903d71c22b78f6e9ab209a4286
+  size: 2465
+  hash: md5
+  path: CDPK_Luganda_argon4low_ep_social_studies_dev.csv

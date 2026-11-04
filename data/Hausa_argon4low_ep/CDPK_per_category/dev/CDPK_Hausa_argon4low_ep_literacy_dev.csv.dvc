@@ -1,0 +1,5 @@
+outs:
+- md5: 491f27e4409f39b3b9ab52fb68317392
+  size: 2976
+  hash: md5
+  path: CDPK_Hausa_argon4low_ep_literacy_dev.csv

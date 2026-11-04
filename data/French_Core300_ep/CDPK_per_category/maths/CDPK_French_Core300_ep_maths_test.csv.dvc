@@ -1,0 +1,5 @@
+outs:
+- md5: 996e9c160c9212fd323edaaadfd79194
+  size: 42924
+  hash: md5
+  path: CDPK_French_Core300_ep_maths_test.csv

@@ -1,0 +1,5 @@
+outs:
+- md5: a9e60a44a81c35e21dd268cda0d02776
+  size: 53333
+  hash: md5
+  path: CDPK_French_Core300_ep_literacy_test.csv

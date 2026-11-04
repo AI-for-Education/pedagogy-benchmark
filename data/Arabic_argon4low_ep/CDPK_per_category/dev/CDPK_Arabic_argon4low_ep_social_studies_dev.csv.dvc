@@ -1,0 +1,5 @@
+outs:
+- md5: 5e2ba75c1ba8701fd594d34572f60248
+  size: 2830
+  hash: md5
+  path: CDPK_Arabic_argon4low_ep_social_studies_dev.csv

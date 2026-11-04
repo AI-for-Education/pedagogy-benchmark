@@ -1,0 +1,5 @@
+outs:
+- md5: 5bdfd08b4fa09f5e72bf306b2c04603f
+  size: 63410
+  hash: md5
+  path: CDPK_Hausa_argon4low_ep_general_test.csv

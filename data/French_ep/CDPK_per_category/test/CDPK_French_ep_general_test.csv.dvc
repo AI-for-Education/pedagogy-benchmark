@@ -1,0 +1,5 @@
+outs:
+- md5: 50a630cf7e5955654c8ec05c1e31e00d
+  size: 65150
+  hash: md5
+  path: CDPK_French_ep_general_test.csv

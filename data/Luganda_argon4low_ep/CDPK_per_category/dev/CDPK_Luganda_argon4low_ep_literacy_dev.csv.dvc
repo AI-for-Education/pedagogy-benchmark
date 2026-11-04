@@ -1,0 +1,5 @@
+outs:
+- md5: ab07d2720f62be90f65b75ddc8911d0c
+  size: 3216
+  hash: md5
+  path: CDPK_Luganda_argon4low_ep_literacy_dev.csv

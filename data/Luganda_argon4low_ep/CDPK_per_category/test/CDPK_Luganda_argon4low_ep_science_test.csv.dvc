@@ -1,0 +1,5 @@
+outs:
+- md5: 776a4e24b726df442caa479d050fb00d
+  size: 190688
+  hash: md5
+  path: CDPK_Luganda_argon4low_ep_science_test.csv
