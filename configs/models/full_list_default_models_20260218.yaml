@@ -139,3 +139,7 @@ gemini-3.6-flash: Gemini-3.6 Flash
 gemini-3.5-flash-lite: Gemini-3.5 Flash-Lite
 claude-opus-4-8: Claude Opus 4.8
 claude-opus-5: Claude Opus 5
+hf-gemma-4-12b-it: Gemma-4 12B
+gpt-6.1-sol-medium: GPT-6.1 Sol (Medium)
+claude-sonnet-5-5-medium: Claude Sonnet 5.5 (Medium)
+gemini-3.8-flash: Gemini-3.8 Flash

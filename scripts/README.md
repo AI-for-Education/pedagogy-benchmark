@@ -50,6 +50,62 @@ benchmarked models, and `AZURE_STORAGE_KEY` only to upload to the leaderboard).
 Models are defined in `fab-benchmarks-configs/custom_models.yaml` and their metadata (provider,
 prices, size, display name) in `fab-benchmarks-configs/models.csv`.
 
+> **Note: the `fab-benchmarks-configs` submodule is still required.** The runner (step 4) registers
+> the models from its `custom_models.yaml` and reads its `models.csv`; the results and leaderboard
+> scripts (steps 6-7) also read `models.csv` and `providers.csv`.
+>
+> **Work in progress:** these 3 files (`custom_models.yaml`, `models.csv`, `providers.csv`) are now
+> also stored on GCS. In the future, the scripts may download them from GCS instead, and the
+> submodule would then no longer be used. Until that change is made, keep using the submodule and
+> **update it to its latest version before running models**, so that newly added models are
+> registered:
+>
+> ```bash
+> # Update the submodule to the latest commit of fab-benchmarks-configs (new models, providers, prices)
+> git submodule update --remote --merge
+>
+> # Then record the new submodule commit in this repo, so others run with the same model list
+> git add fab-benchmarks-configs
+> git commit -m "Update fab-benchmarks-configs"
+> ```
+>
+> `git submodule update --init` alone (as above) only checks out the commit recorded in this repo,
+> which may not include the latest models.
+
+### What is tracked by DVC, and how to get it
+
+Large data files are not stored in git but with [DVC](https://dvc.org/), on an Azure blob remote
+(`azure://llm-benchmarks/dvc`, see `.dvc/config`). Git only stores small `.dvc` pointer files that
+record which version of the data goes with each commit.
+
+| What | Path | Pointer file(s) in git |
+|---|---|---|
+| Translated full datasets (English source, raw, `_cleaned`, `_retranslated`, `_reviewed` files) | `data/pedagogy_benchmark_full_datasets/` | `data/pedagogy_benchmark_full_datasets.dvc` (whole folder) |
+| Shared cache of model responses | `data/cache/` | `data/cache.dvc` (whole folder) |
+| Per-category dev/test splits of each language (step 3) | `data/<Slug>/CDPK_per_category/{dev,test}/*.csv` | one `.csv.dvc` per CSV, next to it |
+
+Not tracked by DVC:
+- **in git**: code, `configs/` (models lists and question configs), `data/few_shot_examples_idx_dict.json`,
+  `data/translation_log.json`;
+- **local only** (neither git nor DVC): `data/cache_local/` (new model responses, copied to
+  `data/cache/` by `merge_cache.py`, step 8) and `data/results/` (rebuilt from the caches by steps 4
+  and 6).
+
+Splits only exist on DVC once someone has run `dvc add` on them (step 8).
+
+To get the data:
+
+```bash
+uv run dvc pull                                         # everything tracked, at the version of the current commit
+uv run dvc pull data/pedagogy_benchmark_full_datasets.dvc   # only the translated datasets
+uv run dvc pull data/cache.dvc                          # only the shared cache of model responses
+uv run dvc status                                       # local files that differ from the commit's version
+```
+
+Reading needs no credentials (the remote allows anonymous read); `dvc push` needs write access.
+After `git pull` or `git checkout` of another commit, run `uv run dvc pull` again: the pointer files
+may have changed. How to add new data to DVC is in step 8.
+
 ---
 
 ## Step 1: Register the language
@@ -69,6 +125,12 @@ separately. The `slug` names every output folder and file of the language.
 
 ## Step 2: Translate the benchmark (`translate_benchmark.py`)
 
+> **Human-reviewed translations: skip step 2.** If the translation comes from (or was reviewed by)
+> human translators, do not run `translate_benchmark.py`. Put the file in
+> `data/pedagogy_benchmark_full_datasets/` **in the format described in step 3**
+> ([Input format for human-reviewed translations](#input-format-for-human-reviewed-translations)),
+> then go to step 3.
+
 Translates the English questions and answer options from Hugging Face
 (`AI-for-Education/pedagogy-benchmark`, config `cdpk_main` for CDPK, `cdpk_send` for SEND) with an LLM.
 Always use the **base language name** (e.g., `swahili`, never `swahili_ep`).
@@ -80,9 +142,16 @@ uv run python scripts/translate_benchmark.py --mode estimate_cost --dataset cdpk
 # 2. Translate (optimized = one API call per question, ~5x cheaper than the default per-cell mode). Recommanded.
 uv run python scripts/translate_benchmark.py --mode optimized --dataset cdpk --language swahili --model gemini-2.5-flash-preview-09-2025 --retranslate true
 
-# 3. Only if step 2 reported missing cells (or ran with --retranslate false): fill them
-uv run python scripts/translate_benchmark.py --mode retranslate --dataset cdpk --language swahili --file pedagogy_benchmark_swahili_cdpk.csv
+# 3. Only if step 2 reported missing cells (or ran with --retranslate false): fill them,
+#    with the same --model as step 2 (the printed command already includes it)
+uv run python scripts/translate_benchmark.py --mode retranslate --dataset cdpk --language swahili --model gemini-2.5-flash-preview-09-2025 --file pedagogy_benchmark_swahili_cdpk.csv
 ```
+
+Missing cells are always filled with the same model and language as the rest of the file: if
+`--model`, `--language` or `--translator-slug` differ from the file's entry in
+`data/translation_log.json`, retranslate stops before any API call and prints the right command.
+Without `--model`, the default model (`DEFAULT_MODEL` in the script) is used, so pass `--model`
+whenever the file was translated with another model.
 
 Files written in `data/pedagogy_benchmark_full_datasets/`:
 
@@ -93,9 +162,61 @@ Files written in `data/pedagogy_benchmark_full_datasets/`:
 | `..._cdpk_retranslated.csv` | some cells failed again: rerun `--mode retranslate --file <this file>` |
 | `..._cdpk_partial.csv` | snapshot saved during a run |
 
-Every run is recorded in `data/translation_log.json` (Hugging Face version hash, model, mode, date,
-retranslations), and retranslation reuses that exact source version. The script refuses to
-translate a language that already has files.
+The script refuses to translate a language that already has files.
+
+**Translation log (`data/translation_log.json`, tracked in git).** One entry per translation, keyed
+by the raw file name without `.csv`:
+
+| Field | Content |
+|---|---|
+| `language`, `translator_slug`, `dataset` | the `--language`, `--translator-slug` and `--dataset` used |
+| `source` | English source: Hugging Face repo, config, split and `revision` (commit hash) |
+| `translation` | `model`, `mode` (`optimized` / `translate`) and `date` |
+| `retranslations` | one record per `--mode retranslate` run: cells missing before/after, input and output files (`model: null` = nothing missing, no API call) |
+| `synthetic`, `note` | `true` = entry backfilled by hand (translation made outside the script), `note` says what was assumed |
+
+How it is used:
+- **Written** by `translate_benchmark.py` (main fields on translation, a `retranslations` record on
+  each verify/retranslate run).
+- **Checked** by `--mode retranslate` before any API call: if `--language`, `--translator-slug` or
+  `--model` differ from the log, it stops and prints the right command; it reloads the English
+  source at the logged `revision`, so cells are filled from the same text.
+- **Read** by `translation_experiment_analysis.py` to label each translation with its model.
+- **To look up**: which languages/datasets are translated, with which model and when, the exact CLI
+  arguments to use for a file (step 2 `--language`/`--translator-slug`/`--model`; steps 3-4 use the
+  `language_prompts.py` key `<language>[_<translator_slug>]_ep`), and how many cells failed.
+- **For a translation made outside the script** (colleague, human translators): add an entry by hand
+  with `"synthetic": true` and a `note`, so retranslation enforces the right model and language.
+
+```bash
+# List every translation with its model and date
+uv run python -c "import json; [print(k, v['translation']['model'], v['translation']['date'], 'synthetic' if v.get('synthetic') else '') for k, v in json.load(open('data/translation_log.json', encoding='utf-8')).items()]"
+```
+
+**Translating a language again with another model** (e.g. to measure how much the translation
+model changes the scores): add `--translator-slug <short model name>` (lowercase letters and
+digits). The prompt still uses `--language`; only the file names change, so the original
+translation is not touched:
+
+```bash
+uv run python scripts/translate_benchmark.py --mode optimized --dataset cdpk --language arabic --translator-slug argon4low --model gemini-4-argon-low --retranslate true
+# -> pedagogy_benchmark_arabic_argon4low_cdpk.csv (and _cleaned)
+```
+
+Pass the same `--translator-slug` in retranslate mode. For steps 3 and 4, add a language entry
+`arabic_argon4low_ep` (slug `Arabic_argon4low_ep`, with `'translator_slug': 'argon4low'`) in
+`language_prompts.py`, as done for Arabic, Hausa and Luganda. Its results and cache then go to
+their own folders, separate from `Arabic_ep`.
+
+Once the models are run on both versions (step 4), compare the scores with
+`translation_experiment_analysis.py`. It reads the answers from `data/cache_local`. It
+compares the original translation with the new one on the same questions, and the full test
+set (899) with the 300-question core subset (`data/final_300_original_question_indices.csv`).
+It writes CSV tables and figures to `data/results/figures/translation_experiment/`:
+
+```bash
+uv run python scripts/translation_experiment_analysis.py --languages Arabic Hausa Luganda --translator-slugs argon4low
+```
 
 ---
 
@@ -133,6 +254,44 @@ compared with English question by question rather than row by row.
 
 Outputs: `data/Swahili_ep/CDPK_per_category/{test,dev}/*.csv` and
 `configs/questions/CDPK_Swahili_ep_<category>.yaml`.
+
+### Input format for human-reviewed translations
+
+A translation that did not come from step 2 must be put in this format before running step 3,
+otherwise the checks stop the script:
+
+- **Location and name**: `data/pedagogy_benchmark_full_datasets/pedagogy_benchmark_<lang>_cdpk_reviewed.csv`
+  (or `..._send_reviewed.csv`), with `<lang>` the base language name (e.g. `luganda`, no `_ep`). Any
+  other name is refused (the accepted suffixes are `_cleaned`, `_retranslated` and `_reviewed`).
+- **CSV, UTF-8, one row per question**, with these columns **in this order** (the runner reads the
+  question, options and answer by column position):
+
+  ```
+  question_id,question,answer_a,answer_b,answer_c,answer_d,answer_e,answer_f,answer_g,correct_answer,category
+  ```
+
+  Extra columns (e.g. `pedagogical_subdomain`, `age_group`, `year`, `secondary_category`) are
+  allowed **after** `category`. `answer_e/f/g` may be left empty or omitted (they are added empty).
+  Same layout as the English file `pedagogy_benchmark_cdpk.csv`.
+- **`question_id`**: the id of the English question (CDPK: 0-919; SEND: from 920), unique.
+- **`question`, `answer_a` to `answer_d`**: translated, never empty.
+- **`correct_answer`**: the English letter (`A`-`D`), unchanged: it is checked against English
+  question by question.
+- **`category`**: the English category name, unchanged: `Science`, `Literacy`, `Creative arts`,
+  `Maths`, `Social studies`, `Technology`, `General` (CDPK) or `SEND`.
+- **Keep the few-shot questions**: question_id 0-2 (Science), 186-188 (Literacy), 340-342
+  (Creative arts), 490-492 (Maths), 619-621 (Social studies), 732-734 (Technology), 841-843
+  (General), from `data/few_shot_examples_idx_dict.json`. Every language uses the same examples.
+- **Rows may be removed** (questions rejected by the reviewers). In that case, run step 3 with
+  `--use-question-id true`; with all the 920 rows in the original order, the default works.
+
+```bash
+uv run python scripts/prepare_cdpk_dataset_multilingual.py --dataset cdpk --file pedagogy_benchmark_luganda_cdpk_reviewed --language luganda_ep --use-question-id true --dry-run
+```
+
+A reviewed file with removed rows has fewer test questions than English, so its scores are not
+directly comparable with the full-test-set languages (step 6 skips folders with a different
+question set than English).
 
 > **SEND: known issue.** The SEND dataset contains 2 duplicated questions: question_id 1047 is an
 > exact copy of the few-shot example 920, and 1056 of the few-shot example 922. The duplicates were
@@ -328,7 +487,12 @@ These are not part of the step-by-step process above: nothing in it depends on t
 | Script | Status |
 |---|---|
 | `create_figures.py` | **visualizations only**: figures from the step 6 tables, run in an interactive window (VS Code / Jupyter). Also saves `cdpk_multilingual_model_performance_detailed_exploded.csv` in `data/results/`; rerun it after step 6 to keep that file up to date |
-| `create_multilingual_comparison_plots.py`, `pedagogy_vs_language_confound.py`, `token_analysis.py` | analysis and plots from the step 6 tables |
+| `create_multilingual_comparison_plots.py`, `pedagogy_vs_language_confound.py` | analysis and plots from the step 6 tables |
+| `create_barplots.py` | bar plots of model accuracy per language, from the step 4 results in `data/results/<Slug>/` (`--overview` for one figure with all languages) |
+| `translation_experiment_analysis.py` | compares two translations of the same language (see step 2, "Translating a language again with another model") |
+| `estimate_cost.py` | estimates the API cost of running a models list on a dataset, before step 4 |
+| `prepare_review_dataset.py` | builds an Excel file (English + translation side by side) for human reviewers of a translation |
 | `analysis_human_vs_machine_translations.py`, `load_dataset_multingual_human_reviews_exp.py` | analysis of human-reviewed translations (Luganda) |
+| `load_dataset.py`, `baseline_allmodels_general.py` | exploratory scratch scripts (interactive window), not needed for the pipeline |
 | `run_pedagogy_benchmark.py` | **legacy** English-only runner, use `run_pedagogy_benchmark_multilingual.py` |
 | `legacy/` | code used to build the original benchmark |

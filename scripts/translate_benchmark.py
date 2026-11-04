@@ -20,7 +20,11 @@ Modes (--mode)
 - retranslate: re-verify an already-translated CSV given with `--file`. Missing
   (None/NaN or whitespace-only) cells are retranslated from the same Hugging Face
   version as the original translation (read from the log), matched by question_id,
-  and the result is saved as described in "Output files" below.
+  and the result is saved as described in "Output files" below. If cells are missing,
+  --model, --language and --translator-slug must match the log entry of the file
+  (the model, language and slug that translated the rest of it), otherwise the script
+  stops before any API call. A file with no missing cell needs no API call, so it is
+  saved as `_cleaned` without this check.
 
 Options
 -------
@@ -30,6 +34,12 @@ Options
                          benchmark runner). Used in the prompt and in the file names.
 --model MODEL_ID         Registered model in fab-benchmarks-configs/custom_models.yaml
                          (default: DEFAULT_MODEL). Must be in models.csv for estimate_cost.
+--translator-slug SLUG   Optional short name of the translation model, added to the file names
+                         only (lowercase letters and digits), e.g. `--language arabic
+                         --translator-slug argon4low` writes pedagogy_benchmark_arabic_argon4low_cdpk.csv.
+                         The prompt still uses --language. Use it to translate a language again
+                         with another model without touching the original files (e.g. to compare
+                         translation models). Pass the same --translator-slug in retranslate mode.
 --file NAME              File in data/pedagogy_benchmark_full_datasets/ (retranslate mode).
 --retranslate {true,false}
                          translate/optimized modes only. Default false: if cells are missing
@@ -45,7 +55,8 @@ Examples (PowerShell: end lines with a backtick, or write everything on one line
 Output files
 ------------
 All in data/pedagogy_benchmark_full_datasets/ ({dataset} is cdpk or send):
-- `pedagogy_benchmark_{language}_{dataset}.csv`: raw translation, may have missing cells.
+- `pedagogy_benchmark_{language}_{dataset}.csv` (or `..._{language}_{translator_slug}_{dataset}.csv`
+  with --translator-slug): raw translation, may have missing cells.
 - `..._{dataset}_cleaned.csv`: verified, every cell translated. Always written once a
   file is verified complete, even when nothing had to be retranslated (it is then
   a copy of the raw file). This is the file to pass to
@@ -153,10 +164,15 @@ def _build_translation_prompt(
 
 
 def test_gemini_api(model_name: str):
-    """One short call to check that the model and API key work before a full run."""
-    caller = get_caller(model_name)
-    msg = LLMMessage(Role="user", Message="Why is the sky blue?")
-    response = caller.call(msg, max_tokens=None, temperature=0.0)
+    """One short call to check that the model and API key work before a full run.
+    Returns the answer, or None if the call fails."""
+    try:
+        caller = get_caller(model_name)
+        msg = LLMMessage(Role="user", Message="Why is the sky blue?")
+        response = caller.call(msg, max_tokens=None, temperature=0.0)
+    except Exception as e:
+        print(f"API test call to {model_name!r} failed: {e}")
+        return None
 
     return response.Message
 
@@ -228,6 +244,10 @@ def translate_text(
     # distinct from the existing `swahili` translation.
     elif target_language.lower() == "swahili_tz":
         target_language = "Swahili (Tanzania)"
+    # "Twi" covers several Akan varieties (Asante, Akuapem); name the one wanted so the
+    # model does not mix them
+    elif target_language.lower() == "twi":
+        target_language = "Asante Twi (Akan, Ghana)"
 
     # New prompt format from Translate Gemma paper (built via shared helper so
     # per-cell and per-row modes stay in lock-step).
@@ -287,6 +307,8 @@ def translate_row(
         target_language += " (Modern Standard Arabic)"
     elif target_language.lower() == "swahili_tz":
         target_language = "Swahili (Tanzania)"
+    elif target_language.lower() == "twi":
+        target_language = "Asante Twi (Akan, Ghana)"
 
     prompt = _build_translation_prompt(payload, source_language, target_language)
 
@@ -488,7 +510,8 @@ def estimate_translation_cost(
     print("=" * 78)
 
 
-def run_translation(dataset: str, target_lang: str, optimized: bool, model_name: str, base: str) -> bool:
+def run_translation(dataset: str, target_lang: str, optimized: bool, model_name: str, base: str,
+                    translator_slug: str | None = None) -> bool:
     """Translate the whole dataset, save the raw file '<base>.csv' and log the run.
 
     Args:
@@ -498,6 +521,7 @@ def run_translation(dataset: str, target_lang: str, optimized: bool, model_name:
             If False, translate one cell per API call.
         model_name: Registered model name.
         base: Raw output file name without .csv, e.g. pedagogy_benchmark_french_cdpk.
+        translator_slug: --translator-slug tag in the file name (None for the main translation), logged.
 
     Returns:
         True if the raw file was saved.
@@ -534,6 +558,7 @@ def run_translation(dataset: str, target_lang: str, optimized: bool, model_name:
     print(f"\nTranslation complete. Translated dataset saved to: {output_path}")
     _update_log(base, fields={
         "language": target_lang,
+        "translator_slug": translator_slug,
         "dataset": dataset,
         "source": {"hf_repo": HF_REPO, "hf_config": HF_CONFIGS[dataset], "split": HF_SPLIT,
                    "revision": revision},
@@ -568,7 +593,8 @@ def _base_stem(file_name: str) -> str:
     return Path(file_name).stem.removesuffix("_cleaned").removesuffix("_retranslated")
 
 
-def _save_verified(df: pd.DataFrame, source_file: str, dataset: str, target_language: str) -> Path | None:
+def _save_verified(df: pd.DataFrame, source_file: str, dataset: str, target_language: str,
+                   model_name: str, translator_slug: str | None = None) -> Path | None:
     """Save a checked translation under a name that tells whether it is complete.
 
     - No missing cell: '<stem>_cleaned.csv'. `_cleaned` always means "verified, every
@@ -598,8 +624,9 @@ def _save_verified(df: pd.DataFrame, source_file: str, dataset: str, target_lang
     df.to_csv(path, index=False)
     print(f"⚠️ {int(_missing_mask(df).sum().sum())} cells still missing after retranslation "
           f"(question_id: {missing_ids[:20]}). Saved as {path}, NOT as _cleaned. Retry with:")
+    slug_arg = f" --translator-slug {translator_slug}" if translator_slug else ""
     print(f"  uv run python scripts/translate_benchmark.py --mode retranslate "
-          f"--dataset {dataset} --language {target_language} --file {path.name}")
+          f"--dataset {dataset} --language {target_language}{slug_arg} --model {model_name} --file {path.name}")
     return path
 
 
@@ -665,12 +692,15 @@ def retranslate_failed_translations(
     return translated_df
 
 
-def _verify_and_retranslate(input_file: str, dataset: str, target_language: str, model_name: str):
+def _verify_and_retranslate(input_file: str, dataset: str, target_language: str, model_name: str,
+                            translator_slug: str | None = None):
     """Check `input_file` for missing cells, retranslate them if any, then save the
     result with _save_verified: '<stem>_cleaned.csv' when complete (even if nothing
     had to be retranslated), '<stem>_retranslated.csv' when cells are still missing.
     The source version comes from the translation log, so retranslated cells match
-    the text the file was translated from.
+    the text the file was translated from. If cells are missing and `model_name`,
+    `target_language` or `translator_slug` differ from the log entry of the file,
+    abort before any API call.
     """
     input_path = DATA_DIR / input_file
     if not input_path.exists():
@@ -687,7 +717,32 @@ def _verify_and_retranslate(input_file: str, dataset: str, target_language: str,
     print(f"Shape: {translated_df.shape} | missing cells: {n_missing}")
 
     if n_missing:
-        revision = _read_log().get(base, {}).get("source", {}).get("revision")
+        log_entry = _read_log().get(base, {})
+        # Missing cells must be filled with the same prompt (language) and model as the
+        # rest of the file. The file name alone cannot tell, e.g. --language arabic_argon4low
+        # gives the same file name as --language arabic --translator-slug argon4low.
+        logged_model = log_entry.get("translation", {}).get("model")
+        logged_language = log_entry.get("language")
+        logged_slug = log_entry.get("translator_slug")  # absent in older entries = no slug
+        if logged_language is not None and (
+                logged_language.lower().replace(" ", "_") != target_language.lower().replace(" ", "_")
+                or logged_slug != translator_slug):
+            logged_slug_arg = f" --translator-slug {logged_slug}" if logged_slug else ""
+            sys.exit(f"ERROR: --language {target_language} --translator-slug {translator_slug} is different "
+                     f"from the language and slug used to translate the items of {base}: "
+                     f"--language {logged_language} --translator-slug {logged_slug} (see {LOG_FILE.name}). "
+                     "The language is used in the translation prompt. No API call made. Run instead:\n"
+                     f"  uv run python scripts/translate_benchmark.py --mode retranslate --dataset {dataset} "
+                     f"--language {logged_language}{logged_slug_arg} --model {logged_model or model_name} "
+                     f"--file {input_file}")
+        if logged_model is not None and model_name != logged_model:
+            slug_arg = f" --translator-slug {translator_slug}" if translator_slug else ""
+            sys.exit(f"ERROR: the model about to be used, {model_name!r}, is different from the model "
+                     f"used to translate the items of {base}, {logged_model!r} (see {LOG_FILE.name}). "
+                     "No API call made. To retranslate with the same model, run:\n"
+                     f"  uv run python scripts/translate_benchmark.py --mode retranslate --dataset {dataset} "
+                     f"--language {target_language}{slug_arg} --model {logged_model} --file {input_file}")
+        revision = log_entry.get("source", {}).get("revision")
         if revision is None:
             revision = current_hf_revision()
             print(f"Warning: no source version for {base} in {LOG_FILE.name}; using the current "
@@ -701,7 +756,7 @@ def _verify_and_retranslate(input_file: str, dataset: str, target_language: str,
             target_language=target_language,
             model_name=model_name,
         )
-    saved = _save_verified(translated_df, input_file, dataset, target_language)
+    saved = _save_verified(translated_df, input_file, dataset, target_language, model_name, translator_slug)
     if saved is not None:
         _update_log(base, retranslation={
             "date": date.today().isoformat(),
@@ -713,7 +768,8 @@ def _verify_and_retranslate(input_file: str, dataset: str, target_language: str,
         })
 
 
-def _report_missing_cells(output_file: str, dataset: str, target_language: str):
+def _report_missing_cells(output_file: str, dataset: str, target_language: str, model_name: str,
+                          translator_slug: str | None = None):
     """After a translate-mode run without --retranslate true, report how many cells
     are missing and show the exact command to fix them. A complete file is saved as
     '<stem>_cleaned.csv' right away (no API call needed).
@@ -727,16 +783,17 @@ def _report_missing_cells(output_file: str, dataset: str, target_language: str):
     print(f"\nMissing cells in {output_file}: {n_missing}")
     if n_missing == 0:
         print("Translation file is complete — no retranslate needed.")
-        saved = _save_verified(df, output_file, dataset, target_language)
+        saved = _save_verified(df, output_file, dataset, target_language, model_name, translator_slug)
         if saved is not None:
             _update_log(_base_stem(output_file), retranslation={
                 "date": date.today().isoformat(), "model": None, "input_file": output_file,
                 "cells_missing_before": 0, "cells_missing_after": 0, "output_file": saved.name,
             })
     else:
+        slug_arg = f" --translator-slug {translator_slug}" if translator_slug else ""
         print("To fix the missing cells, run:")
         print(f"  uv run python scripts/translate_benchmark.py --mode retranslate "
-              f"--dataset {dataset} --language {target_language} --file {output_file}")
+              f"--dataset {dataset} --language {target_language}{slug_arg} --model {model_name} --file {output_file}")
 
 
 # ==================== CLI ====================
@@ -759,6 +816,12 @@ def _parse_cli_args():
                    help="Target language, base name only (e.g. french, not french_ep).")
     p.add_argument("--model", default=DEFAULT_MODEL,
                    help=f"Registered model name in custom_models.yaml (default: {DEFAULT_MODEL}).")
+    p.add_argument("--translator-slug", default=None,
+                   help="Optional short name of the translation model, added to the file names only, "
+                        "e.g. 'argon4low' -> "
+                        "pedagogy_benchmark_arabic_argon4low_cdpk.csv. The prompt still uses --language. "
+                        "Use it to translate a language again with another model without touching "
+                        "the original files.")
     p.add_argument("--file", default=None,
                    help="File in data/pedagogy_benchmark_full_datasets/ to verify (retranslate mode).")
     p.add_argument("--retranslate", choices=["true", "false"], default="false", type=str.lower,
@@ -770,8 +833,15 @@ def _parse_cli_args():
 def main():
     args = _parse_cli_args()
     target_language, model_name, dataset = args.language, args.model, args.dataset
+    translator_slug = args.translator_slug
     lang_slug = target_language.lower().replace(" ", "_")
-    base = f"pedagogy_benchmark_{lang_slug}_{dataset}"
+    # The translator slug only changes the file names (and so the log key); the prompt uses target_language
+    file_lang = f"{lang_slug}_{translator_slug}" if translator_slug else lang_slug
+    base = f"pedagogy_benchmark_{file_lang}_{dataset}"
+
+    if translator_slug is not None and not (translator_slug.isalnum() and translator_slug.islower()):
+        sys.exit(f"ERROR: --translator-slug {translator_slug!r} must be lowercase letters and digits only "
+                 "(e.g. argon4low).")
 
     if lang_slug.endswith("_ep"):
         # "_ep" (English Prompt) only selects the prompt language when preparing and
@@ -793,9 +863,10 @@ def main():
             sys.exit("ERROR: --mode retranslate requires --file <name> "
                      "(file name in data/pedagogy_benchmark_full_datasets/).")
         if _base_stem(args.file) != base:
-            sys.exit(f"ERROR: --file {args.file!r} does not match --dataset {dataset} and "
-                     f"--language {target_language}: expected {base}.csv (or its _cleaned/_retranslated version).")
-        _verify_and_retranslate(args.file, dataset, target_language, model_name)
+            sys.exit(f"ERROR: --file {args.file!r} does not match --dataset {dataset}, "
+                     f"--language {target_language} and --translator-slug {translator_slug}: expected {base}.csv "
+                     "(or its _cleaned/_retranslated version).")
+        _verify_and_retranslate(args.file, dataset, target_language, model_name, translator_slug)
     else:  # translate (default per-cell) or optimized (per-row)
         # Check every file of an earlier translation of this language before any API
         # call: only checking the raw file would let a full (paid) translation run when
@@ -807,12 +878,12 @@ def main():
                      + "\n  ".join(str(p) for p in existing)
                      + "\nRename/move/delete them to translate again, or use "
                        "`--mode retranslate --file <name>` to fix missing cells.")
-        if not run_translation(dataset, target_language, args.mode == "optimized", model_name, base):
+        if not run_translation(dataset, target_language, args.mode == "optimized", model_name, base, translator_slug):
             sys.exit(1)
         if args.retranslate == "true":
-            _verify_and_retranslate(f"{base}.csv", dataset, target_language, model_name)
+            _verify_and_retranslate(f"{base}.csv", dataset, target_language, model_name, translator_slug)
         else:
-            _report_missing_cells(f"{base}.csv", dataset, target_language)
+            _report_missing_cells(f"{base}.csv", dataset, target_language, model_name, translator_slug)
 
 
 if __name__ == "__main__":

@@ -13,7 +13,7 @@ and writes, in data/results/:
                                                       accuracy, bad_format, latency mean/median, provider
     cdpk_multilingual_model_performance_detailed.csv  same keys, with per-question lists (correct,
                                                       bad_format, Latency, TokensUsed*), read back with
-                                                      ast.literal_eval by create_figures.py and token_analysis.py
+                                                      ast.literal_eval by create_figures.py
 
 CLI only:
     uv run python scripts/create_results.py                       # replaces existing output files

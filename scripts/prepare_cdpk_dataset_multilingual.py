@@ -627,9 +627,16 @@ def main():
             warnings.warn(f"{base}_cleaned.csv exists (verified by translate_benchmark.py): "
                           f"you probably want --file {base}_cleaned instead of {stem}.")
     elif language != REFERENCE_LANGUAGE and not stem.endswith(("_cleaned", "_reviewed")):
+        # A translation by another model (e.g. arabic_argon4low_ep) is translated with
+        # --language arabic --translator-slug argon4low
+        translator_slug = language_config.get("translator_slug")
+        translate_args = f"--language {language.removesuffix('_ep')}"
+        if translator_slug:
+            base_language = language.removesuffix("_ep").removesuffix(f"_{translator_slug}")
+            translate_args = f"--language {base_language} --translator-slug {translator_slug}"
         warnings.warn(f"{input_file.name} has not been verified by translate_benchmark.py (no {base}_cleaned.csv). "
                       f"To create it (no API call if nothing is missing): `uv run python scripts/translate_benchmark.py "
-                      f"--mode retranslate --language {language.removesuffix('_ep')} --file {input_file.name}`.")
+                      f"--mode retranslate --dataset {dataset} {translate_args} --file {input_file.name}`.")
     if not language.endswith("_ep") and language_config.get("intro") is None:
         warnings.warn(f"{language!r} has no translated prompts in language_prompts.py: the runner needs "
                       f"them for the non-_ep variant. Use '{language}_ep' or fill in its prompts.")

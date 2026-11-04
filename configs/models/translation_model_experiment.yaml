@@ -1,0 +1,31 @@
+# Translation-model experiment: 20 models to compare scores on the original translations
+# (Gemini 2.5 Flash) and on the gemini-4-argon-low translations (*_argon4low_ep languages).
+# Released in the last year (11/2025 or later, except Llama-4 Maverick), with a range of
+# performance, size, provider and release date. Models close to chance on Hausa/Luganda (~25%)
+# are left out, as they cannot show a difference. No hf- models (Hugging Face endpoints).
+# Google models are included on purpose, to check whether Gemini translations favour them.
+# Most recent (08-10/2026): no results yet on any language, so they also need a run on the
+# original Arabic_ep, Hausa_ep and Luganda_ep (the other models are already cached there)
+gpt-6.1-sol-medium: GPT-6.1 Sol (Medium)
+claude-sonnet-5-5-medium: Claude Sonnet 5.5 (Medium)
+#grok-4.7-medium: Grok-4.7 (Medium)
+gemini-3.8-flash: Gemini-3.8 Flash
+#mistral-large-4-0: Mistral Large 4.0
+#qwen3.8-27b: Qwen3.8 27B
+# Spring 2026 (03-05/2026)
+gpt-5.5-2026-04-23-medium: GPT-5.5
+#deepseek-v4-pro: Deepseek V4 Pro
+#glm-5.1: GLM-5.1
+gemma-4-31b-it: Gemma-4 31B
+gemma-4-26b-a4b-it: Gemma-4 26B A4B
+qwen3.6-35b-a3b: Qwen3.6 35B A3B
+gpt-5.4-mini-2026-03-17-medium: GPT-5.4 Mini (Medium)
+gpt-5.4-nano-2026-03-17-medium: GPT-5.4 Nano (Medium)
+# Winter 2025-26 (11/2025-02/2026)
+gemini-3.1-pro-preview: Gemini-3.1 Pro
+gpt-5.2-2025-12-11-medium: GPT-5.2 (Medium)
+claude-sonnet-4-6: Claude Sonnet 4.6
+#qwen3.5-27b: Qwen3.5 27B
+nova-2-lite-v1: Nova 2 Lite
+# Older than 1 year (04/2025), kept as the Llama 4 model
+#llama-4-maverick-instruct-basic: Llama-4 Maverick

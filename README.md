@@ -53,6 +53,32 @@ use; leave the others empty. `.env` is ignored by git, never commit real keys.
 └── src/cdpk/                # benchmark code (prompts per language, runner, answer parsing)
 ```
 
+## Languages
+
+All languages are CDPK only. The leaderboard uses the `_ep` (English Prompt) variant, see
+[`scripts/README.md`](scripts/README.md#step-1-register-the-language).
+
+| Status | Folders (`data/<Slug>/`) |
+|---|---|
+| **On the leaderboard** (`LANG_IDS` in `scripts/format_data_web.py`) | `English`, `Arabic_ep`, `Swahili_ep`, `Hausa_ep`, `Pashto_ep`, `Yoruba_ep`, `Dari_ep`, `Luganda_ep`, `Nyankore_ep` |
+| Translated, prepared and run, **not on the leaderboard** | `French_ep`, `Twi_ep`, `Xhosa_ep`, `Northern_Sotho_ep` |
+| Translation-model experiment (same languages translated again with Gemini-4 Argon Low) | `Arabic_argon4low_ep`, `Hausa_argon4low_ep`, `Luganda_argon4low_ep` |
+| 300-question core subset (`data/final_300_original_question_indices.csv`) | `French_Core300_ep` |
+| Native-prompt variants (instructions also translated) | `Hausa`, `Swahili`, `Yoruba`, `Luganda`, `Nyankore` |
+| Human-reviewed translation | `Luganda_ep_reviewed` |
+| Raw translation only, not cleaned or prepared | `swahili_tz` (in `data/translation_log.json`, no entry in `language_prompts.py`) |
+
+Which model translated each language is recorded in `data/translation_log.json`.
+
+## Other documentation
+
+| File | What |
+|---|---|
+| [`scripts/README.md`](scripts/README.md) | **the pipeline, step by step** |
+| [`fab-benchmarks-configs/README.md`](fab-benchmarks-configs/README.md) | adding a new model: `custom_models.yaml`, `models.csv`, providers, deploying models, checking the leaderboard upload |
+| [`RERUN_FEATURE_PLAN.md`](RERUN_FEATURE_PLAN.md) | plan, not implemented: a `--rerun` option that retries only the failed API calls |
+| [`llm-hardware-tier-methodology.md`](llm-hardware-tier-methodology.md) | how models are mapped to hardware tiers in `create_multilingual_comparison_plots.py` |
+
 ## About the original benchmark
 
 The benchmark comes from the paper

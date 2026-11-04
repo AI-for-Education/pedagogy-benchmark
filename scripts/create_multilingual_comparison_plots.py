@@ -159,7 +159,8 @@ HARDWARE_TIERS = [
 
 # Quantization + overhead assumptions per the methodology doc:
 # INT8 (1 byte / param) for all tiers, plus 25% RAM overhead for KV cache,
-# activations, and framework.
+# activations, and framework. Both RAM and storage are computed from total
+# parameters — MoE models get no discount for sparse activation.
 BYTES_PER_PARAM = 1
 RAM_OVERHEAD = 0.25
 
@@ -277,15 +278,16 @@ def _is_closed_weights(open_val) -> bool:
 
 def hardware_tier_for_model(
     size: float,
-    size_active: float | None = None,
     is_open: bool | None = None,
     model_id: str | None = None,
 ) -> str | None:
     """Assign the smallest hardware tier where a model can run inference.
 
     Implements ``llm-hardware-tier-methodology.md``: INT8 (1 byte/param) for
-    all tiers, 25% RAM overhead. MoE models use ``size_active`` for RAM but
-    full ``size`` for storage.
+    all tiers, 25% RAM overhead. Total ``size`` drives both RAM and storage,
+    for MoE and dense models alike — the router can pick any expert for any
+    token, so the whole model has to be loaded into memory. ``size_active``
+    is therefore not used here.
 
     Returns the tier label (``Mobile``/``Tablet``/``Workstation``/``Cloud``)
     or ``None`` when the row should be excluded (open-weights model with
@@ -301,13 +303,8 @@ def hardware_tier_for_model(
                   f"excluding from hardware-tier plots")
         return None
 
-    # MoE: active params drive RAM, total params drive storage.
-    if size_active is not None and not pd.isna(size_active):
-        params_ram: float = float(size_active)
-    else:
-        params_ram = float(size)
-
-    ram_gb = params_ram * BYTES_PER_PARAM * (1 + RAM_OVERHEAD) / 1e9
+    # Total params drive both RAM and storage — MoE gets no discount.
+    ram_gb = float(size) * BYTES_PER_PARAM * (1 + RAM_OVERHEAD) / 1e9
     storage_gb = float(size) * BYTES_PER_PARAM / 1e9
 
     for label, ram_cap, storage_cap in HARDWARE_TIERS:
@@ -419,7 +416,7 @@ def load_data(exploded: pd.DataFrame | None = None) -> pd.DataFrame:
 
     merged["hardware_tier"] = merged.apply(
         lambda r: hardware_tier_for_model(
-            r["size"], r.get("size_active"), r.get("open"), r["model"],
+            r["size"], r.get("open"), r["model"],
         ),
         axis=1,
     )

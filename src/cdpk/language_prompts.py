@@ -137,6 +137,76 @@ LANGUAGE_PROMPTS = {
         'display_name': 'Arabic (English Prompt)',
         'slug': 'Arabic_ep',
     },
+    'french_core300_ep': {
+        'intro_ep': 'The following instructions are in English, but the example questions and the final question to be answered are in French.',
+        'intro': 'The following are example multiple choice questions (with answers).',
+        'instruction': 'Answer the following real question using same answer format:',
+        'final': 'Only answer the real question.\nOnly provide the letter for your answer.\nStop exactly after the letter.',
+        'display_name': 'French Core-300 (English Prompt)',
+        'slug': 'French_Core300_ep',
+    },
+    'french_ep': {
+        'intro_ep': 'The following instructions are in English, but the example questions and the final question to be answered are in French.',
+        'intro': 'The following are example multiple choice questions (with answers).',
+        'instruction': 'Answer the following real question using same answer format:',
+        'final': 'Only answer the real question.\nOnly provide the letter for your answer.\nStop exactly after the letter.',
+        'display_name': 'French (English Prompt)',
+        'slug': 'French_ep',
+    },
+    'twi_ep': {
+        'intro_ep': 'The following instructions are in English, but the example questions and the final question to be answered are in Twi (Asante Twi).',
+        'intro': 'The following are example multiple choice questions (with answers).',
+        'instruction': 'Answer the following real question using same answer format:',
+        'final': 'Only answer the real question.\nOnly provide the letter for your answer.\nStop exactly after the letter.',
+        'display_name': 'Twi (English Prompt)',
+        'slug': 'Twi_ep',
+    },
+    'xhosa_ep': {
+        'intro_ep': 'The following instructions are in English, but the example questions and the final question to be answered are in Xhosa.',
+        'intro': 'The following are example multiple choice questions (with answers).',
+        'instruction': 'Answer the following real question using same answer format:',
+        'final': 'Only answer the real question.\nOnly provide the letter for your answer.\nStop exactly after the letter.',
+        'display_name': 'Xhosa (English Prompt)',
+        'slug': 'Xhosa_ep',
+    },
+    'northern_sotho_ep': {
+        'intro_ep': 'The following instructions are in English, but the example questions and the final question to be answered are in Northern Sotho (Sepedi).',
+        'intro': 'The following are example multiple choice questions (with answers).',
+        'instruction': 'Answer the following real question using same answer format:',
+        'final': 'Only answer the real question.\nOnly provide the letter for your answer.\nStop exactly after the letter.',
+        'display_name': 'Northern Sotho (English Prompt)',
+        'slug': 'Northern_Sotho_ep',
+    },
+    # Translation-model experiment: same languages translated again with gemini-4-argon-low
+    # (translate_benchmark.py --translator-slug argon4low), to compare with the original translations.
+    # 'translator_slug' is the --translator-slug tag in the translation file names.
+    'arabic_argon4low_ep': {
+        'intro_ep': 'The following instructions are in English, but the example questions and the final question to be answered are in Arabic.',
+        'intro': 'The following are example multiple choice questions (with answers).',
+        'instruction': 'Answer the following real question using same answer format:',
+        'final': 'Only answer the real question.\nOnly provide the letter for your answer.\nStop exactly after the letter.',
+        'display_name': 'Arabic, Gemini-4 Argon (Low) translation (English Prompt)',
+        'slug': 'Arabic_argon4low_ep',
+        'translator_slug': 'argon4low',
+    },
+    'hausa_argon4low_ep': {
+        'intro_ep': 'The following instructions are in English, but the example questions and the final question to be answered are in Hausa.',
+        'intro': 'The following are example multiple choice questions (with answers).',
+        'instruction': 'Answer the following real question using same answer format:',
+        'final': 'Only answer the real question.\nOnly provide the letter for your answer.\nStop exactly after the letter.',
+        'display_name': 'Hausa, Gemini-4 Argon (Low) translation (English Prompt)',
+        'slug': 'Hausa_argon4low_ep',
+        'translator_slug': 'argon4low',
+    },
+    'luganda_argon4low_ep': {
+        'intro_ep': 'The following instructions are in English, but the example questions and the final question to be answered are in Luganda.',
+        'intro': 'The following are example multiple choice questions (with answers).',
+        'instruction': 'Answer the following real question using same answer format:',
+        'final': 'Only answer the real question.\nOnly provide the letter for your answer.\nStop exactly after the letter.',
+        'display_name': 'Luganda, Gemini-4 Argon (Low) translation (English Prompt)',
+        'slug': 'Luganda_argon4low_ep',
+        'translator_slug': 'argon4low',
+    },
 }
 
 # Regex patterns for answer extraction (same for all languages)
