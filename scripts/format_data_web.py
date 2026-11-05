@@ -21,7 +21,7 @@ Outputs (data/web/, where <env> is dev/beta/prod — see --upload):
   fabai_<env>_leaderboard_data_sizefrontier_multilingual.json
 
 Usage:
-  python scripts/format_data_web.py                 # generate locally only (env=dev)
+  python scripts/format_data_web.py                 # generate locally only (env=beta)
   python scripts/format_data_web.py --upload dev    # ...and upload to Azure dev
   python scripts/format_data_web.py --upload beta   # ...and upload to Azure beta
   python scripts/format_data_web.py --upload prod   # ...and upload to Azure prod
@@ -64,7 +64,7 @@ _parser.add_argument(
     help="upload the generated files to this Azure environment (default: no upload)",
 )
 UPLOAD_TO = _parser.parse_args().upload
-LOCAL_ENV = UPLOAD_TO or "dev"     # local filename prefix; blob uses the same name
+LOCAL_ENV = UPLOAD_TO or "beta"    # local filename prefix; blob uses the same name
 
 AZURE_ACCOUNT_URL = "https://fabdatastorage.blob.core.windows.net"
 AZURE_CONTAINER   = "az://ai-for-ed-public/"

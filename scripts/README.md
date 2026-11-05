@@ -435,7 +435,7 @@ that list or with a different question set than English.
 > publish; until then, check with the web team before uploading.
 
 ```bash
-uv run python scripts/format_data_web.py                 # generate data/web/fabai_dev_*.json locally
+uv run python scripts/format_data_web.py                 # generate data/web/fabai_beta_*.json locally
 uv run python scripts/format_data_web.py --upload dev    # ...and upload to Azure dev (then beta, prod)
 ```
 
