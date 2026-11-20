@@ -448,6 +448,66 @@ Models missing from `models.csv` are dropped (listed as a warning). Uploading re
 
 ---
 
+## Step 7b: Publish result files to GCS (new results schema: `write_result_files.py`, `upload_result_files.py`)
+
+The new results schema, shared with `LLM_benchmark` (CDPK-en, SEND-en) and
+`qa-benchmarks-monorepo` (LK): for each benchmark, a metrics CSV, a metadata JSON and a frontier
+JSON, uploaded to `gs://fab-benchmarks-hub/metrics/`. **Each language is its own benchmark**,
+`CDPK-<ISO 639 code>`:
+
+| Language | Cache folders read | GCS folder (`fab-benchmarks-hub/metrics/`) |
+|---|---|---|
+| Arabic | `data/cache/CDPK_Arabic_ep_*` | `CDPK-ar_accuracy/` |
+| Dari | `data/cache/CDPK_Dari_ep_*` | `CDPK-prs_accuracy/` |
+| Hausa | `data/cache/CDPK_Hausa_ep_*` | `CDPK-ha_accuracy/` |
+| Luganda | `data/cache/CDPK_Luganda_ep_*` | `CDPK-lg_accuracy/` |
+| Nyankore | `data/cache/CDPK_Nyankore_ep_*` | `CDPK-nyn_accuracy/` |
+| Pashto | `data/cache/CDPK_Pashto_ep_*` | `CDPK-ps_accuracy/` |
+| Kiswahili | `data/cache/CDPK_Swahili_ep_*` | `CDPK-sw_accuracy/` |
+| Yoruba | `data/cache/CDPK_Yoruba_ep_*` | `CDPK-yo_accuracy/` |
+
+**English is not published from here:** CDPK-en comes from `LLM_benchmark`, which runs the
+leaderboard's English dataset and prompt. Merging `LLM_benchmark` and `pedagogy-benchmark` into a
+single repo is left for later (see [`consolidation_plan.md`](../consolidation_plan.md)). Twi (`tw`),
+Xhosa (`xh`), Northern Sotho (`nso`) and French (`fr`) will be added once enough models have been
+run on them: add them to `LANGUAGES` in `write_result_files.py` and to
+[`leaderboard_config.json`](../leaderboard_config.json).
+
+```bash
+# 1. Write results/CDPK-<code>/CDPK-<code>_accuracy{.csv,_metadata.json,_frontier.json} (gitignored)
+uv run python scripts/write_result_files.py                    # every language
+uv run python scripts/write_result_files.py --benchmark CDPK-sw
+
+# 2. Upload them to gs://fab-benchmarks-hub/metrics/<benchmark>_accuracy/dt=YYYY-MM-DD/
+uv run python scripts/upload_result_files.py --dry-run         # list the destinations, upload nothing
+uv run python scripts/upload_result_files.py
+```
+
+- **Responses are read from `data/cache` only, never `data/cache_local`**, so anyone can reproduce
+  the files after `dvc pull`. Run `merge_cache.py` (step 8) before writing the files for new runs.
+- **Models:** those in `configs/models/full_list_default_models_20260218.yaml` (no exclusion
+  list). A listed model with no cache is reported and skipped; a model with only some
+  categories cached stops the run.
+- **Metrics CSV:** one overall row per model (`benchmark_subset` empty), then one row per subject
+  (`{"subject":"Science"}`, ..., `{"subject":"General"}`) and per level
+  (`{"level":"Pre-primary"}`, `{"level":"Primary"}`, `{"level":"Secondary"}`). These are the same
+  rules as CDPK-en. Levels overlap: a question tagged `All` counts in all three. Accuracy is in %,
+  and an unparseable answer counts as wrong, as in step 6. Only the key and value columns are
+  filled; stderr, CI, n and tokens are empty placeholders for now.
+- **Frontiers:** price (3:1 blended price) and size (open-weight models only). The script first
+  downloads `models.csv` and `providers.csv` from the public bucket `gs://fab-open-configs` to the
+  repo root (gitignored). The submodule's `models.csv` is not used, because it still has the old
+  price column names.
+- **Upload:** each day's upload goes to its own `dt=` folder (today in UTC, or `--date
+  YYYY-MM-DD`); uploading again on the same day overwrites that day's files, with a warning. The
+  upload needs Google credentials: run `gcloud auth application-default login` with an account
+  that has "Storage Object Admin" on `fab-benchmarks-hub` (project `fab-benchmarks-485014`).
+- `src/cdpk/metrics.py`, `benchmark_frontiers.py`, `frontier.py` and `upload_result_files.py` are
+  copies of the same files in `LLM_benchmark` (themselves copies of qa-benchmarks-monorepo's
+  `fab_benchmark_publisher`), to be replaced by one shared package later.
+
+---
+
 ## Step 8: Save and share
 
 ```bash

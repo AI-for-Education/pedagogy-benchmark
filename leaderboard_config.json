@@ -1,0 +1,140 @@
+{
+  "_comment": [
+    "What the leaderboard website publishes for the multilingual pedagogy cluster. Same format",
+    "as qa-benchmarks-monorepo's and LLM_benchmark's leaderboard_config.json.",
+    "",
+    "Read by scripts/write_result_files.py (metric definitions) and",
+    "scripts/upload_result_files.py (what to upload).",
+    "",
+    "- cluster_name: the cluster slug the website and the output filenames key on.",
+    "- benchmarks: one entry per language, each its own benchmark. THE ORDER OF THIS LIST",
+    "  IS THE ORDER OF THE COLUMNS ON THE WEBSITE.",
+    "  - benchmark_domain: the benchmark_slug of the result files, CDPK-<ISO 639 code>",
+    "    (2-letter code when one exists, else 3-letter: prs = Dari, nyn = Nyankore).",
+    "  - display_name: the label shown in the website's selector.",
+    "  - metrics: the metrics shown for that benchmark. Copied into each",
+    "    <benchmark>_<metric>_metadata.json.",
+    "",
+    "English (CDPK-en) is not here: it is published from LLM_benchmark for now. Merging",
+    "LLM_benchmark and pedagogy-benchmark into one repo is left for later",
+    "(see consolidation_plan.md).",
+    "",
+    "is_bad_format_scored is true, as for CDPK-en: an answer the regex parser cannot read",
+    "counts as wrong, as on the current multilingual leaderboard."
+  ],
+  "cluster_name": "multilingual-pedagogy",
+  "benchmarks": [
+    {
+      "benchmark_domain": "CDPK-ar",
+      "display_name": "Arabic",
+      "metrics": [
+        {
+          "metric_slug": "accuracy",
+          "display_name": "Accuracy",
+          "display_description": "Percentage of questions answered correctly. Answers that cannot be parsed count as wrong.",
+          "unit": "%",
+          "is_higher_better": true,
+          "is_bad_format_scored": true
+        }
+      ]
+    },
+    {
+      "benchmark_domain": "CDPK-prs",
+      "display_name": "Dari",
+      "metrics": [
+        {
+          "metric_slug": "accuracy",
+          "display_name": "Accuracy",
+          "display_description": "Percentage of questions answered correctly. Answers that cannot be parsed count as wrong.",
+          "unit": "%",
+          "is_higher_better": true,
+          "is_bad_format_scored": true
+        }
+      ]
+    },
+    {
+      "benchmark_domain": "CDPK-ha",
+      "display_name": "Hausa",
+      "metrics": [
+        {
+          "metric_slug": "accuracy",
+          "display_name": "Accuracy",
+          "display_description": "Percentage of questions answered correctly. Answers that cannot be parsed count as wrong.",
+          "unit": "%",
+          "is_higher_better": true,
+          "is_bad_format_scored": true
+        }
+      ]
+    },
+    {
+      "benchmark_domain": "CDPK-lg",
+      "display_name": "Luganda",
+      "metrics": [
+        {
+          "metric_slug": "accuracy",
+          "display_name": "Accuracy",
+          "display_description": "Percentage of questions answered correctly. Answers that cannot be parsed count as wrong.",
+          "unit": "%",
+          "is_higher_better": true,
+          "is_bad_format_scored": true
+        }
+      ]
+    },
+    {
+      "benchmark_domain": "CDPK-nyn",
+      "display_name": "Nyankore",
+      "metrics": [
+        {
+          "metric_slug": "accuracy",
+          "display_name": "Accuracy",
+          "display_description": "Percentage of questions answered correctly. Answers that cannot be parsed count as wrong.",
+          "unit": "%",
+          "is_higher_better": true,
+          "is_bad_format_scored": true
+        }
+      ]
+    },
+    {
+      "benchmark_domain": "CDPK-ps",
+      "display_name": "Pashto",
+      "metrics": [
+        {
+          "metric_slug": "accuracy",
+          "display_name": "Accuracy",
+          "display_description": "Percentage of questions answered correctly. Answers that cannot be parsed count as wrong.",
+          "unit": "%",
+          "is_higher_better": true,
+          "is_bad_format_scored": true
+        }
+      ]
+    },
+    {
+      "benchmark_domain": "CDPK-sw",
+      "display_name": "Kiswahili",
+      "metrics": [
+        {
+          "metric_slug": "accuracy",
+          "display_name": "Accuracy",
+          "display_description": "Percentage of questions answered correctly. Answers that cannot be parsed count as wrong.",
+          "unit": "%",
+          "is_higher_better": true,
+          "is_bad_format_scored": true
+        }
+      ]
+    },
+    {
+      "benchmark_domain": "CDPK-yo",
+      "display_name": "Yoruba",
+      "metrics": [
+        {
+          "metric_slug": "accuracy",
+          "display_name": "Accuracy",
+          "display_description": "Percentage of questions answered correctly. Answers that cannot be parsed count as wrong.",
+          "unit": "%",
+          "is_higher_better": true,
+          "is_bad_format_scored": true
+        }
+      ]
+    }
+  ]
+}

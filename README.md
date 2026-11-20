@@ -49,9 +49,19 @@ use; leave the others empty. `.env` is ignored by git, never commit real keys.
 │   ├── results/                           # benchmark results and multilingual tables
 │   └── web/                               # leaderboard JSON files
 ├── fab-benchmarks-configs/  # submodule: custom_models.yaml, models.csv, providers.csv
+├── leaderboard_config.json  # benchmarks (one per language) and metrics of the new results schema
+├── results/                 # new-schema result files, CDPK-<code>/ (gitignored, uploaded to GCS)
 ├── scripts/                 # pipeline scripts, see scripts/README.md
-└── src/cdpk/                # benchmark code (prompts per language, runner, answer parsing)
+├── src/cdpk/                # benchmark code (prompts per language, runner, answer parsing, metrics)
+└── tests/                   # uv run pytest
 ```
+
+Results are also published in the new results schema shared with `LLM_benchmark` and
+`qa-benchmarks-monorepo`, one benchmark per language (`CDPK-ar`, `CDPK-sw`, ...), to
+`gs://fab-benchmarks-hub/metrics/`: see
+[`scripts/README.md`, step 7b](scripts/README.md#step-7b-publish-result-files-to-gcs-new-results-schema-write_result_filespy-upload_result_filespy).
+English (CDPK-en) is published from `LLM_benchmark` until the two repos are merged
+([`consolidation_plan.md`](consolidation_plan.md)).
 
 ## Languages
 
