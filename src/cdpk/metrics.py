@@ -4,7 +4,7 @@
                                           (build_metrics)
     <benchmark>_<metric>_metadata.json    the metric's definition, copied from the
                                           leaderboard config (load_metric_definition)
-    <benchmark>_<metric>_frontier.json    benchmark_frontiers.build_frontier
+    <benchmark>_<metric>_frontiers.json    benchmark_frontiers.build_frontier
 
 A local copy of qa-benchmarks-monorepo's fab_benchmark_publisher/metrics.py (branch
 feat/benchmark-metrics-frontiers), via LLM_benchmark's src/metrics.py (branch
@@ -74,7 +74,7 @@ def result_file_name(benchmark_slug: str, metric_slug: str, suffix: str) -> str:
     """Name of one result file: <benchmark>_<metric><suffix>.
 
     The single place the naming convention is defined, e.g. ("CDPK-en", "accuracy",
-    "_frontier.json") -> "CDPK-en_accuracy_frontier.json". Raises ValueError if a slug
+    "_frontiers.json") -> "CDPK-en_accuracy_frontiers.json". Raises ValueError if a slug
     contains anything but letters, digits, '-' or '.', since a '_' would make the
     name ambiguous.
     """

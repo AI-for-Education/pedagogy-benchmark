@@ -1,4 +1,4 @@
-"""The content of the frontier file, <benchmark>_<metric>_frontier.json: one frontier
+"""The content of the frontiers file, <benchmark>_<metric>_frontiers.json: one frontier
 per axis over a metrics table's overall rows:
 
   price   blended price in USD per million tokens, every priced model
@@ -116,7 +116,7 @@ def _frontier_points(
 def build_frontier(
     metrics: pd.DataFrame, *, is_higher_better: bool, models_csv: str | Path
 ) -> dict[str, Any]:
-    """Build the content of <benchmark>_<metric>_frontier.json from a metrics table.
+    """Build the content of <benchmark>_<metric>_frontiers.json from a metrics table.
 
     Args:
         metrics: a metrics table (build_metrics, or the CSV read back). Only its

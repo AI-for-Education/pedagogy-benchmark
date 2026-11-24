@@ -112,7 +112,7 @@ def test_writes_the_three_files(env):
     assert [p.name for p in paths] == [
         "TEST_accuracy.csv",
         "TEST_accuracy_metadata.json",
-        "TEST_accuracy_frontier.json",
+        "TEST_accuracy_frontiers.json",
     ]
     assert json.loads(paths[1].read_text()) == {"benchmark_slug": "TEST", **METRIC}
     frontier = json.loads(paths[2].read_text())

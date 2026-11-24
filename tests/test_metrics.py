@@ -62,7 +62,7 @@ def test_canonical_subset() -> None:
 
 def test_file_names_have_no_experiment_slug() -> None:
     assert result_file_name("CDPK-en", "accuracy", ".csv") == "CDPK-en_accuracy.csv"
-    assert result_file_name("SEND-en", "accuracy", "_frontier.json") == "SEND-en_accuracy_frontier.json"
+    assert result_file_name("SEND-en", "accuracy", "_frontiers.json") == "SEND-en_accuracy_frontiers.json"
     with pytest.raises(ValueError):
         result_file_name("bad_slug", "accuracy", ".csv")
 

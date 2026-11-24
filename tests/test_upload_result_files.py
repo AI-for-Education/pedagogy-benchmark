@@ -9,7 +9,7 @@ from conftest import load_script
 
 urf = load_script("upload_result_files")
 
-SUFFIXES = (".csv", "_metadata.json", "_frontier.json")
+SUFFIXES = (".csv", "_metadata.json", "_frontiers.json")
 
 
 class FakeBlob:
@@ -60,7 +60,7 @@ def test_objects_go_to_a_dated_folder_per_benchmark_metric(results):
     assert names[:3] == [
         "metrics/CDPK-ar_accuracy/dt=2026-11-20/CDPK-ar_accuracy.csv",
         "metrics/CDPK-ar_accuracy/dt=2026-11-20/CDPK-ar_accuracy_metadata.json",
-        "metrics/CDPK-ar_accuracy/dt=2026-11-20/CDPK-ar_accuracy_frontier.json",
+        "metrics/CDPK-ar_accuracy/dt=2026-11-20/CDPK-ar_accuracy_frontiers.json",
     ]
     assert len(names) == 6  # DA-en has no metric yet
 
@@ -74,8 +74,8 @@ def test_bucket_folder_sets_the_path_inside_the_bucket(results):
 
 
 def test_missing_file_stops_before_any_upload(results):
-    (results / "CDPK-sw" / "CDPK-sw_accuracy_frontier.json").unlink()
-    with pytest.raises(FileNotFoundError, match="CDPK-sw_accuracy_frontier.json"):
+    (results / "CDPK-sw" / "CDPK-sw_accuracy_frontiers.json").unlink()
+    with pytest.raises(FileNotFoundError, match="CDPK-sw_accuracy_frontiers.json"):
         plan(results)
 
 

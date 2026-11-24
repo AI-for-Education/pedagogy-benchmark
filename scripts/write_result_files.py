@@ -8,7 +8,7 @@ scripts/upload_result_files.py, to gs://fab-benchmarks-hub/metrics/):
     <out-root>/CDPK-sw/
         CDPK-sw_accuracy.csv             metrics (overall, per subject, per level)
         CDPK-sw_accuracy_metadata.json   metric metadata
-        CDPK-sw_accuracy_frontier.json   price and size frontiers (overall rows)
+        CDPK-sw_accuracy_frontiers.json   price and size frontiers (overall rows)
     <out-root>/CDPK-ar/
         ... the same for every language in BENCHMARKS
 
@@ -41,7 +41,7 @@ Steps, per language:
                -> <benchmark>_accuracy_metadata.json
   3. frontier  <benchmark>_accuracy.csv (read back from disk) + the models CSV
                (models.csv at the repo root)
-               -> <benchmark>_accuracy_frontier.json
+               -> <benchmark>_accuracy_frontiers.json
 
 Only data/cache (the shared DVC cache) is read, never data/cache_local: the result
 files must be reproducible by anyone who runs `dvc pull`. Run scripts/merge_cache.py
@@ -388,14 +388,14 @@ def write_result_files(
     config_path: Path,
     out_root: Path,
 ) -> list[Path]:
-    """Write the metrics, metadata and frontier files of one benchmark.
+    """Write the metrics, metadata and frontiers files of one benchmark.
 
     Runs the three steps of the module docstring, writes the files to
     <out_root>/<benchmark_slug>/ and prints what was published and
     which models were left out.
 
     Returns:
-        The paths of the metrics, metadata and frontier files.
+        The paths of the metrics, metadata and frontiers files.
     """
     slug = cfg.benchmark_slug
     print(f"\n== {slug} ({cfg.experiment_slug}) ==")
@@ -420,7 +420,7 @@ def write_result_files(
     outdir.mkdir(parents=True, exist_ok=True)
     metrics_path, metadata_path, frontier_path = (
         outdir / result_file_name(slug, METRIC_SLUG, suffix)
-        for suffix in (".csv", "_metadata.json", "_frontier.json")
+        for suffix in (".csv", "_metadata.json", "_frontiers.json")
     )
     metrics.to_csv(metrics_path, index=False)
     metadata = {"benchmark_slug": slug, **metric_definition}

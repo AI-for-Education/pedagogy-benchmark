@@ -7,7 +7,7 @@ Each (benchmark, metric) goes to a dated folder, so earlier uploads are kept:
     gs://fab-benchmarks-hub/metrics/<benchmark>_<metric>/dt=YYYY-MM-DD/
         <benchmark>_<metric>.csv
         <benchmark>_<metric>_metadata.json
-        <benchmark>_<metric>_frontier.json
+        <benchmark>_<metric>_frontiers.json
 
 e.g. metrics/CDPK-sw_accuracy/dt=2026-11-20/CDPK-sw_accuracy.csv. The date is
 today's in UTC unless --date is given. Uploading twice on the same day
@@ -65,7 +65,7 @@ RESULTS_DIR = ROOT / "results"
 FILE_SUFFIXES = {
     ".csv": "text/csv",
     "_metadata.json": "application/json",
-    "_frontier.json": "application/json",
+    "_frontiers.json": "application/json",
 }
 
 

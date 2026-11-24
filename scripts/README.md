@@ -474,7 +474,7 @@ run on them: add them to `LANGUAGES` in `write_result_files.py` and to
 [`leaderboard_config.json`](../leaderboard_config.json).
 
 ```bash
-# 1. Write results/CDPK-<code>/CDPK-<code>_accuracy{.csv,_metadata.json,_frontier.json} (gitignored)
+# 1. Write results/CDPK-<code>/CDPK-<code>_accuracy{.csv,_metadata.json,_frontiers.json} (gitignored)
 uv run python scripts/write_result_files.py                    # every language
 uv run python scripts/write_result_files.py --benchmark CDPK-sw
 
