@@ -27,6 +27,7 @@ Outputs (in --out-dir):
   rank_stability.csv    Kendall tau between model rankings (complete models only)
   figures (CLI flag -> PNG):
     dumbbell  -> accuracy_by_translator.png         accuracy per translator, one panel per language
+    dumbbell_core300 -> accuracy_by_translator_core300.png  same, on the core300 subset
     delta     -> delta_translator_ci.png            retranslation - original with 95% CI
     scatter   -> original_vs_retranslation_scatter.png
     subset    -> full_vs_core300_scatter.png        full vs core300 accuracy, all models and languages
@@ -72,7 +73,7 @@ SUBSETS = ["full", "core300"]
 MAX_FAILED_CALLS = 0.05  # cache files with more failed API calls are skipped (not model answers)
 N_BOOT = 2000
 SEED = 0
-PLOTS = ["dumbbell", "delta", "scatter", "subset", "subset_delta", "heatmap"]
+PLOTS = ["dumbbell", "dumbbell_core300", "delta", "scatter", "subset", "subset_delta", "heatmap"]
 
 # Okabe-Ito, colourblind-safe; translators keep their colour whatever the CLI order
 TRANSLATOR_COLORS = ["#0072B2", "#E69F00", "#009E73", "#CC79A7", "#D55E00"]
@@ -288,11 +289,11 @@ def finish_layout(fig, title, handles, note):
     fig.subplots_adjust(top=fig.subplotpars.top + legend_bottom - titles_top - 0.01)
 
 
-def plot_dumbbell(scores, ctx):
+def plot_dumbbell(scores, ctx, subset="full"):
     languages, models = ctx["languages"], ctx["models"]
-    full = scores[scores["subset"] == "full"]
+    full = scores[scores["subset"] == subset]
     fig, axes = plt.subplots(1, len(languages), figsize=(4.6 * len(languages) + 2, 0.3 * len(models) + 2),
-                             sharey=True, squeeze=False)
+                             sharey=True, sharex=True, squeeze=False)
     for ax, language in zip(axes[0], languages):
         df = full[full["language"] == language].set_index(["model", "translator"])
         for y, model in enumerate(models):
@@ -308,14 +309,17 @@ def plot_dumbbell(scores, ctx):
                 ax.text(max(xs) + 0.8, y, f"* {points[0][1]['n_categories']}/{N_CATEGORIES}",
                         fontsize=7, color="#555555", va="center")
         ax.set_title(language, fontsize=12, fontweight="bold")
-        ax.set_xlabel("Accuracy (%), full set")
+        ax.set_xlabel("Accuracy (%), full set" if subset == "full" else f"Accuracy (%), {subset} subset")
         ax.grid(axis="x", color="#e5e5e5")
         ax.set_axisbelow(True)
     style_model_ticks(axes[0][0], models, ctx["names"])
     handles = [mlines.Line2D([], [], marker="o", linestyle="", color=ctx["colors"][t], label=ctx["labels"][t])
                for t in ctx["translators"]]
     partial = not full.loc[full["language"].isin(languages), "complete"].all()
-    finish_layout(fig, "Accuracy depending on the translation model", handles, PARTIAL_NOTE if partial else "")
+    title = "Accuracy depending on the translation model"
+    if subset != "full":
+        title += f" ({subset} subset)"
+    finish_layout(fig, title, handles, PARTIAL_NOTE if partial else "")
     return fig
 
 
@@ -560,6 +564,7 @@ def main():
 
     figures = {
         "dumbbell": ("accuracy_by_translator.png", lambda: plot_dumbbell(scores, ctx)),
+        "dumbbell_core300": ("accuracy_by_translator_core300.png", lambda: plot_dumbbell(scores, ctx, "core300")),
         "delta": ("delta_translator_ci.png", lambda: plot_delta(d_translator, ctx)),
         "scatter": ("original_vs_retranslation_scatter.png", lambda: plot_scatter(scores, rank, ctx)),
         "subset": ("full_vs_core300_scatter.png", lambda: plot_subset_scatter(scores, rank, ctx)),
