@@ -12,6 +12,10 @@
     "  - benchmark_domain: the benchmark_slug of the result files, CDPK-<ISO 639 code>",
     "    (2-letter code when one exists, else 3-letter: prs = Dari, nyn = Nyankore).",
     "  - display_name: the label shown in the website's selector.",
+    "  - benchmark_subsets: the subset keys the benchmark is broken down by, in order",
+    "    (here 'subject' and 'level'; [] for overall only). Each key gives one",
+    "    metrics row and one frontier per value, e.g. {\"subject\": \"Maths\"}. Copied",
+    "    into each <benchmark>_<metric>_metadata.json.",
     "  - metrics: the metrics shown for that benchmark. Copied into each",
     "    <benchmark>_<metric>_metadata.json.",
     "",
@@ -27,6 +31,7 @@
     {
       "benchmark_domain": "CDPK-ar",
       "display_name": "Arabic",
+      "benchmark_subsets": ["subject", "level"],
       "metrics": [
         {
           "metric_slug": "accuracy",
@@ -41,6 +46,7 @@
     {
       "benchmark_domain": "CDPK-prs",
       "display_name": "Dari",
+      "benchmark_subsets": ["subject", "level"],
       "metrics": [
         {
           "metric_slug": "accuracy",
@@ -55,6 +61,7 @@
     {
       "benchmark_domain": "CDPK-ha",
       "display_name": "Hausa",
+      "benchmark_subsets": ["subject", "level"],
       "metrics": [
         {
           "metric_slug": "accuracy",
@@ -69,6 +76,7 @@
     {
       "benchmark_domain": "CDPK-lg",
       "display_name": "Luganda",
+      "benchmark_subsets": ["subject", "level"],
       "metrics": [
         {
           "metric_slug": "accuracy",
@@ -83,6 +91,7 @@
     {
       "benchmark_domain": "CDPK-nyn",
       "display_name": "Nyankore",
+      "benchmark_subsets": ["subject", "level"],
       "metrics": [
         {
           "metric_slug": "accuracy",
@@ -97,6 +106,7 @@
     {
       "benchmark_domain": "CDPK-ps",
       "display_name": "Pashto",
+      "benchmark_subsets": ["subject", "level"],
       "metrics": [
         {
           "metric_slug": "accuracy",
@@ -111,6 +121,7 @@
     {
       "benchmark_domain": "CDPK-sw",
       "display_name": "Kiswahili",
+      "benchmark_subsets": ["subject", "level"],
       "metrics": [
         {
           "metric_slug": "accuracy",
@@ -125,6 +136,7 @@
     {
       "benchmark_domain": "CDPK-yo",
       "display_name": "Yoruba",
+      "benchmark_subsets": ["subject", "level"],
       "metrics": [
         {
           "metric_slug": "accuracy",

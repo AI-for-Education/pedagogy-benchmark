@@ -46,12 +46,17 @@ METRIC = {
 }
 
 
-def write_config(path, metrics=(METRIC,), is_bad_format_scored=True):
+def write_config(
+    path, metrics=(METRIC,), is_bad_format_scored=True, subsets=("subject", "level")
+):
     metrics = [{**m, "is_bad_format_scored": is_bad_format_scored} for m in metrics]
-    config = {
-        "cluster_name": "multilingual-pedagogy",
-        "benchmarks": [{"benchmark_domain": "TEST", "display_name": "Test", "metrics": metrics}],
+    benchmark = {
+        "benchmark_domain": "TEST",
+        "display_name": "Test",
+        "benchmark_subsets": list(subsets),
+        "metrics": metrics,
     }
+    config = {"cluster_name": "multilingual-pedagogy", "benchmarks": [benchmark]}
     path.write_text(json.dumps(config))
 
 
@@ -87,7 +92,6 @@ def env(tmp_path, monkeypatch):
         question_configs=("c1", "c2"),
         models_config="m",
         expected_items=3,
-        subsets=True,
     )
     return cfg, tmp_path
 
@@ -114,10 +118,48 @@ def test_writes_the_three_files(env):
         "TEST_accuracy_metadata.json",
         "TEST_accuracy_frontiers.json",
     ]
-    assert json.loads(paths[1].read_text()) == {"benchmark_slug": "TEST", **METRIC}
+    assert json.loads(paths[1].read_text()) == {
+        "benchmark_slug": "TEST",
+        "benchmark_subsets": ["subject", "level"],
+        **METRIC,
+    }
     frontier = json.loads(paths[2].read_text())
     assert frontier["experiment_slug"] == "final-3-items"
-    assert [f["axis"] for f in frontier["frontiers"]] == ["price", "size"]
+    # overall, then each subject, then each level, each with price and size
+    assert [(f["benchmark_subset"], f["axis"]) for f in frontier["frontiers"]][::2] == [
+        ({}, "price"),
+        ({"subject": "General"}, "price"),
+        ({"subject": "Maths"}, "price"),
+        ({"level": "Pre-primary"}, "price"),
+        ({"level": "Primary"}, "price"),
+        ({"level": "Secondary"}, "price"),
+    ]
+    assert [f["axis"] for f in frontier["frontiers"]][1::2] == ["size"] * 6
+
+
+def test_config_subsets_choose_the_rows_and_frontiers(env):
+    cfg, tmp = env
+    write_config(tmp / "config.json", subsets=("level",))
+    paths = run(cfg, tmp)
+    assert set(read_metrics(tmp)["benchmark_subset"]) == {
+        "",
+        '{"level":"Pre-primary"}',
+        '{"level":"Primary"}',
+        '{"level":"Secondary"}',
+    }
+    assert json.loads(paths[1].read_text())["benchmark_subsets"] == ["level"]
+    write_config(tmp / "config.json", subsets=())
+    paths = run(cfg, tmp)
+    assert set(read_metrics(tmp)["benchmark_subset"]) == {""}
+    frontier = json.loads(paths[2].read_text())
+    assert [f["benchmark_subset"] for f in frontier["frontiers"]] == [{}, {}]
+
+
+def test_unknown_subset_key_is_an_error(env):
+    cfg, tmp = env
+    write_config(tmp / "config.json", subsets=("country",))
+    with pytest.raises(ValueError, match="unknown key"):
+        run(cfg, tmp)
 
 
 def test_metrics_come_from_the_cache_for_listed_models(env, capsys):

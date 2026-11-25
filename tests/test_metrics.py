@@ -12,6 +12,7 @@ from cdpk.metrics import (
     PLACEHOLDER_COLUMNS,
     build_metrics,
     canonical_subset,
+    load_benchmark_subsets,
     load_metric_definition,
     result_file_name,
 )
@@ -94,14 +95,30 @@ def test_repo_config_defines_accuracy(benchmark) -> None:
     assert metric["is_bad_format_scored"] is True
 
 
+@pytest.mark.parametrize("benchmark", REPO_BENCHMARKS)
+def test_repo_config_sets_the_subsets(benchmark) -> None:
+    config = ROOT / "leaderboard_config.json"
+    assert load_benchmark_subsets(config, benchmark) == ["subject", "level"]
+
+
+def test_unknown_benchmark_has_no_subsets() -> None:
+    with pytest.raises(ValueError, match="no benchmark"):
+        load_benchmark_subsets(ROOT / "leaderboard_config.json", "X")
+
+
 def test_load_models_blends_prices_3_to_1(models_csv) -> None:
     models = load_models(models_csv)
     assert models["a"][BLENDED_PRICE] == pytest.approx(1.75)  # (3*1 + 4) / 4
     assert models["a"]["size"] is None and models["b"]["open"] is True
 
 
-def frontier_models(frontier: dict) -> dict[str, list[str]]:
-    return {f["axis"]: [p["model_slug"] for p in f["points"]] for f in frontier["frontiers"]}
+def frontier_models(frontier: dict, subset: dict | None = None) -> dict[str, list[str]]:
+    subset = subset or {}
+    return {
+        f["axis"]: [p["model_slug"] for p in f["points"]]
+        for f in frontier["frontiers"]
+        if f["benchmark_subset"] == subset
+    }
 
 
 def test_price_and_size_frontiers(models_csv) -> None:
@@ -117,12 +134,28 @@ def test_price_and_size_frontiers(models_csv) -> None:
     assert [x["x"] for x in f["frontiers"]] == [BLENDED_PRICE, "size"]
 
 
-def test_frontier_uses_overall_rows_of_a_metrics_csv(tmp_path, models_csv) -> None:
+def test_one_frontier_per_subset_of_a_metrics_csv(tmp_path, models_csv) -> None:
     path = tmp_path / "m.csv"
     maths = canonical_subset({"subject": "Maths"})
-    metrics(metric_value_by_subset={maths: {"b": 100.0}}).to_csv(path, index=False)
+    primary = canonical_subset({"level": "Primary"})
+    metrics(
+        metric_value_by_subset={
+            maths: {"a": 40.0, "b": 100.0, "c": 50.0},
+            primary: {"a": 90.0, "c": 80.0},
+        }
+    ).to_csv(path, index=False)
     f = build_frontier(pd.read_csv(path), is_higher_better=True, models_csv=models_csv)
-    assert frontier_models(f)["price"] == ["b", "c", "a"]
+    # overall first, then the subsets in CSV order, each with a price and a size frontier
+    # benchmark_subset is an object in the frontiers file, {} for overall
+    m, p = {"subject": "Maths"}, {"level": "Primary"}
+    assert [(x["benchmark_subset"], x["axis"]) for x in f["frontiers"]] == [
+        ({}, "price"), ({}, "size"),
+        (m, "price"), (m, "size"),
+        (p, "price"), (p, "size"),
+    ]
+    assert frontier_models(f)["price"] == ["b", "c", "a"]  # overall rows unchanged
+    assert frontier_models(f, m) == {"price": ["b"], "size": ["b"]}
+    assert frontier_models(f, p) == {"price": ["c", "a"], "size": ["c"]}
 
 
 def test_lower_is_better_flips_the_frontier(models_csv) -> None:

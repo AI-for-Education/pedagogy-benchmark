@@ -10,8 +10,9 @@ A local copy of qa-benchmarks-monorepo's fab_benchmark_publisher/metrics.py (bra
 feat/benchmark-metrics-frontiers), via LLM_benchmark's src/metrics.py (branch
 feat/results-schema-metrics-frontiers), identical to the LLM_benchmark copy so the three
 can be replaced by one shared package later.
-One difference with the package: build_metrics also takes per-subset values (CDPK subjects and
-levels); the package writes overall rows only.
+Differences with the package: build_metrics also takes per-subset values (CDPK subjects
+and levels), whose keys come from the config's benchmark_subsets (load_benchmark_subsets);
+the package writes overall rows only.
 
 benchmark_slug, metric_slug and experiment_slug are the metrics file's composite key:
 every row carries the same three. Each model has at most one row per
@@ -156,3 +157,17 @@ def load_metric_definition(
     raise ValueError(
         f"{config_path} defines no metric '{metric_slug}' for '{benchmark_slug}'"
     )
+
+
+def load_benchmark_subsets(config_path: str | Path, benchmark_slug: str) -> list[str]:
+    """The subset keys a benchmark is broken down by, e.g. ["subject", "level"].
+
+    Read from the benchmark's "benchmark_subsets" in the leaderboard config; [] (the
+    overall rows only) when absent. Not in the package. Raises ValueError if the
+    config has no such benchmark.
+    """
+    config = json.loads(Path(config_path).read_text(encoding="utf-8"))
+    for benchmark in config["benchmarks"]:
+        if benchmark["benchmark_domain"] == benchmark_slug:
+            return list(benchmark.get("benchmark_subsets", []))
+    raise ValueError(f"{config_path} has no benchmark '{benchmark_slug}'")

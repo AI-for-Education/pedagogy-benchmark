@@ -8,7 +8,8 @@ scripts/upload_result_files.py, to gs://fab-benchmarks-hub/metrics/):
     <out-root>/CDPK-sw/
         CDPK-sw_accuracy.csv             metrics (overall, per subject, per level)
         CDPK-sw_accuracy_metadata.json   metric metadata
-        CDPK-sw_accuracy_frontiers.json   price and size frontiers (overall rows)
+        CDPK-sw_accuracy_frontiers.json  price and size frontiers (overall, per
+                                         subject, per level)
     <out-root>/CDPK-ar/
         ... the same for every language in BENCHMARKS
 
@@ -35,9 +36,12 @@ submodule's models.csv is not used: it still has the old price column names.
 
 Steps, per language:
   1. metrics   the cached responses, data/cache/CDPK_<Language>_ep_<category>/
-               resps_<model>.csv, scored with the regex parser (clean_resps)
+               resps_<model>.csv, scored with the regex parser (clean_resps);
+               overall, then per value of each benchmark_subsets key of the
+               benchmark in leaderboard_config.json (subject, level)
                -> <benchmark>_accuracy.csv
-  2. metadata  the metric's definition in leaderboard_config.json (repo root)
+  2. metadata  the metric's definition in leaderboard_config.json (repo root), plus
+               the benchmark's benchmark_subsets
                -> <benchmark>_accuracy_metadata.json
   3. frontier  <benchmark>_accuracy.csv (read back from disk) + the models CSV
                (models.csv at the repo root)
@@ -86,6 +90,7 @@ from cdpk.benchmark_run import load_from_config
 from cdpk.metrics import (
     build_metrics,
     canonical_subset,
+    load_benchmark_subsets,
     load_metric_definition,
     result_file_name,
 )
@@ -141,8 +146,7 @@ class BenchmarkConfig:
     question_configs: tuple[str, ...]
     models_config: str
     expected_items: int
-    # Also write per-subject and per-level rows.
-    subsets: bool = False
+    # The subsets (subject, level) to publish are set in leaderboard_config.json.
 
 
 BENCHMARKS = {
@@ -152,7 +156,6 @@ BENCHMARKS = {
         question_configs=tuple(f"CDPK_{language}_{cat}" for cat in CATEGORIES),
         models_config=MODELS_CONFIG,
         expected_items=899,
-        subsets=True,
     )
     for slug, language in LANGUAGES.items()
 }
@@ -360,21 +363,38 @@ def accuracy_by_model(scores: pd.DataFrame, *, is_bad_format_scored: bool) -> di
     return accuracy_of_model
 
 
+def subject_masks(scores: pd.DataFrame) -> dict[str, pd.Series]:
+    return {s: scores["subject"] == s for s in sorted(scores["subject"].unique())}
+
+
+def level_masks(scores: pd.DataFrame) -> dict[str, pd.Series]:
+    return {level: scores[flag] for level, flag in LEVELS.items()}
+
+
+# Subset keys this script can compute (the values allowed in the config's
+# benchmark_subsets): key -> {value: mask over the scores rows}.
+SUBSET_MASKS = {"subject": subject_masks, "level": level_masks}
+
+
 def accuracy_by_subset(
-    scores: pd.DataFrame, *, is_bad_format_scored: bool
+    scores: pd.DataFrame, subset_keys: Sequence[str], *, is_bad_format_scored: bool
 ) -> dict[str, dict[str, float]]:
-    """{benchmark_subset: {model: accuracy}} for each subject, then each level."""
-    by_subset = {}
-    for subject in sorted(scores["subject"].unique()):
-        by_subset[canonical_subset({"subject": subject})] = accuracy_by_model(
-            scores[scores["subject"] == subject], is_bad_format_scored=is_bad_format_scored
+    """{benchmark_subset: {model: accuracy}} for each value of each key, in key order.
+
+    Raises ValueError on a key not in SUBSET_MASKS. Values with no item are skipped.
+    """
+    unknown = [k for k in subset_keys if k not in SUBSET_MASKS]
+    if unknown:
+        raise ValueError(
+            f"benchmark_subsets: unknown key(s) {unknown}; known: {sorted(SUBSET_MASKS)}"
         )
-    for level, flag in LEVELS.items():
-        level_scores = scores[scores[flag]]
-        if len(level_scores):
-            by_subset[canonical_subset({"level": level})] = accuracy_by_model(
-                level_scores, is_bad_format_scored=is_bad_format_scored
-            )
+    by_subset = {}
+    for key in subset_keys:
+        for value, mask in SUBSET_MASKS[key](scores).items():
+            if mask.any():
+                by_subset[canonical_subset({key: value})] = accuracy_by_model(
+                    scores[mask], is_bad_format_scored=is_bad_format_scored
+                )
     return by_subset
 
 
@@ -401,6 +421,7 @@ def write_result_files(
     print(f"\n== {slug} ({cfg.experiment_slug}) ==")
     metric_definition = load_metric_definition(config_path, slug, METRIC_SLUG)
     is_bad_format_scored = metric_definition["is_bad_format_scored"]
+    subset_keys = load_benchmark_subsets(config_path, slug)
 
     items, models = load_benchmark_items(cfg)
     scores, listed_not_cached, cached_not_listed = score_items(cfg, items, models)
@@ -409,10 +430,8 @@ def write_result_files(
         benchmark_slug=slug,
         metric_slug=METRIC_SLUG,
         experiment_slug=cfg.experiment_slug,
-        metric_value_by_subset=(
-            accuracy_by_subset(scores, is_bad_format_scored=is_bad_format_scored)
-            if cfg.subsets
-            else None
+        metric_value_by_subset=accuracy_by_subset(
+            scores, subset_keys, is_bad_format_scored=is_bad_format_scored
         ),
     )
 
@@ -423,7 +442,7 @@ def write_result_files(
         for suffix in (".csv", "_metadata.json", "_frontiers.json")
     )
     metrics.to_csv(metrics_path, index=False)
-    metadata = {"benchmark_slug": slug, **metric_definition}
+    metadata = {"benchmark_slug": slug, "benchmark_subsets": subset_keys, **metric_definition}
     metadata_path.write_text(json.dumps(metadata, indent=2) + "\n", encoding="utf-8")
     # the frontier is built from the metrics file just written, not from memory
     frontier = build_frontier(
@@ -443,7 +462,13 @@ def write_result_files(
             + ", ".join(cached_not_listed)
         )
     for axis_frontier in frontier["frontiers"]:
-        print(f"  {axis_frontier['axis']} frontier: {len(axis_frontier['points'])} models")
+        subset = ", ".join(
+            f"{k}={v}" for k, v in axis_frontier["benchmark_subset"].items()
+        ) or "overall"
+        print(
+            f"  {subset} {axis_frontier['axis']} frontier: "
+            f"{len(axis_frontier['points'])} models"
+        )
     if frontier["models_without_metadata"]:
         print(
             f"  not in {Path(models_csv).name} (no frontier): "

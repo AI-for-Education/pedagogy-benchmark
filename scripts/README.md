@@ -491,10 +491,14 @@ uv run python scripts/upload_result_files.py
 - **Metrics CSV:** one overall row per model (`benchmark_subset` empty), then one row per subject
   (`{"subject":"Science"}`, ..., `{"subject":"General"}`) and per level
   (`{"level":"Pre-primary"}`, `{"level":"Primary"}`, `{"level":"Secondary"}`). These are the same
-  rules as CDPK-en. Levels overlap: a question tagged `All` counts in all three. Accuracy is in %,
+  rules as CDPK-en. The breakdowns come from `"benchmark_subsets": ["subject", "level"]` in
+  `leaderboard_config.json` (also copied into the metadata JSON); `[]` would publish the overall
+  rows only. Levels overlap: a question tagged `All` counts in all three. Accuracy is in %,
   and an unparseable answer counts as wrong, as in step 6. Only the key and value columns are
   filled; stderr, CI, n and tokens are empty placeholders for now.
-- **Frontiers:** price (3:1 blended price) and size (open-weight models only). The script first
+- **Frontiers:** price (3:1 blended price) and size (open-weight models only), for overall and
+  for each subject and level. Each frontier has its `benchmark_subset` as an object (`{}` for
+  overall, `{"subject": "Maths"}`, ...). The script first
   downloads `models.csv` and `providers.csv` from the public bucket `gs://fab-open-configs` to the
   repo root (gitignored). The submodule's `models.csv` is not used, because it still has the old
   price column names.
